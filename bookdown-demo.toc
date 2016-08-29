@@ -15,11 +15,11 @@
 \contentsline {subsection}{\numberline {2.4.2}Computing}{18}{subsection.2.4.2}
 \contentsline {chapter}{\numberline {3}Analysis of population means}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction and examples}{19}{section.3.1}
-\contentsline {paragraph}{\numberline {3.1.0.0.1}Example 7.1: Survey data on diet}{19}{paragraph.3.1.0.0.1}
-\contentsline {paragraph}{\numberline {3.1.0.0.2}Example 7.2: Housework by men and women}{20}{paragraph.3.1.0.0.2}
-\contentsline {paragraph}{\numberline {3.1.0.0.3}Example 7.3: Eye contact and perceived friendliness of police officers}{21}{paragraph.3.1.0.0.3}
-\contentsline {paragraph}{\numberline {3.1.0.0.4}Example 7.4: Transition to parenthood}{21}{paragraph.3.1.0.0.4}
-\contentsline {paragraph}{\numberline {3.1.0.0.5}Example 7.5: Traffic patterns on Friday the 13th}{21}{paragraph.3.1.0.0.5}
+\contentsline {paragraph}{Example 7.1: Survey data on diet}{19}{section*.2}
+\contentsline {paragraph}{Example 7.2: Housework by men and women}{20}{section*.3}
+\contentsline {paragraph}{Example 7.3: Eye contact and perceived friendliness of police officers}{21}{section*.4}
+\contentsline {paragraph}{Example 7.4: Transition to parenthood}{21}{section*.5}
+\contentsline {paragraph}{Example 7.5: Traffic patterns on Friday the 13th}{21}{section*.6}
 \contentsline {section}{\numberline {3.2}Descriptive statistics for comparisons of groups}{23}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Graphical methods of comparing sample distributions}{23}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Comparing summary statistics}{25}{subsection.3.2.2}

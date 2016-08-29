@@ -721,7 +721,7 @@ fairly imprecisely from this survey.
 
 ### Variants of the test and confidence interval {#ss-means-inference-variants}
 
-#### Allowing unequal population variances
+#### Allowing unequal population variances {}
 
 The two-sample $t$-test and confidence interval for the difference of
 means were stated above under the assumption that the standard
@@ -808,7 +808,7 @@ more closely related to analogous tests used in more general contexts
 Chapter \@ref(c-regression)). It is also preferable when the sample sizes
 are very small, as discussed below.
 
-#### Using the $t$ distribution
+#### Using the $t$ distribution {}
 
 As discussed in Section \@ref(s-contd-probdistrs), it is often assumed
 that the population distributions of the variables under consideration
