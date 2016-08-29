@@ -8,9 +8,18 @@ bookdown::gitbook:
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit:
       link: https://github.com/rstudio/bookdown-demo/edit/master/%s
+  pandoc_args:
+    - "--default-image-extension=png"
+    - "--variable secnumdepth=3"
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
-bookdown::epub_book: default
+  pandoc_args:
+    - "--default-image-extension=pdf"
+    - "--variable secnumdepth=3"
+bookdown::epub_book: #default
+  pandoc_args:
+    - "--default-image-extension=png"
+    - "--variable secnumdepth=3"

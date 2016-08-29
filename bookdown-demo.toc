@@ -4,30 +4,35 @@
 \contentsline {section}{\numberline {2.2}Some basic definitions}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Subjects and variables}{9}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Types of variables}{11}{subsection.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.1}Measurement levels}{12}{subsubsection.2.2.2.1}
-\contentsline {subsubsection}{\numberline {2.2.2.2}Continuous and discrete variables}{14}{subsubsection.2.2.2.2}
-\contentsline {subsubsection}{\numberline {2.2.2.3}Relationships between the two distinctions}{15}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Measurement levels}{11}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Continuous and discrete variables}{13}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Relationships between the two distinctions}{14}{subsubsection.2.2.2.3}
 \contentsline {subsection}{\numberline {2.2.3}Description and inference}{15}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}Association and causation}{16}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Outline of the course}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Association and causation}{15}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Outline of the course}{16}{section.2.3}
 \contentsline {section}{\numberline {2.4}The use of mathematics and computing}{17}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Symbolic mathematics and mathematical notation}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Symbolic mathematics and mathematical notation}{17}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Computing}{18}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {3}Analysis of population means}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction and examples}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Descriptive statistics for comparisons of groups}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Graphical methods of comparing sample distributions}{25}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Comparing summary statistics}{28}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Inference for two means from independent samples}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Aims of the analysis}{28}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Significance testing: The two-sample \(t\)-test}{29}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Confidence intervals for a difference of two means}{35}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Variants of the test and confidence interval}{35}{subsection.3.3.4}
-\contentsline {subsubsection}{\numberline {3.3.4.1}Allowing unequal population variances}{35}{subsubsection.3.3.4.1}
-\contentsline {subsubsection}{\numberline {3.3.4.2}Using the \(t\) distribution}{36}{subsubsection.3.3.4.2}
-\contentsline {section}{\numberline {3.4}Tests and confidence intervals for a single mean}{40}{section.3.4}
-\contentsline {section}{\numberline {3.5}Inference for dependent samples}{45}{section.3.5}
-\contentsline {section}{\numberline {3.6}Further comments on significance tests}{48}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Different types of error}{48}{subsection.3.6.1}
-\contentsline {subsection}{\numberline {3.6.2}Power of significance tests}{49}{subsection.3.6.2}
-\contentsline {subsection}{\numberline {3.6.3}Significance vs.\nobreakspace {}importance}{50}{subsection.3.6.3}
+\contentsline {chapter}{\numberline {3}Analysis of population means}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction and examples}{19}{section.3.1}
+\contentsline {paragraph}{\numberline {3.1.0.0.1}Example 7.1: Survey data on diet}{19}{paragraph.3.1.0.0.1}
+\contentsline {paragraph}{\numberline {3.1.0.0.2}Example 7.2: Housework by men and women}{20}{paragraph.3.1.0.0.2}
+\contentsline {paragraph}{\numberline {3.1.0.0.3}Example 7.3: Eye contact and perceived friendliness of police officers}{21}{paragraph.3.1.0.0.3}
+\contentsline {paragraph}{\numberline {3.1.0.0.4}Example 7.4: Transition to parenthood}{21}{paragraph.3.1.0.0.4}
+\contentsline {paragraph}{\numberline {3.1.0.0.5}Example 7.5: Traffic patterns on Friday the 13th}{21}{paragraph.3.1.0.0.5}
+\contentsline {section}{\numberline {3.2}Descriptive statistics for comparisons of groups}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Graphical methods of comparing sample distributions}{23}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Comparing summary statistics}{25}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Inference for two means from independent samples}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Aims of the analysis}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Significance testing: The two-sample \(t\)-test}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Confidence intervals for a difference of two means}{32}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Variants of the test and confidence interval}{32}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1}Allowing unequal population variances}{32}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2}Using the \(t\) distribution}{33}{subsubsection.3.3.4.2}
+\contentsline {section}{\numberline {3.4}Tests and confidence intervals for a single mean}{37}{section.3.4}
+\contentsline {section}{\numberline {3.5}Inference for dependent samples}{42}{section.3.5}
+\contentsline {section}{\numberline {3.6}Further comments on significance tests}{45}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Different types of error}{45}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Power of significance tests}{47}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}Significance vs.\nobreakspace {}importance}{47}{subsection.3.6.3}

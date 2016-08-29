@@ -2,12 +2,12 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: bookdown-demo.aux
 The style file: apalike.bst
-I found no \citation commands---while reading file bookdown-demo.aux
 Database file #1: packages.bib.bib
 Database file #2: book.bib.bib
+Warning--I didn't find a database entry for "ref"
 You've used 0 entries,
             1935 wiz_defined-function locations,
-            472 strings with 3698 characters,
+            473 strings with 3701 characters,
 and the built_in function-call counts, 17 in all, are:
 = -- 0
 > -- 0
@@ -46,4 +46,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 2
-(There was 1 error message)
+(There was 1 warning)
