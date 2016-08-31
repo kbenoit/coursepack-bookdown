@@ -1,0 +1,916 @@
+---
+title: "MY451 Introduction to Quantitative Analysis"
+author: "Jouni Kuha"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Introduction {#c-intro}
+
+## What is the purpose of this course? {#s-intro-purpose}
+
+The title of any course should be descriptive of its contents. This one
+is called
+
+**MY451: Introduction to Quantitative Analysis**
+
+Every part of this tells us something about the nature of the course:
+
+The **M** stands for *Methodology* of social research. Here *research*
+refers to activities aimed at obtaining new knowledge about the world,
+in the case of the social sciences the *social* world of people and
+their institutions and interactions. Here we are concerned solely with
+*empirical* research, where such knowledge is based on information
+obtained by *observing* what goes on in that world. There are many
+different ways (*methods*) of making such observations, some better than
+others for deriving valid knowledge. “Methodology” refers both to the
+methods used in particular studies, and the study of research methods in
+general.
+
+The word **analysis** indicates the area of research methodology that
+the course is about. In general, any empirical research project will
+involve at least the following stages:
+
+1.  Identifying a research *topic*
+
+2.  Formulating *research questions*
+
+3.  Deciding what kinds of *information* to collect to try to answer the
+    research questions, and deciding how to collect it and where to
+    collect it from
+
+4.  Collecting the information
+
+5.  *Analysing* the information in appropriate ways to answer the
+    research questions
+
+6.  *Reporting* the findings
+
+The empirical information collected in the research process is often
+referred to as *data*. This course is mostly about some basic methods
+for step 5, the *analysis* of such data.
+
+Methods of analysis, however competently used, will not be very useful
+unless other parts of the research process have also been carried out
+well. These other parts, which (especially steps 2–4 above) can be
+broadly termed *research design*, are covered on other courses, such as
+MY400 (Fundamentals of Social Science Research Design) or comparable
+courses at your own department. Here we will mostly not consider
+research design, in effect assuming that we start at a point where we
+want to analyse some data which have been collected in a sensible way to
+answer meaningful research questions. However, you should bear in mind
+throughout the course that in a real research situation both good design
+and good analysis are essential for success.
+
+The word **quantitative** in the title of the course indicates that the
+methods you will learn here are used to analyse quantitative data. This
+means that the data will enter the analysis in the form of *numbers* of
+some kind. In social sciences, for example, data obtained from
+administrative records or from surveys using structured interviews are
+typically quantitative. An alternative is *qualitative* data, which are
+not rendered into numbers for the analysis. For example, unstructured
+interviews, focus groups and ethnography typically produce mostly
+qualitative data. Both quantitative and qualitative data are important
+and widely used in social research. For some research questions, one or
+the other may be clearly more appropriate, but in many if not most cases
+the research would benefit from collecting both qualitative and
+quantitative data. This course will concentrate solely on quantitative
+data analysis, while the collection and analysis of qualitative data are
+covered on other courses (e.g. MY421, MY426 and MY427), which we hope
+you will also be taking.
+
+All the methods taught here, and almost all approaches used for
+quantitative data analysis in the social sciences in general, are
+*statistical* methods. The defining feature of such methods is that
+randomness and probability play an essential role in them; some of the
+ways in which they do so will become apparent later, others need not
+concern us here. The title of the course could thus also have included
+the word *statistics*. However, the Department of Methodology courses on
+statistical methods (e.g. MY451, MY465, MY452, MY455 and MY459) have
+traditionally been labelled as courses on “quantitative analysis” rather
+than “statistics”. This is done to indicate that they differ from
+classical introductory statistics courses in some ways, especially in
+the presentation being less mathematical.
+
+The course is called an “**Introduction** to Quantitative Analysis”
+because it is an introductory course which does not assume that you have
+learned any statistics before. MY451 or a comparable course should be
+taken before more advanced courses on quantitative methods. Statistics
+is a cumulative subject where later courses build on material learned on
+earlier ones. Because MY451 is introductory, it will start with very
+simple methods, and many of the more advanced (and powerful) ones will
+only be covered on the later courses. This does not, however, mean that
+you are wasting your time here even if it is methods from, say, MY452
+that you will eventually need most: understanding the material of this
+course is essential for learning more advanced methods.
+
+Finally, the course has an **MY** code, rather than GV, MC, PS, SO, SP,
+or whatever is the code of your own department. MY451 is taken by
+students from many different degrees and departments, and thus cannot be
+tailored to any one of them specifically. For example, we will use
+examples from many different social sciences. However, this generality
+is definitely a good thing: the reason we *can* teach all of you
+together is that statistical methods (just like the principles of
+research design or qualitative research) are generic and applicable to
+the analysis of quantitative data in all fields of social research.
+There is not, apart from differences in emphases and priorities, one
+kind of statistics for sociology and another for political science or
+economics, but one coherent set of principles and methods for all of
+them (as well as for psychiatry, epidemiology, biology, astrophysics and
+so on). After this course you will have taken the first steps in
+learning about all of that.
+
+At the end of the course you should be familiar with certain methods of
+statistical analysis. This will enable you to be both a user and a
+consumer of statistics:
+
+-   You will be able to use the methods to analyse your own data and to
+    report the results of the analyses.
+
+-   Perhaps even more importantly, you will also be able to understand
+    (and possibly criticize) their use in other people’s research.
+    Because interpreting results is typically somewhat easier than
+    carrying out new analyses, and because all statistical methods use
+    the same basic ideas introduced here, you will even have some
+    understanding of many of the techniques not discussed on
+    this course.
+
+Another pair of different but complementary aims of the course is that
+MY451 is both a self-contained unit and a prerequisite for courses that
+follow it:
+
+-   If this is the last statistics course you will take, it will enable
+    you to understand and use the particular methods covered here. This
+    includes the technique of linear regression modelling (described in
+    Chapter \@ref(c-regression)), which is arguably the most important
+    and commonly used statistical method of all. This course can,
+    however, introduce only the most important elements of linear
+    regression, while some of the more advanced ones are discussed only
+    on MY452.
+
+-   The ideas learned on this course will provide the conceptual
+    foundation for any further courses in quantitative methods that you
+    may take. The basic ideas will then not need to be learned from
+    scratch again, and the other courses can instead concentrate on
+    introducing further, ever more powerful statistical methods for
+    different types of data.
+
+## Some basic definitions {#s-intro-definitions}
+
+Like any discipline, statistics involves some special terminology which
+makes it easier to discuss its concepts with sufficient precision. Some
+of these terms are defined in this section, while others will be
+introduced later when they are needed.
+
+You should bear in mind that all terminology is arbitrary, so there may
+be different terms for the same concept. The same is true of notation
+and symbols (such as $n$, $\mu$, $\bar{Y}$, $R^{2}$, and others) which
+will be introduced later. Some statistical terms and symbols are so well
+established that they are almost always used in the same way, but for
+many others there are several versions in common use. While we try to be
+consistent with the notation and terminology within this coursepack, we
+cannot absolutely guarantee that we will not occasionally use different
+terms for the same concept even here. In other textbooks and in research
+articles you will certainly occasionally encounter alternative
+terminology for some of these concepts. If you find yourself confused by
+such differences, please come to the advisory hours or ask your class
+teacher for clarification.
+
+### Subjects and variables {#ss-intro-def-subj}
+
+Table \@ref(tab:tdatamatrix) shows a small set of quantitative data. Once
+collected, the data are typically arranged and stored in this kind of
+spreadsheet-type rectangular table, known as a **data matrix**. In the
+computer classes you will see data in this form in SPSS.
+
+---------------------------------------------------------------------------
+    Id   *age*   *sex*   *educ*   *wrkstat*   *life*   *income4*   *pres92*
+------ ------- ------- -------- ----------- -------- ----------- ----------
+     1      43       1       11           1        2           3          2
+
+     2      44       1       16           1        3           3          1
+
+     3      43       2       16           1        3           3          2
+
+     4      78       2       17           5        3           4          1
+
+     5      83       1       11           5        2           1          1
+
+     6      55       2       12           1        2          99          1
+
+     7      75       1       12           5        2           1          0
+
+     8      31       1       18           1        3           4          2
+
+     9      54       2       18           2        3           1          1
+
+    10      23       2       15           1        2           3          3
+
+    11      63       2        4           5        1           1          1
+
+    12      33       2       10           4        3           1          0
+
+    13      39       2        8           7        3           1          0
+
+    14      55       2       16           1        2           4          1
+
+    15      36       2       14           3        2           4          1
+
+    16      44       2       18           2        3           4          1
+
+    17      45       2       16           1        2           4          1
+
+    18      36       2       18           1        2          99          1
+
+    19      29       1       16           1        3           3          1
+
+    20      30       2       14           1        2           2          1
+---------------------------------------------------------------------------
+
+:(\#tab:t-datamatrix) An example of a small data matrix based on data from the U.S. General Social Survey (GSS), showing measurements of seven
+variables for 20 respondents in a social survey. The variables are
+defined as *age*: age in years; *sex*: sex (1=male; 2=female); *educ*:
+highest year of school completed; *wrkstat*: labour force status
+(1=working full time; 2=working part time; 3=temporarily not working;
+4=unemployed; 5=retired; 6=in education; 7=keeping house; 8=other);
+*life*: is life exciting or dull? (1=dull; 2=routine; 3=exciting);
+*income4*: total annual family income (1=\$24,999 or less;
+2=\$25,000–\$39,999; 3=\$40,000–\$59,999; 4=\$60,000 or more; 99
+indicates a missing value); *pres92*: vote in the 1992 presidential
+election (0=did not vote or not eligible to vote; 1=Bill Clinton;
+2=George H. W. Bush; 3=Ross Perot; 4=Other).
+
+The rows (moving downwards) and columns (moving left to right) of a data
+matrix correspond to the first two important terms: the rows to the
+*subjects* and the columns to the *variables* in the data.
+
+-   A **subject** is the smallest unit yielding information in
+    the study. In the example of Table \@ref(tab:t-datamatrix), the subjects
+    are individual people, as they are in very many social
+    science examples. In other cases they may instead be families,
+    companies, neighbourhoods, countries, or whatever else is relevant
+    in a particular study. There is also much variation in the term
+    itself, so that instead of “subjects”, a study might refer to
+    “units”, “elements”, “respondents” or “participants”, or simply to
+    “persons”, “individuals”, “families” or “countries”, for example.
+    Whatever the term, it is usually clear from the context what the
+    subjects are in a particular analysis.
+
+    The subjects in the data of Table \@ref(tab:tab:t-datamatrix) are uniquely
+    identified only by a number (labelled “Id”) assigned by the
+    researcher, as in a survey like this their names would not typically
+    be recorded. In situations where the identities of individual
+    subjects are available and of interest (such as when they are
+    countries), their names would typically be included in the
+    data matrix.
+
+-   A **variable** is a characteristic which varies between subjects.
+    For example, Table \@ref(tab:t-datamatrix) contains data on seven
+    variables — age, sex, education, labour force status, attitude to
+    life, family income and vote in a past election — defined and
+    recorded in the particular ways explained in the caption of
+    the table. It can be seen that these are indeed “variable” in that
+    not everyone has the same value of any of them. It is this variation
+    that makes collecting data on many subjects necessary
+    and worthwhile. In contrast, research questions about
+    characteristics which are the same for every subject
+    (i.e. *constants* rather than variables) are rare, usually not
+    particularly interesting, and not very difficult to answer.
+
+    The labels of the columns in Table \@ref(tab:t-datamatrix) (*age*,
+    *wrkstat*, *income4* etc.) are the names by which the variables are
+    uniquely identified in the data file on a computer. Such concise
+    titles are useful for this purpose, but should be avoided when
+    reporting the results of data analyses, where clear English terms
+    can be used instead. In other words, a report should not say
+    something like “The analysis suggests that WRKSTAT of the
+    respondents is...” but instead something like “The analysis suggests
+    that the labour force status of the respondents is...”, with the
+    definition of this variable and its categories also clearly stated.
+
+Collecting quantitative data involves determining the values of a set of
+variables for a group of subjects and assigning numbers to these values.
+This is also known as **measuring** the values of the variables. Here
+the word “measure” is used in a broader sense than in everyday language,
+so that, for example, we are measuring a person’s sex in this sense when
+we assign a variable called “Sex” the value 1 if the person is male and
+2 if she is female. The value assigned to a variable for a subject is
+called a **measurement** or an **observation**. Our data thus consist of
+the measurements of a set of variables for a set of subjects. In the
+data matrix, each row contains the measurements of all the variables in
+the data for one subject, and each column contains the measurements of
+one variable for all of the subjects.
+
+The number of subjects in a set of data is known as the **sample size**,
+and is typically denoted by $n$. In a survey, for example, this would be
+the number of people who responded to the questions in the survey
+interview. In Table \@ref(tab:t-datamatrix) we have $n=20$. This would
+normally be a very small sample size for a survey, and indeed the real
+sample size in this one is several thousands. The twenty subjects here
+were drawn from among them to obtain a small example which fits on a
+page.
+
+A common problem in many studies is **nonresponse** or **missing data**,
+which occurs when some measurements are not obtained. For example, some
+survey respondents may refuse to answer certain questions, so that the
+values of the variables corresponding to those questions will be missing
+for them. In Table \@ref(tab:t-datamatrix), the income variable is missing
+for subjects 6 and 18, and recorded only as a *missing value code*, here
+“99”. Missing values create a problem which has to be addressed somehow
+before or during the statistical analysis. The easiest approach is to
+simply ignore all the subjects with missing values and use only those
+with complete data on all the variables needed for a given analysis. For
+example, any analysis of the data in Table \@ref(tab:t-datamatrix) which
+involved the variable *income4* would then exclude all the data for
+subjects 6 and 18. This method of “complete-case analysis” is usually
+applied automatically by most statistical software packages, including
+SPSS. It is, however, not a very good approach. For example, it means
+that a lot of information will be thrown away if there are many subjects
+with some observations missing. Statisticians have developed better ways
+of dealing with missing data, but they are unfortunately beyond the
+scope of this course.
+
+### Types of variables {#ss-intro-def-vartypes}
+
+Information on a variable consists of the observations (measurements) of
+it for the subjects in our data, recorded in the form of numbers.
+However, not all numbers are the same. First, a particular way of
+measuring a variable may or may not provide a good measure of the
+concept of interest. For example, a measurement of a person’s weight
+from a well-calibrated scale would typically be a good measure of the
+person’s true weight, but an answer to the survey question “How many
+units of alcohol did you drink in the last seven days?” might be a much
+less accurate measurement of the person’s true alcohol consumption
+(i.e. it might have *measurement error* for a variety of reasons). So
+just because you have put a number on a concept does not automatically
+mean that you have captured that concept in a useful way. Devising good
+ways of measuring variables is a major part of research design. For
+example, social scientists are often interested in studying attitudes,
+beliefs or personality traits, which are very difficult to measure
+directly. A common approach is to develop *attitude scales*, which
+combine answers to multiple questions (“items”) on the attitude into one
+number.
+
+Here we will again leave questions of measurement to courses on research
+design, effectively assuming that the variables we are analysing have
+been measured well enough for the analysis to be meaningful. Even then
+we will have to consider some distinctions between different kinds of
+variables. This is because the type of a variable largely determines
+which methods of statistical analysis are appropriate for that variable.
+It will be necessary to consider two related distinctions:
+
+-   Between different measurement levels
+
+-   Between continuous and discrete variables
+
+#### Measurement levels {-}
+
+When a numerical value of a particular variable is allocated to a
+subject, it becomes possible to relate that value to the values assigned
+to other subjects. The **measurement level** of the variable indicates
+how much information the number provides for such comparisons. To
+introduce this concept, consider the variables obtained as answers to
+the following three questions in the former U.K. General Household
+Survey:
+
+\[1\] *Are you*
+
+------------------------------------------------- --------------
+*single, that is, never married?*                 (coded as 1)
+*married and living with your husband/wife?*      (2)
+*married and separated from your husband/wife?*   (3)
+*divorced?*                                       (4)
+*or widowed?*                                     (5)
+------------------------------------------------- --------------
+
+\[2\] *Over the last twelve months, would you say your health has on the
+whole been good, fairly good, or not good?*\
+(“Good” is coded as 1, “Fairly Good” as 2, and “Not Good” as 3.)
+
+\[3\] *About how many cigaretters A DAY do you usually smoke on
+weekdays?*\
+(Recorded as the number of cigarettes)
+
+These variables illustrate three of the four possibilities in the most
+common classification of measurement levels:
+
+-   A variable is measured on a **nominal scale** if the numbers are
+    simply labels for different possible values (*levels* or
+    *categories*) of the variable. The only possible comparison is then
+    to identify whether two subjects have the *same* or *different*
+    values of the variable. The marital status variable \[1\] is
+    measured on a nominal scale. The values of such *nominal-level
+    variables* are not in any order, so we cannot talk about one subject
+    having “more” or “less” of the variable than another subject; even
+    though “divorced” is coded with a larger number (4) than “single”
+    (1), divorced is not more or bigger than single in any relevant
+    sense. We also cannot carry out arithmetical calculations on the
+    values, as if they were numbers in the ordinary sense. For example,
+    if one person is single and another widowed, it is obviously
+    nonsensical to say that they are on average separated (even though
+    $(1+5)/2=3$).
+
+    The only requirement for the codes assigned to the levels of a
+    nominal-level variable is that different levels must receive
+    different codes. Apart from that, the codes are arbitrary, so that
+    we can use any set of numbers for them in any order. Indeed, the
+    codes do not even need to be numbers, so they may instead be
+    displayed in the data matrix as short words (“labels” for
+    the categories). Using successive small whole numbers
+    ($1,2,3,\dots$) is just a simple and concise choice for the codes.
+
+    Further examples of nominal-level variables are the variables *sex*,
+    *wrkstat*, and *pres92* in Table \@ref(tab:t-datamatrix).
+
+-   A variable is measured on an **ordinal scale** if its values do have
+    a natural ordering. It is then possible to determine not only
+    whether two subjects have the same value, but also whether one or
+    the other has a *higher* value. For example, the self-reported
+    health variable \[2\] is an ordinal-level variable, as larger values
+    indicate worse states of health. The numbers assigned to the
+    categories now have to be in the correct order, because otherwise
+    information about the true ordering of the categories would
+    be distorted. Apart from the order, the choice of the actual numbers
+    is still arbitrary, and calculations on them are still not strictly
+    speaking meaningful.
+
+    Further examples of ordinal-level variables are *life* and *income4*
+    in Table \@ref(tab:t-datamatrix).
+
+-   A variable is measured on an **interval scale** if *differences* in
+    its values are comparable. One example is temperature measured on
+    the Celsius (Centigrade) scale. It is now meaningful to state not
+    only that 20$^{\circ}$C is a *different* and *higher* temperature
+    than 5$^{\circ}$C, but also that the *difference* between them is
+    15$^{\circ}$C, and that that difference is of the same size as the
+    difference between, say, 40$^{\circ}$C and 25$^{\circ}$C.
+    Interval-level measurements are “proper” numbers in that
+    calculations such as the average noon temperature in London over a
+    year are meaningful. What we *cannot* do is to compare *ratios* of
+    interval-level variables. Thus 20$^{\circ}$C is not four times as
+    warm as 5$^{\circ}$C, nor is their real ratio the same as that of
+    40$^{\circ}$C and 10$^{\circ}$C. This is because the zero value of
+    the Celcius scale (0$^{\circ}$C) is not the lowest possible
+    temperature but an arbitrary point chosen for convenience
+    of definition.
+
+-   A variable is measured on a **ratio scale** if it has all the
+    properties of an interval-level variable and also a true zero point.
+    For example, the smoking variable \[3\] is measured on a ratio
+    level, with zero cigarettes as its point of origin. It is now
+    possible to carry out all the comparisons possible for
+    interval-level variables, and also to compare ratios. For example,
+    it is meaningful to say that someone who smokes 20 cigarettes a day
+    smokes *twice* as many cigarettes as one who smokes 10 cigarettes,
+    and that that ratio is equal to the ratio of 30 and 15 cigarettes.
+
+    Further examples of ratio-level variables are *age* and *educ* in
+    Table \@ref(tab:t-datamatrix).
+
+The distinction between interval-level and ratio-level variables is in
+practice mostly unimportant, as the same statistical methods can be
+applied to both. We will thus consider them together throughout this
+course, and will, for simplicity, refer to variables on either scale as
+interval level variables. Doing so is logically coherent, because ratio
+level variables have all the properties of interval level variables, as
+well the additional property of a true zero point.
+
+Similarly, nominal and ordinal variables can often be analysed with the
+same methods. When this is the case, we will refer to them together as
+nominal/ordinal level variables. There are, however, contexts where the
+difference between them matters, and we will then discuss nominal and
+ordinal scales separately.
+
+The simplest kind of nominal variable is one with only *two* possible
+values, for example sex recorded as “male” or “female” or an opinion
+recorded just as “agree” or “disagree”. Such a variable is said to be
+**binary** or **dichotomous**. As with any nominal variable, codes for
+the two levels can be assigned in any way we like (as long as different
+levels get different codes), for example as 1=Female and 2=Male; later
+it will turn out that in some analyses it is most convenient to use the
+values 0 and 1.
+
+The distinction between ordinal-level and interval-level variables is
+sometimes further blurred in practice. Consider, for example, an
+attitude scale of the kind mentioned above, let’s say a scale for
+happiness. Suppose that the possible values of the scale range from 0
+(least happy) to 48 (most happy). In most cases it would be most
+realistic to consider these measurements to be on an ordinal rather than
+an interval scale. However, statistical methods developed specifically
+for ordinal-level variables do not cope very well with variables with
+this many possible values. Thus ordinal variables with many possible
+values (at least more than ten, say) are typically treated as if they
+were measured on an interval scale.
+
+#### Continuous and discrete variables {-}
+
+This distinction is based on the possible values a variable can have:
+
+-   A variable is **discrete** if its basic unit of measurement cannot
+    be subdivided. Thus a discrete variable can only have certain
+    values, and the values between these are logically impossible. For
+    example, the marital status variable \[1\] and the health variable
+    \[2\] defined at the beginning of the section on [Measurement Levels](#sss-intro-def-vars-measlevels) are discrete, because
+    values like marital status of 2.3 or self-reported health of 1.7 are
+    impossible given the way the variables are defined.
+
+-   A variable is **continuous** if it can in principle take infinitely
+    varied fractional values. The idea implies an unbroken scale or
+    continuum of possible values. Age is an example of a continuous
+    variable, as we can in principle measure it to any degree of
+    accuracy we like — years, days, minutes, seconds, micro-seconds.
+    Similarly, distance, weight and even income can be considered to
+    be continuous.
+
+You should note the “in principle” in this definition of continuous
+variables above. Continuity is here a pragmatic concept, not a
+philosophical one. Thus we will treat age and income as continous even
+though they are in practice measured to the nearest year or the nearest
+hundred pounds, and not in microseconds or millionths of a penny (nor is
+the definition inviting you to start musing on quantum mechanics and
+arguing that nothing is fundamentally continuous). What the distinction
+between discrete and continuous really amounts to in practice is the
+difference between variables which in our data tend to take relatively
+few values (discrete variables) and ones which can take lots of
+different values (continuous variables). This also implies that we will
+sometimes treat variables which are undeniably discrete in the strict
+sense as if they were really continuous. For example, the number of
+people is clearly discrete when it refers to numbers of registered
+voters in households (with a limited number of possible values in
+practice), but effectively continuous when it refers to populations of
+countries (with very many possible values).
+
+The measurement level of a variable refers to the way a characteristic
+is recorded in the data, not to some other, perhaps more fundamental
+version of that characteristic. For example, annual income recorded to
+the nearest dollar is continuous, but an income variable (c.f. Table
+\@ref(tab:t-datamatrix)) with values
+
+-   if annual income is \$24,999 or less;
+
+-   if annual income is \$25,000–\$39,999;
+
+-   if annual income is \$40,000–\$59,999;
+
+-   if annual income is \$60,000 or more
+
+is discrete. This kind of variable, obtained by
+grouping ranges of values of an initially continuous measurement, is
+common in the social sciences, where the exact values of such variables
+are often not that interesting and may not be very accurately measured.
+
+The term **categorical variable** will be used in this coursepack to
+refer to a discrete variable which has only a finite (in practice quite
+small) number of possible values, which are known in advance. For
+example, a person’s sex is typically coded simply as “Male” or “Female”,
+with no other values. Similarly, the grouped income variable shown above
+is categorical, as every income corresponds to one of its four
+categories (note that it is the “rest” category 4 which guarantees that
+the variable does indeed cover all possibilities). Categorical variables
+are of separate interest because they are common and because some
+statistical methods are designed specifically for them. An example of a
+non-categorical discrete variable is the population of a country, which
+does not have a small, fixed set of possible values (unless it is again
+transformed into a grouped variable as in the income example above).
+
+#### Relationships between the two distinctions {-}
+
+The distinctions between variables with different measurement levels on
+one hand, and continuous and discrete variables on the other, are
+partially related. Essentially all nominal/ordinal-level variables are
+discrete, and almost all continous variables are interval-level
+variables. This leaves one further possibility, namely a discrete
+interval-level variable; the most common example of this is a **count**,
+such as the number of children in a family or the population of a
+country. These connections are summarized in Table \@ref(tab:t-vartypes).
+
+  ------------------------------------ ------------------------------------------------------------------- ---------------------------------------------
+                                       *Measurement level*                                                 *Measurement level*
+
+                                       **Nominal/ordinal**                                                 **Interval/ratio**
+
+  **Discrete**                         Many                                                                *Counts*
+
+                                       - Always **categorical**,                                           - If many different
+                                       i.e. having a fixed set                                             observed values,
+                                       of possible values                                                  often treated as
+                                       (categories)                                                        effectively continuous
+
+                                       - If only two categories,
+                                       variable is **binary**
+                                       (**dichotomous**)
+
+  **Continuous**                       None                                                                Many
+  ------------------------------------ ------------------------------------------------------------------- ---------------------------------------------
+
+  :(\#tab:t-vartypes) Relationships between the types of variables discussed in Section
+  \@ref(ss-intro-def-vartypes.
+
+In practice the situation may be even simpler than this, in that the
+most relevant distinction is often between the following two
+cases:
+
+1.  Discrete variables with a small number of observed values. This
+    includes both categorical variables, for which all possible values
+    are known in advance, and variables for which only a small number of
+    values were actually observed even if others might have been
+    possible[^1]. Such variables can be conveniently summarized in the
+    form of tables and handled by methods appropriate for such tables,
+    as described later in this coursepack. This group also includes all
+    nominal variables, even ones with a relatively large number of
+    categories, since methods for group 2. below are entirely
+    inappropriate for them.
+
+2.  Variables with a large number of possible values. This includes all
+    continuous variables and those interval-level or ordinal discrete
+    variables which have so many values that it is pragmatic to treat
+    them as effectively continuous.
+
+Although there are contexts where we need to distinguish between types
+of variables more carefully than this, for practical purposes this
+simple distinction is often sufficient.
+
+### Description and inference {#ss-intro-def-descr}
+
+In the past, the subtitle of this course was “Description and
+inference”. This is still descriptive of the contents of the course.
+These words refer to two different although related tasks of statistical
+analysis. They can be thought of as solutions to what might be called
+the “too much and not enough” problems with observed data. A set of data
+is “too much” in that it is very difficult to understand or explain the
+data, or to draw any conclusions from it, simply by staring at the
+numbers in a data matrix. Making much sense of even a small data matrix
+like the one in Table \@ref(tab:t-datamatrix) is challenging, and the task
+becomes entirely impossible with bigger ones. There is thus a clear need
+for methods of statistical description:
+
+-   **Description**: summarizing some features of the data in ways that
+    make them easily understandable. Such methods of description may be
+    in the form of numbers or graphs.
+
+The “not enough” problem is that quite often the subjects in the data
+are treated as representatives of some larger group which is our real
+object of interest. In statistical terminology, the observed subjects
+are regarded as a **sample** from a larger **population**. For example,
+a pre-election opinion poll is not carried out because we are
+particularly interested in the voting intentions of the particular
+thousand or so people who answer the questions in the poll (the sample),
+but because we hope that their answers will help us draw conclusions
+about the preferences of all of those who intend to vote on election day
+(the population). The job of statistical inference is to provide methods
+for generalising from a sample to the population:
+
+-   **Inference**: drawing conclusions about characteristics of a
+    population based on the data observed in a sample. The two main
+    tools of statistical inference are **significance tests** and
+    **confidence intervals**.
+
+Some of the methods described on this course are mainly intended for
+description and others for inference, but many also have a useful role
+in both.
+
+### Association and causation {#ss-intro-def-assoc}
+
+The simplest methods of analysis described on this course consider
+questions which involve only one variable at a time. For example, the
+variable might be the political party a respondent intends to vote for
+in the next general election. We might then want to know what proportion
+of voters plan to vote for the Labour party, or which party is likely to
+receive the most votes.
+
+However, considering variables one at a time is not going to entertain
+us for very long. This is because most interesting research questions
+involve associations between variables. One way to define an association
+is that
+
+-   There is an **association** between two variables if knowing the
+    value of one of the variables will help to predict the value of the
+    other variable.
+
+(A more careful definition will be given later.) Other ways of referring
+to the same concept are that the variables are “related” or that there
+is a “dependence” between them.
+
+For example, suppose that instead of considering voting intentions
+overall, we were interested in *comparing* them between two groups of
+people, homeowners and people who live in rented accommodation. Surveys
+typically suggest that homeowners are more likely to vote for the
+Conservatives and less likely to vote for Labour than renters. There is
+then an association between the two (discrete) variables “type of
+accommodation” and “voting intention”, and knowing the type of a
+person’s accommodation would help us better predict who they intend to
+vote for. Similarly, a study of education and income might find that
+people with more education (measured by years of education completed)
+tend to have higher incomes (measured by annual income in pounds), again
+suggesting an association between these two (continuous) variables.
+
+Sometimes the variables in an association are in some sense on an equal
+footing. More often, however, they are instead considered asymmetrically
+in that it is more natural to think of one of them as being used to
+predict the other. For example, in the examples of the previous
+paragraph it seems easier to talk about home ownership predicting voting
+intention than vice versa, and of level of education predicting income
+than vice versa. The variable used for prediction is then known as an
+**explanatory variable** and the variable to be predicted as the
+**response variable** (an alternative convention is to talk about
+**independent** rather than explanatory variables and **dependent**
+instead of response variables). The most powerful statistical techniques
+for analysing associations between explanatory and response variables
+are known as **regression** methods. They are by far the most important
+family of methods of quantitative data analysis. On this course you will
+learn about the most important member of this family, the method of
+**linear regression**.
+
+In the many research questions where regression methods are useful, it
+almost always turns out to be crucially important to be able to consider
+several different explanatory variables simultaneously for a single
+response variable. Regression methods allow for this through the
+techniques of **multiple regression**.
+
+The statistical concept of association is closely related to the
+stronger concept of **causation**, which is at the heart of very many
+research questions in the social sciences and elsewhere. The two
+concepts are not the same. In particular, association is not
+*sufficient* evidence for causation, i.e. finding that two variables are
+statistically associated does not prove that either variable has a
+causal effect on the other. On the other hand, association is almost
+always *necessary* for causation: if there is no association between two
+variables, it is very unlikely that there is a direct causal effect
+between them. This means that analysis of associations is a necessary
+part, but not the only part, of the analysis of causal effects from
+quantitative data. Furthermore, statistical analysis of associations is
+carried out in essentially the same way whether or not it is intended as
+part of a causal argument. On this course we will mostly focus on
+associations. The kinds of additional arguments that are needed to
+support causal conclusions are based on information on the research
+design and the nature of the variables. They are discussed only briefly
+on this course, and at greater length on courses of research design such
+as MY400 (and the more advanced MY457, which considers design and
+analysis for causal inference together).
+
+## Outline of the course {#s-intro-outline}
+
+We have now defined three separate distinctions between different
+problems for statistical analysis, according to (1) the types of
+variables involved, (2) whether description or inference is required,
+and (3) whether we are examining one variable only or associations
+between several variables. Different combinations of these elements
+require different methods of statistical analysis. They also provide the
+structure for the course, as follows:
+
+-   **Chapter \@ref(c-descr1)**: Description for single variables of any
+    type, and for associations between categorical variables.
+
+-   **Chapter \@ref(c-samples)**: Some general concepts of
+    statistical inference.
+
+-   **Chapter \@ref(c-tables)**: Inference for associations between
+    categorical variables.
+
+-   **Chapter \@ref(c-probs)**: Inference for single dichotomous
+    variables, and for associations between a dichotomous explanatory
+    variable and a dichotomous response variable.
+
+-   **Chapter \@ref(c-contd)**: More general concepts of
+    statistical inference.
+
+-   **Chapter \@ref(c-means)**: Description and inference for
+    associations between a dichotomous explanatory variable and a
+    continuous response variable, and inference for single
+    continuous variables.
+
+-   **Chapter \@ref(c-regression)**: Description and inference for
+    associations between any kinds of explanatory variables and a
+    continuous response variable.
+
+-   **Chapter \@ref(c-3waytables)**: Some additional comments on analyses
+    which involve three or more categorical variables.
+
+As well as in Chapters \@ref(c-samples) and \@ref(c-contd), general
+concepts of statistical inference are also gradually introduced in
+Chapters \@ref(c-tables), \@ref(c-probs) and \@ref(c-means), initially in
+the context of the specific analyses considered in these chapters.
+
+## The use of mathematics and computing {#s-intro-maths}
+
+Many of you will approach this course with some reluctance and
+uncertainty, even anxiety. Often this is because of fears about
+mathematics, which may be something you never liked or never learned
+that well. Statistics does indeed involve a lot of mathematics in both
+its algebraic (symbolical) and arithmetic (numerical) senses. However,
+the understanding and use of statistical concepts and methods can be
+usefully taught and learned even without most of that mathematics, and
+that is what we hope to do on this course. It is perfectly possible to
+do well on the course without being at all good at mathematics of the
+secondary school kind.
+
+### Symbolic mathematics and mathematical notation
+
+Statistics *is* a mathematical subject in that its concepts and methods
+are expressed using mathematical formalism, and grounded in a branch of
+mathematics known as probability theory. As a result, heavy use of
+mathematics is essential for those who develop these methods
+(i.e. statisticians). However, those who only *use* them (i.e. you) can
+ignore most of it and still gain a solid and non-trivialised
+understanding of the methods. We will thus be able to omit most of the
+mathematical details. In particular, we will not show you how the
+methods are derived or prove theorems about them, nor do we expect you
+to do anything like that.
+
+We will, however, use mathematical notation whenever necessary to state
+the main results and to define the methods used. This is because
+mathematics is the language in which many of these results are easiest
+to express clearly and accurately, and trying to avoid all mathematical
+notation would be contrived and unhelpful. Most of the notation is
+fairly simple and will be explained in detail. We will also interpret
+such formulas in English as well to draw attention to their most
+important features.
+
+Another way of explaining statistical methods is through applied
+examples. These will be used throughout the course. Most of them are
+drawn from real data from research in a range social of social sciences.
+If you wish to find further examples of how these methods are used in
+your own discipline, a good place to start is in relevant books and
+research journals.
+
+### Computing
+
+Statistical analysis involves also a lot of mathematics of the numerical
+kind, i.e. various calculations on the numbers in the data. Doing such
+calculations by hand or with a pocket calculator would be tedious and
+unenlightening, and in any case impossible for all but the smallest
+samples and simplest methods. We will mostly avoid doing that by leaving
+the drudgery of calculation to computers, where the methods are
+implemented in statistical software packages. This also means that you
+can carry out the analyses without understanding all the numerical
+details of the calculations. Instead, we can focus on trying to
+understand when and why certain methods of analysis are used, and
+learning to interpret their results.
+
+A simple pocket calculator is still more convenient than a computer for
+some very simple calculations. You will also need one for this purpose
+in the examination, where computers are not allowed. Any such
+calculations required in the examination will be extremely simple to do
+(assuming you know what you are trying to do, of course). For more
+complex analyses, the exam questions will involve interpreting computer
+output rather than carrying out the calculations. The homework questions
+that follow the computer classes contain examples of both of these types
+of questions.
+
+The software package used in the computer classes of this course is
+called SPSS. There are other comparable packages, for example SAS,
+Minitab, Stata and R. Any one of them could be used for the analyses on
+this course, and the exact choice does not matter very much. SPSS is
+convenient for our purposes, because it is widely used, has a reasonably
+user-friendly menu interface, and is available on a cheap licence even
+for the personal computers of LSE students.
+
+Sometimes you may see a phrase such as “SPSS course” used apparently as
+a synonym for “Statistics course”. This makes as little sense as
+treating an introduction to Microsoft Word as a course on how to write
+good English. It is not possible to learn quantitative data analysis
+well by just sitting down in front of SPSS or any other statistics
+package and trying to figure out what all those menus are for. On the
+other hand, using SPSS to apply statistical methods to analyse real data
+is an effective way of strengthening the understanding of those methods
+*after* they have first been introduced in lectures. That is why this
+course has weekly computer classes.
+
+The software-specific questions on how to carry out statistical analyses
+are typically of a lesser order of difficulty once the methods
+themselves are reasonably well understood. In other words, once you have
+a clear idea of what you want to do, finding out how to do it in SPSS
+tends not to be that difficult. For example, in the next chapter we will
+discuss the mean, one simple tool of descriptive statistics. Suppose
+that you then want to calculate the mean of a variable called *Age* in a
+data set. Learning how to do this in SPSS is then a matter of (1)
+finding the menu item where SPSS can be told to calculate a mean, (2)
+finding out which part of that menu is used to tell SPSS that you want
+the mean of *Age* specifically, and (3) finding the part of the SPSS
+output where the calculated mean of *Age* is reported. Instructions for
+steps like this for techniques covered on this course are given in the
+descriptions of the corresponding computer classes.
+
+There are, however, some tasks which have more to do with specific
+software packages than with statistics in general. For example, the fact
+that SPSS has a menu interface, and the general style of those menus,
+need to be understood first. You also need to learn how to get data into
+SPSS in the first place, how to manipulate the data in various ways, and
+how to export output from the analyses to other packages. Some
+instructions on how to do such things are given in the first computer
+class. The introduction to the computer classes also includes details of some SPSS guidebooks and
+other sources of information which you may find useful if you want to
+know more about the program.
+
+[^1]: For example, suppose we collected data on the number of traffic
+    accidents on each of a sample of streets in a week, and suppose that
+    the only numbers observed were 0, 1, 2, and 3. Other, even much
+    larger values were clearly at least logically possible, but they
+    just did not occur. Of course, redefining the largest value as “3 or
+    more” would turn the variable into an unambiguously categorical one.
