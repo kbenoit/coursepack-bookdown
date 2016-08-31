@@ -1,0 +1,24 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">A Minimal Book Example</a></li>
+      after: |
+        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+    edit:
+      link: https://github.com/rstudio/bookdown-demo/edit/master/%s
+  pandoc_args:
+    - "--default-image-extension=png"
+bookdown::pdf_book:
+  includes:
+    in_header: preamble.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  pandoc_args:
+    - "--default-image-extension=pdf"
+    - "--template"
+    - "latex.template"
+bookdown::epub_book: #default
+  pandoc_args:
+    - "--default-image-extension=png"
