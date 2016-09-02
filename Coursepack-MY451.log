@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  2 SEP 2016 18:42
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  2 SEP 2016 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,8 +896,8 @@ ern Roman (RS)
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=-72.26999pt
-* \voffset=-72.26999pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
 * \@twosidetrue
@@ -954,459 +954,460 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ]
 Chapter 1.
-[3
-
-] [4]
-
-LaTeX Warning: Reference `c-regression' on page 5 undefined on input line 254.
+[1
 
 
-LaTeX Warning: Reference `tab:tdatamatrix' on page 5 undefined on input line 29
-0.
+] [2]
 
-[5]
+LaTeX Warning: Reference `c-regression' on page 3 undefined on input line 256.
 
-LaTeX Warning: Reference `tab:tab:t-datamatrix' on page 6 undefined on input li
-ne 710.
 
-[6] [7]
-Underfull \vbox (badness 10000) detected at line 843
+LaTeX Warning: Reference `tab:tdatamatrix' on page 3 undefined on input line 29
+2.
+
+[3]
+
+LaTeX Warning: Reference `tab:tab:t-datamatrix' on page 4 undefined on input li
+ne 712.
+
+[4] [5]
+Underfull \vbox (badness 10000) detected at line 845
  []
 
-[8] [9] [10] [11]
+[6] [7] [8] [9]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 1134.
+(Font)              <9> on input line 1136.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1134.
-[12] [13]
+(Font)              <5> on input line 1136.
+[10] [11]
 
-LaTeX Warning: Reference `c-descr1' on page 14 undefined on input line 1293.
-
-
-LaTeX Warning: Reference `c-samples' on page 14 undefined on input line 1296.
+LaTeX Warning: Reference `c-descr1' on page 12 undefined on input line 1295.
 
 
-LaTeX Warning: Reference `c-tables' on page 14 undefined on input line 1299.
+LaTeX Warning: Reference `c-samples' on page 12 undefined on input line 1298.
 
 
-LaTeX Warning: Reference `c-probs' on page 14 undefined on input line 1302.
+LaTeX Warning: Reference `c-tables' on page 12 undefined on input line 1301.
 
 
-LaTeX Warning: Reference `c-contd' on page 14 undefined on input line 1306.
+LaTeX Warning: Reference `c-probs' on page 12 undefined on input line 1304.
 
 
-LaTeX Warning: Reference `c-regression' on page 14 undefined on input line 1314
+LaTeX Warning: Reference `c-contd' on page 12 undefined on input line 1308.
+
+
+LaTeX Warning: Reference `c-regression' on page 12 undefined on input line 1316
 .
 
 
-LaTeX Warning: Reference `c-3waytables' on page 14 undefined on input line 1318
+LaTeX Warning: Reference `c-3waytables' on page 12 undefined on input line 1320
 .
 
 
-LaTeX Warning: Reference `c-samples' on page 14 undefined on input line 1322.
+LaTeX Warning: Reference `c-samples' on page 12 undefined on input line 1324.
 
 
-LaTeX Warning: Reference `c-contd' on page 14 undefined on input line 1322.
+LaTeX Warning: Reference `c-contd' on page 12 undefined on input line 1324.
 
 
-LaTeX Warning: Reference `c-tables' on page 14 undefined on input line 1324.
+LaTeX Warning: Reference `c-tables' on page 12 undefined on input line 1326.
 
 
-LaTeX Warning: Reference `c-probs' on page 14 undefined on input line 1324.
+LaTeX Warning: Reference `c-probs' on page 12 undefined on input line 1326.
 
-[14] [15] [16]
+[12] [13] [14]
 Chapter 2.
 
-LaTeX Warning: Reference `c-tables' on page 17 undefined on input line 1448.
+LaTeX Warning: Reference `c-tables' on page 15 undefined on input line 1450.
 
 
-LaTeX Warning: Reference `c-probs' on page 17 undefined on input line 1448.
+LaTeX Warning: Reference `c-probs' on page 15 undefined on input line 1450.
 
 
-LaTeX Warning: Reference `c-contd' on page 17 undefined on input line 1449.
+LaTeX Warning: Reference `c-contd' on page 15 undefined on input line 1451.
 
 
-LaTeX Warning: Reference `c-probs' on page 17 undefined on input line 1453.
+LaTeX Warning: Reference `c-probs' on page 15 undefined on input line 1455.
 
-[17
+[15
 
 ]
 
-LaTeX Warning: Reference `tgroupex' on page 18 undefined on input line 1739.
+LaTeX Warning: Reference `tgroupex' on page 16 undefined on input line 1741.
+
+[16]
+
+LaTeX Warning: Reference `tgroupex' on page 17 undefined on input line 1771.
+
+
+LaTeX Warning: Reference `tgroupex' on page 17 undefined on input line 1796.
+
+
+LaTeX Warning: Reference `tgroupex' on page 17 undefined on input line 1798.
+
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 181
+1.
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [17]
+
+LaTeX Warning: Reference `s-probs-test1sample' on page 18 undefined on input li
+ne 1855.
+
+
+LaTeX Warning: Reference `s-probs-1sampleci' on page 18 undefined on input line
+ 1856.
 
 [18]
 
-LaTeX Warning: Reference `tgroupex' on page 19 undefined on input line 1769.
-
-
-LaTeX Warning: Reference `tgroupex' on page 19 undefined on input line 1794.
-
-
-LaTeX Warning: Reference `tgroupex' on page 19 undefined on input line 1796.
-
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 180
-9.
-(/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [19]
-
-LaTeX Warning: Reference `s-probs-test1sample' on page 20 undefined on input li
-ne 1853.
-
-
-LaTeX Warning: Reference `s-probs-1sampleci' on page 20 undefined on input line
- 1854.
-
-[20]
-
-LaTeX Warning: Reference `c-regression' on page 21 undefined on input line 1938
+LaTeX Warning: Reference `c-regression' on page 19 undefined on input line 1940
 .
 
 
-LaTeX Warning: Reference `ss-descr1-1cont-graphs' on page 21 undefined on input
- line 1940.
+LaTeX Warning: Reference `ss-descr1-1cont-graphs' on page 19 undefined on input
+ line 1942.
 
-[21]
+[19]
 File: hworkpyramid.pdf Graphic file (type QTm)
 <use  "hworkpyramid.pdf" >
 File: hwork.pdf Graphic file (type QTm)
 <use  "hwork.pdf" >
 File: twoboxplots.pdf Graphic file (type QTm)
-<use  "twoboxplots.pdf" > [22] [23]
+<use  "twoboxplots.pdf" > [20] [21]
 
-LaTeX Warning: Reference `s-descr1-nums' on page 24 undefined on input line 204
-5.
-
-
-LaTeX Warning: Reference `tgroupex' on page 24 undefined on input line 2046.
+LaTeX Warning: Reference `s-descr1-nums' on page 22 undefined on input line 204
+7.
 
 
-LaTeX Warning: Reference `tgroupex' on page 24 undefined on input line 2059.
+LaTeX Warning: Reference `tgroupex' on page 22 undefined on input line 2048.
 
 
-LaTeX Warning: Reference `ss-contd-probdistrs-general' on page 24 undefined on 
-input line 2076.
+LaTeX Warning: Reference `tgroupex' on page 22 undefined on input line 2061.
+
+
+LaTeX Warning: Reference `ss-contd-probdistrs-general' on page 22 undefined on 
+input line 2078.
+
+[22]
+
+LaTeX Warning: Reference `c-tables' on page 23 undefined on input line 2103.
+
+
+LaTeX Warning: Reference `c-probs' on page 23 undefined on input line 2103.
+
+
+LaTeX Warning: Reference `c-tables' on page 23 undefined on input line 2125.
+
+
+LaTeX Warning: Reference `c-probs' on page 23 undefined on input line 2126.
+
+
+LaTeX Warning: Reference `c-probs' on page 23 undefined on input line 2144.
+
+[23]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 2185.
+
+LaTeX Warning: Reference `H0m' on page 24 undefined on input line 2205.
+
+
+LaTeX Warning: Reference `tma' on page 24 undefined on input line 2206.
+
+
+LaTeX Warning: Reference `sigmaDmu' on page 24 undefined on input line 2228.
 
 [24]
 
-LaTeX Warning: Reference `c-tables' on page 25 undefined on input line 2101.
+LaTeX Warning: Reference `Dhatmu' on page 25 undefined on input line 2250.
 
 
-LaTeX Warning: Reference `c-probs' on page 25 undefined on input line 2101.
+LaTeX Warning: Reference `seD2' on page 25 undefined on input line 2250.
 
 
-LaTeX Warning: Reference `c-tables' on page 25 undefined on input line 2123.
+LaTeX Warning: Reference `tma' on page 25 undefined on input line 2251.
 
 
-LaTeX Warning: Reference `c-probs' on page 25 undefined on input line 2124.
+LaTeX Warning: Reference `sehatjoint' on page 25 undefined on input line 2258.
 
 
-LaTeX Warning: Reference `c-probs' on page 25 undefined on input line 2142.
-
-[25]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 2183.
-
-LaTeX Warning: Reference `H0m' on page 26 undefined on input line 2203.
+LaTeX Warning: Reference `sehatjoint' on page 25 undefined on input line 2266.
 
 
-LaTeX Warning: Reference `tma' on page 26 undefined on input line 2204.
+LaTeX Warning: Reference `seD2' on page 25 undefined on input line 2272.
 
 
-LaTeX Warning: Reference `sigmaDmu' on page 26 undefined on input line 2226.
-
-[26]
-
-LaTeX Warning: Reference `Dhatmu' on page 27 undefined on input line 2248.
+LaTeX Warning: Reference `ztestmuDb' on page 25 undefined on input line 2276.
 
 
-LaTeX Warning: Reference `seD2' on page 27 undefined on input line 2248.
-
-
-LaTeX Warning: Reference `tma' on page 27 undefined on input line 2249.
-
-
-LaTeX Warning: Reference `sehatjoint' on page 27 undefined on input line 2256.
-
-
-LaTeX Warning: Reference `sehatjoint' on page 27 undefined on input line 2264.
-
-
-LaTeX Warning: Reference `seD2' on page 27 undefined on input line 2270.
-
-
-LaTeX Warning: Reference `ztestmuDb' on page 27 undefined on input line 2274.
-
-
-Overfull \hbox (5.33357pt too wide) in paragraph at lines 2353--2355
+Overfull \hbox (5.33357pt too wide) in paragraph at lines 2355--2357
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 4\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 55$|
  []
 
 
-Overfull \hbox (24.05064pt too wide) in paragraph at lines 2357--2359
+Overfull \hbox (24.05064pt too wide) in paragraph at lines 2359--2361
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 49; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OM
 L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
  []
 
-[27]
+[25]
 
-LaTeX Warning: Reference `s-contd-clt' on page 28 undefined on input line 2372.
+LaTeX Warning: Reference `s-contd-clt' on page 26 undefined on input line 2374.
 
 
 File: spss2t.pdf Graphic file (type QTm)
 <use  "spss2t.pdf" >
 
-Package natbib Warning: Citation `ref' on page 28 undefined on input line 2396.
+Package natbib Warning: Citation `ref' on page 26 undefined on input line 2398.
 
 
 
-LaTeX Warning: Reference `ztestmuDb' on page 28 undefined on input line 2397.
+LaTeX Warning: Reference `ztestmuDb' on page 26 undefined on input line 2399.
+
+
+LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 26 undefined 
+on input line 2415.
+
+
+LaTeX Warning: Reference `Hatwom' on page 26 undefined on input line 2418.
+
+[26] [27]
+
+LaTeX Warning: Reference `tab:tab:t-ttable' on page 28 undefined on input line 
+2427.
 
 
 LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 28 undefined 
-on input line 2413.
+on input line 2428.
+
+[28]
+
+LaTeX Warning: Reference `ciDpa' on page 29 undefined on input line 2511.
 
 
-LaTeX Warning: Reference `Hatwom' on page 28 undefined on input line 2416.
-
-[28] [29]
-
-LaTeX Warning: Reference `tab:tab:t-ttable' on page 30 undefined on input line 
-2425.
+LaTeX Warning: Reference `sehatjoint' on page 29 undefined on input line 2521.
 
 
-LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 30 undefined 
-on input line 2426.
+LaTeX Warning: Reference `sigmaDmu' on page 29 undefined on input line 2568.
+
+[29]
+
+LaTeX Warning: Reference `seDmu-ne' on page 30 undefined on input line 2606.
+
+
+LaTeX Warning: Reference `sehatjoint' on page 30 undefined on input line 2626.
+
+
+LaTeX Warning: Reference `ztestmuDb' on page 30 undefined on input line 2626.
+
+
+LaTeX Warning: Reference `seDmu-ne' on page 30 undefined on input line 2626.
+
+
+LaTeX Warning: Reference `ciDmu2' on page 30 undefined on input line 2627.
+
+
+LaTeX Warning: Reference `ciDmu' on page 30 undefined on input line 2627.
+
+
+LaTeX Warning: Reference `seDmu-ne' on page 30 undefined on input line 2650.
+
+
+LaTeX Warning: Reference `seD2' on page 30 undefined on input line 2651.
+
+
+LaTeX Warning: Reference `sehatjoint' on page 30 undefined on input line 2651.
+
+
+LaTeX Warning: Reference `c-regression' on page 30 undefined on input line 2655
+.
 
 [30]
 
-LaTeX Warning: Reference `ciDpa' on page 31 undefined on input line 2509.
+LaTeX Warning: Reference `s-contd-probdistrs' on page 31 undefined on input lin
+e 2662.
 
 
-LaTeX Warning: Reference `sehatjoint' on page 31 undefined on input line 2519.
+LaTeX Warning: Reference `ztestmuDb' on page 31 undefined on input line 2692.
 
 
-LaTeX Warning: Reference `sigmaDmu' on page 31 undefined on input line 2566.
-
-[31]
-
-LaTeX Warning: Reference `seDmu-ne' on page 32 undefined on input line 2604.
-
-
-LaTeX Warning: Reference `sehatjoint' on page 32 undefined on input line 2624.
-
-
-LaTeX Warning: Reference `ztestmuDb' on page 32 undefined on input line 2624.
-
-
-LaTeX Warning: Reference `seDmu-ne' on page 32 undefined on input line 2624.
-
-
-LaTeX Warning: Reference `ciDmu2' on page 32 undefined on input line 2625.
-
-
-LaTeX Warning: Reference `ciDmu' on page 32 undefined on input line 2625.
-
-
-LaTeX Warning: Reference `seDmu-ne' on page 32 undefined on input line 2648.
-
-
-LaTeX Warning: Reference `seD2' on page 32 undefined on input line 2649.
-
-
-LaTeX Warning: Reference `sehatjoint' on page 32 undefined on input line 2649.
-
-
-LaTeX Warning: Reference `c-regression' on page 32 undefined on input line 2653
-.
-
-[32]
-
-LaTeX Warning: Reference `s-contd-probdistrs' on page 33 undefined on input lin
-e 2660.
-
-
-LaTeX Warning: Reference `ztestmuDb' on page 33 undefined on input line 2690.
-
-
-LaTeX Warning: Reference `ss-tables-chi2test-sdist' on page 33 undefined on inp
-ut line 2699.
+LaTeX Warning: Reference `ss-tables-chi2test-sdist' on page 31 undefined on inp
+ut line 2701.
 
 File: tdistr1.pdf Graphic file (type QTm)
 <use  "tdistr1.pdf" >
 
-LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 33 undefined 
-on input line 2720.
+LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 31 undefined 
+on input line 2722.
 
 
-LaTeX Warning: Reference `fig:f-pval-prob' on page 33 undefined on input line 2
-722.
+LaTeX Warning: Reference `fig:f-pval-prob' on page 31 undefined on input line 2
+724.
 
-[33]
+[31]
 
-LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 34 undefined 
-on input line 2736.
-
-
-LaTeX Warning: Reference `s-disttables-t' on page 34 undefined on input line 27
-41.
+LaTeX Warning: Reference `ss-probs-test1sample-samplingd' on page 32 undefined 
+on input line 2738.
 
 
-LaTeX Warning: Reference `tab:t-ttable' on page 34 undefined on input line 2763
+LaTeX Warning: Reference `s-disttables-t' on page 32 undefined on input line 27
+43.
+
+
+LaTeX Warning: Reference `tab:t-ttable' on page 32 undefined on input line 2765
 .
 
 
 Underfull \vbox (badness 3907) has occurred while \output is active []
 
-[34]
+[32]
 
-LaTeX Warning: Reference `seDmu-ne' on page 35 undefined on input line 2783.
-
-
-LaTeX Warning: Reference `ztestmuD' on page 35 undefined on input line 2783.
+LaTeX Warning: Reference `seDmu-ne' on page 33 undefined on input line 2785.
 
 
-LaTeX Warning: Reference `satter-df' on page 35 undefined on input line 2811.
+LaTeX Warning: Reference `ztestmuD' on page 33 undefined on input line 2785.
 
-[35]
 
-LaTeX Warning: Reference `tab:t-ttable' on page 36 undefined on input line 2850
+LaTeX Warning: Reference `satter-df' on page 33 undefined on input line 2813.
+
+[33]
+
+LaTeX Warning: Reference `tab:t-ttable' on page 34 undefined on input line 2852
 .
 
 
-LaTeX Warning: Reference `c-probs' on page 36 undefined on input line 2871.
+LaTeX Warning: Reference `c-probs' on page 34 undefined on input line 2873.
 
 
-LaTeX Warning: Reference `satter-df' on page 36 undefined on input line 2887.
+LaTeX Warning: Reference `satter-df' on page 34 undefined on input line 2889.
 
 
-LaTeX Warning: Reference `ciDpa' on page 36 undefined on input line 2888.
+LaTeX Warning: Reference `ciDpa' on page 34 undefined on input line 2890.
 
 
-LaTeX Warning: Reference `s-disttables-t' on page 36 undefined on input line 28
-97.
+LaTeX Warning: Reference `s-disttables-t' on page 34 undefined on input line 28
+99.
 
-[36]
+[34]
 
-LaTeX Warning: Reference `s-probs-test1sample' on page 37 undefined on input li
-ne 2928.
-
-
-LaTeX Warning: Reference `s-probs-1sampleci' on page 37 undefined on input line
- 2928.
+LaTeX Warning: Reference `s-probs-test1sample' on page 35 undefined on input li
+ne 2930.
 
 
-Overfull \hbox (3.78433pt too wide) in paragraph at lines 2988--2990
+LaTeX Warning: Reference `s-probs-1sampleci' on page 35 undefined on input line
+ 2930.
+
+
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 2990--2992
  []|\EU1/lmr/m/n/10.95 1724|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 2992--2994
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 2994--2996
  []|\EU1/lmr/m/n/10.95 2.15|
  []
 
 
-Overfull \hbox (10.97237pt too wide) in paragraph at lines 2996--2998
+Overfull \hbox (10.97237pt too wide) in paragraph at lines 2998--3000
  \EU1/lmr/m/n/10.95 49.49|
  []
 
 
-Overfull \hbox (3.78433pt too wide) in paragraph at lines 3007--3009
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 3009--3011
  []|\EU1/lmr/m/n/10.95 1724|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 3011--3013
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 3013--3015
  []|\EU1/lmr/m/n/10.95 6.11|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 3015--3017
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 3017--3019
  []|\EU1/lmr/m/n/10.95 2.04|
  []
 
 
-Overfull \hbox (3.54874pt too wide) in paragraph at lines 3021--3023
+Overfull \hbox (3.54874pt too wide) in paragraph at lines 3023--3025
  []|\EU1/lmr/m/n/10.95 (35.01; 
  []
 
 
-Overfull \hbox (1.75294pt too wide) in paragraph at lines 3021--3023
+Overfull \hbox (1.75294pt too wide) in paragraph at lines 3023--3025
  \EU1/lmr/m/n/10.95 35.59)| 
  []
 
+[35]
+
+LaTeX Warning: Reference `H01' on page 36 undefined on input line 3113.
+
+[36]
+
+LaTeX Warning: Reference `Ha1two' on page 37 undefined on input line 3126.
+
+
+LaTeX Warning: Reference `Ha1onegt' on page 37 undefined on input line 3126.
+
+
+LaTeX Warning: Reference `Ha1onelt' on page 37 undefined on input line 3126.
+
+
+LaTeX Warning: Reference `H0D' on page 37 undefined on input line 3154.
+
+
+LaTeX Warning: Reference `tab:t-ciq' on page 37 undefined on input line 3195.
+
 [37]
 
-LaTeX Warning: Reference `H01' on page 38 undefined on input line 3111.
+LaTeX Warning: Reference `ciD1' on page 38 undefined on input line 3200.
+
+
+LaTeX Warning: Reference `ciD1' on page 38 undefined on input line 3208.
+
+
+LaTeX Warning: Reference `Dhat1' on page 38 undefined on input line 3213.
+
+
+LaTeX Warning: Reference `seDhat1' on page 38 undefined on input line 3214.
+
+
+LaTeX Warning: Reference `tD1' on page 38 undefined on input line 3216.
+
+
+LaTeX Warning: Reference `ss-probs-test1sample-hypotheses' on page 38 undefined
+ on input line 3240.
+
+
+LaTeX Warning: Reference `cimu1' on page 38 undefined on input line 3243.
+
+
+LaTeX Warning: Reference `tD1' on page 38 undefined on input line 3262.
+
+
+LaTeX Warning: Reference `ciD1' on page 38 undefined on input line 3268.
+
+
+LaTeX Warning: Reference `cimu1' on page 38 undefined on input line 3272.
 
 [38]
-
-LaTeX Warning: Reference `Ha1two' on page 39 undefined on input line 3124.
-
-
-LaTeX Warning: Reference `Ha1onegt' on page 39 undefined on input line 3124.
-
-
-LaTeX Warning: Reference `Ha1onelt' on page 39 undefined on input line 3124.
-
-
-LaTeX Warning: Reference `H0D' on page 39 undefined on input line 3152.
-
-
-LaTeX Warning: Reference `tab:t-ciq' on page 39 undefined on input line 3193.
-
-[39]
-
-LaTeX Warning: Reference `ciD1' on page 40 undefined on input line 3198.
-
-
-LaTeX Warning: Reference `ciD1' on page 40 undefined on input line 3206.
-
-
-LaTeX Warning: Reference `Dhat1' on page 40 undefined on input line 3211.
-
-
-LaTeX Warning: Reference `seDhat1' on page 40 undefined on input line 3212.
-
-
-LaTeX Warning: Reference `tD1' on page 40 undefined on input line 3214.
-
-
-LaTeX Warning: Reference `ss-probs-test1sample-hypotheses' on page 40 undefined
- on input line 3238.
-
-
-LaTeX Warning: Reference `cimu1' on page 40 undefined on input line 3241.
-
-
-LaTeX Warning: Reference `tD1' on page 40 undefined on input line 3260.
-
-
-LaTeX Warning: Reference `ciD1' on page 40 undefined on input line 3266.
-
-
-LaTeX Warning: Reference `cimu1' on page 40 undefined on input line 3270.
-
-[40]
 File: ttestspss.pdf Graphic file (type QTm)
 <use  "ttestspss.pdf" >
 
-LaTeX Warning: Reference `ss-means-ci-vstests' on page 41 undefined on input li
-ne 3308.
+LaTeX Warning: Reference `ss-means-ci-vstests' on page 39 undefined on input li
+ne 3310.
 
-[41] [42] [43] [44]
+[39] [40] [41] [42]
 
-LaTeX Warning: Reference `tgroupex' on page 45 undefined on input line 3571.
-
-
-LaTeX Warning: Reference `zD-dep' on page 45 undefined on input line 3573.
+LaTeX Warning: Reference `tgroupex' on page 43 undefined on input line 3573.
 
 
-LaTeX Warning: Reference `ciD-dep' on page 45 undefined on input line 3596.
+LaTeX Warning: Reference `zD-dep' on page 43 undefined on input line 3575.
 
-[45] [46] [47] [48] (./Coursepack-MY451.bbl [49]
+
+LaTeX Warning: Reference `ciD-dep' on page 43 undefined on input line 3598.
+
+[43] [44] [45] [46] (./Coursepack-MY451.bbl [47]
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
@@ -1414,23 +1415,23 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3838.
-[50
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3840.
+[48
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3838.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3840.
 (./Coursepack-MY451.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3838.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3838.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3840.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3840.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3838.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3840.
  ) 
 Here is how much of TeX's memory you used:
  25663 strings out of 495086
  453389 string characters out of 6174758
- 537470 words of memory out of 5000000
+ 538522 words of memory out of 5000000
  28692 multiletter control sequences out of 15000+600000
  43459 words of font info for 73 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191

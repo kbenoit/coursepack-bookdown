@@ -5,10 +5,10 @@
 
 \parindent 0mm
 \parskip 12pt
-\setlength{\voffset}{-1in}
+%\setlength{\voffset}{-1in}
 \setlength{\topmargin}{16mm}
 \setlength{\textheight}{237mm}
-\setlength{\hoffset}{-1in}
+%\setlength{\hoffset}{-1in}
 \setlength{\evensidemargin}{37mm}
 \setlength{\textwidth}{144mm}
 \setlength{\oddsidemargin}{37mm}
