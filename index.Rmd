@@ -186,7 +186,7 @@ teacher for clarification.
 
 ### Subjects and variables {#ss-intro-def-subj}
 
-Table \@ref(tab:tdatamatrix) shows a small set of quantitative data. Once
+Table \@ref(tab:t-datamatrix) shows a small set of quantitative data. Once
 collected, the data are typically arranged and stored in this kind of
 spreadsheet-type rectangular table, known as a **data matrix**. In the
 computer classes you will see data in this form in SPSS.
