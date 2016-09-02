@@ -1,4 +1,18 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[11pt,$if(lang)$$babel-lang$,$endif$a4paper,$for(classoption)$$classoption$$sep$,$endfor$openany]{book}
+\usepackage[stable]{footmisc}
+\usepackage{epsfig,amsmath,verbatim, graphicx,epic,natbib}
+\usepackage{color,fancyvrb,chapterbib,hyperref}
+
+\parindent 0mm
+\parskip 12pt
+\setlength{\voffset}{-1in}
+\setlength{\topmargin}{16mm}
+\setlength{\textheight}{237mm}
+\setlength{\hoffset}{-1in}
+\setlength{\evensidemargin}{37mm}
+\setlength{\textwidth}{144mm}
+\setlength{\oddsidemargin}{37mm}
+
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
 $else$
@@ -8,7 +22,7 @@ $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
 $endif$
-\usepackage{amssymb,amsmath}
+\usepackage{amssymb}
 \usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -54,7 +68,6 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
-\usepackage{hyperref}
 $if(colorlinks)$
 \PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
 $endif$
@@ -93,7 +106,6 @@ $endfor$
 \fi
 $endif$
 $if(natbib)$
-\usepackage{natbib}
 \bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
 $endif$
 $if(biblatex)$
@@ -113,14 +125,13 @@ $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 $if(verbatim-in-note)$
-\usepackage{fancyvrb}
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
 $if(tables)$
 \usepackage{longtable,booktabs}
 $endif$
 $if(graphics)$
-\usepackage{graphicx,grffile}
+\usepackage{grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
