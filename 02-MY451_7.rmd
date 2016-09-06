@@ -538,17 +538,19 @@ $$t=\frac{1.16}{0.353}=3.29.$$ These values and other quantities
 explained later, as well as similar results for Example 7.3, are also
 shown in Table \@ref(tab:t-2testsY1).
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                        $\hat{\Delta}$   $\hat{\sigma}_{\hat{\Delta}}$       $t$   $P$-value          95 % C.I.
-  ------------------------------------------------------------------------------------ ------------------------------- --------- ----------- ------------------
-  Example 7.2: Average weekly hours spent on housework                                                      
+  ------------------------------------------------------------------------------------------------------------
+                       $\hat{\Delta}$   $\hat{\sigma}_{\hat{\Delta}}$       $t$   $P$-value          95 % C.I.
+  ----------------------------------- ------------------------------- --------- ----------- ------------------
+  Example 7.2: Average weekly hours
+  spent on housework
 
-                                                                                  1.16                           0.353      3.29       0.001       (0.47; 1.85)
+                                 1.16                           0.353      3.29       0.001       (0.47; 1.85)
 
-  Example 7.3: Perceived friendliness of a police officer                                                      
+  Example 7.3: Perceived friendliness
+  of a police officer
 
-                                                                               $-1.74$                           0.383   $-4.55$    $<0.001$   $(-2.49; -0.99)$
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------
+                              $-1.74$                           0.383   $-4.55$    $<0.001$   $(-2.49; -0.99)$
+  ------------------------------------------------------------------------------------------------------------
 
   :(\#tab:t-2testsY1) Results of tests and confidence intervals for comparing means for
   two independent samples. For Example 7.2, the difference of means is
@@ -1131,11 +1133,9 @@ be tested against the two-sided alternative hypothesis
 \begin{equation}H_{a}: \; \mu\ne \mu_{0}
 \label{eq:Ha1two}\end{equation} or one of the one-sided alternative hypotheses
 \begin{equation}H_{a}:  \mu> \mu_{0} \label{eq:Ha1onegt}\end{equation}
-\center{or}
-\begin{equation}H_{a}:  \mu< \mu_{0}.\label{eq:Ha1onelt}\end{equation} For example, we might consider the
-one-sided alternative hypotheses $H_{a}:\; \mu<5$ for portions of fruit
-and vegetables and $H_{a}:\;
-\mu>35$ for the percentage of energy from fat. For both of these, the
+or
+\begin{equation}H_{a}:  \mu< \mu_{0}.\label{eq:Ha1onelt}\end{equation}
+For example, we might consider the one-sided alternative hypotheses $H_{a}:\; \mu<5$ for portions of fruit and vegetables and $H_{a}:\;\mu>35$ for the percentage of energy from fat. For both of these, the
 alternative corresponds to a difference from $\mu_{0}$ in the unhealthy
 direction, i.e. less fruit and vegetables and more fat than are
 recommended.

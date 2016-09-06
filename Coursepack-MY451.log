@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  2 SEP 2016 19:09
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  6 SEP 2016 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,10 +961,6 @@ Chapter 1.
 
 LaTeX Warning: Reference `c-regression' on page 3 undefined on input line 256.
 
-
-LaTeX Warning: Reference `tab:tdatamatrix' on page 3 undefined on input line 29
-2.
-
 [3]
 
 LaTeX Warning: Reference `tab:tab:t-datamatrix' on page 4 undefined on input li
@@ -1139,13 +1135,7 @@ LaTeX Warning: Reference `seD2' on page 25 undefined on input line 2272.
 LaTeX Warning: Reference `ztestmuDb' on page 25 undefined on input line 2276.
 
 
-Overfull \hbox (5.33357pt too wide) in paragraph at lines 2355--2357
- []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 4\OML/lmm/m/it/10.95 :\OT1/lmr/m
-/n/10.95 55$|
- []
-
-
-Overfull \hbox (24.05064pt too wide) in paragraph at lines 2359--2361
+Overfull \hbox (5.93497pt too wide) in paragraph at lines 2359--2361
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 49; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OM
 L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
@@ -1429,10 +1419,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3840.
  ) 
 Here is how much of TeX's memory you used:
- 25663 strings out of 495086
- 453389 string characters out of 6174758
- 538522 words of memory out of 5000000
- 28692 multiletter control sequences out of 15000+600000
+ 25662 strings out of 495086
+ 453372 string characters out of 6174758
+ 538523 words of memory out of 5000000
+ 28691 multiletter control sequences out of 15000+600000
  43459 words of font info for 73 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  42i,9n,68p,10414b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
