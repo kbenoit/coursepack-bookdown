@@ -102,7 +102,7 @@ using subscripts 1 for men and 2 for women (for example). The sample
 sizes are $n_{1}=635$ for men and $n_{2}=469$ for women, and the sample
 means of $Y$ are $\bar{Y}_{1}=7.33$ and $\bar{Y}_{2}=8.49$. These and
 the sample standard deviations $s_{1}$ and $s_{2}$ are also shown in
-Table \@ref(tgroupex).
+Table \@ref(t-groupex).
 
 ##### Example 7.3: Eye contact and perceived friendliness of police officers {#p-ex73}
 
@@ -127,7 +127,7 @@ friendliness.
 
 The article describing the experiment does not report all the summary
 statistics needed for our purposes. The statistics shown in Table
-\@ref(tgroupex) have thus been partially made up for use here. They are,
+\@ref(t-groupex) have thus been partially made up for use here. They are,
 however, consistent with the real results from the study. In particular,
 the direction and statistical significance of the difference between
 $\bar{Y}_{2}$ and $\bar{Y}_{1}$ are the same as those in the published
@@ -148,9 +148,9 @@ first two of the measurements. The response variable $Y$ will thus be
 the measure of personal well-being, and the explanatory variable $X$
 will be the time of measurement (sixth month of the pregnancy or one
 month after the birth). The means of $Y$ at the two times are shown in
-Table \@ref(tgroupex). As in Example 7.3, not all of the numbers needed
+Table \@ref(t-groupex). As in Example 7.3, not all of the numbers needed
 here were given in the original article. Specifically, the standard
-error of the difference in Table \@ref(tgroupex) has been made up in
+error of the difference in Table \@ref(t-groupex) has been made up in
 such a way that the results of a significance test for the mean
 difference agree with those in the article.
 
@@ -360,7 +360,7 @@ condition.
 Main features of sample distributions, such as their central tendencies
 and variations, are described using the summary statistics introduced in
 Section \@ref(s-descr1-nums). These too can be compared between groups.
-Table \@ref(tgroupex) shows such statistics for the examples of this
+Table \@ref(t-groupex) shows such statistics for the examples of this
 chapter. Tables like these are routinely reported for initial
 description of data, even if more elaborate statistical methods are
 later used.
@@ -372,7 +372,7 @@ continuous (in which case the most common measure of association is
 known as the *correlation* coefficient). In this section we consider as
 such a summary the difference $\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}$ of
 the sample means of $Y$ in the two groups. These differences are also
-shown in Table \@ref(tgroupex).
+shown in Table \@ref(t-groupex).
 
 The difference of means is important because it is also the focus of the
 most common methods of inference for two-group comparisons. For purely
@@ -1142,16 +1142,19 @@ recommended.
 
 To establish a connection to the general formulas that have been stated
 previously, it is again useful to express these hypotheses in terms of
-\begin{equation}\Delta=\mu-\mu_{0},
-\label{eq:D1mu}\end{equation} i.e. the difference between the unknown true mean $\mu$
+\begin{equation}\Delta=\mu-\mu_{0},\label{eq:D1mu}\end{equation}
+i.e. the difference between the unknown true mean $\mu$
 and the value $\mu_{0}$ claimed by the null hypothesis. Because this is
 0 if and only if $\mu$ and $\mu_{0}$ are equal, the null hypothesis
-(\@ref(H01)) can also be expressed as \begin{equation}H_{0}: \; \Delta=0,
-\label{eq:H0D}\end{equation} and possible alternative hypotheses as
-\begin{equation}H_{0}:  \Delta\ne 0,  \label{eq:HaDtwo}\end{equation}
-\begin{equation}H_{0}:  \Delta> 0 \label{eq:HaDonegt}\end{equation}
-\center{and}
-\begin{equation}H_{0}:  \Delta< 0,   \label{eq:HaDonelt}\end{equation} corresponding to
+(\@ref(H01)) can also be expressed as
+\begin{equation}H_{0}: \; \Delta=0,\label{eq:H0D}\end{equation}
+and possible alternative hypotheses as
+\begin{equation}H_{0}: \Delta\ne0, \label{eq:HaDtwo}\end{equation}
+
+\begin{equation}H_{0}: \Delta>0 \label{eq:HaDonegt}\end{equation}
+and
+\begin{equation}H_{0}:  \Delta< 0,   \label{eq:HaDonelt}\end{equation}
+corresponding to
 (\@ref(Ha1two)), (\@ref(Ha1onegt)) and (\@ref(Ha1onelt)) respectively.
 
 The general formulas summarised in Section
@@ -1478,7 +1481,7 @@ Results for Examples 7.4 and 7.5 are shown in Table \@ref(tab:t-2tests-dep).
 To illustrate the calculations, consider Example 7.5. The $n=10$ values
 of $D_{i}$ for it are shown in Table \@ref(tab:t-F13), and the summary
 statistics $\overline{D}=-1835$ and $s_{D}=1176$ in Table
-\@ref(tgroupex). The standard error of $\overline{D}$ is thus
+\@ref(t-groupex). The standard error of $\overline{D}$ is thus
 $s_{D}/\sqrt{n}=1176/\sqrt{10}=372$ and the value of the test statistic
 (\@ref(zD-dep)) is
 $$z=\frac{-1835}{1176/\sqrt{10}}=\frac{-1835}{372}=-4.93.$$ This example
