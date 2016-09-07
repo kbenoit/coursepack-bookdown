@@ -60,7 +60,7 @@ and 5.4 two groups are to be compared. Table \ref{t_probex} shows basic
 sample statistics for the examples, together with the results of the
 significance tests and confidence intervals described later.
 
-\underline{\textbf{Example 5.1}}: \textbf{An EU referendum}
+\textbf{Example 5.1}: \textbf{An EU referendum}
 
 A referendum about joining the European Union was held in Finland on the
 16th of October, 1994. Suppose that in an opinion poll conducted around October 4th
@@ -78,7 +78,7 @@ provides a lower bound for the proportion of Yes-votes in the
 referendum, even if all of the currently undecided voters eventually
 decided to vote No.
 
-\underline{\textbf{Example 5.2}}: \textbf{Evidence of possible racial
+\textbf{Example 5.2}: \textbf{Evidence of possible racial
 bias in jury selection}
 
 As part of an official inquiry into the extent of racial and gender bias
@@ -123,35 +123,35 @@ a two-sided alternative, and a 95\% confidence interval for $\Delta$.
 \begin{small}
 \begin{center}
 \begin{tabular}{|lrrrrrrr|}\hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}\textbf{One sample}} \\ \hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}Example 5.1:
+\multicolumn{8}{|l|}{\textbf{One sample}} \\ \hline
+\multicolumn{8}{|l|}{Example 5.1:
 Voting intention in an EU referendum} \\
 & $n$ & Yes & $\hat{\pi}$ & $\pi_{0}$ & $z$ & $P$ & 95\% CI \\ \hline
-\rule[1mm]{0mm}{3mm} &
+ &
 702 & 330 & 0.470 & 0.5 & $-1.59$ & 0.112 & (0.433;\\
 & & & & & & & 0.507) \\ \hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}Example 5.2: Race of members of jury panel} \\
+\multicolumn{8}{|l|}{Example 5.2: Race of members of jury panel} \\
 & $n$ & Black & $\hat{\pi}$ & $\pi_{0}$ & $z$ & $P$ & 95\% CI \\ \hline
-\rule[1mm]{0mm}{3mm} &
+ &
 4950 & 226 & 0.0457 & 0.124& $-16.71$ & $<0.001$ & (0.040;\\
 & & & & & & & 0.052) \\
 \hline \hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}\textbf{Two Independent samples}} \\ \hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}Example 5.3: Polio diagnoses in a vaccine trial}\\
+\multicolumn{8}{|l|}{\textbf{Two Independent samples}} \\ \hline
+\multicolumn{8}{|l|}{Example 5.3: Polio diagnoses in a vaccine trial}\\
 & $n$ & Yes & $\hat{\pi}$ & Diff.\ ($\hat{\Delta}$)& $z$ & $P$ & 95\% CI \\ \hline
-\hspace*{.5em}\rule[1mm]{0mm}{3mm}Control group
+Control group
 & 201,229 & 142 & 0.000706 & & & &   \\
 (placebo) & & & & & & & \\
-\hspace*{.5em}Treatment group
+Treatment group
 & 200,745 & 57& 0.000284 & $-0.000422$
 & $-6.01$& $<0.001$&  $(-0.000560;$ \\
 (vaccine)
-& & & & & & & $-0.000284)$ \\[1ex] \hline
-\multicolumn{8}{|l|}{\rule[1mm]{0mm}{3mm}Example 5.4: Optimistic about young people's future}\\
+& & & & & & & $-0.000284)$ \\ \hline
+\multicolumn{8}{|l|}{Example 5.4: Optimistic about young people's future}\\
 & $n$ & Yes & $\hat{\pi}$ & Diff.\ ($\hat{\Delta}$)& $z$ & $P$ & 95\% CI \\ \hline
-\hspace*{.5em}\rule[1mm]{0mm}{3mm}Negative question
+Negative question
 & 921 & 257& 0.279 & & & &   \\
-\hspace*{.5em}Positive question
+Positive question
 & 929 & 338& 0.364 & 0.085 & 3.92& $<0.001$& (0.043;\\
 & & & & & & & 0.127) \\
 \hline
@@ -160,7 +160,7 @@ Voting intention in an EU referendum} \\
 \end{small}
 \end{table}
 
-\textbf{\underline{Example 5.3}:
+\textbf{Example 5.3:
 The Salk polio vaccine field trial of 1954}
 
 The first large-scale field trials of the ``killed virus'' polio
@@ -189,7 +189,7 @@ and $0.000284$ in the vaccinated group (i.e.\
 7.06 and 2.84 cases per 10,000
 subjects, respectively).
 
-\textbf{\underline{Example 5.4}:
+\textbf{Example 5.4:
 Split-ballot experiment on acquiescence bias}
 
 Survey questions often ask whether respondents agree or disagree with
@@ -398,7 +398,7 @@ about whether $\pi$ might be smaller or larger than $\pi_{0}$.
 The second main possibility is one of the two
 \textbf{one-sided alternative hypotheses}
 \begin{eqnarray}
-H_{a}:&&  \Delta> 0 \hspace*{1.5em}\text{or}
+H_{a}:&&  \Delta> 0 \text{or}
 \label{Haonegt}
 \\
 H_{a}:&&  \Delta < 0.
@@ -596,12 +596,12 @@ the observed value of $z$.
 }
 \label{f_pval_prob}
 \begin{center}
-\vspace*{-1ex}
+
 \includegraphics[width=10cm]{pval_zp}
 %\includegraphics[width=13.5cm]{pvalsfat}
 %\epsfig{file=pvalsfat.eps, height=8.5cm}
 \end{center}
-\vspace*{-4ex}
+
 \end{figure}
 
 The $P$-value of the test is calculated from this distribution using the
@@ -755,7 +755,7 @@ Critical value &
 \hline
 \end{tabular}
 
-\vspace*{3ex}
+
 \begin{tabular}{|l|rrrr|}\hline
 & \multicolumn{4}{|c|}{Significance level} \\ \cline{2-5}
 Alternative hypothesis & 0.10 & 0.05 & 0.01 & 0.001 \\ \hline
@@ -962,9 +962,9 @@ cases where $\Delta$ is not 0.
 This is done by substituting $\hat{\Delta}$ for $\Delta$
 above, to create the interval
 \begin{equation}
-\text{from  }\hspace*{1em}
+\text{from  }
 \hat{\Delta} -1.96\times \hat{\sigma}_{\hat{\Delta}}
-\hspace*{1em}\text{  to  }\hspace*{1em}
+\text{  to  }
 \hat{\Delta}
 +1.96\times \hat{\sigma}_{\hat{\Delta}}.
 \label{cim0}
@@ -1508,7 +1508,7 @@ devastating disease will one day be entirely eradicated.
 \begin{figure}
 \caption{Public reaction to statistical inference.}
 \label{f_nytimes}
-\vspace*{4ex}
+
 %\includegraphics[angle=90, width=150mm]{salk_nytimes}
 \includegraphics[width=150mm]{salk_nytimes}
 \end{figure}

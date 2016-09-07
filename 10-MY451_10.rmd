@@ -1,0 +1,93 @@
+# More statistics... {#c_more}
+
+You will no doubt be pleased to learn that the topics covered on this
+course have not quite exhausted the list of available statistical
+methods. In this chapter we outline some of the most important further
+areas of statistics, so that you are at least aware of their existence
+and titles. For some of them, codes of LSE courses which cover these
+methods are given in parentheses.
+
+A very large part of advanced statistics is devoted to further types of
+**regression models**. The basic idea of them is the same as for
+multiple linear regression, i.e. modelling expected values of response
+variables given several explanatory variables. The issues involved in
+the form and treatment of explanatory variables are usually almost
+exactly the same as for linear models. Different classes of regression
+models are needed mainly to accommodate different types of response
+variables:
+
+-   Models for **categorical response variables**. These exist for
+    situations where the response variable is dichotomous (**binary
+    regression**, especially **logistic models**), has more than two
+    unordered (**multinomial logistic models**) or ordered (**ordinal
+    regression models**) categories, or is a count, for example in a
+    contingency table (**Poisson regression**, **loglinear models**).
+    Despite the many different titles, all of these models are closely
+    connected (MY452)
+
+-   Models for cases where the response is a length of time to some
+    event, such as a spell of unemployment, interval between births of
+    children or survival of a patient in a medical study. These
+    techniques are known as **event history analysis**, **survival
+    analysis** or **lifetime data analysis**. Despite the different
+    terms, all refer to the same statistical models.
+
+Techniques for the analysis of **dependent data**, which do not require
+the assumption of statistically independent observations used by almost
+all the methods on this course:
+
+-   **Time series analysis** for one or more long sequence of
+    observations of the same quantity over time. For example, each of
+    the five temperature sequencies in Figure \ref{f_temperatures} is a
+    time series of this kind.
+
+-   Regression models for **hierarchical data**, where some sets of
+    observations are not independent of each other. There are two main
+    types of such data: **longitudinal** or **panel data** which consist
+    of short time series for many units (e.g. answers by respondents in
+    successive waves of a panel survey), and **nested** or **multilevel
+    data** where basic units are grouped in natural groups or clusters
+    (e.g. pupils in classes and schools in an educational study). Both
+    of these can be analysed using the same general classes of models,
+    which in turn are generalisations of linear and other regression
+    models used for independent data (ST416 for models for multilevel
+    data and ST442 for models for longitudinal data).
+
+Methods for **multivariate data**. Roughly speaking, this means data
+with several variables for comparable quantities treated on an equal
+footing, so that none of them is obviously a response to the others. For
+example, results for the ten events in the decathlon data of the week 7
+computer class or, more seriously, the responses to a series of related
+attitude items in a survey are multivariate data of this kind.
+
+-   Various methods of **descriptive multivariate analysis** for jointly
+    summarising and presenting information on the many variables,
+    e.g.\**cluster analysis**, **multidimensional scaling** and
+    **principal component analysis** (MY455 for principal
+    components analysis).
+
+-   Model-based methods for multivariate data. These are typically
+    **latent variable models**, which also involve variables which can
+    never be directly observed. The simplest latent variable technique
+    is **exploratory factor analysis**, and others include
+    **confirmatory factor analysis**, **structural equation models**,
+    and **latent trait** and **latent class** models (MY455).
+
+Some types of **research design** may also involve particular
+statistical considerations:
+
+-   **Sampling theory** for the design of probability samples, e.g.  for
+    surveys (part of MY456, which also covers methodology of surveys
+    in general).
+
+-   **Design of experiments** for more complex randomized experiments.
+
+Finally, some areas of statistics are concerned with broader and more
+fundamental aspects of statistical analysis, such as alternative forms
+of model specification and inference (e.g. **nonparametric methods**) or
+the basic ideas of inference itself (e.g. **Bayesian statistics**).
+These and the more specific tools further build on the foundations of
+all statistical methods, which are the subject of **probability theory**
+and **mathematical statistics**. However, you are welcome, if you wish,
+to leave the details of these fields to professional statisticians, if
+only to keep them too in employment.
