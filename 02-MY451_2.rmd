@@ -287,10 +287,10 @@ example. We use it to introduce the basic structure and terminology of
 contingency tables:
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{\emph{``The government should                                                          
-                                                                                                      take measures}}                                                                           
+                                                                                    \multicolumn{5}{|c|}{*``The government should                                                          
+                                                                                                      take measures*}                                                                           
 
-                                                                           \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                
+                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                
 
                                                                                                            Agree                                           Neither agree              Disagree  
 
@@ -382,10 +382,10 @@ statement. The sum of the proportions over all the cells is 1, as shown
 in the bottom right corner of the table.
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{\emph{``The government should                                                          
-                                                                                                      take measures}}                                                                           
+                                                                                    \multicolumn{5}{|c|}{*``The government should                                                          
+                                                                                                      take measures*}                                                                           
 
-                                                                           \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                
+                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                
 
                                                                                                            Agree                                           Neither agree              Disagree  
 
@@ -438,10 +438,10 @@ bracketed proportions in the ‘Total’ row are the proportions of the
 as the proportions in the ‘Total’ row of Table \ref{t_sex_attitude_pr}.
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{\emph{``The government should                                                            
-                                                                                                      take measures}}                                                                             
+                                                                                    \multicolumn{5}{|c|}{*``The government should                                                            
+                                                                                                      take measures*}                                                                             
 
-                                                                           \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                  
+                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
 
                                                                                                            Agree                                             Neither agree              Disagree  
 

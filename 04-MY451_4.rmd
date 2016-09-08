@@ -14,10 +14,10 @@ in the sample is shown again for convenience in Table
 conditional proportions for attitude given sex.
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{\emph{``The government should                                                            
-                                                                                                      take measures}}                                                                             
+                                                                                    \multicolumn{5}{|c|}{*``The government should                                                            
+                                                                                                      take measures*}                                                                             
 
-                                                                           \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                  
+                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
 
                                                                                                            Agree                                             Neither agree              Disagree  
 
@@ -575,10 +575,10 @@ the real sample that we have actually observed.
 *Population (frequencies are in millions of people):*
 
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                     \multicolumn{5}{|c|}{\emph{``The government should                                                            
-                                       take measures}}                                                                             
+                     \multicolumn{5}{|c|}{*``The government should                                                            
+                                       take measures*}                                                                             
 
-            \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                  
+            \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
 
                                             Agree                                             Neither agree              Disagree  
 

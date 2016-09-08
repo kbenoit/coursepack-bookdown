@@ -325,10 +325,10 @@ residents aged 15 or over. The sample distributions are summarised by
 Table \ref{t_attitude} on page \pageref{t_attitude}.
 
   -------- ----------------------------------------------------------------------- ----------- --------------- ---------- ---------- -----------
-                     \multicolumn{5}{|c|}{\emph{``The government should                                                              
-                                       take measures}}                                                                               
+                     \multicolumn{5}{|c|}{*``The government should                                                              
+                                       take measures*}                                                                               
 
-            \multicolumn{5}{|c|}{\emph{to reduce differences in income levels''}}                                                    
+            \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                    
 
                                             Agree                                               Neither agree              Disagree  
 

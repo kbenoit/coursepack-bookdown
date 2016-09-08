@@ -186,8 +186,7 @@ recorded as the difference from the temperature at that location in
 ![Changes of average annual temperature (11-year moving averages) from
 1903 in five locations. See the text for further details.<span
 data-label="f_temperatures"></span>](temperplot "fig:"){width="13cm"}\
-\footnotesize{Source: The GISTEMP database
-(\texttt{data.giss.nasa.gov/gistemp/})}
+Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>
 
 Consider first the data for Haparanda only. Here we have two variables,
 year and temperature, and 102 pairs of observations of them, one for
@@ -661,7 +660,7 @@ data-label="f_imr1"></span>](imr1){width="13.5cm"}
 
                                                                                                  IMR   enrolment   corruption   inequality
 
-  \multicolumn{5}{l}{\emph{Summary statistics}}                                                                               
+  \multicolumn{5}{l}{*Summary statistics*}                                                                               
 
   Mean                                                                                           4.3        86.1         50.1         40.5
 
@@ -671,7 +670,7 @@ data-label="f_imr1"></span>](imr1){width="13.5cm"}
 
   Maximum                                                                                       15.6       109.0        100.0         70.7
 
-  \multicolumn{5}{l}{\emph{Correlation matrix}}                                                                               
+  \multicolumn{5}{l}{*Correlation matrix*}                                                                               
 
   IMR                                                                                              1       -0.75        -0.60         0.39
 
@@ -681,8 +680,8 @@ data-label="f_imr1"></span>](imr1){width="13.5cm"}
 
   Income inequality                                                                             0.39       -0.27        -0.27            1
 
-  \multicolumn{5}{l}{\emph{Means for countries in different income                                                            
-  categories}}                                                                                                                
+  \multicolumn{5}{l}{*Means for countries in different income                                                            
+  categories*}                                                                                                                
 
   Low income ($n=41$)                                                                            8.2        72.1         27.5         41.7
 
@@ -1257,9 +1256,9 @@ variable $Y$. Graphically, this corresponds to a regression line in the
 population which is parallel to the $X$-axis (see plot (d) of Figure
 \ref{f_scatterplots} for an illustration of such a line in a sample).
 The hypothesis (\ref{H0betasimple}) can thus be expressed in words as
-$$H_{0}:\; \text{\emph{There is no
+$$H_{0}:\; \text{*There is no
 linear association
-between }X \text{\emph{and} }Y\text{ \emph{in the population}}}.
+between* X \text{*and* }Y\text{ *in the population*}}.
 \label{H0betasimple2}$$ Tests of this are usually carried out against a
 two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will
 also concentrate on this case.

@@ -88,7 +88,7 @@ will here be treated as a known population quantity, ignoring any
 possible census error in it).
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \multicolumn{8}{|l|}{\textbf{One sample}}                                                                                                                  
+  \multicolumn{8}{|l|}{**One sample**}                                                                                                                  
   --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
   \multicolumn{8}{|l|}{Example 5.1:                                                                                                                          
   Voting intention in an EU referendum}                                                                                                                      
@@ -107,7 +107,7 @@ possible census error in it).
 
                                                                                                                                                                       0.052)
 
-  \hline\multicolumn{8}{|l|}{\textbf{Two Independent samples}}                                                                                               
+  \hline\multicolumn{8}{|l|}{**Two Independent samples**}                                                                                               
 
   \multicolumn{8}{|l|}{Example 5.3: Polio diagnoses in a vaccine trial}                                                                                      
 
