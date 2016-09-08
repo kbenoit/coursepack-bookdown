@@ -616,7 +616,6 @@ Section \ref{s_regression_dummies}. Finally, Section
 \ref{s_regression_rest} gives a brief review of some further aspects of
 linear regression modelling which are not covered on this course.
 
-\newpage
 *Example: Predictors of Infant Mortality Rate*
 
 The concepts of linear regression models will be illustrated as they are
@@ -1381,13 +1380,11 @@ points.
 > atque metus omnis et inexorabile fatum\
 > subiecit pedibus strepitumque Acherontis avari
 >
-> \vspace{1ex}
 > Blessed is he whose mind had power to probe\
 > The causes of things and trample underfoot\
 > All terrors and inexorable fate\
 > And the clamour of devouring Acheron
 >
-> \vspace{1ex}
 > (Publius Vergilius Maro: *Georgica* (37-30 BCE), 2.490-492;\
 > translation by L. P. Wilkinson)
 
@@ -1567,7 +1564,7 @@ reports.
   School enrolment (%)                                                                 -0.139      0.014   -9.87    $<0.001$  (-0.167; -0.111 )
   Control of corruption                                                                -0.046      0.008   -5.53    $<0.001$  (-0.062; -0.029)
   Income inequality                                                                     0.055      0.022    2.50       0.014   (0.011; 0.098)
-  \multicolumn{6}{|l|}{\vspace*{-1.5ex}}                                                                                     
+  \multicolumn{6}{|l|}{}                                                                                     
   \multicolumn{6}{|l|}{$\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$}                                                
 
   : Results for a linear regression model for Infant mortality rate
@@ -2013,7 +2010,7 @@ coefficients of the dummy variables.
   High                                                                       $-3.296$   1.039   $-3.17$       0.002    $(-5.357;
                                                                                                                         -1.235)$
 
-  \multicolumn{6}{|l|}{\vspace*{-1.5ex}}                                                                            
+  \multicolumn{6}{|l|}{}                                                                            
 
   \multicolumn{6}{|l|}{                                                                                             
   $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$}                                                            
@@ -2297,11 +2294,11 @@ Table \ref{t_fastfood_descr}.
   Mean employment change}                                                                                              
 
   \multicolumn{6}{|l|}{                                                                                                
-                                                                                                                       
+
   Among unaffected restaurants: $-2.93$}                                                                               
 
   \multicolumn{6}{|l|}{                                                                                                
-                                                                                                                       
+
   Among affected restaurants: $+0.68$}                                                                                 
   ---------------------------------------- ------ ------- --------------------------------------------- -------------- ------------
 
@@ -2321,7 +2318,7 @@ Table \ref{t_fastfood_descr}.
 
   Constant                                                                                                                                 
 
-                                                                                     -2.63                                           -1.54 
+                                                                                     -2.63                                           -1.54
 
   Affected by the increase                                                            3.56                            (3.50)             —           —
 
@@ -2351,9 +2348,9 @@ Table \ref{t_fastfood_descr}.
 
                                                                                     (1.25)                              0.61        (1.26)        0.52
 
-                                                                                                                                           
 
-  $R^{2}$                                                                            0.046                                           0.032 
+
+  $R^{2}$                                                                            0.046                                           0.032
   ----------------------------------------------------------------------------------------------------------------------------------------------------
 
   : Two fitted models for Employment change given exposure to minimum

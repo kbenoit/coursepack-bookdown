@@ -245,7 +245,7 @@ first few computer classes.
     **OK** in the main dialog box. This should be reasonably obvious, so
     we will omit explicit instructions to do so.
 
-\vspace{-3ex}
+
 A useful feature of SPSS is the **dialog recall** button, which is
 typically sixth from the left in the top row of buttons in the Output
 viewer window; the button shows a rectangle with a green arrow pointing
@@ -256,10 +256,10 @@ a procedure, e.g. to try different choices for its options. It is
 usually quicker to reopen a dialog box using the dialog recall button
 than through the menus.
 
-\vspace{-3ex}
+
 #### SPSS session options
 
-\vspace{-2ex}
+
 Various options for controlling the format of SPSS output and other
 features can be found under **Edit/Options**. For example, an often
 useful choice is **General/Variable Lists/Display
@@ -272,10 +272,10 @@ Lists/Alphabetical**, which causes the names to be listed in an
 alphabetical order rather than the order in which the variables are
 included in the data set.
 
-\vspace{-3ex}
+
 #### Printing from SPSS
 
-\vspace{-2ex}
+
 All the computers in the public rooms are connected to one of the laser
 printers. When you print a document or a part of it, you need to have
 credit on your printing account. See
@@ -339,6 +339,7 @@ menus. Two easy ways of doing so are
     the extension **.sps**) for future use.
 
 \newpage
+
 ## WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p_class1}
 
 #### Data set
@@ -505,6 +506,7 @@ course. They can be ignored here.
     contingency tables for some of the other variables in the set.
 
 \newpage
+
 #### Part 3: Entering data directly into Data Editor
 
 This procedure may be useful to know if the data you are analysing are
@@ -597,7 +599,7 @@ Sex: Woman; Age: 16; Weight: 7 st 8lbs
             either type in the formula or use the variable list and
             calculator buttons in a fairly obvious way.
 
-\vspace{3ex}
+
 #### WEEK 2 HOMEWORK
 
 The homework exercise for this week is to complete the multiple choice
@@ -618,10 +620,10 @@ Descriptive statistics for continuous variables
 a range of statistical data about the city, collated by the Greater
 London Authority’s *GLA Intelligence Unit* [^2].
 
-\vspace{-2ex}
+
 #### Descriptive statistics in SPSS
 
-\vspace{-2ex}
+
 This week you will produce and examine descriptive statistics for a
 number of individual variables. As for last week, almost all of the
 statistics required for this class can be obtained in SPSS under
@@ -727,6 +729,7 @@ presentation.
     symmetrical or skewed?
 
 \newpage
+
 ## WEEK 4 class: Two-way contingency tables
 
 **Data set**: The data file used today is **GSS2010.sav**. It contains a
@@ -834,6 +837,7 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
     answer with one or two percentages from the two-way table.
 
 \newpage
+
 ## WEEK 5 class: Inference for two population means
 
 **Data set**: The data file used today is **ESS5\_GBFR.sav**. It
@@ -843,10 +847,10 @@ the variables are used in the exercises; the rest are included in the
 data set as examples of the kinds of information obtained from this
 survey.
 
-\vspace{1ex}
+
 **Two-sample inference for means in SPSS**
 
-\vspace{-2ex}
+
 -   $t$-tests and confidence intervals for two independent samples for
     inference on the difference of the population means:
     **Analyze/Compare Means/Independent-Samples T Test**. The variable
@@ -934,15 +938,13 @@ France[^5].
     report the results of the t-test itself for this question).
 
 \newpage
-$\;$
 
-\newpage
 ## WEEK 7 class: Inference for population proportions
 
 **Data sets**: Files **BES2010post\_lastdebate.sav** and
 **BES2010pre\_lastdebate.sav**.
 
-\vspace{1ex}
+
 **Inference on proportions in SPSS**
 
 -   SPSS menus do not provide procedures for calculating the tests and
@@ -1107,6 +1109,7 @@ actually did. Answer the following questions:
     our speculation.)
 
 \newpage
+
 ## WEEK 7 class: Correlation and simple linear regression 1
 
 **Data set**: Files **decathlon2012.sav**.
@@ -1155,7 +1158,6 @@ beginning with “points\_”). The ten events are identified by the
 variable labels in Variable View. The variable *points\_total* gives the
 final points total for each competitor.
 
-\newpage
 1.  Create a scatterplot between the result ($X$-axis) and points
     ($Y$-axis) for one event, the 100-metre sprint (variables
     *MARK\_100M* and *POINTS\_100M*), and add a fitted line. This simply
@@ -1214,6 +1216,7 @@ final points total for each competitor.
     score for discus strongly or weakly associated with the final score?
 
 \newpage
+
 ## WEEK 8 class: Simple linear regression and 3-way tables
 
 **Data set**: File **GSS2010.SAV**. This contains a selection of
@@ -1326,11 +1329,12 @@ are these:
     *SEX*.
 
 \newpage
+
 ## WEEK 9 class: Multiple linear regression
 
 **Data set**: File **humandevelopment2011.sav**.
 
-\vspace{-2ex}
+
 #### Multiple linear regression in SPSS
 
 -   Multiple linear regression is obtained from
@@ -1356,10 +1360,10 @@ are these:
     also be used: for example, *urban\_pop$<$50* would produce 1 if the
     variable *URBAN\_POP* was less than 50 and 0 otherwise.
 
-\vspace{-5ex}
+
 #### Classwork
 
-\vspace{-2ex}
+
 The file *humandevelopment2011.sav* contains data on a number of
 indicators of what might broadly be called development, for 194
 countries in 2011. These were collated from two international data
@@ -1448,6 +1452,7 @@ explanatory variables for it:
     this final model and the model fitted in the class exercise.
 
 \newpage
+
 ## WEEK 10 class: Review and Multiple linear regression
 
 **Data set**: File **ESS5GB\_trust.sav**.
@@ -1503,9 +1508,10 @@ find further information on this and the other class exercises and
 homeworks in the model answers, which will be posted in the Moodle site.
 
 \newpage
+
 #  Statistical tables {#c_disttables}
 
-\vspace{3ex}
+
 Explanation of the “Table of standard normal tail probabilities” on page
 \pageref{s_disttables_Z}:
 
@@ -1524,6 +1530,7 @@ Explanation of the “Table of standard normal tail probabilities” on page
         also 0.3085.
 
 \newpage
+
 ## Table of standard normal tail probabilities {#s_disttables_Z}
 
 \small
@@ -1582,7 +1589,7 @@ Explanation of the “Table of standard normal tail probabilities” on page
   0.49   0.3121   0.99   0.1611   1.49   0.0681   1.99   0.0233   2.49   0.0064   3.48   0.0003
 
 \newpage
-\vspace{-4ex}
+
 ## Table of critical values for $t$-distributions {#s-disttables-t}
 
   ---------------- --------------------------------------------------- ------- -------- -------- -------- --------- ---------
@@ -1630,10 +1637,9 @@ probability of values greater than 3.078 is 0.100. The last row shows
 critical values for the standard normal distribution.
 
 \newpage
-\vspace{5ex}
+
 ## Table of critical values for $\chi^{2}$ distributions {#s_disttables_chi2}
 
-\vspace{2ex}
           \multicolumn{4}{|c|}{Right-hand Tail probability}                   
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001

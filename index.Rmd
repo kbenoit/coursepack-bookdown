@@ -24,11 +24,13 @@ description: "This is a minimal example of using the bookdown package to write a
 <span>\LargeLondon School of Economics and Political Science</span>
 
 \newpage
+
 \thispagestyle{empty}
 
 $\, $
 
 \newpage
+
 \setcounter{page}{1}
 
 # Course information
@@ -76,6 +78,7 @@ some elementary techniques.
     class teachers.
 
 \newpage
+
 #### Teaching
 
 -   **Lectures**: Ten two-hour lectures in weeks 1 - 5 and 7 - 11:
@@ -260,6 +263,7 @@ of previous years for comments and suggestions which are incorporated in
 the current revision.
 
 \newpage
+
 #### Course Programme
 
   -------------------------------------- ----------------- -------------------------------------------------------------------------------------------------------------------------------
@@ -304,6 +308,7 @@ the current revision.
   -------------------------------------- ----------------- -------------------------------------------------------------------------------------------------------------------------------
 
 \newpage
+
 #### FAQ: Frequently Asked Questions
 
 **Why do we use SPSS? I’ve heard that SAS/STATA/MINITAB/R/LIMDEP is much
@@ -362,6 +367,7 @@ you in their personal office hours. If these are inconvenient you may be
 able to set up an appointment at another time by special arrangement.
 
 \newpage
+
 **There was a long queue at advisory and I didn’t get much/any time to
 discuss my particular problem. Isn’t there a better way to arrange
 things?** Advisory sessions are meant for quick feedback and

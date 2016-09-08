@@ -48,7 +48,7 @@ applicant and whether he or she was admitted to the university.
   data. The column labelled ‘% Yes’ is the percentage of applicants
   admitted within each row.<span data-label="t_berkeley1"></span>
 
-\vspace{-2ex}
+
 The percentages in Table \ref{t_berkeley1} show that men were more
 likely to be admitted, with a 36.8% success rate compared to 27.1% for
 women. The difference is strongly significant, with $P<0.001$ for the
@@ -162,7 +162,7 @@ departments and fewer to the easy ones.
   : Percentages of male applicants and applicants admitted by department
   in the Berkeley admissions data.<span data-label="t_berkeley3"></span>
 
-\vspace{-2ex}
+
 One possible set of causal connections leading to a spurious association
 between $X$ and $Y$ was represented graphically by Figure
 \ref{f_xyzspurious}. There are, however, other possibilities which may
@@ -206,7 +206,7 @@ original two-way table are thus unchanged after controlling for sex.
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
   **MEN**                                                    \multicolumn{4}{|c|}{Importance of short-term gains }                                     
 
-                                                                                                                      Slightly                    Very 
+                                                                                                                      Slightly                    Very
 
   Age group                                                                                             Irrelevant   important   Important   important   Total
 
@@ -242,7 +242,7 @@ original two-way table are thus unchanged after controlling for sex.
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
   **WOMEN**                                                  \multicolumn{4}{|c|}{Importance of short-term gains }                                     
 
-                                                                                                                      Slightly                    Very 
+                                                                                                                      Slightly                    Very
 
   Age group                                                                                             Irrelevant   important   Important   important   Total
 
@@ -317,28 +317,28 @@ $\chi^{2}=344$ and $P<0.001$.
   ------------------------------------ ---------------- -------------------------------- ------- -------
                                                           \multicolumn{2}{|c|}{Survivor}         
   Class                                Group                                         Yes      No   Total
-  \multicolumn{5}{l}{\vspace*{-2ex}}                                                             
+  \multicolumn{5}{l}{}                                                             
   First                                Man                                            57     118     175
                                                                                    0.326   0.674   1.000
                                        Woman or child                                146       4     150
                                                                                    0.973   0.027   1.000
                                        Total                                         203     122     325
                                                                                    0.625   0.375   1.000
-  \multicolumn{5}{l}{\vspace*{-2ex}}                                                             
+  \multicolumn{5}{l}{}                                                             
   Second                               Man                                            14     154     168
                                                                                    0.083   0.917   1.000
                                        Woman or child                                104      13     117
                                                                                    0.889   0.111   1.000
                                        Total                                         118     167     285
                                                                                    0.414   0.586   1.000
-  \multicolumn{5}{l}{\vspace*{-2ex}}                                                             
+  \multicolumn{5}{l}{}                                                             
   Third                                Man                                            75     387     462
                                                                                    0.162   0.838   1.000
                                        Woman or child                                103     141     244
                                                                                    0.422   0.578   1.000
                                        Total                                         178     528     706
                                                                                    0.252   0.748   1.000
-  \multicolumn{5}{l}{\vspace*{-2ex}}                                                             
+  \multicolumn{5}{l}{}                                                             
   Total                                                                              499     817    1316
                                                                                    0.379   0.621   1.000
   ------------------------------------ ---------------- -------------------------------- ------- -------
@@ -479,7 +479,7 @@ associations between the control variable and the other two variables.
   the second survey, by smoking status and age group in 1972–74.<span
   data-label="t_whickham2"></span>
 
-\vspace{-2ex}
+
 The two-way tables of age by survival and age by smoking are shown side
 by side in Table \ref{t_whickham3}. The table is somewhat elaborate and
 unconventional, so it requires some explanation. The rows of the table
