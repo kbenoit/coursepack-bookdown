@@ -203,7 +203,7 @@ the opposite of the null hypothesis, which indicates the kinds of
 observations that will be taken as evidence against $H_{0}$. For the
 $\chi^{2}$ test of independence this is simply the logical opposite of
 (\ref{H0_chi2}),
-i.e.\$$H_{a}: \;\text{The variables are not statistically independent in the
+i.e. $$H_{a}: \;\text{The variables are not statistically independent in the
 population}.
 \label{Ha_chi2}$$ In terms of conditional distributions, $H_{a}$ is that
 the conditional distributions of one variable given the other are not
@@ -328,7 +328,7 @@ this coursepack, and give guidelines for choosing between them.
 
 ### The test statistic {#ss_tables_chi2test_stat}
 
-A **test statistic** is a number calculated from the sample (i.e.\a
+A **test statistic** is a number calculated from the sample (i.e. a
 statistic in the sense defined on page \pageref{p_statistic}) which is
 used to test a null hypothesis. We we will describe the calculation of
 the $\chi^{2}$ test statistic step by step, using the data in Table
@@ -361,7 +361,7 @@ test statistic for this example are shown in Table
     $$f_{e} = \left(\frac{366}{2344}\right)\times 1027 =
     \frac{366\times 1027}{2344}=160.4.$$ Here 2344 is the total sample
     size, and 366 and 1027 are the marginal frequencies of strongly
-    agreers and male respondents respectively, i.e.\the two marginal
+    agreers and male respondents respectively, i.e. the two marginal
     totals corresponding to the cell (Male, Strongly agree). The same
     rule applies also in general: the expected frequency for any cell in
     this or any other table is calculated as the product of the row and
@@ -389,7 +389,7 @@ test statistic for this example are shown in Table
     as equally strong evidence against the null hypothesis.
 
 -   Dividing the squared differences by the expected frequencies,
-    i.e.\$(f_{o}-f_{e})^{2}/f_{e}$. This is an essential but not
+    i.e. $(f_{o}-f_{e})^{2}/f_{e}$. This is an essential but not
     particularly interesting scaling exercise, which expresses the sizes
     of the squared differences relative to the sizes of
     $f_{e}$ themselves.

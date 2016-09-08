@@ -87,61 +87,81 @@ service) in the county, which is 12.4% (this is a census estimate which
 will here be treated as a known population quantity, ignoring any
 possible census error in it).
 
-\begin{small}
-\begin{center}
-\begin{tabular}{|lrrrrrrr|}\hline
-\multicolumn{8}{|l|}{\textbf{One sample}} \\ \hline
-\multicolumn{8}{|l|}{Example 5.1:
-Voting intention in an EU referendum} \\
-& $n$ & Yes & $\hat{\pi}$ & $\pi_{0}$ & $z$ & $P$ & 95\% CI \\ \hline
- &
-702 & 330 & 0.470 & 0.5 & $-1.59$ & 0.112 & (0.433;\\
-& & & & & & & 0.507) \\ \hline
-\multicolumn{8}{|l|}{Example 5.2: Race of members of jury panel} \\
-& $n$ & Black & $\hat{\pi}$ & $\pi_{0}$ & $z$ & $P$ & 95\% CI \\ \hline
- &
-4950 & 226 & 0.0457 & 0.124& $-16.71$ & $<0.001$ & (0.040;\\
-& & & & & & & 0.052) \\
-\hline \hline
-\multicolumn{8}{|l|}{\textbf{Two Independent samples}} \\ \hline
-\multicolumn{8}{|l|}{Example 5.3: Polio diagnoses in a vaccine trial}\\
-& $n$ & Yes & $\hat{\pi}$ & Diff.\ ($\hat{\Delta}$)& $z$ & $P$ & 95\% CI \\ \hline
-Control group
-& 201,229 & 142 & 0.000706 & & & &   \\
-(placebo) & & & & & & & \\
-Treatment group
-& 200,745 & 57& 0.000284 & $-0.000422$
-& $-6.01$& $<0.001$&  $(-0.000560;$ \\
-(vaccine)
-& & & & & & & $-0.000284)$ \\ \hline
-\multicolumn{8}{|l|}{Example 5.4: Optimistic about young people's future}\\
-& $n$ & Yes & $\hat{\pi}$ & Diff.\ ($\hat{\Delta}$)& $z$ & $P$ & 95\% CI \\ \hline
-Negative question
-& 921 & 257& 0.279 & & & &   \\
-Positive question
-& 929 & 338& 0.364 & 0.085 & 3.92& $<0.001$& (0.043;\\
-& & & & & & & 0.127) \\
-\hline
-\end{tabular}
-\end{center}
-\end{small}
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  \multicolumn{8}{|l|}{\textbf{One sample}}                                                                                                                  
+  --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
+  \multicolumn{8}{|l|}{Example 5.1:                                                                                                                          
+  Voting intention in an EU referendum}                                                                                                                      
+
+                                                                                    $n$     Yes   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+
+                                                                                    702     330         0.470                      0.5    $-1.59$      0.112         (0.433;
+
+                                                                                                                                                                      0.507)
+
+  \multicolumn{8}{|l|}{Example 5.2: Race of members of jury panel}                                                                                           
+
+                                                                                    $n$   Black   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+
+                                                                                   4950     226        0.0457                    0.124   $-16.71$   $<0.001$         (0.040;
+
+                                                                                                                                                                      0.052)
+
+  \hline\multicolumn{8}{|l|}{\textbf{Two Independent samples}}                                                                                               
+
+  \multicolumn{8}{|l|}{Example 5.3: Polio diagnoses in a vaccine trial}                                                                                      
+
+                                                                                    $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+
+  Control group                                                                 201,229     142      0.000706                                                
+
+  (placebo)                                                                                                                                                  
+
+  Treatment group                                                               200,745      57      0.000284              $-0.000422$    $-6.01$   $<0.001$   $(-0.000560;$
+
+  (vaccine)                                                                                                                                                     $-0.000284)$
+
+  \multicolumn{8}{|l|}{Example 5.4: Optimistic about young people's future}                                                                                  
+
+                                                                                    $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+
+  Negative question                                                                 921     257         0.279                                                
+
+  Positive question                                                                 929     338         0.364                    0.085       3.92   $<0.001$         (0.043;
+
+                                                                                                                                                                      0.127)
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  : Examples of analyses of population proportions used in Chapter
+  \ref{c_probs}. In addition to sample sizes $n$ and proportions
+  $\hat{\pi}$, the table shows for the one-sample examples 5.1 and 5.2
+  the $z$-test statistic for the hypothesis $H_{0}: \pi=\pi_{0}$, its
+  $P$-value against a two-sided alternative, and a 95% confidence
+  interval for $\pi$. For the two-sample examples 5.3 and 5.4, the table
+  shows the estimated between-group difference of proportions
+  $\hat{\Delta}$, the $z$-test statistic for the hypothesis
+  $H_{0}: \Delta=0$, its $P$-value against a two-sided alternative, and
+  a 95% confidence interval for $\Delta$. <span
+  data-label="t_probex"></span>
+
+
 **Example 5.3: The Salk polio vaccine field trial of 1954**
 
 The first large-scale field trials of the “killed virus” polio
-vaccination developed by Dr. Jonas Salk were carried out in the U.S.\in
+vaccination developed by Dr. Jonas Salk were carried out in the U.S. in
 1954[^3]. In the randomized, double-blind placebo-control part of the
 trial, a sample of schoolchildren were randomly assigned to receive
 either three injections of the polio vaccine, or three injections of a
 placebo, inert saltwater which was externally indistinguishable from the
 real vaccine. The explanatory variable $X$ is thus the group (vaccine or
-“treatment” group vs.\placebo or “control” group). The response variable
+“treatment” group vs. placebo or “control” group). The response variable
 $Y$ is whether the child was diagnosed with polio during the trial
 period (yes or no). There were $n_{1}=201,229$ children in the control
 group, and 142 of them were diagnosed with polio; in the treatment
 group, there were 57 new polio cases among $n_{2}=200,745$ children (in
 both cases only those children who received all three injections are
 included here). The proportions of cases of polio were thus $0.000706$
-in the control group and $0.000284$ in the vaccinated group (i.e.\7.06
+in the control group and $0.000284$ in the vaccinated group (i.e. 7.06
 and 2.84 cases per 10,000 subjects, respectively).
 
 **Example 5.4: Split-ballot experiment on acquiescence bias**
@@ -524,7 +544,7 @@ tail of the distribution. The one on the left corresponds to values of
 $-1.59$ and smaller, and the one on the right to values of 1.59 or
 larger. Each of these areas is about 0.056, and the $P$-value for a test
 against a two-sided alternative is their combined area,
-i.e.\$P=0.056+0.056=0.112$. This means that even if the true population
+i.e. $P=0.056+0.056=0.112$. This means that even if the true population
 proportion of Yes-voters was actually exactly 0.5, there would be a
 probability of 0.112 of obtaining a test statistic as or more extreme
 than the $z=-1.59$ that was actually observed in Example 5.1.
@@ -1248,7 +1268,7 @@ data-label="f_nytimes"></span>](salk_nytimes){width="150mm"}
 
 [^2]: The Pennsylvania Supreme Court Committee on racial and gender bias
     in the justice system; the example used here is from the survey by
-    J. F.\Kairns published as part of the final report of the committee
+    J. F. Kairns published as part of the final report of the committee
     (March 2003).
 
 [^3]: The data used here are from the official evaluation of the trials

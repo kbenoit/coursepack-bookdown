@@ -267,41 +267,41 @@ the current revision.
 #### Course Programme
 
   -------------------------------------- ----------------- -------------------------------------------------------------------------------------------------------------------------------
-  \multicolumn{2}{l}{\textbf{Week 1}}                      
+  \multicolumn{2}{l}{**Week 1**}                      
                                          Lecture           Course overview and organisation. Introduction to basic concepts
                                          Class             **No class**
                                          Coursepack        Chapter \ref{c_intro}
-  \multicolumn{2}{l}{\textbf{Week 2}}                      
+  \multicolumn{2}{l}{**Week 2**}                      
                                          Lecture           Descriptive statistics for categorical variables
                                          Class             Introduction to SPSS. Descriptive statistics for categorical variables
                                          Coursepack        Sections \ref{s_descr1_intro}–\ref{s_descr1_2cat} and \ref{s_descr1_presentation}
-  \multicolumn{2}{l}{\textbf{Week 3}}                      
+  \multicolumn{2}{l}{**Week 3**}                      
                                          Lecture & Class   Descriptive statistics for continuous variables
                                          Coursepack        Sections \ref{s_descr1_1cont}–\ref{s_descr1_2cont}
-  \multicolumn{2}{l}{\textbf{Week 4}}                      
+  \multicolumn{2}{l}{**Week 4**}                      
                                          Lecture & Class   Analysis of two-way contingency tables
                                          Coursepack        Chapters \ref{c_samples} and \ref{c_tables}
-  \multicolumn{2}{l}{\textbf{Week 5}}                      
+  \multicolumn{2}{l}{**Week 5**}                      
                                          Lecture & Class   Inference for means in two populations
                                          Coursepack        Chapters \ref{c_contd} and \ref{c_means}
-  \multicolumn{2}{l}{\textbf{Week 6}}                      
+  \multicolumn{2}{l}{**Week 6**}                      
                                          Reading Week      **No lecture, no class**. Revision quiz available on Moodle.
-  \multicolumn{2}{l}{\textbf{Week 7}}                      
+  \multicolumn{2}{l}{**Week 7**}                      
                                          Lecture & Class   Inference for proportions in one and two populations
                                          Coursepack        Chapter \ref{c_probs}
-  \multicolumn{2}{l}{\textbf{Week 8}}                      
+  \multicolumn{2}{l}{**Week 8**}                      
                                          Lecture & Class   Correlation and simple linear regression as descriptive methods
                                          Coursepack        Sections \ref{s_regression_intro}–\ref{ss_regression_simple_est}
-  \multicolumn{2}{l}{\textbf{Week 9}}                      
+  \multicolumn{2}{l}{**Week 9**}                      
                                          Lectures          
                                          Hour 1            Inference for the simple linear regression model
                                          Hour 2            Three-way contingency tables
                                          Class             Simple linear regression
                                          Coursepack        Section \ref{ss_regression_simple_inf} (Hour 1); Section \ref{s_regression_causality} and Chapter \ref{c_3waytables} (Hour 2)
-  \multicolumn{2}{l}{\textbf{Week 10}}                     
+  \multicolumn{2}{l}{**Week 10**}                     
                                          Lecture & Class   Multiple linear regression
                                          Coursepack        Sections \ref{s_regression_multiple}–\ref{s_regression_rest}
-  \multicolumn{2}{l}{\textbf{Week 11}}                     
+  \multicolumn{2}{l}{**Week 11**}                     
                                          Lecture           Review and further statistical methods
                                          Class             Discussion and additional exercise on multiple linear regression
                                          Coursepack        Chapter \ref{c_more}

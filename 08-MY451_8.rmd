@@ -549,8 +549,8 @@ definition and thus of no real interest.
                               Variable                              GDP    Gini   Pol.    Corrupt.    School     IMR
                 GDP per capita \[GDP\]                                1   -0.39    0.51        0.77     0.42   -0.62
             Income inequality \[Gini\]                            -0.39       1   -0.15       -0.27    -0.27    0.42
-             Political rights \[Pol.\]                             0.51   -0.15       1        0.59     0.40   -0.44
-    Control of corruption \[Corrupt.\]                             0.77   -0.27    0.59           1     0.41   -0.64
+             Political rights \[Pol. ]                             0.51   -0.15       1        0.59     0.40   -0.44
+    Control of corruption \[Corrupt. ]                             0.77   -0.27    0.59           1     0.41   -0.64
            School enrolment \[School\]                             0.42   -0.27    0.40        0.41        1   -0.73
               Infant mortality \[IMR\]                            -0.62    0.42   -0.44       -0.64    -0.73       1
   ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
@@ -648,7 +648,7 @@ reason the correlations in Table \ref{t_imrvars} differ slightly from
 those in Table \ref{t_civilsoc_r}, where each correlation was calculated
 for all the countries with non-missing values of that pair of variables.
 
-![A scatterplot of net primary school enrolment ratio vs.\Infant
+![A scatterplot of net primary school enrolment ratio vs. Infant
 mortality rate for countries in the Global Civil Society data set
 ($n=111$). The solid line is the best-fitting (least squares) straight
 line for the points.<span
@@ -1250,7 +1250,7 @@ $\beta$. Tests and confidence intervals for population values of the
 intercept $\alpha$ are rarely and ones about the residual standard
 deviation $\sigma$ almost never substantively interesting, so they will
 not be considered. Similarly, the only null hypothesis on $\beta$
-discussed here is that its value is zero, i.e.\$$H_{0}:\; \beta=0.
+discussed here is that its value is zero, i.e. $$H_{0}:\; \beta=0.
 \label{H0betasimple}$$ Recall that when $\beta$ is 0, there is no linear
 association between the explanatory variable $X$ and the response
 variable $Y$. Graphically, this corresponds to a regression line in the
@@ -1460,15 +1460,10 @@ $X$ and $Y$, they will appear to be associated, but the connection is
 not a causal one. Instead, it is a **spurious association** induced by
 the dependence on both variables on the common cause $Z$.
 
-\setlength{\unitlength}{1mm}
+![\label{fig:xyzspurious} A graphical representation of a
+spurious association between $X$ and $Y$, explained by dependence on a
+common cause $Z$.](xyzspurious){width="3.7cm"}
 
-\begin{picture}(30,25)
-\put(15,0){$Z$}
-\put(17,4){\vector(1,1){15}}
-\put(17,4){\vector(-1,1){15}}
-\put(-1,20){$X$}
-\put(32,20){$Y$}
-\end{picture}
 To illustrate a spurious association with a silly but memorable teaching
 example, suppose that we examine a sample of house fires in London, and
 record the number of fire engines sent to each incident ($X$) and the
@@ -1548,7 +1543,7 @@ The concepts are be illustrated with a further example from the Global
 Civil Society data set. The response variable will still be the Infant
 mortality rate of a country, and there will be three explanatory
 variables: School enrolment, Control of corruption and Income inequality
-as measured by the Gini index (see p.\\pageref{p_civilsoc}). Results for
+as measured by the Gini index (see p. \pageref{p_civilsoc}). Results for
 this model are shown in Table \ref{t_imr_m2}, to which we will refer
 throughout this section. The table is also an example of the kind of
 format in which results of regression models are typically reported.
@@ -2564,7 +2559,7 @@ some such topics, in no particular order:
     is mostly done simply by including transformed values like squares
     $X^{2}$ or logarithms $\log(X)$ as explanatory variables in the
     model. It is sometimes also useful to transform the response
-    variable, e.g.\using $\log(Y)$ as the response instead of $Y$.
+    variable, e.g. using $\log(Y)$ as the response instead of $Y$.
 
 -   Including **interactions** between explanatory variables in
     the model. This is achieved simply by including products of them as

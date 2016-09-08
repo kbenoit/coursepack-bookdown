@@ -59,9 +59,9 @@ tutorials found under the **Help** menu of the program, and in
 introductory guide books such as\label{p_spssbooks}
 
 Field, A. (2013). *Discovering Statistics using IBM SPSS Statistics*
-(4th ed). Sage.\
+(4th ed). Sage. 
 Kinnear, P. R. and Gray, C. D. (2012). *SPSS 19 Made Simple*. Psychology
-Press.\
+Press.
 Pallant, J. (2013). *SPSS Survival Manual* (5th ed). Open University
 Press.
 

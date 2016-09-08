@@ -54,7 +54,7 @@ clear that blood pressure is best treated as a continuous variable.
 
 If we knew all of its values, we could summarise a finite population
 distribution by, say, a histogram like Figure \ref{f_bp1}. We can also
-consider specific characteristics of the distribution, i.e.\its
+consider specific characteristics of the distribution, i.e. its
 *parameters* in the sense introduced in Section
 \ref{s_probs_distribution}. For the distribution of a continuous
 variable, the most important parameters are the **population mean**
@@ -114,7 +114,7 @@ statistics (\ref{Ybar_ch6})–(\ref{s_ch6}) in this sample and the
 corresponding parameters (\ref{mu})–(\ref{sigma}) in the population.
 
   ------------ ---------- ---------------- --------------- ---------------------
-                                                  Standard 
+                                                  Standard
                      Size             Mean       Deviation              Variance
   Population     $N=4489$       $\mu=74.2$   $\sigma=11.3$   $\sigma^{2}=127.87$
   Sample           $n=50$   $\bar{Y}=72.6$        $s=12.7$        $s^{2}=161.19$
@@ -134,7 +134,7 @@ estimators certain mathematically desirable properties ($s^{2}$ is an
 *unbiased* estimate of $\sigma^{2}$, but $\hat{\sigma}^{2}$ below is
 not). This detail need not concern us here. In fact, the statistics
 which use $n$ instead,
-i.e.\$$\hat{\sigma}^{2}=\frac{\sum (Y_{i}-\bar{Y})^{2}}{n}
+i.e. $$\hat{\sigma}^{2}=\frac{\sum (Y_{i}-\bar{Y})^{2}}{n}
 \label{s2b}$$ for $\sigma^{2}$ and
 $\hat{\sigma}=\sqrt{\hat{\sigma}^{2}}$ for $\sigma$, are also sensible
 estimates and very similar to $s^{2}$ and $s$ unless $n$ is very small.
@@ -402,7 +402,7 @@ data-label="f_normbp"></span>](normbp){width="12cm"}
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown on
-  p.\\pageref{s_disttables_Z}.<span data-label="t_normtab"></span>
+  p. \pageref{s_disttables_Z}.<span data-label="t_normtab"></span>
 
 The probability distribution of the $Z$ scores is a normal distribution
 with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
@@ -547,7 +547,7 @@ distribution applies not only to the sample mean but to (almost) all
 estimates of population parameters. In general, (i) the task of
 statistical inference is to use information in a sample to draw
 conclusions about population parameters; (ii) the expected magnitude of
-the sampling error, i.e.\the remaining uncertainty about population
+the sampling error, i.e. the remaining uncertainty about population
 parameters resulting from having information only on a sample, is
 characterised by the variability of the sampling distributions of
 estimates of the parameters; and (iii) other things being equal, the
@@ -640,7 +640,7 @@ population distribution is approximately the same as when the population
 distribution is normal, as long as the sample size is “reasonably
 large”. The larger the sample size is, the closer the sampling
 distribution is to the normal distribution, and it becomes exactly
-normal when the sample size is infinitely large (i.e.\“asymptotically”).
+normal when the sample size is infinitely large (i.e. “asymptotically”).
 What is large enough depends particularly on the nature of the
 population distribution. For continuous variables, the CLT approximation
 is typically adequate even for sample sizes as small as $n=30$, so we

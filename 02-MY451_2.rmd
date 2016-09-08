@@ -144,7 +144,7 @@ and attitude in the survey example, which are shown in Tables
   8               16         0.103       10.3         69.6
   9               15         0.097        9.7         79.3
   10              32         0.206       20.6         99.9
-  Total           155        0.999       99.9 
+  Total           155        0.999       99.9
   ----------- ----------- ------------ ------ ------------
 
   : Frequency distribution of the democracy index in the country
@@ -158,7 +158,7 @@ and attitude in the survey example, which are shown in Tables
   Neither agree nor disagree (3)           426    0.182        18.2         80.3
   Disagree (4)                             387    0.165        16.5         96.8
   Disagree strongly (5)                     75    0.032         3.2        100.0
-  Total                                   2344     1.00       100.0 
+  Total                                   2344     1.00       100.0
   -------------------------------- ----------- ------------ ------- ------------
 
   : Frequency distribution of responses to a question on attitude
@@ -625,7 +625,7 @@ age groups.
 
   ------------- ------------------------------------------------------ ----------- ----------- ----------- --------
                   \multicolumn{4}{|c|}{Importance of short-term gains}                                     
-                                                                          Slightly                    Very 
+                                                                          Slightly                    Very
   Age group                                                 Irrelevant   important   Important   important    Total
   Under 45                                                          37          45          38          26      146
                                                                (0.253)     (0.308)     (0.260)     (0.178)   (1.00)
@@ -659,7 +659,7 @@ comparisons is large. A potentially attractive alternative is then to
 try to summarise the strength of the association between the variables
 in a single number, a **measure of association** of some kind. There are
 many such measures for two-way contingency tables, labelled with a range
-of Greek and Roman letters (e.g.\$\phi$, $\lambda$, $\gamma$, $\rho$,
+of Greek and Roman letters (e.g. $\phi$, $\lambda$, $\gamma$, $\rho$,
 $\tau$, V, Q, U and d). The most useful of them are designed for tables
 where both of the variables are measured at the ordinal level, as is the
 case in Table \ref{t_investors}. The ordering of the categories can then
@@ -783,7 +783,7 @@ understandable even if $E_{1}$ and $E_{2}$ themselves are expressed in
 some unfamiliar units. The smallest possible value of (\ref{PRE}) is
 clearly 0, obtained when $E_{2}=E_{1}$, i.e. when using information on
 $X$ gives no improvement in predictions. The largest possible value of
-PRE is 1, obtained when $E_{2}=0$, i.e.\when $Y$ can be predicted
+PRE is 1, obtained when $E_{2}=0$, i.e. when $Y$ can be predicted
 perfectly from $X$. The values 0 and 1 indicate no association and
 perfect association respectively.
 
@@ -794,7 +794,7 @@ interpretation of $\gamma$ ignores tied observations). One of the two
 observations thus has a higher value of $X$ than the other. For example,
 suppose that we consider two respondents in Table \ref{t_investors} from
 different age groups. We are then asked to predict the *order* of the
-values of $Y$, i.e.\which of the two units has the higher value of $Y$.
+values of $Y$, i.e. which of the two units has the higher value of $Y$.
 In the example of Table \ref{t_investors}, this means predicting whether
 the older respondent places a higher or lower level of importance on
 short-term gains than the younger respondent. Two sets of predictions
@@ -1199,7 +1199,7 @@ number calculated from the data is called a **statistic**. When it is
 used for data description, it is a **descriptive statistic**, also known
 as a **summary statistic**. This creates some terminological confusion,
 as the phrase “descriptive statistics” can mean either all statistical
-methods used for description or those statistics (i.e.\numbers
+methods used for description or those statistics (i.e. numbers
 calculated from the data) with a descriptive purpose. The difference is
 usually unimportant or clear from the context.
 
@@ -1536,7 +1536,7 @@ deviation is the difference between an individual observation and the
 average value in the sample. Table \ref{t_sdex} shows the deviations for
 Class 3 in the class example, together with the other calculations
 discussed below. Here a negative deviation indicates that an observation
-is smaller than the mean of 6 (e.g.\$1-6=-5$), and a positive deviation
+is smaller than the mean of 6 (e.g. $1-6=-5$), and a positive deviation
 that an observation is larger than the mean (e.g. $10-6=+4$).
 
   --------- ------------------------ --------------------------- -------------------------------
@@ -1592,7 +1592,7 @@ difficult to work with, and this would make MAD very inconvenient for
 more sophisticated analyses, where measures of variation will also be
 needed.[^7] Instead, we eliminate the signs of the deviations by using
 their squares $(Y_{i}-\bar{Y})^{2}$, i.e. by multiplying each deviation
-by itself (c.f.\the third column of Table \ref{t_sdex} for an
+by itself (c.f. the third column of Table \ref{t_sdex} for an
 illustration). These are used to calculate the **variance**, denoted
 $s^{2}$ and defined as $$s^{2} = \frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.
 \label{samplevar}$$ This is (apart from the $n-1$ rather than $n$ as the
@@ -1627,7 +1627,7 @@ more interest than central tendency:
 
 *Example: Variation in rates of economic growth*\
 In an article titled “Dancing in step” on November 13th 2004, *The
-Economist* discussed a set of data (collected by the J. P.\Morgan Chase
+Economist* discussed a set of data (collected by the J. P. Morgan Chase
 bank) on the annual growth rates (in percentage points) of the Gross
 Domestic Products (GDP) of 30 countries for each year since 1971.
 Measures of central tendency, such as average growth rates for each
@@ -1888,68 +1888,61 @@ Table \ref{t_countrydata}. The variables are defined as follows:
 The data set contains those 155 countries for which recent data on all
 of the three variables were available at the time the example created.
 
-\footnotesize
+  Country         R    D    GDP Country           R    D   GDP Country           R    D   GDP
+  ------------- --- ---- ------ --------------- --- ---- ----- --------------- --- ---- -----
+  Norway          3   10   37.8 Bulgaria          3    9   7.6 Pakistan          2    0   2.1
+  USA             5   10   37.8 Thailand          2    9   7.4 Angola            1    1   1.9
+  Switzerland     3   10   32.7 Namibia           1    6   7.2 Bangladesh        2    6   1.9
+  Denmark         3   10   31.1 Iran              2    4   7.0 Cambodia          2    3   1.9
+  Austria         3   10   30.0 Romania           3    8   7.0 Sudan             1    0   1.9
+  Canada          5   10   29.8 Tunisia           1    1   6.9 Zimbabwe          1    0   1.9
+  Ireland         3   10   29.6 Macedonia         3    9   6.7 Burma             2    0   1.8
+  Belgium         3   10   29.1 Turkey            2    8   6.7 Cameroon          1    1   1.8
+  Australia       6   10   29.0 Libya             1    0   6.4 Mauritania        1    0   1.8
+  Netherlands     3   10   28.6 Colombia          4    7   6.3 Moldova           3    8   1.8
+  Japan           2   10   28.2 Kazakhstan        2    0   6.3 Mongolia          2   10   1.8
+  UK              3   10   27.7 Panama            4    9   6.3 Laos              2    0   1.7
+  France          3    9   27.6 Belarus           3    0   6.1 Gambia            1    0   1.7
+  Germany         3   10   27.6 Algeria           1    1   6.0 Uzbekistan        2    0   1.7
+  Finland         3   10   27.4 Dominican R.      4    8   6.0 Haiti             4    1   1.6
+  Sweden          3   10   26.8 Fiji              6    6   5.8 Kyrgyzstan        2    1   1.6
+  Italy           3   10   26.7 Turkmenistan      2    0   5.8 Senegal           1    8   1.6
+  Singapore       2    2   23.7 Gabon             1    0   5.5 Iraq              2    0   1.5
+  Taiwan          2    9   23.4 Ukraine           3    7   5.4 Togo              1    1   1.5
+  UAE             2    0   23.2 Peru              4    9   5.1 Cote d’Ivoire     1    5   1.4
+  Spain           3   10   22.0 China             2    0   5.0 Nepal             2    1   1.4
+  NZ              6   10   21.6 Swaziland         1    0   4.9 Uganda            1    0   1.4
+  Qatar           2    0   21.5 El Salvador       4    7   4.8 Bhutan            2    0   1.3
+  Greece          3   10   20.0 Venezuela         4    6   4.8 Djibouti          1    3   1.3
+  Israel          2   10   19.8 Paraguay          4    7   4.7 N. Korea          2    0   1.3
+  Cyprus          2   10   19.2 Philippines       2    8   4.6 Rwanda            1    0   1.3
+  Kuwait          2    0   19.0 Albania           3    7   4.5 Chad              1    1   1.2
+  Slovenia        3   10   19.0 Jordan            2    2   4.3 Mozambique        1    6   1.2
+  Portugal        3   10   18.0 Guatemala         4    8   4.1 Benin             1    6   1.1
+  S. Korea        2    8   17.8 Egypt             1    0   4.0 Burkina Faso      1    2   1.1
+  Bahrain         2    0   16.9 Guyana            4    6   4.0 C. Afr. R.        1    5   1.1
+  Czech R.        3   10   15.7 Morocco           1    0   4.0 Kenya             1    8   1.0
+  Hungary         3   10   13.9 Jamaica           4    9   3.9 Liberia           1    3   1.0
+  Slovakia        3    9   13.3 Sri Lanka         2    7   3.7 Tajikistan        2    2   1.0
+  Oman            2    0   13.1 Armenia           2    6   3.5 Mali              1    6    .9
+  Uruguay         4   10   12.8 Azerbaijan        2    0   3.4 Nigeria           1    4    .9
+  Estonia         3    7   12.3 Ecuador           4    6   3.3 Guinea-Bissau     1    5    .8
+  Saudi Ar.       2    0   11.8 Syria             2    0   3.3 Madagascar        1    7    .8
+  Lithuania       3   10   11.4 Indonesia         2    8   3.2 Niger             1    4    .8
+  Mauritius       1   10   11.4 Lesotho           1    8   3.0 Yemen             2    1    .8
+  Argentina       4    8   11.2 Cuba              4    0   2.9 Zambia            1    3    .8
+  Poland          3    9   11.1 India             2    9   2.9 Comoros           1    4    .7
+  S. Africa       1    9   10.7 Equatorial G.     1    0   2.7 Eritrea           1    0    .7
+  Croatia         3    7   10.6 Honduras          4    7   2.6 Ethiopia          1    3    .7
+  Latvia          3    8   10.2 Georgia           2    5   2.5 Congo (Br.)       1    0    .7
+  Trinidad        4   10    9.5 Vietnam           2    0   2.5 Burundi           1    1    .6
+  Costa Rica      4   10    9.1 Bolivia           4    9   2.4 Malawi            1    6    .6
+  Botswana        1    9    9.0 Nicaragua         4    8   2.3 Tanzania          1    3    .6
+  Malaysia        2    4    9.0 Ghana             1    7   2.2 East Timor        2    6    .5
+  Mexico          4    8    9.0 PNG               6   10   2.2 Sierra Leone      1    5    .5
+  Russia          3    7    8.9 Serbia            3    7   2.2                          
+  Brazil          4    8    7.6 Guinea            1    1   2.1
 
-\begin{ttfamily}
-\begin{tabular}{|lrrr|lrrr|lrrr|}\hline
-Country & R & D & GDP &
-Country & R & D & GDP &
-Country & R & D & GDP \\  \hline
-Norway        & 3 & 10 &37.8 &Bulgaria      & 3 &  9 & 7.6&Pakistan     &2& 0&  2.1\\
-USA           & 5 & 10 &37.8 &Thailand      & 2 &  9 & 7.4&Angola       &1& 1&  1.9\\
-Switzerland   & 3 & 10 &32.7 &Namibia       & 1 &  6 & 7.2&Bangladesh   &2& 6&  1.9\\
-Denmark       & 3 & 10 &31.1 &Iran          & 2 &  4 & 7.0&Cambodia     &2& 3&  1.9\\
-Austria       & 3 & 10 &30.0 &Romania       & 3 &  8 & 7.0&Sudan        &1& 0&  1.9\\
-Canada        & 5 & 10 &29.8 &Tunisia       & 1 &  1 & 6.9&Zimbabwe     &1& 0&  1.9\\
-Ireland       & 3 & 10 &29.6 &Macedonia     & 3 &  9 & 6.7&Burma        &2& 0&  1.8\\
-Belgium       & 3 & 10 &29.1 &Turkey        & 2 &  8 & 6.7&Cameroon     &1& 1&  1.8\\
-Australia     & 6 & 10 &29.0 &Libya         & 1 &  0 & 6.4&Mauritania   &1& 0&  1.8\\
-Netherlands   & 3 & 10 &28.6 &Colombia      & 4 &  7 & 6.3&Moldova      &3& 8&  1.8\\
-Japan         & 2 & 10 &28.2 &Kazakhstan    & 2 &  0 & 6.3&Mongolia     &2&10&  1.8\\
-UK            & 3 & 10 &27.7 &Panama        & 4 &  9 & 6.3&Laos         &2& 0&  1.7\\
-France        & 3 &  9 &27.6 &Belarus       & 3 &  0 & 6.1&Gambia       &1& 0&  1.7\\
-Germany       & 3 & 10 &27.6 &Algeria       & 1 &  1 & 6.0&Uzbekistan   &2& 0&  1.7\\
-Finland       & 3 & 10 &27.4 &Dominican R.  & 4 &  8 & 6.0&Haiti        &4& 1&  1.6\\
-Sweden        & 3 & 10 &26.8 &Fiji          & 6 &  6 & 5.8&Kyrgyzstan   &2& 1&  1.6\\
-Italy         & 3 & 10 &26.7 &Turkmenistan  & 2 &  0 & 5.8&Senegal      &1& 8&  1.6\\
-Singapore     & 2 &  2 &23.7 &Gabon         & 1 &  0 & 5.5&Iraq         &2& 0&  1.5\\
-Taiwan        & 2 &  9 &23.4 &Ukraine       & 3 &  7 & 5.4&Togo         &1& 1&  1.5\\
-UAE           & 2 &  0 &23.2 &Peru          & 4 &  9 & 5.1&Cote d'Ivoire&1& 5&  1.4\\
-Spain         & 3 & 10 &22.0 &China         & 2 &  0 & 5.0&Nepal        &2& 1&  1.4\\
-NZ            & 6 & 10 &21.6 &Swaziland     & 1 &  0 & 4.9&Uganda       &1& 0&  1.4\\
-Qatar         & 2 &  0 &21.5 &El Salvador   & 4 &  7 & 4.8&Bhutan       &2& 0&  1.3\\
-Greece        & 3 & 10 &20.0 &Venezuela     & 4 &  6 & 4.8&Djibouti     &1& 3&  1.3\\
-Israel        & 2 & 10 &19.8 &Paraguay      & 4 &  7 & 4.7&N. Korea     &2& 0&  1.3\\
-Cyprus        & 2 & 10 &19.2 &Philippines   & 2 &  8 & 4.6&Rwanda       &1& 0&  1.3\\
-Kuwait        & 2 &  0 &19.0 &Albania       & 3 &  7 & 4.5&Chad         &1& 1&  1.2\\
-Slovenia      & 3 & 10 &19.0 &Jordan        & 2 &  2 & 4.3&Mozambique   &1& 6&  1.2\\
-Portugal      & 3 & 10 &18.0 &Guatemala     & 4 &  8 & 4.1&Benin        &1& 6&  1.1\\
-S. Korea      & 2 &  8 &17.8 &Egypt         & 1 &  0 & 4.0&Burkina Faso &1& 2&  1.1\\
-Bahrain       & 2 &  0 &16.9 &Guyana        & 4 &  6 & 4.0&C. Afr. R.   &1& 5&  1.1\\
-Czech R.      & 3 & 10 &15.7 &Morocco       & 1 &  0 & 4.0&Kenya        &1& 8&  1.0\\
-Hungary       & 3 & 10 &13.9 &Jamaica       & 4 &  9 & 3.9&Liberia      &1& 3&  1.0\\
-Slovakia      & 3 &  9 &13.3 &Sri Lanka     & 2 &  7 & 3.7&Tajikistan   &2& 2&  1.0\\
-Oman          & 2 &  0 &13.1 &Armenia       & 2 &  6 & 3.5&Mali         &1& 6&   .9\\
-Uruguay       & 4 & 10 &12.8 &Azerbaijan    & 2 &  0 & 3.4&Nigeria      &1& 4&   .9\\
-Estonia       & 3 &  7 &12.3 &Ecuador       & 4 &  6 & 3.3&Guinea-Bissau&1& 5&   .8\\
-Saudi Ar.     & 2 &  0 &11.8 &Syria         & 2 &  0 & 3.3&Madagascar   &1& 7&   .8\\
-Lithuania     & 3 & 10 &11.4 &Indonesia     & 2 &  8 & 3.2&Niger        &1& 4&   .8\\
-Mauritius     & 1 & 10 &11.4 &Lesotho       & 1 &  8 & 3.0&Yemen        &2& 1&   .8\\
-Argentina     & 4 &  8 &11.2 &Cuba          & 4 &  0 & 2.9&Zambia       &1& 3&   .8\\
-Poland        & 3 &  9 &11.1 &India         & 2 &  9 & 2.9&Comoros      &1& 4&   .7\\
-S. Africa     & 1 &  9 &10.7 &Equatorial G. & 1 &  0 & 2.7&Eritrea      &1& 0&   .7\\
-Croatia       & 3 &  7 &10.6 &Honduras      & 4 &  7 & 2.6&Ethiopia     &1& 3&   .7\\
-Latvia        & 3 &  8 &10.2 &Georgia       & 2 &  5 & 2.5&Congo (Br.)  &1& 0&   .7\\
-Trinidad      & 4 & 10 & 9.5 &Vietnam       & 2 &  0 & 2.5&Burundi      &1& 1&   .6\\
-Costa Rica    & 4 & 10 & 9.1 &Bolivia       & 4 &  9 & 2.4&Malawi       &1& 6&   .6\\
-Botswana      & 1 &  9 & 9.0 &Nicaragua     & 4 &  8 & 2.3&Tanzania     &1& 3&   .6\\
-Malaysia      & 2 &  4 & 9.0 &Ghana         & 1 &  7 & 2.2&East Timor   &2& 6&   .5\\
-Mexico        & 4 &  8 & 9.0 &PNG           & 6 & 10 & 2.2&Sierra Leone &1& 5&   .5\\
-Russia        & 3 &  7 & 8.9 &Serbia        & 3 &  7 & 2.2&             & &  &     \\
-Brazil        & 4 &  8 & 7.6 &Guinea        & 1 &  1 & 2.1&& &  &     \\
-\hline
-\end{tabular}
-\end{ttfamily}
 
 [^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
     edition 2.0. Norwegian Social Science Data Services, Norway — Data
