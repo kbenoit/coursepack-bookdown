@@ -14,34 +14,19 @@ in the sample is shown again for convenience in Table
 conditional proportions for attitude given sex.
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{*``The government should                                                            
-                                                                                                      take measures*}                                                                             
-
-                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
-
-                                                                                                           Agree                                             Neither agree              Disagree  
-
+  \                                                                                                        Agree                                             Neither agree              Disagree  
   Sex                                                                                                    strongly                                   Agree    nor disagree    Disagree   strongly    Total
-
   Male                                                                                                      160                                      439          187          200         41        1027
-
                                                                                                           (0.156)                                  (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
-
   Female                                                                                                    206                                      651          239          187         34        1317
-
                                                                                                           (0.156)                                  (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
-
   Total                                                                                                     366                                     1090          426          387         75        2344
-
                                                                                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-
-  \multicolumn{7}{l}{\scriptsize Data: European Social Survey, Round 5,                                                                                                                           
-  2010, UK respondents only.}                                                                                                                                                                     
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
-  : Frequencies of respondents in the survey example, by sex and
+  : *``The government should take measures to reduce differences in income levels''*: Frequencies of respondents in the survey example, by sex and
   attitude towards income redistribution. The numbers in parentheses are
-  conditional proportions of attitude given sex.<span
+  conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
   data-label="t_sex_attitude_ch4"></span>
 
 Unlike in Section \ref{ss_descr1_2cat_tables}, we will now go beyond
@@ -401,7 +386,7 @@ test statistic for this example are shown in Table
     $(f_{o}-f_{e})^{2}/f_{e}$ across all the cells of the table.
 
   ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
-  \multicolumn{2}{|c|}{Cell}                                                                        
+  Cell                            Cell                                               
   Sex                           Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
   Male                             SA           160     160.4          $-0.4$                  0.16                       0.001
   Male                             A            439     477.6         $-38.6$               1489.96                       3.120

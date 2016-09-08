@@ -131,7 +131,7 @@ and attitude in the survey example, which are shown in Tables
   data.<span data-label="t_region"></span>
 
   ----------- ----------- ------------ ------ ------------
-  Democracy                                     Cumulative
+  Democracy        \           \            \   Cumulative
   score        Frequency   Proportion       %            %
   0               35         0.226       22.6         22.6
   1               12         0.077        7.7         30.3
@@ -148,10 +148,10 @@ and attitude in the survey example, which are shown in Tables
   ----------- ----------- ------------ ------ ------------
 
   : Frequency distribution of the democracy index in the country
-  data.<span data-label="t_democ"></span>
+  data.
 
   -------------------------------- ----------- ------------ ------- ------------
-                                                                      Cumulative
+  \                                          \      \             \   Cumulative
   Response                           Frequency  Proportion        %            %
   Agree strongly (1)                       366    0.156        15.6         15.6
   Agree (2)                               1090    0.465        46.5         62.1
@@ -286,28 +286,17 @@ such a table for the respondents’ sex and attitude in our survey
 example. We use it to introduce the basic structure and terminology of
 contingency tables:
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{*``The government should                                                          
-                                                                                                      take measures*}                                                                           
+  ------------------------ --------------- ------- --------------- ---------- ---------- -------
+  \                             Agree         \     Neither agree      \       Disagree        \
+  Sex                          strongly     Agree   nor disagree    Disagree   strongly    Total
 
-                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                
+  Male                           160         439         187          200         41        1027
+  Female                         206         651         239          187         34        1317
+  Total                          366        1090         426          387         75        2344
+  ------------------------ --------------- ------- --------------- ---------- ---------- -------
 
-                                                                                                           Agree                                           Neither agree              Disagree  
-
-  Sex                                                                                                    strongly                                  Agree   nor disagree    Disagree   strongly    Total
-
-  Male                                                                                                      160                                     439         187          200         41        1027
-
-  Female                                                                                                    206                                     651         239          187         34        1317
-
-  Total                                                                                                     366                                    1090         426          387         75        2344
-
-  \multicolumn{7}{l}{\scriptsize Data: European Social Survey, Round 5,                                                                                                                         
-  2010, UK respondents only.}                                                                                                                                                                   
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-
-  : Two-way table of frequencies of respondents in the survey example,
-  by sex and attitude towards income redistribution.<span
+  : *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
+  by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
   data-label="t_sex_attitude"></span>
 
 -   Because a table like \ref{t_sex_attitude} summarizes the values of
@@ -381,29 +370,19 @@ proportion $0.156=366/2344$) of the respondents strongly agreed with the
 statement. The sum of the proportions over all the cells is 1, as shown
 in the bottom right corner of the table.
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{*``The government should                                                          
-                                                                                                      take measures*}                                                                           
+  -------------- --------------- ------- --------------- ---------- ---------- -------
+  \                   Agree         \     Neither agree       \      Disagree     \
+  Sex               strongly      Agree   nor disagree    Disagree   strongly    Total
 
-                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                
+  Male                0.068       0.187       0.080        0.085      0.017      0.438
+  Female              0.088       0.278       0.102        0.080      0.015      0.562
+  Total               0.156       0.465       0.182        0.165      0.032      1.000
+  -------------- --------------- ------- --------------- ---------- ---------- -------
 
-                                                                                                           Agree                                           Neither agree              Disagree  
-
-  Sex                                                                                                    strongly                                  Agree   nor disagree    Disagree   strongly    Total
-
-  Male                                                                                                     0.068                                   0.187       0.080        0.085      0.017      0.438
-
-  Female                                                                                                   0.088                                   0.278       0.102        0.080      0.015      0.562
-
-  Total                                                                                                    0.156                                   0.465       0.182        0.165      0.032      1.000
-
-  \multicolumn{7}{l}{\scriptsize Data: European Social Survey, Round 5,                                                                                                                         
-  2010, UK respondents only.}                                                                                                                                                                   
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- ------- --------------- ---------- ---------- -------
-
-  : Two-way table of joint proportions of respondents in the survey
+  : *``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
   example, with each combination of sex and attitude towards income
-  redistribution.<span data-label="t_sex_attitude_pr"></span>
+  redistribution. Data: European Social Survey, Round 5,                                                                                                                         
+  2010, UK respondents only.<span data-label="t_sex_attitude_pr"></span>
 
 ### Conditional proportions {#ss_descr1_2cat_cond}
 
@@ -437,36 +416,23 @@ bracketed proportions in the ‘Total’ row are the proportions of the
 *marginal* distribution of the attitude variable, so they are the same
 as the proportions in the ‘Total’ row of Table \ref{t_sex_attitude_pr}.
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                                                                                    \multicolumn{5}{|c|}{*``The government should                                                            
-                                                                                                      take measures*}                                                                             
+  ------------- --------------- --------- --------------- ---------- ---------- -------
+  \                  Agree          \      Neither agree      \       Disagree     \
+  Sex               strongly      Agree    nor disagree    Disagree   strongly    Total
 
-                                                                           \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
+  Male                160          439          187          200         41        1027
+                    (0.156)      (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
+  Female              206          651          239          187         34        1317
+                    (0.156)      (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
+  Total               366         1090          426          387         75        2344
+                    (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+  ------------- --------------- --------- --------------- ---------- ---------- -------
 
-                                                                                                           Agree                                             Neither agree              Disagree  
-
-  Sex                                                                                                    strongly                                   Agree    nor disagree    Disagree   strongly    Total
-
-  Male                                                                                                      160                                      439          187          200         41        1027
-
-                                                                                                          (0.156)                                  (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
-
-  Female                                                                                                    206                                      651          239          187         34        1317
-
-                                                                                                          (0.156)                                  (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
-
-  Total                                                                                                     366                                     1090          426          387         75        2344
-
-                                                                                                          (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-
-  \multicolumn{7}{l}{\scriptsize Data: European Social Survey, Round 5,                                                                                                                           
-  2010, UK respondents only.}                                                                                                                                                                     
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-
-  : Two-way table of frequencies of respondents in the survey example,
+  : *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. The numbers in
   brackets are proportions within the rows, i.e. conditional proportions
-  of attitude given sex.<span data-label="t_sex_attitude_row"></span>
+  of attitude given sex. Data: European Social Survey, Round 5,                                                                                                                           
+  2010, UK respondents only.<span data-label="t_sex_attitude_row"></span>
 
 We could also have calculated conditional proportions within the
 *columns*, i.e. for sex given attitude. For example, the proportion
@@ -624,8 +590,7 @@ crosstabulation of this variable with the age of the respondent in four
 age groups.
 
   ------------- ------------------------------------------------------ ----------- ----------- ----------- --------
-                  \multicolumn{4}{|c|}{Importance of short-term gains}                                     
-                                                                          Slightly                    Very
+  \                                                                  \    Slightly           \        Very        \
   Age group                                                 Irrelevant   important   Important   important    Total
   Under 45                                                          37          45          38          26      146
                                                                (0.253)     (0.308)     (0.260)     (0.178)   (1.00)
@@ -638,7 +603,7 @@ age groups.
   Total                                                            494         235         145          98      972
   ------------- ------------------------------------------------------ ----------- ----------- ----------- --------
 
-  : Frequencies of respondents in the investment example, by age group
+  : Importance of short-term gains: Frequencies of respondents in the investment example, by age group
   and attitude towards short-term gains as investment goal. Conditional
   proportions of attitude given age group are shown in brackets. The
   value of the $\gamma$ measure of association is $-0.377$.<span
@@ -1347,30 +1312,17 @@ very low marks. A distribution which has no clear skewness in either
 direction, like the distribution of typical weekly working hours in
 panel B of Figure \ref{f_skews} is (approximately) **symmetric**.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                              \multicolumn{3}{|c|}{Measures of central tendency}  \multicolumn{3}{|c|}{Measures of variation}                                                     
-  ------------------------------------------------------------------------- ---------------------------------------------------- --------------------------------------------- ----------------- ---------------- --------------- -----------------
-  Variable                                                                                                                  Mode                    Median                           Mean             Range             IQR             s.d.
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------
+  \                                  Measures                  of central                       tendency          Measures           of            variation
+  ---------------------- -------------------- --------------------------------------------- ----------------- ---------------- --------------- -----------------
+  Variable                               Mode                    Median                           Mean             Range             IQR             s.d.
+  Region                               Africa                      \*                              \*                \*              \*               \*
+  Democracy index                           0                       6                        5.4$^{\dagger}$   10$^{\dagger}$   8$^{\dagger}$   3.9$^{\dagger}$
+  GDP per capita                        \$800
+                                   and \$1900                    \$4700                          \$8600           \$37300          \$9700           \$9450
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  Region                                                                                                                  Africa                      \*                              \*                \*              \*               \*
-
-  Democracy index                                                                                                              0                       6                        5.4$^{\dagger}$   10$^{\dagger}$   8$^{\dagger}$   3.9$^{\dagger}$
-
-  GDP per capita                                                                                                           \$800                                                                                                  
-
-                                                                                                                      and \$1900                    \$4700                          \$8600           \$37300          \$9700           \$9450
-
-  \multicolumn{7}{l}{\footnotesize IQR=interquartile range; s.d.=standard                                                                                                                                                         
-  deviation}                                                                                                                                                                                                                      
-
-  \multicolumn{7}{l}{\footnotesize *: inappropriate for a nominal                                                                                                                                                                 
-  variable}                                                                                                                                                                                                                       
-
-  \multicolumn{7}{l}{\footnotesize $\dagger$: if the democracy index is                                                                                                                                                           
-  treated as an interval-level variable}                                                                                                                                                                                          
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  : Summary statistics for the three variables in the country data.<span
+  : Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.<span
   data-label="t_countries_sums"></span>
 
 ![Examples of a negatively skewed and an approximately symmetric sample
@@ -1540,7 +1492,6 @@ is smaller than the mean of 6 (e.g. $1-6=-5$), and a positive deviation
 that an observation is larger than the mean (e.g. $10-6=+4$).
 
   --------- ------------------------ --------------------------- -------------------------------
-              \multicolumn{3}{|c|}{}                             
   Student                    $Y_{i}$             $Y_{i}-\bar{Y}$           $(Y_{i}-\bar{Y})^{2}$
   1                                1                        $-5$                              25
   2                                2                        $-4$                              16
@@ -1556,7 +1507,6 @@ that an observation is larger than the mean (e.g. $10-6=+4$).
   12                              10                          +4                              16
   13                              10                          +4                              16
   $14=n$                          10                          +4                              16
-              \multicolumn{3}{|c|}{}                             
   Sum                $\sum Y_{i}=84$     $\sum(Y_{i}-\bar{Y})=0$   $\sum(Y_{i}-\bar{Y})^{2}=152$
                    $\bar{Y}=84/14=6$   $\sum(Y_{i}-\bar{Y})/n=0$            $s^{2}=152/13=11.69$
                                                                             $s=\sqrt{11.69}=3.4$

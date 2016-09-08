@@ -325,33 +325,20 @@ residents aged 15 or over. The sample distributions are summarised by
 Table \ref{t_attitude} on page \pageref{t_attitude}.
 
   -------- ----------------------------------------------------------------------- ----------- --------------- ---------- ---------- -----------
-                     \multicolumn{5}{|c|}{*``The government should                                                              
-                                       take measures*}                                                                               
-
-            \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                    
-
-                                            Agree                                               Neither agree              Disagree  
-
+  \                                         Agree                                       \       Neither agree      \       Disagree            \
   Sex                                     strongly                                    Agree     nor disagree    Disagree   strongly        Total
 
   Male                                      3.84                                      10.08         4.56          4.32       1.20          24.00
-
                                            (16.00)                                   (42.00)       (19.00)      (18.00)     (5.00)         (100)
-
                                           \[7.68\]                                  \[20.16\]     \[9.12\]      \[8.64\]   \[2.40\]    \[48.00\]
-
   Female                                    4.16                                      13.00         4.68          3.38       0.78          26.00
-
                                            (16.00)                                   (50.00)       (18.00)      (13.00)     (3.00)         (100)
-
                                           \[8.32\]                                  \[26.00\]     \[9.36\]      \[6.76\]   \[1.56\]    \[52.00\]
-
   Total                                     8.00                                      23.08         9.24          7.70       1.98             50
-
                                            (16.00)                                   (46.16)       (18.48)      (15.40)     (3.96)         (100)
   -------- ----------------------------------------------------------------------- ----------- --------------- ---------- ---------- -----------
 
-  : Attitude towards income redistribution by sex, in a hypothetical
+  : *``The government should take measures to reduce differences in income levels''*: Attitude towards income redistribution by sex, in a hypothetical
   population of 50 million people. The numbers in the table are
   frequencies in millions of people, row percentages (in parentheses)
   and overall percentages \[in square brackets\].<span
