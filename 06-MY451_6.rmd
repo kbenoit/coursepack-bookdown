@@ -123,7 +123,7 @@ corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
   : Summary statistics for diastolic blood pressure in the population
   and a sample from it in the example used for illustration in Sections
   \@ref(s-contd-popdistrs)–\@ref(s-contd-clt).<span
-  data-label="t_bp_example"></span>
+  data-label="tab:t-bp-example"></span>
 
 You may have noticed that the formulas of the sample variance
 (\@ref(s2-ch6)) and sample standard deviation (\@ref(s-ch6)) involve the
@@ -402,7 +402,7 @@ data-label="f_normbp"></span>](normbp){width="12cm"}
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown on
-  p. \pageref{s_disttables_Z}.<span data-label="t_normtab"></span>
+  p. \pageref{s_disttables_Z}.<span data-label="tab:t-normtab"></span>
 
 The probability distribution of the $Z$ scores is a normal distribution
 with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the

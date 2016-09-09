@@ -555,7 +555,7 @@ definition and thus of no real interest.
 
   :  Correlation matrix of six continuous variables in the Global Civil
   Society data set. See page \pageref{p_civilsoc} for more information
-  on the variables.<span data-label="t_civilsoc_r"></span>
+  on the variables.<span data-label="tab:t-civilsoc-r"></span>
 
 All of the observed associations in this example are in unsurprising
 directions. For example, School enrolment is positively correlated with
@@ -675,7 +675,7 @@ data-label="f_imr1"></span>](imr1){width="13.5cm"}
   variables for it considered in the examples of Sections
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
   See page \pageref{p_civilsoc} for further information on the
-  variables.<span data-label="t_imrvars"></span>
+  variables.<span data-label="tab:t-imrvars"></span>
 
 ### Definition of the model {#ss_regression_simple_def}
 
@@ -1543,7 +1543,7 @@ reports.
 
   : Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
   given three explanatory variables in the Global Civil Society
-  data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$<span data-label="t_imr_m2"></span>
+  data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$<span data-label="tab:t-imr-m2"></span>
 
 ### Definition of the model {#ss_regression_multiple_def}
 
@@ -1977,7 +1977,7 @@ coefficients of the dummy variables.
   : Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
   in Table \@ref(t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.<span
-  data-label="t_imr_m3"></span>
+  data-label="tab:t-imr-m3"></span>
 
 Recall that the regression coefficient of a continuous explanatory
 variable $X$ is the expected change in the response variable when $X$ is
@@ -2238,7 +2238,7 @@ Table \@ref(t-fastfood-descr).
 
   : Summary statistics for the variables considered in the minimum wage
   example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.<span
-  data-label="t_fastfood_descr"></span>
+  data-label="tab:t-fastfood-descr"></span>
 
   ------------------------------------------------------ --------------------------------- --------------------------------- ------------- -----------
   \                                                                              Model (1)                                 \     Model (2)           \
@@ -2266,7 +2266,7 @@ Table \@ref(t-fastfood-descr).
 
   : Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
   wage increase and control variables. See the text for further
-  details.<span data-label="t_fastfood_models"></span>
+  details.<span data-label="tab:t-fastfood-models"></span>
 
 Table \@ref(t-fastfood-models) shows results for two linear regression
 models for Employment change, one using the dummy for affected

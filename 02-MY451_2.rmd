@@ -128,7 +128,7 @@ and attitude in the survey example, which are shown in Tables
   Total                      155        1.000   100.0
 
   : Frequency distribution of the region variable in the country
-  data.<span data-label="t_region"></span>
+  data.<span data-label="tab:t-region"></span>
 
   ----------- ----------- ------------ ------ ------------
   Democracy        \           \            \   Cumulative
@@ -163,7 +163,7 @@ and attitude in the survey example, which are shown in Tables
 
   : Frequency distribution of responses to a question on attitude
   towards income redistribution in the survey example.<span
-  data-label="t_attitude"></span>
+  data-label="tab:t-attitude"></span>
 
 Each row of such a table corresponds to one possible value of a
 variable, and the second column shows the number of units with that
@@ -297,7 +297,7 @@ contingency tables:
 
   : *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
-  data-label="t_sex_attitude"></span>
+  data-label="tab:t-sex-attitude"></span>
 
 -   Because a table like \@ref(t-sex-attitude) summarizes the values of
     two variables, it is known as a **two-way** contingency table.
@@ -382,7 +382,7 @@ in the bottom right corner of the table.
   : *``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
   example, with each combination of sex and attitude towards income
   redistribution. Data: European Social Survey, Round 5,                                                                                                                         
-  2010, UK respondents only.<span data-label="t_sex_attitude_pr"></span>
+  2010, UK respondents only.<span data-label="tab:t-sex-attitude-pr"></span>
 
 ### Conditional proportions {#ss_descr1_2cat_cond}
 
@@ -432,7 +432,7 @@ as the proportions in the ‘Total’ row of Table \@ref(t-sex-attitude-pr).
   by sex and attitude towards income redistribution. The numbers in
   brackets are proportions within the rows, i.e. conditional proportions
   of attitude given sex. Data: European Social Survey, Round 5,                                                                                                                           
-  2010, UK respondents only.<span data-label="t_sex_attitude_row"></span>
+  2010, UK respondents only.<span data-label="tab:t-sex-attitude-row"></span>
 
 We could also have calculated conditional proportions within the
 *columns*, i.e. for sex given attitude. For example, the proportion
@@ -607,7 +607,7 @@ age groups.
   and attitude towards short-term gains as investment goal. Conditional
   proportions of attitude given age group are shown in brackets. The
   value of the $\gamma$ measure of association is $-0.377$.<span
-  data-label="t_investors"></span>
+  data-label="tab:t-investors"></span>
 
 Here there are four conditional distributions, one for each age group,
 and each of them is described by four proportions of different levels of
@@ -876,7 +876,7 @@ values would be entirely unenlightening.
   --------------- ----------- ------
 
   : Frequency distribution of GDP per capita in the country data.<span
-  data-label="t_gdp"></span>
+  data-label="tab:t-gdp"></span>
 
 Instead, we can count the frequencies for some *intervals* of values.
 Table \@ref(t-gdp) shows an example of this for the GDP variable. The
@@ -1323,7 +1323,7 @@ panel B of Figure \@ref(f-skews) is (approximately) **symmetric**.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   : Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.<span
-  data-label="t_countries_sums"></span>
+  data-label="tab:t-countries-sums"></span>
 
 ![Examples of a negatively skewed and an approximately symmetric sample
 distribution. Panel A shows the distribution of examination marks for
@@ -1407,7 +1407,7 @@ can be used for such variables, but they are not described here.
   ---------- --------------------------------
 
   : A hypothetical examples of test marks of students in three
-  classes.<span data-label="t_classmarks"></span>
+  classes.<span data-label="tab:t-classmarks"></span>
 
 #### Range {-}
 
@@ -1514,7 +1514,7 @@ that an observation is larger than the mean (e.g. $10-6=+4$).
 
   : Calculating the standard deviation of test marks for Class 3 in the
   class example of page \pageref{p_classex}.<span
-  data-label="t_sdex"></span>
+  data-label="tab:t-sdex"></span>
 
 The deviations are clearly related to variation, as a sample with little
 variation will have small deviations (most observations are close to the

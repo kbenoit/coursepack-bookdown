@@ -125,7 +125,7 @@ possible census error in it).
   $\hat{\Delta}$, the $z$-test statistic for the hypothesis
   $H_{0}: \Delta=0$, its $P$-value against a two-sided alternative, and
   a 95% confidence interval for $\Delta$. <span
-  data-label="t_probex"></span>
+  data-label="tab:t-probex"></span>
 
 
 **Example 5.3: The Salk polio vaccine field trial of 1954**
@@ -618,7 +618,7 @@ books.
   \pageref{s_disttables_t}). The lower part of the table includes the
   same numbers rearranged to show critical values for conventional
   significance levels for one- and two-sided tests. <span
-  data-label="t_ttable"></span>
+  data-label="tab:t-ttable"></span>
 
   ------------------------------------ ------------------------------------------ ------ ------ -------
                                                               Significance levels               
@@ -633,7 +633,7 @@ books.
   \pageref{s_disttables_t}). The lower part of the table includes the
   same numbers rearranged to show critical values for conventional
   significance levels for one- and two-sided tests. <span
-  data-label="t_ttable"></span>
+  data-label="tab:t-ttable"></span>
 
 The columns of the first part of Table \@ref(t-ttable) are labelled
 “Right-hand tail probabilities”, with separate columns for some values
@@ -920,7 +920,7 @@ also shown in Table \@ref(t-ciq).
   on the normal distribution, for three standard confidence levels.
   These values are substituted for $z_{\alpha/2}$ in formula
   (\@ref(ci-D-gen)) to obtain the confidence interval.<span
-  data-label="t_ciq"></span>
+  data-label="tab:t-ciq"></span>
 
 A confidence interval contains, loosely speaking, those numbers which
 are considered plausible values for the unknown population difference

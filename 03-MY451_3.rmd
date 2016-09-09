@@ -342,7 +342,7 @@ Table \@ref(t-attitude) on page \pageref{t_attitude}.
   population of 50 million people. The numbers in the table are
   frequencies in millions of people, row percentages (in parentheses)
   and overall percentages \[in square brackets\].<span
-  data-label="t_sex_attitude_pop"></span>
+  data-label="tab:t-sex-attitude-pop"></span>
 
 Imagine now that the full population consisted of 50 million people, and
 that the values of the two variables for them were as shown in Table
