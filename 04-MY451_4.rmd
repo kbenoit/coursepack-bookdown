@@ -142,7 +142,7 @@ their details.
 
 ### Hypotheses {#ss_tables_chi2test_null}
 
-#### The null hypothesis and the alternative hypothesis
+#### The null hypothesis and the alternative hypothesis {-}
 
 The technical term for the hypothesis that is tested in statistical
 significance testing is the **null hypothesis**. It is often denoted
@@ -196,7 +196,7 @@ all identical, i.e. that for at least one pair of levels of the
 explanatory variable the conditional probabilities of at least one
 category of the response variable are not the same.
 
-#### Statistical hypotheses and research hypotheses
+#### Statistical hypotheses and research hypotheses {-}
 
 The word “hypothesis” appears also in research design and philosophy of
 science. There a **research hypothesis** means a specific claim or
@@ -464,7 +464,7 @@ will introduce the concept of a sampling distribution in some detail,
 starting with a general definition and then focusing on the case of test
 statistics in general and the $\chi^{2}$ test in particular.
 
-#### Sampling distribution of statistic: General definition
+#### Sampling distribution of statistic: General definition {-}
 
 The $\chi^{2}$ test statistic (\ref{chi2}) is a *statistic* as defined
 defined on page \pageref{p_statistic}, that is a number calculated from
@@ -514,7 +514,7 @@ the value of a statistic for each of them, and examine the distribution
 of the statistic across these repeated samples. We will make use of both
 of these approaches below.
 
-#### Sampling distribution of a test statistic under the null hypothesis
+#### Sampling distribution of a test statistic under the null hypothesis {-}
 
 The sampling distribution of any statistic depends primarily on what the
 population is like. For test statistics, note that requirement 2 above
@@ -538,7 +538,7 @@ derived from the sampling distribution of the test statistic *under the
 null hypothesis*. It is the only sampling distribution that is needed
 for carrying out a significance test.
 
-#### Sampling distribution of the $\chi^{2}$ test statistic under independence
+#### Sampling distribution of the $\chi^{2}$ test statistic under independence {-}
 
 For the $\chi^{2}$ test, we need the sampling distribution of the test
 statistic (\ref{chi2}) under the independence null hypothesis
@@ -879,7 +879,7 @@ indicate very similar levels of evidence against a null hypothesis, and
 acting as if one was somehow qualitatively more decisive is simply
 misleading.
 
-#### How to state the conclusions
+#### How to state the conclusions {-}
 
 The final step of a significance test is describing its conclusions in a
 research report. This should be done with appropriate care:

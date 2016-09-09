@@ -903,7 +903,7 @@ categories (making the table harder to read).
 
 ### Graphical methods {#ss_descr1_1cont_graphs}
 
-#### Histograms
+#### Histograms {-}
 
 ![Histogram of GDP per capita in the country data, together with the
 corresponding frequency polygon.<span
@@ -936,7 +936,7 @@ Figure \ref{f_hist_gdp} (less than 2.5, 2.5–less than 5.0, 5.0–less than
 to computer packages such as SPSS which use automatic rules for choosing
 sensible intervals.
 
-#### Frequency polygons
+#### Frequency polygons {-}
 
 Figure \ref{f_hist_gdp} also shows a **frequency polygon** of the GDP
 variable. This is obtained by drawing lines to connect the mid-points of
@@ -953,7 +953,7 @@ easier to produce in standard software such as SPSS. However, frequency
 polygons will later be useful for making comparisons between several
 distributions.
 
-#### Stem and leaf plots
+#### Stem and leaf plots {-}
 
 A **stem and leaf plot** is a close relative of the histogram, and is
 used for much the same purposes, mostly in small data sets. It is
@@ -1059,7 +1059,7 @@ page.
 ($n=155$).<span
 data-label="f_boxplot_gdp"></span>](box_gdp){width="15cm"}
 
-#### Box plots
+#### Box plots {-}
 
 A **box plot** differs from the graphs discussed so far in that it does
 not attempt to display the whole distribution, but only certain
@@ -1140,7 +1140,7 @@ plots are particularly convenient, because it is easy to place two or
 more of them side by side. This will be illustrated later in Section
 \ref{ss_means_descr_graphs}.
 
-#### Other graphs for single variables
+#### Other graphs for single variables {-}
 
 Other types of graphs that are not described here are also sometimes
 used for displaying distributions. One of them is a **pie chart**, which
@@ -1181,7 +1181,7 @@ three such measures below: the mode, the median and the mean
 (corresponding, respectively, to the phrases “most typical”, “middle”
 and “average” used above).
 
-#### The mode
+#### The mode {-}
 
 The **mode** is the value of the variable which occurs most often in the
 data, i.e. the one with the highest frequency. For example, Tables
@@ -1208,7 +1208,7 @@ example, it is perfectly possible that all but one value appear once
 each in a sample, and the mode is the value which happens to occur
 twice.
 
-#### The median
+#### The median {-}
 
 Suppose that the values of a variable in a sample are first ordered from
 the smallest to the largest. For example, in Table \ref{t_countrydata}
@@ -1243,7 +1243,7 @@ the category in which the cumulative percentage reaches or passes 50%.
 For the democracy index this happens for the score of 6, which has a
 cumulative percentage of 50.9%.
 
-#### The mean
+#### The mean {-}
 
 The **mean** is the best-known and most widely used measure of central
 tendency. It is also known as the **average**. To define the mean, we
@@ -1409,7 +1409,7 @@ can be used for such variables, but they are not described here.
   : A hypothetical examples of test marks of students in three
   classes.<span data-label="t_classmarks"></span>
 
-#### Range
+#### Range {-}
 
 The **range** of a variable is simply the difference between its largest
 and smallest observed values (the **maximum** and **minimum** in
@@ -1430,7 +1430,7 @@ In the country data, the range of GDP is \$37800-\$500=\$37300, and the
 range of the democracy score (if we cautiously treat it as an
 interval-level variable) is 10-0=10.
 
-#### Interquartile range
+#### Interquartile range {-}
 
 The range is often not a particularly useful measure of variation,
 because it depends *only* on the two extremes of the data. It is thus
@@ -1479,7 +1479,7 @@ first and third quartiles for GDP are 1.7 and 11.4 respectively, and
 IQR=11.4-1.7=9.7. For the democracy score the quartiles are 1 and 9, and
 IQR=8.
 
-#### Standard deviation
+#### Standard deviation {-}
 
 The most commonly used measure of variation is based on the
 **deviations** $$Y_{i}-\bar{Y}$$ where $Y_{i}$ again denotes an

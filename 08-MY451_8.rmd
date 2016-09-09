@@ -98,7 +98,7 @@ associations will be considered in Section \ref{s_regression_simple}.
 
 ### Graphical methods {#ss_regression_descr_plots}
 
-#### Scatterplots
+#### Scatterplots {-}
 
 The standard statistical graphic for summarising the association between
 two continuous variables is a **scatterplot**. An example of it is given
@@ -157,7 +157,7 @@ will resume the discussion of these issues in Section
 digress briefly from the main thrust of this chapter in order to
 describe a slightly different kind of scatterplot.
 
-#### Line plots for time series
+#### Line plots for time series {-}
 
 A very common special case of a scatterplot is one where the
 observations correspond to measurements of a variable for the same unit
@@ -1102,7 +1102,8 @@ $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
     (\ref{sigma_linreg}) shows that $\hat{\sigma}$ is then equal to the
     usual sample standard deviation $s_{y}$ of $Y_{i}$.
 
-#### Coefficient of determination ($R^{2}$) {#p_R2}
+#### Coefficient of determination ($R^{2}$)  {-}
+<!--{#p_R2}-->
 
 The **coefficient of determination**, more commonly known as
 $\mathbf{R^{2}}$ (“R-squared”), is a measure of association very often
@@ -1695,7 +1696,7 @@ simple model, and require little further explanation:
 
 ### Interpretation and inference for the regression coefficients {#ss_regression_multiple_beta}
 
-#### Interpretation
+#### Interpretation {-}
 
 The concept of statistical control was outlined in Section
 \ref{s_regression_causality} above. In essence, its idea is to examine
@@ -1793,7 +1794,7 @@ example, the estimated effect of School enrolment was qualitatively
 unaffected by controlling for the other variables, and decreased in
 magnitude from -0.179 to -0.139.
 
-#### Inference
+#### Inference {-}
 
 Inference for the regression coefficients in a multiple linear model
 differs from that for the simple model in interpretation but not in

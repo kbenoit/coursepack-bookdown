@@ -11,7 +11,7 @@ instructions for individual computer classes, which begin on page
 
 ## General instructions
 
-#### Using the networked computers at LSE
+#### Using the networked computers at LSE {-}
 
 -   To access IT facilities at LSE you need an IT account with its
     **Username** and **Password**. Please see
@@ -31,7 +31,7 @@ instructions for individual computer classes, which begin on page
     password and press **Enter** or click on the **OK** button. This
     will log you on to the computer.
 
-#### Data downloading
+#### Data downloading {-}
 
 The instructions for each class will give the name of a file or files
 which will be used for that exercise. In order to do the class, you will
@@ -44,7 +44,7 @@ web-based **Moodle** system. See instructions on page
 
 ## Introduction to SPSS
 
-#### General information and documentation
+#### General information and documentation {-}
 
 SPSS (formerly Statistical Package for the Social Sciences) is a widely
 used general-purpose statistical software package. It will be used for
@@ -69,7 +69,7 @@ These are given here purely as examples (there are many others) and not
 as recommendations. We have not reviewed any of these books in detail
 and so cannot make any comparisons between them.
 
-#### Starting SPSS
+#### Starting SPSS {-}
 
 To start SPSS, double-click on the SPSS icon on the Windows desktop.
 Alternatively, click on the **Start** button at the bottom left corner,
@@ -82,7 +82,7 @@ An initial screen for opening data files appears. Click on **Cancel** to
 get rid of this and to enter the data editor (which will be discussed
 further below).
 
-#### Exiting from SPSS
+#### Exiting from SPSS {-}
 
 Select **Exit** from the **File** menu or click on the X at the upper
 right corner of the SPSS data editor window. You may then be prompted to
@@ -90,7 +90,7 @@ save the information in the open windows; in particular, you should save
 the contents of the data editor in a file (see below) if you have made
 any changes to it.
 
-#### SPSS windows
+#### SPSS windows {-}
 
 There are several different types of windows in SPSS. The two most
 important are
@@ -126,7 +126,7 @@ There are also other windows, for example for editing SPSS graphs. They
 will be discussed in the instructions to individual computer classes
 where necessary.
 
-#### Menus
+#### Menus {-}
 
 SPSS has a menu-based interface, which can be used to access most of its
 features for statistical analysis, manipulation of data, loading, saving
@@ -162,7 +162,7 @@ and printing files, and so on.
     what they do. Further information on them can be accessed through
     the **Help** button in each dialog box.
 
-#### Notational conventions for the instructions
+#### Notational conventions for the instructions {-}
 
 Because analyses in SPSS are carried out by making choices from the
 menus, the instructions for the computer classes need to describe these
@@ -257,7 +257,7 @@ usually quicker to reopen a dialog box using the dialog recall button
 than through the menus.
 
 
-#### SPSS session options
+#### SPSS session options {-}
 
 
 Various options for controlling the format of SPSS output and other
@@ -273,7 +273,7 @@ alphabetical order rather than the order in which the variables are
 included in the data set.
 
 
-#### Printing from SPSS
+#### Printing from SPSS {-}
 
 
 All the computers in the public rooms are connected to one of the laser
@@ -298,7 +298,7 @@ credit on your printing account. See
     files sent for printing are then listed. Select the appropriate file
     number and follow the instructions given by the computer.
 
-#### SPSS control language
+#### SPSS control language {-}
 
 Early versions of SPSS had no menu-based interface. Instead, commands
 were executed by specifying them in SPSS command language. This language
@@ -342,7 +342,7 @@ menus. Two easy ways of doing so are
 
 ## WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p_class1}
 
-#### Data set
+#### Data set {-}
 
 The data file **ESS5\_sample.sav** will be used today. It contains a
 simplified sample of data from UK respondents in the 2010 European
@@ -362,9 +362,9 @@ learning how the software works. Secondly, this exercise may be a useful
 introduction for students who go on to collect or collate data for their
 own empirical research.
 
-#### Classwork
+#### Classwork {-}
 
-#### Part 1: The layout of an SPSS data file
+#### Part 1: The layout of an SPSS data file {-}
 
 1.  **Opening an SPSS data file**: this is done from **File/Open/Data**,
     selecting the required file from whichever folder it is saved in in
@@ -438,7 +438,7 @@ own empirical research.
     made to ESS5\_sample.sav, so click **No** if prompted to do
     so below.
 
-#### Part 2: Descriptive statistics for categorical variables
+#### Part 2: Descriptive statistics for categorical variables {-}
 
 Most of the statistics required for this class are found in SPSS under
 **Analyze/Descriptive Statistics/Frequencies** as follows:
@@ -507,7 +507,7 @@ course. They can be ignored here.
 
 \newpage
 
-#### Part 3: Entering data directly into Data Editor
+#### Part 3: Entering data directly into Data Editor {-}
 
 This procedure may be useful to know if the data you are analysing are
 not in any electronic form at the beginning of the analysis, for example
@@ -600,7 +600,7 @@ Sex: Woman; Age: 16; Weight: 7 st 8lbs
             calculator buttons in a fairly obvious way.
 
 
-#### WEEK 2 HOMEWORK
+#### WEEK 2 HOMEWORK {-}
 
 The homework exercise for this week is to complete the multiple choice
 quiz which you can find in the Moodle resource for MY451. Answers to the
@@ -621,7 +621,7 @@ a range of statistical data about the city, collated by the Greater
 London Authority’s *GLA Intelligence Unit* [^2].
 
 
-#### Descriptive statistics in SPSS
+#### Descriptive statistics in SPSS {-}
 
 
 This week you will produce and examine descriptive statistics for a
@@ -668,7 +668,7 @@ this and all subsequent classes, the output may also include some
 entries corresponding to methods and statistics not discussed on this
 course. They can be ignored here.
 
-#### Classwork
+#### Classwork {-}
 
 1.  The variable *YOUTH\_DEPRIVATION* records for each borough the
     percentage of children who live in out-of-work families. This is an
@@ -701,7 +701,7 @@ course. They can be ignored here.
     Data View you can see that this 1st case is the City of London.
     Which borough is the outlier for CRIME?
 
-#### HOMEWORK
+#### HOMEWORK {-}
 
 For the questions below, select the relevant SPSS output to include in
 your homework and write brief answers to the specific questions.
@@ -738,7 +738,7 @@ selection of variables on attitudes and demographic characteristics for
 full data set contains 790 variables. For convenience the version you
 are analysing today contains just a selection of those items.
 
-#### Analysing two-way contingency tables in SPSS
+#### Analysing two-way contingency tables in SPSS {-}
 
 All of the analyses needed for this week’s class are found under
 **Analyze/Descriptive Statistics/Crosstabs**. We will be obtaining
@@ -765,7 +765,7 @@ The only additional output we will need today is obtained by selecting
     “Value” column for “Gamma”. We will not use this measure today, but
     feel free to ask if you are interested in it.)
 
-#### Classwork
+#### Classwork {-}
 
 Suppose we want to use the GSS data to investigate whether in the
 U.S. population sex and age are associated with attitudes towards
@@ -817,7 +817,7 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
     ‘Exact Sig. (1-sided)’’, and use the result under
     “Asymp. Sig. (2-sided)” as in the other tables.)
 
-#### HOMEWORK
+#### HOMEWORK {-}
 
 1.  What is the null hypothesis for the $\chi^{2}$ test that you carried
     out in analysis 2 in the class, for the table of *AGEGROUP* by
@@ -961,7 +961,7 @@ France[^5].
     by using an online $P$-value calculator — see “About Week 4 class”
     on the Moodle page for suggested links).
 
-#### Classwork
+#### Classwork {-}
 
 The survey data set *BES2010post\_lastdebate.sav* contains part of the
 information collected by the British Election Study, an ongoing research
@@ -1065,7 +1065,7 @@ respondents’ voting intentions, obtained after the debates had ended
     difference in proportions of prospective Liberal Democrat voters
     between the debate-watchers and debate-non-watchers?
 
-#### HOMEWORK
+#### HOMEWORK {-}
 
 Write up your answers to the second class exercise. In particular,
 answer the following specific questions:
@@ -1114,7 +1114,7 @@ actually did. Answer the following questions:
 
 **Data set**: Files **decathlon2012.sav**.
 
-#### Scatterplots, correlation and simple linear regression in SPSS
+#### Scatterplots, correlation and simple linear regression in SPSS {-}
 
 -   A scatterplot is obtained from **Graphs/Legacy
     Dialogs/“Scatter/Dot”/ Simple Scatter/Define**. The variables for
@@ -1144,7 +1144,7 @@ actually did. Answer the following questions:
     intervals** to include also 95% confidence intervals for the
     regression coefficients in the output.
 
-#### Classwork
+#### Classwork {-}
 
 Decathlon is a sport where the participants complete ten different
 athletics events over two days. Their results in each are then
@@ -1224,7 +1224,7 @@ variables on attitudes and demographic characteristics for 2044
 respondents in the 2010 U.S. General Social Survey (GSS)[^8]. Only a few
 of the variables are used in the exercises.
 
-#### Classwork - linear regression
+#### Classwork - linear regression {-}
 
 Here we will focus on the variables *EDUC*, *PAEDUC*, *MAEDUC* and
 *SPEDUC*. These show the number of years of education completed by,
@@ -1258,12 +1258,12 @@ father, mother and spouse.
     education for a respondent whose father completed 12 years of
     education?
 
-#### HOMEWORK: Simple linear regression and three-way tables
+#### HOMEWORK: Simple linear regression and three-way tables {-}
 
 The homework exercise uses the same data set for two different types of
 analysis.
 
-#### Linear regression
+#### Linear regression {-}
 
 Draw a scatterplot with fitted line for *EDUC* given *MAEDUC*. Fit a
 linear regression model between these variables, regressiong *EDUC*
@@ -1280,7 +1280,7 @@ linear regression model between these variables, regressiong *EDUC*
 
 3.  Interpret the R-squared statistic for the model.
 
-#### Analysing multiway contingency tables in SPSS
+#### Analysing multiway contingency tables in SPSS {-}
 
 Three-way contingency tables are again obtained from
 **Analyze/Descriptive Statistics/Crosstabs**. The only change from Week
@@ -1335,7 +1335,7 @@ are these:
 **Data set**: File **humandevelopment2011.sav**.
 
 
-#### Multiple linear regression in SPSS
+#### Multiple linear regression in SPSS {-}
 
 -   Multiple linear regression is obtained from
     **Analyze/Regression/Linear**, by placing all of the required
@@ -1361,7 +1361,7 @@ are these:
     variable *URBAN\_POP* was less than 50 and 0 otherwise.
 
 
-#### Classwork
+#### Classwork {-}
 
 
 The file *humandevelopment2011.sav* contains data on a number of
