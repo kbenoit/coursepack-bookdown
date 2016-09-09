@@ -35,18 +35,17 @@ largest number of applications, labelled below Departments 2–5
 \ref{t_berkeley1} shows the two-way contingency table of the sex of the
 applicant and whether he or she was admitted to the university.
 
-  ----------------------------------------------------------------- -------------------------------- ------ ------- -------
-                                                                      \multicolumn{2}{|c|}{Admitted}                
-  Sex                                                                                             No    Yes   % Yes   Total
-  Male                                                                                          1180    686    36.8    1866
-  Female                                                                                        1259    468    27.1    1727
-  Total                                                                                         2439   1154    32.1    3593
-  \multicolumn{5}{l}{{\small $\chi^{2}=38.4$, $df=1$, $P<0.001$}}                                                   
-  ----------------------------------------------------------------- -------------------------------- ------ ------- -------
+  ----------------------------------------------------------------- -------------------------------- ---------- ------- -------
+  \                                                                                         Admitted   Admitted       \       \
+  Sex                                                                                             No        Yes   % Yes   Total
+  Male                                                                                          1180        686    36.8    1866
+  Female                                                                                        1259        468    27.1    1727
+  Total                                                                                         2439       1154    32.1    3593
+  ----------------------------------------------------------------- -------------------------------- ---------- ------- -------
 
   : Table of sex of applicant vs. admission in the Berkeley admissions
   data. The column labelled ‘% Yes’ is the percentage of applicants
-  admitted within each row.<span data-label="t_berkeley1"></span>
+  admitted within each row. $\chi^{2}=38.4$, $df=1$, $P<0.001$.<span data-label="t_berkeley1"></span>
 
 
 The percentages in Table \ref{t_berkeley1} show that men were more
@@ -59,54 +58,31 @@ considered in the analysis. One of them is the academic department to
 which an applicant had applied. Information on the department as well as
 sex and admission is shown in Table \ref{t_berkeley2}.
 
-  ---------------------------- ------------------------------------------------ -------------------------------- ------ ------- -------
-                                                                                  \multicolumn{2}{|c|}{Admitted}                
-
-  Department                   Sex                                                                            No    Yes   % Yes   Total
-
-  2                            Male                                                                          207    353    63.0     560
-
-                               Female                                                                          8     17    68.0      25
-
-                               Total                                                                         215    370    63.2     585
-
-  \multicolumn{2}{|l}{$\,$ }   \multicolumn{4}{l|}{$\chi^{2}=0.25$,                                                             
-                               $P=0.61$}                                                                                        
-
-  3                            Male                                                                          205    120    36.9     325
-
-                               Female                                                                        391    202    34.1     593
-
-                               Total                                                                         596    322    35.1     918
-
-  \multicolumn{2}{|l}{$\,$ }   \multicolumn{4}{l|}{$\chi^{2}=0.75$, $P=0.39$}                                                   
-
-  4                            Male                                                                          279    138    33.1     417
-
-                               Female                                                                        244    131    34.9     375
-
-                               Total                                                                         523    269    34.0     792
-
-  \multicolumn{2}{|l}{$\,$ }   \multicolumn{4}{l|}{$\chi^{2}=0.30$, $P=0.59$}                                                   
-
-  5                            Male                                                                          138     53    27.7     191
-
-                               Female                                                                        299     94    23.9     393
-
-                               Total                                                                         437    147    25.2     584
-
-  \multicolumn{2}{|l}{$\,$ }   \multicolumn{4}{l|}{$\chi^{2}=1.00$, $P=0.32$}                                                   
-
-  6                            Male                                                                          351     22     5.9     373
-
-                               Female                                                                        317     24     7.0     341
-
-                               Total                                                                         668     46     6.4     714
-
-  \multicolumn{2}{|l}{$\,$ }   \multicolumn{4}{l|}{$\chi^{2}=0.38$, $P=0.54$}                                                   
-
-  Total                                                                                                     2439   1154    32.1    3593
-  ---------------------------- ------------------------------------------------ -------------------------------- ------ ------- -------
+  ---------------------------- ------------------------------------------------ -------------------------------- ---------- ------- -------
+  \                            \                                                                        Admitted   Admitted       \       \
+  Department                   Sex                                                                            No        Yes   % Yes   Total
+  2                            Male                                                                          207        353    63.0     560
+                               Female                                                                          8         17    68.0      25
+                               Total                                                                         215        370    63.2     585
+  $\chi^{2}=0.25$, $P=0.61$
+  3                            Male                                                                          205        120    36.9     325
+                               Female                                                                        391        202    34.1     593
+                               Total                                                                         596        322    35.1     918
+  $\chi^{2}=0.75$, $P=0.39$
+  4                            Male                                                                          279        138    33.1     417
+                               Female                                                                        244        131    34.9     375
+                               Total                                                                         523        269    34.0     792
+  $\chi^{2}=0.30$, $P=0.59$
+  5                            Male                                                                          138         53    27.7     191
+                               Female                                                                        299         94    23.9     393
+                               Total                                                                         437        147    25.2     584
+  $\chi^{2}=1.00$, $P=0.32$
+  6                            Male                                                                          351         22     5.9     373
+                               Female                                                                        317         24     7.0     341
+                               Total                                                                         668         46     6.4     714
+  $\chi^{2}=0.38$, $P=0.54$
+  Total                                                                                                     2439       1154    32.1    3593
+  ---------------------------- ------------------------------------------------ -------------------------------- ---------- ------- -------
 
   :  Sex of applicant vs. admission by academic department in the
   Berkeley admissions data. <span data-label="t_berkeley2"></span>
@@ -152,7 +128,7 @@ overall because relatively more of them applied to the more selective
 departments and fewer to the easy ones.
 
   ---------------------- ---------------------------------- ----- ----- ----- -----
-                           \multicolumn{5}{|c|}{Department}                   
+  \                                              Department     \     \     \     \
   Of all applicants                                       2     3     4     5     6
   % Male                                                 96    35    53    33    52
   % Admitted                                             63    35    34    25     6
@@ -204,75 +180,44 @@ men and $\gamma=-0.395$ among women). The conclusions obtained from the
 original two-way table are thus unchanged after controlling for sex.
 
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
-  **MEN**                                                    \multicolumn{4}{|c|}{Importance of short-term gains }                                     
-
-                                                                                                                      Slightly                    Very
-
+  **MEN**                                                                                                        \    Slightly           \        Very       \
   Age group                                                                                             Irrelevant   important   Important   important   Total
-
   Under 45                                                                                                      29          35          30          22     116
-
                                                                                                              0.250       0.302       0.259       0.190   1.000
-
   45–54                                                                                                         83          60          52          29     224
-
                                                                                                              0.371       0.268       0.232       0.129   1.000
-
   55–64                                                                                                        116          40          28          16     200
-
                                                                                                              0.580       0.200       0.140       0.080   1.000
-
   65 and over                                                                                                  150          53          16          12     231
-
                                                                                                              0.649       0.229       0.069       0.052   1.000
-
   Total                                                                                                        378         188         126          79     771
-
                                                                                                              0.490       0.244       0.163       0.102   1.000
-
-  \multicolumn{6}{l}{$\chi^{2}=82.4$, $df=9$, $P<0.001$.                                                                                               
-  $\gamma=-0.376$}                                                                                                                                     
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
 
   :  Frequencies of respondents by age group and attitude towards
   short-term gains in Example 9.2, controlling for sex of respondent.
-  The numbers below the frequencies are proportions within rows.<span
+  The numbers below the frequencies are proportions within rows. $\chi^{2}=82.4$, $df=9$, $P<0.001$. $\gamma=-0.376$.<span
   data-label="t_investors3"></span>
 
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
-  **WOMEN**                                                  \multicolumn{4}{|c|}{Importance of short-term gains }                                     
-
-                                                                                                                      Slightly                    Very
+  **WOMEN**                                                                                                           Slightly                    Very
 
   Age group                                                                                             Irrelevant   important   Important   important   Total
-
   Under 45                                                                                                       8          10           8           4      30
-
                                                                                                              0.267       0.333       0.267       0.133   1.000
-
   45–54                                                                                                         28          17           5           8      58
-
                                                                                                              0.483       0.293       0.086       0.138   1.000
-
   55–64                                                                                                         37           9           3           4      53
-
                                                                                                              0.698       0.170       0.057       0.075   1.000
-
   65 and over                                                                                                   43          11           3           3      60
-
                                                                                                              0.717       0.183       0.050       0.050   1.000
-
   Total                                                                                                        116          47          19          19     201
-
                                                                                                              0.577       0.234       0.095       0.095   1.000
-
-  \multicolumn{6}{l}{$\chi^{2}=27.6$, $df=9$, $P=0.001$.                                                                                               
-  $\gamma=-0.395$}                                                                                                                                     
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
 
   :  Frequencies of respondents by age group and attitude towards
   short-term gains in Example 9.2, controlling for sex of respondent.
-  The numbers below the frequencies are proportions within rows.<span
+  The numbers below the frequencies are proportions within rows. $\chi^{2}=27.6$, $df=9$, $P=0.001$. $\gamma=-0.395$.<span
   data-label="t_investors3"></span>
 
 **Example 9.3**: ***The Titanic***
@@ -289,7 +234,7 @@ suggests, in particular, that women and children among the passengers
 were more likely to survive than male passengers or the ship’s crew.
 
   ---------------------------------------------------------------------- -------------------------------- --------- ---------
-                                                                           \multicolumn{2}{|c|}{Survivor}           
+                                                                                                 Survivor           
   Group                                                                                               Yes        No     Total
   Male passenger                                                                                      146       659       805
                                                                                                   (0.181)   (0.819)   (1.000)
@@ -299,12 +244,11 @@ were more likely to survive than male passengers or the ship’s crew.
                                                                                                   (0.240)   (0.760)   (1.000)
   Total                                                                                               711      1490      2201
                                                                                                   (0.323)   (0.677)   (1.000)
-  \multicolumn{4}{l}{\small $\chi^{2}=418$, $\text{df}=2$, $P<0.001$.}                                              
   ---------------------------------------------------------------------- -------------------------------- --------- ---------
 
   : Survival status of the people aboard the *Titanic*, divided into
   three groups. The numbers in brackets are proportions of survivors and
-  non-survivors within each group.<span data-label="t_titanic2"></span>
+  non-survivors within each group. $\chi^{2}=418$, $\text{df}=2$, $P<0.001$.<span data-label="t_titanic2"></span>
 
 We next control also for the class in which a person was travelling,
 classified as first, second or third class. Since class does not apply
@@ -315,30 +259,30 @@ the row for crew members. This association is strongly significant, with
 $\chi^{2}=344$ and $P<0.001$.
 
   ------------------------------------ ---------------- -------------------------------- ------- -------
-                                                          \multicolumn{2}{|c|}{Survivor}         
+  \                                    \                                        Survivor       \       \
   Class                                Group                                         Yes      No   Total
-  \multicolumn{5}{l}{}                                                             
+
   First                                Man                                            57     118     175
                                                                                    0.326   0.674   1.000
                                        Woman or child                                146       4     150
                                                                                    0.973   0.027   1.000
                                        Total                                         203     122     325
                                                                                    0.625   0.375   1.000
-  \multicolumn{5}{l}{}                                                             
+
   Second                               Man                                            14     154     168
                                                                                    0.083   0.917   1.000
                                        Woman or child                                104      13     117
                                                                                    0.889   0.111   1.000
                                        Total                                         118     167     285
                                                                                    0.414   0.586   1.000
-  \multicolumn{5}{l}{}                                                             
+
   Third                                Man                                            75     387     462
                                                                                    0.162   0.838   1.000
                                        Woman or child                                103     141     244
                                                                                    0.422   0.578   1.000
                                        Total                                         178     528     706
                                                                                    0.252   0.748   1.000
-  \multicolumn{5}{l}{}                                                             
+
   Total                                                                              499     817    1316
                                                                                    0.379   0.621   1.000
   ------------------------------------ ---------------- -------------------------------- ------- -------
@@ -462,18 +406,18 @@ misleading, as the finding is not really paradoxical in any logical
 sense. Instead, it is again a consequence of a particular pattern of
 associations between the control variable and the other two variables.
 
-  ---------------- ----------------------------------------------- -------------------------------------------- --------- ------------
-                     \multicolumn{2}{|c|}{\% Alive after 20 years}   \multicolumn{2}{|c|}{Number (in 1972--74)}           
-  Age group                                                Smokers                                   Nonsmokers   Smokers   Nonsmokers
-  18–24                                                       96.4                                         98.4        55           62
-  25–34                                                       97.6                                         96.8       124          157
-  35–44                                                       87.2                                         94.2       109          121
-  45–54                                                       79.2                                         84.6       130           78
-  55–64                                                       55.7                                         66.9       115          121
-  65–74                                                       19.4                                         21.7        36          129
-  75–                                                          0.0                                          0.0        12           64
-  All age groups                                              76.1                                         68.6       582          732
-  ---------------- ----------------------------------------------- -------------------------------------------- --------- ------------
+  ---------------- ----------------------------------------------- -------------------------------------------- ----------------------- ------------
+  \                                       \% Alive after 20 years:                                            \   Number (in 1972--74):            \
+  Age group                                                Smokers                                   Nonsmokers   Smokers                 Nonsmokers
+  18–24                                                       96.4                                         98.4                      55           62
+  25–34                                                       97.6                                         96.8                     124          157
+  35–44                                                       87.2                                         94.2                     109          121
+  45–54                                                       79.2                                         84.6                     130           78
+  55–64                                                       55.7                                         66.9                     115          121
+  65–74                                                       19.4                                         21.7                      36          129
+  75–                                                          0.0                                          0.0                      12           64
+  All age groups                                              76.1                                         68.6                     582          732
+  ---------------- ----------------------------------------------- -------------------------------------------- ----------------------- ------------
 
   : Percentage of respondents in Example 9.4 surviving at the time of
   the second survey, by smoking status and age group in 1972–74.<span
@@ -497,8 +441,8 @@ all the 582 smokers, 9% of all the 732 nonsmokers and 9% of the 1314
 respondents overall were in this age group.
 
   --------- ------------- --------------------------------------- ----------------------------- ------------------------ -------
-                           \multicolumn{2}{c}{Row and column \%}   \multicolumn{2}{|c|}{Total}                           
-    % Alive Age group                     Smokers                          Nonsmokers            \multicolumn{1}{c}{\%}    Count
+          \ \                        Row and column \%:                         \                        Total:                \
+    % Alive Age group                     Smokers                          Nonsmokers                      \%              Count
          97 18–24                           47                                 53                         100                117
                                            (10)                                (9)                        (9)            
          97 25–34                           44                                 56                         100                281

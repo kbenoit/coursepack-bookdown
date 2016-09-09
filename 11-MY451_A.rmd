@@ -59,7 +59,7 @@ tutorials found under the **Help** menu of the program, and in
 introductory guide books such as\label{p_spssbooks}
 
 Field, A. (2013). *Discovering Statistics using IBM SPSS Statistics*
-(4th ed). Sage. 
+(4th ed). Sage.
 Kinnear, P. R. and Gray, C. D. (2012). *SPSS 19 Made Simple*. Psychology
 Press.
 Pallant, J. (2013). *SPSS Survival Manual* (5th ed). Open University
@@ -1593,8 +1593,7 @@ Explanation of the “Table of standard normal tail probabilities” on page
 ## Table of critical values for $t$-distributions {#s-disttables-t}
 
   ---------------- --------------------------------------------------- ------- -------- -------- -------- --------- ---------
-                     \multicolumn{7}{|c|}{Right-hand tail probability}                                              
-  \cline{2-8} df                                                 0.100   0.050    0.025    0.010    0.005     0.001    0.0005
+  df                                                             0.100   0.050    0.025    0.010    0.005     0.001    0.0005
   1                                                              3.078   6.314   12.706   31.821   63.657   318.309   636.619
   2                                                              1.886   2.920    4.303    6.965    9.925    22.327    31.599
   3                                                              1.638   2.353    3.182    4.541    5.841    10.215    12.924
@@ -1640,7 +1639,6 @@ critical values for the standard normal distribution.
 
 ## Table of critical values for $\chi^{2}$ distributions {#s_disttables_chi2}
 
-          \multicolumn{4}{|c|}{Right-hand Tail probability}                   
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001
   1                                                    2.71     3.84     6.63    10.828
