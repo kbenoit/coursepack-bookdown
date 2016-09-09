@@ -207,13 +207,13 @@ make quick comparisons between the frequencies of different categories
 by comparing the heights of the bars.
 
 ![Bar chart of regions in the country data.<span
-data-label="fig:f-bars_region"></span>](regions){height="9.5cm"}
+data-label="fig:f-bars-region"></span>](regions){height="9.5cm"}
 
 ![Bar chart of the democracy index in the country data.<span
-data-label="fig:f-bars_democ"></span>](democ){height="9.5cm"}
+data-label="fig:f-bars-democ"></span>](democ){height="9.5cm"}
 
 ![Bar chart of the attitude variable in the survey data example.<span
-data-label="fig:f-bars_attitude"></span>](bar_attitude "fig:"){height="8cm"}
+data-label="fig:f-bars-attitude"></span>](bar_attitude "fig:"){height="8cm"}
 \scriptsize{
 Agreement with statement: ``The government should
 take measures to reduce differences in income levels''.
@@ -907,7 +907,7 @@ categories (making the table harder to read).
 
 ![Histogram of GDP per capita in the country data, together with the
 corresponding frequency polygon.<span
-data-label="fig:f-hist_gdp"></span>](gdp){width="13.5cm"}
+data-label="fig:f-hist-gdp"></span>](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
 grouped variable, like that in Table \@ref(t-gdp). Figure
@@ -1057,7 +1057,7 @@ page.
 
 ![An annotated box plot of GDP per capita in the country data
 ($n=155$).<span
-data-label="fig:f-boxplot_gdp"></span>](box_gdp){width="15cm"}
+data-label="fig:f-boxplot-gdp"></span>](box_gdp){width="15cm"}
 
 #### Box plots {-}
 

@@ -827,7 +827,7 @@ prefer a graphical summary, this is given in Figure
 
 ![Illustration of the interpretation of the regression coefficients of a
 simple linear regression model.<span
-data-label="fig:f-linmod_params"></span>](lmparams){width="12.5cm"}
+data-label="fig:f-linmod-params"></span>](lmparams){width="12.5cm"}
 
 The most important parameter of the model, and usually the only one
 really discussed in interpreting the results, is $\beta$, the regression

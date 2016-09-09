@@ -477,7 +477,7 @@ normal distribution. Here the value of the $z$-test statistic is
 $z=-1.59$ (as in the referendum example 5.1). The areas in grey indicate
 the two-sided $P$-values, i.e. the probabilities of values at least as
 far from 0 as the observed value of $z$. <span
-data-label="fig:f-pval_prob"></span>](pval_zp){width="10cm"}
+data-label="fig:f-pval-prob"></span>](pval_zp){width="10cm"}
 
 The $P$-value of the test is calculated from this distribution using the
 general principles introduced in Section \@ref(ss-tables-chi2test-Pval).
