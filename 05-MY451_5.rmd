@@ -7,7 +7,7 @@ only discrete, categorical variables. In fact, we now focus on the
 simplest case of all, that of **dichotomous** (binary) variables which
 have only two possible values. Four examples which will be used for
 illustration throughout this chapter are introduced in Section
-\ref{s_probs_examples}. In the first two of them we consider a binary
+\@ref(s_probs_examples). In the first two of them we consider a binary
 variable in a single population, while in the last two examples the
 question of interest involves a comparison of the distributions of the
 variable between two populations (*groups*).
@@ -37,7 +37,7 @@ inference:
 The comparisons in the two-group analyses again address questions about
 associations, now between the group and the dichotomous variable of
 interest. Here it will be useful to employ the terminology introduced in
-Section \ref{ss_intro_def_assoc}, which distinguishes between the
+Section \@ref(ss_intro_def_assoc), which distinguishes between the
 **explanatory variable** and the **response variable** in the
 association. Following a common convention, we will denote the
 explanatory variable by $X$ and the response variable by $Y$. In the
@@ -50,7 +50,7 @@ the one-group examples.
 
 The following four examples will be discussed in this chapter. Examples
 5.1 and 5.2 concern only one group, while in Examples 5.3 and 5.4 two
-groups are to be compared. Table \ref{t_probex} shows basic sample
+groups are to be compared. Table \@ref(t_probex) shows basic sample
 statistics for the examples, together with the results of the
 significance tests and confidence intervals described later.
 
@@ -116,7 +116,7 @@ possible census error in it).
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   : Examples of analyses of population proportions used in Chapter
-  \ref{c_probs}. In addition to sample sizes $n$ and proportions
+  \@ref(c_probs). In addition to sample sizes $n$ and proportions
   $\hat{\pi}$, the table shows for the one-sample examples 5.1 and 5.2
   the $z$-test statistic for the hypothesis $H_{0}: \pi=\pi_{0}$, its
   $P$-value against a two-sided alternative, and a 95% confidence
@@ -180,7 +180,7 @@ dichotomous response variable $Y$ is whether the respondent gave a
 response which was optimistic about the future (i.e. agreed with the
 positive or disagreed with the negative question) or a pessimistic
 response. The sample sizes and proportions of optimistic responses in
-the two groups are reported in Table \ref{t_probex}. The proportion is
+the two groups are reported in Table \@ref(t_probex). The proportion is
 higher when the question was worded positively, as we would expect if
 there was acquiescence bias. Whether this difference is statistically
 significant remains to be determined.
@@ -230,12 +230,12 @@ will give an optimistic answer to the survey question.
 The probability $\pi$ is the **parameter** of the binomial distribution.
 In general, the parameters of a probability distribution are one or more
 numbers which fully determine the distribution. For example, in the
-analyses of Chapter \ref{c_tables} we considered conditional
+analyses of Chapter \@ref(c_tables) we considered conditional
 distributions of a one variable in a contingency table given the other
 variable. Although we did not make use of this terminology there, these
 distributions also have their parameters, whcih are the probabilities of
 (all but one of) the categories of the response variable. Another case
-will be introduced in Chapter \ref{c_means}, where we consider a
+will be introduced in Chapter \@ref(c_means), where we consider a
 probability distribution for a continuous variable, and its parameters.
 
 ## Point estimation of a population probability {#s_probs_pointest}
@@ -262,7 +262,7 @@ proportion of units with $Y=1$. If we denote the *number* of such units
 by $m$, the proportion is thus $\hat{\pi}=m/n$, i.e. $m$ divided by the
 sample size $n$. In Example 5.1, $m=330$ and $n=702$, and
 $\hat{\pi}=330/702=0.47$. This and the estimated proportions in the
-other examples are shown in Table \ref{t_probex}, in the two-sample
+other examples are shown in Table \@ref(t_probex), in the two-sample
 examples 5.3 and 5.4 separately for the two groups.
 
 When $Y$ is coded with values 0 and 1, $\hat{\pi}$ is also equal to the
@@ -284,23 +284,23 @@ $\pi_{0}=0.5$, i.e. that the referendum was too close to call. In the
 jury example 5.2 the value of interest would be $\pi_{0}=0.124$, the
 proportion of blacks in the general adult population of the county.
 
-An alternative but equivalent form of (\ref{H0p}) is expressed in terms
+An alternative but equivalent form of (\@ref(H0p)) is expressed in terms
 of the difference $$\Delta=\pi-\pi_{0}
 \label{Dp}$$ ($\Delta$ is the upper-case Greek letter “Delta"). Then
-(\ref{H0p}) can also be written as $$H_{0}: \; \Delta=0,
+(@\ref(H0p)) can also be written as $$H_{0}: \; \Delta=0,
 \label{H0p2}$$ i.e. that there is no difference between the true
 population probability and the hypothesised value $\pi_{0}$. This
 version of the notation allows us later to draw attention to the
 similarities between different analyses in this chapter and in
-Chapter \ref{c_means}. In all of these cases the quantities of interest
+Chapter \@ref(c_means). In all of these cases the quantities of interest
 turn out to be differences of some kind, and the formulas for test
 statistics and confidence intervals will be of essentially the same
 form.
 
-The alternative hypothesis to the null hypothesis (\ref{H0p2}) requires
+The alternative hypothesis to the null hypothesis (\@ref(H0p2)) requires
 some further comments, because there are some new possibilities that did
 not arise for the $\chi^{2}$ test of independence in Chapter
-\ref{c_tables}. For the difference $\Delta$, we may consider two basic
+\@ref(c_tables). For the difference $\Delta$, we may consider two basic
 kinds of alternative hypotheses. The first is a **two-sided alternative
 hypothesis** $$H_{a}: \; \Delta\ne 0
 \label{Hatwo}$$ (where “$\ne$” means “not equal to”). This claims that
@@ -322,10 +322,10 @@ H_{a}:&&  \Delta> 0 \text{or}
 H_{a}:&&  \Delta < 0.
 \label{Haonelt}\end{aligned}$$ Such a hypothesis is only interested in
 values of $\Delta$ to one side of 0, either larger or smaller than it.
-For example, hypothesis (\ref{Haonegt}) in the referendum example 5.1,
+For example, hypothesis (\@ref(Haonegt)) in the referendum example 5.1,
 with $\pi_{0}=0.5$, is $H_{a}:\; \pi>0.5$, i.e. that the proportion who
 intend to vote Yes is *greater* than one half. Similarly, in the jury
-example 5.2, with $\pi_{0}=0.124$, (\ref{Haonelt}) is the hypothesis
+example 5.2, with $\pi_{0}=0.124$, (\@ref(Haonelt)) is the hypothesis
 $H_{a}:\; \pi<0.124$, i.e. that the probability that an eligible black
 person is selected to a jury panel is *smaller* than the proportion of
 blacks in the general population.
@@ -343,13 +343,13 @@ lead to a more cautious (conservative) approach in that it takes
 stronger evidence to reject the null hypothesis when the alternative is
 two-sided than when it is one-sided. Such conservatism is typically
 regarded as a desirable feature in statistical inference (this will be
-discussed further in Section \ref{ss_means_tests3_errors}).
+discussed further in Section \@ref(ss_means_tests3_errors)).
 
 \label{p_onesidednull} The two-sided alternative hypothesis
-(\ref{Hatwo}) is clearly the logical opposite of the null hypothesis
-(\ref{H0p2}): if $\Delta$ is not equal to 0, it must be “not equal” to
+(\@ref(Hatwo)) is clearly the logical opposite of the null hypothesis
+(\@ref(H0p2)): if $\Delta$ is not equal to 0, it must be “not equal” to
 0. So a two-sided alternative hypothesis must correspond to a “point”
-null hypothesis (\ref{H0p2}). For a one-sided alternative hypothesis,
+null hypothesis (\@ref(H0p2)). For a one-sided alternative hypothesis,
 the same logic would seem to imply that the null hypothesis should also
 be one-sided: for example, $H_{0}: \; \Delta\le 0$ and
 $H_{a}:\; \Delta>0$ would form such a logical pair. Often such
@@ -362,13 +362,13 @@ same when the null hypothesis is $H_{0}: \; \Delta\le 0$ as when it is
 $H_{0}: \Delta= 0$, and rejecting or not rejecting one of them is
 equivalent to rejecting or not rejecting the other. We can thus here
 always take the null hypothesis to be technically of the form
-(\ref{H0p2}), even if we are really interested in a corresponding
+(\@ref(H0p2)), even if we are really interested in a corresponding
 “one-sided” null hypothesis. It is then only the alternative hypothesis
 which is explicitly either two-sided or one-sided.
 
 ### The test statistic {#ss_probs_test1sample_teststatistic}
 
-The test statistic used to test hypotheses of the form (\ref{H0p}) is
+The test statistic used to test hypotheses of the form (\@ref(H0p)) is
 the **z-test statistic** $$z=
 \frac{\hat{\Delta}}{\hat{\sigma}_{\hat{\Delta}}}=
 \frac{\text{Estimate of the population difference $\Delta$}}
@@ -377,33 +377,33 @@ of the estimate of $\Delta$}}.
 \label{ttest_gen}$$ The statistic is introduced first in this form in
 order to draw attention to its generality. Null hypotheses in many
 ostensibly different situations can be formulated as hypotheses of the
-form (\ref{H0p2}) about population differences of some kind, and each
-can be tested with the test statistic (\ref{ttest_gen}). For example,
-all of the test statistics discussed in Chapters \ref{c_probs},
-\ref{c_means} and \ref{c_regression} of this course pack will be of this
-type (but the $\chi^{2}$ test statistic of Chapter \ref{c_tables} is
+form (\@ref(H0p2)) about population differences of some kind, and each
+can be tested with the test statistic (\@ref(ttest_gen)). For example,
+all of the test statistics discussed in Chapters \@ref(c_probs),
+\@ref(c_means) and \@ref(c_regression) of this course pack will be of this
+type (but the $\chi^{2}$ test statistic of Chapter \@ref(c_tables) is
 not). The principles of the use and interpretation of the test that are
 introduced in this section apply almost unchanged also in these other
 contexts, and only the exact formulas for calculating $\hat{\Delta}$ and
 $\hat{\sigma}_{\hat{\Delta}}$ will need to be defined separately for
-each of them. In some applications considered in Chapter \ref{c_means}
+each of them. In some applications considered in Chapter \@ref(c_means)
 the test statistic is typically called the **t-test statistic** instead
 of the $z$-test statistic, but its basic idea is still the same.
 
-In (\ref{ttest_gen}), $\hat{\Delta}$ denotes a sample estimate of
+In (\@ref(ttest_gen)), $\hat{\Delta}$ denotes a sample estimate of
 $\Delta$. For a test of a single proportion, this is
 $$\hat{\Delta} = \hat{\pi}-\pi_{0},
 \label{Dhatp}$$ i.e. the difference between the sample proportion and
 $\pi_{0}$. This is the core of the test statistic. Although the forms of
-the two statistics seem rather different, (\ref{Dhatp}) contains the
+the two statistics seem rather different, (\@ref(Dhatp)) contains the
 comparison of the observed and expected sample values that was also at
-the heart of the $\chi^{2}$ test statistic (\ref{chi2}) in Chapter
-\ref{c_tables}. Here the “observed value” is the sample estimate
+the heart of the $\chi^{2}$ test statistic (\@ref(chi2)) in Chapter
+\@ref(c_tables). Here the “observed value” is the sample estimate
 $\hat{\pi}$ of the probability parameter, “expected value” is the value
 $\pi_{0}$ claimed for it by the null hypothesis, and
 $\hat{\Delta}=\hat{\pi}-\pi_{0}$ is their difference. (Equivalently, we
 could also say that the expected value of $\Delta=\pi-\pi_{0}$ under the
-null hypothesis (\ref{H0p2}) is 0, its observed value is $\hat{\Delta}$,
+null hypothesis (\@ref(H0p2)) is 0, its observed value is $\hat{\Delta}$,
 and $\hat{\Delta}=\hat{\Delta}-0$ is their difference.)
 
 If the null hypothesis was true, we would expect the observed difference
@@ -418,21 +418,21 @@ in this we count as “large” both large positive and large negative
 values, or just one or the other, depends on the form of the alternative
 hypothesis, as explained in the next section.)
 
-The $\hat{\sigma}_{\hat{\Delta}}$ in (\ref{ttest_gen}) denotes an
+The $\hat{\sigma}_{\hat{\Delta}}$ in (\@ref(ttest_gen)) denotes an
 estimate of the standard deviation of the sampling distribution of
 $\hat{\Delta}$, which is also known as the estimated **standard error**
-of $\hat{\Delta}$. For the test statistic (\ref{ttest_gen}), it is
+of $\hat{\Delta}$. For the test statistic (\@ref(ttest_gen)), it is
 evaluated under the null hypothesis. The concept of a standard error of
 an estimate will be discussed in more detail in Section
-\ref{s_contd_clt}. Its role in the test statistic is to provide an
+\@ref(s_contd_clt). Its role in the test statistic is to provide an
 interpretable scale for the size of $\hat{\Delta}$, so that the sampling
 distribution discussed in the next section will be of a convenient form.
 
-For a test of the hypothesis (\ref{H0p}) about a single proportion, the
+For a test of the hypothesis (\@ref(H0p)) about a single proportion, the
 estimated standard error under the null hypothesis is
 $$\hat{\sigma}_{\hat{\Delta}} = \sqrt{\frac{\pi_{0}(1-\pi_{0})}{n}},
 \label{seDhatp}$$ and the specific formula of the test statistic
-(\ref{ttest_gen}) is then $$z=\frac{\hat{\pi}-\pi_{0}}
+(\@ref(ttest_gen)) is then $$z=\frac{\hat{\pi}-\pi_{0}}
 {\sqrt{\pi_{0}(1-\pi_{0})/n}}.
 \label{ztestp}$$ This is the **one-sample $z$-test statistic for a
 population proportion**.
@@ -445,13 +445,13 @@ $$z=\frac{0.0457-0.124}{\sqrt{0.124\times(1-0.124)/4950}}
 =
 \frac{-0.0783}{\sqrt{0.10862/4950}}=-16.71.$$ Strangely, SPSS does not
 provide a direct way of calculating this value. However, since the
-formula (\ref{ztestp}) is very simple, we can easily calculate it with a
+formula (\@ref(ztestp)) is very simple, we can easily calculate it with a
 pocket calculator, after first using SPSS to find out $\hat{\pi}$. This
 approach will be used in the computer classes.
 
 ### The sampling distribution of the test statistic and $P$-values {#ss-probs-test1sample-samplingd}
 
-\label{p_thumbp} Like the $\chi^{2}$ test of Chapter \ref{c_tables}, the
+\label{p_thumbp} Like the $\chi^{2}$ test of Chapter \@ref(c_tables), the
 $z$-test for a population proportion requires some conditions on the
 sample size in order for the approximate sampling distribution of the
 test statistic to be appropriate. These depend also on the value of
@@ -466,11 +466,11 @@ since $10/0.0457$ is a little over 200, a sample of $n=4950$ is again
 sufficient.
 
 When the sample size is large enough, the sampling distribution of $z$
-defined by (\ref{ztestp}) is approximately the **standard normal
+defined by (\@ref(ztestp)) is approximately the **standard normal
 distribution**. The probability curve of this distribution is shown in
-Figure \ref{f_pval_prob}. For now we just take it as given, and postpone
+Figure \@ref(f_pval_prob). For now we just take it as given, and postpone
 a general discussion of the normal distribution until Chapter
-\ref{c_means}.
+\@ref(c_means).
 
 ![ Illustration of the calculation of $P$-values from the standard
 normal distribution. Here the value of the $z$-test statistic is
@@ -480,7 +480,7 @@ far from 0 as the observed value of $z$. <span
 data-label="f_pval_prob"></span>](pval_zp){width="10cm"}
 
 The $P$-value of the test is calculated from this distribution using the
-general principles introduced in Section \ref{ss_tables_chi2test_Pval}.
+general principles introduced in Section \@ref(ss_tables_chi2test_Pval).
 In other words, the $P$-value is the probability that the test statistic
 $z$ has a value that is as or more extreme than the value of $z$ in the
 observed sample. Now, however, the details of this calculation depend
@@ -488,7 +488,7 @@ also on the alternative hypothesis, so some additional explanation is
 needed.
 
 Consider first the more common case of a two-sided alternative
-hypothesis (\ref{Hatwo}), that $\Delta\ne 0$. As discussed in the
+hypothesis (\@ref(Hatwo)), that $\Delta\ne 0$. As discussed in the
 previous section, it is *large* values of the test statistic which
 indicate evidence against the null hypothesis, because a large $z$ is
 obtained when the sample difference $\hat{\Delta}=\hat{\pi}-\pi_{0}$ is
@@ -521,7 +521,7 @@ standard normal sampling distribution of the test statistic under
 $H_{0}$.
 
 This calculation of the $P$-value is illustrated graphically in Figure
-\ref{f_pval_prob}. The curve in the plot is that of the standard normal
+\@ref(f_pval_prob). The curve in the plot is that of the standard normal
 distribution. Two areas are shown in grey under the curve, one on each
 tail of the distribution. The one on the left corresponds to values of
 $-1.59$ and smaller, and the one on the right to values of 1.59 or
@@ -534,7 +534,7 @@ than the $z=-1.59$ that was actually observed in Example 5.1.
 
 In example 5.2 the observed test statistic was $z=-16.71$. The two-sided
 $P$-value is then the probability of values that are at most $-16.71$ or
-at least 16.71. These areas are not shown in Figure \ref{f_pval_prob}
+at least 16.71. These areas are not shown in Figure \@ref(f_pval_prob)
 because they would not be visible in it. The horizontal axis of the
 figures runs from $-4$ to $+4$, so $-16.71$ is clearly far in the tail
 of the distribution and the corresponding probability is very small; we
@@ -555,7 +555,7 @@ because positive values of the test statistic (corresponding to sample
 differences greater than 0) would not be regarded as evidence in favour
 of the claim that $\Delta$ is smaller than 0. The $P$-value is thus only
 the probability corresponding to the area on the left tail of the curve
-in Figure \ref{f_pval_prob}, and the corresponding area on the right
+in Figure \@ref(f_pval_prob), and the corresponding area on the right
 tail is not included. Since both areas have the same size, the one-sided
 $P$-value is half the two-sided value, i.e. 0.056 instead of 0.112. In
 general, the one-sided $P$-value for a $z$-test of a proportion and
@@ -574,7 +574,7 @@ direction of the alternative hypothesis” as required by the definition
 on page \pageref{p_pval_ref}, since they agree with the alternative
 hypothesis (negative values of $z$) or at least disagree with it less
 than the observed $z$ (positive values from 0 to 1.59). In Figure
-\ref{f_pval_prob}, these values would correspond to the area under the
+\@ref(f_pval_prob), these values would correspond to the area under the
 whole curve, apart from the region to the right of $1.59$ on the right
 tail. Since the probability of the latter is 0.056 and the total
 probability under the curve is 1, the required probability is
@@ -596,13 +596,13 @@ only a two-sided one is reported). However, since SPSS does not
 currently provide a procedure for this test, and for exam purposes, we
 will briefly outline how an approximate $P$-value is obtained using
 critical values from a table. This is done in a very similar way as for
-the $\chi^{2}$ test in Section \ref{ss_tables_chi2test_Pval}.
+the $\chi^{2}$ test in Section \@ref(ss_tables_chi2test_Pval).
 
-The first part of Table \ref{t_ttable} shows a table of critical values
+The first part of Table \@ref(t_ttable) shows a table of critical values
 for the standard normal distribution. These values are also shown on
 page \pageref{s_disttables_t} at the end of this course pack, on the
 last row of a larger table (the other parts of this table will be
-explained later, in Section \ref{ss_means_inference_variants}). A
+explained later, in Section \@ref(ss_means_inference_variants)). A
 version of this table is included in all introductory text books on
 statistics, although its format may be slightly different in different
 books.
@@ -635,7 +635,7 @@ books.
   significance levels for one- and two-sided tests. <span
   data-label="t_ttable"></span>
 
-The columns of the first part of Table \ref{t_ttable} are labelled
+The columns of the first part of Table \@ref(t_ttable) are labelled
 “Right-hand tail probabilities”, with separate columns for some values
 from 0.100 to 0.0005. This means that the probability that a value from
 the standard normal distribution is at least as large as the value given
@@ -651,12 +651,12 @@ These values can be used to obtain bounds for $P$-values, expressed in
 terms of conventional significance levels of 0.10, 0.05, 0.01 and 0.001.
 The values at which these tail probabilities are obtained are the
 corresponding critical values for the test statistic. They are shown in
-the lower part of Table \ref{t_ttable}, slightly rearranged for clarity
+the lower part of Table \@ref(t_ttable), slightly rearranged for clarity
 of presentation and rounded to two decimal places (which is accurate
 enough for practical purposes). The basic idea of using the critical
 values is that if the observed (absolute value of) the $z$-test
 statistic is *larger* than a critical value (for the required kind of
-alternative hypothesis) shown in the lower part of Table \ref{t_ttable},
+alternative hypothesis) shown in the lower part of Table \@ref(t_ttable),
 the $P$-value is *smaller* than the significance level corresponding to
 that critical value.
 
@@ -681,7 +681,7 @@ absolute value of which is smaller than even the critical value 1.65 for
 the 10% significance level. For this example, we would report $P>0.1$.
 
 The intuitive idea of the critical values and their connection to the
-$P$-values is illustrated for Example 5.1 by Figure \ref{f_pval_prob} on
+$P$-values is illustrated for Example 5.1 by Figure \@ref(f_pval_prob) on
 page \pageref{f_pval_prob}. Here the observed test statistic is
 $t=-1.59$, so the two-sided $P$-value is the probability of values at
 least 1.59 or at most $-1.59$, which correspond to the two gray areas in
@@ -700,7 +700,7 @@ here also larger than 0.1.
 
 The general principles of drawing and stating conclusions from a
 significance test have already been explained in Section
-\ref{ss_tables_chi2test_conclusions}, so they need not be repeated here.
+\@ref(ss_tables_chi2test_conclusions), so they need not be repeated here.
 Considering two-sided alternative hypotheses, the conclusions in our two
 examples are as follows:
 
@@ -764,7 +764,7 @@ in this section in a concise form, using the voting variable of Example
 A significance test assesses whether it is plausible, given the evidence
 in the observed data, that a population parameter or parameters have a
 specific set of values claimed by the null hypothesis. For example, in
-Section \ref{s_probs_test1sample} we asked such a question about the
+Section \@ref(s_probs_test1sample) we asked such a question about the
 probability parameter of a binary variable in a single population.
 
 In many ways a more natural approach would be try to identify all of
@@ -792,9 +792,9 @@ $\Delta=\pi-\pi_{0}$ or, equivalently, the population probability $\pi$.
 The point estimate of $\Delta$ is $\hat{\Delta}=\hat{\pi}-\pi_{0}$ where
 $\hat{\pi}$ is the sample proportion corresponding to $\pi$. Suppose
 that the conditions on the sample size $n$ that were discussed in
-Section \ref{ss_probs_test1sample_samplingd} are again satisfied.
+Section \@ref(ss_probs_test1sample_samplingd) are again satisfied.
 
-Consider now Figure \ref{f_pval_prob} on \pageref{f_pval_prob}. One of
+Consider now Figure \@ref(f_pval_prob} on \pageref{f_pval_prob). One of
 the results illustrated by it is that if $\pi_{0}$ is the true value of
 of the population probability $\pi$, so that $\Delta=\pi-\pi_{0}=0$,
 there is a probability of 0.95 that for a randomly drawn sample from the
@@ -824,13 +824,13 @@ population difference $\Delta$. It is usually written more concisely as
 $$\hat{\Delta}
 \pm 1.96\, \hat{\sigma}_{\hat{\Delta}}
 \label{cim1}$$ where the “plusminus” symbol $\pm$ indicates that we
-calculate the two endpoints of the interval as in (\ref{cim0}), one
+calculate the two endpoints of the interval as in (\@ref(cim0)), one
 below and one above $\hat{\Delta}$.
 
-Expression (\ref{cim1}) is general in the sense that many different
+Expression (\@ref(cim1)) is general in the sense that many different
 quantities can take the role of $\Delta$ in it. Here we consider for now
 the case of $\Delta=\pi-\pi_{0}$. The estimated standard error
-$\hat{\sigma}_{\hat{\Delta}}$ is analogous to (\ref{seDhatp}) used for
+$\hat{\sigma}_{\hat{\Delta}}$ is analogous to (\@ref(seDhatp)) used for
 the $z$-test, but not the same. This is because the confidence interval
 is not calculated under the null hypothesis $H_{0}:\; \pi=\pi_{0}$, so
 we cannot use $\pi_{0}$ for $\pi$ in the standard error. Instead, $\pi$
@@ -854,7 +854,7 @@ $$0.470\pm 1.96\times \sqrt{\frac{0.470\times(1-0.470)}{702}}
 Yes-voters in the population. Similarly, in Example 5.2 the 95%
 confidence interval for the probability of a black person being selected
 for the jury pool is (0.040, 0.052). These intervals are also shown in
-Table \ref{t_probex}.
+Table \@ref(t_probex).
 
 ### Interpretation of confidence intervals {#s_probs_1sampleci_int}
 
@@ -865,7 +865,7 @@ exercise of repeated sampling:
 
 -   If we obtained many samples from the population and calculated the
     confidence interval for each such sample using the formula
-    (\ref{cip2}), approximately 95% of these intervals would contain the
+    (\@ref(cip2)), approximately 95% of these intervals would contain the
     true value of the population proportion $\pi$.
 
 This is undeniably convoluted, even more so than the precise
@@ -886,14 +886,14 @@ and 0.507”. Although the difference to the interpretation given above
 may seem small, the latter statement is not really true, or strictly
 speaking even meaningful, in the statistical framework considered here.
 
-In place of the 1.96 in (\ref{cim1}), we may also use other numbers. To
+In place of the 1.96 in (\@ref(cim1)), we may also use other numbers. To
 allow for this in the notation, we can also write
 $$\hat{\Delta} \pm z_{\alpha/2}\; \hat{\sigma}_{\hat{\Delta}}.
 \label{ci_D_gen}$$ where the multiplier $z_{\alpha/2}$ is a number which
 depends on two things. One of them is the sampling distribution of
 $\hat{\Delta}$, which is here assumed to be the normal distribution
 (another possibility is discussed in Section
-\ref{ss_means_inference_variants}). The second is the **confidence
+\@ref(ss_means_inference_variants)). The second is the **confidence
 level** which we have chosen for the confidence interval. For example,
 the probability of 0.95 in the interpretation of a 95% confidence
 interval discussed above is the confidence level of that interval.
@@ -908,7 +908,7 @@ respectively. The values that are required for the conventional levels
 are $z_{0.10/2}=z_{0.05}=1.64$, $z_{0.05/2}=z_{0.025}=1.96$, and
 $z_{0.01/2}=z_{0.005}=2.58$, which correspond to intervals at the
 confidence levels of 90%, 95% and 99% respectively. These values are
-also shown in Table \ref{t_ciq}.
+also shown in Table \@ref(t_ciq).
 
   --------------------------- ---------------------------------------- ------ ------
                                                      Confidence levels      \      \
@@ -919,7 +919,7 @@ also shown in Table \ref{t_ciq}.
   : Multipliers $z_{\alpha/2}$ used to obtain confidence intervals based
   on the normal distribution, for three standard confidence levels.
   These values are substituted for $z_{\alpha/2}$ in formula
-  (\ref{ci_D_gen}) to obtain the confidence interval.<span
+  (\@ref(ci_D_gen)) to obtain the confidence interval.<span
   data-label="t_ciq"></span>
 
 A confidence interval contains, loosely speaking, those numbers which
@@ -934,7 +934,7 @@ $\Delta$ and thus little uncertainty. Another way of stating this is
 that when the confidence interval is narrow, estimates of $\Delta$ are
 very *precise*.
 
-The width of the interval (\ref{ci_D_gen}) is
+The width of the interval (\@ref(ci_D_gen)) is
 $2\times z_{\alpha/2}\times \hat{\sigma}_{\hat{\Delta}}$. This depends
 on
 
@@ -952,7 +952,7 @@ on
     incorrect conclusions.
 
 -   The standard error $\hat{\sigma}_{\hat{\Delta}}$, which in the case
-    of a single proportion is (\ref{sephat2}). This in turn depends on
+    of a single proportion is (\@ref(sephat2)). This in turn depends on
 
     -   the sample size $n$: the larger this is, the narrower the
         interval. Increasing the sample size thus results (other things
@@ -1124,7 +1124,7 @@ The standard error of $\hat{\Delta}$ is $$\sigma_{\hat{\Delta}} =
 \label{sigmaDpi}$$ As in the one-sample case above, the best way to
 estimate this is different for a significance test than for a confidence
 interval. For a test, the standard error can be estimated under
-assumption that the null hypothesis (\ref{H0pD}) is true, in which case
+assumption that the null hypothesis (\@ref(H0pD)) is true, in which case
 the population proportion is the same in both groups. A good estimate of
 this common proportion, denoted below by $\hat{\pi}$, is the proportion
 of observations with value 1 for $Y$ in the total sample of
@@ -1132,7 +1132,7 @@ $n_{1}+n_{2}$ observations, pooling observations from both groups
 together; expressed in terms of the group-specific estimates, this is
 $$\hat{\pi} = \frac{n_{1}\hat{\pi}_{1}+n_{2}\hat{\pi}_{2}}{n_{1}+n_{2}}.
 \label{phat2sample}$$ Using this for both $\pi_{1}$ and $\pi_{2}$ in
-(\ref{sigmaDpi}) gives the estimated standard error
+(\@ref(sigmaDpi)) gives the estimated standard error
 $$\hat{\sigma}_{\hat{\Delta}}=
 \sqrt{
 \hat{\pi}(1-\hat{\pi}) \; \left(
@@ -1140,25 +1140,25 @@ $$\hat{\sigma}_{\hat{\Delta}}=
 \frac{1}{n_{1}}
 \right),
 }
-\label{seDpi}$$ and using (\ref{Dhatpi}) and (\ref{seDpi}) in the
-general formula (\ref{ttest_gen}) gives the **two-sample $z$-test
+\label{seDpi}$$ and using (\@ref(Dhatpi}) and (\ref{seDpi)) in the
+general formula (\@ref(ttest_gen)) gives the **two-sample $z$-test
 statistic for proportions** $$z=
 \frac{\hat{\pi}_{2}-\hat{\pi}_{1}}
 {\sqrt{\hat{\pi}(1-\hat{\pi})(1/n_{2}+1/n_{1})}}
-\label{ztestDpi}$$ where $\hat{\pi}$ is given by (\ref{phat2sample}).
+\label{ztestDpi}$$ where $\hat{\pi}$ is given by (\@ref(phat2sample)).
 When the null hypothesis is true, the sampling distribution of this test
 statistic is approximately standard normal when the sample sizes are
 large enough.
 
 For a confidence interval, the calculation of the estimated standard
-error cannot assume that (\ref{H0pD}) is true. Instead, we use the
+error cannot assume that (\@ref(H0pD)) is true. Instead, we use the
 estimate $$\hat{\sigma}_{\hat{\Delta}} =
 \sqrt{
 \frac{\hat{\pi}_{2}(1-\hat{\pi}_{2})}{n_{2}} +
 \frac{\hat{\pi}_{1}(1-\hat{\pi}_{1})}{n_{1}}
 }
 \label{seDpi2}$$ and, substituting this to the general formula
-(\ref{ci_D_gen}), we get
+(\@ref(ci_D_gen)), we get
 $$(\hat{\pi}_{2}-\hat{\pi}_{1}) \pm z_{\alpha/2} \;
 \sqrt{
 \frac{\hat{\pi}_{2}(1-\hat{\pi}_{2})}{n_{2}} +
@@ -1175,10 +1175,10 @@ $\hat{\pi}_{2}=0.364$. The estimated difference in the proportions of
 respondents giving an optimistic answer is thus
 $$\hat{\Delta} = \hat{\pi}_{2}-\hat{\pi}_{1} = 0.364-0.279 = 0.085.$$
 For a significance test, the estimated standard error of $\hat{\Delta}$
-uses the pooled estimate (\ref{phat2sample}) of the population
+uses the pooled estimate (\@ref(phat2sample)) of the population
 proportion, which is given by
 $$\hat{\pi} = \frac{921\times 0.279+929\times 0.364}{921+929}=
-\frac{257+338}{921+929} = 0.322.$$ The standard error from (\ref{seDpi})
+\frac{257+338}{921+929} = 0.322.$$ The standard error from (\@ref(seDpi))
 is then $$\hat{\sigma}_{\hat{\Delta}}
 =
 \sqrt{
@@ -1190,9 +1190,9 @@ is then $$\hat{\sigma}_{\hat{\Delta}}
 =
 \sqrt{
 \frac{0.2182}{462.5}
-}=0.0217,$$ and the test statistic (\ref{ztestDpi}) is
+}=0.0217,$$ and the test statistic (\@ref(ztestDpi)) is
 $$z=\frac{0.085}{0.0217}=3.92.$$ For the confidence interval, the
-standard error of $\hat{\Delta}$ is estimated from (\ref{seDpi2}) as
+standard error of $\hat{\Delta}$ is estimated from (\@ref(seDpi2)) as
 $$\begin{aligned}
 \hat{\sigma}_{\hat{\Delta}} &=&
 \sqrt{
@@ -1203,7 +1203,7 @@ $$\begin{aligned}
 \sqrt{
 \frac{0.2315}{929}
 +\frac{0.2012}{921}
-}=0.0216\end{aligned}$$ and a 95% confidence interval from (\ref{ciDpi})
+}=0.0216\end{aligned}$$ and a 95% confidence interval from (\@ref(ciDpi))
 is $$0.085 \pm 1.96 \times 0.0216 = 0.085\pm 0.042 = (0.043; 0.127).$$
 The $P$-value for the test statistic is clearly very low (in fact about
 $0.00009$), so the null hypothesis of equal proportions is convincingly
@@ -1218,7 +1218,7 @@ changing just one word in the survey question, as described in the
 introduction to Example 5.4 at the beginning of this chapter.
 
 In Example 5.3, the estimated difference is $\hat{\Delta}=-0.000422$
-(see Table \ref{t_probex} on page \pageref{t_probex}), i.e. 422 fewer
+(see Table \@ref(t_probex) on page \pageref{t_probex}), i.e. 422 fewer
 polio cases per million children in the vaccinated group than in the
 unvaccinated group. Similar calculations as above show that the value of
 the test statistic is $z=-6.01$, so the $P$-value is again very small
@@ -1229,7 +1229,7 @@ children than among the unvaccinated ones. The 95% confidence interval
 for the difference shows that we are 95% confident that this difference
 was a reduction of between 284 and 560 polio cases per million
 children[^6]. This was acknowledged as a convincing demonstration that
-the Salk vaccine worked (see Figure \ref{f_nytimes}), and it (and later
+the Salk vaccine worked (see Figure \@ref(f_nytimes)), and it (and later
 other types of polio vaccination) was soon put to widespread use. The
 resulting dramatic decline in the incidence of polio is one of the great
 success stories of modern medicine. Compared to the 199 children with

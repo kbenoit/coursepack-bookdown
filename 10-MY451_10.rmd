@@ -38,7 +38,7 @@ all the methods on this course:
 
 -   **Time series analysis** for one or more long sequence of
     observations of the same quantity over time. For example, each of
-    the five temperature sequencies in Figure \ref{f_temperatures} is a
+    the five temperature sequencies in Figure \@ref(f_temperatures) is a
     time series of this kind.
 
 -   Regression models for **hierarchical data**, where some sets of

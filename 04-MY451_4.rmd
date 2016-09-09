@@ -4,13 +4,13 @@
 
 In this section we continue the discussion of methods of analysis for
 two-way contingency tables that was begun in Section
-\ref{ss_descr1_2cat_tables}. We will use again the example from the
+\@ref(ss_descr1_2cat_tables). We will use again the example from the
 European Social Survey that was introduced on page
 \pageref{p_ess_example}. The two variables in the example are a person’s
 sex and his or her attitude toward income redistribution measured as an
 ordinal variable with five levels. The two-way table of these variables
 in the sample is shown again for convenience in Table
-\ref{t_sex_attitude_ch4}, including both the frequencies and the
+\@ref(t_sex_attitude_ch4), including both the frequencies and the
 conditional proportions for attitude given sex.
 
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
@@ -29,7 +29,7 @@ conditional proportions for attitude given sex.
   conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
   data-label="t_sex_attitude_ch4"></span>
 
-Unlike in Section \ref{ss_descr1_2cat_tables}, we will now go beyond
+Unlike in Section \@ref(ss_descr1_2cat_tables), we will now go beyond
 description of sample distributions and into statistical inference. The
 observed data are thus treated as a sample from a population, and we
 wish to draw conclusions about the population distributions of the
@@ -51,7 +51,7 @@ appearances of the same concepts in different contexts. It will then not
 be necessary to restate the basic ideas of the tools of inference in
 similar detail. A short summary of the $\chi^{2}$ test considered in
 this chapter is given again at the end of the chapter, in Section
-\ref{s_tables_summary}.
+\@ref(s_tables_summary).
 
 ## Significance tests {#s_tables_tests}
 
@@ -70,9 +70,9 @@ either “Yes, it is” or “No, it isn’t”.
 
 In trying to answer such questions, we are faced with the complication
 that we only have information from a sample. For example, in Table
-\ref{t_sex_attitude_ch4} the conditional distributions of attitude are
+\@ref(t_sex_attitude_ch4) the conditional distributions of attitude are
 certainly not identical for men and women. According to the definition
-in Section \ref{ss_descr1_2cat_assoc}, this shows that sex and attitude
+in Section \@ref(ss_descr1_2cat_assoc), this shows that sex and attitude
 are associated *in the sample*. This, however, does not prove that they
 are also associated *in the population*. Because of sampling variation,
 the two conditional distributions are very unlike to be exactly
@@ -164,13 +164,13 @@ population}.
 person’s sex and his or her attitude toward income redistribution are
 independent in the population of adults in the UK.
 
-The null hypothesis (\ref{H0_chi2}) and the $\chi^{2}$ test itself are
+The null hypothesis (\@ref(H0_chi2)) and the $\chi^{2}$ test itself are
 symmetric in that there is no need to designate one of the variables as
 explanatory and the other as the response variable. The hypothesis can,
 however, also be expressed in a form which does make use of this
 distinction. This links it more clearly with the definition of
 associations in terms of conditional distributions. In this form, the
-null hypothesis (\ref{H0_chi2}) can also be stated as the claim that the
+null hypothesis (\@ref(H0_chi2)) can also be stated as the claim that the
 conditional distributions of the response variable are the same at all
 levels of the explanatory variable, i.e. in our example as
 $$H_{0}: \;\text{The conditional distribution of attitude is the same for
@@ -187,7 +187,7 @@ As well as the null hypothesis, a significance test usually involves an
 the opposite of the null hypothesis, which indicates the kinds of
 observations that will be taken as evidence against $H_{0}$. For the
 $\chi^{2}$ test of independence this is simply the logical opposite of
-(\ref{H0_chi2}),
+(\@ref(H0_chi2)),
 i.e. $$H_{a}: \;\text{The variables are not statistically independent in the
 population}.
 \label{Ha_chi2}$$ In terms of conditional distributions, $H_{a}$ is that
@@ -258,8 +258,8 @@ between research hypotheses and statistical hypotheses:
 ### Assumptions of a significance test {#ss_tables_chi2test_ass}
 
 In the following discussion we will sometimes refer to Figure
-\ref{f_spsschi2}, which shows SPSS output for the $\chi^{2}$ test of
-independence for the data in Table \ref{t_sex_attitude_ch4}. Output for
+\@ref(f_spsschi2), which shows SPSS output for the $\chi^{2}$ test of
+independence for the data in Table \@ref(t_sex_attitude_ch4). Output for
 the test is shown on the line labelled “Pearson Chi-Square”, and “N of
 valid cases” gives the sample size $n$. The other entries in the table
 are output for other tests that are not discussed here, so they can be
@@ -267,7 +267,7 @@ ignored.
 
 ![SPSS output of the $\chi^{2}$ test of independence (here labelled
 “Pearson Chi-square”) for the data in Table
-\ref{t_sex_attitude_ch4}.<span
+\@ref(t_sex_attitude_ch4).<span
 data-label="f_spsschi2"></span>](chi2test_ess){width="100mm"}
 
 When we apply any significance test, we need to be aware of its
@@ -292,7 +292,7 @@ least 5. Another, slightly more lenient rule requires only that no more
 than 20% of the expected frequencies are less than 5, and that none are
 less than 1. These conditions can easily be checked with the help of
 SPSS output for the $\chi^{2}$ test, as shown in Figure
-\ref{f_spsschi2}. This gives information on the number and proportion of
+\@ref(f_spsschi2). This gives information on the number and proportion of
 expected frequencies (referred to as “expected counts”) less than five,
 and also the size of the smallest of them. In our example the smallest
 expected frequency is about 33, so the sample size condition is easily
@@ -317,14 +317,14 @@ A **test statistic** is a number calculated from the sample (i.e. a
 statistic in the sense defined on page \pageref{p_statistic}) which is
 used to test a null hypothesis. We we will describe the calculation of
 the $\chi^{2}$ test statistic step by step, using the data in Table
-\ref{t_sex_attitude_ch4} for illustration. All of the elements of the
+\@ref(t_sex_attitude_ch4) for illustration. All of the elements of the
 test statistic for this example are shown in Table
-\ref{t_sex_attitude_chi2}. These elements are
+\@ref(t_sex_attitude_chi2). These elements are
 
 -   The **observed frequencies**, denoted $f_{o}$, one for each cell of
     the table. These are simply the observed cell counts (compare the
-    $f_{o}$ column of Table \ref{t_sex_attitude_chi2} to the counts in
-    Table \ref{t_sex_attitude_ch4}).
+    $f_{o}$ column of Table \@ref(t_sex_attitude_chi2) to the counts in
+    Table \@ref(t_sex_attitude_ch4)).
 
 -   The **expected frequencies** $f_{e}$, also one for each cell. These
     are cell counts in a hypothetical table which would show no
@@ -332,7 +332,7 @@ test statistic for this example are shown in Table
     table for a sample which would exactly agree with the null
     hypothesis of independence in the population. To explain how the
     expected frequencies are calculated, consider the cell in Table
-    \ref{t_sex_attitude_ch4} for Male respondents who strongly agree
+    \@ref(t_sex_attitude_ch4) for Male respondents who strongly agree
     with the statement. As discussed above, if the null hypothesis of
     independence is true in the population, then the conditional
     probability of strongly agreeing is the same for both men and women.
@@ -340,7 +340,7 @@ test statistic for this example are shown in Table
     overall (marginal) probability of strongly agreeing. The sample
     version of this is that the proportion who strongly agree should be
     the same for men as among all respondents overall. This overall
-    proportion in Table \ref{t_sex_attitude_ch4} is $366/2344=0.156$. If
+    proportion in Table \@ref(t_sex_attitude_ch4) is $366/2344=0.156$. If
     this proportion applied also to the 1027 male respondents, the
     number of of them who strongly agreed would be
     $$f_{e} = \left(\frac{366}{2344}\right)\times 1027 =
@@ -365,7 +365,7 @@ test statistic for this example are shown in Table
     differences themselves, because positive ($f_{o}$ is larger than
     $f_{e}$) and negative ($f_{o}$ is smaller than $f_{e}$) differences
     will always exactly cancel each other out (c.f. their sum on the
-    last row of Table \ref{t_sex_attitude_chi2}). Instead,
+    last row of Table \@ref(t_sex_attitude_chi2)). Instead,
     we consider...
 
 -   ...the squared differences $(f_{o}-f_{e})^{2}$. This removes the
@@ -402,23 +402,23 @@ test statistic for this example are shown in Table
   ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
 
   : Calculating the $\chi^{2}$ test statistic for Table
-  \ref{t_sex_attitude_ch4}. In the second column, SA, A, 0, D, and SD
+  \@ref(t_sex_attitude_ch4). In the second column, SA, A, 0, D, and SD
   are abbreviations for Strongly agree, Agree, Neither agree nor
   disagree, Disagree and Strongly disagree respectively.<span
   data-label="t_sex_attitude_chi2"></span>
 
 The calculations can be done even by hand, but we will usually leave
-them to a computer. The last column of Table \ref{t_sex_attitude_chi2}
-shows that for Table \ref{t_sex_attitude_ch4} the test statistic is
+them to a computer. The last column of Table \@ref(t_sex_attitude_chi2)
+shows that for Table \@ref(t_sex_attitude_ch4) the test statistic is
 $\chi^{2}=18.81$ (which includes some rounding error, the correct value
-is 18.862). In the SPSS output in Figure \ref{f_spsschi2}, it is given
+is 18.862). In the SPSS output in Figure \@ref(f_spsschi2), it is given
 in the “Value” column of the “Pearson Chi-Square” row.
 
 ### The sampling distribution of the test statistic {#ss_tables_chi2test_sdist}
 
 We now know that the value of the $\chi^{2}$ test statistic in the
 example is 18.86. But what does that mean? Why is the test statistic
-defined as (\ref{chi2}) and not in some other form? And what does the
+defined as (\@ref(chi2)) and not in some other form? And what does the
 number mean? Is 18.86 small or large, weak or strong evidence against
 the null hypothesis that sex and attitude are independent in the
 population?
@@ -433,7 +433,7 @@ requirements:\label{p_2reqs}
 2.  The sampling distribution of the test statistic should be known and
     of convenient form when the null hypothesis is true.
 
-Taking the first requirement first, consider the form of (\ref{chi2}).
+Taking the first requirement first, consider the form of (\@ref(chi2)).
 The important part of this are the squared differences
 $(f_{o}-f_{e})^{2}$ for each cell of the table. Here the expected
 frequencies $f_{e}$ reveal what the table would look like if the sample
@@ -466,7 +466,7 @@ statistics in general and the $\chi^{2}$ test in particular.
 
 #### Sampling distribution of statistic: General definition {-}
 
-The $\chi^{2}$ test statistic (\ref{chi2}) is a *statistic* as defined
+The $\chi^{2}$ test statistic (\@ref(chi2)) is a *statistic* as defined
 defined on page \pageref{p_statistic}, that is a number calculated from
 data in a sample. Once we have observed a sample, the value of a
 statistic in that sample is known, such as the 18.862 for $\chi^{2}$ in
@@ -476,7 +476,7 @@ However, we also realise that this value would have been different if
 the sample had been different, and also that the sample could indeed
 have been different because the sampling is a process that involves
 randomness. For example, in the actually observed sample in Table
-\ref{t_sex_attitude_ch4} we had 200 men who disagreed with the statement
+\@ref(t_sex_attitude_ch4) we had 200 men who disagreed with the statement
 and 41 who strongly disagreed with it. It is easily imaginable that
 another random sample of 2344 respondents from the same population could
 have given us frequencies of, say, 195 and 46 for these cells instead.
@@ -485,7 +485,7 @@ been 19.75 instead of 18.86. Furthermore, it also seems intuitively
 plausible that not all such alternative values are equally likely for
 samples from a given population. For example, it seems quite improbable
 that the population from which the sample in Table
-\ref{t_sex_attitude_ch4} was drawn would instead produce a sample which
+\@ref(t_sex_attitude_ch4) was drawn would instead produce a sample which
 also had 1027 men and 1317 women but where all the men strongly
 disagreed with the statement (which would yield $\chi^{2}=2210.3$).
 
@@ -541,9 +541,9 @@ for carrying out a significance test.
 #### Sampling distribution of the $\chi^{2}$ test statistic under independence {-}
 
 For the $\chi^{2}$ test, we need the sampling distribution of the test
-statistic (\ref{chi2}) under the independence null hypothesis
-(\ref{H0_chi2}). To make these ideas a little more concrete, the upper
-part of Table \ref{t_sex_attitude_H0pop} shows the crosstabulation of
+statistic (\@ref(chi2)) under the independence null hypothesis
+(\@ref(H0_chi2)). To make these ideas a little more concrete, the upper
+part of Table \@ref(t_sex_attitude_H0pop) shows the crosstabulation of
 sex and attitude in our example for a finite population where the null
 hypothesis holds. We can see that it does because the two conditional
 distributions for attitude, among men and among women, are the same
@@ -593,7 +593,7 @@ the real sample that we have actually observed.
 In the example we have a sample of 2344 observations, so to match that
 we want to identify the sampling distribution of the $\chi^{2}$
 statistic in random samples of size 2344 from the population like the
-one in the upper part of Table \ref{t_sex_attitude_H0pop}. The lower
+one in the upper part of Table \@ref(t_sex_attitude_H0pop). The lower
 part of that table shows one such sample. Even though it comes from a
 population where the two variables are independent, the same is not
 exactly true in the sample: we can see that the conditional sample
@@ -610,12 +610,12 @@ categorical. The two distributions, the population distribution of the
 variables and the sampling distribution of a test statistic, are quite
 separate entities and need not resemble each other. We will consider the
 nature of continuous probability distributions in more detail in Chapter
-\ref{c_means}. In this chapter we will discuss them relatively
+\@ref(c_means). In this chapter we will discuss them relatively
 superficially and only to the extent that is absolutely necessary.
 
-Figure \ref{f_chisampld} shows what we observe if do a computer
+Figure \@ref(f_chisampld) shows what we observe if do a computer
 simulation to draw many more samples from the population in Table
-\ref{t_sex_attitude_H0pop}. The figure shows the histogram of the values
+\@ref(t_sex_attitude_H0pop). The figure shows the histogram of the values
 of the $\chi^{2}$ test statistic calculated from 100,000 such samples.
 We can see, for example, that $\chi^{2}$ is between 0 and 10 for most of
 the samples, and larger than that for only a small proportion of them.
@@ -627,7 +627,7 @@ drawn from a population where the null hypothesis of independence holds.
 for independence. The plot shows a histogram of the values of the
 statistic in 100,000 simulated samples of size $n=2344$ drawn from the
 population distribution in the upper part of Table
-\ref{t_sex_attitude_H0pop}. Superimposed on the histogram is the curve
+\@ref(t_sex_attitude_H0pop). Superimposed on the histogram is the curve
 of the approximate sampling distribution, which is the $\chi^{2}$
 distribution with 4 degrees of freedom. <span
 data-label="f_chisampld"></span>](chi2sims){width="8.5cm"}
@@ -641,14 +641,14 @@ $\chi^{2}$ is rather confusingly used to refer both to the test
 statistic and its sampling distribution). The $\chi^{2}$ distributions
 are a family of individual distributions, each of which is identified by
 a number known as the **degrees of freedom** of the distribution. Figure
-\ref{f_chi2dists} shows the probability curves of some $\chi^{2}$
+\@ref(f_chi2dists) shows the probability curves of some $\chi^{2}$
 distributions (what such curves mean is explained in more detail below,
-and in Chapter \ref{c_means}). All of the distributions are skewed to
+and in Chapter \@ref(c_means)). All of the distributions are skewed to
 the right, and the shape of a particular curve depends on its degrees of
 feedom. All of the curves give non-zero probabilites only for positive
 values of the variable on the horizontal axis, indicating that the value
 of a $\chi^{2}$-distributed variable can never be negative. This is
-appropriate for the $\chi^{2}$ test statistic (\ref{chi2}), which is
+appropriate for the $\chi^{2}$ test statistic (\@ref(chi2)), which is
 also always non-negative.
 
 ![Probability curves of some $\chi^{2}$ distributions with different
@@ -658,18 +658,18 @@ data-label="f_chi2dists"></span>](chi2dists){width="115mm"}
 For the $\chi^{2}$ test statistic of independence we have the following
 result:
 
--   When the null hypothesis (\ref{H0_chi2}) is true in the population,
-    the sampling distribution of the test statistic (\ref{chi2})
+-   When the null hypothesis (\@ref(H0_chi2)) is true in the population,
+    the sampling distribution of the test statistic (\@ref(chi2))
     calculated for a two-way table with $R$ rows and $C$ columns is
     approximately the $\chi^{2}$ distribution with $df=(R-1)(C-1)$
     degrees of freedom.
 
 The degrees of freedom are thus given by the number of rows in the table
 minus one, multiplied by the number of columns minus one. Table
-\ref{t_sex_attitude_ch4}, for example, has $R=2$ rows and $C=5$ columns,
+\@ref(t_sex_attitude_ch4), for example, has $R=2$ rows and $C=5$ columns,
 so its degrees of freedom are $df=(2-1)\times(5-1)=4$ (as indicated by
-the “df” column of the SPSS output of Figure \ref{f_spsschi2}). Figure
-\ref{f_chisampld} shows the curve of the $\chi^{2}$ distribution with
+the “df” column of the SPSS output of Figure \@ref(f_spsschi2)). Figure
+\@ref(f_chisampld) shows the curve of the $\chi^{2}$ distribution with
 $df=4$ superimposed on the histogram of the sampling distribution
 obtained from the computer simulation. The two are in essentially
 perfect agreement, as mathematical theory indicates they should be.
@@ -731,28 +731,28 @@ evidence” against it are the ones that are as large or larger than the
 observed statistic. Their probability is evaluated from the $\chi^{2}$
 sampling distribution defined above.
 
-Figure \ref{f_pvalchisq} illustrates this calculation. It shows the
+Figure \@ref(f_pvalchisq) illustrates this calculation. It shows the
 curve of the $\chi^{2}_{4}$ distribution, which is the relevant sampling
 distribution for the test for the $2\times 5$ table in our example.
 Suppose first, hypothetically, that we had actually observed the sample
-in the lower part of Table \ref{t_sex_attitude_H0pop}, for which the
+in the lower part of Table \@ref(t_sex_attitude_H0pop), for which the
 value of the test statistic is $\chi^{2}=2.84$. The $P$-value of the
 test for this sample would then be the probability of values of 2.84 or
 larger, evaluated from the $\chi^{2}_{4}$ distribution.
 
-For a probability curve like the one in Figure \ref{f_pvalchisq}, areas
+For a probability curve like the one in Figure \@ref(f_pvalchisq), areas
 under the curve correspond to probabilities. For example, the area under
 the whole curve from 0 to infinity is 1, because a variable which
 follows the $\chi^{2}_{4}$ distribution is certain to have one of these
 values. Similarly, the probability that we need for the $P$-value for
 $\chi^{2}=2.84$ is the area under the curve to the right of the value
-2.84, which is shown in grey in Figure \ref{f_pvalchisq}. This is
+2.84, which is shown in grey in Figure \@ref(f_pvalchisq). This is
 $P=0.585$.
 
-The test statistic for the real sample in Table \ref{t_sex_attitude_ch4}
+The test statistic for the real sample in Table \@ref(t_sex_attitude_ch4)
 was $\chi^{2}=18.86$, so the $P$-value is the combined probability of
 this and all larger values. This is also shown in Figure
-\ref{f_pvalchisq}. However, this area is not really visible in the plot
+\@ref(f_pvalchisq). However, this area is not really visible in the plot
 because 18.86 is far into the tail of the distribution where the
 probabilities are low. The $P$-value is then also low, specifically
 $P=0.0008$.
@@ -763,7 +763,7 @@ region under the curve) and $\chi^{2}=18.86$.<span
 data-label="f_pvalchisq"></span>](chi2_pval){width="8cm"}
 
 \label{p_spss2b} In practice the $P$-value is usually calculated by a
-computer. In the SPSS output of Figure \ref{f_spsschi2} is is shown in
+computer. In the SPSS output of Figure \@ref(f_spsschi2) is is shown in
 the column labelled “Asymp. Sig. (2-sided)” which is short for
 “Asymptotic significance level” (you can ignore the “2-sided” for this
 test). The value is listed as 0.001. SPSS reports, by default,
@@ -785,7 +785,7 @@ All introductory statistical text books include a table of $\chi^{2}$
 distributions, although its format may vary slightly form book to book.
 Such a table is also included on page \pageref{s_disttables_chi2} of
 this coursepack. An extract from the table is shown in Table
-\ref{t_chi2table}. Each row of the table corresponds to a $\chi^{2}$
+\@ref(t_chi2table). Each row of the table corresponds to a $\chi^{2}$
 distribution with the degrees of freedom given in the first column. The
 other columns show so-called “critical values” for the probability
 levels given on the first row. Consider, for example, the row for 4
@@ -811,11 +811,11 @@ statistic was 9.49, $P$ would be 0.050.
 
 The values in the table also provide bounds for other values that are
 not shown. For instance, in the hypothetical sample in Table
-\ref{t_sex_attitude_H0pop} we had $\chi^{2}=2.84$, which is smaller than
+\@ref(t_sex_attitude_H0pop) we had $\chi^{2}=2.84$, which is smaller than
 7.78. This implies that the corresponding $P$-value must be larger than
 0.100, which (of course) agrees with the precise value of $P=0.585$ (see
-also Figure \ref{f_pvalchisq}). Similarly, $\chi^{2}=18.86$ for the real
-data in Table \ref{t_sex_attitude_ch4}, which is larger than the 18.47
+also Figure \@ref(f_pvalchisq)). Similarly, $\chi^{2}=18.86$ for the real
+data in Table \@ref(t_sex_attitude_ch4), which is larger than the 18.47
 in the “0.001” column of the table for the $\chi^{2}_{4}$ distribution.
 Thus the corresponding $P$-value must be smaller than 0.001, again
 agreeing with the correct value of $P=0.0008$.
@@ -846,7 +846,7 @@ significance levels are 0.10, 0.05, 0.01 and 0.001 (also known as 10%,
 level is most commonly used; other values than these are rarely
 considered. The values of the test statistic which correspond exactly to
 these levels are the critical shown in the table of the $\chi^{2}$
-distribution in Table \ref{t_chi2table}.
+distribution in Table \@ref(t_chi2table).
 
 When the $P$-value is *smaller* than a conventional level of
 significance (i.e. the test statistic is *larger* than the corresponding
@@ -954,7 +954,7 @@ Finally, if the null hypothesis of independence is rejected, the test
 should not usually be the only statistical analysis that is reported for
 a two-way table. Instead, we would then go on to describe *how* the two
 variables appear to be associated, using the of descriptive methods
-discussed in Section \ref{s_descr1_2cat}.
+discussed in Section \@ref(s_descr1_2cat).
 
 ## Summary of the $\chi^{2}$ test of independence {#s_tables_summary}
 
@@ -967,7 +967,7 @@ and attitude in the survey example is again used for illustration:
 1.  Data: observations of two categorical variables, here sex and
     attitude towards income redistribution for $n=2344$ respondents,
     presented in the two-way, $2\times 5$ contingency table
-    \ref{t_sex_attitude_ch4}.
+    \@ref(t_sex_attitude_ch4).
 
 2.  Assumptions: the variables can have any measurement level, but the
     expected frequencies $f_{e}$ must be large enough. A common rule of
@@ -983,7 +983,7 @@ and attitude in the survey example is again used for illustration:
     \frac{(f_{o}-f_{e})^{2}}{f_{e}}$$ where $f_{o}$ denotes observed
     frequencies in the cells of the table and $f_{e}$ the corresponding
     expected frequencies under the null hypothesis, and the summation is
-    over all of the cells. For Table \ref{t_sex_attitude_ch4},
+    over all of the cells. For Table \@ref(t_sex_attitude_ch4),
     $\chi^{2}=18.86$.
 
 5.  The sampling distribution of the test statistic when $H_{0}$ is
@@ -1002,7 +1002,7 @@ and attitude in the survey example is again used for illustration:
 
 When the association is judged to be statistically significant, its
 nature and magnitude can be further explored using the descriptive
-methods for two way tables discussed in Section \ref{s_descr1_2cat}.
+methods for two way tables discussed in Section \@ref(s_descr1_2cat).
 
 [^1]: *Philosophical Magazine*, Series 5, **5**, 157–175.
     \label{p_pearson} The thoroughly descriptive title of the article is
