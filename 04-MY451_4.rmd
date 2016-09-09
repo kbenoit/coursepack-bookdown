@@ -268,7 +268,7 @@ ignored.
 ![SPSS output of the $\chi^{2}$ test of independence (here labelled
 “Pearson Chi-square”) for the data in Table
 \@ref(t-sex-attitude-ch4).<span
-data-label="f_spsschi2"></span>](chi2test_ess){width="100mm"}
+data-label="fig:f-spsschi2"></span>](chi2test_ess){width="100mm"}
 
 When we apply any significance test, we need to be aware of its
 **assumptions**. These are conditions on the data which are not
@@ -630,7 +630,7 @@ population distribution in the upper part of Table
 \@ref(t-sex-attitude-H0pop). Superimposed on the histogram is the curve
 of the approximate sampling distribution, which is the $\chi^{2}$
 distribution with 4 degrees of freedom. <span
-data-label="f_chisampld"></span>](chi2sims){width="8.5cm"}
+data-label="fig:f-chisampld"></span>](chi2sims){width="8.5cm"}
 
 The form of the sampling distribution can also be derived through
 mathematical arguments. These show that for any two-way contingency
@@ -653,7 +653,7 @@ also always non-negative.
 
 ![Probability curves of some $\chi^{2}$ distributions with different
 degrees of freedom (df).<span
-data-label="f_chi2dists"></span>](chi2dists){width="115mm"}
+data-label="fig:f-chi2dists"></span>](chi2dists){width="115mm"}
 
 For the $\chi^{2}$ test statistic of independence we have the following
 result:
@@ -760,7 +760,7 @@ $P=0.0008$.
 ![Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4
 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey
 region under the curve) and $\chi^{2}=18.86$.<span
-data-label="f_pvalchisq"></span>](chi2_pval){width="8cm"}
+data-label="fig:f-pvalchisq"></span>](chi2_pval){width="8cm"}
 
 \label{p_spss2b} In practice the $P$-value is usually calculated by a
 computer. In the SPSS output of Figure \@ref(f-spsschi2) is is shown in

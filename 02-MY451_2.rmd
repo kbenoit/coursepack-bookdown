@@ -207,13 +207,13 @@ make quick comparisons between the frequencies of different categories
 by comparing the heights of the bars.
 
 ![Bar chart of regions in the country data.<span
-data-label="f_bars_region"></span>](regions){height="9.5cm"}
+data-label="fig:f-bars_region"></span>](regions){height="9.5cm"}
 
 ![Bar chart of the democracy index in the country data.<span
-data-label="f_bars_democ"></span>](democ){height="9.5cm"}
+data-label="fig:f-bars_democ"></span>](democ){height="9.5cm"}
 
 ![Bar chart of the attitude variable in the survey data example.<span
-data-label="f_bars_attitude"></span>](bar_attitude "fig:"){height="8cm"}
+data-label="fig:f-bars_attitude"></span>](bar_attitude "fig:"){height="8cm"}
 \scriptsize{
 Agreement with statement: ``The government should
 take measures to reduce differences in income levels''.
@@ -907,7 +907,7 @@ categories (making the table harder to read).
 
 ![Histogram of GDP per capita in the country data, together with the
 corresponding frequency polygon.<span
-data-label="f_hist_gdp"></span>](gdp){width="13.5cm"}
+data-label="fig:f-hist_gdp"></span>](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
 grouped variable, like that in Table \@ref(t-gdp). Figure
@@ -1057,7 +1057,7 @@ page.
 
 ![An annotated box plot of GDP per capita in the country data
 ($n=155$).<span
-data-label="f_boxplot_gdp"></span>](box_gdp){width="15cm"}
+data-label="fig:f-boxplot_gdp"></span>](box_gdp){width="15cm"}
 
 #### Box plots {-}
 
@@ -1331,7 +1331,7 @@ MY451 (2003; $n=419$), and B shows the distribution of the number of
 hours a person usually works in their main job in the 3 per cent
 Individual Sample of Anonymized Records from the 2001 U.K. Census
 ($n=867,016$, respondents with hours 0 or not applicable omitted).<span
-data-label="f_skews"></span>](twohists "fig:"){width="14cm"}\
+data-label="fig:f-skews"></span>](twohists "fig:"){width="14cm"}\
 <span>\footnotesizeSource of the data for panel B: Cathie Marsh Centre
 for Census and Survey Research, University of Manchester,
 `http://www.ccsr.ac.uk/sars/` </span>
@@ -1624,7 +1624,7 @@ using frequency tables or graphical methods.
 ![Bar charts of the test marks in the class example of page
 \pageref{p_classex} for Classes 2 (on the left) and 3 (on the
 right).<span
-data-label="f_classbars"></span>](classbars){height="8.3cm"}
+data-label="fig:f-classbars"></span>](classbars){height="8.3cm"}
 
 ## Associations which involve continuous variables {#s_descr1_2cont}
 
@@ -1753,7 +1753,7 @@ accurate presentation of data.
 ![An example of an unacceptable graph: a bar chart with a pseudo
 three-dimensional effect. The data are the same as in Figure
 \@ref(f-bars-region).<span
-data-label="f_yuk"></span>](threeD){height="8cm"}
+data-label="fig:f-yuk"></span>](threeD){height="8cm"}
 
 An objection sometimes offered to such a severe rule is that bad graphs
 “look good”. This can be answered in two ways. First, a statistical
@@ -1786,7 +1786,7 @@ the graph is photocopied or printed in black and white.
 
 ![An example of an informative graph: house prices in three countries
 between 1993 and 2003, indexed to 100 in 1993.<span
-data-label="f_houseprices"></span>](houseprices){width="10cm"}
+data-label="fig:f-houseprices"></span>](houseprices){width="10cm"}
 
 <span>\footnotesizeSource: *The Economist*, June 26th, 2004. The numbers
 were estimated from the graph in the magazine, so they are

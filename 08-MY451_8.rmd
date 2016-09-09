@@ -116,7 +116,7 @@ is known as the **Y-axis**.
 Global Civil Society data set, for 61 countries with Control of
 corruption at least 60. The dotted lines are drawn to the point
 corresponding to the United Kingdom.<span
-data-label="f_corruption1"></span>](corruption1){width="14cm"}
+data-label="fig:f-corruption1"></span>](corruption1){width="14cm"}
 
 The observed data are shown as points in the scatterplot, one for each
 of the $n$ units. The location of each point is determined by its values
@@ -185,7 +185,7 @@ recorded as the difference from the temperature at that location in
 
 ![Changes of average annual temperature (11-year moving averages) from
 1903 in five locations. See the text for further details.<span
-data-label="f_temperatures"></span>](temperplot "fig:"){width="13cm"}\
+data-label="fig:f-temperatures"></span>](temperplot "fig:"){width="13cm"}\
 Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>
 
 Consider first the data for Haparanda only. Here we have two variables,
@@ -248,7 +248,7 @@ directly to a more precise and formal definition introduced in Section
 in Figure \@ref(f-corruption1), augmented by the best-fitting (least
 squares) straight line (solid line) and reference lines for two example
 values of Control of corruption (dotted lines).<span
-data-label="f_corruption2"></span>](corruption2){width="13.5cm"}
+data-label="fig:f-corruption2"></span>](corruption2){width="13.5cm"}
 
 Figure \@ref(f-corruption2) shows the same scatterplot as Figure
 \@ref(f-corruption1). Consider first one value of $X$ (Control of
@@ -310,27 +310,27 @@ them.
 ![ Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl1 "fig:"){width="8cm"} ![
+data-label="fig:f-scatterplots"></span>](olspl1 "fig:"){width="8cm"} ![
 Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl2 "fig:"){width="8cm"}\
+data-label="fig:f-scatterplots"></span>](olspl2 "fig:"){width="8cm"}\
 ![ Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl3 "fig:"){width="8cm"} ![
+data-label="fig:f-scatterplots"></span>](olspl3 "fig:"){width="8cm"} ![
 Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl4 "fig:"){width="8cm"}\
+data-label="fig:f-scatterplots"></span>](olspl4 "fig:"){width="8cm"}\
 ![ Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl5 "fig:"){width="8cm"} ![
+data-label="fig:f-scatterplots"></span>](olspl5 "fig:"){width="8cm"} ![
 Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
 coefficient $r$. <span
-data-label="f_scatterplots"></span>](olspl6 "fig:"){width="8cm"}\
+data-label="fig:f-scatterplots"></span>](olspl6 "fig:"){width="8cm"}\
 
 In plot (a) of Figure \@ref(f-scatterplots) all the points are exactly on
 the straight line. This indicates a *perfect* linear association, where
@@ -391,7 +391,7 @@ late on (from inevitable wear and tear) and lowest in between for
 ![A scatterplot of Control of corruption vs. GDP per capita for 163
 countries in the Global Civil Society data set. The solid line is the
 best-fitting (least squares) straight line for the points.<span
-data-label="f_corruption3"></span>](corruption3){width="13.5cm"}
+data-label="fig:f-corruption3"></span>](corruption3){width="13.5cm"}
 
 Returning to real data, recall that we have so far considered control of
 corruption and GDP per capita only among countries with a Control of
@@ -650,7 +650,7 @@ for all the countries with non-missing values of that pair of variables.
 mortality rate for countries in the Global Civil Society data set
 ($n=111$). The solid line is the best-fitting (least squares) straight
 line for the points.<span
-data-label="f_imr1"></span>](imr1){width="13.5cm"}
+data-label="fig:f-imr1"></span>](imr1){width="13.5cm"}
 
   ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
   \                                                                                                \      School   Control of       Income
@@ -827,7 +827,7 @@ prefer a graphical summary, this is given in Figure
 
 ![Illustration of the interpretation of the regression coefficients of a
 simple linear regression model.<span
-data-label="f_linmod_params"></span>](lmparams){width="12.5cm"}
+data-label="fig:f-linmod_params"></span>](lmparams){width="12.5cm"}
 
 The most important parameter of the model, and usually the only one
 really discussed in interpreting the results, is $\beta$, the regression
@@ -977,7 +977,7 @@ the observed value is above the fitted line, as shown in Figure
 ![Illustration of the quantities involved in the definitions of least
 squares estimates and the coefficient of determination $R^{2}$. See the
 text for explanation.<span
-data-label="f_residuals"></span>](lmresids){width="13.5cm"}
+data-label="fig:f-residuals"></span>](lmresids){width="13.5cm"}
 
 $Y_{i}-\hat{Y}_{i}$
 

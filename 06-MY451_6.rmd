@@ -37,7 +37,7 @@ simplicity, because this age group was oversampled in the 2002 HES.
 ![Histogram of diastolic blood pressure, with the corresponding
 frequency polygon, from Health Survey for England 2002 (respondents aged
 25 or over, $n=4489$).<span
-data-label="f_bp1"></span>](bloodp1){width="13.5cm"}
+data-label="fig:f-bp1"></span>](bloodp1){width="13.5cm"}
 
 The respondents whose blood pressures are summarized in Figure
 \@ref(f-bp1) are in reality a sample from a larger population in the
@@ -195,7 +195,7 @@ be meaningful and not misleading.
 
 ![The frequency polygon of Figure \@ref(f-bp1), together with a normal
 curve with the same mean and variance.<span
-data-label="f_bp2"></span>](bloodp2){width="11.5cm"}
+data-label="fig:f-bp2"></span>](bloodp2){width="11.5cm"}
 
 \label{p-model} Such a simplifying assumption about the population
 distribution is known as a **statistical model** for the population. The
@@ -243,7 +243,7 @@ The curve of the normal distribution is also known as the “bell curve”
 because of its shape.
 
 ![A portrait of Gauss and the normal curve on a former German 10-DM
-banknote.<span data-label="f_10dm"></span>](mark){width="14cm"}
+banknote.<span data-label="fig:f-10dm"></span>](mark){width="14cm"}
 
 The normal distribution is by far the most important probability
 distribution in statistics. The main reason for this is its use as a
@@ -278,7 +278,7 @@ is $\mu=5$, so the whole curve is shifted to the right and centered
 around 5.
 
 ![Three normal distributions with different means and/or variances.<span
-data-label="f_3norms"></span>](threenorms){width="11cm"}
+data-label="fig:f-3norms"></span>](threenorms){width="11cm"}
 
 The variance $\sigma^{2}$ determines how widely spread the curve is. In
 Figure \@ref(f-3norms), the curves for $N(0, 1)$ and $N(5, 1)$ have the
@@ -319,7 +319,7 @@ $P$-values for tests in Sections \@ref(ss-tables-chi2test-Pval) and
 probability of an observation being within one standard deviation of the
 mean (the grey area) is 0.68, and the probability of it being within
 1.96 standard deviations of the mean (grey and shaded areas together) is
-0.95.<span data-label="f_norm1"></span>](norm1){width="12cm"}
+0.95.<span data-label="fig:f-norm1"></span>](norm1){width="12cm"}
 
 Figure \@ref(f-norm1) illustrates this further with some results which
 hold for any normal distribution, whatever its mean and variance. The
@@ -380,7 +380,7 @@ deviations *above* the mean.
 pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
 probabilities for the ranges of values at most 60 (“Low”), between 60
 and 90 ("Mid”) and over 90 (“High”). <span
-data-label="f_normbp"></span>](normbp){width="12cm"}
+data-label="fig:f-normbp"></span>](normbp){width="12cm"}
 
 \footnotesize
 
@@ -540,7 +540,7 @@ separately:
 ![Illustration of the sampling distribution of the sample mean for two
 sample sizes. In both cases the population distribution is normal with
 $\mu=74.2$ and $\sigma=11.3$. <span
-data-label="f_sampld2"></span>](sampld2_bp){width="12cm"}
+data-label="fig:f-sampld2"></span>](sampld2_bp){width="12cm"}
 
 The connection between sample size and the variability of a sampling
 distribution applies not only to the sample mean but to (almost) all
@@ -581,7 +581,7 @@ in Figure \@ref(f-bp1), for which the mean is $\mu=74.2$ and standard
 deviation is $\sigma=11.3$. Superimposed on the histogram is the curve
 of the approximate sampling distribution, which is normal with mean
 $\mu$ and standard deviation $\sigma/\sqrt{n}$. <span
-data-label="f_sampld"></span>](sampld1_bp){width="12cm"}
+data-label="fig:f-sampld"></span>](sampld1_bp){width="12cm"}
 
 The match between the curve and the histogram in Figure \@ref(f-sampld)
 is clearly very close. This is actually a nontrivial finding which
@@ -692,7 +692,7 @@ proportions $\hat{\pi}$ calculated for 5000 samples simulated from a
 population distribution with proportion $\pi=0.2$, together with the
 normal curve with mean $\pi$ and variance $\pi(1-\pi)/n$. The samples
 sizes $n$ are 10, 30, 100 and 1000.<span
-data-label="f_cltbin"></span>](sampld_p){width="140mm"}
+data-label="fig:f-cltbin"></span>](sampld_p){width="140mm"}
 
 The variability of the sampling distribution will again depend on $n$.
 In Figure \@ref(f-cltbin), the observed range of values of $\hat{\pi}$
