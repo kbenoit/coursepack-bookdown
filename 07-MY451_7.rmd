@@ -1281,7 +1281,7 @@ need to add $\mu_{0}=5$ to both end points of the interval shown by
 SPSS, to obtain $(-2.30+5;
 -2.10+5)=(2.70; 2.90)$ as before.
 
-![(\#fig:f-spsstest) SPSS output for a $t$-test of a single mean. The output is for the variable on fruit and vegetable consumption in Table \@ref(tab:t-ttests1), with the null hypothesis $H_{0}: \mu=5$.](ttestspss){width="130mm"}
+![(\#fig:f-spsstest) SPSS output for a $t$-test of a single mean. The output is for the variable on fruit and vegetable consumption in Table \@ref(tab:t-ttests1), with the null hypothesis $H-{0}: \mu=5$.](ttestspss){width="130mm"}
 
 Similar results for the variable on the percentage of dietary energy
 obtained from fat are also shown in Table \@ref(tab:t-ttests1). Here

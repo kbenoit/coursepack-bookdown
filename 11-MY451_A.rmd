@@ -105,7 +105,7 @@ important are
 
     -   **Data view**, which shows the data matrix in the
         spreadsheet-like form discussed in Section
-        \@ref(ss_intro_def_subj), with units in the rows and variables in
+        \@ref(ss_intro_def-subj), with units in the rows and variables in
         the columns.
 
     -   **Variable view**, which shows information about the variables.
@@ -181,7 +181,7 @@ first few computer classes.
     the window; from the drop-down menu, select **Descriptive
     statistics** and then click on **Frequencies**.” This particular
     choice opens a dialog box for constructing various descriptive
-    statistics and graphs (as discussed in Chapter \@ref(c_descr1)).
+    statistics and graphs (as discussed in Chapter \@ref(c-descr1)).
 
     Unless otherwise mentioned, subsequent instructions then refer to
     choices in the most recently opened dialog box, without repeating
@@ -868,10 +868,10 @@ survey.
     **Plots/Boxplots/Factor levels together**.
 
 -   Tests and confidence intervals for single means (c.f. Section
-    \@ref(s_means_1sample)) are not considered today. These are obtained
+    \@ref(s_means-1sample)) are not considered today. These are obtained
     from **Analyze/Compare Means/One-Sample T Test**. They can also be
     used to carry out inference for comparisons of means between two
-    *dependent* samples (c.f. Section \@ref(s_means_dependent)).
+    *dependent* samples (c.f. Section \@ref(s_means-dependent)).
 
 **Classwork**\
 Consider the survey data in the file *ESS5\_GBFR.sav*. We will examine
@@ -890,7 +890,7 @@ France[^5].
     weekly working hours between Britain and France (specify the values
     of the country variable as **Define Groups/Group 1:** *GB* and
     **Group 2:** *FR* as coded in the data). Details of SPSS output for
-    this are explained in Chapter \@ref(c_means); you can use the results
+    this are explained in Chapter \@ref(c-means); you can use the results
     under the assumption of equal population variances. What do you
     conclude? Is there a statistically significant difference in the
     average values of *WKHTOT* between the two countries? What does the
@@ -949,7 +949,7 @@ France[^5].
 
 -   SPSS menus do not provide procedures for calculating the tests and
     confidence intervals for proportions discussed in Chapter
-    \@ref(c_probs). This is not a serious limitation, as the calculations
+    \@ref(c-probs). This is not a serious limitation, as the calculations
     are quite simple.
 
 -   It is probably easiest to use a pocket calculator for the
@@ -996,7 +996,7 @@ respondents’ voting intentions, obtained after the debates had ended
     -   Begin by creating a frequency table of *VOTE\_LIBDEM*. This
         should show that the sample estimate of $\pi$ is 0.260, out of
         $3226$ non-missing responses. Thus $n=3226$ and
-        $\hat{\pi}=0.260$ in the notation of Chapter \@ref(c_probs).
+        $\hat{\pi}=0.260$ in the notation of Chapter \@ref(c-probs).
 
     -   For the one-sample significance test, the value of $\pi$ under
         the null hypothesis is $\pi_{0}=0.230$. Using equation
@@ -1010,9 +1010,9 @@ respondents’ voting intentions, obtained after the debates had ended
         value from the standard normal distribution is at most $-4.049$
         or at least 4.049. Evaluate this approximately by comparing the
         value of $z$ to critical values from the standard normal
-        distribution (c.f. Table \@ref(t_ttable) on
+        distribution (c.f. Table \@ref(t-ttable) on
         p. \pageref{t_ttable}) as explained in Section
-        \@ref(ss_probs_test1sample_samplingd). Here, for example, $z$ is
+        \@ref(ss_probs_test1sample-samplingd). Here, for example, $z$ is
         larger than 1.96, so the two-sided $P$-value must be smaller
         than 0.05. Convince yourself that you understand this statement.
 
@@ -1029,7 +1029,7 @@ respondents’ voting intentions, obtained after the debates had ended
     know” responses). We will compare the proportion of people intending
     to vote Liberal Democrat amongst those who watched some or all of
     the debates with those who did not, using the two-sample methods of
-    analysis discussed in Section \@ref(s_probs_2samples). The formula of
+    analysis discussed in Section \@ref(s_probs-2samples). The formula of
     the $z$-test statistic for testing the hypothesis of equal
     population proportions is thus (\@ref(ztestDpi)) on page
     \pageref{ztestDpi}, and a confidence interval for the difference of
@@ -1041,7 +1041,7 @@ respondents’ voting intentions, obtained after the debates had ended
         Week 2 and 4 classes. The results required for the analysis
         considered here are all shown in the resulting table. Convince
         yourself that these show that, in the notation of Section
-        \@ref(s_probs_2samples),
+        \@ref(s_probs-2samples),
 
         -   $n_{1}=930$ and $\hat{\pi}_{1}=0.218\; (=203/930)$,
 
