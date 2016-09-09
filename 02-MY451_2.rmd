@@ -17,14 +17,14 @@ is organised around two dichotomies:
     association between *two* variables.
 
 Section \@ref(s-descr1-1cat) describes univariate methods for categorical
-variables and Section \@ref(s_descr1-2cat) bivariate methods for cases
-where both variables are categorical. Sections \@ref(s_descr1-1cont) and
-\@ref(s_descr1-nums) cover univariate methods which are mostly used for
-continuous variables. Section \@ref(s_descr1-2cont) lists some bivariate
+variables and Section \@ref(s-descr1-2cat) bivariate methods for cases
+where both variables are categorical. Sections \@ref(s-descr1-1cont) and
+\@ref(s-descr1-nums) cover univariate methods which are mostly used for
+continuous variables. Section \@ref(s-descr1-2cont) lists some bivariate
 methods where at least one variable is continuous; these methods are
 discussed in detail elsewhere in the coursepack. The chapter concludes
 with some general guidelines for presentation of descriptive tables and
-graphs in Section \@ref(s_descr1-presentation).
+graphs in Section \@ref(s-descr1-presentation).
 
 ## Example data sets {#s_descr1_examples}
 
@@ -45,7 +45,7 @@ Consider data for 155 countries on three variables:
     of U.S. dollars.
 
 Further information on the variables is given in the appendix to this
-chapter (Section \@ref(s_descr1-app)), together with the whole data set,
+chapter (Section \@ref(s-descr1-app)), together with the whole data set,
 shown in Table \@ref(t-countrydata).
 
 Region is clearly a discrete (and categorical), nominal-level variable,
@@ -84,7 +84,7 @@ interest is to explore the how people’s attitudes are associated with
 their individual characteristics (including such factors as age, sex,
 education and income) and the contexts in which they live (for example
 the type of welfare regime adopted in their country). In section
-\@ref(s_descr1-2cat) below we use descriptive statistics to examine such
+\@ref(s-descr1-2cat) below we use descriptive statistics to examine such
 associations between sex and attitude in this sample.
 
 ## Single categorical variable {#s_descr1_1cat}
@@ -115,7 +115,7 @@ In other words, we simply count and display the number of times each of
 the values appears in the data. One way to do the display is as a table,
 like the ones for region and the democracy index in the country data,
 and attitude in the survey example, which are shown in Tables
-\@ref(t_region), \@ref(t_democ) and \@ref(t-attitude) respectively.
+\@ref(t-region), \@ref(t-democ) and \@ref(t-attitude) respectively.
 
   Region               Frequency   Proportion       %
   ------------------ ----------- ------------ -------
@@ -197,10 +197,10 @@ visual information. The basic graph for summarising the sample
 distribution of a discrete variable is a **bar chart**. It is the
 graphical equivalent of a one-way table of frequencies.
 
-Figures \@ref(f_bars_region), \@ref(f_bars-democ) and
-\@ref(f_bars-attitude) show the bar charts for region, democracy index
+Figures \@ref(f-bars-region), \@ref(f-bars-democ) and
+\@ref(f-bars-attitude) show the bar charts for region, democracy index
 and attitude, corresponding to the frequencies in Tables \@ref(t-region),
-\@ref(t_democ) and \@ref(t-attitude). Each bar corresponds to one category
+\@ref(t-democ) and \@ref(t-attitude). Each bar corresponds to one category
 of the variable, and the height of the bar is proportional to the
 frequency of observations in that category. This visual cue allows us to
 make quick comparisons between the frequencies of different categories
@@ -224,9 +224,9 @@ Some guidelines for drawing bar charts are:
 -   The heights of the bars may represent frequencies, proportions
     or percentages. This only changes the units on the vertical axis but
     not the relative heights of the bars. The shape of the graph will be
-    the same in each case. In Figure \@ref(f_bars-region), the units are
-    frequencies, while in Figures \@ref(f_bars-democ) and
-    \@ref(f_bars-attitude) they are percentages.
+    the same in each case. In Figure \@ref(f-bars-region), the units are
+    frequencies, while in Figures \@ref(f-bars-democ) and
+    \@ref(f-bars-attitude) they are percentages.
 
 -   The bars do not touch each other, to highlight the discrete nature
     of the variable.
@@ -235,12 +235,12 @@ Some guidelines for drawing bar charts are:
     between their heights are distorted and the graph becomes useless.
 
 -   If the variable is ordinal, the bars must be in the natural order of
-    the categories, as in Figures \@ref(f_bars-democ) and
-    \@ref(f_bars-attitude). If the variable is nominal, the order
+    the categories, as in Figures \@ref(f-bars-democ) and
+    \@ref(f-bars-attitude). If the variable is nominal, the order
     is arbitrary. Often it makes sense to order the categories from
     largest (i.e. the one with the largest frequency) to the smallest,
     possibly leaving any “Others” category last. In Figure
-    \@ref(f_bars-region), the frequency ordering would swap Northern
+    \@ref(f-bars-region), the frequency ordering would swap Northern
     America and Oceania, but it seems more natural to keep Northern and
     Latin America next to each other.
 
@@ -250,7 +250,7 @@ particular, the corresponding table is often just as easy to understand
 and takes less space. For ordinal variables, the bar chart has the
 additional advantage that its shape shows how the frequencies vary
 across the ordering of the categories. For example, Figure
-\@ref(f_bars-democ) quite effectively conveys the information that the
+\@ref(f-bars-democ) quite effectively conveys the information that the
 most common values of the democracy index are the extreme scores 0 and
 10.
 
@@ -271,7 +271,7 @@ Instead of the whole sample distribution, we may want to summarise only
 some individual aspects of it, such as its central tendency or
 variation. Descriptive statistics that are used for this purpose are
 broadly similar for both discrete and continuous variables, so they will
-be discussed together for both in Section \@ref(s_descr1-nums).
+be discussed together for both in Section \@ref(s-descr1-nums).
 
 ## Two categorical variables {#s_descr1_2cat}
 
@@ -281,7 +281,7 @@ The next task we consider is how to describe the sample distributions of
 two categorical variables together, and in so doing also summarise the
 association between these variables. The key tool is a table which shows
 the **crosstabulation** of the frequencies of the variables. This is
-also known as a **contingency table**. Table \@ref(t_sex-attitude) shows
+also known as a **contingency table**. Table \@ref(t-sex-attitude) shows
 such a table for the respondents’ sex and attitude in our survey
 example. We use it to introduce the basic structure and terminology of
 contingency tables:
@@ -299,10 +299,10 @@ contingency tables:
   by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
   data-label="t_sex_attitude"></span>
 
--   Because a table like \@ref(t_sex-attitude) summarizes the values of
+-   Because a table like \@ref(t-sex-attitude) summarizes the values of
     two variables, it is known as a **two-way** contingency table.
     Similarly, the tables of single variables introduced in Section
-    \@ref(ss_descr1_1cat-tables) are *one-way* tables. It is also
+    \@ref(ss-descr1-1cat-tables) are *one-way* tables. It is also
     possible to construct tables involving more than two variables,
     i.e. three-way tables, four-way tables, and so on. These are
     discussed in Chapter \@ref(c-3waytables).
@@ -310,15 +310,15 @@ contingency tables:
 -   The variables in a contingency table may ordinal or nominal
     (including dichotomous). Often an ordinal variable is derived by
     grouping an originally continuous, interval-level variable, a
-    practice which is discussed further in Section \@ref(s_descr1-1cont).
+    practice which is discussed further in Section \@ref(s-descr1-1cont).
 
 -   The horizontal divisions of a table (e.g. the lines corresponding to
-    the two sexes in Table \@ref(t_sex-attitude)) are its **rows**, and
+    the two sexes in Table \@ref(t-sex-attitude)) are its **rows**, and
     the vertical divisions (e.g. the survey responses in Table
-    \@ref(t_sex-attitude)) are its **columns**.
+    \@ref(t-sex-attitude)) are its **columns**.
 
 -   The size of a contingency table is stated in terms of the numbers of
-    its rows and columns. For example, Table \@ref(t_sex-attitude) is a
+    its rows and columns. For example, Table \@ref(t-sex-attitude) is a
     $2\times
     5$ (pronounced “two-by-five”) table, because it has two rows and
     five columns. This notation may also be used symbolically, so that
@@ -331,12 +331,12 @@ contingency tables:
     The basic two-way contingency table shows in each cell the
     number (frequency) of units in the data set with the corresponding
     values of the row variable and the column variable. For example,
-    Table \@ref(t_sex-attitude) shows that there were 160 male
+    Table \@ref(t-sex-attitude) shows that there were 160 male
     respondents who strongly agreed with the statement, and 239 female
     respondents who neither agreed nor disagreed with it. These
     frequencies are also known as **cell counts**.
 
--   The row and column labelled “Total” in Table \@ref(t_sex-attitude)
+-   The row and column labelled “Total” in Table \@ref(t-sex-attitude)
     are known as the **margins** of the table. They show the frequencies
     of the values of the row and the column variable separately, summing
     the frequencies over the categories of the other variable. For
@@ -345,7 +345,7 @@ contingency tables:
     ($=41+34$) respondents strongly disagreed with the statement. In
     other words, the margins are *one-way* tables of the frequencies of
     each of the two variables, so for example the frequencies on the
-    margin for attitude in Table \@ref(t_sex-attitude) are the same as
+    margin for attitude in Table \@ref(t-sex-attitude) are the same as
     the ones in the one-way table for this variable shown in Table
     \@ref(t-attitude). The distributions described by the margins are
     known as the **marginal distributions** of the row and
@@ -360,9 +360,9 @@ contingency tables:
 In addition to frequencies, it is often convenient to display
 proportions or percentages. Dividing the frequencies by the sample size
 gives overall proportions and (multiplying by a hundred) percentages.
-This is illustrated in Table \@ref(t_sex_attitude-pr), which shows the
+This is illustrated in Table \@ref(t-sex-attitude-pr), which shows the
 overall proportions, obtained by dividing the frequencies in Table
-\@ref(t_sex-attitude) by $n=2344$. For example, out of all these
+\@ref(t-sex-attitude) by $n=2344$. For example, out of all these
 respondents, the proportion of 0.102 ($=239/2344$) were women who
 neither agreed nor disagreed with the statement. The proportions are
 also shown for the marginal distributions: for example, 15.6% (i.e. the
@@ -398,14 +398,14 @@ quantities for interpretation of a table. Instead, we typically
 calculate proportions within each category of the row variable or the
 column variable, i.e. the **conditional proportions** of one variable
 given the other. The numbers in brackets in Table
-\@ref(t_sex_attitude-row) show these proportions calculated for each
-*row* of Table \@ref(t_sex_attitude) (Table \@ref(t_sex_attitude-row) also
+\@ref(t-sex-attitude-row) show these proportions calculated for each
+*row* of Table \@ref(t-sex-attitude) (Table \@ref(t-sex-attitude-row) also
 includes the actual frequencies; it is advisable to include them even
 when conditional proportions are of most interest, to show the numbers
 on which the proportions are based). In other words, these are the
 conditional proportions of attitude towards income redistribution given
 sex, i.e. separately for men and women. For example, the number 0.156 in
-the top left-hand corner of Table \@ref(t_sex_attitude-row) is obtained
+the top left-hand corner of Table \@ref(t-sex-attitude-row) is obtained
 by dividing the number of male respondents who agreed strongly with the
 statement (160) by the total number of male respondents (1027). Thus
 15.6% of the men strongly agreed, and for example 2.6% of women strongly
@@ -414,7 +414,7 @@ indicate that the proportions sum to 1 along each row, to remind us that
 the conditional proportions have been calculated within the rows. The
 bracketed proportions in the ‘Total’ row are the proportions of the
 *marginal* distribution of the attitude variable, so they are the same
-as the proportions in the ‘Total’ row of Table \@ref(t_sex_attitude-pr).
+as the proportions in the ‘Total’ row of Table \@ref(t-sex-attitude-pr).
 
   ------------- --------------- --------- --------------- ---------- ---------- -------
   \                  Agree          \      Neither agree      \       Disagree     \
@@ -452,7 +452,7 @@ attitude is $Y$. Here the dichotomous $X$ divides the full sample into
 two groups, identified by the observed value of $X$ — men and women. We
 may then think of these two groups as two separate samples, and consider
 statistical quantities separately for each of them. In particular, in
-Table \@ref(t_sex_attitude-row) we calculated conditional proportions for
+Table \@ref(t-sex-attitude-row) we calculated conditional proportions for
 $Y$ given $X$, i.e. for attitude given sex. These proportions describe
 two distinct sample distributions of $Y$, one for men and one for women.
 They are examples of *conditional distributions*:
@@ -474,7 +474,7 @@ distribution of $Y$ given $X=2$”, say).
 
 Conditional distributions of one variable given another allow us to
 define and describe associations between the variables. The informal
-definition in Section \@ref(ss_intro_def-assoc) stated that there is an
+definition in Section \@ref(ss-intro-def-assoc) stated that there is an
 association between two variables if knowing the value of one of them
 will help to predict the value of the other. We can now give a more
 precise definition:
@@ -528,7 +528,7 @@ common sense to present comparisons which give a good summary of the
 patterns across the table. Unless both variables in the table are
 dichotomous, several different comparisons may be needed, and may not
 all display similar patterns. For example, in Table
-\@ref(t_sex_attitude-row) the same proportion (0.156, or 15.6%) of both
+\@ref(t-sex-attitude-row) the same proportion (0.156, or 15.6%) of both
 men and women strongly agree with the statement, whereas the proportion
 who respond “Agree” is higher for women (49.4%) than for men (42.8%).
 
@@ -911,7 +911,7 @@ data-label="f_hist_gdp"></span>](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
 grouped variable, like that in Table \@ref(t-gdp). Figure
-\@ref(f_hist-gdp) shows a histogram for the GDP variable (the histogram
+\@ref(f-hist-gdp) shows a histogram for the GDP variable (the histogram
 consists of the bars; the lines belong to a different graph, the
 frequency polygon explained below). The basic idea of a histogram is
 very similar to that of the bar chart, except that now the bars touch
@@ -931,14 +931,14 @@ units for the first five, and unbounded for the last one). The intervals
 in a histogram must be of equal widths, because otherwise the visual
 information in it becomes distorted (at least unless the histogram is
 modified in ways not discussed here). For example, the intervals in
-Figure \@ref(f_hist-gdp) (less than 2.5, 2.5–less than 5.0, 5.0–less than
+Figure \@ref(f-hist-gdp) (less than 2.5, 2.5–less than 5.0, 5.0–less than
 7.5 etc.) are all 2.5 units wide. The exact choice can usually be left
 to computer packages such as SPSS which use automatic rules for choosing
 sensible intervals.
 
 #### Frequency polygons {-}
 
-Figure \@ref(f_hist-gdp) also shows a **frequency polygon** of the GDP
+Figure \@ref(f-hist-gdp) also shows a **frequency polygon** of the GDP
 variable. This is obtained by drawing lines to connect the mid-points of
 the tops of the bars in a histogram. At each end of the histogram the
 lines are further connected to zero, as if the histogram had additional
@@ -1021,7 +1021,7 @@ on the “37” stem.
 
 The stem and leaf plot is very similar to a histogram (try turning
 Figure \@ref(f-stemgdp) on its side, and compare to Figure
-\@ref(f_hist-gdp)). It has the additional advantage that it also shows
+\@ref(f-hist-gdp)). It has the additional advantage that it also shows
 the actual numerical values of the observations. In some rather special
 cases this can reveal additional features of the data. Consider, for
 example, the plot shown in Figure \@ref(f-stemhours). The variable here
@@ -1064,8 +1064,8 @@ data-label="f_boxplot_gdp"></span>](box_gdp){width="15cm"}
 A **box plot** differs from the graphs discussed so far in that it does
 not attempt to display the whole distribution, but only certain
 characteristics of it. The quantities included in a box plot are some of
-the summary statistics defined in Section \@ref(s_descr1-nums). To
-introduce the idea, one box plot is shown in Figure \@ref(f_boxplot-gdp).
+the summary statistics defined in Section \@ref(s-descr1-nums). To
+introduce the idea, one box plot is shown in Figure \@ref(f-boxplot-gdp).
 The variable considered here is again GDP per capita. The vertical axis
 shows possible values of the variable, and the plot itself contains the
 following elements:
@@ -1138,7 +1138,7 @@ more can also be obtained from a histogram. It is instead for
 *comparisons* of distributions between two or more samples that box
 plots are particularly convenient, because it is easy to place two or
 more of them side by side. This will be illustrated later in Section
-\@ref(ss_means_descr-graphs).
+\@ref(ss-means-descr-graphs).
 
 #### Other graphs for single variables {-}
 
@@ -1185,7 +1185,7 @@ and “average” used above).
 
 The **mode** is the value of the variable which occurs most often in the
 data, i.e. the one with the highest frequency. For example, Tables
-\@ref(t_region) and \@ref(t-democ) show that the mode of the region
+\@ref(t-region) and \@ref(t-democ) show that the mode of the region
 variable in the country data is “Africa” and the mode of the democracy
 score is 0. The GDP variable has two modes, 0.8 and 1.9, which both
 appear five times (a distribution can have several modes; one with two
@@ -1284,7 +1284,7 @@ which the numbers of the categories are ordered labels rather than real
 numbers. However, it is common to see this instruction ignored and means
 calculated for ordinal variables, especially when they have a large
 number of categories (see also the discussion in Section
-\@ref(sss_intro_def_vars-measlevels)). For example, the mean democracy
+\@ref(sss-intro-def-vars-measlevels)). For example, the mean democracy
 score in our sample (using the codes 0–10 as its values) is 5.4. This
 may be used as a summary of the central tendency of the variable, but it
 should not be overinterpreted as its meaning is not quite as clear as
@@ -1293,9 +1293,9 @@ that of, say, mean GDP.
 For interval level variables the mean is by far the most commonly used
 measure of central tendency. It does, however, have one arguably
 undesirable feature. This is illustrated by the statistics for the GDP
-variable, as shown in Table \@ref(t_countries-sums). Its mean (\$8600) is
+variable, as shown in Table \@ref(t-countries-sums). Its mean (\$8600) is
 clearly much larger than the median (\$4700). This is due to the shape
-of the distribution of GDP, as revealed by Figure \@ref(f_hist-gdp) or
+of the distribution of GDP, as revealed by Figure \@ref(f-hist-gdp) or
 even more clearly by the stem and leaf plot of Figure \@ref(f-stemgdp).
 While most of the countries are concentrated around a fairly narrow
 range of GDPs, there are also a number of countries with much larger
@@ -1303,7 +1303,7 @@ GDPs. The ranges of values in the small and large ends of the values in
 a distribution are (for fairly obvious visual reasons) called the
 **tails** of the distribution. A distribution with a (much) longer tail
 in one end than the other is said to be **skewed**. A distribution like
-that of GDP in Figure \@ref(f_hist-gdp), with its long tail towards the
+that of GDP in Figure \@ref(f-hist-gdp), with its long tail towards the
 large values, is said to be **skewed to the right** or **positively
 skewed**. A distribution shown in panel A of Figure \@ref(f-skews) is
 **skewed to the left** (**negatively skewed**): while the examination
@@ -1560,7 +1560,7 @@ $$s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.}
 2, and 3.4 for class 3. In the country data, the standard deviation of
 GDP is \$9450 and that of the democracy score (if it is treated as an
 interval-level variable) is 3.9, as shown in Table
-\@ref(t_countries-sums).
+\@ref(t-countries-sums).
 
 Like the mean, the standard deviation is sensitive to outliers and
 skewness of the distribution, so sometimes other measures of variation
@@ -1598,7 +1598,7 @@ on to discuss the implications of this development for global economy.
 The formula (\@ref(sd)) for the standard deviation involves the divisor
 $n-1$, where the discussion leading up to it might make you expect $n$
 instead. The reasons for this will be discussed briefly in Section
-\@ref(ss_contd_popdistrs-params). The definition is not entirely
+\@ref(ss-contd-popdistrs-params). The definition is not entirely
 consistent in that some textbooks do use $n$ instead of $n-1$. The
 difference is of no great importance, and using either $n$ or $n-1$
 would be fine for our purposes. Whenever $n$ is even moderately large,
@@ -1616,7 +1616,7 @@ noticeable feature of the marks in Class 3, on the other hand, is that
 there appear to be two distinct groups of students, one with very low
 scores and one with high scores. A similar feature was also noted in the
 distribution of the democracy index in the country data (c.f. Figure
-\@ref(f_bars-democ)). This property would not be revealed by measures of
+\@ref(f-bars-democ)). This property would not be revealed by measures of
 central tendency or variation, so it is an illustration of why it is
 always sensible to also examine the whole distribution of a variable
 using frequency tables or graphical methods.
@@ -1634,17 +1634,17 @@ in later sections:
 
 -   Explanatory variable is categorical and response variable
     continuous: Parallel histograms, frequency polygons and box plots
-    (Section \@ref(s_means-descr)).
+    (Section \@ref(s-means-descr)).
 
 -   Both explanatory and response variables are continuous: Scatter
-    plots and line plots (Section \@ref(ss_regression_descr-plots)).
+    plots and line plots (Section \@ref(ss-regression-descr-plots)).
 
 We do not discuss the remaining possibility, where the explanatory
 variable is continuous and the response is categorical. The simplest and
 usually quite sufficient way to give an initial description of the
 associations in this case is to group the explanatory variable into a
 categorical variable and then apply the methods of Section
-\@ref(s_descr1-2cat).
+\@ref(s-descr1-2cat).
 
 ## Presentation of tables and graphs {#s_descr1_presentation}
 
@@ -1731,7 +1731,7 @@ One example of a lying graph already mentioned is the “cut” bar chart
 where the bars do not begin at zero. Another is the pseudo third
 dimension, an example of which is shown in Figure \@ref(f-yuk). The
 information presented in this graph is the same as that of Figure
-\@ref(f_bars-region), i.e. frequencies of different regions. These are
+\@ref(f-bars-region), i.e. frequencies of different regions. These are
 represented by the heights of the bars. The additional information
 conveyed by the apparent thickness of the bars, represented in
 perspective to give an illusion of three-dimensional bars, is then —
@@ -1752,7 +1752,7 @@ accurate presentation of data.
 
 ![An example of an unacceptable graph: a bar chart with a pseudo
 three-dimensional effect. The data are the same as in Figure
-\@ref(f_bars-region).<span
+\@ref(f-bars-region).<span
 data-label="f_yuk"></span>](threeD){height="8cm"}
 
 An objection sometimes offered to such a severe rule is that bad graphs

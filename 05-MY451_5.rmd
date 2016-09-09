@@ -7,7 +7,7 @@ only discrete, categorical variables. In fact, we now focus on the
 simplest case of all, that of **dichotomous** (binary) variables which
 have only two possible values. Four examples which will be used for
 illustration throughout this chapter are introduced in Section
-\@ref(s_probs-examples). In the first two of them we consider a binary
+\@ref(s-probs-examples). In the first two of them we consider a binary
 variable in a single population, while in the last two examples the
 question of interest involves a comparison of the distributions of the
 variable between two populations (*groups*).
@@ -37,7 +37,7 @@ inference:
 The comparisons in the two-group analyses again address questions about
 associations, now between the group and the dichotomous variable of
 interest. Here it will be useful to employ the terminology introduced in
-Section \@ref(ss_intro_def-assoc), which distinguishes between the
+Section \@ref(ss-intro-def-assoc), which distinguishes between the
 **explanatory variable** and the **response variable** in the
 association. Following a common convention, we will denote the
 explanatory variable by $X$ and the response variable by $Y$. In the
@@ -343,7 +343,7 @@ lead to a more cautious (conservative) approach in that it takes
 stronger evidence to reject the null hypothesis when the alternative is
 two-sided than when it is one-sided. Such conservatism is typically
 regarded as a desirable feature in statistical inference (this will be
-discussed further in Section \@ref(ss_means_tests3-errors)).
+discussed further in Section \@ref(ss-means-tests3-errors)).
 
 \label{p_onesidednull} The two-sided alternative hypothesis
 (\@ref(Hatwo)) is clearly the logical opposite of the null hypothesis
@@ -380,7 +380,7 @@ ostensibly different situations can be formulated as hypotheses of the
 form (\@ref(H0p2)) about population differences of some kind, and each
 can be tested with the test statistic (\@ref(ttest-gen)). For example,
 all of the test statistics discussed in Chapters \@ref(c-probs),
-\@ref(c_means) and \@ref(c-regression) of this course pack will be of this
+\@ref(c-means) and \@ref(c-regression) of this course pack will be of this
 type (but the $\chi^{2}$ test statistic of Chapter \@ref(c-tables) is
 not). The principles of the use and interpretation of the test that are
 introduced in this section apply almost unchanged also in these other
@@ -424,7 +424,7 @@ $\hat{\Delta}$, which is also known as the estimated **standard error**
 of $\hat{\Delta}$. For the test statistic (\@ref(ttest-gen)), it is
 evaluated under the null hypothesis. The concept of a standard error of
 an estimate will be discussed in more detail in Section
-\@ref(s_contd-clt). Its role in the test statistic is to provide an
+\@ref(s-contd-clt). Its role in the test statistic is to provide an
 interpretable scale for the size of $\hat{\Delta}$, so that the sampling
 distribution discussed in the next section will be of a convenient form.
 
@@ -468,7 +468,7 @@ sufficient.
 When the sample size is large enough, the sampling distribution of $z$
 defined by (\@ref(ztestp)) is approximately the **standard normal
 distribution**. The probability curve of this distribution is shown in
-Figure \@ref(f_pval-prob). For now we just take it as given, and postpone
+Figure \@ref(f-pval-prob). For now we just take it as given, and postpone
 a general discussion of the normal distribution until Chapter
 \@ref(c-means).
 
@@ -480,7 +480,7 @@ far from 0 as the observed value of $z$. <span
 data-label="f_pval_prob"></span>](pval_zp){width="10cm"}
 
 The $P$-value of the test is calculated from this distribution using the
-general principles introduced in Section \@ref(ss_tables_chi2test-Pval).
+general principles introduced in Section \@ref(ss-tables-chi2test-Pval).
 In other words, the $P$-value is the probability that the test statistic
 $z$ has a value that is as or more extreme than the value of $z$ in the
 observed sample. Now, however, the details of this calculation depend
@@ -521,7 +521,7 @@ standard normal sampling distribution of the test statistic under
 $H_{0}$.
 
 This calculation of the $P$-value is illustrated graphically in Figure
-\@ref(f_pval-prob). The curve in the plot is that of the standard normal
+\@ref(f-pval-prob). The curve in the plot is that of the standard normal
 distribution. Two areas are shown in grey under the curve, one on each
 tail of the distribution. The one on the left corresponds to values of
 $-1.59$ and smaller, and the one on the right to values of 1.59 or
@@ -534,7 +534,7 @@ than the $z=-1.59$ that was actually observed in Example 5.1.
 
 In example 5.2 the observed test statistic was $z=-16.71$. The two-sided
 $P$-value is then the probability of values that are at most $-16.71$ or
-at least 16.71. These areas are not shown in Figure \@ref(f_pval-prob)
+at least 16.71. These areas are not shown in Figure \@ref(f-pval-prob)
 because they would not be visible in it. The horizontal axis of the
 figures runs from $-4$ to $+4$, so $-16.71$ is clearly far in the tail
 of the distribution and the corresponding probability is very small; we
@@ -555,7 +555,7 @@ because positive values of the test statistic (corresponding to sample
 differences greater than 0) would not be regarded as evidence in favour
 of the claim that $\Delta$ is smaller than 0. The $P$-value is thus only
 the probability corresponding to the area on the left tail of the curve
-in Figure \@ref(f_pval-prob), and the corresponding area on the right
+in Figure \@ref(f-pval-prob), and the corresponding area on the right
 tail is not included. Since both areas have the same size, the one-sided
 $P$-value is half the two-sided value, i.e. 0.056 instead of 0.112. In
 general, the one-sided $P$-value for a $z$-test of a proportion and
@@ -574,7 +574,7 @@ direction of the alternative hypothesis” as required by the definition
 on page \pageref{p_pval_ref}, since they agree with the alternative
 hypothesis (negative values of $z$) or at least disagree with it less
 than the observed $z$ (positive values from 0 to 1.59). In Figure
-\@ref(f_pval-prob), these values would correspond to the area under the
+\@ref(f-pval-prob), these values would correspond to the area under the
 whole curve, apart from the region to the right of $1.59$ on the right
 tail. Since the probability of the latter is 0.056 and the total
 probability under the curve is 1, the required probability is
@@ -596,13 +596,13 @@ only a two-sided one is reported). However, since SPSS does not
 currently provide a procedure for this test, and for exam purposes, we
 will briefly outline how an approximate $P$-value is obtained using
 critical values from a table. This is done in a very similar way as for
-the $\chi^{2}$ test in Section \@ref(ss_tables_chi2test-Pval).
+the $\chi^{2}$ test in Section \@ref(ss-tables-chi2test-Pval).
 
 The first part of Table \@ref(t-ttable) shows a table of critical values
 for the standard normal distribution. These values are also shown on
 page \pageref{s_disttables_t} at the end of this course pack, on the
 last row of a larger table (the other parts of this table will be
-explained later, in Section \@ref(ss_means_inference-variants)). A
+explained later, in Section \@ref(ss-means-inference-variants)). A
 version of this table is included in all introductory text books on
 statistics, although its format may be slightly different in different
 books.
@@ -681,7 +681,7 @@ absolute value of which is smaller than even the critical value 1.65 for
 the 10% significance level. For this example, we would report $P>0.1$.
 
 The intuitive idea of the critical values and their connection to the
-$P$-values is illustrated for Example 5.1 by Figure \@ref(f_pval-prob) on
+$P$-values is illustrated for Example 5.1 by Figure \@ref(f-pval-prob) on
 page \pageref{f_pval_prob}. Here the observed test statistic is
 $t=-1.59$, so the two-sided $P$-value is the probability of values at
 least 1.59 or at most $-1.59$, which correspond to the two gray areas in
@@ -700,7 +700,7 @@ here also larger than 0.1.
 
 The general principles of drawing and stating conclusions from a
 significance test have already been explained in Section
-\@ref(ss_tables_chi2test-conclusions), so they need not be repeated here.
+\@ref(ss-tables-chi2test-conclusions), so they need not be repeated here.
 Considering two-sided alternative hypotheses, the conclusions in our two
 examples are as follows:
 
@@ -764,7 +764,7 @@ in this section in a concise form, using the voting variable of Example
 A significance test assesses whether it is plausible, given the evidence
 in the observed data, that a population parameter or parameters have a
 specific set of values claimed by the null hypothesis. For example, in
-Section \@ref(s_probs-test1sample) we asked such a question about the
+Section \@ref(s-probs-test1sample) we asked such a question about the
 probability parameter of a binary variable in a single population.
 
 In many ways a more natural approach would be try to identify all of
@@ -792,9 +792,9 @@ $\Delta=\pi-\pi_{0}$ or, equivalently, the population probability $\pi$.
 The point estimate of $\Delta$ is $\hat{\Delta}=\hat{\pi}-\pi_{0}$ where
 $\hat{\pi}$ is the sample proportion corresponding to $\pi$. Suppose
 that the conditions on the sample size $n$ that were discussed in
-Section \@ref(ss_probs_test1sample-samplingd) are again satisfied.
+Section \@ref(ss-probs-test1sample-samplingd) are again satisfied.
 
-Consider now Figure \@ref(f_pval_prob} on \pageref{f_pval-prob). One of
+Consider now Figure \@ref(f-pval-prob} on \pageref{f-pval-prob). One of
 the results illustrated by it is that if $\pi_{0}$ is the true value of
 of the population probability $\pi$, so that $\Delta=\pi-\pi_{0}=0$,
 there is a probability of 0.95 that for a randomly drawn sample from the
@@ -893,7 +893,7 @@ $$\hat{\Delta} \pm z_{\alpha/2}\; \hat{\sigma}_{\hat{\Delta}}.
 depends on two things. One of them is the sampling distribution of
 $\hat{\Delta}$, which is here assumed to be the normal distribution
 (another possibility is discussed in Section
-\@ref(ss_means_inference-variants)). The second is the **confidence
+\@ref(ss-means-inference-variants)). The second is the **confidence
 level** which we have chosen for the confidence interval. For example,
 the probability of 0.95 in the interpretation of a 95% confidence
 interval discussed above is the confidence level of that interval.
@@ -919,7 +919,7 @@ also shown in Table \@ref(t-ciq).
   : Multipliers $z_{\alpha/2}$ used to obtain confidence intervals based
   on the normal distribution, for three standard confidence levels.
   These values are substituted for $z_{\alpha/2}$ in formula
-  (\@ref(ci_D-gen)) to obtain the confidence interval.<span
+  (\@ref(ci-D-gen)) to obtain the confidence interval.<span
   data-label="t_ciq"></span>
 
 A confidence interval contains, loosely speaking, those numbers which
@@ -934,7 +934,7 @@ $\Delta$ and thus little uncertainty. Another way of stating this is
 that when the confidence interval is narrow, estimates of $\Delta$ are
 very *precise*.
 
-The width of the interval (\@ref(ci_D-gen)) is
+The width of the interval (\@ref(ci-D-gen)) is
 $2\times z_{\alpha/2}\times \hat{\sigma}_{\hat{\Delta}}$. This depends
 on
 
@@ -1158,7 +1158,7 @@ estimate $$\hat{\sigma}_{\hat{\Delta}} =
 \frac{\hat{\pi}_{1}(1-\hat{\pi}_{1})}{n_{1}}
 }
 \label{seDpi2}$$ and, substituting this to the general formula
-(\@ref(ci_D-gen)), we get
+(\@ref(ci-D-gen)), we get
 $$(\hat{\pi}_{2}-\hat{\pi}_{1}) \pm z_{\alpha/2} \;
 \sqrt{
 \frac{\hat{\pi}_{2}(1-\hat{\pi}_{2})}{n_{2}} +
@@ -1218,7 +1218,7 @@ changing just one word in the survey question, as described in the
 introduction to Example 5.4 at the beginning of this chapter.
 
 In Example 5.3, the estimated difference is $\hat{\Delta}=-0.000422$
-(see Table \@ref(t_probex) on page \pageref{t-probex}), i.e. 422 fewer
+(see Table \@ref(t-probex) on page \pageref{t-probex}), i.e. 422 fewer
 polio cases per million children in the vaccinated group than in the
 unvaccinated group. Similar calculations as above show that the value of
 the test statistic is $z=-6.01$, so the $P$-value is again very small

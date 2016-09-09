@@ -105,7 +105,7 @@ important are
 
     -   **Data view**, which shows the data matrix in the
         spreadsheet-like form discussed in Section
-        \@ref(ss_intro_def-subj), with units in the rows and variables in
+        \@ref(ss-intro-def-subj), with units in the rows and variables in
         the columns.
 
     -   **Variable view**, which shows information about the variables.
@@ -868,10 +868,10 @@ survey.
     **Plots/Boxplots/Factor levels together**.
 
 -   Tests and confidence intervals for single means (c.f. Section
-    \@ref(s_means-1sample)) are not considered today. These are obtained
+    \@ref(s-means-1sample)) are not considered today. These are obtained
     from **Analyze/Compare Means/One-Sample T Test**. They can also be
     used to carry out inference for comparisons of means between two
-    *dependent* samples (c.f. Section \@ref(s_means-dependent)).
+    *dependent* samples (c.f. Section \@ref(s-means-dependent)).
 
 **Classwork**\
 Consider the survey data in the file *ESS5\_GBFR.sav*. We will examine
@@ -1012,7 +1012,7 @@ respondents’ voting intentions, obtained after the debates had ended
         value of $z$ to critical values from the standard normal
         distribution (c.f. Table \@ref(t-ttable) on
         p. \pageref{t_ttable}) as explained in Section
-        \@ref(ss_probs_test1sample-samplingd). Here, for example, $z$ is
+        \@ref(ss-probs-test1sample-samplingd). Here, for example, $z$ is
         larger than 1.96, so the two-sided $P$-value must be smaller
         than 0.05. Convince yourself that you understand this statement.
 
@@ -1029,7 +1029,7 @@ respondents’ voting intentions, obtained after the debates had ended
     know” responses). We will compare the proportion of people intending
     to vote Liberal Democrat amongst those who watched some or all of
     the debates with those who did not, using the two-sample methods of
-    analysis discussed in Section \@ref(s_probs-2samples). The formula of
+    analysis discussed in Section \@ref(s-probs-2samples). The formula of
     the $z$-test statistic for testing the hypothesis of equal
     population proportions is thus (\@ref(ztestDpi)) on page
     \pageref{ztestDpi}, and a confidence interval for the difference of
@@ -1041,7 +1041,7 @@ respondents’ voting intentions, obtained after the debates had ended
         Week 2 and 4 classes. The results required for the analysis
         considered here are all shown in the resulting table. Convince
         yourself that these show that, in the notation of Section
-        \@ref(s_probs-2samples),
+        \@ref(s-probs-2samples),
 
         -   $n_{1}=930$ and $\hat{\pi}_{1}=0.218\; (=203/930)$,
 

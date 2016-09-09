@@ -1,6 +1,6 @@
 # Analysis of 3-way contingency tables {#c_3waytables}
 
-In Section \@ref(s_descr1_2cat) and Chapter \@ref(c-tables) we discussed
+In Section \@ref(s-descr1-2cat) and Chapter \@ref(c-tables) we discussed
 the analysis of two-way contingency tables (crosstabulations) for
 examining the associations between two categorical variables. In this
 section we extend this by introducing the basic ideas of **multiway
@@ -12,7 +12,7 @@ This topic is thematically related also to some of Chapter
 \@ref(c-regression), in that a multiway contingency table can be seen as
 a way of implementing for categorical variables the ideas of statistical
 control that were also a feature of the multiple linear regression model
-of Section \@ref(s_regression-multiple). Here, however, we will not
+of Section \@ref(s-regression-multiple). Here, however, we will not
 consider formal regression models for categorical variables (these are
 mentioned only briefly at the end of the chapter). Instead, we give
 examples of analyses which simply apply familiar methods for two-way
@@ -386,7 +386,7 @@ Table \@ref(t-whickham2) shows the partial tables of smoking vs.\survival
 controlling for age at the time of the first survey, classified into
 seven categories. Note first that this three-way table appears somewhat
 different from those shown in Tables \@ref(t-berkeley2),
-\@ref(t_investors3) and \@ref(t-titanic3). This is because one variable,
+\@ref(t-investors3) and \@ref(t-titanic3). This is because one variable,
 survival status, is summarised only by the percentage of survivors
 within each combination of age group and smoking status. This is a
 common trick to save space in three-way tables involving dichotomous
@@ -568,7 +568,7 @@ tables:
     because there is no single response variable? More powerful methods
     are required for such analyses. They are multiple regression models
     like the multiple linear regression of Section
-    \@ref(s_regression-multiple), but modified so that they become
+    \@ref(s-regression-multiple), but modified so that they become
     approriate for categorical response variables. Some of these models
     are introduced on the course MY452.
 

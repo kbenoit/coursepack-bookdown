@@ -5,14 +5,14 @@
 So far we have discussed statistical description, which is concerned
 with summarizing features of a sample of observed data. From now on,
 most of the attention will be on statistical inference. As noted in
-Section \@ref(ss_intro_def-descr), the purpose of inference is to draw
+Section \@ref(ss-intro-def-descr), the purpose of inference is to draw
 conclusions about the characteristics of some larger population based on
 what is observed in a sample. In this chapter we will first give more
 careful definitions of the concepts of populations and samples, and of
-the connections between them. In Section \@ref(s_samples-popdistrs) we
+the connections between them. In Section \@ref(s-samples-popdistrs) we
 then consider the idea of a population distribution, which is the target
 of statistical inference. The discussion of statistical inference will
-continue in Chapters \@ref(c_tables}–\ref{c-means) where we gradually
+continue in Chapters \@ref(c-tables}–\ref{c-means) where we gradually
 introduce the basic elements of inference in the contexts of different
 types of analyses.
 
@@ -218,8 +218,8 @@ the district, and the timing of the election in the district (especially
 in relation to the Union armies’ changing fortunes over the period).
 
 There is no reference here to the kinds of finite populations and
-probability samples discussed Sections \@ref(s_samples-finpops) and
-\@ref(s_samples-samples). In the experiment, the participants were a
+probability samples discussed Sections \@ref(s-samples-finpops) and
+\@ref(s-samples-samples). In the experiment, the participants were a
 convenience sample of respondents easily available to the researcher,
 while in the election study the units represent (nearly) all the
 districts in a single (and historically unique) election. Yet both
@@ -269,7 +269,7 @@ from some conceptual superpopulation.
 The highly hypothetical notion of a conceptual population of possible
 events is clearly going to be less easy both to justify and to
 understand than the concept of a large but finite population of real
-subjects defined in Section \@ref(s_samples-finpops). If you find the
+subjects defined in Section \@ref(s-samples-finpops). If you find the
 whole idea distracting, you can focus in your mind on the more
 understandable latter case, at least if you are willing to believe that
 the idea of a conceptual population is also meaningful. Its main
@@ -346,7 +346,7 @@ Table \@ref(t-attitude) on page \pageref{t_attitude}.
 
 Imagine now that the full population consisted of 50 million people, and
 that the values of the two variables for them were as shown in Table
-\@ref(t_sex_attitude-pop). The frequencies in this table desribe the
+\@ref(t-sex-attitude-pop). The frequencies in this table desribe the
 population distribution of the variables in this hypothetical
 population, with the joint distribution of sex and attitude shown by the
 internal cells of the table and the marginal distributions by its
@@ -355,7 +355,7 @@ women in the population who strongly agree with the attitude statement,
 and 1.98 million people overall who strongly disagree with it.
 
 Rather than the frequencies, it is more helpful to discuss population
-distributions in terms of proportions. Table \@ref(t_sex_attitude-pop)
+distributions in terms of proportions. Table \@ref(t-sex-attitude-pop)
 shows two sets of them, the overall proportions \[in square brackets\]
 out of the total population size, and the two rows of conditional
 proportions of attitude given sex (in parentheses). Either of these can
@@ -370,9 +370,9 @@ proportion is 0.05.
 Instead of “proportions”, when we discuss population distributions we
 will usually talk of “probabilities”. The two terms are equivalent when
 the population is finite and the variables are categorical, as in Table
-\@ref(t_sex_attitude-pop), but the language of probabilities is more
+\@ref(t-sex-attitude-pop), but the language of probabilities is more
 appropriate in other cases. We can then say that Table
-\@ref(t_sex_attitude-pop) shows two sets of **conditional probabilities**
+\@ref(t-sex-attitude-pop) shows two sets of **conditional probabilities**
 in the population, which define two conditional **probability
 distributions** for attitude given sex.
 
@@ -388,7 +388,7 @@ disagrees and 0.16 that he strongly agrees with the attitude statement.
 
 The view of population distributions as probability distributions works
 also in other cases than the kind that is illustrated by Table
-\@ref(t_sex_attitude-pop). First, it applies also for continuous
+\@ref(t-sex-attitude-pop). First, it applies also for continuous
 variables, where proportions of individual values are less useful (this
 is discussed further in Chapter \@ref(c-means)). Second, it is also
 appropriate when the population is regarded as an infinite
