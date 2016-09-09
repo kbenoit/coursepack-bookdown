@@ -109,7 +109,7 @@ both finite and infinite population distributions.
 For further illustration of the connection between population and sample
 quantities, we have also drawn a simple random sample of $n=50$
 observations from the finite population of $N=4489$ observations in
-Figure \@ref(f-bp1). Table \@ref(t-bp-example) shows the summary
+Figure \@ref(f-bp1). Table \@ref(tab:t-bp-example) shows the summary
 statistics (\@ref(Ybar-ch6))–(\@ref(s-ch6)) in this sample and the
 corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
 
@@ -413,7 +413,7 @@ they remove the specific values of $\mu$ and $\sigma$ from the
 calculation. With this trick, probabilities for any normal distribution
 can be calculated using a single table for $Z$ scores. Such a table is
 given on page \pageref{s_disttables_Z} in the Appendix, and an extract
-from it is shown in Table \@ref(t-normtab) (note that it is not always
+from it is shown in Table \@ref(tab:t-normtab) (note that it is not always
 presented exactly like this, as different books may use slightly
 different format or notation). The first column lists values of the $Z$
 score (a full table would typically give all values from 0.00 to about
@@ -463,7 +463,7 @@ and standard deviation *stddev* is **at most** *quant*.
 
 In practice we do not usually know the population mean and variance, so
 their sample estimates will be used in such calculations. For example,
-for the sample in Table \@ref(t-bp-example) we had $\bar{Y}=72.6$ and
+for the sample in Table \@ref(tab:t-bp-example) we had $\bar{Y}=72.6$ and
 $s=12.7$. Using these values in a similar calculation as above gives the
 estimated proportion of people in the population with diastolic blood
 pressures over 90 as 8.5%. Even with a sample of only 50 observations,

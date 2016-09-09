@@ -27,12 +27,12 @@ control.
 
 **Example 9.1: Berkeley admissions**
 
-Table \@ref(t-berkeley1) summarises data on applications for admission to
+Table \@ref(tab:t-berkeley1) summarises data on applications for admission to
 graduate study at the University of California, Berkeley, for the fall
 quarter 1973[^1]. The data are for five of the six departments with the
 largest number of applications, labelled below Departments 2–5
 (Department 1 will be discussed at the end of this section). Table
-\@ref(t-berkeley1) shows the two-way contingency table of the sex of the
+\@ref(tab:t-berkeley1) shows the two-way contingency table of the sex of the
 applicant and whether he or she was admitted to the university.
 
   ----------------------------------------------------------------- -------------------------------- ---------- ------- -------
@@ -48,7 +48,7 @@ applicant and whether he or she was admitted to the university.
   admitted within each row. $\chi^{2}=38.4$, $df=1$, $P<0.001$.<span data-label="tab:t-berkeley1"></span>
 
 
-The percentages in Table \@ref(t-berkeley1) show that men were more
+The percentages in Table \@ref(tab:t-berkeley1) show that men were more
 likely to be admitted, with a 36.8% success rate compared to 27.1% for
 women. The difference is strongly significant, with $P<0.001$ for the
 $\chi^{2}$ test of independence. If this association was interpreted
@@ -56,7 +56,7 @@ causally, it might be regarded as evidence of sex bias in the admissions
 process. However, other important variables may also need to be
 considered in the analysis. One of them is the academic department to
 which an applicant had applied. Information on the department as well as
-sex and admission is shown in Table \@ref(t-berkeley2).
+sex and admission is shown in Table \@ref(tab:t-berkeley2).
 
   ---------------------------- ------------------------------------------------ -------------------------------- ---------- ------- -------
   \                            \                                                                        Admitted   Admitted       \       \
@@ -87,35 +87,35 @@ sex and admission is shown in Table \@ref(t-berkeley2).
   :  Sex of applicant vs. admission by academic department in the
   Berkeley admissions data. <span data-label="tab:t-berkeley2"></span>
 
-Table \@ref(t-berkeley2) is a *three-way* contingency table, because each
+Table \@ref(tab:t-berkeley2) is a *three-way* contingency table, because each
 of its internal cells shows the number of applicants with a particular
 combination of three variables: department, sex and admission status.
 For example, the frequency 207 in the top left corner indicates that
 there were 207 male applicants to department 2 who were not admitted.
-Table \@ref(t-berkeley2) is presented in the form of a series of tables
+Table \@ref(tab:t-berkeley2) is presented in the form of a series of tables
 of sex vs. admission, just like in the original two-way table
-\@ref(t-berkeley1), but now with one table for each department. These are
+\@ref(tab:t-berkeley1), but now with one table for each department. These are
 known as **partial tables** of sex vs. admission, **controlling for**
 department. The word “control” is used here in the same sense as before:
 each partial table summarises the data for the applicants to a single
 department, so the variable “department” is literally held constant
 within the partial tables.
 
-Table \@ref(t-berkeley2) also contains the marginal distributions of sex
+Table \@ref(tab:t-berkeley2) also contains the marginal distributions of sex
 and admission status within each department. They can be used to
 construct the other two possible two-way tables for these variables, for
 department vs. sex of applicant and department vs. admission status.
-This information, summarised in Table \@ref(t-berkeley3), is discussed
+This information, summarised in Table \@ref(tab:t-berkeley3), is discussed
 further below.
 
 The association between sex and admission within each partial table can
 be examined using methods for two-way tables. For every one of them, the
 $\chi^{2}$ test shows that the hypothesis of independence cannot be
 rejected, so there is no evidence of sex bias within any department. The
-apparent association in Table \@ref(t-berkeley1) is thus spurious, and
+apparent association in Table \@ref(tab:t-berkeley1) is thus spurious, and
 disappears when we control for department. Why this happens can be
 understood by considering the distributions of sex and admissions across
-departments, as shown in Table \@ref(t-berkeley3). Department is clearly
+departments, as shown in Table \@ref(tab:t-berkeley3). Department is clearly
 associated with sex of the applicant: for example, almost all of the
 applicants to department 2, but only a third of the applicants to
 department 5 are men. Similarly, there is an association between
@@ -123,7 +123,7 @@ department and admission: for example, nearly two thirds of the
 applicants to department 2 but only a quarter of the applicants to
 department 5 were admitted. It is the combination of these associations
 which induces the spurious association between sex and admission in
-Table \@ref(t-berkeley1). In essence, women had a lower admission rate
+Table \@ref(tab:t-berkeley1). In essence, women had a lower admission rate
 overall because relatively more of them applied to the more selective
 departments and fewer to the easy ones.
 
@@ -166,11 +166,11 @@ unchanged.
 **Example 9.2:** **Importance of short-term gains for investors
 (continued)**
 
-Table \@ref(t-investors) on page \pageref{t_investors} showed a
+Table \@ref(tab:t-investors) on page \pageref{t_investors} showed a
 relatively strong association between a person’s age group and his or
 her attitude towards short-term gains as an investment goal. This
 association is also strongly significant, with $P<0.001$ for the
-$\chi^{2}$ test of independence. Table \@ref(t-investors3) shows the
+$\chi^{2}$ test of independence. Table \@ref(tab:t-investors3) shows the
 crosstabulations of these variables, now controlling also for the
 respondent’s sex. The association is now still significant in both
 partial tables. An investigation of the row proportions suggests that
@@ -224,7 +224,7 @@ original two-way table are thus unchanged after controlling for sex.
 
 The passenger liner RMS *Titanic* hit an iceberg and sank in the North
 Atlantic on 14 April 1912, with heavy loss of life. Table
-\@ref(t-titanic2) shows a crosstabulation of the people on board the
+\@ref(tab:t-titanic2) shows a crosstabulation of the people on board the
 *Titanic*, classified according to their status (as male passenger,
 female or child passenger, or member of the ship’s crew) and whether
 they survived the sinking[^2]. The $\chi^{2}$ test of independence has
@@ -254,7 +254,7 @@ We next control also for the class in which a person was travelling,
 classified as first, second or third class. Since class does not apply
 to the ship’s crew, this analysis is limited to the passengers,
 classified as men vs. women and children. The two-way table of sex by
-survival status for them is given by Table \@ref(t-titanic2), ignoring
+survival status for them is given by Table \@ref(tab:t-titanic2), ignoring
 the row for crew members. This association is strongly significant, with
 $\chi^{2}=344$ and $P<0.001$.
 
@@ -296,7 +296,7 @@ mildly associated with sex (with percentages of men 54%, 59% and 65% in
 first, second and third class respectively) and strongly associated with
 survival (with 63%, 41% and 25% of the passengers surviving). It is thus
 possible that class might influence the association between sex and
-survival. This is investigated in Table \@ref(t-titanic3), which shows
+survival. This is investigated in Table \@ref(tab:t-titanic3), which shows
 the partial associations between sex and survival status, controlling
 for class. This association is strongly significant (with $P<0.001$ for
 the $\chi^{2}$ test) in every partial table, so it is clearly not
@@ -305,7 +305,7 @@ association is also the same in each table, with women and children more
 likely to survive than men among passengers of every class.
 
 The presence and direction of the association in the two-way Table
-\@ref(t-titanic2) are thus preserved and similar in every partial table
+\@ref(tab:t-titanic2) are thus preserved and similar in every partial table
 controlling for class. However, there appear to be differences in the
 *strength* of the association between the partial tables. Considering,
 for example, the ratios of the proportions in each class, women and
@@ -324,7 +324,7 @@ explanatory and response variables, introducing such a distinction is
 useful for discussion of the results. Here it is most natural to treat
 survival as the response variable, and both class and sex as explanatory
 variables for survival. The associations in the partial tables in Table
-\@ref(t-titanic3) are then partial associations between the response
+\@ref(tab:t-titanic3) are then partial associations between the response
 variable and one of the explanatory variables (sex), controlling for the
 other explanatory variable (class). As discussed above, the strength of
 this partial association is different for different values of class.
@@ -357,7 +357,7 @@ A health survey was carried out in Whickham near Newcastle upon Tyne in
 1972–74, and a follow-up survey of the same respondents twenty years
 later[^3]. Here we consider only the $n=1314$ female respondents who
 were classified by the first survey either as current smokers or as
-never having smoked. Table \@ref(t-whickham1) shows the
+never having smoked. Table \@ref(tab:t-whickham1) shows the
 crossclassification of these women according to their smoking status in
 1972–74 and whether they were still alive twenty years later. The
 $\chi^{2}$ test indicates a strongly significant association (with
@@ -382,11 +382,11 @@ variables. One such variable is the age of the respondents.
   the respondents in Example 9.4. The numbers below the frequencies are
   proportions within rows.<span data-label="tab:t-whickham1"></span>
 
-Table \@ref(t-whickham2) shows the partial tables of smoking vs.\survival
+Table \@ref(tab:t-whickham2) shows the partial tables of smoking vs.\survival
 controlling for age at the time of the first survey, classified into
 seven categories. Note first that this three-way table appears somewhat
-different from those shown in Tables \@ref(t-berkeley2),
-\@ref(t-investors3) and \@ref(t-titanic3). This is because one variable,
+different from those shown in Tables \@ref(tab:t-berkeley2),
+\@ref(tab:t-investors3) and \@ref(tab:t-titanic3). This is because one variable,
 survival status, is summarised only by the percentage of survivors
 within each combination of age group and smoking status. This is a
 common trick to save space in three-way tables involving dichotomous
@@ -397,10 +397,10 @@ total of 62 respondents in this group (as shown in the last column),
 this means that 61 of them (i.e. 98.4%) were alive and 1 (or 1.6%) was
 not.
 
-The percentages in Table \@ref(t-whickham2) show that in five of the
+The percentages in Table \@ref(tab:t-whickham2) show that in five of the
 seven age groups the proportion of survivors is higher among nonsmokers
 than smokers, i.e. these partial associations in the sample are in the
-opposite direction from the association in Table \@ref(t-whickham1). This
+opposite direction from the association in Table \@ref(tab:t-whickham1). This
 reversal is known as **Simpson’s paradox**. The term is somewhat
 misleading, as the finding is not really paradoxical in any logical
 sense. Instead, it is again a consequence of a particular pattern of
@@ -425,7 +425,7 @@ associations between the control variable and the other two variables.
 
 
 The two-way tables of age by survival and age by smoking are shown side
-by side in Table \@ref(t-whickham3). The table is somewhat elaborate and
+by side in Table \@ref(tab:t-whickham3). The table is somewhat elaborate and
 unconventional, so it requires some explanation. The rows of the table
 correspond to the age groups, identified by the second column, and the
 frequencies of respondents in each age group are given in the last
@@ -468,7 +468,7 @@ respondents overall were in this age group.
   nonsmokers) and the ones without parentheses are row percentages
   (within age groups). <span data-label="tab:t-whickham3"></span>
 
-Table \@ref(t-whickham3) shows a clear association between age and
+Table \@ref(tab:t-whickham3) shows a clear association between age and
 survival, for understandable reasons mostly unconnected with smoking.
 The youngest respondents of the first survey were highly likely and the
 oldest unlikely to be alive twenty years later. There is also an
@@ -548,7 +548,7 @@ tables:
     similar data at two different years, say 1973 and 2003. We would
     then have four variables: year, department, sex and
     admission status. These could be summarised as in Table
-    \@ref(t-berkeley2), except that each partial table for sex
+    \@ref(tab:t-berkeley2), except that each partial table for sex
     vs. admission would now be conditional on the values of both year
     and department. The full four-way table would then consist of ten
     $2\times 2$ partial tables, one for each of the ten combinations of

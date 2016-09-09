@@ -50,7 +50,7 @@ the one-group examples.
 
 The following four examples will be discussed in this chapter. Examples
 5.1 and 5.2 concern only one group, while in Examples 5.3 and 5.4 two
-groups are to be compared. Table \@ref(t-probex) shows basic sample
+groups are to be compared. Table \@ref(tab:t-probex) shows basic sample
 statistics for the examples, together with the results of the
 significance tests and confidence intervals described later.
 
@@ -180,7 +180,7 @@ dichotomous response variable $Y$ is whether the respondent gave a
 response which was optimistic about the future (i.e. agreed with the
 positive or disagreed with the negative question) or a pessimistic
 response. The sample sizes and proportions of optimistic responses in
-the two groups are reported in Table \@ref(t-probex). The proportion is
+the two groups are reported in Table \@ref(tab:t-probex). The proportion is
 higher when the question was worded positively, as we would expect if
 there was acquiescence bias. Whether this difference is statistically
 significant remains to be determined.
@@ -262,7 +262,7 @@ proportion of units with $Y=1$. If we denote the *number* of such units
 by $m$, the proportion is thus $\hat{\pi}=m/n$, i.e. $m$ divided by the
 sample size $n$. In Example 5.1, $m=330$ and $n=702$, and
 $\hat{\pi}=330/702=0.47$. This and the estimated proportions in the
-other examples are shown in Table \@ref(t-probex), in the two-sample
+other examples are shown in Table \@ref(tab:t-probex), in the two-sample
 examples 5.3 and 5.4 separately for the two groups.
 
 When $Y$ is coded with values 0 and 1, $\hat{\pi}$ is also equal to the
@@ -598,7 +598,7 @@ will briefly outline how an approximate $P$-value is obtained using
 critical values from a table. This is done in a very similar way as for
 the $\chi^{2}$ test in Section \@ref(ss-tables-chi2test-Pval).
 
-The first part of Table \@ref(t-ttable) shows a table of critical values
+The first part of Table \@ref(tab:t-ttable) shows a table of critical values
 for the standard normal distribution. These values are also shown on
 page \pageref{s_disttables_t} at the end of this course pack, on the
 last row of a larger table (the other parts of this table will be
@@ -635,7 +635,7 @@ books.
   significance levels for one- and two-sided tests. <span
   data-label="tab:t-ttable"></span>
 
-The columns of the first part of Table \@ref(t-ttable) are labelled
+The columns of the first part of Table \@ref(tab:t-ttable) are labelled
 “Right-hand tail probabilities”, with separate columns for some values
 from 0.100 to 0.0005. This means that the probability that a value from
 the standard normal distribution is at least as large as the value given
@@ -651,12 +651,12 @@ These values can be used to obtain bounds for $P$-values, expressed in
 terms of conventional significance levels of 0.10, 0.05, 0.01 and 0.001.
 The values at which these tail probabilities are obtained are the
 corresponding critical values for the test statistic. They are shown in
-the lower part of Table \@ref(t-ttable), slightly rearranged for clarity
+the lower part of Table \@ref(tab:t-ttable), slightly rearranged for clarity
 of presentation and rounded to two decimal places (which is accurate
 enough for practical purposes). The basic idea of using the critical
 values is that if the observed (absolute value of) the $z$-test
 statistic is *larger* than a critical value (for the required kind of
-alternative hypothesis) shown in the lower part of Table \@ref(t-ttable),
+alternative hypothesis) shown in the lower part of Table \@ref(tab:t-ttable),
 the $P$-value is *smaller* than the significance level corresponding to
 that critical value.
 
@@ -854,7 +854,7 @@ $$0.470\pm 1.96\times \sqrt{\frac{0.470\times(1-0.470)}{702}}
 Yes-voters in the population. Similarly, in Example 5.2 the 95%
 confidence interval for the probability of a black person being selected
 for the jury pool is (0.040, 0.052). These intervals are also shown in
-Table \@ref(t-probex).
+Table \@ref(tab:t-probex).
 
 ### Interpretation of confidence intervals {#s-probs-1sampleci-int}
 
@@ -908,7 +908,7 @@ respectively. The values that are required for the conventional levels
 are $z_{0.10/2}=z_{0.05}=1.64$, $z_{0.05/2}=z_{0.025}=1.96$, and
 $z_{0.01/2}=z_{0.005}=2.58$, which correspond to intervals at the
 confidence levels of 90%, 95% and 99% respectively. These values are
-also shown in Table \@ref(t-ciq).
+also shown in Table \@ref(tab:t-ciq).
 
   --------------------------- ---------------------------------------- ------ ------
                                                      Confidence levels      \      \
@@ -1218,7 +1218,7 @@ changing just one word in the survey question, as described in the
 introduction to Example 5.4 at the beginning of this chapter.
 
 In Example 5.3, the estimated difference is $\hat{\Delta}=-0.000422$
-(see Table \@ref(t-probex) on page \pageref{t-probex}), i.e. 422 fewer
+(see Table \@ref(tab:t-probex) on page \pageref{t-probex}), i.e. 422 fewer
 polio cases per million children in the vaccinated group than in the
 unvaccinated group. Similar calculations as above show that the value of
 the test statistic is $z=-6.01$, so the $P$-value is again very small

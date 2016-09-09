@@ -46,7 +46,7 @@ Consider data for 155 countries on three variables:
 
 Further information on the variables is given in the appendix to this
 chapter (Section \@ref(s-descr1-app)), together with the whole data set,
-shown in Table \@ref(t-countrydata).
+shown in Table \@ref(tab:t-countrydata).
 
 Region is clearly a discrete (and categorical), nominal-level variable,
 and GDP a continuous, interval-level variable. The democracy index is
@@ -115,7 +115,7 @@ In other words, we simply count and display the number of times each of
 the values appears in the data. One way to do the display is as a table,
 like the ones for region and the democracy index in the country data,
 and attitude in the survey example, which are shown in Tables
-\@ref(t-region), \@ref(t-democ) and \@ref(t-attitude) respectively.
+\@ref(tab:t-region), \@ref(tab:t-democ) and \@ref(tab:t-attitude) respectively.
 
   Region               Frequency   Proportion       %
   ------------------ ----------- ------------ -------
@@ -187,7 +187,7 @@ three decimal places). A close relative of the proportion is the
 example, 31% of the countries in the sample are from Africa. The sum of
 the proportions is one, and the sum of the percentages is one hundred
 (because of rounding error, the sum in a reported table may be very
-slightly different, as it is in Table \@ref(t-democ)).
+slightly different, as it is in Table \@ref(tab:t-democ)).
 
 ### Graphical methods: Bar charts {#ss-descr1-1cat-charts}
 
@@ -199,8 +199,8 @@ graphical equivalent of a one-way table of frequencies.
 
 Figures \@ref(f-bars-region), \@ref(f-bars-democ) and
 \@ref(f-bars-attitude) show the bar charts for region, democracy index
-and attitude, corresponding to the frequencies in Tables \@ref(t-region),
-\@ref(t-democ) and \@ref(t-attitude). Each bar corresponds to one category
+and attitude, corresponding to the frequencies in Tables \@ref(tab:t-region),
+\@ref(tab:t-democ) and \@ref(tab:t-attitude). Each bar corresponds to one category
 of the variable, and the height of the bar is proportional to the
 frequency of observations in that category. This visual cue allows us to
 make quick comparisons between the frequencies of different categories
@@ -260,7 +260,7 @@ rather than frequncies or percentages. For example, a report on the
 economies of East Asia might show a chart of GDP per capita for Japan,
 China, South Korea and North Korea, with one bar for each country, and
 their heights proportional to 28.2, 5.0, 17.8 and 1.3 respectively
-(c.f. the data in Table \@ref(t-countrydata)). The basic idea of such
+(c.f. the data in Table \@ref(tab:t-countrydata)). The basic idea of such
 graphs is the same as that of standard bar charts. However, they are not
 particularly useful as descriptive statistics, since they simply display
 values in the original data without any summarization or simplification.
@@ -281,7 +281,7 @@ The next task we consider is how to describe the sample distributions of
 two categorical variables together, and in so doing also summarise the
 association between these variables. The key tool is a table which shows
 the **crosstabulation** of the frequencies of the variables. This is
-also known as a **contingency table**. Table \@ref(t-sex-attitude) shows
+also known as a **contingency table**. Table \@ref(tab:t-sex-attitude) shows
 such a table for the respondents’ sex and attitude in our survey
 example. We use it to introduce the basic structure and terminology of
 contingency tables:
@@ -299,7 +299,7 @@ contingency tables:
   by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
   data-label="tab:t-sex-attitude"></span>
 
--   Because a table like \@ref(t-sex-attitude) summarizes the values of
+-   Because a table like \@ref(tab:t-sex-attitude) summarizes the values of
     two variables, it is known as a **two-way** contingency table.
     Similarly, the tables of single variables introduced in Section
     \@ref(ss-descr1-1cat-tables) are *one-way* tables. It is also
@@ -313,12 +313,12 @@ contingency tables:
     practice which is discussed further in Section \@ref(s-descr1-1cont).
 
 -   The horizontal divisions of a table (e.g. the lines corresponding to
-    the two sexes in Table \@ref(t-sex-attitude)) are its **rows**, and
+    the two sexes in Table \@ref(tab:t-sex-attitude)) are its **rows**, and
     the vertical divisions (e.g. the survey responses in Table
-    \@ref(t-sex-attitude)) are its **columns**.
+    \@ref(tab:t-sex-attitude)) are its **columns**.
 
 -   The size of a contingency table is stated in terms of the numbers of
-    its rows and columns. For example, Table \@ref(t-sex-attitude) is a
+    its rows and columns. For example, Table \@ref(tab:t-sex-attitude) is a
     $2\times
     5$ (pronounced “two-by-five”) table, because it has two rows and
     five columns. This notation may also be used symbolically, so that
@@ -331,12 +331,12 @@ contingency tables:
     The basic two-way contingency table shows in each cell the
     number (frequency) of units in the data set with the corresponding
     values of the row variable and the column variable. For example,
-    Table \@ref(t-sex-attitude) shows that there were 160 male
+    Table \@ref(tab:t-sex-attitude) shows that there were 160 male
     respondents who strongly agreed with the statement, and 239 female
     respondents who neither agreed nor disagreed with it. These
     frequencies are also known as **cell counts**.
 
--   The row and column labelled “Total” in Table \@ref(t-sex-attitude)
+-   The row and column labelled “Total” in Table \@ref(tab:t-sex-attitude)
     are known as the **margins** of the table. They show the frequencies
     of the values of the row and the column variable separately, summing
     the frequencies over the categories of the other variable. For
@@ -345,9 +345,9 @@ contingency tables:
     ($=41+34$) respondents strongly disagreed with the statement. In
     other words, the margins are *one-way* tables of the frequencies of
     each of the two variables, so for example the frequencies on the
-    margin for attitude in Table \@ref(t-sex-attitude) are the same as
+    margin for attitude in Table \@ref(tab:t-sex-attitude) are the same as
     the ones in the one-way table for this variable shown in Table
-    \@ref(t-attitude). The distributions described by the margins are
+    \@ref(tab:t-attitude). The distributions described by the margins are
     known as the **marginal distributions** of the row and
     column variables. In contrast, the frequencies in the internal cells
     of the table, which show how many units have each possible
@@ -360,9 +360,9 @@ contingency tables:
 In addition to frequencies, it is often convenient to display
 proportions or percentages. Dividing the frequencies by the sample size
 gives overall proportions and (multiplying by a hundred) percentages.
-This is illustrated in Table \@ref(t-sex-attitude-pr), which shows the
+This is illustrated in Table \@ref(tab:t-sex-attitude-pr), which shows the
 overall proportions, obtained by dividing the frequencies in Table
-\@ref(t-sex-attitude) by $n=2344$. For example, out of all these
+\@ref(tab:t-sex-attitude) by $n=2344$. For example, out of all these
 respondents, the proportion of 0.102 ($=239/2344$) were women who
 neither agreed nor disagreed with the statement. The proportions are
 also shown for the marginal distributions: for example, 15.6% (i.e. the
@@ -398,14 +398,14 @@ quantities for interpretation of a table. Instead, we typically
 calculate proportions within each category of the row variable or the
 column variable, i.e. the **conditional proportions** of one variable
 given the other. The numbers in brackets in Table
-\@ref(t-sex-attitude-row) show these proportions calculated for each
-*row* of Table \@ref(t-sex-attitude) (Table \@ref(t-sex-attitude-row) also
+\@ref(tab:t-sex-attitude-row) show these proportions calculated for each
+*row* of Table \@ref(tab:t-sex-attitude) (Table \@ref(tab:t-sex-attitude-row) also
 includes the actual frequencies; it is advisable to include them even
 when conditional proportions are of most interest, to show the numbers
 on which the proportions are based). In other words, these are the
 conditional proportions of attitude towards income redistribution given
 sex, i.e. separately for men and women. For example, the number 0.156 in
-the top left-hand corner of Table \@ref(t-sex-attitude-row) is obtained
+the top left-hand corner of Table \@ref(tab:t-sex-attitude-row) is obtained
 by dividing the number of male respondents who agreed strongly with the
 statement (160) by the total number of male respondents (1027). Thus
 15.6% of the men strongly agreed, and for example 2.6% of women strongly
@@ -414,7 +414,7 @@ indicate that the proportions sum to 1 along each row, to remind us that
 the conditional proportions have been calculated within the rows. The
 bracketed proportions in the ‘Total’ row are the proportions of the
 *marginal* distribution of the attitude variable, so they are the same
-as the proportions in the ‘Total’ row of Table \@ref(t-sex-attitude-pr).
+as the proportions in the ‘Total’ row of Table \@ref(tab:t-sex-attitude-pr).
 
   ------------- --------------- --------- --------------- ---------- ---------- -------
   \                  Agree          \      Neither agree      \       Disagree     \
@@ -452,7 +452,7 @@ attitude is $Y$. Here the dichotomous $X$ divides the full sample into
 two groups, identified by the observed value of $X$ — men and women. We
 may then think of these two groups as two separate samples, and consider
 statistical quantities separately for each of them. In particular, in
-Table \@ref(t-sex-attitude-row) we calculated conditional proportions for
+Table \@ref(tab:t-sex-attitude-row) we calculated conditional proportions for
 $Y$ given $X$, i.e. for attitude given sex. These proportions describe
 two distinct sample distributions of $Y$, one for men and one for women.
 They are examples of *conditional distributions*:
@@ -528,7 +528,7 @@ common sense to present comparisons which give a good summary of the
 patterns across the table. Unless both variables in the table are
 dichotomous, several different comparisons may be needed, and may not
 all display similar patterns. For example, in Table
-\@ref(t-sex-attitude-row) the same proportion (0.156, or 15.6%) of both
+\@ref(tab:t-sex-attitude-row) the same proportion (0.156, or 15.6%) of both
 men and women strongly agree with the statement, whereas the proportion
 who respond “Agree” is higher for women (49.4%) than for men (42.8%).
 
@@ -585,7 +585,7 @@ U.S. brokerage house.[^4] One of the questions asked the respondents to
 state how much importance they placed on quick profits (short-term
 gains) as an objective when they invested money. The responses were
 recorded in four categories as “Irrelevant”, “Slightly important”,
-“Important” or “Very important”. Table \@ref(t-investors) shows the
+“Important” or “Very important”. Table \@ref(tab:t-investors) shows the
 crosstabulation of this variable with the age of the respondent in four
 age groups.
 
@@ -627,7 +627,7 @@ many such measures for two-way contingency tables, labelled with a range
 of Greek and Roman letters (e.g. $\phi$, $\lambda$, $\gamma$, $\rho$,
 $\tau$, V, Q, U and d). The most useful of them are designed for tables
 where both of the variables are measured at the ordinal level, as is the
-case in Table \@ref(t-investors). The ordering of the categories can then
+case in Table \@ref(tab:t-investors). The ordering of the categories can then
 be exploited to capture the strength of the association in a single
 measure. This is not possible when at least one of the variables is
 measured at the nominal level, as any attempt to reduce the patterns of
@@ -644,12 +644,12 @@ ordinal variables, namely the extent to which high values of one
 variable tend to be associated with high or low values of the other
 variable. Here speaking of “low” and “high” values, or of “increasing”
 or “decreasing” them, is meaningful when the variables are ordinal. For
-example, in Table \@ref(t-investors) the categories corresponding to the
+example, in Table \@ref(tab:t-investors) the categories corresponding to the
 bottom rows and right-most columns are in an obvious sense “high” values
 of age and importance respectively.
 
 Consider the conditional proportions of importance given age group shown
-in Table \@ref(t-investors). It is clear that, for example, the
+in Table \@ref(tab:t-investors). It is clear that, for example, the
 proportion of respondents for whom short-term gains are very important
 is highest in the youngest, and lowest in the oldest age group.
 Similarly, the proportion of respondents for whom such gains are
@@ -665,7 +665,7 @@ based on the numbers of concordant and discordant pairs of observations.
 Suppose we compare two units classified according to the two variables
 in the table. These units form a *concordant pair* if one of them has a
 higher value of both variables than the other. For example, consider two
-respondents in Table \@ref(t-investors), one with values (Under 45;
+respondents in Table \@ref(tab:t-investors), one with values (Under 45;
 Irrelevant) and the other with (45–54; Important). This is a concordant
 pair, because the second respondent has both a higher value of age group
 (45–54 vs. Under 45) and a higher value of the importance variable
@@ -683,7 +683,7 @@ The $\gamma$ measure of association is defined as
 $$\gamma=\frac{C-D}{C+D}
 \label{gamma}$$ where $C$ is the total number of concordant pairs in the
 table, and $D$ is the number of discordant pairs. For Table
-\@ref(t-investors), the value of this is $\gamma=-0.377$.
+\@ref(tab:t-investors), the value of this is $\gamma=-0.377$.
 
 Calculation of $C$ and $D$ is straightforward but tedious and
 uninteresting, and can be left to a computer. Remembering the exact form
@@ -701,7 +701,7 @@ more discordant than concordant pairs ($C<D$). This also implies that
 $\gamma$ will be positive when the association is positive in the sense
 discussed above, and negative when the association is negative. A value
 of $\gamma=0$ indicates a complete lack of association of this kind. In
-Table \@ref(t-investors) we have $\gamma=-0.377$, indicating a negative
+Table \@ref(tab:t-investors) we have $\gamma=-0.377$, indicating a negative
 association. This agrees with the conclusion obtained informally above.
 
 The **extreme values** of the statistic: Clearly $\gamma=1$ if there are
@@ -757,10 +757,10 @@ convoluted explanation. Suppose that we consider a pair of observations
 which is known to be either concordant or discordant (the PRE
 interpretation of $\gamma$ ignores tied observations). One of the two
 observations thus has a higher value of $X$ than the other. For example,
-suppose that we consider two respondents in Table \@ref(t-investors) from
+suppose that we consider two respondents in Table \@ref(tab:t-investors) from
 different age groups. We are then asked to predict the *order* of the
 values of $Y$, i.e. which of the two units has the higher value of $Y$.
-In the example of Table \@ref(t-investors), this means predicting whether
+In the example of Table \@ref(tab:t-investors), this means predicting whether
 the older respondent places a higher or lower level of importance on
 short-term gains than the younger respondent. Two sets of predictions
 are again compared. The first approach makes the prediction at random
@@ -771,7 +771,7 @@ the direction of the association between $X$ and $Y$. If the association
 is known to be negative (i.e. there are more discordant than concordant
 pairs), every pair is predicted to be discordant; if it is positive,
 every pair is predicted to be concordant. For example, in Table
-\@ref(t-investors) the association is negative, so we would always
+\@ref(tab:t-investors) the association is negative, so we would always
 predict that the older of two respondents places a lower value of
 importance on short-term gains.
 
@@ -792,7 +792,7 @@ predictions made by tossing a coin for each pair.
 
 The final property of interest is the **substantive interpretation** of
 the strength of association indicated by $\gamma$ for a particular
-table. For example, should $\gamma=-0.377$ for Table \@ref(t-investors)
+table. For example, should $\gamma=-0.377$ for Table \@ref(tab:t-investors)
 be regarded as evidence of weak, moderate or strong negative association
 between age and attitude? Although this is usually the most (or only)
 interesting part of the interpretation, it is also the most difficult,
@@ -803,8 +803,8 @@ say, might be commonplace for some types of variables but never observed
 for others. Considerations of the magnitude of $\gamma$ are most useful
 in comparisons of associations between the same two variables in
 different samples or groups. For example, in Chapter \@ref(c-3waytables)
-we will calculate $\gamma$ for the variables in Table \@ref(t-investors)
-separately for men and women (see Table \@ref(t-investors3)). These turn
+we will calculate $\gamma$ for the variables in Table \@ref(tab:t-investors)
+separately for men and women (see Table \@ref(tab:t-investors3)). These turn
 out to be very similar, so the strength of the association appears to be
 roughly similar in these two groups.
 
@@ -815,7 +815,7 @@ Three further observations complete our discussion of $\gamma$:
     categories are listed will also reverse the interpretation of “high”
     and “low” and of a “negative” or “positive” association. Such a
     reversal for one variable will change the sign of $\gamma$ but not
-    its absolute value. For example, in Table \@ref(t-investors) we could
+    its absolute value. For example, in Table \@ref(tab:t-investors) we could
     have listed the age groups from the oldest to the youngest, in which
     case we would have obtained $\gamma=0.377$ instead of
     $\gamma=-0.377$. Reversing the ordering of both of the variables
@@ -879,7 +879,7 @@ values would be entirely unenlightening.
   data-label="tab:t-gdp"></span>
 
 Instead, we can count the frequencies for some *intervals* of values.
-Table \@ref(t-gdp) shows an example of this for the GDP variable. The
+Table \@ref(tab:t-gdp) shows an example of this for the GDP variable. The
 frequency on its first line shows that there are 49 countries with GDP
 per capita of less than \$2000, the second line that there are 32
 countries with the GDP per capita between \$2000 and \$4900 (these
@@ -910,7 +910,7 @@ corresponding frequency polygon.<span
 data-label="fig:f-hist-gdp"></span>](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
-grouped variable, like that in Table \@ref(t-gdp). Figure
+grouped variable, like that in Table \@ref(tab:t-gdp). Figure
 \@ref(f-hist-gdp) shows a histogram for the GDP variable (the histogram
 consists of the bars; the lines belong to a different graph, the
 frequency polygon explained below). The basic idea of a histogram is
@@ -924,8 +924,8 @@ number of bars in the histogram is important for the usefulness of the
 graph. If there are too few bars, too much information is obscured; if
 too many, the shape of the histogram may become confusingly irregular.
 Often the number of intervals used for a histogram will be larger than
-what would be sensible for a table like \@ref(t-gdp). Furthermore,
-intervals like those in Table \@ref(t-gdp) are not even allowed in a
+what would be sensible for a table like \@ref(tab:t-gdp). Furthermore,
+intervals like those in Table \@ref(tab:t-gdp) are not even allowed in a
 histogram, because they are of different widths (of 2, 3, 5, 10 and 10
 units for the first five, and unbounded for the last one). The intervals
 in a histogram must be of equal widths, because otherwise the visual
@@ -965,7 +965,7 @@ dollars) have at most three significant digits. If the observations have
 too many digits to be convenient for a stem and leaf plot, they can be
 rounded first; for example, if the GDP figures had actually been
 recorded down to the last dollar, we would have rounded them to the
-nearest hundred dollars (as in Table \@ref(t-countrydata)) for the plot.
+nearest hundred dollars (as in Table \@ref(tab:t-countrydata)) for the plot.
 The last digit (here hundreds of dollars) will determine the *leaves*
 for the plot, while other digits (here round thousands of dollars) will
 define the *stem*.
@@ -1185,7 +1185,7 @@ and “average” used above).
 
 The **mode** is the value of the variable which occurs most often in the
 data, i.e. the one with the highest frequency. For example, Tables
-\@ref(t-region) and \@ref(t-democ) show that the mode of the region
+\@ref(tab:t-region) and \@ref(tab:t-democ) show that the mode of the region
 variable in the country data is “Africa” and the mode of the democracy
 score is 0. The GDP variable has two modes, 0.8 and 1.9, which both
 appear five times (a distribution can have several modes; one with two
@@ -1211,7 +1211,7 @@ twice.
 #### The median {-}
 
 Suppose that the values of a variable in a sample are first ordered from
-the smallest to the largest. For example, in Table \@ref(t-countrydata)
+the smallest to the largest. For example, in Table \@ref(tab:t-countrydata)
 the countries are ordered in this way according to their GDP (starting
 from the bottom of the table). The **median** is the value which falls
 in the middle of this ordering, so that it divides the observed values
@@ -1238,7 +1238,7 @@ For an ordinal categorical variable like the democracy score the median
 can also be found easily from the frequency table by considering the
 *cumulative percentages* (or proportions) of the categories. These are
 obtained by adding up the percentages up to and including each category,
-as shown in the last column of Table \@ref(t-democ). The median is then
+as shown in the last column of Table \@ref(tab:t-democ). The median is then
 the category in which the cumulative percentage reaches or passes 50%.
 For the democracy index this happens for the score of 6, which has a
 cumulative percentage of 50.9%.
@@ -1293,7 +1293,7 @@ that of, say, mean GDP.
 For interval level variables the mean is by far the most commonly used
 measure of central tendency. It does, however, have one arguably
 undesirable feature. This is illustrated by the statistics for the GDP
-variable, as shown in Table \@ref(t-countries-sums). Its mean (\$8600) is
+variable, as shown in Table \@ref(tab:t-countries-sums). Its mean (\$8600) is
 clearly much larger than the median (\$4700). This is due to the shape
 of the distribution of GDP, as revealed by Figure \@ref(f-hist-gdp) or
 even more clearly by the stem and leaf plot of Figure \@ref(f-stemgdp).
@@ -1384,7 +1384,7 @@ illustrate this with a hypothetical example, suppose we are studying the
 students in three classrooms of the same grade at a local school. Each
 class has 14 students, and all students have just taken the same test,
 graded 1 (low) to 10 (high). The marks of the students are found to be
-as shown in Table \@ref(t-classmarks).
+as shown in Table \@ref(tab:t-classmarks).
 
 \label{p_classex} Both the mean and the median of the marks are 6 in
 every class. However, the classes are otherwise clearly not similar. In
@@ -1485,7 +1485,7 @@ The most commonly used measure of variation is based on the
 **deviations** $$Y_{i}-\bar{Y}$$ where $Y_{i}$ again denotes an
 individual observation of a variable, and $\bar{Y}$ is its mean. A
 deviation is the difference between an individual observation and the
-average value in the sample. Table \@ref(t-sdex) shows the deviations for
+average value in the sample. Table \@ref(tab:t-sdex) shows the deviations for
 Class 3 in the class example, together with the other calculations
 discussed below. Here a negative deviation indicates that an observation
 is smaller than the mean of 6 (e.g. $1-6=-5$), and a positive deviation
@@ -1524,7 +1524,7 @@ aggregate them in some sensible way into a single number.
 
 An inappropriate summary of the deviations is their mean, i.e. $\sum
 (Y_{i}-\bar{Y})/n$. In the class example this turns out to be zero (see
-the second column of Table \@ref(t-sdex)), and not by coincidence. It can
+the second column of Table \@ref(tab:t-sdex)), and not by coincidence. It can
 be shown that the mean of the deviations is in fact zero for any set of
 numbers. This happens because positive and negative deviations will
 always exactly cancel out each other in the sum. This is clearly not
@@ -1542,7 +1542,7 @@ difficult to work with, and this would make MAD very inconvenient for
 more sophisticated analyses, where measures of variation will also be
 needed.[^7] Instead, we eliminate the signs of the deviations by using
 their squares $(Y_{i}-\bar{Y})^{2}$, i.e. by multiplying each deviation
-by itself (c.f. the third column of Table \@ref(t-sdex) for an
+by itself (c.f. the third column of Table \@ref(tab:t-sdex) for an
 illustration). These are used to calculate the **variance**, denoted
 $s^{2}$ and defined as $$s^{2} = \frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.
 \label{samplevar}$$ This is (apart from the $n-1$ rather than $n$ as the
@@ -1560,7 +1560,7 @@ $$s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.}
 2, and 3.4 for class 3. In the country data, the standard deviation of
 GDP is \$9450 and that of the democracy score (if it is treated as an
 interval-level variable) is 3.9, as shown in Table
-\@ref(t-countries-sums).
+\@ref(tab:t-countries-sums).
 
 Like the mean, the standard deviation is sensitive to outliers and
 skewness of the distribution, so sometimes other measures of variation
@@ -1813,7 +1813,7 @@ us as much as a thousand words.
 ## Appendix: Country data {#s-descr1-app}
 
 The data used for illustration throughout this chapter are given in
-Table \@ref(t-countrydata). The variables are defined as follows:
+Table \@ref(tab:t-countrydata). The variables are defined as follows:
 
 -   **region** indicates the macro region where the country is located,
     coded as 1=Africa, 2=Asia, 3=Europe, 4=Latin America, 5=Northern
@@ -1917,7 +1917,7 @@ of the three variables were available at the time the example created.
     the short-term gains variable given sex and age group. These were
     used to create tables of frequencies separately for men and women
     (assuming further that the age distribution was the same for both),
-    and Table \@ref(t-investors) was obtained by combining these. The
+    and Table \@ref(tab:t-investors) was obtained by combining these. The
     resulting table is consistent with information in the article, apart
     from rounding error.
 

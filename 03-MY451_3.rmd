@@ -322,7 +322,7 @@ For illustration, consider again the example introduced on page
 his or her attitude toward income redistribution. We have observed them
 for a sample $n=2344$ people drawn from the population of all UK
 residents aged 15 or over. The sample distributions are summarised by
-Table \@ref(t-attitude) on page \pageref{t_attitude}.
+Table \@ref(tab:t-attitude) on page \pageref{t_attitude}.
 
   -------- ----------------------------------------------------------------------- ----------- --------------- ---------- ---------- -----------
   \                                         Agree                                       \       Neither agree      \       Disagree            \
@@ -346,7 +346,7 @@ Table \@ref(t-attitude) on page \pageref{t_attitude}.
 
 Imagine now that the full population consisted of 50 million people, and
 that the values of the two variables for them were as shown in Table
-\@ref(t-sex-attitude-pop). The frequencies in this table desribe the
+\@ref(tab:t-sex-attitude-pop). The frequencies in this table desribe the
 population distribution of the variables in this hypothetical
 population, with the joint distribution of sex and attitude shown by the
 internal cells of the table and the marginal distributions by its
@@ -355,7 +355,7 @@ women in the population who strongly agree with the attitude statement,
 and 1.98 million people overall who strongly disagree with it.
 
 Rather than the frequencies, it is more helpful to discuss population
-distributions in terms of proportions. Table \@ref(t-sex-attitude-pop)
+distributions in terms of proportions. Table \@ref(tab:t-sex-attitude-pop)
 shows two sets of them, the overall proportions \[in square brackets\]
 out of the total population size, and the two rows of conditional
 proportions of attitude given sex (in parentheses). Either of these can
@@ -370,9 +370,9 @@ proportion is 0.05.
 Instead of “proportions”, when we discuss population distributions we
 will usually talk of “probabilities”. The two terms are equivalent when
 the population is finite and the variables are categorical, as in Table
-\@ref(t-sex-attitude-pop), but the language of probabilities is more
+\@ref(tab:t-sex-attitude-pop), but the language of probabilities is more
 appropriate in other cases. We can then say that Table
-\@ref(t-sex-attitude-pop) shows two sets of **conditional probabilities**
+\@ref(tab:t-sex-attitude-pop) shows two sets of **conditional probabilities**
 in the population, which define two conditional **probability
 distributions** for attitude given sex.
 
@@ -388,7 +388,7 @@ disagrees and 0.16 that he strongly agrees with the attitude statement.
 
 The view of population distributions as probability distributions works
 also in other cases than the kind that is illustrated by Table
-\@ref(t-sex-attitude-pop). First, it applies also for continuous
+\@ref(tab:t-sex-attitude-pop). First, it applies also for continuous
 variables, where proportions of individual values are less useful (this
 is discussed further in Chapter \@ref(c-means)). Second, it is also
 appropriate when the population is regarded as an infinite

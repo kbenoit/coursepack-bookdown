@@ -1010,7 +1010,7 @@ respondents’ voting intentions, obtained after the debates had ended
         value from the standard normal distribution is at most $-4.049$
         or at least 4.049. Evaluate this approximately by comparing the
         value of $z$ to critical values from the standard normal
-        distribution (c.f. Table \@ref(t-ttable) on
+        distribution (c.f. Table \@ref(tab:t-ttable) on
         p. \pageref{t_ttable}) as explained in Section
         \@ref(ss-probs-test1sample-samplingd). Here, for example, $z$ is
         larger than 1.96, so the two-sided $P$-value must be smaller

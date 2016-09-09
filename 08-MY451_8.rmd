@@ -527,7 +527,7 @@ shown.
     (or smaller than $-0.4$) would typically be considered noteworthy
     and ones greater than 0.7 quite strong.
 
-Returning to real data, Table \@ref(t-civilsoc-r) shows the correlation
+Returning to real data, Table \@ref(tab:t-civilsoc-r) shows the correlation
 coefficients for all fifteen distinct pairs of the six continuous
 variables in the Global Civil Society data set mentioned on page
 \pageref{p_civilsoc}. This is an example of a **correlation matrix**,
@@ -639,11 +639,11 @@ A scatterplot of IMR vs. School enrolment is shown in Figure
 will also consider three additional explanatory variables: Control of
 corruption, Income inequality and Income level of the country in three
 categories (c.f. page \pageref{p_civilsoc}). For further reference,
-Table \@ref(t-imrvars) shows various summary statistics for these
+Table \@ref(tab:t-imrvars) shows various summary statistics for these
 variables. Throughout, the analyses are restricted to those 111
 countries for which all of the five variables are recorded. For this
-reason the correlations in Table \@ref(t-imrvars) differ slightly from
-those in Table \@ref(t-civilsoc-r), where each correlation was calculated
+reason the correlations in Table \@ref(tab:t-imrvars) differ slightly from
+those in Table \@ref(tab:t-civilsoc-r), where each correlation was calculated
 for all the countries with non-missing values of that pair of variables.
 
 ![A scatterplot of net primary school enrolment ratio vs. Infant
@@ -873,7 +873,7 @@ what those units are. In many cases one unit of $X$ is too small or too
 large for convenient interpretation. For example, a change of one
 percentage point in School enrolment is rather small, given that the
 range of this variable in our data is 79 percentage points (c.f. Table
-\@ref(t-imrvars)). In such cases the results can easily be reexpressed by
+\@ref(tab:t-imrvars)). In such cases the results can easily be reexpressed by
 using multiples of $\beta$: specifically, the effect on expected value
 of $Y$ of changing $X$ by $A$ units is obtained by multiplying $\beta$
 by $A$. For instance, in our example the estimated effect of increasing
@@ -1525,7 +1525,7 @@ Civil Society data set. The response variable will still be the Infant
 mortality rate of a country, and there will be three explanatory
 variables: School enrolment, Control of corruption and Income inequality
 as measured by the Gini index (see p. \pageref{p_civilsoc}). Results for
-this model are shown in Table \@ref(t-imr-m2), to which we will refer
+this model are shown in Table \@ref(tab:t-imr-m2), to which we will refer
 throughout this section. The table is also an example of the kind of
 format in which results of regression models are typically reported.
 Presenting raw computer output such as that in Figure
@@ -1609,7 +1609,7 @@ simple model, and require little further explanation:
     expected value of $Y$ when all of the explanatory variables have the
     value 0. This can be seen by setting $X_{1i}, X_{2i}, \dots, X_{ki}$
     all to 0 in (\@ref(mu-multiple)). As before, $\alpha$ is rarely of
-    any substantive interest. In the example in Table \@ref(t-imr-m2),
+    any substantive interest. In the example in Table \@ref(tab:t-imr-m2),
     the estimated value of $\alpha$ is 16.40.
 
 -   The **residual standard deviation** $\sigma$ is the standard
@@ -1617,7 +1617,7 @@ simple model, and require little further explanation:
     all of $X_{1}, X_{2}, \dots, X_{k}$. It thus describes the magnitude
     of the variability of $Y$ around the regression plane. The model
     assumes that $\sigma$ is the same at all values of the explanatory
-    variables. In Table \@ref(t-imr-m2), the estimate of $\sigma$
+    variables. In Table \@ref(tab:t-imr-m2), the estimate of $\sigma$
     is 2.23.
 
 -   **Estimates of the regression coefficients** are here denoted with
@@ -1642,13 +1642,13 @@ simple model, and require little further explanation:
     for the estimates become difficult to write down[^14] and
     essentially impossible to calculate by hand. This is not a problem
     in practice, as they are easily computed by statistical software
-    such as SPSS. In Table \@ref(t-imr-m2), the least squares estimates
+    such as SPSS. In Table \@ref(tab:t-imr-m2), the least squares estimates
     of the regression coefficients are shown in the
     “Coefficient” column. Each row of the table gives the coefficient
     for one explanatory variable, identified in the first column. A
     similar format is adopted in SPSS output, where the
     “**Coefficients**” table looks very similar to the main part of
-    Table \@ref(t-imr-m2). The arrangement of other parts of SPSS output
+    Table \@ref(tab:t-imr-m2). The arrangement of other parts of SPSS output
     for multiple linear regression is essentially unchanged from the
     format shown in Figure \@ref(f-spss-linreg).
 
@@ -1656,9 +1656,9 @@ simple model, and require little further explanation:
     set of values of the explanatory variables (whether those observed
     in the data or not, as long as extrapolation outside their observed
     ranges is avoided). This is often very useful for illustrating the
-    implications of a fitted model. For example, Table \@ref(t-imrvars)
+    implications of a fitted model. For example, Table \@ref(tab:t-imrvars)
     shows that the sample averages of the explanatory variables in Table
-    \@ref(t-imr-m2) are approximately 86 for School enrolment ($X-{1}$),
+    \@ref(tab:t-imr-m2) are approximately 86 for School enrolment ($X-{1}$),
     50 for Control of corruption ($X_{2}$) and 40 for Income inequality
     ($X_{3}$). The predicted IMR for a hypothetical “average” country
     with all these values would be
@@ -1762,7 +1762,7 @@ that a linear model specification is adequate for the data, and that no
 crucially important explanatory variables have been omitted from the
 model.
 
-In the IMR example, the estimated coefficients in Table \@ref(t-imr-m2)
+In the IMR example, the estimated coefficients in Table \@ref(tab:t-imr-m2)
 are interpreted as follows:
 
 -   Holding levels of Control of corruption and Income inequality
@@ -1803,7 +1803,7 @@ explanatory variable $X_{j}$ (where $j$ may be any of $1,2,\dots,k$),
 and let $\hat{\text{se}}(\hat{\beta}_{j})$ denote its estimated standard
 error. The standard errors cannot now be calculated by hand, but they
 are routinely produced by computer packages and displayed as in Table
-\@ref(t-imr-m2). A $t$-test statistic for the null hypothesis discussed
+\@ref(tab:t-imr-m2). A $t$-test statistic for the null hypothesis discussed
 below is given by
 $$t=\frac{\hat{\beta}_{j}}{\hat{\text{se}}(\hat{\beta}_{j})}.
 \label{tbeta_m}$$ This is identical in form to statistic (\@ref(tbeta))
@@ -1831,10 +1831,10 @@ The sampling distribution of (\@ref(tbeta-m)) when the null hypothesis
 freedom, where $k$ is again the number of explanatory variables in the
 model. The test statistic and its $P$-value from the $t_{n-(k+1)}$
 distribution are shown in standard computer output, in a form similar to
-Table \@ref(t-imr-m2).
+Table \@ref(tab:t-imr-m2).
 
 It is important to note two things about test results for multiple
-regression models, such as those in Table \@ref(t-imr-m2). First,
+regression models, such as those in Table \@ref(tab:t-imr-m2). First,
 (\@ref(H0beta-m)) implies that if the null hypothesis is not rejected,
 $X_{j}$ is not associated with $Y$, *if* the other explanatory variables
 are already included in the model. We would typically react to this by
@@ -1854,7 +1854,7 @@ selection**, principles and practice of which are mostly beyond the
 scope of this course; some further comments on it are given in Section
 \@ref(s-regression-rest).
 
-In the example shown in Table \@ref(t-imr-m2), the $P$-values are small
+In the example shown in Table \@ref(tab:t-imr-m2), the $P$-values are small
 for the tests for all of the coefficients. Each of the three explanatory
 variables thus has a significant effect on the response even after
 controlling for the other two, so none of the variables should be
@@ -1868,7 +1868,7 @@ $$\hat{\beta}_{j} \pm t_{\alpha/2}^{(n-(k+1))} \,
 interval (\@ref(cibeta)) for simple regression (except that the degrees
 of freedom are now $df=n-(k+1)$), so no new issues arise. The confidence
 intervals for the coefficients in our example (where $df=n-4=107$ and
-$t_{0.025}^{(107)}=1.98$) are shown in Table \@ref(t-imr-m2).
+$t_{0.025}^{(107)}=1.98$) are shown in Table \@ref(tab:t-imr-m2).
 
 ## Including categorical explanatory variables {#s-regression-dummies}
 
@@ -1889,7 +1889,7 @@ common practice. It also has the advantage that it is one way of dealing
 with cases where the effects on $Y$ of the corresponding continuous
 explanatory variable may be nonlinear.
 
-Summary statistics in Table \@ref(t-imrvars) show that income group is
+Summary statistics in Table \@ref(tab:t-imrvars) show that income group is
 associated with both IMR and the explanatory variables considered so
 far: countries with higher income tend to have lower levels of infant
 mortality, and higher school enrolment, less corruption and less income
@@ -1949,7 +1949,7 @@ results of the model will be the same, whichever baseline is used.
 
 Categorical variables are used as explanatory variables in regression
 models by including the dummy variables for them in the model. The
-results for this in our example are shown in Table \@ref(t-imr-m3). This
+results for this in our example are shown in Table \@ref(tab:t-imr-m3). This
 requires no changes in the definition or estimation of the model, and
 the parameter estimates, standard errors and quantities for statistical
 inference are obtained exactly as before even when some of the
@@ -1976,7 +1976,7 @@ coefficients of the dummy variables.
 
   : Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
-  in Table \@ref(t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.<span
+  in Table \@ref(tab:t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.<span
   data-label="tab:t-imr-m3"></span>
 
 Recall that the regression coefficient of a continuous explanatory
@@ -2047,7 +2047,7 @@ The choice of the reference category does not affect the fitted model,
 and exactly the same results are obtained with any choice. For example,
 if high income is used as the reference category instead, the
 coefficients of the three continuous variables are unchanged from Table
-\@ref(t-imr-m3), and the coefficients of the dummy variables for low and
+\@ref(tab:t-imr-m3), and the coefficients of the dummy variables for low and
 middle incomes are 3.296 and 0.086 respectively. The conclusions from
 these are the same as above: controlling for the other explanatory
 variables, the difference in expected IMR is 3.296 between low and
@@ -2068,12 +2068,12 @@ coefficients. Since the coefficient is in this case interpreted as an
 expected difference between a level of a categorical variable and the
 reference level, the null hypothesis of a zero coefficient is the
 hypothesis that there is no such difference. For example, Table
-\@ref(t-imr-m3) shows that the coefficients of both the middle income and
+\@ref(tab:t-imr-m3) shows that the coefficients of both the middle income and
 high income dummies are clearly significantly different from zero. This
 shows that, controlling for the other explanatory variables, expected
 infant mortality for both middle and high-income countries is different
 from that in low-income countries. The 95% confidence intervals in Table
-\@ref(t-imr-m3) are intervals for this difference.
+\@ref(tab:t-imr-m3) are intervals for this difference.
 
 On the other hand, the coefficients of the two higher groups are very
 similar, which suggests that they may not be different from each other.
@@ -2102,8 +2102,8 @@ that infant mortality is highest in poor countries), but to control for
 them when examining partial associations between IMR and the other
 explanatory variables. These describe the estimated effects of these
 continuous variables when comparing countries with similar income
-levels. Comparing the results in Tables \@ref(t-imr-m2) and
-\@ref(t-imr-m3), it can be seen that the effect of School enrolment
+levels. Comparing the results in Tables \@ref(tab:t-imr-m2) and
+\@ref(tab:t-imr-m3), it can be seen that the effect of School enrolment
 remains significant and negative (with higher enrolment associated with
 lower mortality), although its magnitude decreases somewhat after
 controlling for income group. Some but not all of its estimated effect
@@ -2116,8 +2116,8 @@ model, even with a slightly increased coefficient. Countries with larger
 income inequality tend to have higher levels of infant mortality, even
 when we compare countries with similar levels of income. The effect of
 Control of corruption, on the other hand, is no longer significant in
-Table \@ref(t-imr-m3). This variable is strongly associated with income
-(as seen in Table \@ref(t-imrvars)), with the more corrupt countries
+Table \@ref(tab:t-imr-m3). This variable is strongly associated with income
+(as seen in Table \@ref(tab:t-imrvars)), with the more corrupt countries
 typically being poor. Controlling for income, however, level of
 corruption appears to have little further effect on infant mortality.
 This also suggests that we might simplify the model by omitting the
@@ -2217,7 +2217,7 @@ company or the franchisee. These will be included in the analyses as
 partial control for other factors affecting the labour market, which
 might have had a differential impact on different types of restaurants
 over the study period. Summary statistics for the variables are shown in
-Table \@ref(t-fastfood-descr).
+Table \@ref(tab:t-fastfood-descr).
 
   ---------------------------------------- ------ ------- --------------------------------------------- -------------- ------------
   \                                             \       \                                       Minimum wage variable    Response    
@@ -2268,7 +2268,7 @@ Table \@ref(t-fastfood-descr).
   wage increase and control variables. See the text for further
   details.<span data-label="tab:t-fastfood-models"></span>
 
-Table \@ref(t-fastfood-models) shows results for two linear regression
+Table \@ref(tab:t-fastfood-models) shows results for two linear regression
 models for Employment change, one using the dummy for affected
 restaurants and one using Wage gap as an explanatory variable. Both
 include the same dummy variables for ownership and chain of the
@@ -2283,13 +2283,13 @@ of the restaurant. This is the opposite of the theoretical prediction
 that the difference would be negative, due to the minimum wage increase
 leading to reductions of work force among affected restaurants but
 little change for the unaffected ones. In fact, the summary statistics
-in Table \@ref(t-fastfood-descr) show (although without controlling for
+in Table \@ref(tab:t-fastfood-descr) show (although without controlling for
 chain and ownership) that average employment actually *increased* in
 absolute terms among the affected restaurants, but decreased among the
 unaffected ones.
 
 The coefficients of the control variables in Table
-\@ref(t-fastfood-models) describe estimated differences between
+\@ref(tab:t-fastfood-models) describe estimated differences between
 company-owned and franchisee-owned restaurants, and between Burger Kings
 and restaurants of other chains, controlling for the other variables in
 the model. All of these coefficients have high $P$-values for both
@@ -2302,9 +2302,9 @@ case, the control variables have little influence on the effect of the
 variable of main interest: if all the control dummies are removed from
 Model (1), the coefficient of the dummy variable for affected
 restaurants becomes 3.61 with a standard error of 1.01, little changed
-from the estimates in Table \@ref(t-fastfood-models). This is not
+from the estimates in Table \@ref(tab:t-fastfood-models). This is not
 entirely surprising, as the control variables are weakly associated with
-the variable of interest: as seen in Table \@ref(t-fastfood-descr), the
+the variable of interest: as seen in Table \@ref(tab:t-fastfood-descr), the
 proportions of affected restaurants are mostly fairly similar among
 restaurants of all chains and types of ownership.
 
@@ -2328,7 +2328,7 @@ the new minimum wage, but also on *how large* that compulsory increase
 was.
 
 The results for the second analysis are shown as Model (2) in Table
-\@ref(t-fastfood-models). The results are qualitatively the same as for
+\@ref(tab:t-fastfood-models). The results are qualitatively the same as for
 Model (1), in that the coefficients of the control dummies are not
 significant, and that of Wage gap (which is 15.88) is significant and
 positive. The estimated employment change is thus again larger for
@@ -2337,7 +2337,7 @@ increases when the wage rise required from an affected restaurant
 increases. To compare these results more directly to Model (1), we can
 consider a comparison between an unaffected restaurant (with Wage gap 0)
 and an affected one with Wage gap equal to its mean among the affected
-restaurants, which is 0.115 (c.f. Table \@ref(t-fastfood-descr)). The
+restaurants, which is 0.115 (c.f. Table \@ref(tab:t-fastfood-descr)). The
 estimated difference in Employment change between them, controlling for
 ownership and chain, is $0.115\times 15.88=1.83$, which is somewhat
 lower than the 3.56 estimated from model (1).
@@ -2408,7 +2408,7 @@ giving a brief explanation so as not to leave these three as mysteries:
     More useful is an extended version of it (which is not included in
     the default output), which is used for hypotheses that a set of
     several regression coefficients (but not all of them) is zero. For
-    example, this could be used in the example of Table \@ref(t-imr-m3)
+    example, this could be used in the example of Table \@ref(tab:t-imr-m3)
     to test if income level had no effect on IMR, i.e. if the
     coefficients of the dummies for *both* middle and high income
     were zero.
