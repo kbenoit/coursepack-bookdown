@@ -88,47 +88,30 @@ will here be treated as a known population quantity, ignoring any
 possible census error in it).
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \multicolumn{8}{|l|}{**One sample**}                                                                                                                  
+  **One sample**                                                                      \       \             \                        \          \          \               \
   --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
-  \multicolumn{8}{|l|}{Example 5.1:                                                                                                                          
-  Voting intention in an EU referendum}                                                                                                                      
-
+  Example 5.1: Voting intention in an EU referendum
                                                                                     $n$     Yes   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
-
                                                                                     702     330         0.470                      0.5    $-1.59$      0.112         (0.433;
-
                                                                                                                                                                       0.507)
 
-  \multicolumn{8}{|l|}{Example 5.2: Race of members of jury panel}                                                                                           
-
+  Example 5.2: Race of members of jury panel
                                                                                     $n$   Black   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
-
                                                                                    4950     226        0.0457                    0.124   $-16.71$   $<0.001$         (0.040;
-
                                                                                                                                                                       0.052)
 
-  \hline\multicolumn{8}{|l|}{**Two Independent samples**}                                                                                               
-
-  \multicolumn{8}{|l|}{Example 5.3: Polio diagnoses in a vaccine trial}                                                                                      
-
+  **Two Independent samples**
+  Example 5.3: Polio diagnoses in a vaccine trial
                                                                                     $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
-
   Control group                                                                 201,229     142      0.000706                                                
-
   (placebo)                                                                                                                                                  
-
   Treatment group                                                               200,745      57      0.000284              $-0.000422$    $-6.01$   $<0.001$   $(-0.000560;$
-
   (vaccine)                                                                                                                                                     $-0.000284)$
 
-  \multicolumn{8}{|l|}{Example 5.4: Optimistic about young people's future}                                                                                  
-
+  Example 5.4: Optimistic about young people's future
                                                                                     $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
-
   Negative question                                                                 921     257         0.279                                                
-
   Positive question                                                                 929     338         0.364                    0.085       3.92   $<0.001$         (0.043;
-
                                                                                                                                                                       0.127)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -624,11 +607,10 @@ version of this table is included in all introductory text books on
 statistics, although its format may be slightly different in different
 books.
 
-  ---------------- --------------------------------------------------- ------- ------- ------- ------- ------- --------
-                     \multicolumn{7}{|c|}{Right-hand tail probability}                                         
-  \cline{2-8}                                                    0.100   0.050   0.025    0.01   0.005   0.001   0.0005
-  Critical value                                                 1.282   1.645   1.960   2.326   2.576   3.090    3.291
-  ---------------- --------------------------------------------------- ------- ------- ------- ------- ------- --------
+  ---------------- ------- ------- ------- ------- ------- ------- --------
+                     0.100   0.050   0.025    0.01   0.005   0.001   0.0005
+  Critical value     1.282   1.645   1.960   2.326   2.576   3.090    3.291
+  ---------------- ------- ------- ------- ------- ------- ------- --------
 
   : A table of critical values for the standard normal distribution. The
   upper part of the table shows the critical values in one row, as in
@@ -639,8 +621,8 @@ books.
   data-label="t_ttable"></span>
 
   ------------------------------------ ------------------------------------------ ------ ------ -------
-                                         \multicolumn{4}{|c|}{Significance level}               
-  \cline{2-5} Alternative hypothesis                                         0.10   0.05   0.01   0.001
+                                                              Significance levels               
+  Alternative hypothesis                                                     0.10   0.05   0.01   0.001
   Two-sided                                                                  1.65   1.96   2.58    3.29
   One-sided                                                                  1.28   1.65   2.33    3.09
   ------------------------------------ ------------------------------------------ ------ ------ -------
@@ -929,7 +911,7 @@ confidence levels of 90%, 95% and 99% respectively. These values are
 also shown in Table \ref{t_ciq}.
 
   --------------------------- ---------------------------------------- ------ ------
-                                \multicolumn{3}{|c|}{Confidence level}        
+                                                     Confidence levels      \      \
                                                                    90%    95%    99%
   Multiplier $z_{\alpha/2}$                                       1.64   1.96   2.58
   --------------------------- ---------------------------------------- ------ ------

@@ -386,7 +386,7 @@ test statistic for this example are shown in Table
     $(f_{o}-f_{e})^{2}/f_{e}$ across all the cells of the table.
 
   ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
-  Cell                            Cell                                               
+  Cell                            Cell            \         \               \                     \                           \
   Sex                           Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
   Male                             SA           160     160.4          $-0.4$                  0.16                       0.001
   Male                             A            439     477.6         $-38.6$               1489.96                       3.120
@@ -560,29 +560,17 @@ the real sample that we have actually observed.
 *Population (frequencies are in millions of people):*
 
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-                     \multicolumn{5}{|c|}{*``The government should                                                            
-                                       take measures*}                                                                             
-
-            \multicolumn{5}{|c|}{*to reduce differences in income levels''*}                                                  
-
-                                            Agree                                             Neither agree              Disagree  
-
+  \                                         Agree                                      \      Neither agree       \      Disagree        \
   Sex                                     strongly                                   Agree    nor disagree    Disagree   strongly    Total
-
   Male                                      3.744                                   11.160        4.368        3.960      0.768      24.00
-
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-
   Female                                    4.056                                   12.090        4.732        4.290      0.832      26.00
-
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-
   Total                                     7.800                                   23.250        9.100        8.250      1.600         50
-
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
-  : Attitude towards income redistribution by sex (with row proportions
+  : *``The government should take measures to reduce differences in income levels''*: Attitude towards income redistribution by sex (with row proportions
   in parentheses), in a hypothetical population of 50 million people
   where sex and attitude are independent, and in one random sample from
   this population.<span data-label="t_sex_attitude_H0pop"></span>
@@ -590,7 +578,7 @@ the real sample that we have actually observed.
 *Sample:*
 
   ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
-                                                   Agree               Neither agree              Disagree  
+  \                                                Agree        \      Neither agree      \       Disagree        \
   Sex                                             strongly    Agree    nor disagree    Disagree   strongly    Total
   Male                                              181        505          191          203         41        1121
                                                   (0.161)    (0.450)      (0.170)      (0.181)    (0.037)     (1.0)
@@ -598,13 +586,9 @@ the real sample that we have actually observed.
                                                   (0.150)    (0.465)      (0.187)      (0.165)    (0.033)     (1.0)
   Total                                             364       1074          420          405         81        2344
                                                   (0.155)    (0.458)      (0.179)      (0.173)    (0.035)     (1.0)
-  \multicolumn{7}{l}{\small $\chi^{2}=2.8445$}                                                              
   ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
 
-  : Attitude towards income redistribution by sex (with row proportions
-  in parentheses), in a hypothetical population of 50 million people
-  where sex and attitude are independent, and in one random sample from
-  this population.<span data-label="t_sex_attitude_H0pop"></span>
+  : $\chi^{2}=2.8445$ <span data-label="t_sex_attitude_H0pop"></span>
 
 In the example we have a sample of 2344 observations, so to match that
 we want to identify the sampling distribution of the $\chi^{2}$
@@ -814,7 +798,6 @@ statistic was 7.78, the $P$-value would be exactly 0.100, and if the
 statistic was 9.49, $P$ would be 0.050.
 
   ---------- --------------------------------------------------- ------- ------- ----------
-               \multicolumn{4}{|c|}{Right-hand tail probability}                 
   df                                                       0.100   0.050   0.010      0.001
   1                                                         2.71    3.84    6.63      10.83
   2                                                         4.61    5.99    9.21      13.82
@@ -824,7 +807,7 @@ statistic was 9.49, $P$ would be 0.050.
   ---------- --------------------------------------------------- ------- ------- ----------
 
   : An extract from a table of critical values for $\chi^{2}$
-  distributions.<span data-label="t_chi2table"></span>
+  distributions. Row 2-5 show the right-hand tail probability<span data-label="t_chi2table"></span>
 
 The values in the table also provide bounds for other values that are
 not shown. For instance, in the hypothetical sample in Table
