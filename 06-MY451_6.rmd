@@ -26,7 +26,7 @@ These may appear in two distinct roles:
 
 \label{p_bpressure_ex} To illustrate the concepts, we use data from the
 Health Survey for England 2002 (HES).[^1] One part of the survey was a
-short physical examination by a nurse. Figure \@ref(f-bp1) shows a
+short physical examination by a nurse. Figure \@ref(fig:f-bp1) shows a
 histogram and frequency polygon of diastolic blood pressure (in mm Hg)
 for 4489 respondents, measured by the mean of the last two of three
 measurements taken during the examination. Data from respondents for
@@ -34,17 +34,14 @@ whom the measurements were not obtained or were considered invalid have
 been excluded. Respondents aged under 25 have also been excluded for
 simplicity, because this age group was oversampled in the 2002 HES.
 
-![Histogram of diastolic blood pressure, with the corresponding
-frequency polygon, from Health Survey for England 2002 (respondents aged
-25 or over, $n=4489$).<span
-data-label="fig:f-bp1"></span>](bloodp1){width="13.5cm"}
+![(\#fig:f-bp1) Histogram of diastolic blood pressure, with the corresponding frequency polygon, from Health Survey for England 2002 (respondents aged 25 or over, $n=4489$).](bloodp1){width="13.5cm"}
 
 The respondents whose blood pressures are summarized in Figure
-\@ref(f-bp1) are in reality a sample from a larger population in the
+\@ref(fig:f-bp1) are in reality a sample from a larger population in the
 sense of Sections \@ref(s-samples-finpops) and \@ref(s-samples-samples).
 However, for illustrative purposes we will here pretend that they are
 actually an entire finite population of 4489 people (the adults in a
-small town, say). The values summarised in Figure \@ref(f-bp1) then form
+small town, say). The values summarised in Figure \@ref(fig:f-bp1) then form
 the population distribution of blood pressure in this population. It is
 clear that blood pressure is best treated as a continuous variable.
 
@@ -53,7 +50,7 @@ clear that blood pressure is best treated as a continuous variable.
 ### Population parameters and their point estimates {#ss-contd-popdistrs-params}
 
 If we knew all of its values, we could summarise a finite population
-distribution by, say, a histogram like Figure \@ref(f-bp1). We can also
+distribution by, say, a histogram like Figure \@ref(fig:f-bp1). We can also
 consider specific characteristics of the distribution, i.e. its
 *parameters* in the sense introduced in Section
 \@ref(s-probs-distribution). For the distribution of a continuous
@@ -70,7 +67,7 @@ also for the probability parameter $\pi$ in Chapter \@ref(c-probs).
 
 In (\@ref(mu})–(\ref{sigma)), $N$ is the number of units in a finite
 population and the sums indicated by $\Sigma$ are over all of these $N$
-units. If we treat the data in Figure \@ref(f-bp1) as a population,
+units. If we treat the data in Figure \@ref(fig:f-bp1) as a population,
 $N=4489$ and these population parameters are $\mu=74.2$,
 $\sigma^{2}=127.87$ and $\sigma=11.3$.
 
@@ -109,7 +106,7 @@ both finite and infinite population distributions.
 For further illustration of the connection between population and sample
 quantities, we have also drawn a simple random sample of $n=50$
 observations from the finite population of $N=4489$ observations in
-Figure \@ref(f-bp1). Table \@ref(tab:t-bp-example) shows the summary
+Figure \@ref(fig:f-bp1). Table \@ref(tab:t-bp-example) shows the summary
 statistics (\@ref(Ybar-ch6))–(\@ref(s-ch6)) in this sample and the
 corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
 
@@ -120,10 +117,9 @@ corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
   Sample           $n=50$   $\bar{Y}=72.6$        $s=12.7$        $s^{2}=161.19$
   ------------ ---------- ---------------- --------------- ---------------------
 
-  : Summary statistics for diastolic blood pressure in the population
+  : (\#tab:t-bp-example) Summary statistics for diastolic blood pressure in the population
   and a sample from it in the example used for illustration in Sections
-  \@ref(s-contd-popdistrs)–\@ref(s-contd-clt).<span
-  data-label="tab:t-bp-example"></span>
+  \@ref(s-contd-popdistrs)–\@ref(s-contd-clt).
 
 You may have noticed that the formulas of the sample variance
 (\@ref(s2-ch6)) and sample standard deviation (\@ref(s-ch6)) involve the
@@ -146,11 +142,11 @@ could be used as estimates for the same population parameter.
 ### General comments {#ss-contd-probdistrs-general}
 
 Thinking about population distributions of continuous distributions
-using, say, histograms as in Figure \@ref(f-bp1) would present
+using, say, histograms as in Figure \@ref(fig:f-bp1) would present
 difficulties for statistical inference, for at least two reasons. First,
 samples cannot in practice give us enough information to make reliable
 inferences on all the details of a population distribution, such as the
-small kinks and bumps of Figure \@ref(f-bp1). Such details would
+small kinks and bumps of Figure \@ref(fig:f-bp1). Such details would
 typically not even be particularly interesting compared to major
 features like the central tendency and variation of the population
 distribution. Second, this way of thinking about the population
@@ -173,17 +169,17 @@ distributions and their parameters seems almost redundant in that
 context.
 
 The situation is very different for continuous variables. This is
-illustrated by Figure \@ref(f-bp2), which shows the same frequency
-polygon as in Figure \@ref(f-bp1), now supplemented by a smooth curve.
+illustrated by Figure \@ref(fig:f-bp2), which shows the same frequency
+polygon as in Figure \@ref(fig:f-bp1), now supplemented by a smooth curve.
 This curve (“a probability density function”) describes a particular
 probability distribution. It can be thought of as a smoothed version of
 the shape of the frequency polygon. What we will do in the future is to
 use some such probability distribution to represent the population
 distribution. This means effectively arguing that we believe that the
 shape of the true population distribution is sufficiently regular to be
-well described by a smooth curve such as the one in Figure \@ref(f-bp2).
+well described by a smooth curve such as the one in Figure \@ref(fig:f-bp2).
 
-In Figure \@ref(f-bp2) the curve and the frequency polygon have
+In Figure \@ref(fig:f-bp2) the curve and the frequency polygon have
 reasonably similar shapes, so the assumption that the former is a good
 representation of the latter does not seem far-fetched. However, the two
 are clearly not exactly the same, \label{p_model2} nor do we expect that
@@ -193,15 +189,14 @@ population distribution is close enough to a specified probability
 distribution for the results from analyses based on this assumption to
 be meaningful and not misleading.
 
-![The frequency polygon of Figure \@ref(f-bp1), together with a normal
-curve with the same mean and variance.<span
-data-label="fig:f-bp2"></span>](bloodp2){width="11.5cm"}
+![(\#fig:f-bp2) The frequency polygon of Figure \@ref(fig:f-bp1), together with a normal
+curve with the same mean and variance.](bloodp2){width="11.5cm"}
 
 \label{p-model} Such a simplifying assumption about the population
 distribution is known as a **statistical model** for the population. The
 reason for working with a model is that it leads to much simpler methods
 of analysis than would otherwise be required. For example, the shape of
-the distribution shown in Figure \@ref(f-bp2) is entirely determined by
+the distribution shown in Figure \@ref(fig:f-bp2) is entirely determined by
 just two parameters, its mean and variance. Under this model, all
 questions about the population distribution can thus be reduced to
 questions about these two population parameters, and inference can focus
@@ -216,7 +211,7 @@ chosen carefully, usually based on both substantive considerations and
 initial descriptive examination of the observed data.
 
 For example, the particular probability distribution shown in Figure
-\@ref(f-bp2), which is known as the normal distribution, is by definition
+\@ref(fig:f-bp2), which is known as the normal distribution, is by definition
 symmetric around its mean. While it is an adequate approximation of many
 approximately symmetric population distributions of continuous
 variables, such as that of blood pressure, many other population
@@ -233,17 +228,16 @@ will not include further discussion of these various possibilities.
 ### The normal distribution as a population distribution {#ss-contd-probdistrs-normal}
 
 The particular probability distribution that is included in Figure
-\@ref(f-bp2) is a **normal distribution**, also known as the *Gaussian*
+\@ref(fig:f-bp2) is a **normal distribution**, also known as the *Gaussian*
 distribution, after the great German mathematician Karl Friedrich Gauss
-who was one of the first to derive it in 1809. Figure \@ref(f-10dm) shows
+who was one of the first to derive it in 1809. Figure \@ref(fig:f-10dm) shows
 a portrait of Gauss from the former German 10-DM banknote, together with
 pictures of the university town of Göttingen and of the normal curve
 (even the mathematical formula of the curve is engraved on the note).
 The curve of the normal distribution is also known as the “bell curve”
 because of its shape.
 
-![A portrait of Gauss and the normal curve on a former German 10-DM
-banknote.<span data-label="fig:f-10dm"></span>](mark){width="14cm"}
+![(\#fig:f-10dm) A portrait of Gauss and the normal curve on a former German 10-DM banknote.](mark){width="14cm"}
 
 The normal distribution is by far the most important probability
 distribution in statistics. The main reason for this is its use as a
@@ -258,30 +252,29 @@ A normal distribution is completely specified by two numbers, its mean
 expressed in notation as $Y\sim N(\mu, \sigma^{2})$, which is read as
 “$Y$ is normally distributed with mean $\mu$ and variance $\sigma^{2}$”.
 Different values for $\mu$ and $\sigma^{2}$ give different
-distributions. For example, the curve in Figure \@ref(f-bp2) is that of
+distributions. For example, the curve in Figure \@ref(fig:f-bp2) is that of
 the $N(74.2, \, 127.87)$ distribution, where the mean $\mu=74.2$ and
 variance $\sigma^{2}=127.87$ are the same as the mean and variance
 calculated from formulas (\@ref(mu)) and (\@ref(sigma2)) for the 4489
 observations of blood pressure. This ensures that this particular normal
-curve best matches the frequency polygon in Figure \@ref(f-bp2).
+curve best matches the frequency polygon in Figure \@ref(fig:f-bp2).
 
 The mean $\mu$ describes the central tendency of the distribution, and
 the variance $\sigma^{2}$ its variability. This is illustrated by Figure
-\@ref(f-3norms), which shows the curves for three different normal
+\@ref(fig:f-3norms), which shows the curves for three different normal
 distributions. The mean of a normal distribution is also equal to both
 its median and its mode. Thus $\mu$ is the central value in the sense
 that it divides the distribution into two equal halves, and it also
 indicates the peak of the curve (the highest probability, as discussed
-below). In Figure \@ref(f-3norms), the curves for $N(0, 1)$ and $N(0, 9)$
+below). In Figure \@ref(fig:f-3norms), the curves for $N(0, 1)$ and $N(0, 9)$
 are both centered around $\mu=0$; the mean of the $N(5, 1)$ distribution
 is $\mu=5$, so the whole curve is shifted to the right and centered
 around 5.
 
-![Three normal distributions with different means and/or variances.<span
-data-label="fig:f-3norms"></span>](threenorms){width="11cm"}
+![(\#fig:f-3norms) Three normal distributions with different means and/or variances.](threenorms){width="11cm"}
 
 The variance $\sigma^{2}$ determines how widely spread the curve is. In
-Figure \@ref(f-3norms), the curves for $N(0, 1)$ and $N(5, 1)$ have the
+Figure \@ref(fig:f-3norms), the curves for $N(0, 1)$ and $N(5, 1)$ have the
 same variance $\sigma^{2}=1$, so they have the same shape in terms of
 their spread. The curve for $N(0, 9)$, on the other hand, is more spread
 out, because it has a higher variance of $\sigma^{2}=9$. As before, it
@@ -291,7 +284,7 @@ Thus we may also say that the $N(0, 9)$ distribution has the standard
 deviation $\sigma=\sqrt{9}=3$ (for $\sigma^{2}=1$ the two numbers are
 the same, since $\sqrt{1}=1$).
 
-In the histogram in Figure \@ref(f-bp1), the heights of the bars
+In the histogram in Figure \@ref(fig:f-bp1), the heights of the bars
 correspond to the proportions of different ranges of blood pressure
 among the 4489 people in the data set. Another way of stating this is
 that if we were to sample a person from this group at random, the
@@ -315,13 +308,13 @@ range. These are the same principles that we have already used to derive
 $P$-values for tests in Sections \@ref(ss-tables-chi2test-Pval) and
 \@ref(ss-probs-test1sample-samplingd).
 
-![Illustration of probabilities for the normal distribution. The
+![(\#fig:f-norm1) Illustration of probabilities for the normal distribution. The
 probability of an observation being within one standard deviation of the
 mean (the grey area) is 0.68, and the probability of it being within
 1.96 standard deviations of the mean (grey and shaded areas together) is
-0.95.<span data-label="fig:f-norm1"></span>](norm1){width="12cm"}
+0.95.](norm1){width="12cm"}
 
-Figure \@ref(f-norm1) illustrates this further with some results which
+Figure \@ref(fig:f-norm1) illustrates this further with some results which
 hold for any normal distribution, whatever its mean and variance. The
 grey area in the figure corresponds to values from $\mu-\sigma$ to
 $\mu+\sigma$, i.e. those values which are no further than one standard
@@ -335,7 +328,7 @@ thus say that approximately 95% of observations drawn from a normal
 distribution tend to be within two standard deviations of the mean. This
 leaves the remaining 5% in the two tails of the distribution, further
 than 1.96 standard deviations from the mean (the two white areas in
-Figure \@ref(f-norm1)). Because the normal distribution is symmetric,
+Figure \@ref(fig:f-norm1)). Because the normal distribution is symmetric,
 these two areas are of equal size and each thus has the probability
 0.025 (i.e. 0.05/2).
 
@@ -358,7 +351,7 @@ confident (perhaps from surveys like the one described above) that the
 distribution of diastolic blood pressure in the population of interest
 was approximately normally distributed with mean 74.2 and variance
 127.87 (and thus standard deviation 11.3). The probabilities of interest
-are then the areas of the regions shown in Figure \@ref(f-normbp).
+are then the areas of the regions shown in Figure \@ref(fig:f-normbp).
 
 The remaining question is how to calculate such probabilities. The short
 answer is “with a computer”. However, to explain an approach which is
@@ -376,11 +369,10 @@ score of $-1.26$, is 1.26 standard deviations *below* (hence the
 negative sign) the mean, while 90 (with $Z$ score 1.40) is 1.40 standard
 deviations *above* the mean.
 
-![ Illustration of probabilities for a normal distribution in the blood
+![(\#fig:f-normbp) Illustration of probabilities for a normal distribution in the blood
 pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
 probabilities for the ranges of values at most 60 (“Low”), between 60
-and 90 ("Mid”) and over 90 (“High”). <span
-data-label="fig:f-normbp"></span>](normbp){width="12cm"}
+and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
 
 \footnotesize
 
@@ -398,11 +390,11 @@ data-label="fig:f-normbp"></span>](normbp){width="12cm"}
         1.41        0.0793
     $\vdots$      $\vdots$
 
-  : Extract from the table of right-hand tail probabilities for normal
+  : (\#tab:t-normtab) Extract from the table of right-hand tail probabilities for normal
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown on
-  p. \pageref{s_disttables_Z}.<span data-label="tab:t-normtab"></span>
+  p. \pageref{s_disttables_Z}.
 
 The probability distribution of the $Z$ scores is a normal distribution
 with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
@@ -422,15 +414,15 @@ that a $Z$ score for a normal distribution is *larger than* the value
 given by $z$, i.e. the area of the region to the right of $z$.
 
 Consider first the probability that blood pressure is greater than 90,
-i.e. the area labelled “High” in Figure \@ref(f-normbp). We have seen
+i.e. the area labelled “High” in Figure \@ref(fig:f-normbp). We have seen
 that 90 corresponds to a $Z$ score of 1.40, so the probability of high
 blood pressure is the same as the probability that the normal $Z$ score
 is greater than 1.40. The row for $z=1.40$ in the table tells us that
 this probability is 0.0808, or 0.08 when rounded to two decimal places
-as in Figure \@ref(f-normbp).
+as in Figure \@ref(fig:f-normbp).
 
 The second quantity of interest was the probability of a blood pressure
-at most 60, i.e. the area of the “Low” region in Figure \@ref(f-normbp).
+at most 60, i.e. the area of the “Low” region in Figure \@ref(fig:f-normbp).
 The corresponding $Z$ score is $-1.26$. The table, however, shows only
 positive values of $z$. This is because we can use the symmetry of the
 normal distribution to reduce all such questions to ones about positive
@@ -441,7 +433,7 @@ least* 1.26 (the area of the right-hand tail to the right of 1.26). This
 is the kind of quantity we calculated above[^2]. The required
 probability is thus equal to the right-hand tail probability for 1.26,
 which the table shows to be 0.1038 (rounded to 0.10 in Figure
-\@ref(f-normbp)).
+\@ref(fig:f-normbp)).
 
 Finally, the probability of the “Mid” range of blood pressure is the
 remaining probability not in the two other regions. Because the whole
@@ -519,7 +511,7 @@ separately:
     also depends on the sample size $n$, which appears in the
     denominator in $\sigma/\sqrt{n}$. This means that the standard error
     of the mean is smaller for large samples than for small ones. This
-    is illustrated in Figure \@ref(f-sampld2). It shows the sampling
+    is illustrated in Figure \@ref(fig:f-sampld2). It shows the sampling
     distribution of $\bar{Y}$ for samples of sizes $n=50$ and $n=1000$
     from a normal population with $\mu=74.2$ and $\sigma=11.3$, i.e. the
     population mean and standard deviation in the blood pressure
@@ -537,10 +529,9 @@ separately:
     $n=1000$, on the other hand, 95% of samples would yield $\bar{Y}$ in
     the much narrower range of $74.2-2*0.36=73.5$ to $74.2+2*0.36=74.9$.
 
-![Illustration of the sampling distribution of the sample mean for two
+![(\#fig:f-sampld2) Illustration of the sampling distribution of the sample mean for two
 sample sizes. In both cases the population distribution is normal with
-$\mu=74.2$ and $\sigma=11.3$. <span
-data-label="fig:f-sampld2"></span>](sampld2_bp){width="12cm"}
+$\mu=74.2$ and $\sigma=11.3$.](sampld2_bp){width="12cm"}
 
 The connection between sample size and the variability of a sampling
 distribution applies not only to the sample mean but to (almost) all
@@ -563,35 +554,34 @@ trade-offs between them in order to make decisions about sample sizes
 are known as *power* calculations. They will be discussed very briefly
 later, in Section \@ref(ss-means-tests3-power).
 
-In Figure \@ref(f-sampld) we use a computer simulation rather than a
+In Figure \@ref(fig:f-sampld) we use a computer simulation rather than a
 mathematical theorem to examine the sampling distribution of a sample
 mean. Here 100,000 simple random samples of size $n=50$ were drawn from
 the $N=4489$ values of blood pressure that we are treating as the finite
 population in this illustration. The sample mean $\bar{Y}$ of blood
 pressure was calculated for each of these samples, and the histogram of
-these 100,000 values of $\bar{Y}$ is shown in Figure \@ref(f-sampld).
+these 100,000 values of $\bar{Y}$ is shown in Figure \@ref(fig:f-sampld).
 Also shown is the curve of the normal distribution with the mean $\mu$
 and standard deviation $\sigma/\sqrt{50}$ determined by the theoretical
 result given above.
 
-![Example of the sampling distribution of the sample mean. The plot
+![(\#fig:f-sampld) Example of the sampling distribution of the sample mean. The plot
 shows a histogram of the values of the sample mean in 100,000 samples of
 size $n=50$ drawn from the 4489 values of diastolic blood pressure shown
-in Figure \@ref(f-bp1), for which the mean is $\mu=74.2$ and standard
+in Figure \@ref(fig:f-bp1), for which the mean is $\mu=74.2$ and standard
 deviation is $\sigma=11.3$. Superimposed on the histogram is the curve
 of the approximate sampling distribution, which is normal with mean
-$\mu$ and standard deviation $\sigma/\sqrt{n}$. <span
-data-label="fig:f-sampld"></span>](sampld1_bp){width="12cm"}
+$\mu$ and standard deviation $\sigma/\sqrt{n}$.](sampld1_bp){width="12cm"}
 
-The match between the curve and the histogram in Figure \@ref(f-sampld)
+The match between the curve and the histogram in Figure \@ref(fig:f-sampld)
 is clearly very close. This is actually a nontrivial finding which
 illustrates a result which is of crucial importance for statistical
-inference. Recall that the normal curve shown in Figure \@ref(f-sampld)
+inference. Recall that the normal curve shown in Figure \@ref(fig:f-sampld)
 is derived from the mathematical result stated above, which assumed that
 the population distribution of $Y$ is *exactly* normal. The histogram in
-Figure \@ref(f-sampld), on the other hand, is based on repeated samples
+Figure \@ref(fig:f-sampld), on the other hand, is based on repeated samples
 from the actual population distribution of blood pressure, which, while
-quite close to a normal distribution as shown in Figure \@ref(f-bp2), is
+quite close to a normal distribution as shown in Figure \@ref(fig:f-bp2), is
 certainly not exactly normal. Despite this, it is clear that the normal
 curve describes the histogram essentially exactly.
 
@@ -652,7 +642,7 @@ approximation becomes better and better as the sample size increases,
 while below about 30 the chance of incorrect conclusions from using it
 becomes large enough for us not to usually want to take that risk.
 
-We have seen in Figure \@ref(f-sampld2) that in the blood pressure
+We have seen in Figure \@ref(fig:f-sampld2) that in the blood pressure
 example the sampling distribution given by the Central Limit Theorem is
 essentially exact for samples of size $n=50$. In this case this is
 hardly surprising, as the population distribution itself is already
@@ -673,8 +663,8 @@ us that
     proportion $\pi$ is approximately a normal distribution with mean
     $\pi$ and variance $\pi(1-\pi)/n$.
 
-This powerful result is illustrated in Figure \@ref(f-cltbin). It is
-similar to Figure \@ref(f-sampld) in that it shows sampling distributions
+This powerful result is illustrated in Figure \@ref(fig:f-cltbin). It is
+similar to Figure \@ref(fig:f-sampld) in that it shows sampling distributions
 obtained from a computer simulation, together with the normal curve
 suggested by the CLT. For each plot, 5000 samples of size $n$ were
 simulated from a population where $\pi$ was 0.2. The sample proportion
@@ -686,16 +676,15 @@ distribution of $\hat{\pi}$ when $n$ is as small as 10 or even 30. For
 the larger values of 100 and 1000, however, the normal approximation is
 already quite good, as expected from the CLT.
 
-![Illustration of the Central Limit Theorem for the sample proportion of
+![(\#fig:f-cltbin) Illustration of the Central Limit Theorem for the sample proportion of
 a dichotomous variable. Each plot shows the histogram of the sample
 proportions $\hat{\pi}$ calculated for 5000 samples simulated from a
 population distribution with proportion $\pi=0.2$, together with the
 normal curve with mean $\pi$ and variance $\pi(1-\pi)/n$. The samples
-sizes $n$ are 10, 30, 100 and 1000.<span
-data-label="fig:f-cltbin"></span>](sampld_p){width="140mm"}
+sizes $n$ are 10, 30, 100 and 1000.](sampld_p){width="140mm"}
 
 The variability of the sampling distribution will again depend on $n$.
-In Figure \@ref(f-cltbin), the observed range of values of $\hat{\pi}$
+In Figure \@ref(fig:f-cltbin), the observed range of values of $\hat{\pi}$
 decreases substantially as $n$ increases. When $n=10$, values of between
 about 0 and 0.4 are quite common, whereas with $n=1000$, essentially all
 of the samples give $\hat{\pi}$ between about 0.16 and 0.24, and a large

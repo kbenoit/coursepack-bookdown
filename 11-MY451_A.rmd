@@ -760,7 +760,7 @@ The only additional output we will need today is obtained by selecting
 
 -   (If you are interested in the $\gamma$ measure of association for
     ordinal variables, outlined in the coursepack, you may obtain it
-    using textbf<span>Statistics/Ordinal/Gamma</span>. In the output the
+    using **Statistics/Ordinal/Gamma**. In the output the
     $\gamma$ statistic is shown in the “Symmetric measures” table in the
     “Value” column for “Gamma”. We will not use this measure today, but
     feel free to ask if you are interested in it.)
@@ -1681,14 +1681,14 @@ the probability of values greater than 2.71 is 0.100.
     from `http://ess.nsd.uib.no/ess/round5/`.
 
 [^2]: The data were obtained from
-    <span>\scriptsize`http://data.london.gov.uk/datastore/package/london-borough-profiles`</span>.
+    <http://data.london.gov.uk/datastore/package/london-borough-profiles>.
 
     \noindentIf you download the “Profiles in Excel” workbook, you will
     find that one of the pages contains a map of the boroughs, and a
     tool for visualising the data on that map. A regular map of the
     boroughs can be found at for example at
 
-    <span>\scriptsize`http://www.londoncouncils.gov.uk/londonfacts/londonlocalgovernment/londonmapandlinks/default.htm`</span>.
+    <http://www.londoncouncils.gov.uk/londonfacts/londonlocalgovernment/londonmapandlinks/default.htm>.
 
 [^3]: The data can be obtained from `http://www3.norc.org/gss+website/`,
     which gives further information on the survey, including the full

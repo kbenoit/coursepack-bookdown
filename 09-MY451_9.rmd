@@ -43,9 +43,9 @@ applicant and whether he or she was admitted to the university.
   Total                                                                                         2439       1154    32.1    3593
   ----------------------------------------------------------------- -------------------------------- ---------- ------- -------
 
-  : Table of sex of applicant vs. admission in the Berkeley admissions
+  : (\#tab:t-berkeley1) Table of sex of applicant vs. admission in the Berkeley admissions
   data. The column labelled ‘% Yes’ is the percentage of applicants
-  admitted within each row. $\chi^{2}=38.4$, $df=1$, $P<0.001$.<span data-label="tab:t-berkeley1"></span>
+  admitted within each row. $\chi^{2}=38.4$, $df=1$, $P<0.001$.
 
 
 The percentages in Table \@ref(tab:t-berkeley1) show that men were more
@@ -84,8 +84,8 @@ sex and admission is shown in Table \@ref(tab:t-berkeley2).
   Total                                                                                                     2439       1154    32.1    3593
   ---------------------------- ------------------------------------------------ -------------------------------- ---------- ------- -------
 
-  :  Sex of applicant vs. admission by academic department in the
-  Berkeley admissions data. <span data-label="tab:t-berkeley2"></span>
+  : (\#tab:t-berkeley2) Sex of applicant vs. admission by academic department in the
+  Berkeley admissions data.
 
 Table \@ref(tab:t-berkeley2) is a *three-way* contingency table, because each
 of its internal cells shows the number of applicants with a particular
@@ -135,13 +135,13 @@ departments and fewer to the easy ones.
   Number of applicants                                  585   918   792   584   714
   ---------------------- ---------------------------------- ----- ----- ----- -----
 
-  : Percentages of male applicants and applicants admitted by department
-  in the Berkeley admissions data.<span data-label="tab:t-berkeley3"></span>
+  : (\#tab:t-berkeley3) Percentages of male applicants and applicants admitted by department
+  in the Berkeley admissions data.
 
 
 One possible set of causal connections leading to a spurious association
 between $X$ and $Y$ was represented graphically by Figure
-\@ref(f-xyzspurious). There are, however, other possibilities which may
+\@ref(fig:f-xyzspurious). There are, however, other possibilities which may
 be more appropriate in particular cases. In the admissions example,
 department (corresponding to the control variable $Z$) cannot be
 regarded as the cause of the sex of the applicant. Instead, we may
@@ -194,10 +194,9 @@ original two-way table are thus unchanged after controlling for sex.
                                                                                                              0.490       0.244       0.163       0.102   1.000
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
 
-  :  Frequencies of respondents by age group and attitude towards
+  : (\#tab:t-investors3) Frequencies of respondents by age group and attitude towards
   short-term gains in Example 9.2, controlling for sex of respondent.
-  The numbers below the frequencies are proportions within rows. $\chi^{2}=82.4$, $df=9$, $P<0.001$. $\gamma=-0.376$.<span
-  data-label="tab:t-investors3"></span>
+  The numbers below the frequencies are proportions within rows. $\chi^{2}=82.4$, $df=9$, $P<0.001$. $\gamma=-0.376$.
 
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
   **WOMEN**                                                                                                           Slightly                    Very
@@ -215,10 +214,9 @@ original two-way table are thus unchanged after controlling for sex.
                                                                                                              0.577       0.234       0.095       0.095   1.000
   -------------------------------------------------------- ------------------------------------------------------- ----------- ----------- ----------- -------
 
-  :  Frequencies of respondents by age group and attitude towards
+  : (\#tab:t-investors3) Frequencies of respondents by age group and attitude towards
   short-term gains in Example 9.2, controlling for sex of respondent.
-  The numbers below the frequencies are proportions within rows. $\chi^{2}=27.6$, $df=9$, $P=0.001$. $\gamma=-0.395$.<span
-  data-label="tab:t-investors3"></span>
+  The numbers below the frequencies are proportions within rows. $\chi^{2}=27.6$, $df=9$, $P=0.001$. $\gamma=-0.395$.
 
 **Example 9.3**: ***The Titanic***
 
@@ -246,9 +244,9 @@ were more likely to survive than male passengers or the ship’s crew.
                                                                                                   (0.323)   (0.677)   (1.000)
   ---------------------------------------------------------------------- -------------------------------- --------- ---------
 
-  : Survival status of the people aboard the *Titanic*, divided into
+  : (\#tab:t-titanic2) Survival status of the people aboard the *Titanic*, divided into
   three groups. The numbers in brackets are proportions of survivors and
-  non-survivors within each group. $\chi^{2}=418$, $\text{df}=2$, $P<0.001$.<span data-label="tab:t-titanic2"></span>
+  non-survivors within each group. $\chi^{2}=418$, $\text{df}=2$, $P<0.001$.
 
 We next control also for the class in which a person was travelling,
 classified as first, second or third class. Since class does not apply
@@ -287,9 +285,9 @@ $\chi^{2}=344$ and $P<0.001$.
                                                                                    0.379   0.621   1.000
   ------------------------------------ ---------------- -------------------------------- ------- -------
 
-  :  Survival status of the passengers of the *Titanic*, classified by
+  : (\#tab:t-titanic3) Survival status of the passengers of the *Titanic*, classified by
   class and sex. The numbers below the frequencies are proportions
-  within rows. <span data-label="tab:t-titanic3"></span>
+  within rows.
 
 Two-way tables involving class (not shown here) suggest that it is
 mildly associated with sex (with percentages of men 54%, 59% and 65% in
@@ -378,9 +376,9 @@ variables. One such variable is the age of the respondents.
   Total        369     945    1314
              0.281   0.719   1.000
 
-  : Table of smoking status in 1972–74 vs. twenty-year survival among
+  : (\#tab:t-whickham1) Table of smoking status in 1972–74 vs. twenty-year survival among
   the respondents in Example 9.4. The numbers below the frequencies are
-  proportions within rows.<span data-label="tab:t-whickham1"></span>
+  proportions within rows.
 
 Table \@ref(tab:t-whickham2) shows the partial tables of smoking vs.\survival
 controlling for age at the time of the first survey, classified into
@@ -419,9 +417,8 @@ associations between the control variable and the other two variables.
   All age groups                                              76.1                                         68.6                     582          732
   ---------------- ----------------------------------------------- -------------------------------------------- ----------------------- ------------
 
-  : Percentage of respondents in Example 9.4 surviving at the time of
-  the second survey, by smoking status and age group in 1972–74.<span
-  data-label="tab:t-whickham2"></span>
+  : (\#tab:t-whickham2) Percentage of respondents in Example 9.4 surviving at the time of
+  the second survey, by smoking status and age group in 1972–74.
 
 
 The two-way tables of age by survival and age by smoking are shown side
@@ -462,11 +459,11 @@ respondents overall were in this age group.
         945 Total count                     582                                732                                          1314
   --------- ------------- --------------------------------------- ----------------------------- ------------------------ -------
 
-  : Two-way contingency tables of age group vs. survival (on the left)
+  : (\#tab:t-whickham3) Two-way contingency tables of age group vs. survival (on the left)
   and age group vs. smoking (on the right) in Example 6.4. The
   percentages in parentheses are column percentages (within smokers or
   nonsmokers) and the ones without parentheses are row percentages
-  (within age groups). <span data-label="tab:t-whickham3"></span>
+  (within age groups).
 
 Table \@ref(tab:t-whickham3) shows a clear association between age and
 survival, for understandable reasons mostly unconnected with smoking.

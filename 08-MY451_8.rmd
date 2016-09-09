@@ -102,7 +102,7 @@ associations will be considered in Section \@ref(s-regression-simple).
 
 The standard statistical graphic for summarising the association between
 two continuous variables is a **scatterplot**. An example of it is given
-in Figure \@ref(f-corruption1), which shows a scatterplot of Control of
+in Figure \@ref(fig:f-corruption1), which shows a scatterplot of Control of
 corruption against GDP per capita for 61 countries for which the
 corruption variable is at least 60 (the motivation of this restriction
 will be discussed later). The two axes of the plot show possible values
@@ -112,15 +112,14 @@ and is often referred to as the **X-axis**. The vertical axis, here used
 for GDP per capita, then corresponds to the response variable $Y$, and
 is known as the **Y-axis**.
 
-![A scatterplot of Control of corruption vs. GDP per capita in the
+![(\#fig:f-corruption1) A scatterplot of Control of corruption vs. GDP per capita in the
 Global Civil Society data set, for 61 countries with Control of
 corruption at least 60. The dotted lines are drawn to the point
-corresponding to the United Kingdom.<span
-data-label="fig:f-corruption1"></span>](corruption1){width="14cm"}
+corresponding to the United Kingdom.](corruption1){width="14cm"}
 
 The observed data are shown as points in the scatterplot, one for each
 of the $n$ units. The location of each point is determined by its values
-of $X$ and $Y$. For example, Figure \@ref(f-corruption1) highlights the
+of $X$ and $Y$. For example, Figure \@ref(fig:f-corruption1) highlights the
 observation for the United Kingdom, for which the corruption measure
 ($X$) is 94.3 and GDP per capita ($Y$) is \$24160. The point for UK is
 thus placed at the intersection of a vertical line drawn from 94.3 on
@@ -134,7 +133,7 @@ statistical graphics. Because the crucial visual information in a
 scatterplot is the shape of the cloud of the points, it is now often not
 necessary for the scales of the axes to begin at zero, especially if
 this is well outside the ranges of the observed values of the variables
-(as it is for the $X$-axis of Figure \@ref(f-corruption1)). Instead, the
+(as it is for the $X$-axis of Figure \@ref(fig:f-corruption1)). Instead, the
 scales are typically selected so that the points cover most of the
 plotting surface. This is done by statistical software, but there are
 many situations were it is advisable to overrule the automatic selection
@@ -144,7 +143,7 @@ samples directly comparable).
 The main purpose of a scatterplot is to examine possible associations
 between $X$ and $Y$. Loosely speaking, this means considering the shape
 and orientation of the cloud of points in the graph. In Figure
-\@ref(f-corruption1), for example, it seems that most of the points are
+\@ref(fig:f-corruption1), for example, it seems that most of the points are
 in a cluster sloping from lower left to upper right. This indicates that
 countries with low levels of Control of corruption (i.e. high levels of
 corruption itself) tend to have low GDP per capita, and those with
@@ -162,12 +161,12 @@ describe a slightly different kind of scatterplot.
 A very common special case of a scatterplot is one where the
 observations correspond to measurements of a variable for the same unit
 at several occasions over time. This is illustrated by the following
-example (another one is Figure \@ref(f-houseprices) on page
+example (another one is Figure \@ref(fig:f-houseprices) on page
 \pageref{f_houseprices}):
 
 *Example: Changes in temperature, 1903–2004*
 
-Figure \@ref(f-temperatures) summarises data on average annual
+Figure \@ref(fig:f-temperatures) summarises data on average annual
 temperatures over the past century in five locations. The data were
 obtained from the GISS Surface Temperature (GISTEMP) database maintained
 by the NASA Goddard Institute for Space Studies[^2]. The database
@@ -183,10 +182,9 @@ urban areas). The temperature for each year at each location is here
 recorded as the difference from the temperature at that location in
 1903[^3].
 
-![Changes of average annual temperature (11-year moving averages) from
-1903 in five locations. See the text for further details.<span
-data-label="fig:f-temperatures"></span>](temperplot "fig:"){width="13cm"}\
-Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>
+![(\#fig:f-temperatures) Changes of average annual temperature (11-year moving averages) from
+1903 in five locations. See the text for further details. Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>](temperplot){width="13cm"}
+
 
 Consider first the data for Haparanda only. Here we have two variables,
 year and temperature, and 102 pairs of observations of them, one for
@@ -199,13 +197,13 @@ These 102 measurements form a *time series* of temperature differences
 for Haparanda over 1903–2004. A standard graphical trick for such series
 is to connect the points for successive times by lines, making it easy
 for the eye to follow the changes over time in the variable on the
-$Y$-axis. In Figure \@ref(f-temperatures) this is done for Haparanda
+$Y$-axis. In Figure \@ref(fig:f-temperatures) this is done for Haparanda
 using a solid line. Note that doing this would make no sense for scatter
-plots like the one in Figure \@ref(f-corruption1), because all the points
+plots like the one in Figure \@ref(fig:f-corruption1), because all the points
 there represent different subjects, in that case countries.
 
 We can easily include several such series in the same graph. In Figure
-\@ref(f-temperatures) this is done by plotting the temperature
+\@ref(fig:f-temperatures) this is done by plotting the temperature
 differences for each of the five locations using different line styles.
 The graph now summarises data on three variables, year, temperature and
 location. We can then examine changes over time for any one location,
@@ -227,12 +225,12 @@ assume statistically independent observations. Methods of statistical
 modelling and inference for dependent data of the kind illustrated by
 the temperature example are beyond the scope of this course. This,
 however, does not prevent us from using a plot like Figure
-\@ref(f-temperatures) to *describe* such data.
+\@ref(fig:f-temperatures) to *describe* such data.
 
 ### Linear associations {#ss-regression-descr-assoc}
 
 Consider again statistically independent observations of $(X_{i},
-Y_{i})$, such as those displayed in Figure \@ref(f-corruption1). Recall
+Y_{i})$, such as those displayed in Figure \@ref(fig:f-corruption1). Recall
 the definition that two variables are associated if the conditional
 distribution of $Y$ given $X$ is different for different values of $X$.
 In the two-sample examples of Chapter \@ref(c-means) this could be
@@ -244,27 +242,26 @@ a rather informal discussion of how this might be done. This will lead
 directly to a more precise and formal definition introduced in Section
 \@ref(s-regression-simple).
 
-![ The same scatterplot of Control of corruption vs. GDP per capita as
-in Figure \@ref(f-corruption1), augmented by the best-fitting (least
+![(\#fig:f-corruption2) The same scatterplot of Control of corruption vs. GDP per capita as
+in Figure \@ref(fig:f-corruption1), augmented by the best-fitting (least
 squares) straight line (solid line) and reference lines for two example
-values of Control of corruption (dotted lines).<span
-data-label="fig:f-corruption2"></span>](corruption2){width="13.5cm"}
+values of Control of corruption (dotted lines).](corruption2){width="13.5cm"}
 
-Figure \@ref(f-corruption2) shows the same scatterplot as Figure
-\@ref(f-corruption1). Consider first one value of $X$ (Control of
+Figure \@ref(fig:f-corruption2) shows the same scatterplot as Figure
+\@ref(fig:f-corruption1). Consider first one value of $X$ (Control of
 corruption), say 65. To get a rough idea of the conditional distribution
 of $Y$ (GDP per capita) given this value of $X$, we could examine the
 sample distribution of the values of $Y$ for the units for which the
 value of $X$ is close to 65. These correspond to the points near the
-vertical line drawn at $X=65$ in Figure \@ref(f-corruption2). This can be
-repeated for any value of $X$; for example, Figure \@ref(f-corruption2)
+vertical line drawn at $X=65$ in Figure \@ref(fig:f-corruption2). This can be
+repeated for any value of $X$; for example, Figure \@ref(fig:f-corruption2)
 also includes a vertical reference line at $X=95$, for examining the
 conditional distribution of $Y$ given $X=95$[^4].
 
 As in Chapter \@ref(c-means), associations between variables will here be
 considered almost solely in terms of differences in the *means* of the
 conditional distributions of $Y$ at different values of $X$. For
-example, Figure \@ref(f-corruption2) suggests that the conditional mean
+example, Figure \@ref(fig:f-corruption2) suggests that the conditional mean
 of $Y$ when X is 65 is around or just under 10000. At $X=95$, on the
 other hand, the conditional mean seems to be between 20000 and 25000.
 The mean of $Y$ is thus higher at the larger value of X. More generally,
@@ -281,7 +278,7 @@ association of this kind. This definition also agrees with the one
 linking association with prediction: if the mean of $Y$ is different for
 different values of $X$, knowing the value of $X$ will clearly help us
 in making predictions about likely values of $Y$. Based on the
-information in Figure \@ref(f-corruption2), for example, our best guesses
+information in Figure \@ref(fig:f-corruption2), for example, our best guesses
 of the GDPs of two countries would clearly be different if we were told
 that the control of corruption measure was 65 for one country and 95 for
 the other.
@@ -297,7 +294,7 @@ that the conditional mean of $Y$ will be described by a smooth
 mathematical function of $X$. Graphically, the means of $Y$ as $X$
 increases will then trace a smooth curve in the scatterplot. The
 simplest possibility for such a curve is a straight line. This
-possibility is illustrated by plot (a) of Figure \@ref(f-scatterplots)
+possibility is illustrated by plot (a) of Figure \@ref(fig:f-scatterplots)
 (this and the other five plots in the figure display artificial data,
 generated for this illustration). Here all of the points fall on a line,
 so that when $X$ increases, the values of $Y$ increase at a constant
@@ -307,39 +304,20 @@ examining associations between continuous variables, and often the only
 ones considered. In this chapter we too will focus almost completely on
 them.
 
-![ Scatterplots of artificial data sets of two variables. Each plot also
+![(\#fig:f-scatterplots) Scatterplots of artificial data sets of two variables. Each plot also
 shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl1 "fig:"){width="8cm"} ![
-Scatterplots of artificial data sets of two variables. Each plot also
-shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl2 "fig:"){width="8cm"}\
-![ Scatterplots of artificial data sets of two variables. Each plot also
-shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl3 "fig:"){width="8cm"} ![
-Scatterplots of artificial data sets of two variables. Each plot also
-shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl4 "fig:"){width="8cm"}\
-![ Scatterplots of artificial data sets of two variables. Each plot also
-shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl5 "fig:"){width="8cm"} ![
-Scatterplots of artificial data sets of two variables. Each plot also
-shows the best-fitting (least squares) straight line and the correlation
-coefficient $r$. <span
-data-label="fig:f-scatterplots"></span>](olspl6 "fig:"){width="8cm"}\
+coefficient $r$.](olspl1 "fig:"){width="8cm"} ![](olspl2){width="8cm"}\
+![](olspl3){width="8cm"} ![](olspl4){width="8cm"}\
+![](olspl5){width="8cm"} ![](olspl6){width="8cm"}\
 
-In plot (a) of Figure \@ref(f-scatterplots) all the points are exactly on
+In plot (a) of Figure \@ref(fig:f-scatterplots) all the points are exactly on
 the straight line. This indicates a *perfect* linear association, where
 $Y$ can be predicted exactly if $X$ is known, so that the association is
 *deterministic*. Such a situation is neither realistic in practice, nor
 necessary for the association to be described as linear. All that is
 required for the latter is that the conditional *means* of $Y$ given
 different values of $X$ fall (approximately) on a straight line. This is
-illustrated by plot (b) of Figure \@ref(f-scatterplots), which shows a
+illustrated by plot (b) of Figure \@ref(fig:f-scatterplots), which shows a
 scatterplot of individual observations together with an approximation of
 the line of the means of $Y$ given $X$ (how the line was drawn will be
 explained later). Here the linear association is not perfect, as the
@@ -353,7 +331,7 @@ statistical inference for linear associations described in Section
 \@ref(s-regression-simple) below.
 
 The **direction** of a linear association can be either **positive** or
-**negative**. Plots (a) and (b) of Figure \@ref(f-scatterplots) show a
+**negative**. Plots (a) and (b) of Figure \@ref(fig:f-scatterplots) show a
 positive association, because increasing $X$ is associated with
 increasing average values of $Y$. This is indicated by the upward slope
 of the line describing the association. Plot (c) shows an example of a
@@ -364,7 +342,7 @@ nor down, so that the mean of $Y$ is the same for all values of $X$. In
 this case there is no (linear) association between the variables.
 
 Not all associations between continuous variables are linear, as shown
-by the remaining two plots of Figure \@ref(f-scatterplots). These
+by the remaining two plots of Figure \@ref(fig:f-scatterplots). These
 illustrate two kinds of **nonlinear** associations. In plot (e), the
 association is still clearly *monotonic*, meaning that average values of
 $Y$ change in the same direction — here increase — when $X$ increases.
@@ -388,15 +366,14 @@ rates were high early (from quick failures of flawed components) and
 late on (from inevitable wear and tear) and lowest in between for
 “middle-aged but healthy” components.
 
-![A scatterplot of Control of corruption vs. GDP per capita for 163
+![(\#fig:f-corruption3) A scatterplot of Control of corruption vs. GDP per capita for 163
 countries in the Global Civil Society data set. The solid line is the
-best-fitting (least squares) straight line for the points.<span
-data-label="fig:f-corruption3"></span>](corruption3){width="13.5cm"}
+best-fitting (least squares) straight line for the points.](corruption3){width="13.5cm"}
 
 Returning to real data, recall that we have so far considered control of
 corruption and GDP per capita only among countries with a Control of
 corruption score of at least 60. The scatterplot for these, shown in
-Figure \@ref(f-corruption2), also includes a best-fitting straight line.
+Figure \@ref(fig:f-corruption2), also includes a best-fitting straight line.
 The observed relationship is clearly positive, and seems to be fairly
 well described by a straight line. For countries with relatively low
 levels of corruption, the association between control of corruption and
@@ -404,11 +381,11 @@ GDP can be reasonably well characterised as linear.
 
 Consider now the set of all countries, including also those with high
 levels of corruption (scores of less than 60). In a scatterplot for
-them, shown in Figure \@ref(f-corruption3), the points with at least 60
-on the $X$-axis are the same as those in Figure \@ref(f-corruption2), and
+them, shown in Figure \@ref(fig:f-corruption3), the points with at least 60
+on the $X$-axis are the same as those in Figure \@ref(fig:f-corruption2), and
 the new points are to the left of them. The plot now shows a nonlinear
 relationship comparable to the one in plot (e) of Figure
-\@ref(f-scatterplots). The linear relationship which was a good
+\@ref(fig:f-scatterplots). The linear relationship which was a good
 description for the countries considered above is thus not adequate for
 the full set of countries. Instead, it seems that the association is
 much weaker for the countries with high levels of corruption,
@@ -486,7 +463,7 @@ the word and the statistic are really due to Sir Francis Galton[^7].
 The properties of the correlation coefficient can be described by going
 through the same list as for the $\gamma$ coefficient in Section
 \@ref(ss-descr1-2cat-gamma). While doing so, it is useful to refer to the
-examples in Figure \@ref(f-scatterplots), where the correlations are also
+examples in Figure \@ref(fig:f-scatterplots), where the correlations are also
 shown.
 
 -   **Sign**: Correlation is positive if the *linear* association
@@ -503,7 +480,7 @@ shown.
     the stronger the association (e.g. compare plots a–d). It should
     again be noted that the correlation captures only the linear aspect
     of the association, as illustrated by the two nonlinear cases in
-    Figure \@ref(f-scatterplots). In plot (e), there is curvature but
+    Figure \@ref(fig:f-scatterplots). In plot (e), there is curvature but
     also a strong positive trend, and the latter is reflected in a
     fairly high correlation. In plot (f), the trend is absent and the
     correlation is 0, even though there is an obvious
@@ -553,9 +530,9 @@ definition and thus of no real interest.
               Infant mortality \[IMR\]                            -0.62    0.42   -0.44       -0.64    -0.73       1
   ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
 
-  :  Correlation matrix of six continuous variables in the Global Civil
+  : (\#tab:t-civilsoc-r) Correlation matrix of six continuous variables in the Global Civil
   Society data set. See page \pageref{p_civilsoc} for more information
-  on the variables.<span data-label="tab:t-civilsoc-r"></span>
+  on the variables.
 
 All of the observed associations in this example are in unsurprising
 directions. For example, School enrolment is positively correlated with
@@ -575,11 +552,11 @@ These correlations describe only the linear element of sample
 associations, but give no hint of any nonlinear ones. For example, the
 correlation of 0.77 between GDP and Control of corruption summarises the
 way the observations cluster around the straight line shown in Figure
-\@ref(f-corruption3). The correlation is high because this increase in
+\@ref(fig:f-corruption3). The correlation is high because this increase in
 GDP as Control of corruption increases is quite strong, but it gives no
 indication of the nonlinearity of the association. A scatterplot is
 needed for revealing this feature of the data. The correlation for the
-restricted set of countries shown in Figure \@ref(f-corruption2) is 0.82.
+restricted set of countries shown in Figure \@ref(fig:f-corruption2) is 0.82.
 
 A correlation coefficient can also be defined for the joint population
 distribution of two variables. The sample correlation $r$ can then be
@@ -635,7 +612,7 @@ variables in the social sciences. We will use the School enrolment
 values as recorded, even though they are known to contain some error.
 
 A scatterplot of IMR vs. School enrolment is shown in Figure
-\@ref(f-imr1), together with the best-fitting straight line. Later we
+\@ref(fig:f-imr1), together with the best-fitting straight line. Later we
 will also consider three additional explanatory variables: Control of
 corruption, Income inequality and Income level of the country in three
 categories (c.f. page \pageref{p_civilsoc}). For further reference,
@@ -646,11 +623,10 @@ reason the correlations in Table \@ref(tab:t-imrvars) differ slightly from
 those in Table \@ref(tab:t-civilsoc-r), where each correlation was calculated
 for all the countries with non-missing values of that pair of variables.
 
-![A scatterplot of net primary school enrolment ratio vs. Infant
+![(\#fig:f-imr1) A scatterplot of net primary school enrolment ratio vs. Infant
 mortality rate for countries in the Global Civil Society data set
 ($n=111$). The solid line is the best-fitting (least squares) straight
-line for the points.<span
-data-label="fig:f-imr1"></span>](imr1){width="13.5cm"}
+line for the points.](imr1){width="13.5cm"}
 
   ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
   \                                                                                                \      School   Control of       Income
@@ -671,11 +647,11 @@ data-label="fig:f-imr1"></span>](imr1){width="13.5cm"}
   High income ($n=22$)                                                                           0.5        98.4         90.7         32.0
   ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
 
-  : Summary statistics for Infant Mortality Rate (IMR) and explanatory
+  : (\#tab:t-imrvars) Summary statistics for Infant Mortality Rate (IMR) and explanatory
   variables for it considered in the examples of Sections
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
   See page \pageref{p_civilsoc} for further information on the
-  variables.<span data-label="tab:t-imrvars"></span>
+  variables.
 
 ### Definition of the model {#ss-regression-simple-def}
 
@@ -782,7 +758,7 @@ own interpretation, which are explained in this section. Sometimes it
 will be useful to illustrate the definition with specific numerical
 values, for which we will use ones for the model for IMR given School
 enrolment in our example. SPSS output for this model is shown in Figure
-\@ref(f-spss-linreg). Note that although these values are first used here
+\@ref(fig:f-spss-linreg). Note that although these values are first used here
 to illustrate the interpretation of the *population* parameters in the
 model, they are of course only estimates (of a kind explained in the
 next section) of those parameters. Other parts of the SPSS output will
@@ -823,17 +799,16 @@ can be derived as follows:
 
 which completes the proof of the claims above — Q.E.D. In case you
 prefer a graphical summary, this is given in Figure
-\@ref(f-linmod-params).
+\@ref(fig:f-linmod-params).
 
-![Illustration of the interpretation of the regression coefficients of a
-simple linear regression model.<span
-data-label="fig:f-linmod-params"></span>](lmparams){width="12.5cm"}
+![(\#fig:f-linmod-params) Illustration of the interpretation of the regression coefficients of a
+simple linear regression model.](lmparams){width="12.5cm"}
 
 The most important parameter of the model, and usually the only one
 really discussed in interpreting the results, is $\beta$, the regression
 coefficient of $X$. It is also called the slope because it is literally
 the slope of the regression line, as shown in Figure
-\@ref(f-linmod-params). It is the only parameter in the model which
+\@ref(fig:f-linmod-params). It is the only parameter in the model which
 describes the association between $X$ and $Y$, and it does so in the
 above terms of expected changes in $Y$ corresponding to changes in X
 ($\beta$ is also related to the correlation between $X$ and $Y$, in a
@@ -842,13 +817,13 @@ direction of the association. When $\beta$ is positive (greater than 0),
 the regression line slopes upwards and increasing $X$ thus also
 increases the expected value of $Y$ — in other words, the association
 between $X$ and $Y$ is positive. This is the case illustrated in Figure
-\@ref(f-linmod-params). If $\beta$ is negative, the regression line
+\@ref(fig:f-linmod-params). If $\beta$ is negative, the regression line
 slopes downwards and the association is also negative. Finally, if
 $\beta$ is zero, the line is parallel with the $X$-axis, so that
 changing $X$ does not change the expected value of $Y$. Thus $\beta=0$
 corresponds to no (linear) association between $X$ and $Y$.
 
-In the real example shown in Figure \@ref(f-spss-linreg), $X$ is School
+In the real example shown in Figure \@ref(fig:f-spss-linreg), $X$ is School
 enrolment and $Y$ is IMR. In SPSS output, the estimated regression
 coefficients are given in the “**Coefficients**” table in the column
 labelled “B” under “Unstandardized coefficients”. The estimated constant
@@ -858,7 +833,7 @@ variable as specified in the SPSS data file — here “Net primary school
 enrolment ratio 2000-2001 (%)”. The value of the intercept is here
 19.736 and the slope coefficient is $-0.179$. The estimated regression
 line for expected IMR is thus $19.736-0.179 X$, where $X$ denotes School
-enrolment. This is the line shown in Figure \@ref(f-imr1).
+enrolment. This is the line shown in Figure \@ref(fig:f-imr1).
 
 Because the slope coefficient in the example is negative, the
 association between the variables is also negative, i.e. higher levels
@@ -901,8 +876,8 @@ variance** or the **residual variance**. Similarly, its square root
 $\sigma$ is known as the conditional, error or **residual standard
 deviation**. To understand $\sigma$, let us consider a single value of
 $X$, such as one corresponding to one of the vertical dashed lines in
-Figure \@ref(f-linmod-params) or, say, school enrolment of 85 in Figure
-\@ref(f-imr1). The model specifies a distribution for $Y$ given any such
+Figure \@ref(fig:f-linmod-params) or, say, school enrolment of 85 in Figure
+\@ref(fig:f-imr1). The model specifies a distribution for $Y$ given any such
 value of $X$. If we were to (hypothetically) collect a large number of
 observations, all with this same value of $X$, the distribution of $Y$
 for them would describe the conditional distribution of $Y$ given that
@@ -915,7 +890,7 @@ around it, some above and some below.
 The linear regression model further specifies that the form of the
 conditional distribution of $Y$ is approximately normal. You can try to
 visualise this by imagining a normal probability curve (c.f. Figure
-\@ref(f-norm1)) on the vertical line from $X$, centered on the regression
+\@ref(fig:f-norm1)) on the vertical line from $X$, centered on the regression
 line and sticking up from the page. The bell shape of the curve
 indicates that most of the values of $Y$ for a given $X$ will be close
 to the regression line, and only small proportions of them far from it.
@@ -960,24 +935,23 @@ can be calculated at the values $X_{i}$ of the explanatory variable $X$
 for each unit $i$ in the observed sample. These can then be compared to
 the correponding values $Y_{i}$ of the response variable. Their
 differences $Y_{i}-\hat{Y}_{i}$ are known as the (sample) **residuals**.
-These quantities are illustrated in Figure \@ref(f-residuals). This shows
+These quantities are illustrated in Figure \@ref(fig:f-residuals). This shows
 a fitted regression line, which is in fact the one for IMR given School
-enrolment also shown in Figure \@ref(f-imr1). Also shown are two points
-$(X_{i}, Y_{i})$. These are also from Figure \@ref(f-imr1); the rest have
+enrolment also shown in Figure \@ref(fig:f-imr1). Also shown are two points
+$(X_{i}, Y_{i})$. These are also from Figure \@ref(fig:f-imr1); the rest have
 been omitted to simplify the plot. The point further to the left is the
 one for Mali, which has School enrolment $X_{i}=43.0$ and IMR
 $Y_{i}=14.1$. Using the estimated coefficients $\hat{\alpha}=19.736$ and
-$\hat{\beta}=-0.179$ in Figure \@ref(f-spss-linreg), the fitted value for
+$\hat{\beta}=-0.179$ in Figure \@ref(fig:f-spss-linreg), the fitted value for
 Mali is $\hat{Y}_{i}=19.736-0.179\times 43.0=12.0$. Their difference is
 the residual $Y_{i}-\hat{Y}_{i}=14.1-12.0=2.1$. Because the observed
 value is here larger than the fitted value, the residual is positive and
 the observed value is above the fitted line, as shown in Figure
-\@ref(f-residuals).
+\@ref(fig:f-residuals).
 
-![Illustration of the quantities involved in the definitions of least
+![(\#fig:f-residuals) Illustration of the quantities involved in the definitions of least
 squares estimates and the coefficient of determination $R^{2}$. See the
-text for explanation.<span
-data-label="fig:f-residuals"></span>](lmresids){width="13.5cm"}
+text for explanation.](lmresids){width="13.5cm"}
 
 $Y_{i}-\hat{Y}_{i}$
 
@@ -991,7 +965,7 @@ $Y_{i}-\bar{Y}$
 
 $\hat{Y}=\hat{\alpha}+\hat{\beta} X$
 
-The second point shown in Figure \@ref(f-residuals) corresponds to the
+The second point shown in Figure \@ref(fig:f-residuals) corresponds to the
 observation for Ghana, for which $X_{i}=58.0$ and $Y_{i}=5.7$. The
 fitted value is then $\hat{Y}_{i}=19.736-0.179\times 58.0=9.4$ and the
 residual $Y_{i}-\hat{Y}_{i}=5.7-9.4=-3.7$. Because the observed value is
@@ -999,10 +973,10 @@ now smaller than the fitted value, the residual is negative and the
 observed $Y_{i}$ is below the fitted regression line.
 
 So far we have still not explained how the specific values of the
-parameter estimates in Figure \@ref(f-spss-linreg) were obtained. In
+parameter estimates in Figure \@ref(fig:f-spss-linreg) were obtained. In
 doing so, we are faced with the task of identifying a regression line
 which provides the best fit to the observed points in a scatterplot like
-Figure \@ref(f-imr1). Each possible choice of $\hat{\alpha}$ and
+Figure \@ref(fig:f-imr1). Each possible choice of $\hat{\alpha}$ and
 $\hat{\beta}$ corresponds to a different regression line, and some
 choices are clearly better than others. For example, it seems
 intuitively obvious that it would be better for the line to go through
@@ -1038,7 +1012,7 @@ Least squares estimates are almost always used for linear regression
 models, and they are the ones displayed by SPSS and other software. For
 our model for IMR given School enrolment, the estimates are the
 $\hat{\alpha}=19.736$ and $\hat{\beta}=-0.179$ shown in Figure
-\@ref(f-spss-linreg).
+\@ref(fig:f-spss-linreg).
 
 The estimated coefficients can be used to calculate predicted values for
 $Y$ at any values of $X$, not just those included in the observed
@@ -1070,7 +1044,7 @@ symbol $k$, so that we can later refer to the same formula for models
 with more explanatory variables and thus $k$ greater than 1. In SPSS
 output, the degrees of freedom are shown in the “**ANOVA**” table under
 “df” for “Residual”. In the infant mortality example $n=111$, $k=1$ and
-$df=111-2=109$, as shown in Figure \@ref(f-spss-linreg).
+$df=111-2=109$, as shown in Figure \@ref(fig:f-spss-linreg).
 
 Finally, two connections between previous topics and the parameters
 $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
@@ -1115,7 +1089,7 @@ included at all. As discussed above, the estimate of the expected value
 of $Y$ is then the sample mean $\bar{Y}$. This is the best prediction of
 $Y$ we can make, if the same predicted value is to be used for all
 observations. The error in the prediction of each value $Y_{i}$ in the
-observed data is then $Y_{i}-\bar{Y}$ (c.f. Figure \@ref(f-residuals) for
+observed data is then $Y_{i}-\bar{Y}$ (c.f. Figure \@ref(fig:f-residuals) for
 an illustration of this for one observation). The sum of squares of
 these errors is $TSS=\sum (Y_{i}-\bar{Y})^{2}$, where $TSS$ is short for
 “Total Sum of Squares”. This can also be regarded as a measure of the
@@ -1175,7 +1149,7 @@ In SPSS output, the “**ANOVA**” table shows the model, error and total
 sums of squares $SSM$, $SSE$ and $TSS$ in the “Sum of Squares column”,
 on the “Regression”, “Residual” and “Total” rows respectively. $R^{2}$
 is shown in “**Model summary**” under “R Square” and multiple
-correlation $R$ next to it as “R”. Figure \@ref(f-spss-linreg) shows
+correlation $R$ next to it as “R”. Figure \@ref(fig:f-spss-linreg) shows
 these results for the model for IMR given School enrolment. Here
 $R^{2}=0.567$. Using each country’s level of school enrolment to predict
 its IMR thus reduces the prediction errors by 56.7% compared to the
@@ -1236,7 +1210,7 @@ discussed here is that its value is zero, i.e. $$H_{0}:\; \beta=0.
 association between the explanatory variable $X$ and the response
 variable $Y$. Graphically, this corresponds to a regression line in the
 population which is parallel to the $X$-axis (see plot (d) of Figure
-\@ref(f-scatterplots) for an illustration of such a line in a sample).
+\@ref(fig:f-scatterplots) for an illustration of such a line in a sample).
 The hypothesis (\@ref(H0betasimple)) can thus be expressed in words as
 $$H_{0}:\; \text{*There is no
 linear association
@@ -1269,7 +1243,7 @@ increases. In other words, the precision of estimation increases when
 the sample size increases, as with all the other estimates of population
 parameters we have considered before. In SPSS output, the estimated
 standard error is given under “Std. Error” in the “**Coefficients**”
-table. Figure \@ref(f-spss-linreg) shows that
+table. Figure \@ref(fig:f-spss-linreg) shows that
 $\hat{\text{se}}(\hat{\beta})=0.015$ for the estimated coefficient
 $\hat{\beta}$ of School enrolment.
 
@@ -1305,7 +1279,7 @@ be discussed here. The difference between $P$-values from the $t_{n-2}$
 and standard normal distributions is in any case minimal when the sample
 size is reasonably large (at least 30, say).
 
-In the infant mortality example shown in Figure \@ref(f-spss-linreg), the
+In the infant mortality example shown in Figure \@ref(fig:f-spss-linreg), the
 estimated coefficient of School enrolment is $\hat{\beta}=-0.179$, and
 its estimated standard error is $\hat{\text{se}}(\hat{\beta})=0.015$, so
 the test statistic is $$t=\frac{-0.179}{0.015}=-11.94$$ (up to some
@@ -1436,12 +1410,12 @@ we observe an association, here denoted symbolically by $X$ — $Y$, and
 would like to claim that this implies a causal connection
 $X\longrightarrow Y$. One situation where such a claim is *not*
 justified is when both $X$ and $Y$ are caused by a third variable $Z$,
-as in the graph in Figure \@ref(f-xyzspurious). If we here consider only
+as in the graph in Figure \@ref(fig:f-xyzspurious). If we here consider only
 $X$ and $Y$, they will appear to be associated, but the connection is
 not a causal one. Instead, it is a **spurious association** induced by
 the dependence on both variables on the common cause $Z$.
 
-![\label{fig:xyzspurious} A graphical representation of a
+![(\#fig:xyzspurious) A graphical representation of a
 spurious association between $X$ and $Y$, explained by dependence on a
 common cause $Z$.](xyzspurious){width="3.7cm"}
 
@@ -1529,7 +1503,7 @@ this model are shown in Table \@ref(tab:t-imr-m2), to which we will refer
 throughout this section. The table is also an example of the kind of
 format in which results of regression models are typically reported.
 Presenting raw computer output such as that in Figure
-\@ref(f-spss-linreg) is normally not appropriate in formal research
+\@ref(fig:f-spss-linreg) is normally not appropriate in formal research
 reports.
 
   ----------------------------------------------------------------------------- ------------- ---------- ------- ----------- -------------------
@@ -1541,9 +1515,9 @@ reports.
   Income inequality                                                                     0.055      0.022    2.50       0.014   (0.011; 0.098)
   ----------------------------------------------------------------------------- ------------- ---------- ------- ----------- -------------------
 
-  : Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
+  : (\#tab:t-imr-m2) Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
   given three explanatory variables in the Global Civil Society
-  data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$<span data-label="tab:t-imr-m2"></span>
+  data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$
 
 ### Definition of the model {#ss-regression-multiple-def}
 
@@ -1650,7 +1624,7 @@ simple model, and require little further explanation:
     “**Coefficients**” table looks very similar to the main part of
     Table \@ref(tab:t-imr-m2). The arrangement of other parts of SPSS output
     for multiple linear regression is essentially unchanged from the
-    format shown in Figure \@ref(f-spss-linreg).
+    format shown in Figure \@ref(fig:f-spss-linreg).
 
 -   Predicted values for $Y$ can be calculated from (\@ref(Yhat)) for any
     set of values of the explanatory variables (whether those observed
@@ -1690,7 +1664,7 @@ simple model, and require little further explanation:
     explained by the variation in levels of School enrolment, Control of
     corruption and Income inequality between them. Compared to the
     $R^{2}=0.567$ for the simple regression model in Figure
-    \@ref(f-spss-linreg), adding the two new explanatory variables has
+    \@ref(fig:f-spss-linreg), adding the two new explanatory variables has
     increased $R^{2}$ by 12.5 percentage points, which seems like a
     reasonably large increase.
 
@@ -1974,10 +1948,9 @@ coefficients of the dummy variables.
                                                                                                                         -1.235)$
   ----------------------------------------------------------------------------------------------------------------------------------
 
-  : Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
+  : (\#tab:t-imr-m3) Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
-  in Table \@ref(tab:t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.<span
-  data-label="tab:t-imr-m3"></span>
+  in Table \@ref(tab:t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.
 
 Recall that the regression coefficient of a continuous explanatory
 variable $X$ is the expected change in the response variable when $X$ is
@@ -2236,9 +2209,8 @@ Table \@ref(tab:t-fastfood-descr).
   KFC                                        21.2    (78)                                     79.5 (62)     0.117        $+0.94$
   ---------------------------------------- ------ ------- --------------------------------------------- -------------- ------------
 
-  : Summary statistics for the variables considered in the minimum wage
-  example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.<span
-  data-label="tab:t-fastfood-descr"></span>
+  : (\#tab:t-fastfood-descr) Summary statistics for the variables considered in the minimum wage
+  example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.
 
   ------------------------------------------------------ --------------------------------- --------------------------------- ------------- -----------
   \                                                                              Model (1)                                 \     Model (2)           \
@@ -2264,9 +2236,9 @@ Table \@ref(tab:t-fastfood-descr).
   $R^{2}$                                                                            0.046                                           0.032
   ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-  : Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
+  : (\#tab:t-fastfood-models) Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
   wage increase and control variables. See the text for further
-  details.<span data-label="tab:t-fastfood-models"></span>
+  details.
 
 Table \@ref(tab:t-fastfood-models) shows results for two linear regression
 models for Employment change, one using the dummy for affected
@@ -2376,7 +2348,7 @@ standard SPSS output are described. Second, a list of further topics in
 linear regression is given.
 
 An example of SPSS output for linear regression models was given in
-Figure \@ref(f-spss-linreg). Most parts of it have been explained above,
+Figure \@ref(fig:f-spss-linreg). Most parts of it have been explained above,
 but three have not been mentioned. These can be safely ignored, because
 each is of minor importance in most analyses. However, it is worth
 giving a brief explanation so as not to leave these three as mysteries:

@@ -127,8 +127,7 @@ and attitude in the survey example, which are shown in Tables
   Oceania                      4        0.026     2.6
   Total                      155        1.000   100.0
 
-  : Frequency distribution of the region variable in the country
-  data.<span data-label="tab:t-region"></span>
+  : (\#tab:t-region) Frequency distribution of the region variable in the country data.
 
   ----------- ----------- ------------ ------ ------------
   Democracy        \           \            \   Cumulative
@@ -161,9 +160,8 @@ and attitude in the survey example, which are shown in Tables
   Total                                   2344     1.00       100.0
   -------------------------------- ----------- ------------ ------- ------------
 
-  : Frequency distribution of responses to a question on attitude
-  towards income redistribution in the survey example.<span
-  data-label="tab:t-attitude"></span>
+  : (\#tab:t-attitude) Frequency distribution of responses to a question on attitude
+  towards income redistribution in the survey example.
 
 Each row of such a table corresponds to one possible value of a
 variable, and the second column shows the number of units with that
@@ -197,8 +195,8 @@ visual information. The basic graph for summarising the sample
 distribution of a discrete variable is a **bar chart**. It is the
 graphical equivalent of a one-way table of frequencies.
 
-Figures \@ref(f-bars-region), \@ref(f-bars-democ) and
-\@ref(f-bars-attitude) show the bar charts for region, democracy index
+Figures \@ref(fig:f-bars-region), \@ref(fig:f-bars-democ) and
+\@ref(fig:f-bars-attitude) show the bar charts for region, democracy index
 and attitude, corresponding to the frequencies in Tables \@ref(tab:t-region),
 \@ref(tab:t-democ) and \@ref(tab:t-attitude). Each bar corresponds to one category
 of the variable, and the height of the bar is proportional to the
@@ -206,27 +204,21 @@ frequency of observations in that category. This visual cue allows us to
 make quick comparisons between the frequencies of different categories
 by comparing the heights of the bars.
 
-![Bar chart of regions in the country data.<span
-data-label="fig:f-bars-region"></span>](regions){height="9.5cm"}
+![(\#fig:f-bars-region) Bar chart of regions in the country data.](regions){height="9.5cm"}
 
-![Bar chart of the democracy index in the country data.<span
-data-label="fig:f-bars-democ"></span>](democ){height="9.5cm"}
+![(\#fig:f-bars-democ) Bar chart of the democracy index in the country data.](democ){height="9.5cm"}
 
-![Bar chart of the attitude variable in the survey data example.<span
-data-label="fig:f-bars-attitude"></span>](bar_attitude "fig:"){height="8cm"}
-\scriptsize{
-Agreement with statement: ``The government should
-take measures to reduce differences in income levels''.
-European Social Survey, Round 5 (2010), UK respondents only.}
+![(\#fig:f-bars-attitude) Bar chart of the attitude variable in the survey data example. Agreement with statement: ``The government should take measures to reduce differences in income levels''.
+European Social Survey, Round 5 (2010), UK respondents only.](bar_attitude){height="8cm"}
 
 Some guidelines for drawing bar charts are:
 
 -   The heights of the bars may represent frequencies, proportions
     or percentages. This only changes the units on the vertical axis but
     not the relative heights of the bars. The shape of the graph will be
-    the same in each case. In Figure \@ref(f-bars-region), the units are
-    frequencies, while in Figures \@ref(f-bars-democ) and
-    \@ref(f-bars-attitude) they are percentages.
+    the same in each case. In Figure \@ref(fig:f-bars-region), the units are
+    frequencies, while in Figures \@ref(fig:f-bars-democ) and
+    \@ref(fig:f-bars-attitude) they are percentages.
 
 -   The bars do not touch each other, to highlight the discrete nature
     of the variable.
@@ -235,12 +227,12 @@ Some guidelines for drawing bar charts are:
     between their heights are distorted and the graph becomes useless.
 
 -   If the variable is ordinal, the bars must be in the natural order of
-    the categories, as in Figures \@ref(f-bars-democ) and
-    \@ref(f-bars-attitude). If the variable is nominal, the order
+    the categories, as in Figures \@ref(fig:f-bars-democ) and
+    \@ref(fig:f-bars-attitude). If the variable is nominal, the order
     is arbitrary. Often it makes sense to order the categories from
     largest (i.e. the one with the largest frequency) to the smallest,
     possibly leaving any “Others” category last. In Figure
-    \@ref(f-bars-region), the frequency ordering would swap Northern
+    \@ref(fig:f-bars-region), the frequency ordering would swap Northern
     America and Oceania, but it seems more natural to keep Northern and
     Latin America next to each other.
 
@@ -250,7 +242,7 @@ particular, the corresponding table is often just as easy to understand
 and takes less space. For ordinal variables, the bar chart has the
 additional advantage that its shape shows how the frequencies vary
 across the ordering of the categories. For example, Figure
-\@ref(f-bars-democ) quite effectively conveys the information that the
+\@ref(fig:f-bars-democ) quite effectively conveys the information that the
 most common values of the democracy index are the extreme scores 0 and
 10.
 
@@ -295,9 +287,8 @@ contingency tables:
   Total                          366        1090         426          387         75        2344
   ------------------------ --------------- ------- --------------- ---------- ---------- -------
 
-  : *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
-  by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.<span
-  data-label="tab:t-sex-attitude"></span>
+  : (\#tab:t-sex-attitude) *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
+  by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
 -   Because a table like \@ref(tab:t-sex-attitude) summarizes the values of
     two variables, it is known as a **two-way** contingency table.
@@ -379,10 +370,9 @@ in the bottom right corner of the table.
   Total               0.156       0.465       0.182        0.165      0.032      1.000
   -------------- --------------- ------- --------------- ---------- ---------- -------
 
-  : *``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
+  : (\#tab:t-sex-attitude-pr) *``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
   example, with each combination of sex and attitude towards income
-  redistribution. Data: European Social Survey, Round 5,                                                                                                                         
-  2010, UK respondents only.<span data-label="tab:t-sex-attitude-pr"></span>
+  redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
 ### Conditional proportions {#ss-descr1-2cat-cond}
 
@@ -428,11 +418,10 @@ as the proportions in the ‘Total’ row of Table \@ref(tab:t-sex-attitude-pr).
                     (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   ------------- --------------- --------- --------------- ---------- ---------- -------
 
-  : *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
+  : (\#tab:t-sex-attitude-row) *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. The numbers in
   brackets are proportions within the rows, i.e. conditional proportions
-  of attitude given sex. Data: European Social Survey, Round 5,                                                                                                                           
-  2010, UK respondents only.<span data-label="tab:t-sex-attitude-row"></span>
+  of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
 We could also have calculated conditional proportions within the
 *columns*, i.e. for sex given attitude. For example, the proportion
@@ -603,11 +592,10 @@ age groups.
   Total                                                            494         235         145          98      972
   ------------- ------------------------------------------------------ ----------- ----------- ----------- --------
 
-  : Importance of short-term gains: Frequencies of respondents in the investment example, by age group
+  : (\#tab:t-investors) Importance of short-term gains: Frequencies of respondents in the investment example, by age group
   and attitude towards short-term gains as investment goal. Conditional
   proportions of attitude given age group are shown in brackets. The
-  value of the $\gamma$ measure of association is $-0.377$.<span
-  data-label="tab:t-investors"></span>
+  value of the $\gamma$ measure of association is $-0.377$.
 
 Here there are four conditional distributions, one for each age group,
 and each of them is described by four proportions of different levels of
@@ -875,8 +863,7 @@ values would be entirely unenlightening.
   Total               155       99.9
   --------------- ----------- ------
 
-  : Frequency distribution of GDP per capita in the country data.<span
-  data-label="tab:t-gdp"></span>
+  : (\#tab:t-gdp) Frequency distribution of GDP per capita in the country data.
 
 Instead, we can count the frequencies for some *intervals* of values.
 Table \@ref(tab:t-gdp) shows an example of this for the GDP variable. The
@@ -905,13 +892,12 @@ categories (making the table harder to read).
 
 #### Histograms {-}
 
-![Histogram of GDP per capita in the country data, together with the
-corresponding frequency polygon.<span
-data-label="fig:f-hist-gdp"></span>](gdp){width="13.5cm"}
+![(\#fig:f-hist-gdp) Histogram of GDP per capita in the country data, together with the
+corresponding frequency polygon.](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
 grouped variable, like that in Table \@ref(tab:t-gdp). Figure
-\@ref(f-hist-gdp) shows a histogram for the GDP variable (the histogram
+\@ref(fig:f-hist-gdp) shows a histogram for the GDP variable (the histogram
 consists of the bars; the lines belong to a different graph, the
 frequency polygon explained below). The basic idea of a histogram is
 very similar to that of the bar chart, except that now the bars touch
@@ -931,14 +917,14 @@ units for the first five, and unbounded for the last one). The intervals
 in a histogram must be of equal widths, because otherwise the visual
 information in it becomes distorted (at least unless the histogram is
 modified in ways not discussed here). For example, the intervals in
-Figure \@ref(f-hist-gdp) (less than 2.5, 2.5–less than 5.0, 5.0–less than
+Figure \@ref(fig:f-hist-gdp) (less than 2.5, 2.5–less than 5.0, 5.0–less than
 7.5 etc.) are all 2.5 units wide. The exact choice can usually be left
 to computer packages such as SPSS which use automatic rules for choosing
 sensible intervals.
 
 #### Frequency polygons {-}
 
-Figure \@ref(f-hist-gdp) also shows a **frequency polygon** of the GDP
+Figure \@ref(fig:f-hist-gdp) also shows a **frequency polygon** of the GDP
 variable. This is obtained by drawing lines to connect the mid-points of
 the tops of the bars in a histogram. At each end of the histogram the
 lines are further connected to zero, as if the histogram had additional
@@ -959,7 +945,7 @@ A **stem and leaf plot** is a close relative of the histogram, and is
 used for much the same purposes, mostly in small data sets. It is
 easiest to explain through an example, so let us consider the GDP
 variable again. The stem and leaf plot for it is shown in Figure
-\@ref(f-stemgdp). First, note that the values of the variable in the
+\@ref(fig:f-stemgdp). First, note that the values of the variable in the
 sample (from \$500 to \$37800, recorded as 0.5 to 37.8 thousands of
 dollars) have at most three significant digits. If the observations have
 too many digits to be convenient for a stem and leaf plot, they can be
@@ -1011,7 +997,7 @@ define the *stem*.
   `37`   `88`
   ------ -----------------------------------
 
-The left-hand column in \@ref(f-stemgdp) lists the stem values in the
+The left-hand column in \@ref(fig:f-stemgdp) lists the stem values in the
 data, from smallest (0) to the largest (37). Each data value with the
 same stem is represented on the same line by its leaf, i.e. its last
 digit. Thus the smallest value, 0.5 for Sierra Leone, is shown as a leaf
@@ -1020,11 +1006,11 @@ and so on up to the largest value 37.8 for Norway, shown as an “8” leaf
 on the “37” stem.
 
 The stem and leaf plot is very similar to a histogram (try turning
-Figure \@ref(f-stemgdp) on its side, and compare to Figure
-\@ref(f-hist-gdp)). It has the additional advantage that it also shows
+Figure \@ref(fig:f-stemgdp) on its side, and compare to Figure
+\@ref(fig:f-hist-gdp)). It has the additional advantage that it also shows
 the actual numerical values of the observations. In some rather special
 cases this can reveal additional features of the data. Consider, for
-example, the plot shown in Figure \@ref(f-stemhours). The variable here
+example, the plot shown in Figure \@ref(fig:f-stemhours). The variable here
 is the number of hours 86 respondents in a social survey (a small subset
 of all the respondents, drawn purely for this illustration) reported
 their *spouse* worked in the previous week. An obvious feature of the
@@ -1052,12 +1038,11 @@ value is shown separately, the plot can only be used when the sample
 size is relatively small. In such cases it is, however, a very useful
 and user-friendly graph. Also, “small” does not mean “tiny”. For
 example, the country data set has as many as $n=155$ observations, yet
-Figure \@ref(f-stemgdp) is still quite readable and fits on a single
+Figure \@ref(fig:f-stemgdp) is still quite readable and fits on a single
 page.
 
-![An annotated box plot of GDP per capita in the country data
-($n=155$).<span
-data-label="fig:f-boxplot-gdp"></span>](box_gdp){width="15cm"}
+![(\#fig:f-boxplot-gdp) An annotated box plot of GDP per capita in the country data
+($n=155$).](box_gdp){width="15cm"}
 
 #### Box plots {-}
 
@@ -1065,7 +1050,7 @@ A **box plot** differs from the graphs discussed so far in that it does
 not attempt to display the whole distribution, but only certain
 characteristics of it. The quantities included in a box plot are some of
 the summary statistics defined in Section \@ref(s-descr1-nums). To
-introduce the idea, one box plot is shown in Figure \@ref(f-boxplot-gdp).
+introduce the idea, one box plot is shown in Figure \@ref(fig:f-boxplot-gdp).
 The variable considered here is again GDP per capita. The vertical axis
 shows possible values of the variable, and the plot itself contains the
 following elements:
@@ -1295,22 +1280,22 @@ measure of central tendency. It does, however, have one arguably
 undesirable feature. This is illustrated by the statistics for the GDP
 variable, as shown in Table \@ref(tab:t-countries-sums). Its mean (\$8600) is
 clearly much larger than the median (\$4700). This is due to the shape
-of the distribution of GDP, as revealed by Figure \@ref(f-hist-gdp) or
-even more clearly by the stem and leaf plot of Figure \@ref(f-stemgdp).
+of the distribution of GDP, as revealed by Figure \@ref(fig:f-hist-gdp) or
+even more clearly by the stem and leaf plot of Figure \@ref(fig:f-stemgdp).
 While most of the countries are concentrated around a fairly narrow
 range of GDPs, there are also a number of countries with much larger
 GDPs. The ranges of values in the small and large ends of the values in
 a distribution are (for fairly obvious visual reasons) called the
 **tails** of the distribution. A distribution with a (much) longer tail
 in one end than the other is said to be **skewed**. A distribution like
-that of GDP in Figure \@ref(f-hist-gdp), with its long tail towards the
+that of GDP in Figure \@ref(fig:f-hist-gdp), with its long tail towards the
 large values, is said to be **skewed to the right** or **positively
-skewed**. A distribution shown in panel A of Figure \@ref(f-skews) is
+skewed**. A distribution shown in panel A of Figure \@ref(fig:f-skews) is
 **skewed to the left** (**negatively skewed**): while the examination
 marks of most students are relatively high, there are some students with
 very low marks. A distribution which has no clear skewness in either
 direction, like the distribution of typical weekly working hours in
-panel B of Figure \@ref(f-skews) is (approximately) **symmetric**.
+panel B of Figure \@ref(fig:f-skews) is (approximately) **symmetric**.
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------
   \                                  Measures                  of central                       tendency          Measures           of            variation
@@ -1322,19 +1307,16 @@ panel B of Figure \@ref(f-skews) is (approximately) **symmetric**.
                                    and \$1900                    \$4700                          \$8600           \$37300          \$9700           \$9450
   --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  : Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.<span
-  data-label="tab:t-countries-sums"></span>
+  : (\#tab:t-countries-sums) Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.
 
-![Examples of a negatively skewed and an approximately symmetric sample
+![(\#fig:f-skews) Examples of a negatively skewed and an approximately symmetric sample
 distribution. Panel A shows the distribution of examination marks for
 MY451 (2003; $n=419$), and B shows the distribution of the number of
 hours a person usually works in their main job in the 3 per cent
 Individual Sample of Anonymized Records from the 2001 U.K. Census
-($n=867,016$, respondents with hours 0 or not applicable omitted).<span
-data-label="fig:f-skews"></span>](twohists "fig:"){width="14cm"}\
-<span>\footnotesizeSource of the data for panel B: Cathie Marsh Centre
+($n=867,016$, respondents with hours 0 or not applicable omitted) Source of the data for panel B: Cathie Marsh Centre
 for Census and Survey Research, University of Manchester,
-`http://www.ccsr.ac.uk/sars/` </span>
+<http://www.ccsr.ac.uk/sars/>.](twohists "fig:"){width="14cm"}
 
 The mean is almost always further in the direction of skewness than the
 median. That is why the mean of the positively skewed GDP variable is
@@ -1406,8 +1388,7 @@ can be used for such variables, but they are not described here.
   Class 3:   1 2 2 3 4 4 4 8 8 9 9 10 10 10
   ---------- --------------------------------
 
-  : A hypothetical examples of test marks of students in three
-  classes.<span data-label="tab:t-classmarks"></span>
+  : (\#tab:t-classmarks) A hypothetical examples of test marks of students in three classes.
 
 #### Range {-}
 
@@ -1512,9 +1493,8 @@ that an observation is larger than the mean (e.g. $10-6=+4$).
                                                                             $s=\sqrt{11.69}=3.4$
   --------- ------------------------ --------------------------- -------------------------------
 
-  : Calculating the standard deviation of test marks for Class 3 in the
-  class example of page \pageref{p_classex}.<span
-  data-label="tab:t-sdex"></span>
+  : (\#tab:t-sdex) Calculating the standard deviation of test marks for Class 3 in the
+  class example of page \pageref{p_classex}.
 
 The deviations are clearly related to variation, as a sample with little
 variation will have small deviations (most observations are close to the
@@ -1610,21 +1590,20 @@ though they summarise the two most important features of a sample
 distribution of a variable, may still miss some important features of
 the distribution. Consider, for example, the class marks in Classes 2
 and 3 in our hypothetical example. These are summarized by the bar
-charts of Figure \@ref(f-classbars). The distribution for Class 2 is
+charts of Figure \@ref(fig:f-classbars). The distribution for Class 2 is
 symmetric and concentrated around the mean value of 6. The most
 noticeable feature of the marks in Class 3, on the other hand, is that
 there appear to be two distinct groups of students, one with very low
 scores and one with high scores. A similar feature was also noted in the
 distribution of the democracy index in the country data (c.f. Figure
-\@ref(f-bars-democ)). This property would not be revealed by measures of
+\@ref(fig:f-bars-democ)). This property would not be revealed by measures of
 central tendency or variation, so it is an illustration of why it is
 always sensible to also examine the whole distribution of a variable
 using frequency tables or graphical methods.
 
-![Bar charts of the test marks in the class example of page
+![(\#fig:f-classbars) Bar charts of the test marks in the class example of page
 \pageref{p_classex} for Classes 2 (on the left) and 3 (on the
-right).<span
-data-label="fig:f-classbars"></span>](classbars){height="8.3cm"}
+right).](classbars){height="8.3cm"}
 
 ## Associations which involve continuous variables {#s-descr1-2cont}
 
@@ -1729,9 +1708,9 @@ to obtain accurate information from it.
 
 One example of a lying graph already mentioned is the “cut” bar chart
 where the bars do not begin at zero. Another is the pseudo third
-dimension, an example of which is shown in Figure \@ref(f-yuk). The
+dimension, an example of which is shown in Figure \@ref(fig:f-yuk). The
 information presented in this graph is the same as that of Figure
-\@ref(f-bars-region), i.e. frequencies of different regions. These are
+\@ref(fig:f-bars-region), i.e. frequencies of different regions. These are
 represented by the heights of the bars. The additional information
 conveyed by the apparent thickness of the bars, represented in
 perspective to give an illusion of three-dimensional bars, is then —
@@ -1739,7 +1718,7 @@ exactly nothing. The fake third dimension represents no data, and serves
 only to distort the real data that are being shown.
 
 We can thus give a simple instruction: using a fake third dimension like
-the one in Figure \@ref(f-yuk) is always wrong and not acceptable under
+the one in Figure \@ref(fig:f-yuk) is always wrong and not acceptable under
 any circumstances. This is true irrespective of the fact that such
 graphs are often seen and easily (often almost automatically) produced
 by software packages like Microsoft Excel. All this proves is that the
@@ -1750,10 +1729,9 @@ if not most of the graph styles provided by, say, Excel (exploding pie
 charts, doughnuts, cones, pyramids and so on) are entirely useless for
 accurate presentation of data.
 
-![An example of an unacceptable graph: a bar chart with a pseudo
+![(\#fig:f-yuk) An example of an unacceptable graph: a bar chart with a pseudo
 three-dimensional effect. The data are the same as in Figure
-\@ref(f-bars-region).<span
-data-label="fig:f-yuk"></span>](threeD){height="8cm"}
+\@ref(fig:f-bars-region).](threeD){height="8cm"}
 
 An objection sometimes offered to such a severe rule is that bad graphs
 “look good”. This can be answered in two ways. First, a statistical
@@ -1770,12 +1748,12 @@ focusing on presenting information and avoiding all distracting
 decoration. Some such examples have been given earlier in this chapter.
 Other types of graphs are used to illustrate associations between
 variables, which we have not yet discussed. To anticipate that a little,
-Figure \@ref(f-houseprices) shows one (good but not in any way
+Figure \@ref(fig:f-houseprices) shows one (good but not in any way
 exceptional) example of such graphs. It is a reproduction of a graph
 originally published in a survey of Spain in *The Economist*, and shows
 changes in average house prices in Spain, Germany and Britain between
 1993 and 2003. Even without an introductory statistics course, the main
-message of Figure \@ref(f-houseprices) is immediately clear: increases in
+message of Figure \@ref(fig:f-houseprices) is immediately clear: increases in
 Spanish house prices over the period have been comparable to those in
 Britain, with prices more than doubling in both countries, and very
 unlike those in Germany, where the prices have remained unchanged. Note
@@ -1784,13 +1762,10 @@ countries by using different types of line. Different colours can of
 course be used instead, but their differences will become obscured if
 the graph is photocopied or printed in black and white.
 
-![An example of an informative graph: house prices in three countries
-between 1993 and 2003, indexed to 100 in 1993.<span
-data-label="fig:f-houseprices"></span>](houseprices){width="10cm"}
-
-<span>\footnotesizeSource: *The Economist*, June 26th, 2004. The numbers
+![(\#fig:f-houseprices) An example of an informative graph: house prices in three countries
+between 1993 and 2003, indexed to 100 in 1993. Source: *The Economist*, June 26th, 2004. The numbers
 were estimated from the graph in the magazine, so they are
-approximate.</span>
+approximate.](houseprices){width="10cm"}
 
 In addition to such modest but sensible and useful basic graphs, you may
 sometimes encounter inspired examples of special graphs which manage to
@@ -1819,7 +1794,7 @@ Table \@ref(tab:t-countrydata). The variables are defined as follows:
     coded as 1=Africa, 2=Asia, 3=Europe, 4=Latin America, 5=Northern
     America, 6=Oceania. The list of regions and the assignment of
     countries to regions are those used by the UN Statistics Division
-    (see <span>\small`unstats.un.org/unsd/methods/m49/m49.htm`</span>).
+    (see <unstats.un.org/unsd/methods/m49/m49.htm>).
 
 -   **democracy** is a measure of institutionalised democracy by the
     Polity IV project[^8]. The values refer to each country’s
@@ -1831,8 +1806,7 @@ Table \@ref(tab:t-countrydata). The variables are defined as follows:
 -   **GDP** is the country’s Gross Domestic Product per capita (in
     thousands of U.S. dollars), adjusted for purchasing power parity.
     The data were obtained from CIA’s *The World Factbook 2004*
-    (<span>\small`https://www.cia.gov/library/publications/`</span>\
-    <span>\small`the-world-factbook/`</span>). The figures refer to
+    (<https://www.cia.gov/library/publications/resources/the-world-factbook/>). The figures refer to
     slightly different years for different countries.
 
 The data set contains those 155 countries for which recent data on all
