@@ -1,6 +1,6 @@
-# Descriptive statistics {#c_descr1}
+# Descriptive statistics {#c-descr1}
 
-## Introduction {#s_descr1_intro}
+## Introduction {#s-descr1-intro}
 
 This chapter introduces some common descriptive statistical methods. It
 is organised around two dichotomies:
@@ -26,7 +26,7 @@ discussed in detail elsewhere in the coursepack. The chapter concludes
 with some general guidelines for presentation of descriptive tables and
 graphs in Section \@ref(s-descr1-presentation).
 
-## Example data sets {#s_descr1_examples}
+## Example data sets {#s-descr1-examples}
 
 Two examples are used to illustrate the methods throughout this chapter:
 
@@ -87,9 +87,9 @@ the type of welfare regime adopted in their country). In section
 \@ref(s-descr1-2cat) below we use descriptive statistics to examine such
 associations between sex and attitude in this sample.
 
-## Single categorical variable {#s_descr1_1cat}
+## Single categorical variable {#s-descr1-1cat}
 
-### Describing the sample distribution {#ss_descr1_1cat_distr}
+### Describing the sample distribution {#ss-descr1-1cat-distr}
 
 The term *distribution* is very important in statistics. In this section
 we consider the distribution of a single variable in the observed data,
@@ -107,7 +107,7 @@ The task of descriptive statistics for a single variable is to summarize
 the sample distribution or some features of it. This can be done in the
 form of tables, graphs or single numbers.
 
-### Tabular methods: Tables of frequencies {#ss_descr1_1cat_tables}
+### Tabular methods: Tables of frequencies {#ss-descr1-1cat-tables}
 
 When a variable has only a limited number of distinct values, its sample
 distribution can be summarized directly from the definition given above.
@@ -189,7 +189,7 @@ the proportions is one, and the sum of the percentages is one hundred
 (because of rounding error, the sum in a reported table may be very
 slightly different, as it is in Table \@ref(t-democ)).
 
-### Graphical methods: Bar charts {#ss_descr1_1cat_charts}
+### Graphical methods: Bar charts {#ss-descr1-1cat-charts}
 
 Graphical methods of describing data (*statistical graphics*) make use
 of our ability to process and interpret even very large amounts of
@@ -265,7 +265,7 @@ graphs is the same as that of standard bar charts. However, they are not
 particularly useful as descriptive statistics, since they simply display
 values in the original data without any summarization or simplification.
 
-### Simple descriptive statistics {#ss_descr1_1cat_descriptives}
+### Simple descriptive statistics {#ss-descr1-1cat-descriptives}
 
 Instead of the whole sample distribution, we may want to summarise only
 some individual aspects of it, such as its central tendency or
@@ -273,9 +273,9 @@ variation. Descriptive statistics that are used for this purpose are
 broadly similar for both discrete and continuous variables, so they will
 be discussed together for both in Section \@ref(s-descr1-nums).
 
-## Two categorical variables {#s_descr1_2cat}
+## Two categorical variables {#s-descr1-2cat}
 
-### Two-way contingency tables {#ss_descr1_2cat_tables}
+### Two-way contingency tables {#ss-descr1-2cat-tables}
 
 The next task we consider is how to describe the sample distributions of
 two categorical variables together, and in so doing also summarise the
@@ -384,7 +384,7 @@ in the bottom right corner of the table.
   redistribution. Data: European Social Survey, Round 5,                                                                                                                         
   2010, UK respondents only.<span data-label="tab:t-sex-attitude-pr"></span>
 
-### Conditional proportions {#ss_descr1_2cat_cond}
+### Conditional proportions {#ss-descr1-2cat-cond}
 
 A two-way contingency table is symmetric in that it does not distinguish
 between explanatory and response variables. In many applications,
@@ -443,7 +443,7 @@ sex varies by attitude. In general, for any two-way table we can
 calculate conditional proportions for both the rows and the columns, but
 typically only one of them is used for interpretation.
 
-### Conditional distributions and associations {#ss_descr1_2cat_assoc}
+### Conditional distributions and associations {#ss-descr1-2cat-assoc}
 
 Suppose that we regard one variable in a two-way table as the
 explanatory variable (let us denote it by $X$) and the other variable as
@@ -509,7 +509,7 @@ rely more on welfare state support) and cultural or psychological ones
 (women are more likely than men to adopt social values of equality and
 caring) have been suggested.
 
-### Describing an association using conditional proportions {#ss_descr1_2cat_descr}
+### Describing an association using conditional proportions {#ss-descr1-2cat-descr}
 
 Two variables presented in a contingency table are associated in the
 sample if the conditional distributions of one of them vary across the
@@ -568,7 +568,7 @@ generalisation of the conclusions to people outside the sample is a
 question which we will take up in Chapters \@ref(c-samples) and
 \@ref(c-tables).
 
-### A measure of association for ordinal variables {#ss_descr1_2cat_gamma}
+### A measure of association for ordinal variables {#ss-descr1-2cat-gamma}
 
 In the previous example the explanatory variable (sex) had 2 categories
 and the response variable (attitude) had 5. A full examination of the
@@ -845,9 +845,9 @@ Three further observations complete our discussion of $\gamma$:
     tables will be considered only in the context of a different test,
     introduced in Chapter \@ref(c-tables).
 
-## Sample distributions of a single continuous variable {#s_descr1_1cont}
+## Sample distributions of a single continuous variable {#s-descr1-1cont}
 
-### Tabular methods {#ss_descr1_1cont_tab}
+### Tabular methods {#ss-descr1-1cont-tab}
 
 A table of frequencies and proportions or percentages is a concise and
 easily understandable summary of the sample distribution of a
@@ -901,7 +901,7 @@ Often this is a question of finding the right balance between too few
 categories (losing too much of the original information) and too many
 categories (making the table harder to read).
 
-### Graphical methods {#ss_descr1_1cont_graphs}
+### Graphical methods {#ss-descr1-1cont-graphs}
 
 #### Histograms {-}
 
@@ -1153,7 +1153,7 @@ bar chart or histogram). That, however, is partly a matter of taste, and
 there is nothing inherently wrong with (clearly and properly presented)
 pie charts.
 
-## Numerical descriptive statistics {#s_descr1_nums}
+## Numerical descriptive statistics {#s-descr1-nums}
 
 \label{p_statistic} The tabular and graphical methods discussed above
 aim to display the whole sample distribution of a variable in an
@@ -1171,7 +1171,7 @@ usually unimportant or clear from the context.
 The two salient features of a distribution for which we will define
 descriptive statistics are its *central tendency* and its *variation*.
 
-### Measures of central tendency {#ss_descr1_nums_central}
+### Measures of central tendency {#ss-descr1-nums-central}
 
 If you were allowed to know only one feature of the sample distribution
 of a variable, chances are you would ask for something like its most
@@ -1375,7 +1375,7 @@ Winnipeg included. It is thus essentially unaffected by the outlier,
 basically because it is only influenced by the fact that 619,554 is
 bigger than the mid-point of the data, but not by how much bigger it is.
 
-### Measures of variation {#ss_descr1_nums_variation}
+### Measures of variation {#ss-descr1-nums-variation}
 
 A measure of central tendency is not a complete summary of a
 distribution, in that there can be distributions which have the same
@@ -1626,7 +1626,7 @@ using frequency tables or graphical methods.
 right).<span
 data-label="fig:f-classbars"></span>](classbars){height="8.3cm"}
 
-## Associations which involve continuous variables {#s_descr1_2cont}
+## Associations which involve continuous variables {#s-descr1-2cont}
 
 Bivariate descriptive methods which are designed for situations where at
 least one of the two variables is continuous are not described here but
@@ -1646,7 +1646,7 @@ associations in this case is to group the explanatory variable into a
 categorical variable and then apply the methods of Section
 \@ref(s-descr1-2cat).
 
-## Presentation of tables and graphs {#s_descr1_presentation}
+## Presentation of tables and graphs {#s-descr1-presentation}
 
 The purpose of statistical tables and graphs is to communicate
 information correctly, clearly and effectively. If they do not do that,
@@ -1810,7 +1810,7 @@ News, and a colourful effort that Tufte has called possibly “the worst
 graphic ever to find its way into print”. Clearly not all pictures tell
 us as much as a thousand words.
 
-## Appendix: Country data {#s_descr1_app}
+## Appendix: Country data {#s-descr1-app}
 
 The data used for illustration throughout this chapter are given in
 Table \@ref(t-countrydata). The variables are defined as follows:

@@ -1,6 +1,6 @@
-# Statistical inference for two-way tables {#c_tables}
+# Statistical inference for two-way tables {#c-tables}
 
-## Introduction {#s_tables_intro}
+## Introduction {#s-tables-intro}
 
 In this section we continue the discussion of methods of analysis for
 two-way contingency tables that was begun in Section
@@ -53,7 +53,7 @@ similar detail. A short summary of the $\chi^{2}$ test considered in
 this chapter is given again at the end of the chapter, in Section
 \@ref(s-tables-summary).
 
-## Significance tests {#s_tables_tests}
+## Significance tests {#s-tables-tests}
 
 A **significance test** is a method of statistical inference that is
 used to assess the plausibility of *hypotheses* about a population. A
@@ -138,9 +138,9 @@ This means that all of the significance tests you will learn on this
 course or elsewhere have the same basic structure, and differ only in
 their details.
 
-## The $\chi^{2}$ test of independence {#s_tables_chi2test}
+## The $\chi^{2}$ test of independence {#s-tables-chi2test}
 
-### Hypotheses {#ss_tables_chi2test_null}
+### Hypotheses {#ss-tables-chi2test-null}
 
 #### The null hypothesis and the alternative hypothesis {-}
 
@@ -255,7 +255,7 @@ between research hypotheses and statistical hypotheses:
     hypothesis is rejected, and possibly falsified when the null
     hypothesis is not rejected.
 
-### Assumptions of a significance test {#ss_tables_chi2test_ass}
+### Assumptions of a significance test {#ss-tables-chi2test-ass}
 
 In the following discussion we will sometimes refer to Figure
 \@ref(f-spsschi2), which shows SPSS output for the $\chi^{2}$ test of
@@ -311,7 +311,7 @@ be considered in deciding which test is appropriate for a given
 analysis. We will introduce a number of different significance tests in
 this coursepack, and give guidelines for choosing between them.
 
-### The test statistic {#ss_tables_chi2test_stat}
+### The test statistic {#ss-tables-chi2test-stat}
 
 A **test statistic** is a number calculated from the sample (i.e. a
 statistic in the sense defined on page \pageref{p_statistic}) which is
@@ -414,7 +414,7 @@ $\chi^{2}=18.81$ (which includes some rounding error, the correct value
 is 18.862). In the SPSS output in Figure \@ref(f-spsschi2), it is given
 in the “Value” column of the “Pearson Chi-Square” row.
 
-### The sampling distribution of the test statistic {#ss_tables_chi2test_sdist}
+### The sampling distribution of the test statistic {#ss-tables-chi2test-sdist}
 
 We now know that the value of the $\chi^{2}$ test statistic in the
 example is 18.86. But what does that mean? Why is the test statistic
@@ -705,7 +705,7 @@ distribution for any table with a given number of rows and columns, as
 long as the sample size is large enough for the conditions on page
 \pageref{p_chi2_fesize} to be satisfied.
 
-### The $P$-value {#ss_tables_chi2test_Pval}
+### The $P$-value {#ss-tables-chi2test-Pval}
 
 The last key building block of significance testing operationalises the
 comparison between the observed value of a test statistic and its
@@ -820,7 +820,7 @@ in the “0.001” column of the table for the $\chi^{2}_{4}$ distribution.
 Thus the corresponding $P$-value must be smaller than 0.001, again
 agreeing with the correct value of $P=0.0008$.
 
-### Drawing conclusions from a test {#ss_tables_chi2test_conclusions}
+### Drawing conclusions from a test {#ss-tables-chi2test-conclusions}
 
 The $P$-value is the end product of any significance test, in that it is
 a complete quantitative summary of the strength of evidence against the
@@ -956,7 +956,7 @@ a two-way table. Instead, we would then go on to describe *how* the two
 variables appear to be associated, using the of descriptive methods
 discussed in Section \@ref(s-descr1-2cat).
 
-## Summary of the $\chi^{2}$ test of independence {#s_tables_summary}
+## Summary of the $\chi^{2}$ test of independence {#s-tables-summary}
 
 We have now described the elements of a significance test in some
 detail. Since it is easy to lose sight of the practical steps of a test

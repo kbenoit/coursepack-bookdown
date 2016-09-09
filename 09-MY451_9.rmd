@@ -1,4 +1,4 @@
-# Analysis of 3-way contingency tables {#c_3waytables}
+# Analysis of 3-way contingency tables {#c-3waytables}
 
 In Section \@ref(s-descr1-2cat) and Chapter \@ref(c-tables) we discussed
 the analysis of two-way contingency tables (crosstabulations) for

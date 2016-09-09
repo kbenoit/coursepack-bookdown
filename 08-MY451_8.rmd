@@ -1,6 +1,6 @@
-# Linear regression models {#c_regression}
+# Linear regression models {#c-regression}
 
-## Introduction {#s_regression_intro}
+## Introduction {#s-regression-intro}
 
 This chapter continues the theme of analysing statistical associations
 between variables. The methods described here are appropriate when the
@@ -71,9 +71,9 @@ countries. The full data set used here includes 165 countries. Many of
 the variables are not available for all of them, so most of the analyses
 below use a smaller number of countries.
 
-## Describing association between two continuous variables {#s_regression_descr}
+## Describing association between two continuous variables {#s-regression-descr}
 
-### Introduction {#ss_regression_descr_intro}
+### Introduction {#ss-regression-descr-intro}
 
 Suppose for now that we are considering data on two continuous
 variables. The descriptive techniques discussed in this section do not
@@ -96,7 +96,7 @@ numerical summary measures for such associations in Section
 \@ref(ss-regression-descr-corr). Statistical *inference* for the
 associations will be considered in Section \@ref(s-regression-simple).
 
-### Graphical methods {#ss_regression_descr_plots}
+### Graphical methods {#ss-regression-descr-plots}
 
 #### Scatterplots {-}
 
@@ -229,7 +229,7 @@ the temperature example are beyond the scope of this course. This,
 however, does not prevent us from using a plot like Figure
 \@ref(f-temperatures) to *describe* such data.
 
-### Linear associations {#ss_regression_descr_assoc}
+### Linear associations {#ss-regression-descr-assoc}
 
 Consider again statistically independent observations of $(X_{i},
 Y_{i})$, such as those displayed in Figure \@ref(f-corruption1). Recall
@@ -429,7 +429,7 @@ description of them until Section \@ref(ss-regression-simple-est). For
 now we can treat the line simply as a visual summary of the linear
 association in a scatterplot.
 
-### Measures of association: covariance and correlation {#ss_regression_descr_corr}
+### Measures of association: covariance and correlation {#ss-regression-descr-corr}
 
 A scatterplot is a very powerful tool for examining sample associations
 of pairs of variables in detail. Sometimes, however, this is more than
@@ -593,9 +593,9 @@ to treat $r$ purely as a descriptive sample statistic. The next section
 provides a different set of tools for inference on population
 associations.
 
-## Simple linear regression models {#s_regression_simple}
+## Simple linear regression models {#s-regression-simple}
 
-### Introduction {#ss_regression_simple_intro}
+### Introduction {#ss-regression-simple-intro}
 
 The rest of this course is devoted to the method of linear regression
 modelling. Its purpose is the analysis of associations in cases where
@@ -677,7 +677,7 @@ data-label="fig:f-imr1"></span>](imr1){width="13.5cm"}
   See page \pageref{p_civilsoc} for further information on the
   variables.<span data-label="tab:t-imrvars"></span>
 
-### Definition of the model {#ss_regression_simple_def}
+### Definition of the model {#ss-regression-simple-def}
 
 The simple linear regression model defined in this section is a
 statistical model for a continuous, interval level response variable $Y$
@@ -774,7 +774,7 @@ $Y$ appears to be reasonably consistent with a linear relationship. Some
 further comments on the assessment of model adequacy will be given in
 Section \@ref(s-regression-rest).
 
-### Interpretation of the model parameters {#ss_regression_simple_int}
+### Interpretation of the model parameters {#ss-regression-simple-int}
 
 The simple linear regression model (\@ref(slinmodel)) has three
 parameters, $\alpha$, $\beta$ and $\sigma^{2}$. Each of these has its
@@ -935,7 +935,7 @@ example the estimate of $\sigma$ is 2.6173 (and that of $\sigma^{2}$ is
 will be a necessary component of some parts of the analysis discussed
 below.
 
-### Estimation of the parameters {#ss_regression_simple_est}
+### Estimation of the parameters {#ss-regression-simple-est}
 
 Since the regression coefficients $\alpha$ and $\beta$ and the residual
 standard deviation $\sigma$ are unknown population parameters, we will
@@ -1103,7 +1103,7 @@ $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
     usual sample standard deviation $s_{y}$ of $Y_{i}$.
 
 #### Coefficient of determination ($R^{2}$)  {-}
-<!--{#p_R2}-->
+<!--{#p-R2}-->
 
 The **coefficient of determination**, more commonly known as
 $\mathbf{R^{2}}$ (“R-squared”), is a measure of association very often
@@ -1223,7 +1223,7 @@ depends”. This not a sign of ignorance, because it really does depend:
     essentially true (in that $X$ is linearly associated with $Y$) but
     has large residual standard error and thus small $R^{2}$.
 
-### Statistical inference for the regression coefficients {#ss_regression_simple_inf}
+### Statistical inference for the regression coefficients {#ss-regression-simple-inf}
 
 The only parameter of the simple linear regression model for which we
 will describe methods of statistical inference is the slope coefficient
@@ -1355,7 +1355,7 @@ that the effect is a decrease of between 2.09 and 1.49 percentage
 points.
 
 \newpage
-## Interlude: Association and causality {#s_regression_causality}
+## Interlude: Association and causality {#s-regression-causality}
 
 > Felix, qui potuit rerum cognoscere causas,\
 > atque metus omnis et inexorabile fatum\
@@ -1498,9 +1498,9 @@ When all the variables are categorical, one simple way of achieving the
 control is analysis of multiway contingency tables, which is described
 in Chapter \@ref(c-3waytables).
 
-## Multiple linear regression models {#s_regression_multiple}
+## Multiple linear regression models {#s-regression-multiple}
 
-### Introduction {#ss_regression_multiple_intro}
+### Introduction {#ss-regression-multiple-intro}
 
 Simple linear regression becomes multiple linear regression when more
 than one explanatory variable is included in the model. How this is done
@@ -1545,7 +1545,7 @@ reports.
   given three explanatory variables in the Global Civil Society
   data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$<span data-label="tab:t-imr-m2"></span>
 
-### Definition of the model {#ss_regression_multiple_def}
+### Definition of the model {#ss-regression-multiple-def}
 
 Having multiple explanatory variables requires a slight extension of
 notation. Let us denote the number of explanatory variables in the model
@@ -1599,7 +1599,7 @@ not usually the only or main criterion for selecting a good regression
 model, for reasons discussed in Section
 \@ref(ss-regression-multiple-beta) below.
 
-### Unchanged elements from simple linear models {#ss_regression_multiple_unchanged}
+### Unchanged elements from simple linear models {#ss-regression-multiple-unchanged}
 
 As mentioned at the beginning of this section, most elements of the
 multiple linear regression model are the same or very similar as for the
@@ -1694,7 +1694,7 @@ simple model, and require little further explanation:
     increased $R^{2}$ by 12.5 percentage points, which seems like a
     reasonably large increase.
 
-### Interpretation and inference for the regression coefficients {#ss_regression_multiple_beta}
+### Interpretation and inference for the regression coefficients {#ss-regression-multiple-beta}
 
 #### Interpretation {-}
 
@@ -1870,9 +1870,9 @@ of freedom are now $df=n-(k+1)$), so no new issues arise. The confidence
 intervals for the coefficients in our example (where $df=n-4=107$ and
 $t_{0.025}^{(107)}=1.98$) are shown in Table \@ref(t-imr-m2).
 
-## Including categorical explanatory variables {#s_regression_dummies}
+## Including categorical explanatory variables {#s-regression-dummies}
 
-### Dummy variables {#ss_regression_dummies_def}
+### Dummy variables {#ss-regression-dummies-def}
 
 Our models for Infant mortality rate so far did not include some more
 basic characteristics of the countries than school enrolment, corruption
@@ -2151,7 +2151,7 @@ Although these connections are unfortunately often somewhat obscured by
 changes in language and notation, trying to understand them is very
 useful for effective learning of statistics.
 
-### A second example {#ss_regression_dummies_example}
+### A second example {#ss-regression-dummies-example}
 
 Because the analysis of the models for infant mortality was presented
 piecemeal to accompany the introduction of different elements of linear
@@ -2364,7 +2364,7 @@ considered by Card and Krueger. The authors propose a number of
 tentative explanations for this finding, but do not present any of them
 as definitive.
 
-## Other issues in linear regression modelling {#s_regression_rest}
+## Other issues in linear regression modelling {#s-regression-rest}
 
 The material in this chapter provides a reasonably self-contained
 introduction to linear regression models. However, it is not possible

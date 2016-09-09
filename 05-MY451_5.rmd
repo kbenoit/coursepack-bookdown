@@ -1,6 +1,6 @@
-# Inference for population proportions {#c_probs}
+# Inference for population proportions {#c-probs}
 
-## Introduction {#s_probs_intro}
+## Introduction {#s-probs-intro}
 
 In this chapter we still consider statistical analyses which involve
 only discrete, categorical variables. In fact, we now focus on the
@@ -46,7 +46,7 @@ also binary) and $Y$ the binary variable whose probabilities we are
 interested in. We will use $Y$ to denote this binary variable also in
 the one-group examples.
 
-## Examples {#s_probs_examples}
+## Examples {#s-probs-examples}
 
 The following four examples will be discussed in this chapter. Examples
 5.1 and 5.2 concern only one group, while in Examples 5.3 and 5.4 two
@@ -185,7 +185,7 @@ higher when the question was worded positively, as we would expect if
 there was acquiescence bias. Whether this difference is statistically
 significant remains to be determined.
 
-## Probability distribution of a dichotomous variable {#s_probs_distribution}
+## Probability distribution of a dichotomous variable {#s-probs-distribution}
 
 The response variables $Y$ considered in this section have only two
 possible values. It is common to code them as 0 and 1. In our examples,
@@ -238,7 +238,7 @@ distributions also have their parameters, whcih are the probabilities of
 will be introduced in Chapter \@ref(c-means), where we consider a
 probability distribution for a continuous variable, and its parameters.
 
-## Point estimation of a population probability {#s_probs_pointest}
+## Point estimation of a population probability {#s-probs-pointest}
 
 Questions and hypotheses about population distributions are usually most
 conveniently formulated in terms of the parameters of the distributions.
@@ -271,7 +271,7 @@ sample mean of $Y$, since $$\bar{Y}=\frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}=
 \frac{m}{n}=\hat{\pi}.
 \label{pihat_as_ybar}$$
 
-## Significance test of a single proportion {#s_probs_test1sample}
+## Significance test of a single proportion {#s-probs-test1sample}
 
 ### Null and alternative hypotheses {#ss-probs-test1sample-hypotheses}
 
@@ -366,7 +366,7 @@ always take the null hypothesis to be technically of the form
 “one-sided” null hypothesis. It is then only the alternative hypothesis
 which is explicitly either two-sided or one-sided.
 
-### The test statistic {#ss_probs_test1sample_teststatistic}
+### The test statistic {#ss-probs-test1sample-teststatistic}
 
 The test statistic used to test hypotheses of the form (\@ref(H0p)) is
 the **z-test statistic** $$z=
@@ -696,7 +696,7 @@ of the latter must be more than 0.05, i.e. it must be that $P>0.05$.
 Similar argument for the 10% critical value of 1.65 shows that $P$ is
 here also larger than 0.1.
 
-### Conclusions from the test {#ss_probs_test1sample_conclusions}
+### Conclusions from the test {#ss-probs-test1sample-conclusions}
 
 The general principles of drawing and stating conclusions from a
 significance test have already been explained in Section
@@ -717,7 +717,7 @@ examples are as follows:
     the jury pool differs from the proportion of blacks in the
     population of the county.
 
-### Summary of the test {#ss_probs_test1sample_summary}
+### Summary of the test {#ss-probs-test1sample-summary}
 
 As a summary, let us again repeat the main steps of the test described
 in this section in a concise form, using the voting variable of Example
@@ -757,9 +757,9 @@ in this section in a concise form, using the voting variable of Example
     Based on this opinion poll, the referendum remains too close
     to call.
 
-## Confidence interval for a single proportion {#s_probs_1sampleci}
+## Confidence interval for a single proportion {#s-probs-1sampleci}
 
-### Introduction {#s_probs_1sampleci_intro}
+### Introduction {#s-probs-1sampleci-intro}
 
 A significance test assesses whether it is plausible, given the evidence
 in the observed data, that a population parameter or parameters have a
@@ -785,7 +785,7 @@ intervals in addition to, or instead of, results of significance tests.
 This is not done often enough in research publications in the social
 sciences.
 
-### Calculation of the interval {#s_probs_1sampleci_calc}
+### Calculation of the interval {#s-probs-1sampleci-calc}
 
 Our aim is again to draw inference on the difference
 $\Delta=\pi-\pi_{0}$ or, equivalently, the population probability $\pi$.
@@ -856,7 +856,7 @@ confidence interval for the probability of a black person being selected
 for the jury pool is (0.040, 0.052). These intervals are also shown in
 Table \@ref(t-probex).
 
-### Interpretation of confidence intervals {#s_probs_1sampleci_int}
+### Interpretation of confidence intervals {#s-probs-1sampleci-int}
 
 As with the $P$-value of a significance test, the precise interpretation
 of a confidence interval refers to probabilities calculated from a
@@ -1049,7 +1049,7 @@ would correspond to proportional representation of blacks in the jury
 pool, a result which suggests quite substantial underrepresentation in
 the pool.
 
-## Inference for comparing two proportions {#s_probs_2samples}
+## Inference for comparing two proportions {#s-probs-2samples}
 
 In Examples 5.3 and 5.4, the aim is to compare the proportion of a
 dichotomous response variable $Y$ between two groups of a dichotomous

@@ -1,6 +1,6 @@
-# Samples and populations {#c_samples}
+# Samples and populations {#c-samples}
 
-## Introduction {#s_samples_intro}
+## Introduction {#s-samples-intro}
 
 So far we have discussed statistical description, which is concerned
 with summarizing features of a sample of observed data. From now on,
@@ -16,7 +16,7 @@ continue in Chapters \@ref(c-tables}–\ref{c-means) where we gradually
 introduce the basic elements of inference in the contexts of different
 types of analyses.
 
-## Finite populations {#s_samples_finpops}
+## Finite populations {#s-samples-finpops}
 
 In many cases the population of interest is a particular group of real
 people or other units. Consider, for example, the European Social Survey
@@ -53,7 +53,7 @@ end up missing a substantial (and non-random) proportion of the
 population. For most purposes a well-executed sample of the kind
 described below is actually preferable to an unsuccessful census.
 
-## Samples from finite populations {#s_samples_samples}
+## Samples from finite populations {#s-samples-samples}
 
 When a census is not possible, information on the population is obtained
 by observing only a subset of units from it, i.e. a sample. This is
@@ -185,7 +185,7 @@ biggest ever public survey”. At the same time, probability samples
 suggested that the British public is actually about evenly split between
 supporters and opponents of GM foods.
 
-## Conceptual and infinite populations {#s_samples_infpops}
+## Conceptual and infinite populations {#s-samples-infpops}
 
 Even a cursory inspection of academic journals in the social sciences
 will reveal that a finite population of the kind discussed above is not
@@ -298,7 +298,7 @@ also implies (although it may not be obvious why) that we can
 essentially always treat samples from such populations as if they were
 obtained using simple random sampling.
 
-## Population distributions {#s_samples_popdistrs}
+## Population distributions {#s-samples-popdistrs}
 
 We will introduce the idea of a population distribution first for finite
 populations, before extending it to infinite ones. The discussion in
@@ -397,7 +397,7 @@ not meaningful. With this device we have thus reached a formulation of a
 population distribution which is flexible enough to cover all the
 situations where we will need it.
 
-## Need for statistical inference {#s_samples_inference}
+## Need for statistical inference {#s-samples-inference}
 
 We have now introduced the first key concepts that are involved in
 statistical inference:

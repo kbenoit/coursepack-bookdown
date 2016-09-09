@@ -1,4 +1,4 @@
-# More statistics... {#c_more}
+# More statistics... {#c-more}
 
 You will no doubt be pleased to learn that the topics covered on this
 course have not quite exhausted the list of available statistical

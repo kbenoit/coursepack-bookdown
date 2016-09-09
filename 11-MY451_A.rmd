@@ -1,6 +1,6 @@
 \backmatter
 
-# Computer classes {#c_class0}
+# Computer classes {#c-class0}
 
 \setcounter{section}{-1}
 
@@ -340,7 +340,7 @@ menus. Two easy ways of doing so are
 
 \newpage
 
-## WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p_class1}
+## WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p-class1}
 
 #### Data set {-}
 
@@ -1509,7 +1509,7 @@ homeworks in the model answers, which will be posted in the Moodle site.
 
 \newpage
 
-#  Statistical tables {#c_disttables}
+#  Statistical tables {#c-disttables}
 
 
 Explanation of the “Table of standard normal tail probabilities” on page
@@ -1531,7 +1531,7 @@ Explanation of the “Table of standard normal tail probabilities” on page
 
 \newpage
 
-## Table of standard normal tail probabilities {#s_disttables_Z}
+## Table of standard normal tail probabilities {#s-disttables-Z}
 
 \small
 
@@ -1637,7 +1637,7 @@ critical values for the standard normal distribution.
 
 \newpage
 
-## Table of critical values for $\chi^{2}$ distributions {#s_disttables_chi2}
+## Table of critical values for $\chi^{2}$ distributions {#s-disttables-chi2}
 
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001

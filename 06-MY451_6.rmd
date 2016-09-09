@@ -1,6 +1,6 @@
-# Continuous variables: Population and sampling distributions {#c_contd}
+# Continuous variables: Population and sampling distributions {#c-contd}
 
-## Introduction {#s_contd_intro}
+## Introduction {#s-contd-intro}
 
 This chapter serves both as an explanation of some topics that were
 skimmed over previously, and as preparation for later chapters. Its
@@ -48,9 +48,9 @@ small town, say). The values summarised in Figure \@ref(f-bp1) then form
 the population distribution of blood pressure in this population. It is
 clear that blood pressure is best treated as a continuous variable.
 
-## Population distributions of continuous variables {#s_contd_popdistrs}
+## Population distributions of continuous variables {#s-contd-popdistrs}
 
-### Population parameters and their point estimates {#ss_contd_popdistrs_params}
+### Population parameters and their point estimates {#ss-contd-popdistrs-params}
 
 If we knew all of its values, we could summarise a finite population
 distribution by, say, a histogram like Figure \@ref(f-bp1). We can also
@@ -141,9 +141,9 @@ estimates and very similar to $s^{2}$ and $s$ unless $n$ is very small.
 In general, there are often several possible sample statistics which
 could be used as estimates for the same population parameter.
 
-## Probability distributions of continuous variables {#s_contd_probdistrs}
+## Probability distributions of continuous variables {#s-contd-probdistrs}
 
-### General comments {#ss_contd_probdistrs_general}
+### General comments {#ss-contd-probdistrs-general}
 
 Thinking about population distributions of continuous distributions
 using, say, histograms as in Figure \@ref(f-bp1) would present
@@ -230,7 +230,7 @@ the *Binomial* distribution discussed in Chapter \@ref(c-probs), or the
 *Multinomial* and *Poisson* distributions. On this course, however, we
 will not include further discussion of these various possibilities.
 
-### The normal distribution as a population distribution {#ss_contd_probdistrs_normal}
+### The normal distribution as a population distribution {#ss-contd-probdistrs-normal}
 
 The particular probability distribution that is included in Figure
 \@ref(f-bp2) is a **normal distribution**, also known as the *Gaussian*
@@ -470,7 +470,7 @@ pressures over 90 as 8.5%. Even with a sample of only 50 observations,
 the estimate is reasonably close to the true population proportion of
 about 8.1%.
 
-## The normal distribution as a sampling distribution {#s_contd_clt}
+## The normal distribution as a sampling distribution {#s-contd-clt}
 
 We have already encountered the normal distribution in Section
 \@ref(ss-probs-test1sample-samplingd), in the role of the *sampling
