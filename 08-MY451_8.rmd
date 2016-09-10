@@ -456,7 +456,7 @@ it by the standard deviations, to obtain the statistic
 \label{eq:corr}\end{equation} This is the (sample) **correlation** coefficient, or
 correlation for short, between $X$ and $Y$. It is also often (e.g. in
 SPSS) known as *Pearson’s* correlation coefficient after Karl Pearson
-(of the $\chi^{2}$ test, see footnote 1 in Chapter \@ref(c-tables)), although both
+(of the $\chi^{2}$ test, see first footnote in Chapter \@ref(c-tables)), although both
 the word and the statistic are really due to Sir Francis Galton[^7].
 
 The properties of the correlation coefficient can be described by going

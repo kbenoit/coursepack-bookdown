@@ -1,6 +1,8 @@
 \backmatter
 
-# Computer classes {#c-class0}
+# Appendix 
+
+## Computer classes {#c-class0}
 
 \setcounter{section}{-1}
 
@@ -8,7 +10,7 @@ Some general instructions on computing and the SPSS package are given
 first below. It makes most sense to read these together with the
 instructions for individual computer classes, which begin in Section \@ref(p-class1).
 
-## General instructions
+### General instructions
 
 #### Using the networked computers at LSE {-}
 
@@ -40,7 +42,7 @@ computer once you have logged on). You can download all the data files
 for the course, as well as other course-related material, from the
 web-based **Moodle** system. See instructions in Chapter \@ref(c-course-information) for how to register for MY451 on Moodle.
 
-## Introduction to SPSS {#s-intro-SPSS}
+### Introduction to SPSS {#s-intro-SPSS}
 
 #### General information and documentation {-}
 
@@ -338,7 +340,7 @@ menus. Two easy ways of doing so are
 
 \newpage
 
-## WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p-class1}
+### WEEK 2 class: Descriptive statistics for categorical data, and entering data {#p-class1}
 
 #### Data set {-}
 
@@ -608,7 +610,7 @@ the level of measurement of some different variables.
 
 \clearpage
 
-## WEEK 3 class:\
+### WEEK 3 class:\
 Descriptive statistics for continuous variables
 
 **Data set:** The data file used today is
@@ -727,7 +729,7 @@ presentation.
 
 \newpage
 
-## WEEK 4 class: Two-way contingency tables
+### WEEK 4 class: Two-way contingency tables
 
 **Data set**: The data file used today is **GSS2010.sav**. It contains a
 selection of variables on attitudes and demographic characteristics for
@@ -835,7 +837,7 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
 
 \newpage
 
-## WEEK 5 class: Inference for two population means
+### WEEK 5 class: Inference for two population means
 
 **Data set**: The data file used today is **ESS5\_GBFR.sav**. It
 contains data for a selection of variables from the 2010 European Social
@@ -936,7 +938,7 @@ France[^5].
 
 \newpage
 
-## WEEK 7 class: Inference for population proportions
+### WEEK 7 class: Inference for population proportions
 
 **Data sets**: Files **BES2010post\_lastdebate.sav** and
 **BES2010pre\_lastdebate.sav**.
@@ -1105,7 +1107,7 @@ actually did. Answer the following questions:
 
 \newpage
 
-## WEEK 7 class: Correlation and simple linear regression 1
+### WEEK 7 class: Correlation and simple linear regression 1
 
 **Data set**: Files **decathlon2012.sav**.
 
@@ -1212,7 +1214,7 @@ final points total for each competitor.
 
 \newpage
 
-## WEEK 8 class: Simple linear regression and 3-way tables
+### WEEK 8 class: Simple linear regression and 3-way tables
 
 **Data set**: File **GSS2010.SAV**. This contains a selection of
 variables on attitudes and demographic characteristics for 2044
@@ -1325,7 +1327,7 @@ are these:
 
 \newpage
 
-## WEEK 9 class: Multiple linear regression
+### WEEK 9 class: Multiple linear regression
 
 **Data set**: File **humandevelopment2011.sav**.
 
@@ -1448,7 +1450,7 @@ explanatory variables for it:
 
 \newpage
 
-## WEEK 10 class: Review and Multiple linear regression
+### WEEK 10 class: Review and Multiple linear regression
 
 **Data set**: File **ESS5GB\_trust.sav**.
 
@@ -1504,7 +1506,7 @@ homeworks in the model answers, which will be posted in the Moodle site.
 
 \newpage
 
-#  Statistical tables {#c-disttables}
+##  Statistical tables {#c-disttables}
 
 
 Explanation of the “Table of standard normal tail probabilities” in Section
@@ -1526,7 +1528,7 @@ Explanation of the “Table of standard normal tail probabilities” in Section
 
 \newpage
 
-## Table of standard normal tail probabilities {#s-disttables-Z}
+### Table of standard normal tail probabilities {#s-disttables-Z}
 
 \small
 
@@ -1585,7 +1587,7 @@ Explanation of the “Table of standard normal tail probabilities” in Section
 
 \newpage
 
-## Table of critical values for $t$-distributions {#s-disttables-t}
+### Table of critical values for $t$-distributions {#s-disttables-t}
 
   ---------------- --------------------------------------------------- ------- -------- -------- -------- --------- ---------
   df                                                             0.100   0.050    0.025    0.010    0.005     0.001    0.0005
@@ -1632,7 +1634,7 @@ critical values for the standard normal distribution.
 
 \newpage
 
-## Table of critical values for $\chi^{2}$ distributions {#s-disttables-chi2}
+### Table of critical values for $\chi^{2}$ distributions {#s-disttables-chi2}
 
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001
