@@ -267,8 +267,8 @@ the current revision.
 
 #### Course Programme {-}
 
-  --------------------------------- -------------------------------------------------------------------------------------------------------------------------------
-  **Week 1**
+  --------------------------------- ----------------------------------------------------------------------------------------------------------------------------------
+  **Week 1**                        \
     Lecture                         Course overview and organisation. Introduction to basic concepts
     Class                           **No class**
     Coursepack                      Chapter \@ref(c-intro)
@@ -308,6 +308,7 @@ the current revision.
     Class                           Simple linear regression
     Coursepack                      Section \@ref(ss-regression-simple-inf) (Hour 1); Section \@ref(s-regression-causality) and Chapter \@ref(c-3waytables) (Hour 2)
 
+
   **Week 10**
     Lecture & Class                 Multiple linear regression
     Coursepack                      Sections \@ref(s-regression-multiple)–\@ref(s-regression-rest)
@@ -316,7 +317,7 @@ the current revision.
     Lecture                         Review and further statistical methods
     Class                           Discussion and additional exercise on multiple linear regression
     Coursepack                      Chapter \@ref(c-more)
-  --------------------------------- -------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------- ----------------------------------------------------------------------------------------------------------------------------------
 
 \newpage
 

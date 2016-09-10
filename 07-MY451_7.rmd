@@ -614,7 +614,7 @@ is given in the column labelled “Sig. (2-tailed)”, where “Sig.” is shor
 for “significance” and “2-tailed” is a synonym for “2-sided”.
 
 The $P$-value can also be calculated approximately using the table of
-the standard normal distribution (see Table \@ref(tab:tab:t-ttable), as explained in Section
+the standard normal distribution (see Table \@ref(tab:t-ttable), as explained in Section
 \@ref(ss-probs-test1sample-samplingd). Here the test statistic $t=3.29$,
 which is larger than the critical values 1.65, 1.96 and 2.58 for the
 0.10, 0.05 and 0.01 significance levels for a two-sided test, so we can

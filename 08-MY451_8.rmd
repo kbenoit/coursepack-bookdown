@@ -423,7 +423,7 @@ maintain continuity of notation between different parts of this chapter.
 The correlation coefficient itself, however, is completely symmetric, so
 that its value for a pair of variables will be the same whether or not
 we treat one or the other of them as explanatory for the other. First,
-recall from equation (\@ref(sd)) that the sample standard deviations of
+recall from equation (\@ref(eq:sd)) that the sample standard deviations of
 the two variables are calculated as
 \begin{equation}s_{x} = \sqrt{\frac{\sum(X_{i}-\bar{X})^{2}}{n-1}}
 \text{and}
@@ -750,7 +750,7 @@ Section \@ref(s-regression-rest).
 
 ### Interpretation of the model parameters {#ss-regression-simple-int}
 
-The simple linear regression model (\@ref(slinmodel)) has three
+The simple linear regression model (\@ref(eq:slinmodel)) has three
 parameters, $\alpha$, $\beta$ and $\sigma^{2}$. Each of these has its
 own interpretation, which are explained in this section. Sometimes it
 will be useful to illustrate the definition with specific numerical
@@ -1030,8 +1030,8 @@ residual standard deviation $\sigma$, is \begin{equation}\hat{\sigma}=
 }
 \label{eq:sigma-linreg}\end{equation} where $k$ is here set equal to 1. This bears an
 obvious resemblance to the formula for the basic sample standard
-deviation, shown for $Y_{i}$ in (\@ref(sdyx)). One difference to that
-formula is that the denominator of (\@ref(sigma-linreg)) is shown as
+deviation, shown for $Y_{i}$ in (\@ref(eq:sdyx)). One difference to that
+formula is that the denominator of (\@ref(eq:sigma-linreg)) is shown as
 $n-(k+1)$ rather than $n-1$. Here $k=1$ is the number of explanatory
 variables in the model, and $k+1=2$ is the number of regression
 coefficients ($\alpha$ and $\beta$) including the constant term
@@ -1047,8 +1047,8 @@ $df=111-2=109$, as shown in Figure \@ref(fig:f-spss-linreg).
 Finally, two connections between previous topics and the parameters
 $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
 
--   The estimated slope $\hat{\beta}$ from (\@ref(ols-b)) is related to
-    the sample correlation $r$ from (\@ref(corr)) by
+-   The estimated slope $\hat{\beta}$ from (\@ref(eq:ols-b)) is related to
+    the sample correlation $r$ from (\@ref(eq:corr)) by
     $r=(s_{x}/s_{y})\,\hat{\beta}$. In both of these it is $\hat{\beta}$
     which carries information about the association between $X$ and $Y$.
     The ratio $s_{x}/s_{y}$ serves only to standardise the correlation
@@ -1059,7 +1059,7 @@ $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
     \@ref(ss-regression-simple-int).
 
 -   Suppose we simplify the simple linear regression model
-    (\@ref(slinmodel)) further by setting $\beta=0$, thus removing
+    (\@ref(eq:slinmodel)) further by setting $\beta=0$, thus removing
     $\beta X$ from the model. The new model states that all $Y_{i}$ are
     normally distributed with the same mean $\alpha$ and standard
     deviation $\sigma$. Apart from the purely notational difference of
@@ -1068,10 +1068,10 @@ $\hat{\alpha}$, $\hat{\beta}$ and $\hat{\sigma}$ are worth highlighting:
     of this section to obtain estimates of the two parameters of this
     model also leads to exactly the same results as before. The least
     squares estimate of $\alpha$ is then $\hat{\alpha}=\bar{Y}$,
-    obtained by setting $\hat{\beta}=0$ in (\@ref(ols-a)). Since there is
+    obtained by setting $\hat{\beta}=0$ in (\@ref(eq:ols-a)). Since there is
     no $\hat{\beta}$ in this case, $\hat{Y}_{i}=\bar{Y}$ for all
     observations, $k=0$ and $df=n-(k+1)=n-1$. Substituting these into
-    (\@ref(sigma-linreg)) shows that $\hat{\sigma}$ is then equal to the
+    (\@ref(eq:sigma-linreg)) shows that $\hat{\sigma}$ is then equal to the
     usual sample standard deviation $s_{y}$ of $Y_{i}$.
 
 #### Coefficient of determination ($R^{2}$)  {-}
@@ -1132,7 +1132,7 @@ indicating strong linear association between $X$ and $Y$.
 $R^{2}$ is clearly a Proportional Reduction of Error (PRE) measure of
 association of the kind discussed in Section \@ref(ss-descr1-2cat-gamma),
 with $E_{1}=TSS$ and $E_{2}=SSE$ in the notation of equation
-(\@ref(PRE)). It is also related to the correlation coefficient. In
+(\@ref(eq:PRE)). It is also related to the correlation coefficient. In
 simple linear regression, $R^{2}$ is the square of the correlation $r$
 between $X_{i}$ and $Y_{i}$. Furthermore, the square root of $R^{2}$ is
 the correlation between $Y_{i}$ and the fitted values $\hat{Y}_{i}$.
@@ -1209,7 +1209,7 @@ association between the explanatory variable $X$ and the response
 variable $Y$. Graphically, this corresponds to a regression line in the
 population which is parallel to the $X$-axis (see plot (d) of Figure
 \@ref(fig:f-scatterplots) for an illustration of such a line in a sample).
-The hypothesis (\@ref(H0betasimple)) can thus be expressed in words as
+The hypothesis (\@ref(eq:H0betasimple)) can thus be expressed in words as
 \begin{equation}H_{0}:\; \text{*There is no
 linear association
 between* X \text{*and* }Y\text{ *in the population*}}.
@@ -1217,10 +1217,10 @@ between* X \text{*and* }Y\text{ *in the population*}}.
 two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will
 also concentrate on this case.
 
-Formulation (\@ref(H0betasimple2)) implies that the hypothesis that
+Formulation (\@ref(eq:H0betasimple2)) implies that the hypothesis that
 $\beta=0$ is equivalent to one that the population correlation $\rho$
 between $X$ and $Y$ is also 0. The test statistic presented below for
-testing (\@ref(H0betasimple)) is also identical to a common test
+testing (\@ref(eq:H0betasimple)) is also identical to a common test
 statistic for $\rho=0$. A test of $\beta=0$ can thus be interpreted also
 as a test of no correlation in the population.
 
@@ -1231,10 +1231,10 @@ denote $\hat{\text{se}}(\hat{\beta})$.[^12] It is calculated as
 \frac{\hat{\sigma}}{\sqrt{\sum\left(X_{i}-\bar{X}\right)^{2}}}
 =\frac{\hat{\sigma}}{s_{x}\sqrt{n-1}}
 \label{eq:sebeta}\end{equation} where $\hat{\sigma}$ is the estimated residual standard
-deviation given by (\@ref(sigma-linreg)), and $s_{x}$ is the sample
+deviation given by (\@ref(eq:sigma-linreg)), and $s_{x}$ is the sample
 standard deviation of $X$. The standard error indicates the level of
 precision with which $\hat{\beta}$ estimates the population parameter
-$\beta$. The last expression in (\@ref(sebeta)) shows that the sample
+$\beta$. The last expression in (\@ref(eq:sebeta)) shows that the sample
 size $n$ appears in the denominator of the standard error formula. This
 means that the standard error becomes smaller as the sample size
 increases. In other words, the precision of estimation increases when
@@ -1245,13 +1245,13 @@ table. Figure \@ref(fig:f-spss-linreg) shows that
 $\hat{\text{se}}(\hat{\beta})=0.015$ for the estimated coefficient
 $\hat{\beta}$ of School enrolment.
 
-The test statistic for the null hypothesis (\@ref(H0betasimple)) is once
-again of the general form (\@ref(ttest-gen)), i.e. a point estimate
+The test statistic for the null hypothesis (\@ref(eq:H0betasimple)) is once
+again of the general form (\@ref(eq:ttest-gen)), i.e. a point estimate
 divided by its standard error. Here this gives
 \begin{equation}t=\frac{\hat{\beta}}{\hat{\text{se}}(\hat{\beta})}.
 \label{eq:tbeta}\end{equation} The logic of this is the same as in previous
 applications of the same idea. Since the null hypothesis
-(\@ref(H0betasimple)) claims that the population $\beta$ is zero, values
+(\@ref(eq:H0betasimple)) claims that the population $\beta$ is zero, values
 of its estimate $\hat{\beta}$ far from zero will be treated as evidence
 against the null hypothesis. What counts as “far from zero” depends on
 how precisely $\beta$ is estimated from the observed data by
@@ -1259,8 +1259,8 @@ $\hat{\beta}$ (i.e. how much uncertainty there is in $\hat{\beta}$), so
 $\hat{\beta}$ is standardised by dividing by its standard error to
 obtain the test statistic.
 
-When the null hypothesis (\@ref(H0betasimple)) is true, the sampling
-distribution of the test statistic (\@ref(tbeta)) is a $t$ distribution
+When the null hypothesis (\@ref(eq:H0betasimple)) is true, the sampling
+distribution of the test statistic (\@ref(eq:tbeta)) is a $t$ distribution
 with $n-2$ degrees of freedom (i.e. $n-(k+1)$ where $k=1$ is the number
 of explanatory variables in the model). The $P$-value for the test
 against a two-sided alternative hypothesis $\beta\ne 0$ is then the
@@ -1540,14 +1540,14 @@ explanatory variables through
 \label{eq:mu-multiple}\end{equation} where the coefficients
 $\beta_{1}, \beta_{2}, \dots, \beta_{k}$ of individual explanatory
 variables are now also identified with subscripts. As in
-(\@ref(slinmodel)) for the simple linear model, the multiple model can
+(\@ref(eq:slinmodel)) for the simple linear model, the multiple model can
 also be expressed in the concise form \begin{equation}Y_{i} = \alpha
 +\beta_{1}X_{1i}+\beta_{2}X_{2i}+\dots+\beta_{k}X_{ki}+\epsilon_{i}
 \label{eq:mlinmodel}\end{equation} where the error term (population residual)
 $\epsilon_{i}$ is normally distributed with mean 0 and variance
 $\sigma^{2}$.
 
-The expected value of $Y$ as defined in (\@ref(mu-multiple)) is a linear
+The expected value of $Y$ as defined in (\@ref(eq:mu-multiple)) is a linear
 function of $X_{1}, X_{2}, \dots, X_{k}$. If there are two explanatory
 variables ($k=2$), $\mu$ is described by a flat *plane* as $X_{1}$ and
 $X_{2}$ take different values (think of a flat sheet of paper, at an
@@ -1580,7 +1580,7 @@ simple model, and require little further explanation:
 -   The **constant term** (intercept) $\alpha$ is interpreted as the
     expected value of $Y$ when all of the explanatory variables have the
     value 0. This can be seen by setting $X_{1i}, X_{2i}, \dots, X_{ki}$
-    all to 0 in (\@ref(mu-multiple)). As before, $\alpha$ is rarely of
+    all to 0 in (\@ref(eq:mu-multiple)). As before, $\alpha$ is rarely of
     any substantive interest. In the example in Table \@ref(tab:t-imr-m2),
     the estimated value of $\alpha$ is 16.40.
 
@@ -1624,7 +1624,7 @@ simple model, and require little further explanation:
     for multiple linear regression is essentially unchanged from the
     format shown in Figure \@ref(fig:f-spss-linreg).
 
--   Predicted values for $Y$ can be calculated from (\@ref(Yhat)) for any
+-   Predicted values for $Y$ can be calculated from (\@ref(eq:Yhat)) for any
     set of values of the explanatory variables (whether those observed
     in the data or not, as long as extrapolation outside their observed
     ranges is avoided). This is often very useful for illustrating the
@@ -1644,13 +1644,13 @@ simple model, and require little further explanation:
     explanatory variables.
 
 -   The estimated residual standard error $\hat{\sigma}$ is again
-    calculated from (\@ref(sigma-linreg)), using the appropriate value of
+    calculated from (\@ref(eq:sigma-linreg)), using the appropriate value of
     $k$. Here $n=111$ and $k=3$, and so the degrees of freedom are
     $df=n-(k+1)=n-4=107$. The estimate is $\hat{\sigma}=2.23$.
 
 -   The explanation of the coefficient of determination $R^{2}$ is
     entirely unchanged from the one given under "Coefficient of determination ($R^{2}$)" in Section \@ref(ss-regression-simple-est). It is
-    still calculated with the formula (\@ref(R2)), and its interpretation
+    still calculated with the formula (\@ref(eq:R2)), and its interpretation
     is also the same. The $R^{2}$ statistic thus describes the
     proportion of the sample variation in $Y$ explained by the
     regression model, i.e. by the variation in the
@@ -1697,7 +1697,7 @@ $X_{1}$ and $X_{2}$ as before, but the value of $X_{3}$ larger by one
 unit, i.e. $X_{3}+1$. The expected value of $Y$ is now
 \begin{equation}\mu=\alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}(X_{3}+1)=
 \alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}X_{3}+\beta_{3}.
-\label{eq:mu2}\end{equation} Subtracting (\@ref(mu1}) from (\ref{mu2)) leaves us with
+\label{eq:mu2}\end{equation} Subtracting (\@ref(eq:mu1}) from (\ref{eq:mu2)) leaves us with
 $\beta_{3}$. In other words, $\beta_{3}$ is the change in expected value
 of $Y$ when $X_{3}$ is increased by one unit, while keeping the values
 of $X_{1}$ and $X_{2}$ unchanged. The same result would obviously be
@@ -1778,10 +1778,10 @@ are routinely produced by computer packages and displayed as in Table
 \@ref(tab:t-imr-m2). A $t$-test statistic for the null hypothesis discussed
 below is given by
 \begin{equation}t=\frac{\hat{\beta}_{j}}{\hat{\text{se}}(\hat{\beta}_{j})}.
-\label{eq:tbeta-m}\end{equation} This is identical in form to statistic (\@ref(tbeta))
+\label{eq:tbeta-m}\end{equation} This is identical in form to statistic (\@ref(eq:tbeta))
 for the simple regression model. The corresponding null hypotheses are,
 however, subtly but crucially different in the two cases. In a multiple
-model, (\@ref(tbeta-m)) is a test statistic for the null hypothesis
+model, (\@ref(eq:tbeta-m)) is a test statistic for the null hypothesis
 \begin{equation}H_{0}:\; \beta_{j}=0, \text{other regression coefficients
 are unrestricted}
 \label{eq:H0beta-m}\end{equation} against the alternative hypothesis
@@ -1791,15 +1791,15 @@ parameters implies that neither hypothesis makes any claims about the
 values of other coefficients than $\beta_{j}$, and these are allowed to
 have any values. The null hypothesis is a claim about the association
 between $X_{j}$ and $Y$ when the other explanatory variables are already
-included in the model. In other words, (\@ref(tbeta-m)) tests
+included in the model. In other words, (\@ref(eq:tbeta-m)) tests
 $$\begin{aligned}
 H_{0}:& & \text{There is no partial association between }
 X_{j} \text{ and } Y,\\
 &&  \text{controlling for the other explanatory
 variables.}\end{aligned}$$
 
-The sampling distribution of (\@ref(tbeta-m)) when the null hypothesis
-(\@ref(H0beta-m)) holds is a $t$ distribution with $n-(k+1)$ degrees of
+The sampling distribution of (\@ref(eq:tbeta-m)) when the null hypothesis
+(\@ref(eq:H0beta-m)) holds is a $t$ distribution with $n-(k+1)$ degrees of
 freedom, where $k$ is again the number of explanatory variables in the
 model. The test statistic and its $P$-value from the $t_{n-(k+1)}$
 distribution are shown in standard computer output, in a form similar to
@@ -1807,7 +1807,7 @@ Table \@ref(tab:t-imr-m2).
 
 It is important to note two things about test results for multiple
 regression models, such as those in Table \@ref(tab:t-imr-m2). First,
-(\@ref(H0beta-m)) implies that if the null hypothesis is not rejected,
+(\@ref(eq:H0beta-m)) implies that if the null hypothesis is not rejected,
 $X_{j}$ is not associated with $Y$, *if* the other explanatory variables
 are already included in the model. We would typically react to this by
 removing $X_{j}$ from the model, while keeping the other variables in
@@ -1815,7 +1815,7 @@ it. This is because of a general principle that models should usually be
 as simple (*parsimonious*) as possible, and not include variables which
 have no partial effect on the response variable. Second, the $k$ tests
 and $P$-values actually refer to $k$ *different* hypotheses of the form
-(\@ref(H0beta-m)), one for each explanatory variable. This raises the
+(\@ref(eq:H0beta-m)), one for each explanatory variable. This raises the
 question of what to do if, say, tests for two variables have large
 $P$-values, suggesting that either of them could be removed from the
 model. The appropriate reaction is to remove one of the variables
@@ -1837,7 +1837,7 @@ $\beta_{j}$ is given by
 \begin{equation}\hat{\beta}_{j} \pm t_{\alpha/2}^{(n-(k+1))} \,
 \hat{\text{se}}(\hat{\beta}_{j}).
 \label{eq:cibeta-m}\end{equation} This is identical in form and interpretation to the
-interval (\@ref(cibeta)) for simple regression (except that the degrees
+interval (\@ref(eq:cibeta)) for simple regression (except that the degrees
 of freedom are now $df=n-(k+1)$), so no new issues arise. The confidence
 intervals for the coefficients in our example (where $df=n-4=107$ and
 $t_{0.025}^{(107)}=1.98$) are shown in Table \@ref(tab:t-imr-m2).
@@ -2105,11 +2105,11 @@ intervals (under the assumption of equal variances in the groups) in
 Section \@ref(s-means-inference). Related to the notation of that
 section, the coefficients from the model are $\hat{\alpha}=\bar{Y}_{1}$,
 $\hat{\beta}=\bar{Y}_{2}-\bar{Y}_{1}$, and $\hat{\sigma}$ from
-(\@ref(sigma-linreg)) is equal to (\@ref(sehatjoint)). Similarly, the
-standard error (\@ref(sebeta)) is the same as
-$\hat{\sigma}_{\hat{\Delta}}$ in (\@ref(seD2)), and the test statistic
-(\@ref(tbeta)) and confidence interval (\@ref(cibeta)) are identical with
-(\@ref(ztestmuDb)) and the $t$ distribution version of (\@ref(ciDmu2))
+(\@ref(eq:sigma-linreg)) is equal to (\@ref(eq:sehatjoint)). Similarly, the
+standard error (\@ref(eq:sebeta)) is the same as
+$\hat{\sigma}_{\hat{\Delta}}$ in (\@ref(eq:seD2)), and the test statistic
+(\@ref(eq:tbeta)) and confidence interval (\@ref(eq:cibeta)) are identical with
+(\@ref(eq:ztestmuDb)) and the $t$ distribution version of (\@ref(eq:ciDmu2))
 respectively.
 
 The connection between linear regression and the two-sample $t$-test is

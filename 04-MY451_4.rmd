@@ -162,13 +162,13 @@ population}.
 person’s sex and his or her attitude toward income redistribution are
 independent in the population of adults in the UK.
 
-The null hypothesis (\@ref(H0-chi2)) and the $\chi^{2}$ test itself are
+The null hypothesis (\@ref(eq:H0-chi2)) and the $\chi^{2}$ test itself are
 symmetric in that there is no need to designate one of the variables as
 explanatory and the other as the response variable. The hypothesis can,
 however, also be expressed in a form which does make use of this
 distinction. This links it more clearly with the definition of
 associations in terms of conditional distributions. In this form, the
-null hypothesis (\@ref(H0-chi2)) can also be stated as the claim that the
+null hypothesis (\@ref(eq:H0-chi2)) can also be stated as the claim that the
 conditional distributions of the response variable are the same at all
 levels of the explanatory variable, i.e. in our example as
 $$H_{0}: \;\text{The conditional distribution of attitude is the same for
@@ -185,7 +185,7 @@ As well as the null hypothesis, a significance test usually involves an
 the opposite of the null hypothesis, which indicates the kinds of
 observations that will be taken as evidence against $H_{0}$. For the
 $\chi^{2}$ test of independence this is simply the logical opposite of
-(\@ref(H0-chi2)),
+(\@ref(eq:H0-chi2)),
 i.e. \begin{equation}H_{a}: \;\text{The variables are not statistically independent in the
 population}.
 \label{eq:Ha-chi2}\end{equation} In terms of conditional distributions, $H_{a}$ is that
@@ -414,7 +414,7 @@ in the “Value” column of the “Pearson Chi-Square” row.
 
 We now know that the value of the $\chi^{2}$ test statistic in the
 example is 18.86. But what does that mean? Why is the test statistic
-defined as (\@ref(chi2)) and not in some other form? And what does the
+defined as (\@ref(eq:chi2)) and not in some other form? And what does the
 number mean? Is 18.86 small or large, weak or strong evidence against
 the null hypothesis that sex and attitude are independent in the
 population?
@@ -429,7 +429,7 @@ requirements:
 2.  The sampling distribution of the test statistic should be known and
     of convenient form when the null hypothesis is true.
 
-Taking the first requirement first, consider the form of (\@ref(chi2)).
+Taking the first requirement first, consider the form of (\@ref(eq:chi2)).
 The important part of this are the squared differences
 $(f_{o}-f_{e})^{2}$ for each cell of the table. Here the expected
 frequencies $f_{e}$ reveal what the table would look like if the sample
@@ -462,7 +462,7 @@ statistics in general and the $\chi^{2}$ test in particular.
 
 #### Sampling distribution of statistic: General definition {-}
 
-The $\chi^{2}$ test statistic (\@ref(chi2)) is a *statistic* as defined
+The $\chi^{2}$ test statistic (\@ref(eq:chi2)) is a *statistic* as defined
 defined at the beginning of Section \@ref(s-descr1-nums), that is a number calculated from
 data in a sample. Once we have observed a sample, the value of a
 statistic in that sample is known, such as the 18.862 for $\chi^{2}$ in
@@ -537,8 +537,8 @@ for carrying out a significance test.
 #### Sampling distribution of the $\chi^{2}$ test statistic under independence {-}
 
 For the $\chi^{2}$ test, we need the sampling distribution of the test
-statistic (\@ref(chi2)) under the independence null hypothesis
-(\@ref(H0-chi2)). To make these ideas a little more concrete, the upper
+statistic (\@ref(eq:chi2)) under the independence null hypothesis
+(\@ref(eq:H0-chi2)). To make these ideas a little more concrete, the upper
 part of Table \@ref(tab:t-sex-attitude-H0pop) shows the crosstabulation of
 sex and attitude in our example for a finite population where the null
 hypothesis holds. We can see that it does because the two conditional
@@ -643,7 +643,7 @@ the right, and the shape of a particular curve depends on its degrees of
 feedom. All of the curves give non-zero probabilites only for positive
 values of the variable on the horizontal axis, indicating that the value
 of a $\chi^{2}$-distributed variable can never be negative. This is
-appropriate for the $\chi^{2}$ test statistic (\@ref(chi2)), which is
+appropriate for the $\chi^{2}$ test statistic (\@ref(eq:chi2)), which is
 also always non-negative.
 
 ![(\#fig:f-chi2dists) Probability curves of some $\chi^{2}$ distributions with different
@@ -653,7 +653,7 @@ For the $\chi^{2}$ test statistic of independence we have the following
 result:
 
 -   When the null hypothesis (\@ref(H0-chi2)) is true in the population,
-    the sampling distribution of the test statistic (\@ref(chi2))
+    the sampling distribution of the test statistic (\@ref(eq:chi2))
     calculated for a two-way table with $R$ rows and $C$ columns is
     approximately the $\chi^{2}$ distribution with $df=(R-1)(C-1)$
     degrees of freedom.

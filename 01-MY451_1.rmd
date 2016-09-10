@@ -251,7 +251,7 @@ matrix correspond to the first two important terms: the rows to the
     Whatever the term, it is usually clear from the context what the
     subjects are in a particular analysis.
 
-    The subjects in the data of Table \@ref(tab:tab:t-datamatrix) are uniquely
+    The subjects in the data of Table \@ref(tab:t-datamatrix) are uniquely
     identified only by a number (labelled “Id”) assigned by the
     researcher, as in a survey like this their names would not typically
     be recorded. In situations where the identities of individual

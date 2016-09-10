@@ -65,13 +65,13 @@ deviation** \begin{equation}\sigma = \sqrt{\frac{\sum (Y_{i}-\mu)^{2}}{N}}.
 It is common to use Greek letters for population parameters, as we did
 also for the probability parameter $\pi$ in Chapter \@ref(c-probs).
 
-In (\@ref(mu})–(\ref{sigma)), $N$ is the number of units in a finite
+In (\@ref(eq:mu})–(\ref{eq:sigma)), $N$ is the number of units in a finite
 population and the sums indicated by $\Sigma$ are over all of these $N$
 units. If we treat the data in Figure \@ref(fig:f-bp1) as a population,
 $N=4489$ and these population parameters are $\mu=74.2$,
 $\sigma^{2}=127.87$ and $\sigma=11.3$.
 
-Because the formulas (\@ref(mu})–(\ref{sigma)) involve the population
+Because the formulas (\@ref(eq:mu})–(\ref{eq:sigma)) involve the population
 size $N$, they apply in this exact form only to finite populations like
 the one in this example (and as discussed more generally in Section
 \@ref(s-samples-finpops)) but not to infinite ones of the kind discussed
@@ -84,7 +84,7 @@ parameters turn out to be intuitively similar for both the finite and
 infinite-population cases, and the same methods of analysis apply to
 both, so we can here ignore the distinction without further comment.
 
-The population formulas (\@ref(mu})–(\ref{sigma)) clearly resemble those
+The population formulas (\@ref(eq:mu})–(\ref{eq:sigma)) clearly resemble those
 of some sample statistics introduced in Chapter \@ref(c-descr1),
 specifically the *sample* mean, variance and standard deviation
 \begin{aligned}
@@ -107,8 +107,8 @@ For further illustration of the connection between population and sample
 quantities, we have also drawn a simple random sample of $n=50$
 observations from the finite population of $N=4489$ observations in
 Figure \@ref(fig:f-bp1). Table \@ref(tab:t-bp-example) shows the summary
-statistics (\@ref(Ybar-ch6))–(\@ref(s-ch6)) in this sample and the
-corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
+statistics (\@ref(eq:Ybar-ch6))–(\@ref(s-ch6)) in this sample and the
+corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
 
   ------------ ---------- ---------------- --------------- ---------------------
                                                   Standard
@@ -124,7 +124,7 @@ corresponding parameters (\@ref(mu))–(\@ref(sigma)) in the population.
 You may have noticed that the formulas of the sample variance
 (\@ref(s2-ch6)) and sample standard deviation (\@ref(s-ch6)) involve the
 divisor $n-1$ rather than the $n$ which might seem more natural, while
-the population formulas (\@ref(sigma2}) and (\ref{sigma)) do use $N$
+the population formulas (\@ref(eq:sigma2}) and (\ref{eq:sigma)) do use $N$
 rather than $N-1$. The reason for this is that using $n-1$ gives the
 estimators certain mathematically desirable properties ($s^{2}$ is an
 *unbiased* estimate of $\sigma^{2}$, but $\hat{\sigma}^{2}$ below is
@@ -255,7 +255,7 @@ Different values for $\mu$ and $\sigma^{2}$ give different
 distributions. For example, the curve in Figure \@ref(fig:f-bp2) is that of
 the $N(74.2, \, 127.87)$ distribution, where the mean $\mu=74.2$ and
 variance $\sigma^{2}=127.87$ are the same as the mean and variance
-calculated from formulas (\@ref(mu)) and (\@ref(sigma2)) for the 4489
+calculated from formulas (\@ref(eq:mu)) and (\@ref(eq:sigma2)) for the 4489
 observations of blood pressure. This ensures that this particular normal
 curve best matches the frequency polygon in Figure \@ref(fig:f-bp2).
 
@@ -655,7 +655,7 @@ distribution of a binary variable that was introduced in Section
 distribution is $\pi$, its mean and variance are $\mu=\pi$ and
 $\sigma^{2}=\pi(1-\pi)$, and the sample mean $\bar{Y}$ of observations
 from the distribution is the sample proportion $\hat{\pi}$ (see equation
-\@ref(pihat-as-ybar)). The CLT then tells
+\@ref(eq:pihat-as-ybar)). The CLT then tells
 us that
 
 -   When $n$ is large enough, the sampling distribution of the sample
@@ -714,5 +714,5 @@ central importance of the CLT in statistical methodology.
     & Hall, London.
 
 [^4]: The CLT does not hold in some rather weird cases which need not
-    concern us here. Condition (\@ref(lindeberg)) is a mathematical
+    concern us here. Condition (\@ref(eq:lindeberg)) is a mathematical
     expression for “not weird”.

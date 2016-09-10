@@ -675,14 +675,14 @@ table, and $D$ is the number of discordant pairs. For Table
 
 Calculation of $C$ and $D$ is straightforward but tedious and
 uninteresting, and can be left to a computer. Remembering the exact form
-of (\@ref(gamma)) is also not crucial. More important than the formula of
+of (\@ref(eq:gamma)) is also not crucial. More important than the formula of
 $\gamma$ (or any other measure of association) is its interpretation.
 This can be considered on several levels of specificity, which are
 discussed separately below. The discussion is relatively detailed, as
 these considerations are relevant and useful not only for $\gamma$, but
 also for all other measures of association in statistics.
 
-The **sign** of the statistic: It can be seen from (\@ref(gamma)) that
+The **sign** of the statistic: It can be seen from (\@ref(eq:gamma)) that
 $\gamma$ is positive (greater than zero) when there are more concordant
 pairs than discordant ones (i.e. $C>D$), and negative when there are
 more discordant than concordant pairs ($C<D$). This also implies that
@@ -733,7 +733,7 @@ of association is the ratio \begin{equation}\text{PRE}= \frac{E_{1}-E_{2}}{E_{1}
 the number of errors $E_{1}$ under the first scheme. This formulation is
 convenient for interpretation, because a proportion is easily
 understandable even if $E_{1}$ and $E_{2}$ themselves are expressed in
-some unfamiliar units. The smallest possible value of (\@ref(PRE)) is
+some unfamiliar units. The smallest possible value of (\@ref(eq:PRE)) is
 clearly 0, obtained when $E_{2}=E_{1}$, i.e. when using information on
 $X$ gives no improvement in predictions. The largest possible value of
 PRE is 1, obtained when $E_{2}=0$, i.e. when $Y$ can be predicted
@@ -767,8 +767,8 @@ If these predictions are repeated for every non-tied pair in the table,
 the expected number of incorrect predictions under the first scheme is
 $E_{1}=(C+D)/2$. Under the second scheme it is $E_{2}=D$ if the
 association is positive and $E_{2}=C$ if it is negative. Substituting
-these into the general formula (\@ref(PRE)) shows that the $\gamma$
-statistic (\@ref(gamma)) is of the PRE form when $\gamma$ is positive;
+these into the general formula (\@ref(eq:PRE)) shows that the $\gamma$
+statistic (\@ref(eq:gamma)) is of the PRE form when $\gamma$ is positive;
 when it is negative, the absolute value of $\gamma$ (i.e. its value with
 the minus sign omitted) is a PRE measure, and the negative sign of
 $\gamma$ indicates that the association is in the negative direction. In
@@ -1252,7 +1252,7 @@ $Y$ in the sample is defined as \begin{equation}\bar{Y} = \frac{\sum Y_{i}}{n}.
 indicates that we calculate the sum of all $Y_{i}$ (often this is stated
 more explicitly by the notation $\sum_{i} Y_{i}$ or
 $\sum_{i=1}^{n} Y_{i}$ to make it clear that the summation is over all
-the values of $i$). In other words, (\@ref(Ybar)) is a concise expression
+the values of $i$). In other words, (\@ref(eq:Ybar)) is a concise expression
 for $$\bar{Y}= \frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}$$ or, in English,
 “calculate the sum of all the observations of the variable $Y$ in the
 sample, and divide this sum by the number of observations to obtain the
@@ -1575,7 +1575,7 @@ similar across countries. The article summarized this in its subtitle as
 “The world’s economies are more synchronised than ever before”, and went
 on to discuss the implications of this development for global economy.
 
-The formula (\@ref(sd)) for the standard deviation involves the divisor
+The formula (\@ref(eq:sd)) for the standard deviation involves the divisor
 $n-1$, where the discussion leading up to it might make you expect $n$
 instead. The reasons for this will be discussed briefly in Section
 \@ref(ss-contd-popdistrs-params). The definition is not entirely
