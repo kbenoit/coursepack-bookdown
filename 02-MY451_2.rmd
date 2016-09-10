@@ -56,7 +56,7 @@ kind of variable which might in many analyses be treated instead as an
 effectively continuous, interval-level variable.
 
 *Example: Survey data on attitudes towards income redistribution*
-\label{p_ess_example}
+
 
 The data for the second example come from Round 5 of the European Social
 Survey (ESS), which was carried out in 2010.[^1] The survey was fielded
@@ -1140,7 +1140,7 @@ pie charts.
 
 ## Numerical descriptive statistics {#s-descr1-nums}
 
-\label{p_statistic} The tabular and graphical methods discussed above
+ The tabular and graphical methods discussed above
 aim to display the whole sample distribution of a variable in an
 understandable form. The methods introduced in this section have a
 different purpose. Each of them is used to summarize some important
@@ -1368,7 +1368,7 @@ class has 14 students, and all students have just taken the same test,
 graded 1 (low) to 10 (high). The marks of the students are found to be
 as shown in Table \@ref(tab:t-classmarks).
 
-\label{p_classex} Both the mean and the median of the marks are 6 in
+ Both the mean and the median of the marks are 6 in
 every class. However, the classes are otherwise clearly not similar. In
 particular, the **variation** (or **dispersion**) of the marks is very
 different. There is no variation at all in Class 1 where everyone has

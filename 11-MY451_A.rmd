@@ -54,7 +54,7 @@ individual computer classes below will be sufficient for the purposes of
 this course. If, however, you wish to find out more about SPSS, more
 information and examples can be found in the SPSS help files and
 tutorials found under the **Help** menu of the program, and in
-introductory guide books such as\label{p_spssbooks}
+introductory guide books such as
 
 Field, A. (2013). *Discovering Statistics using IBM SPSS Statistics*
 (4th ed). Sage.
@@ -261,7 +261,7 @@ than through the menus.
 Various options for controlling the format of SPSS output and other
 features can be found under **Edit/Options**. For example, an often
 useful choice is **General/Variable Lists/Display
-names**\label{p_listoptions}. This instructs SPSS to display the names
+names**. This instructs SPSS to display the names
 of variables in the variable lists of all procedures, instead of the
 (typically much longer) descriptive labels of the variables. In large
 data sets this may make it easier to find the right variables from the
@@ -408,7 +408,7 @@ own empirical research.
         can also be displayed for each observation in Data View by
         selecting **View/Value Labels** in that window.
 
-    -   \label{p_missingcodes} **Missing** specifies *missing data
+    -    **Missing** specifies *missing data
         codes*, i.e. values which are not actual measurements but
         indicators that an observation should be treated as missing.
         There may be several such codes. For example, variables in these

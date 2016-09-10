@@ -93,7 +93,7 @@ evidence against a hypothesis? The task of statistical significance
 testing is to provide explicit and transparent rules for making such
 decisions.
 
-\label{p_test_intuition} A significance test uses a statistic calculated
+ A significance test uses a statistic calculated
 from the sample data (a *test statistic*) which has the property that
 its values will be large if the sample provides evidence against the
 hypothesis that is being tested (the *null hypothesis*) and small
@@ -279,7 +279,7 @@ measurement level, although in most cases this will be either nominal or
 ordinal. The test makes no use of the ordering of the categories, so it
 effectively treats all variables as if they were nominal.
 
-\label{p_chi2_fesize} The second common class of assumptions are
+ The second common class of assumptions are
 conditions on the sample size. Many significance tests are appropriate
 only if this is sufficiently large. For the $\chi^{2}$ test, the
 expected frequencies $f_{e}$ (which will be defined below) need to be
@@ -420,7 +420,7 @@ the null hypothesis that sex and attitude are independent in the
 population?
 
 In general, a test statistic for any null hypothesis should satisfy two
-requirements:\label{p_2reqs}
+requirements:
 
 1.  The value of the test statistic should be small when evidence
     against the null hypothesis is weak, and large when this evidence
@@ -707,7 +707,7 @@ regarded as “large” or “not large”, and with this the measure of
 evidence against the null hypothesis that is the end product of the
 test:
 
--   \label{p_pval_ref} The $\mathbf{P}$**-value** is the probability, if
+-   The $\mathbf{P}$**-value** is the probability, if
     the null hypothesis was true in the population, of obtaining a value
     of the test statistic which provides as strong or stronger evidence
     against the null hypothesis, and in the direction of the alternative
@@ -753,7 +753,7 @@ $P=0.0008$.
 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey
 region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
 
-\label{p_spss2b} In practice the $P$-value is usually calculated by a
+ In practice the $P$-value is usually calculated by a
 computer. In the SPSS output of Figure \@ref(fig:f-spsschi2) is is shown in
 the column labelled “Asymp. Sig. (2-sided)” which is short for
 “Asymptotic significance level” (you can ignore the “2-sided” for this
@@ -996,7 +996,7 @@ nature and magnitude can be further explored using the descriptive
 methods for two way tables discussed in Section \@ref(s-descr1-2cat).
 
 [^1]: *Philosophical Magazine*, Series 5, **5**, 157–175.
-    \label{p_pearson} The thoroughly descriptive title of the article is
+     The thoroughly descriptive title of the article is
     “On the criterion that a given system of deviations from the
     probable in the case of a correlated system of variables is such
     that it can be reasonably supposed to have arisen from random

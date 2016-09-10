@@ -24,7 +24,7 @@ These may appear in two distinct roles:
     \@ref(c-tables) and the standard normal distribution in Chapter
     \@ref(c-probs). Their origins are explained in more detail below.
 
-\label{p_bpressure_ex} To illustrate the concepts, we use data from the
+ To illustrate the concepts, we use data from the
 Health Survey for England 2002 (HES).[^1] One part of the survey was a
 short physical examination by a nurse. Figure \@ref(fig:f-bp1) shows a
 histogram and frequency polygon of diastolic blood pressure (in mm Hg)
@@ -182,7 +182,7 @@ well described by a smooth curve such as the one in Figure \@ref(fig:f-bp2).
 In Figure \@ref(fig:f-bp2) the curve and the frequency polygon have
 reasonably similar shapes, so the assumption that the former is a good
 representation of the latter does not seem far-fetched. However, the two
-are clearly not exactly the same, \label{p_model2} nor do we expect that
+are clearly not exactly the same,  nor do we expect that
 even the blood pressures of all English adults exactly match this curve
 or any other simple probability distribution. All we require is that a
 population distribution is close enough to a specified probability
@@ -446,7 +446,7 @@ than 90 were 0.0996 and 0.0793 respectively, so rounded to two decimal
 places they were the same as the 0.10 and 0.08 obtained from the normal
 approximation.
 
-\label{p_cdfnorm} These days we can use statistical computer programs to
+ These days we can use statistical computer programs to
 calculate such probabilities directly for a normal distribution with any
 mean and standard deviation. For example, SPSS has a function called
 `CDF.NORMAL(`*quant,mean,stddev*`)` for this purpose. It calculates the

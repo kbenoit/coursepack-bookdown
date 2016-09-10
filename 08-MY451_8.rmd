@@ -34,7 +34,7 @@ Section \@ref(s-regression-dummies).
 The following example will be used for illustration throughout this
 chapter:
 
-**Example 8.1: Indicators of Global Civil Society** \label{p_civilsoc}
+**Example 8.1: Indicators of Global Civil Society** 
 
 The *Global Civil Society 2004/5* yearbook gives tables of a range of
 characteristics of the countries of the world[^1]. The following
