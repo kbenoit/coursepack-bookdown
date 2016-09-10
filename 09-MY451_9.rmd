@@ -166,7 +166,7 @@ unchanged.
 **Example 9.2:** **Importance of short-term gains for investors
 (continued)**
 
-Table \@ref(tab:t-investors) on page \pageref{t_investors} showed a
+Table \@ref(tab:t-investors) showed a
 relatively strong association between a person’s age group and his or
 her attitude towards short-term gains as an investment goal. This
 association is also strongly significant, with $P<0.001$ for the

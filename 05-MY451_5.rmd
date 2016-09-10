@@ -412,7 +412,7 @@ $\hat{\pi}$ and thus $\hat{\Delta}$ to be different from 0. In other
 words, the difference $\hat{\Delta}=\hat{\pi}-\pi_{0}$ tends to be small
 (close to zero) when the null hypothesis is true, and large (far from
 zero) when it is not true, thus satisfying one of the requirements for a
-good test statistic that were stated on page \pageref{p_2reqs}. (Whether
+good test statistic that were stated at the beginning of Section \@ref(ss-tables-chi2test-sdist). (Whether
 in this we count as “large” both large positive and large negative
 values, or just one or the other, depends on the form of the alternative
 hypothesis, as explained in the next section.)
@@ -565,7 +565,7 @@ The possible values of the test statistic which contributed to the
 $P$-value would then be $z=1.59$ and all smaller values. These are “as
 strong or stronger evidence against the null hypothesis and in the
 direction of the alternative hypothesis” as required by the definition
-on page \pageref{p_pval_ref}, since they agree with the alternative
+at the beginning of Section \@ref(ss-tables-chi2test-Pval), since they agree with the alternative
 hypothesis (negative values of $z$) or at least disagree with it less
 than the observed $z$ (positive values from 0 to 1.59). In Figure
 \@ref(fig:f-pval-prob), these values would correspond to the area under the
@@ -593,8 +593,7 @@ critical values from a table. This is done in a very similar way as for
 the $\chi^{2}$ test in Section \@ref(ss-tables-chi2test-Pval).
 
 The first part of Table \@ref(tab:t-ttable) shows a table of critical values
-for the standard normal distribution. These values are also shown on
-page \pageref{s_disttables_t} at the end of this course pack, on the
+for the standard normal distribution. These values are also shown in Section \@ref(s-disttables-t) at the end of this course pack, on the
 last row of a larger table (the other parts of this table will be
 explained later, in Section \@ref(ss-means-inference-variants)). A
 version of this table is included in all introductory text books on
@@ -608,8 +607,8 @@ books.
 
   : (\#tab:t-ttable) A table of critical values for the standard normal distribution. The
   upper part of the table shows the critical values in one row, as in
-  standard statistical tables (see the last row of the table on page
-  \pageref{s_disttables_t}). The lower part of the table includes the
+  standard statistical tables (see the last row of the table in Section
+  \@ref(s-disttables-t)). The lower part of the table includes the
   same numbers rearranged to show critical values for conventional
   significance levels for one- and two-sided tests.
 
@@ -666,8 +665,7 @@ absolute value of which is smaller than even the critical value 1.65 for
 the 10% significance level. For this example, we would report $P>0.1$.
 
 The intuitive idea of the critical values and their connection to the
-$P$-values is illustrated for Example 5.1 by Figure \@ref(fig:f-pval-prob) on
-page \pageref{f_pval_prob}. Here the observed test statistic is
+$P$-values is illustrated for Example 5.1 by Figure \@ref(fig:f-pval-prob). Here the observed test statistic is
 $t=-1.59$, so the two-sided $P$-value is the probability of values at
 least 1.59 or at most $-1.59$, which correspond to the two gray areas in
 the tails of the distribution. Also shown in the plot is one of the
@@ -779,7 +777,7 @@ $\hat{\pi}$ is the sample proportion corresponding to $\pi$. Suppose
 that the conditions on the sample size $n$ that were discussed in
 Section \@ref(ss-probs-test1sample-samplingd) are again satisfied.
 
-Consider now Figure \@ref(fig:f-pval-prob} on \pageref{f-pval-prob). One of
+Consider now Figure \@ref(fig:f-pval-prob}. One of
 the results illustrated by it is that if $\pi_{0}$ is the true value of
 of the population probability $\pi$, so that $\Delta=\pi-\pi_{0}=0$,
 there is a probability of 0.95 that for a randomly drawn sample from the
@@ -1202,7 +1200,7 @@ changing just one word in the survey question, as described in the
 introduction to Example 5.4 at the beginning of this chapter.
 
 In Example 5.3, the estimated difference is $\hat{\Delta}=-0.000422$
-(see Table \@ref(tab:t-probex) on page \pageref{t-probex}), i.e. 422 fewer
+(see Table \@ref(tab:t-probex), i.e. 422 fewer
 polio cases per million children in the vaccinated group than in the
 unvaccinated group. Similar calculations as above show that the value of
 the test statistic is $z=-6.01$, so the $P$-value is again very small

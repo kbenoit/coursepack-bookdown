@@ -30,7 +30,7 @@ graphs in Section \@ref(s-descr1-presentation).
 
 Two examples are used to illustrate the methods throughout this chapter:
 
-*Example: Country data*\label{country_example}
+*Example: Country data* \label{country_example}
 
 Consider data for 155 countries on three variables:
 
@@ -845,7 +845,7 @@ same idea to a continuous variable or a discrete variable with many
 different values is likely to be less useful, because all of the
 individual frequencies may be small. For example, in this section we
 illustrate the methods using the GDP variable in the country data
-introduced on page \pageref{country_example}. This has 99 different
+introduced at the beginning of Section \@ref(s-descr1-examples). This has 99 different
 values among the 155 countries, 66 of these values appear only once, and
 the largest frequency (for 0.8) is five. A frequency table of these
 values would be entirely unenlightening.
@@ -1494,7 +1494,7 @@ that an observation is larger than the mean (e.g. $10-6=+4$).
   --------- ------------------------ --------------------------- -------------------------------
 
   : (\#tab:t-sdex) Calculating the standard deviation of test marks for Class 3 in the
-  class example of page \pageref{p_classex}.
+  class example at the beginning of Section \@ref(ss-descr1-nums-variation).
 
 The deviations are clearly related to variation, as a sample with little
 variation will have small deviations (most observations are close to the
@@ -1601,8 +1601,7 @@ central tendency or variation, so it is an illustration of why it is
 always sensible to also examine the whole distribution of a variable
 using frequency tables or graphical methods.
 
-![(\#fig:f-classbars) Bar charts of the test marks in the class example of page
-\pageref{p_classex} for Classes 2 (on the left) and 3 (on the
+![(\#fig:f-classbars) Bar charts of the test marks in the class example at the beginning of Section \@ref(ss-descr1-nums-variation) for Classes 2 (on the left) and 3 (on the
 right).](classbars){height="8.3cm"}
 
 ## Associations which involve continuous variables {#s-descr1-2cont}

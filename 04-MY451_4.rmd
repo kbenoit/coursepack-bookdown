@@ -5,8 +5,7 @@
 In this section we continue the discussion of methods of analysis for
 two-way contingency tables that was begun in Section
 \@ref(ss-descr1-2cat-tables). We will use again the example from the
-European Social Survey that was introduced on page
-\pageref{p_ess_example}. The two variables in the example are a person’s
+European Social Survey that was introduced early in Section \@ref(s-descr1-examples). The two variables in the example are a person’s
 sex and his or her attitude toward income redistribution measured as an
 ordinal variable with five levels. The two-way table of these variables
 in the sample is shown again for convenience in Table
@@ -312,7 +311,7 @@ this coursepack, and give guidelines for choosing between them.
 ### The test statistic {#ss-tables-chi2test-stat}
 
 A **test statistic** is a number calculated from the sample (i.e. a
-statistic in the sense defined on page \pageref{p_statistic}) which is
+statistic in the sense defined at the beginning of Section \@ref(s-descr1-nums)) which is
 used to test a null hypothesis. We we will describe the calculation of
 the $\chi^{2}$ test statistic step by step, using the data in Table
 \@ref(tab:t-sex-attitude-ch4) for illustration. All of the elements of the
@@ -464,7 +463,7 @@ statistics in general and the $\chi^{2}$ test in particular.
 #### Sampling distribution of statistic: General definition {-}
 
 The $\chi^{2}$ test statistic (\@ref(chi2)) is a *statistic* as defined
-defined on page \pageref{p_statistic}, that is a number calculated from
+defined at the beginning of Section \@ref(s-descr1-nums), that is a number calculated from
 data in a sample. Once we have observed a sample, the value of a
 statistic in that sample is known, such as the 18.862 for $\chi^{2}$ in
 our example.
@@ -681,12 +680,11 @@ The $\chi^{2}$ sampling distribution is “approximate” in that it is an
 *asymptotic approximation* which is exactly correct only if the sample
 size is infinite and approximately correct when it is sufficiently
 large. This is the reason for the conditions for the sizes of the
-expected frequencies that were discussed on page
-\pageref{p_chi2_fesize}. When these conditions are satisfied, the
+expected frequencies that were discussed in Section \@ref(ss-tables-chi2test-ass). When these conditions are satisfied, the
 approximation is accurate enough for all practical purposes and we use
 the appropriate $\chi^{2}$ distribution as the sampling distribution.
 
-On page \pageref{p_2reqs}, under requirement 2 for a good test
+In Section \@ref(ss-tables-chi2test-sdist), under requirement 2 for a good test
 statistic, we mentioned that its sampling distribution under the null
 hypothesis should be “known” and “of convenient form”. We now know that
 for the $\chi^{2}$ test it is a $\chi^{2}$ distribution. The “convenient
@@ -697,8 +695,7 @@ freedom) only on the size of the table but not on the sample size or the
 marginal distributions of the two variables. This is convenient in the
 right way, because it means that we can use the same $\chi^{2}$
 distribution for any table with a given number of rows and columns, as
-long as the sample size is large enough for the conditions on page
-\pageref{p_chi2_fesize} to be satisfied.
+long as the sample size is large enough for the conditions in Section \@ref(ss-tables-chi2test-ass) to be satisfied.
 
 ### The $P$-value {#ss-tables-chi2test-Pval}
 
@@ -777,7 +774,7 @@ computer output, there is no need to refer to distributional tables.
 
 All introductory statistical text books include a table of $\chi^{2}$
 distributions, although its format may vary slightly form book to book.
-Such a table is also included on page \pageref{s_disttables_chi2} of
+Such a table is also included in Section \@ref(s-disttables-chi2) of
 this coursepack. An extract from the table is shown in Table
 \@ref(tab:t-chi2table). Each row of the table corresponds to a $\chi^{2}$
 distribution with the degrees of freedom given in the first column. The

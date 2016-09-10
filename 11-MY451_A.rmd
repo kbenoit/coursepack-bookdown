@@ -6,8 +6,7 @@
 
 Some general instructions on computing and the SPSS package are given
 first below. It makes most sense to read these together with the
-instructions for individual computer classes, which begin on page
-\pageref{p_class1}.
+instructions for individual computer classes, which begin in Section \@ref(p-class1).
 
 ## General instructions
 
@@ -39,10 +38,9 @@ need to download the file to your H: space (i.e. your personal file
 storage space on the LSE network, shown as disk drive H: on a networked
 computer once you have logged on). You can download all the data files
 for the course, as well as other course-related material, from the
-web-based **Moodle** system. See instructions on page
-\pageref{sss_moodle} for how to register for MY451 on Moodle.
+web-based **Moodle** system. See instructions in Chapter \@ref(c-course-information) for how to register for MY451 on Moodle.
 
-## Introduction to SPSS
+## Introduction to SPSS {#s-intro-SPSS}
 
 #### General information and documentation {-}
 
@@ -446,8 +444,7 @@ Most of the statistics required for this class are found in SPSS under
 -   Names of the variables for which the statistics are requested are
     placed in the **Variable(s)** box. To make it easy to find variables
     in the list box on the left, you may find it convenient to change
-    the way the variables are displayed in the list; see page
-    \pageref{p_listoptions} for instructions.
+    the way the variables are displayed in the list; see under "SPSS Session Options in Section \@ref(s-intro-SPSS) for instructions.
 
 -   Tables of frequencies: select **Display frequency tables**
 
@@ -989,8 +986,8 @@ respondents’ voting intentions, obtained after the debates had ended
     they would vote Liberal Democrat. We will compare it to 0.23, the
     proportion of the vote the party actually received in 2010. The
     analysis is thus one-sample inference on a population proportion,
-    and the relevant formulas are (\@ref(ztestp)) on p. \pageref{ztestp}
-    for the test statistic and (\@ref(cip2)) on p. \pageref{cip2} for the
+    and the relevant formulas are (\@ref(ztestp))
+    for the test statistic and (\@ref(cip2)) for the
     confidence interval.
 
     -   Begin by creating a frequency table of *VOTE\_LIBDEM*. This
@@ -1010,8 +1007,7 @@ respondents’ voting intentions, obtained after the debates had ended
         value from the standard normal distribution is at most $-4.049$
         or at least 4.049. Evaluate this approximately by comparing the
         value of $z$ to critical values from the standard normal
-        distribution (c.f. Table \@ref(tab:t-ttable) on
-        p. \pageref{t_ttable}) as explained in Section
+        distribution (c.f. Table \@ref(tab:t-ttable)) as explained in Section
         \@ref(ss-probs-test1sample-samplingd). Here, for example, $z$ is
         larger than 1.96, so the two-sided $P$-value must be smaller
         than 0.05. Convince yourself that you understand this statement.
@@ -1031,8 +1027,7 @@ respondents’ voting intentions, obtained after the debates had ended
     the debates with those who did not, using the two-sample methods of
     analysis discussed in Section \@ref(s-probs-2samples). The formula of
     the $z$-test statistic for testing the hypothesis of equal
-    population proportions is thus (\@ref(ztestDpi)) on page
-    \pageref{ztestDpi}, and a confidence interval for the difference of
+    population proportions is thus (\@ref(ztestDpi)), and a confidence interval for the difference of
     the porportions is (\@ref(ciDpi)).
 
     -   Begin by calculating the relevant sample proportions. The
@@ -1512,8 +1507,8 @@ homeworks in the model answers, which will be posted in the Moodle site.
 #  Statistical tables {#c-disttables}
 
 
-Explanation of the “Table of standard normal tail probabilities” on page
-\pageref{s_disttables_Z}:
+Explanation of the “Table of standard normal tail probabilities” in Section
+\@ref(s_disttables_Z):
 
 -   The table shows, for values of $Z$ between 0 and 3.5, the
     probability that a value from the standard normal distribution is

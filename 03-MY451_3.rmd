@@ -20,8 +20,7 @@ types of analyses.
 
 In many cases the population of interest is a particular group of real
 people or other units. Consider, for example, the European Social Survey
-(ESS) which we used in Chapter \@ref(c-descr1) (see page
-\pageref{p_ess_example})[^1]. The ESS is a cross-national survey carried
+(ESS) which we used in Chapter \@ref(c-descr1) (see early in Section \@ref(s-descr1-examples))[^1]. The ESS is a cross-national survey carried
 out biennially in around 30 European countries. It is an
 academically-driven social survey which is designed to measure a wide
 range attitudes, beliefs and behaviour patterns among the European
@@ -317,12 +316,11 @@ the sample distribution of a variable, define the **population
 distribution** as the set of values of the variable which appear in the
 population, together with the frequencies of each value.
 
-For illustration, consider again the example introduced on page
-\pageref{p_ess_example}. The two variables there are a person’s sex and
+For illustration, consider again the example introduced early in Section \@ref(s-descr1-examples). The two variables there are a person’s sex and
 his or her attitude toward income redistribution. We have observed them
 for a sample $n=2344$ people drawn from the population of all UK
 residents aged 15 or over. The sample distributions are summarised by
-Table \@ref(tab:t-attitude) on page \pageref{t_attitude}.
+Table \@ref(tab:t-attitude).
 
   -------- ----------------------------------------------------------------------- ----------- --------------- ---------- ---------- -----------
   \                                         Agree                                       \       Neither agree      \       Disagree            \

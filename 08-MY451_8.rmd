@@ -161,8 +161,7 @@ describe a slightly different kind of scatterplot.
 A very common special case of a scatterplot is one where the
 observations correspond to measurements of a variable for the same unit
 at several occasions over time. This is illustrated by the following
-example (another one is Figure \@ref(fig:f-houseprices) on page
-\pageref{f_houseprices}):
+example (another one is Figure \@ref(fig:f-houseprices)):
 
 *Example: Changes in temperature, 1903–2004*
 
@@ -457,7 +456,7 @@ $$r=\frac{s_{xy}}{s_{x}s_{y}} =
 \label{corr}$$ This is the (sample) **correlation** coefficient, or
 correlation for short, between $X$ and $Y$. It is also often (e.g. in
 SPSS) known as *Pearson’s* correlation coefficient after Karl Pearson
-(of the $\chi^{2}$ test, see page \pageref{p_pearson}), although both
+(of the $\chi^{2}$ test, see footnote 1 in Chapter \@ref(c-tables)), although both
 the word and the statistic are really due to Sir Francis Galton[^7].
 
 The properties of the correlation coefficient can be described by going
@@ -506,8 +505,7 @@ shown.
 
 Returning to real data, Table \@ref(tab:t-civilsoc-r) shows the correlation
 coefficients for all fifteen distinct pairs of the six continuous
-variables in the Global Civil Society data set mentioned on page
-\pageref{p_civilsoc}. This is an example of a **correlation matrix**,
+variables in the Global Civil Society data set mentioned in Example 8.1. This is an example of a **correlation matrix**,
 which is simply a table with the variables as both its rows and columns,
 and the correlation between each pair of variables given at the
 intersection of corresponding row and column. For example, the
@@ -531,7 +529,7 @@ definition and thus of no real interest.
   ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
 
   : (\#tab:t-civilsoc-r) Correlation matrix of six continuous variables in the Global Civil
-  Society data set. See page \pageref{p_civilsoc} for more information
+  Society data set. See Example 8.1 for more information
   on the variables.
 
 All of the observed associations in this example are in unsurprising
@@ -615,7 +613,7 @@ A scatterplot of IMR vs. School enrolment is shown in Figure
 \@ref(fig:f-imr1), together with the best-fitting straight line. Later we
 will also consider three additional explanatory variables: Control of
 corruption, Income inequality and Income level of the country in three
-categories (c.f. page \pageref{p_civilsoc}). For further reference,
+categories (c.f. Example 8.1). For further reference,
 Table \@ref(tab:t-imrvars) shows various summary statistics for these
 variables. Throughout, the analyses are restricted to those 111
 countries for which all of the five variables are recorded. For this
@@ -650,7 +648,7 @@ line for the points.](imr1){width="13.5cm"}
   : (\#tab:t-imrvars) Summary statistics for Infant Mortality Rate (IMR) and explanatory
   variables for it considered in the examples of Sections
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
-  See page \pageref{p_civilsoc} for further information on the
+  See Example 8.1 for further information on the
   variables.
 
 ### Definition of the model {#ss-regression-simple-def}
@@ -727,7 +725,7 @@ model**:
     of the model[^9].
 
 -   **Model**, because this is a statistical model in the sense
-    discussed on page \pageref{p_model}. In other words, the model is
+    discussed in the middle of Section \@ref(ss-contd-probdistrs-general). In other words, the model is
     always only a simplified abstraction of the true, immeasurably
     complex processes which determine the values of $Y$. Nevertheless,
     it is believed that a well-chosen model can be useful for explaining
@@ -1498,7 +1496,7 @@ The concepts are be illustrated with a further example from the Global
 Civil Society data set. The response variable will still be the Infant
 mortality rate of a country, and there will be three explanatory
 variables: School enrolment, Control of corruption and Income inequality
-as measured by the Gini index (see p. \pageref{p_civilsoc}). Results for
+as measured by the Gini index (see Example 8.1). Results for
 this model are shown in Table \@ref(tab:t-imr-m2), to which we will refer
 throughout this section. The table is also an example of the kind of
 format in which results of regression models are typically reported.
@@ -1651,7 +1649,7 @@ simple model, and require little further explanation:
     $df=n-(k+1)=n-4=107$. The estimate is $\hat{\sigma}=2.23$.
 
 -   The explanation of the coefficient of determination $R^{2}$ is
-    entirely unchanged from the one given on page \pageref{p_R2}. It is
+    entirely unchanged from the one given under "Coefficient of determination ($R^{2}$)" in Section \@ref(ss-regression-simple-est). It is
     still calculated with the formula (\@ref(R2)), and its interpretation
     is also the same. The $R^{2}$ statistic thus describes the
     proportion of the sample variation in $Y$ explained by the

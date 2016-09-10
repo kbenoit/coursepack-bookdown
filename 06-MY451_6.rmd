@@ -393,8 +393,8 @@ and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
   : (\#tab:t-normtab) Extract from the table of right-hand tail probabilities for normal
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
-  labelled “$z$”. The full table is shown on
-  p. \pageref{s_disttables_Z}.
+  labelled “$z$”. The full table is shown in Section
+  \@ref(s-disttables-Z).
 
 The probability distribution of the $Z$ scores is a normal distribution
 with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
@@ -404,7 +404,7 @@ $N(\mu, \sigma^{2}$) distribution into the standard normal distribution
 they remove the specific values of $\mu$ and $\sigma$ from the
 calculation. With this trick, probabilities for any normal distribution
 can be calculated using a single table for $Z$ scores. Such a table is
-given on page \pageref{s_disttables_Z} in the Appendix, and an extract
+given in Section \@ref(s-disttables-Z) in the Appendix, and an extract
 from it is shown in Table \@ref(tab:t-normtab) (note that it is not always
 presented exactly like this, as different books may use slightly
 different format or notation). The first column lists values of the $Z$
@@ -655,7 +655,7 @@ distribution of a binary variable that was introduced in Section
 distribution is $\pi$, its mean and variance are $\mu=\pi$ and
 $\sigma^{2}=\pi(1-\pi)$, and the sample mean $\bar{Y}$ of observations
 from the distribution is the sample proportion $\hat{\pi}$ (see equation
-\@ref(pihat-as-ybar) on page \pageref{pihat-as-ybar}). The CLT then tells
+\@ref(pihat-as-ybar)). The CLT then tells
 us that
 
 -   When $n$ is large enough, the sampling distribution of the sample
@@ -695,8 +695,7 @@ decrease the uncertainty in inference about its true value.
 The Central Limit Theorem is, with some additional results, the
 justification for the standard normal sampling distribution used for
 tests and confidence intervals for proportions in Chapter \@ref(c-probs).
-The conditions for sample sizes mentioned there (pages
-\pageref{p_thumbp} and \pageref{p2pthumb}) again derive from conditions
+The conditions for sample sizes mentioned there (at the beginning of Section \@ref(ss-probs-test1sample-samplingd) and \@ref(s-probs-2samples)) again derive from conditions
 for the CLT to be adequate. The same is also ultimately true for the
 $\chi^{2}$ distribution and conditions for the $\chi^{2}$ test in
 Chapter \@ref(c-tables). Results like these, and many others, explain the

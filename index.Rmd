@@ -33,7 +33,7 @@ $\, $
 
 \setcounter{page}{1}
 
-# Course information
+# Course information {#c-course-information}
 
 <span>\Large**MY451: Introduction to Quantitative Analysis**</span>
 
@@ -139,7 +139,7 @@ some elementary techniques.
         software package used in the computer classes. We do not
         consider them necessary for this course, or for learning
         statistics or SPSS. If, however, you feel otherwise, some such
-        books are mentioned on page \pageref{p_spssbooks}.
+        books are mentioned at the beginning of Section \@ref(s-intro-SPSS).
 
 #### Homework {-}
 
