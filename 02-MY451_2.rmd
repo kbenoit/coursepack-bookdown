@@ -669,7 +669,7 @@ below.
 
 The $\gamma$ measure of association is defined as
 $$\gamma=\frac{C-D}{C+D}
-\label{gamma}$$ where $C$ is the total number of concordant pairs in the
+\label{eq:gamma}$$ where $C$ is the total number of concordant pairs in the
 table, and $D$ is the number of discordant pairs. For Table
 \@ref(tab:t-investors), the value of this is $\gamma=-0.377$.
 
@@ -729,7 +729,7 @@ same measure of errors for the second prediction scheme which makes use
 of $X$. The difference $E_{1}-E_{2}$ is thus the improvement in
 prediction achieved by the second scheme over the first. A PRE measure
 of association is the ratio $$\text{PRE}= \frac{E_{1}-E_{2}}{E_{1}},
-\label{PRE}$$ i.e. the improvement in predictions as a *proportion* of
+\label{eq:PRE}$$ i.e. the improvement in predictions as a *proportion* of
 the number of errors $E_{1}$ under the first scheme. This formulation is
 convenient for interpretation, because a proportion is easily
 understandable even if $E_{1}$ and $E_{2}$ themselves are expressed in
@@ -1247,7 +1247,7 @@ Y_{2}, \dots, Y_{155}$. The ordering of the observations is arbitrary
 here, so it might for example be the order in which they are listed in
 your SPSS data file. The mean $\bar{Y}$ (“Y-bar”) of the observations of
 $Y$ in the sample is defined as $$\bar{Y} = \frac{\sum Y_{i}}{n}.
-\label{Ybar}$$ Here $n$ is again the sample size. The symbol $\Sigma$
+\label{eq:Ybar}$$ Here $n$ is again the sample size. The symbol $\Sigma$
 (upper-case Greek letter “Sigma”) is a *summation symbol*, which
 indicates that we calculate the sum of all $Y_{i}$ (often this is stated
 more explicitly by the notation $\sum_{i} Y_{i}$ or
@@ -1525,7 +1525,7 @@ their squares $(Y_{i}-\bar{Y})^{2}$, i.e. by multiplying each deviation
 by itself (c.f. the third column of Table \@ref(tab:t-sdex) for an
 illustration). These are used to calculate the **variance**, denoted
 $s^{2}$ and defined as $$s^{2} = \frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.
-\label{samplevar}$$ This is (apart from the $n-1$ rather than $n$ as the
+\label{eq:samplevar}$$ This is (apart from the $n-1$ rather than $n$ as the
 divisor) essentially the mean of the squared deviations. Its units of
 measurement are also squares of the units of the original measurements.
 For example, the variance of the GDP variable, which is itself measured
@@ -1536,7 +1536,7 @@ square root (indicated below by $\sqrt{\; \; }$) of the variance. This
 statistic is the **standard deviation**, often abbreviated as S.D.,
 denoted by $s$ and defined as
 $$s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.}
-\label{sd}$$ For the class example, this is 0 for Class 1, 1.3 for Class
+\label{eq:sd}$$ For the class example, this is 0 for Class 1, 1.3 for Class
 2, and 3.4 for class 3. In the country data, the standard deviation of
 GDP is \$9450 and that of the democracy score (if it is treated as an
 interval-level variable) is 3.9, as shown in Table

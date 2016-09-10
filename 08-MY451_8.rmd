@@ -34,7 +34,7 @@ Section \@ref(s-regression-dummies).
 The following example will be used for illustration throughout this
 chapter:
 
-**Example 8.1: Indicators of Global Civil Society** 
+**Example 8.1: Indicators of Global Civil Society**
 
 The *Global Civil Society 2004/5* yearbook gives tables of a range of
 characteristics of the countries of the world[^1]. The following
@@ -428,11 +428,11 @@ the two variables are calculated as
 $$s_{x} = \sqrt{\frac{\sum(X_{i}-\bar{X})^{2}}{n-1}}
 \text{and}
 s_{y} = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}}
-\label{sdyx}$$ where the subscripts $x$ and $y$ identify the two
+\label{eq:sdyx}$$ where the subscripts $x$ and $y$ identify the two
 variables, and $\bar{X}$ and $\bar{Y}$ are their sample means. A new
 statistic is the **sample covariance** between $X$ and $Y$, defined as
 $$s_{xy} = \frac{\sum (X_{i}-\bar{X})(Y_{i}-\bar{Y})}{n-1}.
-\label{sxy}$$ This is a measure of linear association between $X$ and
+\label{eq:sxy}$$ This is a measure of linear association between $X$ and
 $Y$. It is positive if the sample association is positive and negative
 if the association is negative.
 
@@ -453,7 +453,7 @@ $$r=\frac{s_{xy}}{s_{x}s_{y}} =
 \sum\left(X_{i}-\bar{X}\right)^{2}
 \sum\left(Y_{i}-\bar{Y}\right)^{2}}
 }.
-\label{corr}$$ This is the (sample) **correlation** coefficient, or
+\label{eq:corr}$$ This is the (sample) **correlation** coefficient, or
 correlation for short, between $X$ and $Y$. It is also often (e.g. in
 SPSS) known as *Pearson’s* correlation coefficient after Karl Pearson
 (of the $\chi^{2}$ test, see footnote 1 in Chapter \@ref(c-tables)), although both
@@ -702,7 +702,7 @@ $(Y_{1},X_{1}), (Y_{2}, X_{2}), \dots, (Y_{n}, X_{n})$ becomes
 
 Often the model is expressed in an equivalent form where 2. and 3. are
 combined as $$Y_{i}=\alpha+\beta X_{i} +\epsilon_{i}
-\label{slinmodel}$$ where each $\epsilon_{i}$ is normally distributed
+\label{eq:slinmodel}$$ where each $\epsilon_{i}$ is normally distributed
 with mean 0 and variance $\sigma^{2}$. The $\epsilon_{i}$ are known as
 **error terms** or **population residuals** (and the letter $\epsilon$
 is the lower-case Greek “epsilon”). This formulation of the model
@@ -1000,8 +1000,8 @@ $$\hat{\beta}=
 \sum (X_{i}-\bar{X})(Y_{i}-\bar{Y})}
 {\sum (X_{i}-\bar{X})^{2}}
 =\frac{s_{xy}}{s_{x}^{2}}
-\label{ols_b}$$ and $$\hat{\alpha}=\bar{Y}-\hat{\beta}\bar{X}
-\label{ols_a}$$ where $\bar{Y}$, $\bar{X}$, $s_{x}$ and $s_{xy}$ are the
+\label{eq:ols_b}$$ and $$\hat{\alpha}=\bar{Y}-\hat{\beta}\bar{X}
+\label{eq:ols_a}$$ where $\bar{Y}$, $\bar{X}$, $s_{x}$ and $s_{xy}$ are the
 usual sample means, standard deviations and covariances for $Y$ and $X$.
 These are known as the **least squares estimates** of the regression
 coefficients (or as Ordinary Least Squares or OLS estimates), and the
@@ -1028,7 +1028,7 @@ residual standard deviation $\sigma$, is $$\hat{\sigma}=
 =\sqrt{
 \frac{SSE}{n-(k+1)}
 }
-\label{sigma_linreg}$$ where $k$ is here set equal to 1. This bears an
+\label{eq:sigma_linreg}$$ where $k$ is here set equal to 1. This bears an
 obvious resemblance to the formula for the basic sample standard
 deviation, shown for $Y_{i}$ in (\@ref(sdyx)). One difference to that
 formula is that the denominator of (\@ref(sigma-linreg)) is shown as
@@ -1101,7 +1101,7 @@ of squares is $SSE=\sum (Y_{i}-\hat{Y}_{i})^{2}$. The two sums of
 squares are related by
 $$\sum (Y_{i}-\bar{Y})^{2} =\sum (Y_{i}-\hat{Y}_{i})^{2} +\sum
 (\hat{Y}_{i}-\bar{Y})^{2}.
-\label{ss_decomp}$$ Here $SSM=\sum (\hat{Y}_{i}-\bar{Y})^{2}=TSS-SSE$ is
+\label{eq:ss_decomp}$$ Here $SSM=\sum (\hat{Y}_{i}-\bar{Y})^{2}=TSS-SSE$ is
 the “Model sum of squares”. It is the reduction in squared prediction
 errors achieved when we make use of $X_{i}$ to predict values of $Y_{i}$
 with the regression model, instead of predicting $\bar{Y}$ for all
@@ -1119,7 +1119,7 @@ The $R^{2}$ statistic is defined as
 $$R^{2}= \frac{TSS-SSE}{TSS} = 1-\frac{SSE}{TSS}
 =1-\frac{\sum (Y_{i}-\hat{Y}_{i})^{2}}{
 \sum (Y_{i}-\bar{Y})^{2}}.
-\label{R2}$$ This is the *proportion* of the total variation of $Y$ in
+\label{eq:R2}$$ This is the *proportion* of the total variation of $Y$ in
 the sample explained by the fitted regression model. Its smallest
 possible value is 0, which is obtained when $\hat{\beta}=0$, so that $X$
 and $Y$ are completely unassociated, $X$ provides no help for predicting
@@ -1204,7 +1204,7 @@ intercept $\alpha$ are rarely and ones about the residual standard
 deviation $\sigma$ almost never substantively interesting, so they will
 not be considered. Similarly, the only null hypothesis on $\beta$
 discussed here is that its value is zero, i.e. $$H_{0}:\; \beta=0.
-\label{H0betasimple}$$ Recall that when $\beta$ is 0, there is no linear
+\label{eq:H0betasimple}$$ Recall that when $\beta$ is 0, there is no linear
 association between the explanatory variable $X$ and the response
 variable $Y$. Graphically, this corresponds to a regression line in the
 population which is parallel to the $X$-axis (see plot (d) of Figure
@@ -1213,7 +1213,7 @@ The hypothesis (\@ref(H0betasimple)) can thus be expressed in words as
 $$H_{0}:\; \text{*There is no
 linear association
 between* X \text{*and* }Y\text{ *in the population*}}.
-\label{H0betasimple2}$$ Tests of this are usually carried out against a
+\label{eq:H0betasimple2}$$ Tests of this are usually carried out against a
 two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will
 also concentrate on this case.
 
@@ -1230,7 +1230,7 @@ denote $\hat{\text{se}}(\hat{\beta})$.[^12] It is calculated as
 $$\hat{\text{se}}(\hat{\beta})=
 \frac{\hat{\sigma}}{\sqrt{\sum\left(X_{i}-\bar{X}\right)^{2}}}
 =\frac{\hat{\sigma}}{s_{x}\sqrt{n-1}}
-\label{sebeta}$$ where $\hat{\sigma}$ is the estimated residual standard
+\label{eq:sebeta}$$ where $\hat{\sigma}$ is the estimated residual standard
 deviation given by (\@ref(sigma-linreg)), and $s_{x}$ is the sample
 standard deviation of $X$. The standard error indicates the level of
 precision with which $\hat{\beta}$ estimates the population parameter
@@ -1249,7 +1249,7 @@ The test statistic for the null hypothesis (\@ref(H0betasimple)) is once
 again of the general form (\@ref(ttest-gen)), i.e. a point estimate
 divided by its standard error. Here this gives
 $$t=\frac{\hat{\beta}}{\hat{\text{se}}(\hat{\beta})}.
-\label{tbeta}$$ The logic of this is the same as in previous
+\label{eq:tbeta}$$ The logic of this is the same as in previous
 applications of the same idea. Since the null hypothesis
 (\@ref(H0betasimple)) claims that the population $\beta$ is zero, values
 of its estimate $\hat{\beta}$ far from zero will be treated as evidence
@@ -1297,7 +1297,7 @@ $\hat{\beta}$ as an estimate of the population parameter $\beta$. A
 confidence interval for $\beta$ with the confidence level $1-\alpha$ is
 given by
 $$\hat{\beta} \pm t_{\alpha/2}^{(n-2)} \, \hat{\text{se}}(\hat{\beta})
-\label{cibeta}$$ where the multiplier $t_{\alpha/2}^{(n-2)}$ is obtained
+\label{eq:cibeta}$$ where the multiplier $t_{\alpha/2}^{(n-2)}$ is obtained
 from the $t_{n-2}$ distribution as in previous applications of $t$-based
 confidence intervals (c.f. the description in Section
 \@ref(ss-means-inference-variants)). For a 95% confidence interval
@@ -1537,13 +1537,13 @@ with mean $\mu_{i}$ and variance $\sigma^{2}$. The crucial change is
 that the expected values $\mu_{i}$ now depend on the multiple
 explanatory variables through
 $$\mu_{i} = \alpha +\beta_{1}X_{1i}+\beta_{2}X_{2i}+\dots+\beta_{k}X_{ki}
-\label{mu_multiple}$$ where the coefficients
+\label{eq:mu_multiple}$$ where the coefficients
 $\beta_{1}, \beta_{2}, \dots, \beta_{k}$ of individual explanatory
 variables are now also identified with subscripts. As in
 (\@ref(slinmodel)) for the simple linear model, the multiple model can
 also be expressed in the concise form $$Y_{i} = \alpha
 +\beta_{1}X_{1i}+\beta_{2}X_{2i}+\dots+\beta_{k}X_{ki}+\epsilon_{i}
-\label{mlinmodel}$$ where the error term (population residual)
+\label{eq:mlinmodel}$$ where the error term (population residual)
 $\epsilon_{i}$ is normally distributed with mean 0 and variance
 $\sigma^{2}$.
 
@@ -1598,7 +1598,7 @@ simple model, and require little further explanation:
     given by
     $$\hat{Y}_{i}=\hat{\alpha}+\hat{\beta}_{1}X_{1i}+\hat{\beta}_{2}X_{2i}+\dots+
     \hat{\beta}_{k}X_{ki}.
-    \label{Yhat}$$ The estimated regression coefficients are again
+    \label{eq:Yhat}$$ The estimated regression coefficients are again
     obtained with the method of **least squares** by finding the values
     for $\hat{\alpha},
     \hat{\beta}_{1}, \hat{\beta}_{2}, \dots, \hat{\beta}_{k}$ which make
@@ -1691,13 +1691,13 @@ Consider, for example, a linear regression model with three explanatory
 variables $X_{1}$, $X_{2}$ and $X_{3}$. This specifies the expected
 value of $Y$ as
 $$\mu=\alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}X_{3}
-\label{mu1}$$ for any values of $X_{1}$, $X_{2}$ and $X_{3}$. Suppose
+\label{eq:mu1}$$ for any values of $X_{1}$, $X_{2}$ and $X_{3}$. Suppose
 now that we consider a second observation, which has the same values of
 $X_{1}$ and $X_{2}$ as before, but the value of $X_{3}$ larger by one
 unit, i.e. $X_{3}+1$. The expected value of $Y$ is now
 $$\mu=\alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}(X_{3}+1)=
 \alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}X_{3}+\beta_{3}.
-\label{mu2}$$ Subtracting (\@ref(mu1}) from (\ref{mu2)) leaves us with
+\label{eq:mu2}$$ Subtracting (\@ref(mu1}) from (\ref{mu2)) leaves us with
 $\beta_{3}$. In other words, $\beta_{3}$ is the change in expected value
 of $Y$ when $X_{3}$ is increased by one unit, while keeping the values
 of $X_{1}$ and $X_{2}$ unchanged. The same result would obviously be
@@ -1778,13 +1778,13 @@ are routinely produced by computer packages and displayed as in Table
 \@ref(tab:t-imr-m2). A $t$-test statistic for the null hypothesis discussed
 below is given by
 $$t=\frac{\hat{\beta}_{j}}{\hat{\text{se}}(\hat{\beta}_{j})}.
-\label{tbeta_m}$$ This is identical in form to statistic (\@ref(tbeta))
+\label{eq:tbeta_m}$$ This is identical in form to statistic (\@ref(tbeta))
 for the simple regression model. The corresponding null hypotheses are,
 however, subtly but crucially different in the two cases. In a multiple
 model, (\@ref(tbeta-m)) is a test statistic for the null hypothesis
 $$H_{0}:\; \beta_{j}=0, \text{other regression coefficients
 are unrestricted}
-\label{H0beta_m}$$ against the alternative hypothesis
+\label{eq:H0beta_m}$$ against the alternative hypothesis
 $$H_{a}:\; \beta_{j}\ne0, \text{other regression coefficients
 are unrestricted}.$$ Here the statement about “unrestricted” other
 parameters implies that neither hypothesis makes any claims about the
@@ -1836,7 +1836,7 @@ A confidence interval with confidence level $1-\alpha$ for any
 $\beta_{j}$ is given by
 $$\hat{\beta}_{j} \pm t_{\alpha/2}^{(n-(k+1))} \,
 \hat{\text{se}}(\hat{\beta}_{j}).
-\label{cibeta_m}$$ This is identical in form and interpretation to the
+\label{eq:cibeta_m}$$ This is identical in form and interpretation to the
 interval (\@ref(cibeta)) for simple regression (except that the degrees
 of freedom are now $df=n-(k+1)$), so no new issues arise. The confidence
 intervals for the coefficients in our example (where $df=n-4=107$ and
