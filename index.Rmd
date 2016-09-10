@@ -8,7 +8,7 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: kbenoit/coursepack-bookdown
-description: ""
+description: "This course is intended for those with little or no past training in quantitative methods. The course is an intensive introduction to some of the principles and methods of statistical analysis in social research. Topics covered in MY451 include descriptive statistics, basic ideas of inference and estimation, contingency tables and an introduction to linear regression models."
 ---
 
 \frontmatter\thispagestyle{empty}
@@ -33,7 +33,7 @@ $\, $
 
 \setcounter{page}{1}
 
-# Course information {#c-course-information}
+# Course information {-}
 
 <span>\Large**MY451: Introduction to Quantitative Analysis**</span>
 

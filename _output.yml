@@ -2,6 +2,7 @@ bookdown::gitbook:
   css: style.css
   config:
     toc:
+      collapse: section
       before: |
         <li><a href="./">MY451 Introduction to Quantitative Analysis</a></li>
       after: |

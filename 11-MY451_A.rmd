@@ -1,6 +1,6 @@
 \backmatter
 
-# Appendix 
+# Appendix {-}
 
 ## Computer classes {#c-class0}
 
@@ -40,7 +40,7 @@ need to download the file to your H: space (i.e. your personal file
 storage space on the LSE network, shown as disk drive H: on a networked
 computer once you have logged on). You can download all the data files
 for the course, as well as other course-related material, from the
-web-based **Moodle** system. See instructions in Chapter \@ref(c-course-information) for how to register for MY451 on Moodle.
+web-based **Moodle** system. See instructions in the beginning of this book for how to register for MY451 on Moodle.
 
 ### Introduction to SPSS {#s-intro-SPSS}
 
