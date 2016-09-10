@@ -484,8 +484,8 @@ two-sided alternative hypotheses \begin{equation}H_{a}: \; \Delta\ne 0\label{eq:
 $$H_{a}:  \Delta> 0 \text{ or } H_{a}:  \Delta< 0$$ In the discussion below, we concentrate on the more
 common two-sided alternative.
 
-The test statistic for testing (\@ref(H0m)) is of the general form
-(\@ref(tma)). Here it depends on the data only through the sample means
+The test statistic for testing (\@ref(eq:H0m)) is of the general form
+(\@ref(eq:tma)). Here it depends on the data only through the sample means
 $\bar{Y}_{1}$ and $\bar{Y}_{2}$ and sample variances $s_{1}^{2}$ and
 $s_{2}^{2}$ of $Y$ in the two groups. A point estimate of $\Delta$ is
 \begin{equation}\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}.
@@ -499,7 +499,7 @@ error of $\hat{\Delta}$ is \begin{equation}\sigma_{\hat{\Delta}}=
 }.
 \label{eq:sigmaDmu}\end{equation} When we assume that the population standard
 deviations $\sigma_{1}$ and $\sigma_{2}$ are equal, with a common value
-$\sigma$, (\@ref(sigmaDmu)) simplifies to \begin{equation}\sigma_{\hat{\Delta}} =
+$\sigma$, (\@ref(eq:sigmaDmu)) simplifies to \begin{equation}\sigma_{\hat{\Delta}} =
 \sigma\; \sqrt{
 \frac{1}{n_{2}}+
 \frac{1}{n_{1}}
@@ -510,12 +510,12 @@ this standard error, given by \begin{equation}\hat{\sigma}_{\hat{\Delta}} =
 \label{eq:seD2}\end{equation} where $\hat{\sigma}$ is an estimate of $\sigma$,
 calculated from \begin{equation}\hat{\sigma}=
 \sqrt{\frac{(n_{2}-1)s^{2}_{2}+(n_{1}-1)s^{2}_{1}}{n_{1}+n_{2}-2}}.
-\label{eq:sehatjoint}\end{equation} Substituting (\@ref(Dhatmu)) and (\@ref(seD2)) into
-the general formula (\@ref(tma)) gives the **two-sample t-test statistic
+\label{eq:sehatjoint}\end{equation} Substituting (\@ref(eq:Dhatmu)) and (\@ref(eq:seD2)) into
+the general formula (\@ref(eq:tma)) gives the **two-sample t-test statistic
 for means** \begin{equation}t=
 \frac{\bar{Y}_{2}-\bar{Y}_{1}}
 {\hat{\sigma}\, \sqrt{1/n_{2}+1/n_{1}}}
-\label{eq:ztestmuDb}\end{equation} where $\hat{\sigma}$ is given by (\@ref(sehatjoint)).
+\label{eq:ztestmuDb}\end{equation} where $\hat{\sigma}$ is given by (\@ref(eq:sehatjoint)).
 
 For an illustration of the calculations, consider again the housework
 Example 7.2. Here, denoting men by 1 and women by 2, $n_{1}=635$,
@@ -523,17 +523,17 @@ $n_{2}=469$, $\bar{Y}_{1}=7.33$, $\bar{Y}_{2}=8.49$, $s_{1}=5.53$ and
 $s_{2}=6.14$. The estimated mean difference is thus
 $$\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}=8.49-7.33=1.16.$$ The common
 value of the population standard deviation $\sigma$ is estimated from
-(\@ref(sehatjoint)) as $$\begin{aligned}
+(\@ref(eq:sehatjoint)) as $$\begin{aligned}
 \hat{\sigma}&=&
 \sqrt{\frac{(n_{2}-1)s^{2}_{2}+(n_{1}-1)s^{2}_{1}}{n_{1}+n_{2}-2}}
 =
 \sqrt{\frac{(469-1) 6.14^{2}+(635-1) 5.53^{2}}{635+469-2}}\\
 &=& \sqrt{33.604}=5.797\end{aligned}$$ and the estimated standard error
-of $\hat{\Delta}$ is given by (\@ref(seD2)) as
+of $\hat{\Delta}$ is given by (\@ref(eq:seD2)) as
 $$\hat{\sigma}_{\hat{\Delta}} =
 \hat{\sigma} \; \sqrt{\frac{1}{n_{2}}+\frac{1}{n_{1}}}
 =5.797 \; \sqrt{\frac{1}{469}+\frac{1}{635}}=0.353.$$ The value of the
-t-test statistic (\@ref(ztestmuDb)) is then obtained as
+t-test statistic (\@ref(eq:ztestmuDb)) is then obtained as
 $$t=\frac{1.16}{0.353}=3.29.$$ These values and other quantities
 explained later, as well as similar results for Example 7.3, are also
 shown in Table \@ref(tab:t-2testsY1).
@@ -587,7 +587,7 @@ difference to the conclusions from the test.
 ![(\#fig:f-spss2test) SPSS output for a two-sample $t$-test in Example 7.2, comparing average weekly hours spent on housework between men and women.](spss2t){height="200mm"}
 
 \label{p-ztestass} In the two-sample situation with assumptions 1–4 at the beginning of Section @ref(#ss-means-inference-intro), the sampling distribution of the t-test
-statistic (\@ref(ztestmuDb)) is approximately a standard normal
+statistic (\@ref(eq:ztestmuDb)) is approximately a standard normal
 distribution when the null hypothesis
 $H_{0}: \; \Delta=\mu_{2}-\mu_{1}=0$ is true in the population and the
 sample sizes are large enough. This is again a consequence of the
@@ -605,7 +605,7 @@ The $P$-value of the test is calculated from this sampling distribution
 in exactly the same way as for the tests of proportions in Section
 \@ref(ss-probs-test1sample-samplingd). In the housework example the value
 of the $t$-test statistic is $t=3.29$. The $P$-value for testing the
-null hypothesis against the two-sided alternative (\@ref(Hatwom)) is then
+null hypothesis against the two-sided alternative (\@ref(eq:Hatwom)) is then
 the probability, calculated from the standard normal distribution, of
 values that are at least 3.29 or at most $-3.29$. Each of these two
 probabilities is about 0.0005, so the $P$-value is
@@ -691,14 +691,14 @@ perceived friendliness of police officers (c.f. Table \@ref(tab:t-groupex) for 
 
 A confidence interval for the mean difference $\Delta=\mu_{1}-\mu_{2}$
 is obtained by substituting appropriate expressions into the general
-formula (\@ref(ciDpa)). Specifically, here
+formula (\@ref(eq:ciDpa)). Specifically, here
 $\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}$ and a 95% confidence interval for
 $\Delta$ is \begin{equation}(\bar{Y}_{2}-\bar{Y}_{1}) \pm 1.96\;  \hat{\sigma} \;
 \sqrt{
 \frac{1}{n_{2}}+\frac{1}{n_{1}}
 }
 \label{eq:ciDmu2}\end{equation} where $\hat{\sigma}$ is obtained from equation
-\@ref(sehatjoint). The validity of this again requires that the sample
+\@ref(eq:sehatjoint). The validity of this again requires that the sample
 sizes $n_{1}$ and $n_{2}$ from both groups are reasonably large, say
 both at least 20. For the housework Example 7.2, the 95% confidence
 interval is $$1.16\pm 1.96\times 0.353 = 1.16 \pm 0.69 = (0.47; 1.85)$$
@@ -742,7 +742,7 @@ i.e. $t=\hat{\Delta}/\hat{\sigma}_{\hat{\Delta}}$, with
 $\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}$. The only change in the
 calculations is that the estimate of the standard error of
 $\hat{\Delta}$, the formula of which is given by equation
-(\@ref(sigmaDmu)), now uses separate estimates
+(\@ref(eq:sigmaDmu)), now uses separate estimates
 of $\sigma_{1}$ and $\sigma_{2}$. The obvious choices for these are the
 corresponding sample standard deviations, $s_{1}$ for $\sigma_{1}$ and
 $s_{2}$ for $\sigma_{2}$. This gives the estimated standard error as
@@ -772,7 +772,7 @@ is changed, so for a 95% confidence interval we use
 \label{eq:ciDmu}\end{equation}
 
 In the housework example 7.2, the estimated standard error
-(\@ref(seDmu-ne)) is $$\hat{\sigma}_{\hat{\Delta}}=
+(\@ref(eq:seDmu-ne)) is $$\hat{\sigma}_{\hat{\Delta}}=
 \sqrt{
 \frac{6.14^{2}}{469}+
 \frac{5.53^{2}}{635}
@@ -787,8 +787,8 @@ The differences between the two variants of the test are even smaller in
 Example 7.3, where the estimated standard error
 $\hat{\sigma}_{\hat{\Delta}}=0.383$ is the same (to three decimal
 places) in both cases, and the results are thus identical[^6]. In both
-examples the confidence intervals obtained from (\@ref(ciDmu2)) and
-(\@ref(ciDmu)) are also very similar. Both variants of the two-sample
+examples the confidence intervals obtained from (\@ref(eq:ciDmu2)) and
+(\@ref(eq:ciDmu)) are also very similar. Both variants of the two-sample
 analyses are shown in SPSS output (c.f. Figure \@ref(fig:f-spss2test)), the ones assuming equal population standard
 deviations on the row labelled “Equal variances assumed” and the one
 without this assumption on the “Equal variances not assumed” row[^7].
@@ -802,8 +802,8 @@ assumptions about the population. For this reason it should be used in
 the rare cases where the $P$-values obtained under the different
 assumptions are substantially different. This version of the test
 statistic is also slightly easier to calculate by hand, since
-(\@ref(seDmu-ne)) is a slightly simpler formula than
-(\@ref(seD2))–(\@ref(sehatjoint)). On the other hand, the test statistic
+(\@ref(eq:seDmu-ne)) is a slightly simpler formula than
+(\@ref(eq:seD2))–(\@ref(eq:sehatjoint)). On the other hand, the test statistic
 which does assume equal standard deviations has the advantage that it is
 more closely related to analogous tests used in more general contexts
 (especially the method of linear regression modelling, discussed in
@@ -836,7 +836,7 @@ which now holds for *any* sample sizes $n_{1}$ and $n_{2}$:
 -   In the two-sample situation specified by assumptions 1–4 at the beginning of Section \@ref(ss-means-inference-intro) (including the assumption of equal population
     standard deviations, $\sigma_{1}=\sigma_{2}=\sigma$), and if also
     the distribution of $Y$ is a normal distribution in both groups, the
-    sampling distribution of the t-test statistic (\@ref(ztestmuDb)) is a
+    sampling distribution of the t-test statistic (\@ref(eq:ztestmuDb)) is a
     $t$ distribution with $n_{1}+n_{2}-2$ degrees of freedom when the
     null hypothesis $H_{0}: \;
     \Delta=\mu_{2}-\mu_{1}=0$ is true in the population.
@@ -920,7 +920,7 @@ $t$ distribution*.
 These results for the sampling distribution hold when the population
 standard deviations $\sigma_{1}$ and $\sigma_{2}$ are assumed to be
 equal. If this assumption is not made, the test statistic is again
-calculated using formulas (\@ref(seDmu-ne)) and (\@ref(ztestmuD)). This case is mathematically more difficult than the
+calculated using formulas (\@ref(eq:seDmu-ne)) and (\@ref(eq:ztestmuD)). This case is mathematically more difficult than the
 previous one, because the sampling distribution of the test statistic
 under the null hypothesis is then not exactly a $t$ distribution even
 when the population distributions are normal. One way of dealing with
@@ -943,7 +943,7 @@ Welch-Satterthwaite approximation, is not particularly interesting or
 worth learning in itself. It is presented here purely for completeness,
 and to give an idea of how the degrees of freedom given in the SPSS
 output are obtained. In Example 7.2 (see Figure \@ref(fig:f-spss2test)) these degrees of freedom are 945.777,
-showing that the approximate degrees of freedom from (\@ref(satter-df))
+showing that the approximate degrees of freedom from (\@ref(eq:satter-df))
 are often not whole numbers. If approximate $P$-values are then obtained
 from a $t$-table, we need to use values for the nearest whole-number
 degrees of freedom shown in the table. This problem does not arise if
@@ -1013,8 +1013,8 @@ both groups is normal. This affects only the multiplier of the standard
 errors, which is now based on a $t$ distribution. The appropriate
 degrees of freedom are again $df=n_{1}+n_{2}-2$ when the population
 standard deviations are assumed equal, and approximately given by
-equation (\@ref(satter-df)) if not. In this case the multiplier in
-(\@ref(ciDpa)) may be labelled $t^{(df)}_{\alpha/2}$ instead of
+equation (\@ref(eq:satter-df)) if not. In this case the multiplier in
+(\@ref(eq:ciDpa)) may be labelled $t^{(df)}_{\alpha/2}$ instead of
 $z_{\alpha/2}$ to draw attention to the fact that it comes from a
 $t$-distribution and depends on the degrees of freedom $df$ as well as
 the significance level $1-\alpha$.
@@ -1146,7 +1146,7 @@ previously, it is again useful to express these hypotheses in terms of
 i.e. the difference between the unknown true mean $\mu$
 and the value $\mu_{0}$ claimed by the null hypothesis. Because this is
 0 if and only if $\mu$ and $\mu_{0}$ are equal, the null hypothesis
-(\@ref(H01)) can also be expressed as
+(\@ref(eq:H01)) can also be expressed as
 \begin{equation}H_{0}: \; \Delta=0,\label{eq:H0D}\end{equation}
 and possible alternative hypotheses as
 \begin{equation}H_{0}: \Delta\ne0, \label{eq:HaDtwo}\end{equation}
@@ -1155,7 +1155,7 @@ and possible alternative hypotheses as
 and
 \begin{equation}H_{0}:  \Delta< 0,   \label{eq:HaDonelt}\end{equation}
 corresponding to
-(\@ref(Ha1two)), (\@ref(Ha1onegt)) and (\@ref(Ha1onelt)) respectively.
+(\@ref(eq:Ha1two)), (\@ref(eq:Ha1onegt)) and (\@ref(eq:Ha1onelt)) respectively.
 
 The general formulas summarised in Section
 \@ref(ss-means-inference-intro) can again be used, as long as their
@@ -1175,7 +1175,7 @@ the data from the diet survey:
     \begin{equation}\hat{\sigma}_{\hat{\Delta}} = \frac{s}{\sqrt{n}}.
     \label{eq:seDhat1}\end{equation}
 
--   The $t$-test statistic for testing the null hypothesis (\@ref(H0D))
+-   The $t$-test statistic for testing the null hypothesis (\@ref(eq:H0D))
     is \begin{equation}t=\frac{\hat{\Delta}}{\hat{\sigma}_{\hat{\Delta}}} =
     \frac{\bar{Y}-\mu_{0}}{s/\sqrt{n}}.
     \label{eq:tD1}\end{equation}
@@ -1212,19 +1212,19 @@ the data from the diet survey:
     corresponding multiplier $t_{\alpha/2}^{(n-1)}$ from the
     $t_{n-1}$ distribution.
 
-    Instead of the interval (\@ref(ciD1)) for the difference
+    Instead of the interval (\@ref(eq:ciD1)) for the difference
     $\Delta=\mu-\mu_{0}$, it is usually more sensible to report a
     confidence interval for $\mu$ itself. This is given by
     \begin{equation}\bar{Y} \pm z_{\alpha/2} \, \frac{s}{\sqrt{n}},
     \label{eq:cimu1}\end{equation} which is obtained by adding $\mu_{0}$ to both end
-    points of (\@ref(ciD1)).
+    points of (\@ref(eq:ciD1)).
 
 For the fruit and vegetable variable in the diet example, the mean under
 the null hypothesis is the dietary recommendation $\mu_{0}=5$. The
-estimated difference (\@ref(Dhat1)) is $$\hat{\Delta}=2.8-5=-2.2$$ and
-its estimated standard error (\@ref(seDhat1)) is
+estimated difference (\@ref(eq:Dhat1)) is $$\hat{\Delta}=2.8-5=-2.2$$ and
+its estimated standard error (\@ref(eq:seDhat1)) is
 $$\hat{\sigma}_{\hat{\Delta}}= \frac{2.15}{\sqrt{1724}} = 0.05178,$$ so
-the $t$-test statistic (\@ref(tD1)) is
+the $t$-test statistic (\@ref(eq:tD1)) is
 $$t=\frac{-2.2}{0.05178} = -42.49.$$ To obtain the $P$-value for the
 test, $t=-42.49$ is referred to the sampling distribution under the null
 hypothesis, which can here be taken to be the standard normal
@@ -1250,7 +1250,7 @@ $H_{0}:\; \mu\ge 5$, as discussed at the end of Section \@ref(ss-probs-test1samp
 thus also rejected in favour of this one-sided alternative, at any
 conventional significance level.
 
-A 95% confidence interval for $\mu$ is obtained from (\@ref(cimu1)) as
+A 95% confidence interval for $\mu$ is obtained from (\@ref(eq:cimu1)) as
 $$2.8\pm 1.96 \times \frac{2.15}{\sqrt{1724}}
 =2.8\pm 1.96 \times 0.05178=
 2.8\pm 0.10 = (2.70; 2.90).$$ We are thus 95% confident that the average
@@ -1269,14 +1269,14 @@ denoted by $N$ in our notation), “Mean” the sample mean $\bar{Y}$,
 the estimate of the standard error of the mean given by
 $s/\sqrt{n}=2.15/\sqrt{1724}=0.05178$, “Mean Difference” the difference
 $\hat{\Delta}=\bar{Y}-\mu_{0}=2.8-5=-2.2$, and “t” the $t$-test
-statistic (\@ref(tD1)). The $P$-value against the two-sided alternative
+statistic (\@ref(eq:tD1)). The $P$-value against the two-sided alternative
 hypothesis is shown as “Sig. (2-tailed)” (reported in the somewhat
 sloppy SPSS manner as “.000”). This is actually obtained from the $t$
 distribution, the degrees of freedom of which ($n-1=1723$) are given
 under “df”. Finally, the output also contains a 95% confidence interval
 for the difference $\Delta=\mu-\mu_{0}$, i.e. the interval
-(\@ref(ciD1)).[^11] This is given as $(-2.30; -2.10)$. To obtain the more
-convenient confidence interval (\@ref(cimu1)) for $\mu$ itself, we only
+(\@ref(eq:ciD1)).[^11] This is given as $(-2.30; -2.10)$. To obtain the more
+convenient confidence interval (\@ref(eq:cimu1)) for $\mu$ itself, we only
 need to add $\mu_{0}=5$ to both end points of the interval shown by
 SPSS, to obtain $(-2.30+5;
 -2.10+5)=(2.70; 2.90)$ as before.
@@ -1483,7 +1483,7 @@ of $D_{i}$ for it are shown in Table \@ref(tab:t-F13), and the summary
 statistics $\overline{D}=-1835$ and $s_{D}=1176$ in Table
 \@ref(tab:t-groupex). The standard error of $\overline{D}$ is thus
 $s_{D}/\sqrt{n}=1176/\sqrt{10}=372$ and the value of the test statistic
-(\@ref(zD-dep)) is
+(\@ref(eq:zD-dep)) is
 $$z=\frac{-1835}{1176/\sqrt{10}}=\frac{-1835}{372}=-4.93.$$ This example
 differs from others we have considered so far in that the sample size of
 $n=10$ is clearly too small for us to rely on large-sample results. It
@@ -1506,7 +1506,7 @@ freedom, for the test statistic $-4.93$ is approximately 0.001. Even
 with only ten pairs of observations, there is significant evidence that
 the volume of traffic on a Friday the 13th differs from that of the
 preceding Friday. A confidence interval for the difference is obtained
-from (\@ref(ciD-dep)) as $$-1835 \pm 2.26 \times 372 = (-2676; -994)$$
+from (\@ref(eq:ciD-dep)) as $$-1835 \pm 2.26 \times 372 = (-2676; -994)$$
 where the multiplier 2.26 is the quantity
 $t_{\alpha/2}^{(n-1)}=t_{0.975}^{(9)}$, obtained from a computer or a
 table of the $t_{9}$-distribution. The interval shows that we are 95%
@@ -1764,8 +1764,8 @@ situation or of possible efforts of trying to change it.
 
 [^6]: In this case this is a consquence of the fact that the sample
     sizes (67 and 66) in the two groups are very similar. When they are
-    exactly equal, formulas (\@ref(sehatjoint))–(\@ref(ztestmuDb)) and
-    (\@ref(seDmu-ne)) actually give exactly the same value for the
+    exactly equal, formulas (\@ref(eq:sehatjoint))–(\@ref(eq:ztestmuDb)) and
+    (\@ref(eq:seDmu-ne)) actually give exactly the same value for the
     standard error $\hat{\sigma}_{\hat{\Delta}}$, and $t$ is thus also
     the same for both variants of the test.
 
