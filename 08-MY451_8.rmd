@@ -739,6 +739,8 @@ model**:
     small number of model parameters, in the case of the simple linear
     regression model just $\alpha$, $\beta$ and $\sigma^{2}$.
 
+![(\#fig:f-spss-linreg) SPSS output for a simple linear regression model for Infant mortality rate given School enrolment in the Global Civil Society data.](spsslinreg){width:15.5cm}
+
 Of course, not all models are equally appropriate for given data, and
 some will be both wrong and useless. The results from a model should
 thus be seriously presented and interpreted only if the model is deemed
@@ -1107,7 +1109,7 @@ errors achieved when we make use of $X_{i}$ to predict values of $Y_{i}$
 with the regression model, instead of predicting $\bar{Y}$ for all
 observations. In slightly informal language, $SSM$ is the part of the
 total variation $TSS$ “explained” by the fitted regression model. In
-this language, (\@ref(ss-decomp)) can be stated as
+this language, (\@ref(eq:ss-decomp)) can be stated as
 
   ------------------------ ----- --------------------- ----- -----------------------
    Total variation of $Y$    =    Variation explained    +    Unexplained variation

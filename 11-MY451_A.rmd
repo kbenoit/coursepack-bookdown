@@ -989,9 +989,9 @@ respondents’ voting intentions, obtained after the debates had ended
     they would vote Liberal Democrat. We will compare it to 0.23, the
     proportion of the vote the party actually received in 2010. The
     analysis is thus one-sample inference on a population proportion,
-    and the relevant formulas are (\@ref(eq:ztestp))
-    for the test statistic and (\@ref(eq:cip2)) for the
-    confidence interval.
+    and the relevant formulas are (11)
+    for the test statistic and (15) for the
+    confidence interval that can be found in Section \@ref(ss-probs-test1sample-teststatistic) and \@ref(s-probs-1sampleci-calc) respectively.
 
     -   Begin by creating a frequency table of *VOTE\_LIBDEM*. This
         should show that the sample estimate of $\pi$ is 0.260, out of
@@ -999,8 +999,7 @@ respondents’ voting intentions, obtained after the debates had ended
         $\hat{\pi}=0.260$ in the notation of Chapter \@ref(c-probs).
 
     -   For the one-sample significance test, the value of $\pi$ under
-        the null hypothesis is $\pi_{0}=0.230$. Using equation
-        (\@ref(eq:ztestp)), the value of the test statistic $z$ is thus
+        the null hypothesis is $\pi_{0}=0.230$. Using the specific formula of the test statistic in Section \@ref(ss-probs-test1sample-teststatistic), the value of the test statistic $z$ is thus
         given by the calculation
         $$z = \frac{0.260-0.230}{\sqrt{0.230\times (1-0.230)/3226}}$$
         Calculate this using a calculator. The result should be
@@ -1017,7 +1016,7 @@ respondents’ voting intentions, obtained after the debates had ended
 
     -   Calculate a 95% confidence interval for the population
         proportion of prospective Liberal Democrat voters, using
-        equation (\@ref(eq:cip2)).
+        equation (15) at the end of Section \@ref(s-probs-1sampleci-calc).
 
     What do you conclude about the proportions of prospective and actual
     Liberal Democrat voters? Why might the two differ from each other?
@@ -1030,8 +1029,9 @@ respondents’ voting intentions, obtained after the debates had ended
     the debates with those who did not, using the two-sample methods of
     analysis discussed in Section \@ref(s-probs-2samples). The formula of
     the $z$-test statistic for testing the hypothesis of equal
-    population proportions is thus (\@ref(eq:ztestDpi)), and a confidence interval for the difference of
-    the porportions is (\@ref(eq:ciDpi)).
+    population proportions is thus the two-sample $z$-test
+    statistic for proportions (see middle of Section \@ref(s-probs-2samples)), and a confidence interval for the difference of
+    the porportions is (25) in Section \@ref(s-probs-2samples).
 
     -   Begin by calculating the relevant sample proportions. The
         easiest way to do this is by creating a two-way contingency
@@ -1047,8 +1047,8 @@ respondents’ voting intentions, obtained after the debates had ended
 
         where 1 denotes respondents who did not watch any of the debates
         and 2 those who watched at least some. The pooled estimated
-        proportion $\hat{\pi}$ (formula \@ref(eq:phat2sample)) used in the
-        test statistic (\@ref(eq:ztestDpi)) is here $\hat{\pi}=0.260$, shown
+        proportion $\hat{\pi}$ (formula 21 in Section \@ref(s-probs-2samples)) used in the
+        test statistic (23) is here $\hat{\pi}=0.260$, shown
         on the “Total” row.
 
     -   Calculate the test statistic, its $P$-value and a 95% confidence
