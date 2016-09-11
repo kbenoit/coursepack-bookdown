@@ -127,7 +127,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4" data-path="c-tables.html"><a href="c-tables.html"><i class="fa fa-check"></i><b>4</b> Statistical inference for two-way tables</a><ul>
 <li class="chapter" data-level="4.1" data-path="c-tables.html"><a href="c-tables.html#s-tables-intro"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
 <li class="chapter" data-level="4.2" data-path="c-tables.html"><a href="c-tables.html#s-tables-tests"><i class="fa fa-check"></i><b>4.2</b> Significance tests</a></li>
-<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The <span class="math inline">\(\chi^{2}\)</span> test of independence</a><ul>
+<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The chi-square test of independence</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-null"><i class="fa fa-check"></i><b>4.3.1</b> Hypotheses</a></li>
 <li class="chapter" data-level="4.3.2" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-ass"><i class="fa fa-check"></i><b>4.3.2</b> Assumptions of a significance test</a></li>
 <li class="chapter" data-level="4.3.3" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-stat"><i class="fa fa-check"></i><b>4.3.3</b> The test statistic</a></li>
@@ -135,7 +135,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4.3.5" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-Pval"><i class="fa fa-check"></i><b>4.3.5</b> The <span class="math inline">\(P\)</span>-value</a></li>
 <li class="chapter" data-level="4.3.6" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-conclusions"><i class="fa fa-check"></i><b>4.3.6</b> Drawing conclusions from a test</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the <span class="math inline">\(\chi^{2}\)</span> test of independence</a></li>
+<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the chi-square test of independence</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="c-probs.html"><a href="c-probs.html"><i class="fa fa-check"></i><b>5</b> Inference for population proportions</a><ul>
 <li class="chapter" data-level="5.1" data-path="c-probs.html"><a href="c-probs.html#s-probs-intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
@@ -590,13 +590,31 @@ Disagree</td>
 Total</td>
 </tr>
 <tr class="even">
-<td align="left">Male Female Total</td>
-<td align="center">160 206 366</td>
-<td align="center">439 651 1090</td>
-<td align="center">187 239 426</td>
-<td align="center">200 187 387</td>
-<td align="center">41 34 75</td>
-<td align="right">1027 1317 2344</td>
+<td align="left">Male</td>
+<td align="center">160</td>
+<td align="center">439</td>
+<td align="center">187</td>
+<td align="center">200</td>
+<td align="center">41</td>
+<td align="right">1027</td>
+</tr>
+<tr class="odd">
+<td align="left">Female</td>
+<td align="center">206</td>
+<td align="center">651</td>
+<td align="center">239</td>
+<td align="center">187</td>
+<td align="center">34</td>
+<td align="right">1317</td>
+</tr>
+<tr class="even">
+<td align="left">Total</td>
+<td align="center">366</td>
+<td align="center">1090</td>
+<td align="center">426</td>
+<td align="center">387</td>
+<td align="center">75</td>
+<td align="right">2344</td>
 </tr>
 </tbody>
 </table>
@@ -636,13 +654,31 @@ Disagree</td>
 Total</td>
 </tr>
 <tr class="even">
-<td align="left">Male Female Total</td>
-<td align="center">0.068 0.088 0.156</td>
-<td align="center">0.187 0.278 0.465</td>
-<td align="center">0.080 0.102 0.182</td>
-<td align="center">0.085 0.080 0.165</td>
-<td align="center">0.017 0.015 0.032</td>
-<td align="center">0.438 0.562 1.000</td>
+<td align="left">Male</td>
+<td align="center">0.068</td>
+<td align="center">0.187</td>
+<td align="center">0.080</td>
+<td align="center">0.085</td>
+<td align="center">0.017</td>
+<td align="center">0.438</td>
+</tr>
+<tr class="odd">
+<td align="left">Female</td>
+<td align="center">0.088</td>
+<td align="center">0.278</td>
+<td align="center">0.102</td>
+<td align="center">0.080</td>
+<td align="center">0.015</td>
+<td align="center">0.562</td>
+</tr>
+<tr class="even">
+<td align="left">Total</td>
+<td align="center">0.156</td>
+<td align="center">0.465</td>
+<td align="center">0.182</td>
+<td align="center">0.165</td>
+<td align="center">0.032</td>
+<td align="center">1.000</td>
 </tr>
 </tbody>
 </table>
@@ -650,17 +686,93 @@ Total</td>
 <div id="ss-descr1-2cat-cond" class="section level3">
 <h3><span class="header-section-number">2.4.2</span> Conditional proportions</h3>
 <p>A two-way contingency table is symmetric in that it does not distinguish between explanatory and response variables. In many applications, however, this distinction is useful for interpretation. In our example, for instance, it is natural to treat sex as the explanatory variable and attitude towards income redistribution as the response response, and so to focus the interpretation on how attitude may depend on sex.</p>
-<p>The overall proportions are in such cases not the most relevant quantities for interpretation of a table. Instead, we typically calculate proportions within each category of the row variable or the column variable, i.e. the <strong>conditional proportions</strong> of one variable given the other. The numbers in brackets in Table <a href="#tab:t-sex-attitude-row">2.6</a> show these proportions calculated for each <em>row</em> of Table <a href="c-descr1.html#tab:t-sex-attitude">2.4</a> (Table <a href="#tab:t-sex-attitude-row">2.6</a> also includes the actual frequencies; it is advisable to include them even when conditional proportions are of most interest, to show the numbers on which the proportions are based). In other words, these are the conditional proportions of attitude towards income redistribution given sex, i.e. separately for men and women. For example, the number 0.156 in the top left-hand corner of Table <a href="#tab:t-sex-attitude-row">2.6</a> is obtained by dividing the number of male respondents who agreed strongly with the statement (160) by the total number of male respondents (1027). Thus 15.6% of the men strongly agreed, and for example 2.6% of women strongly disagreed with the statement. The (1.0) in the last column of the table indicate that the proportions sum to 1 along each row, to remind us that the conditional proportions have been calculated within the rows. The bracketed proportions in the ‘Total’ row are the proportions of the <em>marginal</em> distribution of the attitude variable, so they are the same as the proportions in the ‘Total’ row of Table <a href="c-descr1.html#tab:t-sex-attitude-pr">2.5</a>.</p>
-<hr />
-<p>  Agree   Neither agree   Disagree<br />
-Sex strongly Agree nor disagree Disagree strongly Total</p>
-<p>Male 160 439 187 200 41 1027 (0.156) (0.428) (0.182) (0.195) (0.040) (1.0) Female 206 651 239 187 34 1317 (0.156) (0.494) (0.182) (0.142) (0.026) (1.0) Total 366 1090 426 387 75 2344 (0.156) (0.465) (0.182) (0.165) (0.032) (1.0) ————- ————— ——— ————— ———- ———- ——-</p>
-<p>: (#tab:t-sex-attitude-row) <em>``The government should take measures to reduce differences in income levels’’</em>: Two-way table of frequencies of respondents in the survey example, by sex and attitude towards income redistribution. The numbers in brackets are proportions within the rows, i.e. conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.</p>
+<p>The overall proportions are in such cases not the most relevant quantities for interpretation of a table. Instead, we typically calculate proportions within each category of the row variable or the column variable, i.e. the <strong>conditional proportions</strong> of one variable given the other. The numbers in brackets in Table <a href="c-descr1.html#tab:t-sex-attitude-row">2.6</a> show these proportions calculated for each <em>row</em> of Table <a href="c-descr1.html#tab:t-sex-attitude">2.4</a> (Table <a href="c-descr1.html#tab:t-sex-attitude-row">2.6</a> also includes the actual frequencies; it is advisable to include them even when conditional proportions are of most interest, to show the numbers on which the proportions are based). In other words, these are the conditional proportions of attitude towards income redistribution given sex, i.e. separately for men and women. For example, the number 0.156 in the top left-hand corner of Table <a href="c-descr1.html#tab:t-sex-attitude-row">2.6</a> is obtained by dividing the number of male respondents who agreed strongly with the statement (160) by the total number of male respondents (1027). Thus 15.6% of the men strongly agreed, and for example 2.6% of women strongly disagreed with the statement. The (1.0) in the last column of the table indicate that the proportions sum to 1 along each row, to remind us that the conditional proportions have been calculated within the rows. The bracketed proportions in the ‘Total’ row are the proportions of the <em>marginal</em> distribution of the attitude variable, so they are the same as the proportions in the ‘Total’ row of Table <a href="c-descr1.html#tab:t-sex-attitude-pr">2.5</a>.</p>
+<table style="width:98%;">
+<caption><span id="tab:t-sex-attitude-row">Table 2.6: </span> <em>``The government should take measures to reduce differences in income levels’’</em>: Two-way table of frequencies of respondents in the survey example, by sex and attitude towards income redistribution. The numbers in brackets are proportions within the rows, i.e. conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.</caption>
+<colgroup>
+<col width="16%" />
+<col width="18%" />
+<col width="11%" />
+<col width="18%" />
+<col width="12%" />
+<col width="12%" />
+<col width="8%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left"><br />
+Sex</td>
+<td align="center">Agree strongly</td>
+<td align="center"><br />
+Agree</td>
+<td align="center">Neither agree nor disagree</td>
+<td align="center"><br />
+Disagree</td>
+<td align="center">Disagree strongly</td>
+<td align="center"><br />
+Total</td>
+</tr>
+<tr class="even">
+<td align="left">Male</td>
+<td align="center">160</td>
+<td align="center">439</td>
+<td align="center">187</td>
+<td align="center">200</td>
+<td align="center">41</td>
+<td align="center">1027</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">(0.156)</td>
+<td align="center">(0.428)</td>
+<td align="center">(0.182)</td>
+<td align="center">(0.195)</td>
+<td align="center">(0.040)</td>
+<td align="center">(1.0)</td>
+</tr>
+<tr class="even">
+<td align="left">Female</td>
+<td align="center">206</td>
+<td align="center">651</td>
+<td align="center">239</td>
+<td align="center">187</td>
+<td align="center">34</td>
+<td align="center">1317</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">(0.156)</td>
+<td align="center">(0.494)</td>
+<td align="center">(0.182)</td>
+<td align="center">(0.142)</td>
+<td align="center">(0.026)</td>
+<td align="center">(1.0)</td>
+</tr>
+<tr class="even">
+<td align="left">Total</td>
+<td align="center">366</td>
+<td align="center">1090</td>
+<td align="center">426</td>
+<td align="center">387</td>
+<td align="center">75</td>
+<td align="center">2344</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">(0.156)</td>
+<td align="center">(0.465)</td>
+<td align="center">(0.182)</td>
+<td align="center">(0.165)</td>
+<td align="center">(0.032)</td>
+<td align="center">(1.0)</td>
+</tr>
+</tbody>
+</table>
 <p>We could also have calculated conditional proportions within the <em>columns</em>, i.e. for sex given attitude. For example, the proportion <span class="math inline">\(0.563=206/366\)</span> of all respondents who strongly agreed with the statement are women. These, however, seem less interesting, because it seems more natural to examine how attitude varies by sex rather than how sex varies by attitude. In general, for any two-way table we can calculate conditional proportions for both the rows and the columns, but typically only one of them is used for interpretation.</p>
 </div>
 <div id="ss-descr1-2cat-assoc" class="section level3">
 <h3><span class="header-section-number">2.4.3</span> Conditional distributions and associations</h3>
-<p>Suppose that we regard one variable in a two-way table as the explanatory variable (let us denote it by <span class="math inline">\(X\)</span>) and the other variable as the response variable (<span class="math inline">\(Y\)</span>). In our survey example, sex is thus <span class="math inline">\(X\)</span> and attitude is <span class="math inline">\(Y\)</span>. Here the dichotomous <span class="math inline">\(X\)</span> divides the full sample into two groups, identified by the observed value of <span class="math inline">\(X\)</span> — men and women. We may then think of these two groups as two separate samples, and consider statistical quantities separately for each of them. In particular, in Table <a href="#tab:t-sex-attitude-row">2.6</a> we calculated conditional proportions for <span class="math inline">\(Y\)</span> given <span class="math inline">\(X\)</span>, i.e. for attitude given sex. These proportions describe two distinct sample distributions of <span class="math inline">\(Y\)</span>, one for men and one for women. They are examples of <em>conditional distributions</em>:</p>
+<p>Suppose that we regard one variable in a two-way table as the explanatory variable (let us denote it by <span class="math inline">\(X\)</span>) and the other variable as the response variable (<span class="math inline">\(Y\)</span>). In our survey example, sex is thus <span class="math inline">\(X\)</span> and attitude is <span class="math inline">\(Y\)</span>. Here the dichotomous <span class="math inline">\(X\)</span> divides the full sample into two groups, identified by the observed value of <span class="math inline">\(X\)</span> — men and women. We may then think of these two groups as two separate samples, and consider statistical quantities separately for each of them. In particular, in Table <a href="c-descr1.html#tab:t-sex-attitude-row">2.6</a> we calculated conditional proportions for <span class="math inline">\(Y\)</span> given <span class="math inline">\(X\)</span>, i.e. for attitude given sex. These proportions describe two distinct sample distributions of <span class="math inline">\(Y\)</span>, one for men and one for women. They are examples of <em>conditional distributions</em>:</p>
 <ul>
 <li>The <strong>conditional distribution</strong> of a variable <span class="math inline">\(Y\)</span> given another variable <span class="math inline">\(X\)</span> is the distribution of <span class="math inline">\(Y\)</span> among those units which have a particular value of <span class="math inline">\(X\)</span>.</li>
 </ul>
@@ -675,7 +787,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <div id="ss-descr1-2cat-descr" class="section level3">
 <h3><span class="header-section-number">2.4.4</span> Describing an association using conditional proportions</h3>
 <p>Two variables presented in a contingency table are associated in the sample if the conditional distributions of one of them vary across the values of the other. This is the case in our data set: for example, 4.0% of men but 2.6% of women strongly disagree with the statement. There is thus some association between sex and attitude in this sample. This much is easy to conclude. What requires a little more work is a more detailed description of the pattern and strength of the association, i.e. how and where the conditional distributions differ from each other.</p>
-<p>The most general way of summarising associations in a contingency table is by comparing the conditional proportions of the same level of the response given different levels of the explanatory variable. There is no simple formula for how this should be done, so you should use your common sense to present comparisons which give a good summary of the patterns across the table. Unless both variables in the table are dichotomous, several different comparisons may be needed, and may not all display similar patterns. For example, in Table <a href="#tab:t-sex-attitude-row">2.6</a> the same proportion (0.156, or 15.6%) of both men and women strongly agree with the statement, whereas the proportion who respond “Agree” is higher for women (49.4%) than for men (42.8%).</p>
+<p>The most general way of summarising associations in a contingency table is by comparing the conditional proportions of the same level of the response given different levels of the explanatory variable. There is no simple formula for how this should be done, so you should use your common sense to present comparisons which give a good summary of the patterns across the table. Unless both variables in the table are dichotomous, several different comparisons may be needed, and may not all display similar patterns. For example, in Table <a href="c-descr1.html#tab:t-sex-attitude-row">2.6</a> the same proportion (0.156, or 15.6%) of both men and women strongly agree with the statement, whereas the proportion who respond “Agree” is higher for women (49.4%) than for men (42.8%).</p>
 <p>When the response variable is ordinal, it is often more illuminating to focus on comparisons of <em>cumulative</em> proportions which add up conditional proportions over two or more adjacent categories. For instance, the combined proportion of respondents who either strongly agree or agree with the statement is a useful summary of the general level of agreement among the respondents. In our example this is 58.4% (<span class="math inline">\(=15.5\%+42.8\%\)</span>) for men but 65.0% for women.</p>
 <p>A comparison between two proportions may be further distilled into a single number by reporting the <em>difference</em> or <em>ratio</em> between them. For example, for the proportions of agreeing or strongly agreeing above, the difference is <span class="math inline">\(0.650-0.584=0.066\)</span>, so the proportion is 0.066 (i.e. 6.6 percentage points) higher for women than for men. The ratio of these proportions is <span class="math inline">\(0.650/0.584=1.11\)</span>, so the proportion for women is 1.11 times the proportion for men (i.e. 11% higher). Both of these indicate that in this sample women were more likely to agree or strongly agree with the statement than were men. In a particular application we might report a difference or a ratio like this, depending on which of them was considered more relevant or easily understandable. Other summaries are also possible; for example, on MY452 we will discuss a measure called the <em>odds ratio</em>, which turns out to be convenient for more general methods of analysing associations involving categorical variables.</p>
 <p>The broad conclusion in the example is that there is an association between sex and attitude in these data from the European Social Survey, and that it is of the kind suggested by existing literature. A larger proportion of women than of men indicate agreement with the statement that the government should take measures to reduce income differences, and conversely larger proportion of men disagree with it (e.g. 23.5% of men but only 16.8% of women disagree or strongly disagree). Thus in this sample women do indeed demonstrate somewhat higher levels of support for income redistribution. Whether these differences also warrant a generalisation of the conclusions to people outside the sample is a question which we will take up in Chapters <a href="c-samples.html#c-samples">3</a> and <a href="c-tables.html#c-tables">4</a>.</p>
@@ -685,26 +797,30 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <p>In the previous example the explanatory variable (sex) had 2 categories and the response variable (attitude) had 5. A full examination of the individual conditional distributions of attitude given sex then involved comparisons of five pairs of proportions, one for each level of the attitude variable. This number gets larger still if the explanatory variable also has several levels, as in the following example:</p>
 <p><em>Example: Importance of short-term gains for investors</em></p>
 <p>Information on the behaviour and expectations of individual investors was collected by sending a questionnaire to a sample of customers of a U.S. brokerage house.<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> One of the questions asked the respondents to state how much importance they placed on quick profits (short-term gains) as an objective when they invested money. The responses were recorded in four categories as “Irrelevant”, “Slightly important”, “Important” or “Very important”. Table <a href="c-descr1.html#tab:t-investors">2.7</a> shows the crosstabulation of this variable with the age of the respondent in four age groups.</p>
-<table>
+<table style="width:98%;">
 <caption><span id="tab:t-investors">Table 2.7: </span> Importance of short-term gains: Frequencies of respondents in the investment example, by age group and attitude towards short-term gains as investment goal. Conditional proportions of attitude given age group are shown in brackets. The value of the <span class="math inline">\(\gamma\)</span> measure of association is <span class="math inline">\(-0.377\)</span>.</caption>
+<colgroup>
+<col width="12%" />
+<col width="47%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+<col width="6%" />
+</colgroup>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="right"></td>
-<td align="right">Slightly</td>
-<td align="right"></td>
-<td align="right">Very</td>
-<td align="right"></td>
+<td align="left"><br />
+Age group</td>
+<td align="right"><br />
+Irrelevant</td>
+<td align="right">Slightly important</td>
+<td align="right"><br />
+Important</td>
+<td align="right">Very important</td>
+<td align="right"><br />
+Total</td>
 </tr>
 <tr class="even">
-<td align="left">Age group</td>
-<td align="right">Irrelevant</td>
-<td align="right">important</td>
-<td align="right">Important</td>
-<td align="right">important</td>
-<td align="right">Total</td>
-</tr>
-<tr class="odd">
 <td align="left">Under 45</td>
 <td align="right">37</td>
 <td align="right">45</td>
@@ -712,7 +828,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">26</td>
 <td align="right">146</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="right">(0.253)</td>
 <td align="right">(0.308)</td>
@@ -720,7 +836,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">(0.178)</td>
 <td align="right">(1.00)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">45–54</td>
 <td align="right">111</td>
 <td align="right">77</td>
@@ -728,7 +844,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">37</td>
 <td align="right">282</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="right">(0.394)</td>
 <td align="right">(0.273)</td>
@@ -736,7 +852,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">(0.131)</td>
 <td align="right">(1.00)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">55–64</td>
 <td align="right">153</td>
 <td align="right">49</td>
@@ -744,7 +860,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">20</td>
 <td align="right">253</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="right">(0.605)</td>
 <td align="right">(0.194)</td>
@@ -752,7 +868,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">(0.079)</td>
 <td align="right">(1.00)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">65 and over</td>
 <td align="right">193</td>
 <td align="right">64</td>
@@ -760,7 +876,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">15</td>
 <td align="right">291</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="right">(0.663)</td>
 <td align="right">(0.220)</td>
@@ -768,7 +884,7 @@ Sex strongly Agree nor disagree Disagree strongly Total</p>
 <td align="right">(0.052)</td>
 <td align="right">(1.00)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left">Total</td>
 <td align="right">494</td>
 <td align="right">235</td>
@@ -812,58 +928,55 @@ A PRE measure describes the size of this improvement. Suppose that the magnitude
 <div id="ss-descr1-1cont-tab" class="section level3">
 <h3><span class="header-section-number">2.5.1</span> Tabular methods</h3>
 <p>A table of frequencies and proportions or percentages is a concise and easily understandable summary of the sample distribution of a categorical variable or any variable for which only a small number of different values have been observed. On the other hand, applying the same idea to a continuous variable or a discrete variable with many different values is likely to be less useful, because all of the individual frequencies may be small. For example, in this section we illustrate the methods using the GDP variable in the country data introduced at the beginning of Section <a href="c-descr1.html#s-descr1-examples">2.2</a>. This has 99 different values among the 155 countries, 66 of these values appear only once, and the largest frequency (for 0.8) is five. A frequency table of these values would be entirely unenlightening.</p>
-<table>
+<table style="width:47%;">
 <caption><span id="tab:t-gdp">Table 2.8: </span> Frequency distribution of GDP per capita in the country data.</caption>
+<colgroup>
+<col width="22%" />
+<col width="16%" />
+<col width="8%" />
+</colgroup>
 <tbody>
 <tr class="odd">
-<td align="left">GDP</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td align="left">(thousands of</td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td align="left">dollars)</td>
-<td>Frequency</td>
-<td>%</td>
+<td align="left">GDP (thousands of dollars)</td>
+<td align="center"><br />
+Frequency</td>
+<td align="right"><br />
+%</td>
 </tr>
 <tr class="even">
 <td align="left">less than 2.0</td>
-<td>49</td>
-<td>31.6</td>
+<td align="center">49</td>
+<td align="right">31.6</td>
 </tr>
 <tr class="odd">
 <td align="left">2.0–4.9</td>
-<td>32</td>
-<td>20.6</td>
+<td align="center">32</td>
+<td align="right">20.6</td>
 </tr>
 <tr class="even">
 <td align="left">5.0–9.9</td>
-<td>29</td>
-<td>18.7</td>
+<td align="center">29</td>
+<td align="right">18.7</td>
 </tr>
 <tr class="odd">
 <td align="left">10.0–19.9</td>
-<td>21</td>
-<td>13.5</td>
+<td align="center">21</td>
+<td align="right">13.5</td>
 </tr>
 <tr class="even">
 <td align="left">20.0–29.9</td>
-<td>19</td>
-<td>12.3</td>
+<td align="center">19</td>
+<td align="right">12.3</td>
 </tr>
 <tr class="odd">
 <td align="left">30.0 or more</td>
-<td>5</td>
-<td>3.2</td>
+<td align="center">5</td>
+<td align="right">3.2</td>
 </tr>
 <tr class="even">
 <td align="left">Total</td>
-<td>155</td>
-<td>99.9</td>
+<td align="center">155</td>
+<td align="right">99.9</td>
 </tr>
 </tbody>
 </table>
@@ -1143,16 +1256,68 @@ The <strong>mean</strong> is the best-known and most widely used measure of cent
 <p>Here <span class="math inline">\(n\)</span> is again the sample size. The symbol <span class="math inline">\(\Sigma\)</span> (upper-case Greek letter “Sigma”) is a <em>summation symbol</em>, which indicates that we calculate the sum of all <span class="math inline">\(Y_{i}\)</span> (often this is stated more explicitly by the notation <span class="math inline">\(\sum_{i} Y_{i}\)</span> or <span class="math inline">\(\sum_{i=1}^{n} Y_{i}\)</span> to make it clear that the summation is over all the values of <span class="math inline">\(i\)</span>). In other words, (\ref{eq:Ybar}) is a concise expression for <span class="math display">\[\bar{Y}= \frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}\]</span> or, in English, “calculate the sum of all the observations of the variable <span class="math inline">\(Y\)</span> in the sample, and divide this sum by the number of observations to obtain the mean of <span class="math inline">\(Y\)</span> in the sample”. For example, for GDP per capita this calculation gives <span class="math display">\[\bar{Y}= \frac{37.8+37.8+32.7+\dots+0.6+0.5+0.5}{155}
 =\frac{1335.1}{155}=8.6\]</span> (rounded to one decimal place), i.e. mean GDP among these countries is about $8600.</p>
 <p>Because the mean requires arithmetical calculations (summation and division) on the observations <span class="math inline">\(Y_{i}\)</span>, it is strictly speaking only appropriate for interval level variables, but not for ordinal ones, for which the numbers of the categories are ordered labels rather than real numbers. However, it is common to see this instruction ignored and means calculated for ordinal variables, especially when they have a large number of categories (see also the discussion under “Measurement Levels” in Section <a href="c-intro.html#ss-intro-def-vartypes">1.2.2</a>). For example, the mean democracy score in our sample (using the codes 0–10 as its values) is 5.4. This may be used as a summary of the central tendency of the variable, but it should not be overinterpreted as its meaning is not quite as clear as that of, say, mean GDP.</p>
-<p>For interval level variables the mean is by far the most commonly used measure of central tendency. It does, however, have one arguably undesirable feature. This is illustrated by the statistics for the GDP variable, as shown in Table <a href="#tab:t-countries-sums">2.11</a>. Its mean ($8600) is clearly much larger than the median ($4700). This is due to the shape of the distribution of GDP, as revealed by Figure <a href="c-descr1.html#fig:f-hist-gdp">2.4</a> or even more clearly by the stem and leaf plot of Figure <a href="c-descr1.html#tab:t-stemgdp">2.9</a>. While most of the countries are concentrated around a fairly narrow range of GDPs, there are also a number of countries with much larger GDPs. The ranges of values in the small and large ends of the values in a distribution are (for fairly obvious visual reasons) called the <strong>tails</strong> of the distribution. A distribution with a (much) longer tail in one end than the other is said to be <strong>skewed</strong>. A distribution like that of GDP in Figure <a href="c-descr1.html#fig:f-hist-gdp">2.4</a>, with its long tail towards the large values, is said to be <strong>skewed to the right</strong> or <strong>positively skewed</strong>. A distribution shown in panel A of Figure <a href="c-descr1.html#fig:f-skews">2.6</a> is <strong>skewed to the left</strong> (<strong>negatively skewed</strong>): while the examination marks of most students are relatively high, there are some students with very low marks. A distribution which has no clear skewness in either direction, like the distribution of typical weekly working hours in panel B of Figure <a href="c-descr1.html#fig:f-skews">2.6</a> is (approximately) <strong>symmetric</strong>.</p>
-<table>
+<p>For interval level variables the mean is by far the most commonly used measure of central tendency. It does, however, have one arguably undesirable feature. This is illustrated by the statistics for the GDP variable, as shown in Table <a href="c-descr1.html#tab:t-countries-sums">2.11</a>. Its mean ($8600) is clearly much larger than the median ($4700). This is due to the shape of the distribution of GDP, as revealed by Figure <a href="c-descr1.html#fig:f-hist-gdp">2.4</a> or even more clearly by the stem and leaf plot of Figure <a href="c-descr1.html#tab:t-stemgdp">2.9</a>. While most of the countries are concentrated around a fairly narrow range of GDPs, there are also a number of countries with much larger GDPs. The ranges of values in the small and large ends of the values in a distribution are (for fairly obvious visual reasons) called the <strong>tails</strong> of the distribution. A distribution with a (much) longer tail in one end than the other is said to be <strong>skewed</strong>. A distribution like that of GDP in Figure <a href="c-descr1.html#fig:f-hist-gdp">2.4</a>, with its long tail towards the large values, is said to be <strong>skewed to the right</strong> or <strong>positively skewed</strong>. A distribution shown in panel A of Figure <a href="c-descr1.html#fig:f-skews">2.6</a> is <strong>skewed to the left</strong> (<strong>negatively skewed</strong>): while the examination marks of most students are relatively high, there are some students with very low marks. A distribution which has no clear skewness in either direction, like the distribution of typical weekly working hours in panel B of Figure <a href="c-descr1.html#fig:f-skews">2.6</a> is (approximately) <strong>symmetric</strong>.</p>
+<table style="width:99%;">
+<caption><span id="tab:t-countries-sums">Table 2.11: </span> Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; <span class="math inline">\(\dagger\)</span>: if the democracy index is treated as an interval-level variable.</caption>
+<colgroup>
+<col width="14%" />
+<col width="13%" />
+<col width="28%" />
+<col width="11%" />
+<col width="10%" />
+<col width="10%" />
+<col width="10%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="right">Measures</th>
+<th align="center">of central</th>
+<th align="center">tendency</th>
+<th align="center">Measures</th>
+<th align="center">of</th>
+<th align="center">variation</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left">  Measures of central tendency Measures of variation</td>
+<td align="left">Variable</td>
+<td align="right">Mode</td>
+<td align="center">Median</td>
+<td align="center">Mean</td>
+<td align="center">Range</td>
+<td align="center">IQR</td>
+<td align="center">s.d.</td>
+</tr>
+<tr class="even">
+<td align="left">Region</td>
+<td align="right">Africa</td>
+<td align="center">*</td>
+<td align="center">*</td>
+<td align="center">*</td>
+<td align="center">*</td>
+<td align="center">*</td>
+</tr>
+<tr class="odd">
+<td align="left">Democracy index</td>
+<td align="right">0</td>
+<td align="center">6</td>
+<td align="center">5.4<span class="math inline">\(^{\dagger}\)</span></td>
+<td align="center">10<span class="math inline">\(^{\dagger}\)</span></td>
+<td align="center">8<span class="math inline">\(^{\dagger}\)</span></td>
+<td align="center">3.9<span class="math inline">\(^{\dagger}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">GDP per capita</td>
+<td align="right">$800 and $1900</td>
+<td align="center">$4700</td>
+<td align="center">$8600</td>
+<td align="center">$37300</td>
+<td align="center">$9700</td>
+<td align="center">$9450</td>
 </tr>
 </tbody>
 </table>
-<p>Variable Mode Median Mean Range IQR s.d. Region Africa * * * * * Democracy index 0 6 5.4<span class="math inline">\(^{\dagger}\)</span> 10<span class="math inline">\(^{\dagger}\)</span> 8<span class="math inline">\(^{\dagger}\)</span> 3.9<span class="math inline">\(^{\dagger}\)</span> GDP per capita $800 and $1900 $4700 $8600 $37300 $9700 $9450 ————————————————————————————————————————————————————–</p>
-<p>: (#tab:t-countries-sums) Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; <span class="math inline">\(\dagger\)</span>: if the democracy index is treated as an interval-level variable.</p>
 <div class="figure"><span id="fig:f-skews"></span>
 <img src="twohists.png" title="fig:" alt=" Examples of a negatively skewed and an approximately symmetric sample distribution. Panel A shows the distribution of examination marks for MY451 (2003; n=419), and B shows the distribution of the number of hours a person usually works in their main job in the 3 per cent Individual Sample of Anonymized Records from the 2001 U.K. Census (n=867,016, respondents with hours 0 or not applicable omitted) Source of the data for panel B: Cathie Marsh Centre for Census and Survey Research, University of Manchester, http://www.ccsr.ac.uk/sars/." width="529" />
 <p class="caption">Figure 2.6:  Examples of a negatively skewed and an approximately symmetric sample distribution. Panel A shows the distribution of examination marks for MY451 (2003; <span class="math inline">\(n=419\)</span>), and B shows the distribution of the number of hours a person usually works in their main job in the 3 per cent Individual Sample of Anonymized Records from the 2001 U.K. Census (<span class="math inline">\(n=867,016\)</span>, respondents with hours 0 or not applicable omitted) Source of the data for panel B: Cathie Marsh Centre for Census and Survey Research, University of Manchester, <a href="http://www.ccsr.ac.uk/sars/" class="uri">http://www.ccsr.ac.uk/sars/</a>.</p>
@@ -1334,7 +1499,7 @@ An inappropriate summary of the deviations is their mean, i.e. <span class="mat
 This is (apart from the <span class="math inline">\(n-1\)</span> rather than <span class="math inline">\(n\)</span> as the divisor) essentially the mean of the squared deviations. Its units of measurement are also squares of the units of the original measurements. For example, the variance of the GDP variable, which is itself measured in (thousands of) dollars, is expressed in dollars squared. This is rather inconvenient for any meaningful interpretation. To obtain a measure of variation expressed in the original units, we can take the square root (indicated below by <span class="math inline">\(\sqrt{\; \; }\)</span>) of the variance. This statistic is the <strong>standard deviation</strong>, often abbreviated as S.D., denoted by <span class="math inline">\(s\)</span> and defined as
 <span class="math display">\[\begin{equation}s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}.}
 \label{eq:sd}\end{equation}\]</span>
-<p>For the class example, this is 0 for Class 1, 1.3 for Class 2, and 3.4 for class 3. In the country data, the standard deviation of GDP is $9450 and that of the democracy score (if it is treated as an interval-level variable) is 3.9, as shown in Table <a href="#tab:t-countries-sums">2.11</a>.</p>
+<p>For the class example, this is 0 for Class 1, 1.3 for Class 2, and 3.4 for class 3. In the country data, the standard deviation of GDP is $9450 and that of the democracy score (if it is treated as an interval-level variable) is 3.9, as shown in Table <a href="c-descr1.html#tab:t-countries-sums">2.11</a>.</p>
 <p>Like the mean, the standard deviation is sensitive to outliers and skewness of the distribution, so sometimes other measures of variation (e.g. IQR or MAD) should be reported instead of, or in addition to it. Nevertheless, the standard deviation is by far the most commonly used measure of variation. One reason for this is that it is very important not just as a descriptive statistic but also as an element in several forms of statistical inference. For description it is typically less immediately interpretable than measures of central tendency. Often the most revealing descriptive uses of the standard deviation are in comparisons between samples, like in the class example above. The following is a real example of this kind, where variation was in fact of more interest than central tendency:</p>
 <p><em>Example: Variation in rates of economic growth</em><br />
 In an article titled “Dancing in step” on November 13th 2004, <em>The Economist</em> discussed a set of data (collected by the J. P. Morgan Chase bank) on the annual growth rates (in percentage points) of the Gross Domestic Products (GDP) of 30 countries for each year since 1971. Measures of central tendency, such as average growth rates for each country and each year, are clearly interesting in this case. However, most of the discussion in the article concerned <em>variation</em> in growth rates, measured by their standard deviation across countries for each year, and especially changes in this variation over time. The standard deviation of growth rates was around 3–5 percentage points for every year until the early 1990s, had fallen to about 2 percentage points in 2003, and was forecast to decline further in subsequent years. There had thus previously been a fair amount of variation in rates of economic growth (with some economies growing faster and some slower, some perhaps being in recession), whereas recently the growth rates had become more similar across countries. The article summarized this in its subtitle as “The world’s economies are more synchronised than ever before”, and went on to discuss the implications of this development for global economy.</p>

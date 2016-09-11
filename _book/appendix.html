@@ -127,7 +127,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4" data-path="c-tables.html"><a href="c-tables.html"><i class="fa fa-check"></i><b>4</b> Statistical inference for two-way tables</a><ul>
 <li class="chapter" data-level="4.1" data-path="c-tables.html"><a href="c-tables.html#s-tables-intro"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
 <li class="chapter" data-level="4.2" data-path="c-tables.html"><a href="c-tables.html#s-tables-tests"><i class="fa fa-check"></i><b>4.2</b> Significance tests</a></li>
-<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The <span class="math inline">\(\chi^{2}\)</span> test of independence</a><ul>
+<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The chi-square test of independence</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-null"><i class="fa fa-check"></i><b>4.3.1</b> Hypotheses</a></li>
 <li class="chapter" data-level="4.3.2" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-ass"><i class="fa fa-check"></i><b>4.3.2</b> Assumptions of a significance test</a></li>
 <li class="chapter" data-level="4.3.3" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-stat"><i class="fa fa-check"></i><b>4.3.3</b> The test statistic</a></li>
@@ -135,7 +135,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4.3.5" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-Pval"><i class="fa fa-check"></i><b>4.3.5</b> The <span class="math inline">\(P\)</span>-value</a></li>
 <li class="chapter" data-level="4.3.6" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-conclusions"><i class="fa fa-check"></i><b>4.3.6</b> Drawing conclusions from a test</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the <span class="math inline">\(\chi^{2}\)</span> test of independence</a></li>
+<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the chi-square test of independence</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="c-probs.html"><a href="c-probs.html"><i class="fa fa-check"></i><b>5</b> Inference for population proportions</a><ul>
 <li class="chapter" data-level="5.1" data-path="c-probs.html"><a href="c-probs.html#s-probs-intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
@@ -1857,8 +1857,220 @@ Sex: Woman; Age: 16; Weight: 7 st 8lbs</p>
 </div>
 <div id="s-disttables-chi2" class="section level3">
 <h3><span class="header-section-number">10.2.3</span> Table of critical values for <span class="math inline">\(\chi^{2}\)</span> distributions</h3>
-<hr />
-<p>df 0.100 0.050 0.010 0.001 1 2.71 3.84 6.63 10.828 2 4.61 5.99 9.21 13.816 3 6.25 7.81 11.34 16.266 4 7.78 9.49 13.28 18.467 5 9.24 11.07 15.09 20.515 6 10.64 12.59 16.81 22.458 7 12.02 14.07 18.48 24.322 8 13.36 15.51 20.09 26.124 9 14.68 16.92 21.67 27.877 10 15.99 18.31 23.21 29.588 11 17.28 19.68 24.72 31.264 12 18.55 21.03 26.22 32.909 13 19.81 22.36 27.69 34.528 14 21.06 23.68 29.14 36.123 15 22.31 25.00 30.58 37.697 16 23.54 26.30 32.00 39.252 17 24.77 27.59 33.41 40.790 18 25.99 28.87 34.81 42.312 19 27.20 30.14 36.19 43.820 20 28.41 31.41 37.57 45.315 25 34.38 37.65 44.31 52.620 30 40.26 43.77 50.89 59.703 40 51.81 55.76 63.69 73.402 50 63.17 67.50 76.15 86.661 60 74.40 79.08 88.38 99.607 70 85.53 90.53 100.43 112.317 80 96.58 101.88 112.33 124.839 90 107.57 113.15 124.12 137.208 100 118.50 124.34 135.81 149.449</p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">df</td>
+<td align="right">0.100</td>
+<td align="right">0.050</td>
+<td align="right">0.010</td>
+<td align="right">0.001</td>
+</tr>
+<tr class="even">
+<td align="left">1</td>
+<td align="right">2.71</td>
+<td align="right">3.84</td>
+<td align="right">6.63</td>
+<td align="right">10.828</td>
+</tr>
+<tr class="odd">
+<td align="left">2</td>
+<td align="right">4.61</td>
+<td align="right">5.99</td>
+<td align="right">9.21</td>
+<td align="right">13.816</td>
+</tr>
+<tr class="even">
+<td align="left">3</td>
+<td align="right">6.25</td>
+<td align="right">7.81</td>
+<td align="right">11.34</td>
+<td align="right">16.266</td>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="right">7.78</td>
+<td align="right">9.49</td>
+<td align="right">13.28</td>
+<td align="right">18.467</td>
+</tr>
+<tr class="even">
+<td align="left">5</td>
+<td align="right">9.24</td>
+<td align="right">11.07</td>
+<td align="right">15.09</td>
+<td align="right">20.515</td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="right">10.64</td>
+<td align="right">12.59</td>
+<td align="right">16.81</td>
+<td align="right">22.458</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="right">12.02</td>
+<td align="right">14.07</td>
+<td align="right">18.48</td>
+<td align="right">24.322</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="right">13.36</td>
+<td align="right">15.51</td>
+<td align="right">20.09</td>
+<td align="right">26.124</td>
+</tr>
+<tr class="even">
+<td align="left">9</td>
+<td align="right">14.68</td>
+<td align="right">16.92</td>
+<td align="right">21.67</td>
+<td align="right">27.877</td>
+</tr>
+<tr class="odd">
+<td align="left">10</td>
+<td align="right">15.99</td>
+<td align="right">18.31</td>
+<td align="right">23.21</td>
+<td align="right">29.588</td>
+</tr>
+<tr class="even">
+<td align="left">11</td>
+<td align="right">17.28</td>
+<td align="right">19.68</td>
+<td align="right">24.72</td>
+<td align="right">31.264</td>
+</tr>
+<tr class="odd">
+<td align="left">12</td>
+<td align="right">18.55</td>
+<td align="right">21.03</td>
+<td align="right">26.22</td>
+<td align="right">32.909</td>
+</tr>
+<tr class="even">
+<td align="left">13</td>
+<td align="right">19.81</td>
+<td align="right">22.36</td>
+<td align="right">27.69</td>
+<td align="right">34.528</td>
+</tr>
+<tr class="odd">
+<td align="left">14</td>
+<td align="right">21.06</td>
+<td align="right">23.68</td>
+<td align="right">29.14</td>
+<td align="right">36.123</td>
+</tr>
+<tr class="even">
+<td align="left">15</td>
+<td align="right">22.31</td>
+<td align="right">25.00</td>
+<td align="right">30.58</td>
+<td align="right">37.697</td>
+</tr>
+<tr class="odd">
+<td align="left">16</td>
+<td align="right">23.54</td>
+<td align="right">26.30</td>
+<td align="right">32.00</td>
+<td align="right">39.252</td>
+</tr>
+<tr class="even">
+<td align="left">17</td>
+<td align="right">24.77</td>
+<td align="right">27.59</td>
+<td align="right">33.41</td>
+<td align="right">40.790</td>
+</tr>
+<tr class="odd">
+<td align="left">18</td>
+<td align="right">25.99</td>
+<td align="right">28.87</td>
+<td align="right">34.81</td>
+<td align="right">42.312</td>
+</tr>
+<tr class="even">
+<td align="left">19</td>
+<td align="right">27.20</td>
+<td align="right">30.14</td>
+<td align="right">36.19</td>
+<td align="right">43.820</td>
+</tr>
+<tr class="odd">
+<td align="left">20</td>
+<td align="right">28.41</td>
+<td align="right">31.41</td>
+<td align="right">37.57</td>
+<td align="right">45.315</td>
+</tr>
+<tr class="even">
+<td align="left">25</td>
+<td align="right">34.38</td>
+<td align="right">37.65</td>
+<td align="right">44.31</td>
+<td align="right">52.620</td>
+</tr>
+<tr class="odd">
+<td align="left">30</td>
+<td align="right">40.26</td>
+<td align="right">43.77</td>
+<td align="right">50.89</td>
+<td align="right">59.703</td>
+</tr>
+<tr class="even">
+<td align="left">40</td>
+<td align="right">51.81</td>
+<td align="right">55.76</td>
+<td align="right">63.69</td>
+<td align="right">73.402</td>
+</tr>
+<tr class="odd">
+<td align="left">50</td>
+<td align="right">63.17</td>
+<td align="right">67.50</td>
+<td align="right">76.15</td>
+<td align="right">86.661</td>
+</tr>
+<tr class="even">
+<td align="left">60</td>
+<td align="right">74.40</td>
+<td align="right">79.08</td>
+<td align="right">88.38</td>
+<td align="right">99.607</td>
+</tr>
+<tr class="odd">
+<td align="left">70</td>
+<td align="right">85.53</td>
+<td align="right">90.53</td>
+<td align="right">100.43</td>
+<td align="right">112.317</td>
+</tr>
+<tr class="even">
+<td align="left">80</td>
+<td align="right">96.58</td>
+<td align="right">101.88</td>
+<td align="right">112.33</td>
+<td align="right">124.839</td>
+</tr>
+<tr class="odd">
+<td align="left">90</td>
+<td align="right">107.57</td>
+<td align="right">113.15</td>
+<td align="right">124.12</td>
+<td align="right">137.208</td>
+</tr>
+<tr class="even">
+<td align="left">100</td>
+<td align="right">118.50</td>
+<td align="right">124.34</td>
+<td align="right">135.81</td>
+<td align="right">149.449</td>
+</tr>
+</tbody>
+</table>
 <p><em>Explanation</em>: For example, the value 2.71 in the top left corner indicates that for a <span class="math inline">\(\chi^{2}\)</span> distribution with 1 degree of freedom the probability of values greater than 2.71 is 0.100.</p>
 
 </div>

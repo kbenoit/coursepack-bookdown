@@ -15,11 +15,17 @@ conditional proportions for attitude given sex.
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
   \                                                                                                        Agree                                             Neither agree              Disagree  
   Sex                                                                                                    strongly                                   Agree    nor disagree    Disagree   strongly    Total
+
   Male                                                                                                      160                                      439          187          200         41        1027
+
                                                                                                           (0.156)                                  (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
+
   Female                                                                                                    206                                      651          239          187         34        1317
+
                                                                                                           (0.156)                                  (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
+
   Total                                                                                                     366                                     1090          426          387         75        2344
+
                                                                                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
@@ -136,7 +142,7 @@ This means that all of the significance tests you will learn on this
 course or elsewhere have the same basic structure, and differ only in
 their details.
 
-## The $\chi^{2}$ test of independence {#s-tables-chi2test}
+## The chi-square test of independence {#s-tables-chi2test}
 
 ### Hypotheses {#ss-tables-chi2test-null}
 
@@ -558,11 +564,17 @@ the real sample that we have actually observed.
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
   \                                         Agree                                      \      Neither agree       \      Disagree        \
   Sex                                     strongly                                   Agree    nor disagree    Disagree   strongly    Total
+
   Male                                      3.744                                   11.160        4.368        3.960      0.768      24.00
+
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+
   Female                                    4.056                                   12.090        4.732        4.290      0.832      26.00
+
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+
   Total                                     7.800                                   23.250        9.100        8.250      1.600         50
+
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
@@ -576,11 +588,17 @@ the real sample that we have actually observed.
   ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
   \                                                Agree        \      Neither agree      \       Disagree        \
   Sex                                             strongly    Agree    nor disagree    Disagree   strongly    Total
+
   Male                                              181        505          191          203         41        1121
+
                                                   (0.161)    (0.450)      (0.170)      (0.181)    (0.037)     (1.0)
+
   Female                                            183        569          229          202         40        1223
+
                                                   (0.150)    (0.465)      (0.187)      (0.165)    (0.033)     (1.0)
+
   Total                                             364       1074          420          405         81        2344
+
                                                   (0.155)    (0.458)      (0.179)      (0.173)    (0.035)     (1.0)
   ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
 
@@ -947,7 +965,7 @@ a two-way table. Instead, we would then go on to describe *how* the two
 variables appear to be associated, using the of descriptive methods
 discussed in Section \@ref(s-descr1-2cat).
 
-## Summary of the $\chi^{2}$ test of independence {#s-tables-summary}
+## Summary of the chi-square test of independence {#s-tables-summary}
 
 We have now described the elements of a significance test in some
 detail. Since it is easy to lose sight of the practical steps of a test

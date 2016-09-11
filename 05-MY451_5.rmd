@@ -91,26 +91,41 @@ possible census error in it).
   **One sample**                                                                      \       \             \                        \          \          \               \
   --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
   Example 5.1: Voting intention in an EU referendum
+
                                                                                     $n$     Yes   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+
                                                                                     702     330         0.470                      0.5    $-1.59$      0.112         (0.433;
+
                                                                                                                                                                       0.507)
 
   Example 5.2: Race of members of jury panel
+
                                                                                     $n$   Black   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+
                                                                                    4950     226        0.0457                    0.124   $-16.71$   $<0.001$         (0.040;
+
                                                                                                                                                                       0.052)
 
   **Two Independent samples**
+
   Example 5.3: Polio diagnoses in a vaccine trial
+
                                                                                     $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+
   Control group                                                                 201,229     142      0.000706                                                
+
   (placebo)                                                                                                                                                  
+
   Treatment group                                                               200,745      57      0.000284              $-0.000422$    $-6.01$   $<0.001$   $(-0.000560;$
+
   (vaccine)                                                                                                                                                     $-0.000284)$
 
   Example 5.4: Optimistic about young people's future
+
                                                                                     $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+
   Negative question                                                                 921     257         0.279                                                
+
   Positive question                                                                 929     338         0.364                    0.085       3.92   $<0.001$         (0.043;
                                                                                                                                                                       0.127)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------

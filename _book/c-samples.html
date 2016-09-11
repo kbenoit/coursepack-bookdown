@@ -127,7 +127,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4" data-path="c-tables.html"><a href="c-tables.html"><i class="fa fa-check"></i><b>4</b> Statistical inference for two-way tables</a><ul>
 <li class="chapter" data-level="4.1" data-path="c-tables.html"><a href="c-tables.html#s-tables-intro"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
 <li class="chapter" data-level="4.2" data-path="c-tables.html"><a href="c-tables.html#s-tables-tests"><i class="fa fa-check"></i><b>4.2</b> Significance tests</a></li>
-<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The <span class="math inline">\(\chi^{2}\)</span> test of independence</a><ul>
+<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The chi-square test of independence</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-null"><i class="fa fa-check"></i><b>4.3.1</b> Hypotheses</a></li>
 <li class="chapter" data-level="4.3.2" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-ass"><i class="fa fa-check"></i><b>4.3.2</b> Assumptions of a significance test</a></li>
 <li class="chapter" data-level="4.3.3" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-stat"><i class="fa fa-check"></i><b>4.3.3</b> The test statistic</a></li>
@@ -135,7 +135,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4.3.5" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-Pval"><i class="fa fa-check"></i><b>4.3.5</b> The <span class="math inline">\(P\)</span>-value</a></li>
 <li class="chapter" data-level="4.3.6" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-conclusions"><i class="fa fa-check"></i><b>4.3.6</b> Drawing conclusions from a test</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the <span class="math inline">\(\chi^{2}\)</span> test of independence</a></li>
+<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the chi-square test of independence</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="c-probs.html"><a href="c-probs.html"><i class="fa fa-check"></i><b>5</b> Inference for population proportions</a><ul>
 <li class="chapter" data-level="5.1" data-path="c-probs.html"><a href="c-probs.html#s-probs-intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
@@ -318,16 +318,110 @@ A political-science article<a href="#fn14" class="footnoteRef" id="fnref14"><sup
 <p>We will introduce the idea of a population distribution first for finite populations, before extending it to infinite ones. The discussion in this section focuses on categorical variables, because the concepts are easiest to explain in that context; generalisations to continuous variables are discussed in Chapter <a href="c-means.html#c-means">7</a>.</p>
 <p>Suppose that we have drawn a sample of <span class="math inline">\(n\)</span> units from a finite population and determined the values of some variables for them. The units that are not in the sample also possess values of the variables, even though these are not observed. We can thus easily imagine how any of the methods which were in Chapter <a href="c-descr1.html#c-descr1">2</a> used to describe a sample could also be applied in the same way to the whole population, if only we knew all the values in it. In particular, we can, paralleling the sample distribution of a variable, define the <strong>population distribution</strong> as the set of values of the variable which appear in the population, together with the frequencies of each value.</p>
 <p>For illustration, consider again the example introduced early in Section <a href="c-descr1.html#s-descr1-examples">2.2</a>. The two variables there are a person’s sex and his or her attitude toward income redistribution. We have observed them for a sample <span class="math inline">\(n=2344\)</span> people drawn from the population of all UK residents aged 15 or over. The sample distributions are summarised by Table <a href="c-descr1.html#tab:t-attitude">2.3</a>.</p>
-<hr />
-<p>  Agree   Neither agree   Disagree<br />
-Sex strongly Agree nor disagree Disagree strongly Total</p>
-<p>Male 3.84 10.08 4.56 4.32 1.20 24.00 (16.00) (42.00) (19.00) (18.00) (5.00) (100) <span class="math display">\[7.68\]</span> <span class="math display">\[20.16\]</span> <span class="math display">\[9.12\]</span> <span class="math display">\[8.64\]</span> <span class="math display">\[2.40\]</span> <span class="math display">\[48.00\]</span> Female 4.16 13.00 4.68 3.38 0.78 26.00 (16.00) (50.00) (18.00) (13.00) (3.00) (100) <span class="math display">\[8.32\]</span> <span class="math display">\[26.00\]</span> <span class="math display">\[9.36\]</span> <span class="math display">\[6.76\]</span> <span class="math display">\[1.56\]</span> <span class="math display">\[52.00\]</span> Total 8.00 23.08 9.24 7.70 1.98 50 (16.00) (46.16) (18.48) (15.40) (3.96) (100) ——– ———————————————————————– ———– ————— ———- ———- ———–</p>
-<p>: (#tab:t-sex-attitude-pop) <em>``The government should take measures to reduce differences in income levels’’</em>: Attitude towards income redistribution by sex, in a hypothetical population of 50 million people. The numbers in the table are frequencies in millions of people, row percentages (in parentheses) and overall percentages <span class="math display">\[in square brackets\]</span>.</p>
-<p>Imagine now that the full population consisted of 50 million people, and that the values of the two variables for them were as shown in Table <a href="#tab:t-sex-attitude-pop">3.1</a>. The frequencies in this table desribe the population distribution of the variables in this hypothetical population, with the joint distribution of sex and attitude shown by the internal cells of the table and the marginal distributions by its margins. So there are for example 3.84 million men and 4.16 million women in the population who strongly agree with the attitude statement, and 1.98 million people overall who strongly disagree with it.</p>
-<p>Rather than the frequencies, it is more helpful to discuss population distributions in terms of proportions. Table <a href="#tab:t-sex-attitude-pop">3.1</a> shows two sets of them, the overall proportions <span class="math display">\[in square brackets\]</span> out of the total population size, and the two rows of conditional proportions of attitude given sex (in parentheses). Either of these can be used to introduce the ideas of population distributions, but we focus on the conditional proportions because they will be more convenient for the discussion in later chapters. In this population we observe, for example, that the conditional proportion of “Strongly disagree” given that a person is a woman is 0.03, i.e. 3% of women strongly disagree with the statement, while among men the corresponding conditional proportion is 0.05.</p>
-<p>Instead of “proportions”, when we discuss population distributions we will usually talk of “probabilities”. The two terms are equivalent when the population is finite and the variables are categorical, as in Table <a href="#tab:t-sex-attitude-pop">3.1</a>, but the language of probabilities is more appropriate in other cases. We can then say that Table <a href="#tab:t-sex-attitude-pop">3.1</a> shows two sets of <strong>conditional probabilities</strong> in the population, which define two conditional <strong>probability distributions</strong> for attitude given sex.</p>
+<table style="width:99%;">
+<caption><span id="tab:t-sex-attitude-pop">Table 3.1: </span> <em>``The government should take measures to reduce differences in income levels’’</em>: Attitude towards income redistribution by sex, in a hypothetical population of 50 million people. The numbers in the table are frequencies in millions of people, row percentages (in parentheses) and overall percentages in square brackets.</caption>
+<colgroup>
+<col width="6%" />
+<col width="50%" />
+<col width="8%" />
+<col width="11%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left"><br />
+Sex</td>
+<td align="center">Agree strongly</td>
+<td align="center"><br />
+Agree</td>
+<td align="center">Neither agree nor disagree</td>
+<td align="center"><br />
+Disagree</td>
+<td align="center">Disagree strongly</td>
+<td align="right"><br />
+Total</td>
+</tr>
+<tr class="even">
+<td align="left">Male</td>
+<td align="center">3.84</td>
+<td align="center">10.08</td>
+<td align="center">4.56</td>
+<td align="center">4.32</td>
+<td align="center">1.20</td>
+<td align="right">24.00</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">(16.00)</td>
+<td align="center">(42.00)</td>
+<td align="center">(19.00)</td>
+<td align="center">(18.00)</td>
+<td align="center">(5.00)</td>
+<td align="right">(100)</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="center"><span class="math display">\[7.68\]</span></td>
+<td align="center"><span class="math display">\[20.16\]</span></td>
+<td align="center"><span class="math display">\[9.12\]</span></td>
+<td align="center"><span class="math display">\[8.64\]</span></td>
+<td align="center"><span class="math display">\[2.40\]</span></td>
+<td align="right"><span class="math display">\[48.00\]</span></td>
+</tr>
+<tr class="odd">
+<td align="left">Female</td>
+<td align="center">4.16</td>
+<td align="center">13.00</td>
+<td align="center">4.68</td>
+<td align="center">3.38</td>
+<td align="center">0.78</td>
+<td align="right">26.00</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="center">(16.00)</td>
+<td align="center">(50.00)</td>
+<td align="center">(18.00)</td>
+<td align="center">(13.00)</td>
+<td align="center">(3.00)</td>
+<td align="right">(100)</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center"><span class="math display">\[8.32\]</span></td>
+<td align="center"><span class="math display">\[26.00\]</span></td>
+<td align="center"><span class="math display">\[9.36\]</span></td>
+<td align="center"><span class="math display">\[6.76\]</span></td>
+<td align="center"><span class="math display">\[1.56\]</span></td>
+<td align="right"><span class="math display">\[52.00\]</span></td>
+</tr>
+<tr class="even">
+<td align="left">Total</td>
+<td align="center">8.00</td>
+<td align="center">23.08</td>
+<td align="center">9.24</td>
+<td align="center">7.70</td>
+<td align="center">1.98</td>
+<td align="right">50</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="center">(16.00)</td>
+<td align="center">(46.16)</td>
+<td align="center">(18.48)</td>
+<td align="center">(15.40)</td>
+<td align="center">(3.96)</td>
+<td align="right">(100)</td>
+</tr>
+</tbody>
+</table>
+<p>Imagine now that the full population consisted of 50 million people, and that the values of the two variables for them were as shown in Table <a href="c-samples.html#tab:t-sex-attitude-pop">3.1</a>. The frequencies in this table desribe the population distribution of the variables in this hypothetical population, with the joint distribution of sex and attitude shown by the internal cells of the table and the marginal distributions by its margins. So there are for example 3.84 million men and 4.16 million women in the population who strongly agree with the attitude statement, and 1.98 million people overall who strongly disagree with it.</p>
+<p>Rather than the frequencies, it is more helpful to discuss population distributions in terms of proportions. Table <a href="c-samples.html#tab:t-sex-attitude-pop">3.1</a> shows two sets of them, the overall proportions in square brackets out of the total population size, and the two rows of conditional proportions of attitude given sex (in parentheses). Either of these can be used to introduce the ideas of population distributions, but we focus on the conditional proportions because they will be more convenient for the discussion in later chapters. In this population we observe, for example, that the conditional proportion of “Strongly disagree” given that a person is a woman is 0.03, i.e. 3% of women strongly disagree with the statement, while among men the corresponding conditional proportion is 0.05.</p>
+<p>Instead of “proportions”, when we discuss population distributions we will usually talk of “probabilities”. The two terms are equivalent when the population is finite and the variables are categorical, as in Table <a href="c-samples.html#tab:t-sex-attitude-pop">3.1</a>, but the language of probabilities is more appropriate in other cases. We can then say that Table <a href="c-samples.html#tab:t-sex-attitude-pop">3.1</a> shows two sets of <strong>conditional probabilities</strong> in the population, which define two conditional <strong>probability distributions</strong> for attitude given sex.</p>
 <p>The notion of a probability distribution creates a conceptual connection between population distributions and sampling from them. This is that the probabilities of the population distribution can also be thought of as sampling probabilities in (simple random) sampling from the population. For example, here the conditional probability of “Strongly disagree” among men is 0.05, while the probability of “Strongly agree” is 0.16. The sampling interpretation of this is that if we sample a man at random from the population, the probability is 0.05 that he strongly disagrees and 0.16 that he strongly agrees with the attitude statement.</p>
-<p>The view of population distributions as probability distributions works also in other cases than the kind that is illustrated by Table <a href="#tab:t-sex-attitude-pop">3.1</a>. First, it applies also for continuous variables, where proportions of individual values are less useful (this is discussed further in Chapter <a href="c-means.html#c-means">7</a>). Second, it is also appropriate when the population is regarded as an infinite superpopulation, in which case the idea of population <em>frequencies</em> is not meaningful. With this device we have thus reached a formulation of a population distribution which is flexible enough to cover all the situations where we will need it.</p>
+<p>The view of population distributions as probability distributions works also in other cases than the kind that is illustrated by Table <a href="c-samples.html#tab:t-sex-attitude-pop">3.1</a>. First, it applies also for continuous variables, where proportions of individual values are less useful (this is discussed further in Chapter <a href="c-means.html#c-means">7</a>). Second, it is also appropriate when the population is regarded as an infinite superpopulation, in which case the idea of population <em>frequencies</em> is not meaningful. With this device we have thus reached a formulation of a population distribution which is flexible enough to cover all the situations where we will need it.</p>
 </div>
 <div id="s-samples-inference" class="section level2">
 <h2><span class="header-section-number">3.6</span> Need for statistical inference</h2>

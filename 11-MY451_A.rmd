@@ -1668,6 +1668,7 @@ critical values for the standard normal distribution.
   80                                                  96.58   101.88   112.33   124.839
   90                                                 107.57   113.15   124.12   137.208
   100                                                118.50   124.34   135.81   149.449
+  ----- --------------------------------------------------- -------- -------- ---------
 
 *Explanation*: For example, the value 2.71 in the top left corner
 indicates that for a $\chi^{2}$ distribution with 1 degree of freedom

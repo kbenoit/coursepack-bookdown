@@ -117,7 +117,9 @@ corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
   ------------ ---------- ---------------- --------------- ---------------------
                                                   Standard
                      Size             Mean       Deviation              Variance
+
   Population     $N=4489$       $\mu=74.2$   $\sigma=11.3$   $\sigma^{2}=127.87$
+
   Sample           $n=50$   $\bar{Y}=72.6$        $s=12.7$        $s^{2}=161.19$
   ------------ ---------- ---------------- --------------- ---------------------
 
@@ -377,8 +379,6 @@ deviations *above* the mean.
 pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
 probabilities for the ranges of values at most 60 (“Low”), between 60
 and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
-
-\footnotesize
 
          $z$   Tail Prob. 
   ---------- -------------
