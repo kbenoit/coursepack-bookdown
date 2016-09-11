@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  11 SEP 2016 21:58
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  11 SEP 2016 22:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -974,12 +974,7 @@ LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 162
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
-]
-
-LaTeX Warning: Reference `s-intro-SPSS' on page ii undefined on input line 244.
-
-
-[2] [3] [4]
+] [2] [3] [4]
 Underfull \vbox (badness 10000) detected at line 488
  []
 
@@ -1528,12 +1523,7 @@ File: chi2dists.pdf Graphic file (type QTm)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 6376.
 File: chi2_pval.pdf Graphic file (type QTm)
-<use  "chi2_pval.pdf" >
-
-LaTeX Warning: Reference `s-disttables-chi2' on page 70 undefined on input line
- 6463.
-
-[70]
+<use  "chi2_pval.pdf" > [70]
 Overfull \vbox (281.9741pt too high) has occurred while \output is active []
 
 [71] [72] [73] [74]
@@ -1546,102 +1536,102 @@ Underfull \vbox (badness 2512) has occurred while \output is active []
 ]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 
-Overfull \hbox (4.80267pt too wide) in paragraph at lines 6833--6834
+Overfull \hbox (4.80267pt too wide) in paragraph at lines 6832--6833
  []\EU1/lmr/m/n/10.95 strut
  []
 
 
-Overfull \hbox (4.80267pt too wide) in paragraph at lines 6853--6854
+Overfull \hbox (4.80267pt too wide) in paragraph at lines 6852--6853
  []\EU1/lmr/m/n/10.95 strut
  []
 
 
-Overfull \hbox (5.33357pt too wide) in paragraph at lines 6911--6913
+Overfull \hbox (5.33357pt too wide) in paragraph at lines 6910--6912
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 59$|
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 6913--6915
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 6912--6914
  []|\EU1/lmr/m/n/10.95 0.112|
  []
 
 
-Overfull \hbox (0.53668pt too wide) in paragraph at lines 6915--6917
+Overfull \hbox (0.53668pt too wide) in paragraph at lines 6914--6916
  []|\EU1/lmr/m/n/10.95 (0.433;|
  []
 
 
-Overfull \hbox (8.49283pt too wide) in paragraph at lines 6956--6958
+Overfull \hbox (8.49283pt too wide) in paragraph at lines 6955--6957
  []|\EU1/lmr/m/n/10.95 Black|
  []
 
 
-Overfull \hbox (3.24214pt too wide) in paragraph at lines 6975--6977
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6974--6976
  []|\EU1/lmr/m/n/10.95 0.0457|
  []
 
 
-Overfull \hbox (10.80856pt too wide) in paragraph at lines 6979--6981
+Overfull \hbox (10.80856pt too wide) in paragraph at lines 6978--6980
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 16\OML/lmm/m/it/10.95 :\OT1/lmr/
 m/n/10.95 71$|
  []
 
 
-Overfull \hbox (2.29187pt too wide) in paragraph at lines 6981--6983
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 6980--6982
  \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
  []
 
 
-Overfull \hbox (0.53668pt too wide) in paragraph at lines 6983--6985
+Overfull \hbox (0.53668pt too wide) in paragraph at lines 6982--6984
  []|\EU1/lmr/m/n/10.95 (0.040;|
  []
 
 
-Overfull \hbox (13.24432pt too wide) in paragraph at lines 7056--7058
+Overfull \hbox (13.24432pt too wide) in paragraph at lines 7055--7057
  []|\EU1/lmr/m/n/10.95 201,229|
  []
 
 
-Overfull \hbox (14.19214pt too wide) in paragraph at lines 7060--7062
+Overfull \hbox (14.19214pt too wide) in paragraph at lines 7059--7061
  []|\EU1/lmr/m/n/10.95 0.000706|
  []
 
 
-Overfull \hbox (13.24432pt too wide) in paragraph at lines 7090--7092
+Overfull \hbox (13.24432pt too wide) in paragraph at lines 7089--7091
  []|\EU1/lmr/m/n/10.95 200,745|
  []
 
 
-Overfull \hbox (14.19214pt too wide) in paragraph at lines 7094--7096
+Overfull \hbox (14.19214pt too wide) in paragraph at lines 7093--7095
  []|\EU1/lmr/m/n/10.95 0.000284|
  []
 
 
-Overfull \hbox (5.33357pt too wide) in paragraph at lines 7098--7100
+Overfull \hbox (5.33357pt too wide) in paragraph at lines 7097--7099
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 6\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 01$|
  []
 
 
-Overfull \hbox (2.29187pt too wide) in paragraph at lines 7100--7102
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 7099--7101
  \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
  []
 
 
-Overfull \hbox (25.47234pt too wide) in paragraph at lines 7102--7104
+Overfull \hbox (25.47234pt too wide) in paragraph at lines 7101--7103
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 000560;$|
  []
 
 
-Overfull \hbox (22.4307pt too wide) in paragraph at lines 7119--7121
+Overfull \hbox (22.4307pt too wide) in paragraph at lines 7118--7120
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 000284)$|
  []
 
 
-Overfull \hbox (2.29187pt too wide) in paragraph at lines 7185--7187
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 7184--7186
  \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
  []
 
@@ -1650,23 +1640,10 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [78] [79] [80] [81] [82]
 File: pval_zp.pdf Graphic file (type QTm)
 <use  "pval_zp.pdf" > [83] [84]
-
-LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
-38.
-
-
-LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
-52.
-
-
-LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
-52.
-
-
 Overfull \vbox (0.69685pt too high) has occurred while \output is active []
 
 [85]
-Underfull \vbox (badness 10000) detected at line 7767
+Underfull \vbox (badness 10000) detected at line 7764
  []
 
 
@@ -1712,27 +1689,13 @@ File: norm1.pdf Graphic file (type QTm)
 <use  "norm1.pdf" > [103]
 File: normbp.pdf Graphic file (type QTm)
 <use  "normbp.pdf" >
-
-LaTeX Warning: Reference `s-disttables-Z' on page 104 undefined on input line 8
-951.
-
-
-LaTeX Warning: Reference `s-disttables-Z' on page 104 undefined on input line 8
-951.
-
-
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 104 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [104]
-
-LaTeX Warning: Reference `s-disttables-Z' on page 105 undefined on input line 8
-982.
-
-
-Overfull \vbox (319.44589pt too high) has occurred while \output is active []
+Overfull \vbox (321.32928pt too high) has occurred while \output is active []
 
 [105]
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
@@ -1777,7 +1740,7 @@ File: hwork.pdf Graphic file (type QTm)
 <use  "hwork.pdf" >
 File: twoboxplots.pdf Graphic file (type QTm)
 <use  "twoboxplots.pdf" > [117] [118] [119] [120] [121]
-Overfull \hbox (5.93497pt too wide) in paragraph at lines 10260--10262
+Overfull \hbox (5.93497pt too wide) in paragraph at lines 10256--10258
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 49; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OM
 L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
@@ -1787,66 +1750,56 @@ L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
 File: spss2t.pdf Graphic file (type QTm)
 <use  "spss2t.pdf" > [123] [124] [125] [126] [127]
 File: tdistr1.pdf Graphic file (type QTm)
-<use  "tdistr1.pdf" > [128]
-
-LaTeX Warning: Reference `s-disttables-t' on page 129 undefined on input line 1
-0640.
-
-[129]
-Underfull \hbox (badness 10000) in paragraph at lines 10677--10677
+<use  "tdistr1.pdf" > [128] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 10673--10673
 [][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
 national Human Development Indi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10677--10677
+Underfull \hbox (badness 10000) in paragraph at lines 10673--10673
 \EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
 ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
 \EU1/lmr/m/n/9 ,
  []
 
-[130]
-
-LaTeX Warning: Reference `s-disttables-t' on page 131 undefined on input line 1
-0801.
-
-[131]
-Overfull \hbox (3.78433pt too wide) in paragraph at lines 10892--10894
+[130] [131]
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 10888--10890
  []|\EU1/lmr/m/n/10.95 1724|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 10896--10898
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10892--10894
  []|\EU1/lmr/m/n/10.95 2.15|
  []
 
 
-Overfull \hbox (10.97237pt too wide) in paragraph at lines 10900--10902
+Overfull \hbox (10.97237pt too wide) in paragraph at lines 10896--10898
  \EU1/lmr/m/n/10.95 49.49|
  []
 
 
-Overfull \hbox (3.78433pt too wide) in paragraph at lines 10911--10913
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 10907--10909
  []|\EU1/lmr/m/n/10.95 1724|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 10915--10917
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10911--10913
  []|\EU1/lmr/m/n/10.95 6.11|
  []
 
 
-Overfull \hbox (5.88063pt too wide) in paragraph at lines 10919--10921
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10915--10917
  []|\EU1/lmr/m/n/10.95 2.04|
  []
 
 
-Overfull \hbox (3.54874pt too wide) in paragraph at lines 10925--10927
+Overfull \hbox (3.54874pt too wide) in paragraph at lines 10921--10923
  []|\EU1/lmr/m/n/10.95 (35.01; 
  []
 
 
-Overfull \hbox (1.75294pt too wide) in paragraph at lines 10925--10927
+Overfull \hbox (1.75294pt too wide) in paragraph at lines 10921--10923
  \EU1/lmr/m/n/10.95 35.59)| 
  []
 
@@ -1870,7 +1823,7 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [150]
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
-ne 12086.
+ne 12082.
 
 File: olspl1.pdf Graphic file (type QTm)
 <use  "olspl1.pdf" >
@@ -1886,24 +1839,24 @@ File: olspl6.pdf Graphic file (type QTm)
 <use  "olspl6.pdf" >
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
-ne 12101.
+ne 12097.
 
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
-ne 12109.
+ne 12105.
 
 
-Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12091--12117
 [][] [] 
  []
 
 
-Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12091--12117
 [] [] 
  []
 
 
-Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12091--12117
 [] [] 
  []
 
@@ -1916,52 +1869,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [152]
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
-ne 12124.
+ne 12120.
 
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
-ne 12135.
+ne 12131.
 
 File: corruption3.pdf Graphic file (type QTm)
 <use  "corruption3.pdf" >
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
-ne 12183.
+ne 12179.
 
 [153] [154]
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 155 undefined on input li
-ne 12280.
+ne 12276.
 
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 155 undefined on input li
-ne 12299.
+ne 12295.
 
 [155] [156]
 File: imr1.pdf Graphic file (type QTm)
 <use  "imr1.pdf" >
-Overfull \hbox (16.07472pt too wide) in paragraph at lines 12471--12473
+Overfull \hbox (16.07472pt too wide) in paragraph at lines 12467--12469
  \EU1/lmr/m/n/10.95 enrolment|
  []
 
 
-Overfull \hbox (13.7266pt too wide) in paragraph at lines 12473--12475
+Overfull \hbox (13.7266pt too wide) in paragraph at lines 12469--12471
  \EU1/lmr/m/n/10.95 corruption|
  []
 
 
-Overfull \hbox (10.92339pt too wide) in paragraph at lines 12475--12477
+Overfull \hbox (10.92339pt too wide) in paragraph at lines 12471--12473
  \EU1/lmr/m/n/10.95 inequality|
  []
 
 [157] [158]
-Underfull \hbox (badness 10000) in paragraph at lines 12724--12724
+Underfull \hbox (badness 10000) in paragraph at lines 12720--12720
 [][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
 national Human Development Indi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12724--12724
+Underfull \hbox (badness 10000) in paragraph at lines 12720--12720
 \EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
 ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
 \EU1/lmr/m/n/9 ,
@@ -1971,7 +1924,7 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [159]
 File: spsslinreg.pdf Graphic file (type QTm)
 <use  "spsslinreg.pdf" >
-Underfull \vbox (badness 10000) detected at line 12818
+Underfull \vbox (badness 10000) detected at line 12814
  []
 
 [160] [161]
@@ -1979,223 +1932,223 @@ File: lmparams.pdf Graphic file (type QTm)
 <use  "lmparams.pdf" > [162] [163]
 
 LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
-12971.
+12967.
 
 
 LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
-12984.
+12980.
 
 File: lmresids.pdf Graphic file (type QTm)
 <use  "lmresids.pdf" >
 
 LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
-12987.
+12983.
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 12986--12993
+Underfull \hbox (badness 2744) in paragraph at lines 12982--12989
 [][] \EU1/lmr/m/n/10.95 The second
  []
 
 [164] [165]
 
 LaTeX Warning: Reference `fig:f-residuals' on page 166 undefined on input line 
-13135.
+13131.
 
 [166]
-Underfull \vbox (badness 10000) detected at line 13186
+Underfull \vbox (badness 10000) detected at line 13182
  []
 
 [167]
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 168 undefined on input li
-ne 13295.
+ne 13291.
 
 [168] [169] [170] [171]
 File: xyzspurious.pdf Graphic file (type QTm)
 <use  "xyzspurious.pdf" > [172]
-Overfull \hbox (14.24124pt too wide) in paragraph at lines 13634--13636
+Overfull \hbox (14.24124pt too wide) in paragraph at lines 13630--13632
  []|\EU1/lmr/m/n/10.95 Coefficient|
  []
 
 
-Overfull \hbox (16.67778pt too wide) in paragraph at lines 13636--13638
+Overfull \hbox (16.67778pt too wide) in paragraph at lines 13632--13634
  []|\EU1/lmr/m/n/10.95 Standard
  []
 
 [173] [174] [175] [176] [177] [178] [179]
-Overfull \hbox (9.71405pt too wide) in paragraph at lines 14165--14167
+Overfull \hbox (9.71405pt too wide) in paragraph at lines 14161--14163
  []|\EU1/lmr/m/n/10.95 Coefficient|
  []
 
 
-Overfull \hbox (26.93182pt too wide) in paragraph at lines 14167--14169
+Overfull \hbox (26.93182pt too wide) in paragraph at lines 14163--14165
  []|\EU1/lmr/m/n/10.95 Std.  error|
  []
 
 
-Overfull \hbox (23.37885pt too wide) in paragraph at lines 14173--14175
+Overfull \hbox (23.37885pt too wide) in paragraph at lines 14169--14171
  \EU1/lmr/m/n/10.95 Conf.  interval| 
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14193--14195
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14189--14191
  []|\EU1/lmr/m/n/10.95 0.016|
  []
 
 
-Overfull \hbox (0.80638pt too wide) in paragraph at lines 14195--14197
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14191--14193
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 69$|
  []
 
 
-Overfull \hbox (35.00063pt too wide) in paragraph at lines 14199--14201
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14195--14197
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 123; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\O
 ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 059)$| 
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14206--14208
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14202--14204
  []|\EU1/lmr/m/n/10.95 0.011|
  []
 
 
-Overfull \hbox (0.80638pt too wide) in paragraph at lines 14208--14210
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14204--14206
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 75$|
  []
 
 
-Overfull \hbox (26.48393pt too wide) in paragraph at lines 14212--14214
+Overfull \hbox (26.48393pt too wide) in paragraph at lines 14208--14210
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 043; 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 003)
 $| 
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14219--14221
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14215--14217
  []|\EU1/lmr/m/n/10.95 0.021|
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14245--14247
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14241--14243
  []|\EU1/lmr/m/n/10.95 0.631|
  []
 
 
-Overfull \hbox (0.80638pt too wide) in paragraph at lines 14247--14249
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14243--14245
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 09$|
  []
 
 
-Overfull \hbox (35.00063pt too wide) in paragraph at lines 14251--14253
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14247--14249
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 4\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 461; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\O
 ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 958)$| 
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14258--14260
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14254--14256
  []|\EU1/lmr/m/n/10.95 1.039|
  []
 
 
-Overfull \hbox (0.80638pt too wide) in paragraph at lines 14260--14262
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14256--14258
  []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 3\OML/lmm/m/it/10.95 :\OT1/lmr/m
 /n/10.95 17$|
  []
 
 
-Overfull \hbox (35.00063pt too wide) in paragraph at lines 14264--14266
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14260--14262
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 357; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\O
 ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 235)$| 
  []
 
 [180] [181] [182] [183]
-Overfull \hbox (12.37408pt too wide) in paragraph at lines 14550--14552
+Overfull \hbox (12.37408pt too wide) in paragraph at lines 14546--14548
  \EU1/lmr/m/n/10.95 restaurants)| 
  []
 
 
-Overfull \hbox (8.13113pt too wide) in paragraph at lines 14552--14554
+Overfull \hbox (8.13113pt too wide) in paragraph at lines 14548--14550
  []|\EU1/lmr/m/n/10.95 Response 
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14559--14561
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14555--14557
  []|\EU1/lmr/m/n/10.95 (368)|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14583--14585
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14579--14581
  []|\EU1/lmr/m/n/10.95 64.7|
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14585--14587
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14581--14583
  []|\EU1/lmr/m/n/10.95 (238)|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14596--14598
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14592--14594
  []|\EU1/lmr/m/n/10.95 35.3|
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14598--14600
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14594--14596
  []|\EU1/lmr/m/n/10.95 (130)|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14622--14624
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14618--14620
  []|\EU1/lmr/m/n/10.95 41.0|
  []
 
 
-Overfull \hbox (2.29433pt too wide) in paragraph at lines 14624--14626
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14620--14622
  []|\EU1/lmr/m/n/10.95 (151)|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14635--14637
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14631--14633
  []|\EU1/lmr/m/n/10.95 24.7|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14648--14650
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14644--14646
  []|\EU1/lmr/m/n/10.95 13.0|
  []
 
 
-Overfull \hbox (1.35344pt too wide) in paragraph at lines 14661--14663
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14657--14659
  []|\EU1/lmr/m/n/10.95 21.2|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 14744--14746
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14740--14742
  []|\EU1/lmr/m/n/10.95 (2.63)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 14777--14779
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14773--14775
  []|\EU1/lmr/m/n/10.95 (0.40)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 14832--14834
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14828--14830
  []|\EU1/lmr/m/n/10.95 (0.24)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 14854--14856
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14850--14852
  []|\EU1/lmr/m/n/10.95 (0.64)|
  []
 
 [184] [185] [186]
-Underfull \hbox (badness 1237) in paragraph at lines 15032--15056
+Underfull \hbox (badness 1237) in paragraph at lines 15028--15052
 []\EU1/lmr/m/n/10.95 The “Standardized Coefficients/Beta” in the “\EU1/lmr/bx/n
 /10.95 Coefficients\EU1/lmr/m/n/10.95 ” table are defined as
  []
@@ -2206,8 +2159,18 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [189
 
 ] [190]
-Overfull \hbox (8.93613pt too wide) in paragraph at lines 15319--15321
+Overfull \hbox (8.93613pt too wide) in paragraph at lines 15315--15317
  []|\EU1/lmr/m/n/10.95 Slightly
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15315--15317
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (21.83524pt too wide) in paragraph at lines 15317--15319
+ []|\EU1/lmr/m/n/10.95 Important|
  []
 
 
@@ -2216,48 +2179,48 @@ Overfull \hbox (20.92638pt too wide) in paragraph at lines 15319--15321
  []
 
 
-Overfull \hbox (21.83524pt too wide) in paragraph at lines 15321--15323
- []|\EU1/lmr/m/n/10.95 Important|
- []
-
-
-Overfull \hbox (20.92638pt too wide) in paragraph at lines 15323--15325
- \EU1/lmr/m/n/10.95 important|
- []
-
-
-Overfull \hbox (7.13504pt too wide) in paragraph at lines 15325--15327
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 15321--15323
  []|\EU1/lmr/m/n/10.95 Total|
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15351--15353
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15347--15349
  []|\EU1/lmr/m/n/10.95 1.000|
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15377--15379
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15373--15375
  []|\EU1/lmr/m/n/10.95 1.000|
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15403--15405
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15399--15401
  []|\EU1/lmr/m/n/10.95 1.000|
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15429--15431
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15425--15427
  []|\EU1/lmr/m/n/10.95 1.000|
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15455--15457
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15451--15453
  []|\EU1/lmr/m/n/10.95 1.000|
  []
 
 [191]
-Overfull \hbox (8.93613pt too wide) in paragraph at lines 15472--15474
+Overfull \hbox (8.93613pt too wide) in paragraph at lines 15468--15470
  []|\EU1/lmr/m/n/10.95 Slightly
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15468--15470
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (21.83524pt too wide) in paragraph at lines 15470--15472
+[]|\EU1/lmr/m/n/10.95 Important|  
  []
 
 
@@ -2266,47 +2229,37 @@ Overfull \hbox (20.92638pt too wide) in paragraph at lines 15472--15474
  []
 
 
-Overfull \hbox (21.83524pt too wide) in paragraph at lines 15474--15476
-[]|\EU1/lmr/m/n/10.95 Important|  
- []
-
-
-Overfull \hbox (20.92638pt too wide) in paragraph at lines 15476--15478
- \EU1/lmr/m/n/10.95 important|
- []
-
-
-Overfull \hbox (7.13504pt too wide) in paragraph at lines 15478--15480
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 15474--15476
 []|\EU1/lmr/m/n/10.95 Total|  
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15504--15506
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15500--15502
 []|\EU1/lmr/m/n/10.95 1.000|  
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15530--15532
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15526--15528
 []|\EU1/lmr/m/n/10.95 1.000|  
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15556--15558
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15552--15554
 []|\EU1/lmr/m/n/10.95 1.000|  
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15582--15584
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15578--15580
 []|\EU1/lmr/m/n/10.95 1.000|  
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 15608--15610
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15604--15606
 []|\EU1/lmr/m/n/10.95 1.000|  
  []
 
 [192] [193] [194]
-Overfull \hbox (48.14305pt too wide) in alignment at lines 16031--16048
+Overfull \hbox (48.14305pt too wide) in alignment at lines 16027--16044
  [] [] [] [] [] 
  []
 
@@ -2316,39 +2269,26 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 Chapter 10.
 [199
 
-] [200]
-
-LaTeX Warning: Reference `ss-class1' on page 201 undefined on input line 16329.
-
-
-
-Underfull \vbox (badness 2253) has occurred while \output is active []
-
-[201
+] [200] [201
 
 
 ] [202] [203] [204] [205] [206]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
-[207]
-
-LaTeX Warning: Reference `s-intro-SPSS' on page 208 undefined on input line 168
-31.
-
-[208] [209] [210] [211]
-Underfull \hbox (badness 2229) in paragraph at lines 17060--17067
+[207] [208] [209] [210] [211]
+Underfull \hbox (badness 2229) in paragraph at lines 17055--17062
 []\EU1/lmr/m/n/10.95 Measures of variation: \EU1/lmr/bx/n/10.95 Range\EU1/lmr/m
 /n/10.95 , \EU1/lmr/bx/n/10.95 Std. deviation \EU1/lmr/m/n/10.95 and \EU1/lmr/b
 x/n/10.95 Variance \EU1/lmr/m/n/10.95 under \EU1/lmr/bx/n/10.95 Statis-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 17074--17081
+Underfull \hbox (badness 1048) in paragraph at lines 17069--17076
 []\EU1/lmr/bx/n/10.95 Stem and leaf plots\EU1/lmr/m/n/10.95 , which are obtaine
 d from \EU1/lmr/bx/n/10.95 Analyze/Descriptive Statis-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 17074--17081
+Underfull \hbox (badness 1264) in paragraph at lines 17069--17076
 \EU1/lmr/bx/n/10.95 tics/Explore \EU1/lmr/m/n/10.95 by entering variable(s) und
 er \EU1/lmr/bx/n/10.95 Dependent list \EU1/lmr/m/n/10.95 and selecting \EU1/lmr
 /bx/n/10.95 Dis-
@@ -2359,25 +2299,25 @@ er \EU1/lmr/bx/n/10.95 Dependent list \EU1/lmr/m/n/10.95 and selecting \EU1/lmr
 ] [213] [214] [215]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [216] [217] [218] [219] [220] [221]
-Underfull \hbox (badness 1199) in paragraph at lines 17720--17728
+Underfull \hbox (badness 1199) in paragraph at lines 17715--17723
 []\EU1/lmr/m/n/10.95 Consider now the correlations between the ten event scores
  and the final score
  []
 
 [222] [223]
-Underfull \hbox (badness 1527) in paragraph at lines 17853--17863
+Underfull \hbox (badness 1527) in paragraph at lines 17848--17858
 \EU1/lmr/m/n/10.95 Three-way contingency tables are again obtained from \EU1/lm
 r/bx/n/10.95 Analyze/Descriptive Statis-
  []
 
 [224]
-Underfull \hbox (badness 10000) in paragraph at lines 17958--17958
+Underfull \hbox (badness 10000) in paragraph at lines 17953--17953
 [][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
 national Human Development Indi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17958--17958
+Underfull \hbox (badness 10000) in paragraph at lines 17953--17953
 \EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
 ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
 \EU1/lmr/m/n/9 ,
@@ -2386,61 +2326,61 @@ ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
 [225] [226]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [227]
-Overfull \hbox (0.28543pt too wide) in paragraph at lines 18125--18127
+Overfull \hbox (0.28543pt too wide) in paragraph at lines 18120--18122
 \EU1/lmr/m/n/10.95 Explanation of the “Table of standard normal tail probabilit
 ies” in Section @ref(s_disttables_Z): 
  []
 
 [228]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 18164.
+(Font)              <10> on input line 18159.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 18164.
+(Font)              <7> on input line 18159.
 [229]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 18276.
+(hyperref)                removing `math shift' on input line 18271.
 
 
-Underfull \vbox (badness 10000) detected at line 18314
+Underfull \vbox (badness 10000) detected at line 18309
  []
 
 [230]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 18357.
+(hyperref)                removing `math shift' on input line 18352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\chi' on input line 18357.
+(hyperref)                removing `\chi' on input line 18352.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 18357.
+(hyperref)                removing `superscript' on input line 18352.
 
 
-Underfull \vbox (badness 10000) detected at line 18381
+Underfull \vbox (badness 10000) detected at line 18376
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18399.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18394.
 [231]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 18399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 18394.
 (./Coursepack-MY451.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 18399.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 18399.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 18394.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 18394.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18394.
  ) 
 Here is how much of TeX's memory you used:
- 26162 strings out of 495086
- 462164 string characters out of 6174758
+ 26157 strings out of 495086
+ 462088 string characters out of 6174758
  582678 words of memory out of 5000000
- 29138 multiletter control sequences out of 15000+600000
+ 29133 multiletter control sequences out of 15000+600000
  63635 words of font info for 99 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  42i,10n,68p,10414b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
