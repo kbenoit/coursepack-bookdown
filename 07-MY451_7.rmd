@@ -586,7 +586,7 @@ difference to the conclusions from the test.
 
 ![(\#fig:f-spss2test) SPSS output for a two-sample $t$-test in Example 7.2, comparing average weekly hours spent on housework between men and women.](spss2t){height="200mm"}
 
-\label{p-ztestass} In the two-sample situation with assumptions 1–4 at the beginning of Section @ref(#ss-means-inference-intro), the sampling distribution of the t-test
+\label{p-ztestass} In the two-sample situation with assumptions 1–4 at the beginning of Section \@ref(ss-means-inference-intro), the sampling distribution of the t-test
 statistic (\@ref(eq:ztestmuDb)) is approximately a standard normal
 distribution when the null hypothesis
 $H_{0}: \; \Delta=\mu_{2}-\mu_{1}=0$ is true in the population and the

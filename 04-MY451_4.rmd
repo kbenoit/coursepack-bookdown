@@ -652,7 +652,7 @@ degrees of freedom (df).](chi2dists){width="115mm"}
 For the $\chi^{2}$ test statistic of independence we have the following
 result:
 
--   When the null hypothesis (\@ref(H0-chi2)) is true in the population,
+-   When the null hypothesis (\@ref(eq:H0-chi2)) is true in the population,
     the sampling distribution of the test statistic (\@ref(eq:chi2))
     calculated for a two-way table with $R$ rows and $C$ columns is
     approximately the $\chi^{2}$ distribution with $df=(R-1)(C-1)$

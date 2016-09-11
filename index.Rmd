@@ -1,6 +1,9 @@
 ---
 title: "MY451 Introduction to Quantitative Analysis"
-author: "Jouni Kuha"
+author:
+    - "Jouni Kuha"
+    - "Department of Methodology"
+    - "London School of Economics and Political Science"
 date: "2016-17"
 site: bookdown::bookdown_site
 documentclass: book
@@ -13,29 +16,20 @@ description: "This course is intended for those with little or no past training 
 
 \frontmatter\thispagestyle{empty}
 
+# Course information {-}
+
 ![image](dept_of_methodology){height="2.2cm"}
 \hfill![image](lse){height="2.2cm"}
-
-<span>\LARGE**MY451**</span>\
-<span>\LARGE**Introduction to Quantitative Analysis**</span>\
-<span>\Large2015-16</span>\
-<span>\LargeJouni Kuha</span>\
-<span>\LargeDepartment of Methodology</span>\
-<span>\LargeLondon School of Economics and Political Science</span>
 
 \newpage
 
 \thispagestyle{empty}
 
-$\, $
-
 \newpage
 
 \setcounter{page}{1}
 
-# Course information {-}
-
-**MY451: Introduction to Quantitative Analysis**
+<center>**MY451: Introduction to Quantitative Analysis**</center>
 
 #### Course Description {-}
 
@@ -329,7 +323,6 @@ Hour 2                          Three-way contingency tables
 Class                           Simple linear regression
 
 Coursepack                      Section \@ref(ss-regression-simple-inf) (Hour 1); Section \@ref(s-regression-causality) and Chapter \@ref(c-3waytables) (Hour 2)
-
 
 **Week 10**
 

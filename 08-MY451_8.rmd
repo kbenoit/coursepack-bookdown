@@ -1413,7 +1413,7 @@ $X$ and $Y$, they will appear to be associated, but the connection is
 not a causal one. Instead, it is a **spurious association** induced by
 the dependence on both variables on the common cause $Z$.
 
-![(\#fig:xyzspurious) A graphical representation of a
+![(\#fig:f-xyzspurious) A graphical representation of a
 spurious association between $X$ and $Y$, explained by dependence on a
 common cause $Z$.](xyzspurious){width="3.7cm"}
 

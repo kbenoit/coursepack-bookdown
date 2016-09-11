@@ -140,8 +140,7 @@ departments and fewer to the easy ones.
 
 
 One possible set of causal connections leading to a spurious association
-between $X$ and $Y$ was represented graphically by Figure
-\@ref(fig:f-xyzspurious). There are, however, other possibilities which may
+between $X$ and $Y$ was represented graphically by Figure \@ref(fig:f-xyzspurious). There are, however, other possibilities which may
 be more appropriate in particular cases. In the admissions example,
 department (corresponding to the control variable $Z$) cannot be
 regarded as the cause of the sex of the applicant. Instead, we may
