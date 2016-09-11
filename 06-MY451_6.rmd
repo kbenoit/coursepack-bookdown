@@ -87,12 +87,16 @@ both, so we can here ignore the distinction without further comment.
 The population formulas (\@ref(eq:mu))–(\@ref(eq:sigma)) clearly resemble those
 of some sample statistics introduced in Chapter \@ref(c-descr1),
 specifically the *sample* mean, variance and standard deviation
-\begin{aligned}
-\bar{Y}&=&\frac{\sum Y_{i}}{n}, \label{eq:Ybar_ch6} \\
-s^{2} &=& \frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1} \text{and}
-\label{eq:s2_ch6} \\
-s &=& \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}}
-\label{eq:s_ch6}\end{aligned} where the sums are now over the $n$
+
+\begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n}, \label{eq:Ybar-ch6}\end{equation}
+
+\begin{equation}s^{2} = \frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}\label{eq:s2-ch6}\end{equation}
+
+<center>and</center>
+
+\begin{equation}s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}}\label{eq:s-ch6}\end{equation}
+
+where the sums are now over the $n$
 observations in a sample. These can be used as descriptions of the
 sample distribution as discussed in Chapter \@ref(c-descr1), but also as
 *point estimates* of the corresponding population parameters in the
@@ -107,7 +111,7 @@ For further illustration of the connection between population and sample
 quantities, we have also drawn a simple random sample of $n=50$
 observations from the finite population of $N=4489$ observations in
 Figure \@ref(fig:f-bp1). Table \@ref(tab:t-bp-example) shows the summary
-statistics (\@ref(eq:Ybar-ch6))–(\@ref(s-ch6)) in this sample and the
+statistics (\@ref(eq:Ybar-ch6)–(\@ref(eq:s-ch6)) in this sample and the
 corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
 
   ------------ ---------- ---------------- --------------- ---------------------
@@ -122,7 +126,7 @@ corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
   \@ref(s-contd-popdistrs)–\@ref(s-contd-clt).
 
 You may have noticed that the formulas of the sample variance
-(\@ref(s2-ch6)) and sample standard deviation (\@ref(s-ch6)) involve the
+(\@ref(eq:s2-ch6)) and sample standard deviation (\@ref(eq:s-ch6)) involve the
 divisor $n-1$ rather than the $n$ which might seem more natural, while
 the population formulas (\@ref(eq:sigma2)) and (\@ref(eq:sigma)) do use $N$
 rather than $N-1$. The reason for this is that using $n-1$ gives the
@@ -654,8 +658,7 @@ distribution of a binary variable that was introduced in Section
 \@ref(s-probs-distribution). If the probability parameter of this
 distribution is $\pi$, its mean and variance are $\mu=\pi$ and
 $\sigma^{2}=\pi(1-\pi)$, and the sample mean $\bar{Y}$ of observations
-from the distribution is the sample proportion $\hat{\pi}$ (see equation
-\@ref(eq:pihat-as-ybar)). The CLT then tells
+from the distribution is the sample proportion $\hat{\pi}$ (see the equation at the end of Section \@ref(s-probs-pointest)). The CLT then tells
 us that
 
 -   When $n$ is large enough, the sampling distribution of the sample

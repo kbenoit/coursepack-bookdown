@@ -423,7 +423,7 @@ maintain continuity of notation between different parts of this chapter.
 The correlation coefficient itself, however, is completely symmetric, so
 that its value for a pair of variables will be the same whether or not
 we treat one or the other of them as explanatory for the other. First,
-recall from equation (\@ref(eq:sd)) that the sample standard deviations of
+recall from equation of standard deviation towards the end of Section \@ref(ss-descr1-nums-variation) that the sample standard deviations of
 the two variables are calculated as
 \begin{equation}s_{x} = \sqrt{\frac{\sum(X_{i}-\bar{X})^{2}}{n-1}}
 \text{and}
@@ -1131,8 +1131,8 @@ indicating strong linear association between $X$ and $Y$.
 
 $R^{2}$ is clearly a Proportional Reduction of Error (PRE) measure of
 association of the kind discussed in Section \@ref(ss-descr1-2cat-gamma),
-with $E_{1}=TSS$ and $E_{2}=SSE$ in the notation of equation
-(\@ref(eq:PRE)). It is also related to the correlation coefficient. In
+with $E_{1}=TSS$ and $E_{2}=SSE$ in the notation of equation for the PRE measure
+of association in Section \@ref(ss-descr1-2cat-gamma). It is also related to the correlation coefficient. In
 simple linear regression, $R^{2}$ is the square of the correlation $r$
 between $X_{i}$ and $Y_{i}$. Furthermore, the square root of $R^{2}$ is
 the correlation between $Y_{i}$ and the fitted values $\hat{Y}_{i}$.
@@ -1246,7 +1246,7 @@ $\hat{\text{se}}(\hat{\beta})=0.015$ for the estimated coefficient
 $\hat{\beta}$ of School enrolment.
 
 The test statistic for the null hypothesis (\@ref(eq:H0betasimple)) is once
-again of the general form (\@ref(eq:ttest-gen)), i.e. a point estimate
+again of the general form (see the beginning of Section \@ref(ss-probs-test1sample-teststatistic)), i.e. a point estimate
 divided by its standard error. Here this gives
 \begin{equation}t=\frac{\hat{\beta}}{\hat{\text{se}}(\hat{\beta})}.
 \label{eq:tbeta}\end{equation} The logic of this is the same as in previous
@@ -2105,11 +2105,11 @@ intervals (under the assumption of equal variances in the groups) in
 Section \@ref(s-means-inference). Related to the notation of that
 section, the coefficients from the model are $\hat{\alpha}=\bar{Y}_{1}$,
 $\hat{\beta}=\bar{Y}_{2}-\bar{Y}_{1}$, and $\hat{\sigma}$ from
-(\@ref(eq:sigma-linreg)) is equal to (\@ref(eq:sehatjoint)). Similarly, the
+(\@ref(eq:sigma-linreg)) is equal to (see equation 11 in Section \@ref(ss-means-inference-test)). Similarly, the
 standard error (\@ref(eq:sebeta)) is the same as
-$\hat{\sigma}_{\hat{\Delta}}$ in (\@ref(eq:seD2)), and the test statistic
+$\hat{\sigma}_{\hat{\Delta}}$ in the standard error equation in Section \@ref(ss-means-inference-test), and the test statistic
 (\@ref(eq:tbeta)) and confidence interval (\@ref(eq:cibeta)) are identical with
-(\@ref(eq:ztestmuDb)) and the $t$ distribution version of (\@ref(eq:ciDmu2))
+the t-test statistic in Section \@ref(ss-means-inference-test) and the $t$ distribution version of the equation in Section \@ref(ss-means-inference-ci)
 respectively.
 
 The connection between linear regression and the two-sample $t$-test is

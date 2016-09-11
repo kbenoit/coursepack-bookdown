@@ -505,7 +505,7 @@ This distinction is based on the possible values a variable can have:
     be subdivided. Thus a discrete variable can only have certain
     values, and the values between these are logically impossible. For
     example, the marital status variable \[1\] and the health variable
-    \[2\] defined at the beginning of the section on [Measurement Levels](#sss-intro-def-vars-measlevels) are discrete, because
+    \[2\] defined under "Measurement Levels" in Section \@ref(ss-intro-def-vartypes) are discrete, because
     values like marital status of 2.3 or self-reported health of 1.7 are
     impossible given the way the variables are defined.
 

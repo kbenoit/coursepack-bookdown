@@ -314,12 +314,11 @@ different from the claimed value $\pi_{0}$, but without any expectations
 about whether $\pi$ might be smaller or larger than $\pi_{0}$.
 
 The second main possibility is one of the two **one-sided alternative
-hypotheses** \begin{aligned}
-H_{a}:&&  \Delta> 0 \text{or}
-\label{eq:Haonegt}
-\\
-H_{a}:&&  \Delta < 0.
-\label{eq:Haonelt}\end{aligned} Such a hypothesis is only interested in
+hypotheses** \begin{equation}
+H_{a}:  \Delta> 0\label{eq:Haonegt}\end{equation}
+<center>or</center>
+\begin{equation}H_{a}:  \Delta < 0
+\label{eq:Haonelt}\end{equation} Such a hypothesis is only interested in
 values of $\Delta$ to one side of 0, either larger or smaller than it.
 For example, hypothesis (\@ref(eq:Haonegt)) in the referendum example 5.1,
 with $\pi_{0}=0.5$, is $H_{a}:\; \pi>0.5$, i.e. that the proportion who
@@ -396,7 +395,7 @@ $\Delta$. For a test of a single proportion, this is
 $\pi_{0}$. This is the core of the test statistic. Although the forms of
 the two statistics seem rather different, (\@ref(eq:Dhatp)) contains the
 comparison of the observed and expected sample values that was also at
-the heart of the $\chi^{2}$ test statistic (\@ref(eq:chi2)) in Chapter
+the heart of the $\chi^{2}$ test statistic (see formula at end of Section \@ref(ss-tables-chi2test-stat)) in Chapter
 \@ref(c-tables). Here the “observed value” is the sample estimate
 $\hat{\pi}$ of the probability parameter, “expected value” is the value
 $\pi_{0}$ claimed for it by the null hypothesis, and

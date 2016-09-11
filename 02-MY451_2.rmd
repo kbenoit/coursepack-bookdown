@@ -7,7 +7,7 @@ is organised around two dichotomies:
 
 -   Methods that are used only for variables with small numbers of
     values, vs. methods that are used also or only for variables with
-    many values (see Section \@ref(sss-intro-def-vars-rels) for more on
+    many values (see the end of Section \@ref(ss-intro-def-vartypes) for more on
     this distinction). The former include, in particular, descriptive
     methods for categorical variables, and the latter the methods for
     continuous variables.
@@ -146,7 +146,7 @@ and attitude in the survey example, which are shown in Tables
   Total           155        0.999       99.9
   ----------- ----------- ------------ ------ ------------
 
-  : Frequency distribution of the democracy index in the country
+  : (\#tab:t-democ) Frequency distribution of the democracy index in the country
   data.
 
   -------------------------------- ----------- ------------ ------- ------------
@@ -945,7 +945,7 @@ A **stem and leaf plot** is a close relative of the histogram, and is
 used for much the same purposes, mostly in small data sets. It is
 easiest to explain through an example, so let us consider the GDP
 variable again. The stem and leaf plot for it is shown in Figure
-\@ref(fig:f-stemgdp). First, note that the values of the variable in the
+\@ref(tab:t-stemgdp). First, note that the values of the variable in the
 sample (from \$500 to \$37800, recorded as 0.5 to 37.8 thousands of
 dollars) have at most three significant digits. If the observations have
 too many digits to be convenient for a stem and leaf plot, they can be
@@ -997,7 +997,9 @@ define the *stem*.
   `37`   `88`
   ------ -----------------------------------
 
-The left-hand column in \@ref(fig:f-stemgdp) lists the stem values in the
+  : (\#tab:t-stemgdp) Stem and leaf plot of GDP per capita in the country data (Stem=thousands of dollars, Leaf=hundreds of dollars).
+
+The left-hand column in \@ref(tab:t-stemgdp) lists the stem values in the
 data, from smallest (0) to the largest (37). Each data value with the
 same stem is represented on the same line by its leaf, i.e. its last
 digit. Thus the smallest value, 0.5 for Sierra Leone, is shown as a leaf
@@ -1006,11 +1008,11 @@ and so on up to the largest value 37.8 for Norway, shown as an “8” leaf
 on the “37” stem.
 
 The stem and leaf plot is very similar to a histogram (try turning
-Figure \@ref(fig:f-stemgdp) on its side, and compare to Figure
+Figure \@ref(tab:t-stemgdp) on its side, and compare to Figure
 \@ref(fig:f-hist-gdp)). It has the additional advantage that it also shows
 the actual numerical values of the observations. In some rather special
 cases this can reveal additional features of the data. Consider, for
-example, the plot shown in Figure \@ref(fig:f-stemhours). The variable here
+example, the plot shown in Figure \@ref(tab:t-stemhours). The variable here
 is the number of hours 86 respondents in a social survey (a small subset
 of all the respondents, drawn purely for this illustration) reported
 their *spouse* worked in the previous week. An obvious feature of the
@@ -1033,12 +1035,13 @@ as they may appear.
   `7`   `022`
   ----- -------------------------------------------
 
+  : (\#tab:t-stemhours) Stem and leaf plot of the reported hours worked last week by the spouses of respondents in a social survey (the data are a sample from data from the U.S. General Survey; observations with less than 12 reported hours have been excluded). The stems and leaves indicate tens of hours and single hours respectively.
 The main disadvantage of a stem and leaf plot is that since every data
 value is shown separately, the plot can only be used when the sample
 size is relatively small. In such cases it is, however, a very useful
 and user-friendly graph. Also, “small” does not mean “tiny”. For
 example, the country data set has as many as $n=155$ observations, yet
-Figure \@ref(fig:f-stemgdp) is still quite readable and fits on a single
+Figure \@ref(tab:t-stemgdp) is still quite readable and fits on a single
 page.
 
 ![(\#fig:f-boxplot-gdp) An annotated box plot of GDP per capita in the country data
@@ -1268,8 +1271,8 @@ appropriate for interval level variables, but not for ordinal ones, for
 which the numbers of the categories are ordered labels rather than real
 numbers. However, it is common to see this instruction ignored and means
 calculated for ordinal variables, especially when they have a large
-number of categories (see also the discussion in Section
-\@ref(sss-intro-def-vars-measlevels)). For example, the mean democracy
+number of categories (see also the discussion under "Measurement Levels" in Section
+\@ref(ss-intro-def-vartypes)). For example, the mean democracy
 score in our sample (using the codes 0–10 as its values) is 5.4. This
 may be used as a summary of the central tendency of the variable, but it
 should not be overinterpreted as its meaning is not quite as clear as
@@ -1281,7 +1284,7 @@ undesirable feature. This is illustrated by the statistics for the GDP
 variable, as shown in Table \@ref(tab:t-countries-sums). Its mean (\$8600) is
 clearly much larger than the median (\$4700). This is due to the shape
 of the distribution of GDP, as revealed by Figure \@ref(fig:f-hist-gdp) or
-even more clearly by the stem and leaf plot of Figure \@ref(fig:f-stemgdp).
+even more clearly by the stem and leaf plot of Figure \@ref(tab:t-stemgdp).
 While most of the countries are concentrated around a fairly narrow
 range of GDPs, there are also a number of countries with much larger
 GDPs. The ranges of values in the small and large ends of the values in
@@ -1866,6 +1869,7 @@ of the three variables were available at the time the example created.
   Russia          3    7    8.9 Serbia            3    7   2.2                          
   Brazil          4    8    7.6 Guinea            1    1   2.1
 
+  : (\#tab:t-countrydata)
 
 [^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
     edition 2.0. Norwegian Social Science Data Services, Norway — Data
