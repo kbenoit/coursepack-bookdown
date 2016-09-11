@@ -286,7 +286,7 @@ proportion of blacks in the general adult population of the county.
 An alternative but equivalent form of (\@ref(eq:H0p)) is expressed in terms
 of the difference \begin{equation}\Delta=\pi-\pi_{0}
 \label{eq:Dp}\end{equation} ($\Delta$ is the upper-case Greek letter “Delta"). Then
-(@\ref(H0p)) can also be written as \begin{equation}H_{0}: \; \Delta=0,
+(@\@ref(eq:H0p)) can also be written as \begin{equation}H_{0}: \; \Delta=0,
 \label{eq:H0p2}\end{equation} i.e. that there is no difference between the true
 population probability and the hypothesised value $\pi_{0}$. This
 version of the notation allows us later to draw attention to the
@@ -1122,7 +1122,7 @@ together; expressed in terms of the group-specific estimates, this is
 \frac{1}{n_{1}}
 \right),
 }
-\label{eq:seDpi}\end{equation} and using (\@ref(eq:Dhatpi}) and (\ref{eq:seDpi)) in the
+\label{eq:seDpi}\end{equation} and using (\@ref(eq:Dhatpi}) and (\@ref{eq:seDpi)) in the
 general formula (\@ref(eq:ttest-gen)) gives the **two-sample $z$-test
 statistic for proportions** \begin{equation}z=
 \frac{\hat{\pi}_{2}-\hat{\pi}_{1}}

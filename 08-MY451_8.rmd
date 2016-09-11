@@ -1446,7 +1446,7 @@ The most powerful way of controlling for background variables is to
 conduct a **randomized experiment**, where the values of the explanatory
 variable $X$ can be set by the researcher, and are assigned at random to
 the units in the study. For instance, of the examples considered in
-Chapters \@ref(c-probs} and \ref{c-means), Examples 5.3, 5.4 and 7.3 are
+Chapters \@ref(c-probs} and \@ref{c-means), Examples 5.3, 5.4 and 7.3 are
 randomized experiments, each with an intervention variable $X$ with two
 possible values (placebo or real vaccine, one of two forms of a survey
 question, and police officer wearing or not wearing sunglasses,
@@ -1697,7 +1697,7 @@ $X_{1}$ and $X_{2}$ as before, but the value of $X_{3}$ larger by one
 unit, i.e. $X_{3}+1$. The expected value of $Y$ is now
 \begin{equation}\mu=\alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}(X_{3}+1)=
 \alpha+\beta_{1}X_{1}+\beta_{2}X_{2}+\beta_{3}X_{3}+\beta_{3}.
-\label{eq:mu2}\end{equation} Subtracting (\@ref(eq:mu1}) from (\ref{eq:mu2)) leaves us with
+\label{eq:mu2}\end{equation} Subtracting (\@ref(eq:mu1}) from (\@ref{eq:mu2)) leaves us with
 $\beta_{3}$. In other words, $\beta_{3}$ is the change in expected value
 of $Y$ when $X_{3}$ is increased by one unit, while keeping the values
 of $X_{1}$ and $X_{2}$ unchanged. The same result would obviously be
