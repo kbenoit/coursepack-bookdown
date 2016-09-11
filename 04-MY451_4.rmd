@@ -792,7 +792,7 @@ computer output, there is no need to refer to distributional tables.
 
 All introductory statistical text books include a table of $\chi^{2}$
 distributions, although its format may vary slightly form book to book.
-Such a table is also included in Section \@ref(s-disttables-chi2) of
+Such a table is also included in the Appendix of
 this coursepack. An extract from the table is shown in Table
 \@ref(tab:t-chi2table). Each row of the table corresponds to a $\chi^{2}$
 distribution with the degrees of freedom given in the first column. The

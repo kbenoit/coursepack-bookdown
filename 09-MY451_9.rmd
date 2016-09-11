@@ -415,7 +415,7 @@ variables. One such variable is the age of the respondents.
   the respondents in Example 9.4. The numbers below the frequencies are
   proportions within rows.
 
-Table \@ref(tab:t-whickham2) shows the partial tables of smoking vs.\survival
+Table \@ref(tab:t-whickham2) shows the partial tables of smoking vs. survival
 controlling for age at the time of the first survey, classified into
 seven categories. Note first that this three-way table appears somewhat
 different from those shown in Tables \@ref(tab:t-berkeley2),
@@ -622,14 +622,14 @@ tables:
     M. P. J. et al. (1995). “The incidence of thyroid disorders in the
     community: A twenty-year follow-up of the Whickham survey”.
     *Clinical Endocrinology* **43**, 55–69. The data are used to
-    illustrate Simpson’s paradox by Appleton, D. R.\et al. (1996).
+    illustrate Simpson’s paradox by Appleton, D. R. et al. (1996).
     “Ignoring a covariate: An example of Simpson’s paradox”. *The
     American Statistician* **50**, 340–341.
 
 [^4]: For one remarkable example of such studies, see Doll, R. et
     al. (2004), “Mortality in relation to smoking: 50 years’
     observations on male British doctors”, *British Medical Journal*
-    **328**, 1519–1528, and Doll, R. and Hill, A.\B. (1954), “The
+    **328**, 1519–1528, and Doll, R. and Hill, A. B. (1954), “The
     Mortality of doctors in relation to their smoking habits: A
     preliminary report”, *British Medical Journal* **228**, 1451–1455.
     The older paper is reprinted together with the more recent one in

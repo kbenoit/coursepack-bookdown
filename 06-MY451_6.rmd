@@ -397,8 +397,7 @@ and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
   : (\#tab:t-normtab) Extract from the table of right-hand tail probabilities for normal
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
-  labelled “$z$”. The full table is shown in Section
-  \@ref(s-disttables-Z).
+  labelled “$z$”. The full table is shown in the Appendix.
 
 The probability distribution of the $Z$ scores is a normal distribution
 with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
@@ -408,7 +407,7 @@ $N(\mu, \sigma^{2}$) distribution into the standard normal distribution
 they remove the specific values of $\mu$ and $\sigma$ from the
 calculation. With this trick, probabilities for any normal distribution
 can be calculated using a single table for $Z$ scores. Such a table is
-given in Section \@ref(s-disttables-Z) in the Appendix, and an extract
+given in the Appendix, and an extract
 from it is shown in Table \@ref(tab:t-normtab) (note that it is not always
 presented exactly like this, as different books may use slightly
 different format or notation). The first column lists values of the $Z$

@@ -879,7 +879,7 @@ same way as in Section \@ref(ss-probs-test1sample-samplingd). Now,
 however, the critical values depend also on the degrees of freedom.
 Because of this, introductory text books on statistics typically include
 a table of critical values for $t$ distributions for a selection of
-degrees of freedom. A table of this kind is shown at the beginning of Section \@ref(s-disttables-t) at the end of this course pack. Each row of the
+degrees of freedom. A table of this kind is shown in the Appendix at the end of this course pack. Each row of the
 table corresponds to a $t$ distribution with the degrees of freedom
 given in the column labelled “df”. As here, such tables typically
 include all degrees of freedom between 1 and 30, plus a selection of
@@ -1022,7 +1022,7 @@ the significance level $1-\alpha$.
 Any multiplier $t_{\alpha/2}^{(df)}$ is obtained from the relevant $t$
 distribution using exactly the same logic as the one explained for the
 normal distribution in the previous section, using a computer or a table
-of $t$ distributions. For example, in the $t$ table at the beginning of Section \@ref(s-disttables-t), multipliers for a 95% confidence interval are
+of $t$ distributions. For example, in the $t$ table in the Appendix, multipliers for a 95% confidence interval are
 the numbers given in the column labelled “0.025”. Suppose, for instance,
 that the sample sizes $n_{1}$ and $n_{2}$ are both 10 and population
 standard deviations are assumed equal, so that $df=10+10-2=18$. The

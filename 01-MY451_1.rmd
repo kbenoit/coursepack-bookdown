@@ -7,7 +7,7 @@
 The title of any course should be descriptive of its contents. This one
 is called
 
-**MY451: Introduction to Quantitative Analysis**
+<center>**MY451: Introduction to Quantitative Analysis**</center>
 
 Every part of this tells us something about the nature of the course:
 

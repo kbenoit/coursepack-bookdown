@@ -62,7 +62,7 @@ attitude items in a survey are multivariate data of this kind.
 
 -   Various methods of **descriptive multivariate analysis** for jointly
     summarising and presenting information on the many variables,
-    e.g.\**cluster analysis**, **multidimensional scaling** and
+    e.g. **cluster analysis**, **multidimensional scaling** and
     **principal component analysis** (MY455 for principal
     components analysis).
 

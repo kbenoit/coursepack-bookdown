@@ -149,16 +149,15 @@ and attitude in the survey example, which are shown in Tables
   : (\#tab:t-democ) Frequency distribution of the democracy index in the country
   data.
 
-  -------------------------------- ----------- ------------ ------- ------------
-  \                                          \      \             \   Cumulative
-  Response                           Frequency  Proportion        %            %
-  Agree strongly (1)                       366    0.156        15.6         15.6
-  Agree (2)                               1090    0.465        46.5         62.1
-  Neither agree nor disagree (3)           426    0.182        18.2         80.3
-  Disagree (4)                             387    0.165        16.5         96.8
-  Disagree strongly (5)                     75    0.032         3.2        100.0
+  -------------------------------- ----------- ------------ ------- --------------
+  Response                           Frequency  Proportion        %   Cumulative %
+  Agree strongly (1)                       366    0.156        15.6           15.6
+  Agree (2)                               1090    0.465        46.5           62.1
+  Neither agree nor disagree (3)           426    0.182        18.2           80.3
+  Disagree (4)                             387    0.165        16.5           96.8
+  Disagree strongly (5)                     75    0.032         3.2          100.0
   Total                                   2344     1.00       100.0
-  -------------------------------- ----------- ------------ ------- ------------
+  -------------------------------- ----------- ------------ ------- --------------
 
   : (\#tab:t-attitude) Frequency distribution of responses to a question on attitude
   towards income redistribution in the survey example.
@@ -1326,7 +1325,7 @@ direction, like the distribution of typical weekly working hours in
 panel B of Figure \@ref(fig:f-skews) is (approximately) **symmetric**.
 
   --------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \                                  Measures                  of central                       tendency          Measures           of            variation
+                                     Measures                  of central                       tendency          Measures           of            variation
   ---------------------- -------------------- --------------------------------------------- ----------------- ---------------- --------------- -----------------
   Variable                               Mode                    Median                           Mean             Range             IQR             s.d.
 

@@ -2,15 +2,15 @@
 
 # Appendix {-}
 
-## Computer classes {#c-class0}
+## Computer classes {-}
 
 \setcounter{section}{-1}
 
 Some general instructions on computing and the SPSS package are given
 first below. It makes most sense to read these together with the
-instructions for individual computer classes, which begin in Section \@ref(ss-class1).
+instructions for individual computer classes.
 
-### General instructions
+### General instructions {-}
 
 #### Using the networked computers at LSE {-}
 
@@ -42,7 +42,7 @@ computer once you have logged on). You can download all the data files
 for the course, as well as other course-related material, from the
 web-based **Moodle** system. See instructions in the beginning of this book for how to register for MY451 on Moodle.
 
-### Introduction to SPSS {#s-intro-SPSS}
+### Introduction to SPSS {-}
 
 #### General information and documentation {-}
 
@@ -279,8 +279,7 @@ included in the data set.
 All the computers in the public rooms are connected to one of the laser
 printers. When you print a document or a part of it, you need to have
 credit on your printing account. See
-\small{\texttt{http://www.lse.ac.uk/intranet/LSEServices/IMT/guides/printing.aspx}}
-\normalsizefor further information.
+<http://www.lse.ac.uk/intranet/LSEServices/IMT/guides/printing.aspx> for further information.
 
 -   You can print your results from the Output Viewer either by
     selecting **File/Print** or by clicking on Print on the toolbar (the
@@ -340,7 +339,7 @@ menus. Two easy ways of doing so are
 
 \newpage
 
-### WEEK 2 class: Descriptive statistics for categorical data, and entering data {#ss-class1}
+### WEEK 2 class: Descriptive statistics for categorical data, and entering data {-}
 
 #### Data set {-}
 
@@ -446,7 +445,7 @@ Most of the statistics required for this class are found in SPSS under
 -   Names of the variables for which the statistics are requested are
     placed in the **Variable(s)** box. To make it easy to find variables
     in the list box on the left, you may find it convenient to change
-    the way the variables are displayed in the list; see under "SPSS Session Options in Section \@ref(s-intro-SPSS) for instructions.
+    the way the variables are displayed in the list; see under "SPSS Session Options" for instructions.
 
 -   Tables of frequencies: select **Display frequency tables**
 
@@ -610,7 +609,7 @@ the level of measurement of some different variables.
 
 \clearpage
 
-### WEEK 3 class
+### WEEK 3 class {-}
 
 Descriptive statistics for continuous variables
 
@@ -730,7 +729,7 @@ presentation.
 
 \newpage
 
-### WEEK 4 class: Two-way contingency tables
+### WEEK 4 class: Two-way contingency tables {-}
 
 **Data set**: The data file used today is **GSS2010.sav**. It contains a
 selection of variables on attitudes and demographic characteristics for
@@ -838,7 +837,7 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
 
 \newpage
 
-### WEEK 5 class: Inference for two population means
+### WEEK 5 class: Inference for two population means {-}
 
 **Data set**: The data file used today is **ESS5\_GBFR.sav**. It
 contains data for a selection of variables from the 2010 European Social
@@ -939,7 +938,7 @@ France[^5].
 
 \newpage
 
-### WEEK 7 class: Inference for population proportions
+### WEEK 7 class: Inference for population proportions {-}
 
 **Data sets**: Files **BES2010post\_lastdebate.sav** and
 **BES2010pre\_lastdebate.sav**.
@@ -1108,7 +1107,7 @@ actually did. Answer the following questions:
 
 \newpage
 
-### WEEK 7 class: Correlation and simple linear regression 1
+### WEEK 7 class: Correlation and simple linear regression 1 {-}
 
 **Data set**: Files **decathlon2012.sav**.
 
@@ -1215,7 +1214,7 @@ final points total for each competitor.
 
 \newpage
 
-### WEEK 8 class: Simple linear regression and 3-way tables
+### WEEK 8 class: Simple linear regression and 3-way tables {-}
 
 **Data set**: File **GSS2010.SAV**. This contains a selection of
 variables on attitudes and demographic characteristics for 2044
@@ -1328,7 +1327,7 @@ are these:
 
 \newpage
 
-### WEEK 9 class: Multiple linear regression
+### WEEK 9 class: Multiple linear regression {-}
 
 **Data set**: File **humandevelopment2011.sav**.
 
@@ -1451,7 +1450,7 @@ explanatory variables for it:
 
 \newpage
 
-### WEEK 10 class: Review and Multiple linear regression
+### WEEK 10 class: Review and Multiple linear regression {-}
 
 **Data set**: File **ESS5GB\_trust.sav**.
 
@@ -1507,7 +1506,7 @@ homeworks in the model answers, which will be posted in the Moodle site.
 
 \newpage
 
-##  Statistical tables {#c-disttables}
+##  Statistical tables {-}
 
 
 Explanation of the “Table of standard normal tail probabilities” in Section
@@ -1529,7 +1528,7 @@ Explanation of the “Table of standard normal tail probabilities” in Section
 
 \newpage
 
-### Table of standard normal tail probabilities {#s-disttables-Z}
+### Table of standard normal tail probabilities {-}
 
 \small
 
@@ -1588,7 +1587,7 @@ Explanation of the “Table of standard normal tail probabilities” in Section
 
 \newpage
 
-### Table of critical values for $t$-distributions {#s-disttables-t}
+### Table of critical values for $t$-distributions {-}
 
   ---------------- --------------------------------------------------- ------- -------- -------- -------- --------- ---------
   df                                                             0.100   0.050    0.025    0.010    0.005     0.001    0.0005
@@ -1635,7 +1634,7 @@ critical values for the standard normal distribution.
 
 \newpage
 
-### Table of critical values for $\chi^{2}$ distributions {#s-disttables-chi2}
+### Table of critical values for $\chi^{2}$ distributions {-}
 
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001
@@ -1682,7 +1681,7 @@ the probability of values greater than 2.71 is 0.100.
 [^2]: The data were obtained from
     <http://data.london.gov.uk/datastore/package/london-borough-profiles>.
 
-    \noindentIf you download the “Profiles in Excel” workbook, you will
+    If you download the "Profiles in Excel" workbook, you will
     find that one of the pages contains a map of the boroughs, and a
     tool for visualising the data on that map. A regular map of the
     boroughs can be found at for example at

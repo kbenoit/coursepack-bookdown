@@ -7,8 +7,6 @@ author:
 date: "2016-17"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
-biblio-style: apalike
 link-citations: yes
 github-repo: kbenoit/coursepack-bookdown
 description: "This course is intended for those with little or no past training in quantitative methods. The course is an intensive introduction to some of the principles and methods of statistical analysis in social research. Topics covered in MY451 include descriptive statistics, basic ideas of inference and estimation, contingency tables and an introduction to linear regression models."
@@ -18,16 +16,10 @@ description: "This course is intended for those with little or no past training 
 
 # Course information {-}
 
+\setcounter{page}{1}
+
 ![image](dept_of_methodology){height="2.2cm"}
 \hfill![image](lse){height="2.2cm"}
-
-\newpage
-
-\thispagestyle{empty}
-
-\newpage
-
-\setcounter{page}{1}
 
 <center>**MY451: Introduction to Quantitative Analysis**</center>
 
@@ -133,7 +125,7 @@ some elementary techniques.
         software package used in the computer classes. We do not
         consider them necessary for this course, or for learning
         statistics or SPSS. If, however, you feel otherwise, some such
-        books are mentioned at the beginning of Section \@ref(s-intro-SPSS).
+        books are mentioned in the Appendix.
 
 #### Homework {-}
 
@@ -475,5 +467,3 @@ LSE/University of London student and there is room for you.
 **MY451 is not challenging enough for me. Is there a more difficult
 course?** Yes, MY452 and numerous other courses offered by the
 Department of Methodology and the Statistics department.
-
-\tableofcontents

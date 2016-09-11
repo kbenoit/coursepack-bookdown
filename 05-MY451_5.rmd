@@ -267,8 +267,7 @@ Specifically, this is a **point estimate**, because it is expressed as a
 single value or a “point”, to distinguish it from *interval* estimates
 defined later.
 
-We denote a point estimate of $\pi$ by $\hat{\pi}$. The “$\; \hat{\;}
-\; $” or “hat” is often used to denote an estimate of a parameter
+We denote a point estimate of $\pi$ by $\hat{\pi}$. The “$\; \hat{\;}\;$” or “hat” is often used to denote an estimate of a parameter
 indicated by the symbol under the hat; $\hat{\pi}$ is read as “pi-hat”.
 As $\pi$ for a binomial distribution is the population proportion of
 $Y=1$, the obvious choice for a point estimate of it is the *sample*
@@ -607,7 +606,7 @@ critical values from a table. This is done in a very similar way as for
 the $\chi^{2}$ test in Section \@ref(ss-tables-chi2test-Pval).
 
 The first part of Table \@ref(tab:t-ttable) shows a table of critical values
-for the standard normal distribution. These values are also shown in Section \@ref(s-disttables-t) at the end of this course pack, on the
+for the standard normal distribution. These values are also shown in the Appendix at the end of this course pack, on the
 last row of a larger table (the other parts of this table will be
 explained later, in Section \@ref(ss-means-inference-variants)). A
 version of this table is included in all introductory text books on
@@ -621,8 +620,7 @@ books.
 
   : (\#tab:t-ttable) A table of critical values for the standard normal distribution. The
   upper part of the table shows the critical values in one row, as in
-  standard statistical tables (see the last row of the table in Section
-  \@ref(s-disttables-t)). The lower part of the table includes the
+  standard statistical tables (see the last row of the table in the Appendix). The lower part of the table includes the
   same numbers rearranged to show critical values for conventional
   significance levels for one- and two-sided tests.
 

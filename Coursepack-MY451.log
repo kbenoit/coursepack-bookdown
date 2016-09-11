@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  11 SEP 2016 21:17
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  11 SEP 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -807,43 +807,49 @@ Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip59
 \thanksmargin=\skip60
 \droptitle=\skip61
+) (./Coursepack-MY451.aux
+
+LaTeX Warning: Label `tab:t-sex-attitude-H0pop' multiply defined.
+
+
+LaTeX Warning: Label `tab:t-investors3' multiply defined.
+
 )
-No file Coursepack-MY451.aux.
 \openout1 = `Coursepack-MY451.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 102.
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 102.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 102.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 101.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 101.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 102.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 102.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 101.
 
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 102.
+LaTeX Font Info:    ... okay on input line 101.
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 102.
+Package hyperref Info: Link coloring OFF on input line 101.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -853,16 +859,14 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count179
 )
-LaTeX Info: Redefining \ref on input line 102.
-LaTeX Info: Redefining \pageref on input line 102.
-LaTeX Info: Redefining \nameref on input line 102.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
+(./Coursepack-MY451.out) (./Coursepack-MY451.out)
 \@outlinefile=\write4
 \openout4 = `Coursepack-MY451.out'.
 
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-LaTeX Info: Redefining \microtypecontext on input line 102.
+LaTeX Info: Redefining \microtypecontext on input line 101.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -911,123 +915,8 @@ ern Roman (RS)
 [1
 
 
-]
-\tf@toc=\write5
-\openout5 = `Coursepack-MY451.toc'.
-
-[2
-
-]
-File: dept_of_methodology.pdf Graphic file (type QTm)
-<use  "dept_of_methodology.pdf" >
-File: lse.pdf Graphic file (type QTm)
-<use  "lse.pdf" > [1
-
-
-]
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 169
-.
-(/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [1]
-
-LaTeX Warning: Reference `s-intro-SPSS' on page ii undefined on input line 251.
-
-
-[2] [3] [4]
-
-LaTeX Warning: Reference `c-intro' on page v undefined on input line 411.
-
-
-LaTeX Warning: Reference `s-descr1-intro' on page v undefined on input line 432
-.
-
-
-LaTeX Warning: Reference `s-descr1-2cat' on page v undefined on input line 432.
-
-
-
-LaTeX Warning: Reference `s-descr1-presentation' on page v undefined on input l
-ine 433.
-
-
-LaTeX Warning: Reference `s-descr1-1cont' on page v undefined on input line 448
-.
-
-
-LaTeX Warning: Reference `s-descr1-2cont' on page v undefined on input line 448
-.
-
-
-LaTeX Warning: Reference `c-samples' on page v undefined on input line 463.
-
-
-LaTeX Warning: Reference `c-tables' on page v undefined on input line 463.
-
-
-LaTeX Warning: Reference `c-contd' on page v undefined on input line 478.
-
-
-LaTeX Warning: Reference `c-means' on page v undefined on input line 478.
-
-
-Underfull \vbox (badness 10000) detected at line 495
- []
-
-
-LaTeX Warning: Reference `c-probs' on page v undefined on input line 503.
-
-
-LaTeX Warning: Reference `s-regression-intro' on page v undefined on input line
- 518.
-
-
-LaTeX Warning: Reference `ss-regression-simple-est' on page v undefined on inpu
-t line 518.
-
-
-LaTeX Warning: Reference `ss-regression-simple-inf' on page v undefined on inpu
-t line 548.
-
-
-LaTeX Warning: Reference `s-regression-causality' on page v undefined on input 
-line 549.
-
-
-LaTeX Warning: Reference `c-3waytables' on page v undefined on input line 549.
-
-
-LaTeX Warning: Reference `s-regression-multiple' on page v undefined on input l
-ine 565.
-
-
-LaTeX Warning: Reference `s-regression-rest' on page v undefined on input line 
-565.
-
-
-LaTeX Warning: Reference `c-more' on page v undefined on input line 585.
-
-[5] [6] [7] [8]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write6
-\openout6 = `Coursepack-MY451.toc'.
-
-[9
-
-] [10
-
-]
-Chapter 1.
-[1
-
-] [2]
-
-LaTeX Warning: Reference `c-regression' on page 3 undefined on input line 878.
-
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 900.
-
+] (./Coursepack-MY451.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 19.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1035,210 +924,1525 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmr' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 900.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 19.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 900
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 19.
+
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 900
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 19.
+
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 900.
+(Font)              <10.95> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 900.
+(Font)              <8> on input line 19.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 900.
-LaTeX Font Info:    Try loading font information for U+msa on input line 900.
+(Font)              <6> on input line 19.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 900.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/usr/local/texlive/2016basic/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
+) [2
 
-LaTeX Warning: Reference `tab:t-datamatrix' on page 3 undefined on input line 9
-14.
+] [3] [4])
+\tf@toc=\write5
+\openout5 = `Coursepack-MY451.toc'.
 
-[3]
+[5] [6
 
-LaTeX Warning: Reference `tab:t-datamatrix' on page 4 undefined on input line 1
-323.
+]
+File: dept_of_methodology.pdf Graphic file (type QTm)
+<use  "dept_of_methodology.pdf" >
+File: lse.pdf Graphic file (type QTm)
+<use  "lse.pdf" >
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 162
+.
+(/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [1
 
+]
 
-LaTeX Warning: Reference `tab:t-datamatrix' on page 4 undefined on input line 1
-334.
-
-[4]
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 5 undefined on input line 1
-342.
-
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 5 undefined on input line 1
-354.
-
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 5 undefined on input line 1
-382.
+LaTeX Warning: Reference `s-intro-SPSS' on page ii undefined on input line 244.
 
 
-LaTeX Warning: Reference `tab:t-datamatrix' on page 5 undefined on input line 1
-393.
-
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 5 undefined on input line 1
-399.
-
-[5]
-Underfull \vbox (badness 10000) detected at line 1467
+[2] [3] [4]
+Underfull \vbox (badness 10000) detected at line 488
  []
 
-[6]
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 7 undefined on input line 1
-509.
-
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 7 undefined on input line 1
-523.
-
-[7]
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 8 undefined on input line 1
-554.
+[5] [6] [7] [8]
+Chapter 1.
+[1
 
 
-LaTeX Warning: Reference `ss-intro-def-vartypes' on page 8 undefined on input l
-ine 1605.
+] [2] [3] [4] [5]
+Underfull \vbox (badness 10000) detected at line 1458
+ []
 
-[8]
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 9 undefined on input line 1
-640.
-
-
-LaTeX Warning: Reference `tab:t-vartypes' on page 9 undefined on input line 168
-6.
-
-[9]
+[6] [7] [8] [9]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 1754.
+(Font)              <9> on input line 1745.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1754.
+(Font)              <5> on input line 1745.
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
-
-LaTeX Warning: Reference `tab:t-datamatrix' on page 10 undefined on input line 
-1781.
-
-[10] [11]
-
-LaTeX Warning: Reference `c-descr1' on page 12 undefined on input line 1913.
-
-
-LaTeX Warning: Reference `c-samples' on page 12 undefined on input line 1916.
-
-
-LaTeX Warning: Reference `c-tables' on page 12 undefined on input line 1919.
-
-
-LaTeX Warning: Reference `c-probs' on page 12 undefined on input line 1922.
-
-
-LaTeX Warning: Reference `c-contd' on page 12 undefined on input line 1926.
-
-
-LaTeX Warning: Reference `c-means' on page 12 undefined on input line 1929.
-
-
-LaTeX Warning: Reference `c-regression' on page 12 undefined on input line 1934
-.
-
-
-LaTeX Warning: Reference `c-3waytables' on page 12 undefined on input line 1938
-.
-
-
-LaTeX Warning: Reference `c-samples' on page 12 undefined on input line 1942.
-
-
-LaTeX Warning: Reference `c-contd' on page 12 undefined on input line 1942.
-
-
-LaTeX Warning: Reference `c-tables' on page 12 undefined on input line 1944.
-
-
-LaTeX Warning: Reference `c-probs' on page 12 undefined on input line 1944.
-
-
-LaTeX Warning: Reference `c-means' on page 12 undefined on input line 1944.
-
-[12] [13] [14]
+[10] [11] [12] [13] [14]
 Chapter 2.
-
-LaTeX Warning: Reference `ss-intro-def-vartypes' on page 15 undefined on input 
-line 2070.
-
-
-LaTeX Warning: Reference `s-descr1-1cat' on page 15 undefined on input line 208
-0.
-
-
-LaTeX Warning: Reference `s-descr1-2cat' on page 15 undefined on input line 208
-1.
-
-
-LaTeX Warning: Reference `s-descr1-1cont' on page 15 undefined on input line 20
-82.
-
-
-LaTeX Warning: Reference `s-descr1-nums' on page 15 undefined on input line 208
-3.
-
-
-LaTeX Warning: Reference `s-descr1-2cont' on page 15 undefined on input line 20
-84.
-
-
-LaTeX Warning: Reference `s-descr1-presentation' on page 15 undefined on input 
-line 2088.
-
-
-LaTeX Warning: Reference `s-descr1-app' on page 15 undefined on input line 2112
-.
-
-
-LaTeX Warning: Reference `tab:t-countrydata' on page 15 undefined on input line
- 2113.
-
 [15
 
 ]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
-! Undefined control sequence.
-<argument> ...borough-profiles}. \par \noindentIf 
-                                                  you download the ``Profile...
-l.2161 ...ernment/londonmapandlinks/default.htm}.}
-                                                   
-Here is how much of TeX's memory you used:
- 25482 strings out of 495086
- 450713 string characters out of 6174758
- 528963 words of memory out of 5000000
- 28537 multiletter control sequences out of 15000+600000
- 24729 words of font info for 62 fonts, out of 8000000 for 9000
- 319 hyphenation exceptions out of 8191
- 42i,8n,68p,10414b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+[16]
+Overfull \vbox (5.01547pt too high) has occurred while \output is active []
 
-Output written on Coursepack-MY451.pdf (28 pages).
+[17]
+File: regions.pdf Graphic file (type QTm)
+<use  "regions.pdf" >
+File: democ.pdf Graphic file (type QTm)
+<use  "democ.pdf" >
+File: bar_attitude.pdf Graphic file (type QTm)
+<use  "bar_attitude.pdf" > [18] [19] [20] [21] [22] [23] [24]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+
+Overfull \hbox (7.33789pt too wide) in paragraph at lines 2944--2946
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (8.24675pt too wide) in paragraph at lines 2946--2948
+ []|\EU1/lmr/m/n/10.95 Important|
+ []
+
+
+Overfull \hbox (7.33789pt too wide) in paragraph at lines 2948--2950
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 2976--2978
+ []|\EU1/lmr/m/n/10.95 (1.00)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3002--3004
+ []|\EU1/lmr/m/n/10.95 (1.00)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3028--3030
+ []|\EU1/lmr/m/n/10.95 (1.00)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3054--3056
+ []|\EU1/lmr/m/n/10.95 (1.00)|
+ []
+
+[25] [26] [27] [28] [29]
+File: gdp.pdf Graphic file (type QTm)
+<use  "gdp.pdf" > [30] [31] [32]
+File: box_gdp.pdf Graphic file (type QTm)
+<use  "box_gdp.pdf" > [33] [34]
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+[35] [36] [37]
+Overfull \hbox (2.1257pt too wide) in paragraph at lines 3895--3897
+ []|\EU1/lmr/m/n/10.95 tendency| 
+ []
+
+
+Overfull \hbox (3.48349pt too wide) in paragraph at lines 3897--3899
+ []|\EU1/lmr/m/n/10.95 Measures| 
+ []
+
+
+Overfull \hbox (1.5563pt too wide) in paragraph at lines 3901--3903
+ []|\EU1/lmr/m/n/10.95 variation| 
+ []
+
+
+Overfull \hbox (2.1257pt too wide) in paragraph at lines 3913--3915
+ []|\EU1/lmr/m/n/10.95 tendency| 
+ []
+
+
+Overfull \hbox (3.48349pt too wide) in paragraph at lines 3915--3917
+ []|\EU1/lmr/m/n/10.95 Measures| 
+ []
+
+
+Overfull \hbox (1.5563pt too wide) in paragraph at lines 3919--3921
+ []|\EU1/lmr/m/n/10.95 variation| 
+ []
+
+File: twohists.pdf Graphic file (type QTm)
+<use  "twohists.pdf" > [38] [39]
+Underfull \vbox (badness 7326) has occurred while \output is active []
+
+[40] [41] [42] [43]
+File: classbars.pdf Graphic file (type QTm)
+<use  "classbars.pdf" >
+Underfull \vbox (badness 1048) has occurred while \output is active []
+
+[44] [45]
+File: threeD.pdf Graphic file (type QTm)
+<use  "threeD.pdf" > [46]
+File: houseprices.pdf Graphic file (type QTm)
+<use  "houseprices.pdf" > [47]
+Underfull \hbox (badness 7981) in paragraph at lines 4546--4551
+\EU1/lmr/m/it/10.95 book 2004 \EU1/lmr/m/n/10.95 ([]$[][][][][] [] [] [] [][][]
+ [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][
+][][][][] [] [][][][][][][][][][][][][][][][][][][][][]$[]).
+ []
+
+
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4556--4562
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4562--4567
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4567--4608
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4608--4648
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[48]
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4648--4671
+ [] [] [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[49]
+Chapter 3.
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[50
+
+] [51] [52]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[54]
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 5058--5060
+ []|\EU1/lmr/m/n/10.95 Disagree| 
+ []
+
+
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 5060--5062
+ []|\EU1/lmr/m/n/10.95 Disagree 
+ []
+
+
+Overfull \hbox (11.55319pt too wide) in paragraph at lines 5060--5062
+ \EU1/lmr/m/n/10.95 strongly| 
+ []
+
+
+Overfull \hbox (0.77228pt too wide) in paragraph at lines 5065--5067
+[]|\EU1/lmr/m/n/10.95 Male|  
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5084--5086
+ []|\EU1/lmr/m/n/10.95 (42.00)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5088--5090
+ []|\EU1/lmr/m/n/10.95 (18.00)| 
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5090--5092
+ []|\EU1/lmr/m/n/10.95 (5.00)| 
+ []
+
+
+Overfull \hbox (10.95578pt too wide) in paragraph at lines 5110--5112
+[]|\EU1/lmr/m/n/10.95 Female|  
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5129--5131
+ []|\EU1/lmr/m/n/10.95 (50.00)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5133--5135
+ []|\EU1/lmr/m/n/10.95 (13.00)| 
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5135--5137
+ []|\EU1/lmr/m/n/10.95 (3.00)| 
+ []
+
+
+Overfull \hbox (2.60094pt too wide) in paragraph at lines 5155--5157
+[]|\EU1/lmr/m/n/10.95 Total|  
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5174--5176
+ []|\EU1/lmr/m/n/10.95 (46.16)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5178--5180
+ []|\EU1/lmr/m/n/10.95 (15.40)| 
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5180--5182
+ []|\EU1/lmr/m/n/10.95 (3.96)| 
+ []
+
+[55] [56] [57]
+Chapter 4.
+
+Overfull \hbox (9.58783pt too wide) in paragraph at lines 5320--5322
+[]|\EU1/lmr/m/n/10.95 Agree|  
+ []
+
+
+Overfull \hbox (8.2244pt too wide) in paragraph at lines 5322--5324
+ []|\EU1/lmr/m/n/10.95 Neither 
+ []
+
+
+Overfull \hbox (11.23564pt too wide) in paragraph at lines 5322--5324
+ \EU1/lmr/m/n/10.95 disagree| 
+ []
+
+
+Overfull \hbox (22.57452pt too wide) in paragraph at lines 5324--5326
+[]|\EU1/lmr/m/n/10.95 Disagree|  
+ []
+
+
+Overfull \hbox (22.57452pt too wide) in paragraph at lines 5326--5328
+ []|\EU1/lmr/m/n/10.95 Disagree 
+ []
+
+
+Overfull \hbox (20.61449pt too wide) in paragraph at lines 5326--5328
+ \EU1/lmr/m/n/10.95 strongly| 
+ []
+
+
+Overfull \hbox (11.66223pt too wide) in paragraph at lines 5328--5330
+[]|\EU1/lmr/m/n/10.95 Total|  
+ []
+
+
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5343--5345
+[]|\EU1/lmr/m/n/10.95 1027|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5350--5352
+[]|\EU1/lmr/m/n/10.95 (0.428)|  
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5352--5354
+ []|\EU1/lmr/m/n/10.95 (0.182)| 
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5354--5356
+[]|\EU1/lmr/m/n/10.95 (0.195)|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5356--5358
+ []|\EU1/lmr/m/n/10.95 (0.040)| 
+ []
+
+
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5358--5360
+[]|\EU1/lmr/m/n/10.95 (1.0)|  
+ []
+
+
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5373--5375
+[]|\EU1/lmr/m/n/10.95 1317|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5380--5382
+[]|\EU1/lmr/m/n/10.95 (0.494)|  
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5382--5384
+ []|\EU1/lmr/m/n/10.95 (0.182)| 
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5384--5386
+[]|\EU1/lmr/m/n/10.95 (0.142)|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5386--5388
+ []|\EU1/lmr/m/n/10.95 (0.026)| 
+ []
+
+
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5388--5390
+[]|\EU1/lmr/m/n/10.95 (1.0)|  
+ []
+
+
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 5395--5397
+[]|\EU1/lmr/m/n/10.95 1090|  
+ []
+
+
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5403--5405
+[]|\EU1/lmr/m/n/10.95 2344|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5410--5412
+[]|\EU1/lmr/m/n/10.95 (0.465)|  
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5412--5414
+ []|\EU1/lmr/m/n/10.95 (0.182)| 
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5414--5416
+[]|\EU1/lmr/m/n/10.95 (0.165)|  
+ []
+
+
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5416--5418
+ []|\EU1/lmr/m/n/10.95 (0.032)| 
+ []
+
+
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5418--5420
+[]|\EU1/lmr/m/n/10.95 (1.0)|  
+ []
+
+[58
+
+] [59]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[60] [61]
+File: chi2test_ess.pdf Graphic file (type QTm)
+<use  "chi2test_ess.pdf" > [62] [63] [64] [65]
+Overfull \hbox (0.52654pt too wide) in paragraph at lines 6018--6020
+ []|\EU1/lmr/m/n/10.95 Agree| 
+ []
+
+
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 6022--6024
+ []|\EU1/lmr/m/n/10.95 Disagree| 
+ []
+
+
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 6024--6026
+ []|\EU1/lmr/m/n/10.95 Disagree 
+ []
+
+
+Overfull \hbox (11.55319pt too wide) in paragraph at lines 6024--6026
+ \EU1/lmr/m/n/10.95 strongly| 
+ []
+
+
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 6026--6028
+ []|\EU1/lmr/m/n/10.95 Total|
+ []
+
+
+Overfull \hbox (0.77228pt too wide) in paragraph at lines 6029--6031
+[]|\EU1/lmr/m/n/10.95 Male|  
+ []
+
+
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6033--6035
+ []|\EU1/lmr/m/n/10.95 11.160| 
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 6041--6043
+ []|\EU1/lmr/m/n/10.95 24.00|
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6048--6050
+ []|\EU1/lmr/m/n/10.95 (0.465)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6052--6054
+ []|\EU1/lmr/m/n/10.95 (0.165)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6054--6056
+ []|\EU1/lmr/m/n/10.95 (0.032)| 
+ []
+
+
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6056--6058
+ []|\EU1/lmr/m/n/10.95 (1.0)|
+ []
+
+
+Overfull \hbox (10.95578pt too wide) in paragraph at lines 6059--6061
+[]|\EU1/lmr/m/n/10.95 Female|  
+ []
+
+
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6063--6065
+ []|\EU1/lmr/m/n/10.95 12.090| 
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 6071--6073
+ []|\EU1/lmr/m/n/10.95 26.00|
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6078--6080
+ []|\EU1/lmr/m/n/10.95 (0.465)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6082--6084
+ []|\EU1/lmr/m/n/10.95 (0.165)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6084--6086
+ []|\EU1/lmr/m/n/10.95 (0.032)| 
+ []
+
+
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6086--6088
+ []|\EU1/lmr/m/n/10.95 (1.0)|
+ []
+
+
+Overfull \hbox (2.60094pt too wide) in paragraph at lines 6089--6091
+[]|\EU1/lmr/m/n/10.95 Total|  
+ []
+
+
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6093--6095
+ []|\EU1/lmr/m/n/10.95 23.250| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6108--6110
+ []|\EU1/lmr/m/n/10.95 (0.465)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6112--6114
+ []|\EU1/lmr/m/n/10.95 (0.165)| 
+ []
+
+
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6114--6116
+ []|\EU1/lmr/m/n/10.95 (0.032)| 
+ []
+
+
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6116--6118
+ []|\EU1/lmr/m/n/10.95 (1.0)|
+ []
+
+[66]
+Overfull \hbox (2.4919pt too wide) in paragraph at lines 6130--6132
+ \EU1/lmr/m/n/10.95 strongly| 
+ []
+
+
+Overfull \hbox (4.45193pt too wide) in paragraph at lines 6136--6138
+ []|\EU1/lmr/m/n/10.95 Disagree| 
+ []
+
+
+Overfull \hbox (4.45193pt too wide) in paragraph at lines 6138--6140
+ []|\EU1/lmr/m/n/10.95 Disagree 
+ []
+
+
+Overfull \hbox (2.4919pt too wide) in paragraph at lines 6138--6140
+ \EU1/lmr/m/n/10.95 strongly| 
+ []
+
+
+Overfull \hbox (2.60094pt too wide) in paragraph at lines 6140--6142
+ []|\EU1/lmr/m/n/10.95 Total|
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 6162--6164
+ []|\EU1/lmr/m/n/10.95 (0.450)| 
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 6192--6194
+ []|\EU1/lmr/m/n/10.95 (0.465)| 
+ []
+
+
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 6222--6224
+ []|\EU1/lmr/m/n/10.95 (0.458)| 
+ []
+
+[67]
+File: chi2sims.pdf Graphic file (type QTm)
+<use  "chi2sims.pdf" >
+File: chi2dists.pdf Graphic file (type QTm)
+<use  "chi2dists.pdf" > [68] [69]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 6376.
+File: chi2_pval.pdf Graphic file (type QTm)
+<use  "chi2_pval.pdf" >
+
+LaTeX Warning: Reference `s-disttables-chi2' on page 70 undefined on input line
+ 6463.
+
+[70]
+Overfull \vbox (281.9741pt too high) has occurred while \output is active []
+
+[71] [72] [73] [74]
+Chapter 5.
+
+Underfull \vbox (badness 2512) has occurred while \output is active []
+
+[75
+
+]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+
+Overfull \hbox (4.80267pt too wide) in paragraph at lines 6833--6834
+ []\EU1/lmr/m/n/10.95 strut
+ []
+
+
+Overfull \hbox (4.80267pt too wide) in paragraph at lines 6853--6854
+ []\EU1/lmr/m/n/10.95 strut
+ []
+
+
+Overfull \hbox (5.33357pt too wide) in paragraph at lines 6911--6913
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 59$|
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 6913--6915
+ []|\EU1/lmr/m/n/10.95 0.112|
+ []
+
+
+Overfull \hbox (0.53668pt too wide) in paragraph at lines 6915--6917
+ []|\EU1/lmr/m/n/10.95 (0.433;|
+ []
+
+
+Overfull \hbox (8.49283pt too wide) in paragraph at lines 6956--6958
+ []|\EU1/lmr/m/n/10.95 Black|
+ []
+
+
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6975--6977
+ []|\EU1/lmr/m/n/10.95 0.0457|
+ []
+
+
+Overfull \hbox (10.80856pt too wide) in paragraph at lines 6979--6981
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 16\OML/lmm/m/it/10.95 :\OT1/lmr/
+m/n/10.95 71$|
+ []
+
+
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 6981--6983
+ \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
+ []
+
+
+Overfull \hbox (0.53668pt too wide) in paragraph at lines 6983--6985
+ []|\EU1/lmr/m/n/10.95 (0.040;|
+ []
+
+
+Overfull \hbox (13.24432pt too wide) in paragraph at lines 7056--7058
+ []|\EU1/lmr/m/n/10.95 201,229|
+ []
+
+
+Overfull \hbox (14.19214pt too wide) in paragraph at lines 7060--7062
+ []|\EU1/lmr/m/n/10.95 0.000706|
+ []
+
+
+Overfull \hbox (13.24432pt too wide) in paragraph at lines 7090--7092
+ []|\EU1/lmr/m/n/10.95 200,745|
+ []
+
+
+Overfull \hbox (14.19214pt too wide) in paragraph at lines 7094--7096
+ []|\EU1/lmr/m/n/10.95 0.000284|
+ []
+
+
+Overfull \hbox (5.33357pt too wide) in paragraph at lines 7098--7100
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 6\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 01$|
+ []
+
+
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 7100--7102
+ \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
+ []
+
+
+Overfull \hbox (25.47234pt too wide) in paragraph at lines 7102--7104
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 000560;$|
+ []
+
+
+Overfull \hbox (22.4307pt too wide) in paragraph at lines 7119--7121
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 000284)$|
+ []
+
+
+Overfull \hbox (2.29187pt too wide) in paragraph at lines 7185--7187
+ \OT1/lmr/m/n/10.95 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 001$|
+ []
+
+[76] [77]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[78] [79] [80] [81] [82]
+File: pval_zp.pdf Graphic file (type QTm)
+<use  "pval_zp.pdf" > [83] [84]
+
+LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
+38.
+
+
+LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
+52.
+
+
+LaTeX Warning: Reference `s-disttables-t' on page 85 undefined on input line 77
+52.
+
+
+Overfull \vbox (0.69685pt too high) has occurred while \output is active []
+
+[85]
+Underfull \vbox (badness 10000) detected at line 7767
+ []
+
+
+Underfull \vbox (badness 2608) has occurred while \output is active []
+
+[86]
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+[87] [88] [89] [90] [91] [92] [93] [94]
+File: salk_nytimes.pdf Graphic file (type QTm)
+<use  "salk_nytimes.pdf" > [95] [96]
+Chapter 6.
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+File: bloodp1.pdf Graphic file (type QTm)
+<use  "bloodp1.pdf" > [97
+
+]
+Overfull \hbox (33.08678pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 98 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: POP
+ULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[98] [99]
+File: bloodp2.pdf Graphic file (type QTm)
+<use  "bloodp2.pdf" >
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 100 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[100]
+File: mark.pdf Graphic file (type QTm)
+<use  "mark.pdf" > [101]
+File: threenorms.pdf Graphic file (type QTm)
+<use  "threenorms.pdf" >
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 102 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[102]
+File: norm1.pdf Graphic file (type QTm)
+<use  "norm1.pdf" > [103]
+File: normbp.pdf Graphic file (type QTm)
+<use  "normbp.pdf" >
+
+LaTeX Warning: Reference `s-disttables-Z' on page 104 undefined on input line 8
+951.
+
+
+LaTeX Warning: Reference `s-disttables-Z' on page 104 undefined on input line 8
+951.
+
+
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 104 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[104]
+
+LaTeX Warning: Reference `s-disttables-Z' on page 105 undefined on input line 8
+982.
+
+
+Overfull \vbox (319.44589pt too high) has occurred while \output is active []
+
+[105]
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 106 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[106]
+File: sampld2_bp.pdf Graphic file (type QTm)
+<use  "sampld2_bp.pdf" >
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+[107]
+File: sampld1_bp.pdf Graphic file (type QTm)
+<use  "sampld1_bp.pdf" >
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 108 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[108]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[109]
+File: sampld_p.pdf Graphic file (type QTm)
+<use  "sampld_p.pdf" >
+Overfull \hbox (38.56178pt too wide) has occurred while \output is active
+\EU1/lmr/m/n/10.95 110 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
+PULATION AND SAMPLING DISTRIBUTIONS
+ []
+
+[110] [111]
+Chapter 7.
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[112
+
+] [113]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[114] [115] [116]
+File: hworkpyramid.pdf Graphic file (type QTm)
+<use  "hworkpyramid.pdf" >
+File: hwork.pdf Graphic file (type QTm)
+<use  "hwork.pdf" >
+File: twoboxplots.pdf Graphic file (type QTm)
+<use  "twoboxplots.pdf" > [117] [118] [119] [120] [121]
+Overfull \hbox (5.93497pt too wide) in paragraph at lines 10260--10262
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 49; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OM
+L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
+ []
+
+[122]
+File: spss2t.pdf Graphic file (type QTm)
+<use  "spss2t.pdf" > [123] [124] [125] [126] [127]
+File: tdistr1.pdf Graphic file (type QTm)
+<use  "tdistr1.pdf" > [128]
+
+LaTeX Warning: Reference `s-disttables-t' on page 129 undefined on input line 1
+0640.
+
+[129]
+Underfull \hbox (badness 10000) in paragraph at lines 10677--10677
+[][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
+national Human Development Indi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10677--10677
+\EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
+ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
+\EU1/lmr/m/n/9 ,
+ []
+
+[130]
+
+LaTeX Warning: Reference `s-disttables-t' on page 131 undefined on input line 1
+0801.
+
+[131]
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 10892--10894
+ []|\EU1/lmr/m/n/10.95 1724|
+ []
+
+
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10896--10898
+ []|\EU1/lmr/m/n/10.95 2.15|
+ []
+
+
+Overfull \hbox (10.97237pt too wide) in paragraph at lines 10900--10902
+ \EU1/lmr/m/n/10.95 49.49|
+ []
+
+
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 10911--10913
+ []|\EU1/lmr/m/n/10.95 1724|
+ []
+
+
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10915--10917
+ []|\EU1/lmr/m/n/10.95 6.11|
+ []
+
+
+Overfull \hbox (5.88063pt too wide) in paragraph at lines 10919--10921
+ []|\EU1/lmr/m/n/10.95 2.04|
+ []
+
+
+Overfull \hbox (3.54874pt too wide) in paragraph at lines 10925--10927
+ []|\EU1/lmr/m/n/10.95 (35.01; 
+ []
+
+
+Overfull \hbox (1.75294pt too wide) in paragraph at lines 10925--10927
+ \EU1/lmr/m/n/10.95 35.59)| 
+ []
+
+[132] [133]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[134] [135]
+File: ttestspss.pdf Graphic file (type QTm)
+<use  "ttestspss.pdf" > [136] [137] [138] [139] [140] [141] [142] [143] [144]
+Chapter 8.
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[145
+
+]
+File: corruption1.pdf Graphic file (type QTm)
+<use  "corruption1.pdf" > [146] [147]
+File: temperplot.pdf Graphic file (type QTm)
+<use  "temperplot.pdf" > [148] [149]
+File: corruption2.pdf Graphic file (type QTm)
+<use  "corruption2.pdf" >
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[150]
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
+ne 12086.
+
+File: olspl1.pdf Graphic file (type QTm)
+<use  "olspl1.pdf" >
+File: olspl2.pdf Graphic file (type QTm)
+<use  "olspl2.pdf" >
+File: olspl3.pdf Graphic file (type QTm)
+<use  "olspl3.pdf" >
+File: olspl4.pdf Graphic file (type QTm)
+<use  "olspl4.pdf" >
+File: olspl5.pdf Graphic file (type QTm)
+<use  "olspl5.pdf" >
+File: olspl6.pdf Graphic file (type QTm)
+<use  "olspl6.pdf" >
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
+ne 12101.
+
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
+ne 12109.
+
+
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+[][] [] 
+ []
+
+
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+[] [] 
+ []
+
+
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12095--12121
+[] [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[151]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[152]
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
+ne 12124.
+
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
+ne 12135.
+
+File: corruption3.pdf Graphic file (type QTm)
+<use  "corruption3.pdf" >
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
+ne 12183.
+
+[153] [154]
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 155 undefined on input li
+ne 12280.
+
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 155 undefined on input li
+ne 12299.
+
+[155] [156]
+File: imr1.pdf Graphic file (type QTm)
+<use  "imr1.pdf" >
+Overfull \hbox (16.07472pt too wide) in paragraph at lines 12471--12473
+ \EU1/lmr/m/n/10.95 enrolment|
+ []
+
+
+Overfull \hbox (13.7266pt too wide) in paragraph at lines 12473--12475
+ \EU1/lmr/m/n/10.95 corruption|
+ []
+
+
+Overfull \hbox (10.92339pt too wide) in paragraph at lines 12475--12477
+ \EU1/lmr/m/n/10.95 inequality|
+ []
+
+[157] [158]
+Underfull \hbox (badness 10000) in paragraph at lines 12724--12724
+[][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
+national Human Development Indi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12724--12724
+\EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
+ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
+\EU1/lmr/m/n/9 ,
+ []
+
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[159]
+File: spsslinreg.pdf Graphic file (type QTm)
+<use  "spsslinreg.pdf" >
+Underfull \vbox (badness 10000) detected at line 12818
+ []
+
+[160] [161]
+File: lmparams.pdf Graphic file (type QTm)
+<use  "lmparams.pdf" > [162] [163]
+
+LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
+12971.
+
+
+LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
+12984.
+
+File: lmresids.pdf Graphic file (type QTm)
+<use  "lmresids.pdf" >
+
+LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
+12987.
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 12986--12993
+[][] \EU1/lmr/m/n/10.95 The second
+ []
+
+[164] [165]
+
+LaTeX Warning: Reference `fig:f-residuals' on page 166 undefined on input line 
+13135.
+
+[166]
+Underfull \vbox (badness 10000) detected at line 13186
+ []
+
+[167]
+
+LaTeX Warning: Reference `fig:f-scatterplots' on page 168 undefined on input li
+ne 13295.
+
+[168] [169] [170] [171]
+File: xyzspurious.pdf Graphic file (type QTm)
+<use  "xyzspurious.pdf" > [172]
+Overfull \hbox (14.24124pt too wide) in paragraph at lines 13634--13636
+ []|\EU1/lmr/m/n/10.95 Coefficient|
+ []
+
+
+Overfull \hbox (16.67778pt too wide) in paragraph at lines 13636--13638
+ []|\EU1/lmr/m/n/10.95 Standard
+ []
+
+[173] [174] [175] [176] [177] [178] [179]
+Overfull \hbox (9.71405pt too wide) in paragraph at lines 14165--14167
+ []|\EU1/lmr/m/n/10.95 Coefficient|
+ []
+
+
+Overfull \hbox (26.93182pt too wide) in paragraph at lines 14167--14169
+ []|\EU1/lmr/m/n/10.95 Std.  error|
+ []
+
+
+Overfull \hbox (23.37885pt too wide) in paragraph at lines 14173--14175
+ \EU1/lmr/m/n/10.95 Conf.  interval| 
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14193--14195
+ []|\EU1/lmr/m/n/10.95 0.016|
+ []
+
+
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14195--14197
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 69$|
+ []
+
+
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14199--14201
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 123; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\O
+ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 059)$| 
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14206--14208
+ []|\EU1/lmr/m/n/10.95 0.011|
+ []
+
+
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14208--14210
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 75$|
+ []
+
+
+Overfull \hbox (26.48393pt too wide) in paragraph at lines 14212--14214
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 043; 0\OML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 003)
+$| 
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14219--14221
+ []|\EU1/lmr/m/n/10.95 0.021|
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14245--14247
+ []|\EU1/lmr/m/n/10.95 0.631|
+ []
+
+
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14247--14249
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 09$|
+ []
+
+
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14251--14253
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 4\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 461; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\O
+ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 958)$| 
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14258--14260
+ []|\EU1/lmr/m/n/10.95 1.039|
+ []
+
+
+Overfull \hbox (0.80638pt too wide) in paragraph at lines 14260--14262
+ []|$\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 3\OML/lmm/m/it/10.95 :\OT1/lmr/m
+/n/10.95 17$|
+ []
+
+
+Overfull \hbox (35.00063pt too wide) in paragraph at lines 14264--14266
+ []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 5\OML/lmm/m/
+it/10.95 :\OT1/lmr/m/n/10.95 357; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 1\O
+ML/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 235)$| 
+ []
+
+[180] [181] [182] [183]
+Overfull \hbox (12.37408pt too wide) in paragraph at lines 14550--14552
+ \EU1/lmr/m/n/10.95 restaurants)| 
+ []
+
+
+Overfull \hbox (8.13113pt too wide) in paragraph at lines 14552--14554
+ []|\EU1/lmr/m/n/10.95 Response 
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14559--14561
+ []|\EU1/lmr/m/n/10.95 (368)|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14583--14585
+ []|\EU1/lmr/m/n/10.95 64.7|
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14585--14587
+ []|\EU1/lmr/m/n/10.95 (238)|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14596--14598
+ []|\EU1/lmr/m/n/10.95 35.3|
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14598--14600
+ []|\EU1/lmr/m/n/10.95 (130)|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14622--14624
+ []|\EU1/lmr/m/n/10.95 41.0|
+ []
+
+
+Overfull \hbox (2.29433pt too wide) in paragraph at lines 14624--14626
+ []|\EU1/lmr/m/n/10.95 (151)|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14635--14637
+ []|\EU1/lmr/m/n/10.95 24.7|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14648--14650
+ []|\EU1/lmr/m/n/10.95 13.0|
+ []
+
+
+Overfull \hbox (1.35344pt too wide) in paragraph at lines 14661--14663
+ []|\EU1/lmr/m/n/10.95 21.2|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14744--14746
+ []|\EU1/lmr/m/n/10.95 (2.63)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14777--14779
+ []|\EU1/lmr/m/n/10.95 (0.40)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14832--14834
+ []|\EU1/lmr/m/n/10.95 (0.24)|
+ []
+
+
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 14854--14856
+ []|\EU1/lmr/m/n/10.95 (0.64)|
+ []
+
+[184] [185] [186]
+Underfull \hbox (badness 1237) in paragraph at lines 15032--15056
+[]\EU1/lmr/m/n/10.95 The “Standardized Coefficients/Beta” in the “\EU1/lmr/bx/n
+/10.95 Coefficients\EU1/lmr/m/n/10.95 ” table are defined as
+ []
+
+[187] [188]
+Chapter 9.
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[189
+
+] [190]
+Overfull \hbox (8.93613pt too wide) in paragraph at lines 15319--15321
+ []|\EU1/lmr/m/n/10.95 Slightly
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15319--15321
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (21.83524pt too wide) in paragraph at lines 15321--15323
+ []|\EU1/lmr/m/n/10.95 Important|
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15323--15325
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 15325--15327
+ []|\EU1/lmr/m/n/10.95 Total|
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15351--15353
+ []|\EU1/lmr/m/n/10.95 1.000|
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15377--15379
+ []|\EU1/lmr/m/n/10.95 1.000|
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15403--15405
+ []|\EU1/lmr/m/n/10.95 1.000|
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15429--15431
+ []|\EU1/lmr/m/n/10.95 1.000|
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15455--15457
+ []|\EU1/lmr/m/n/10.95 1.000|
+ []
+
+[191]
+Overfull \hbox (8.93613pt too wide) in paragraph at lines 15472--15474
+ []|\EU1/lmr/m/n/10.95 Slightly
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15472--15474
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (21.83524pt too wide) in paragraph at lines 15474--15476
+[]|\EU1/lmr/m/n/10.95 Important|  
+ []
+
+
+Overfull \hbox (20.92638pt too wide) in paragraph at lines 15476--15478
+ \EU1/lmr/m/n/10.95 important|
+ []
+
+
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 15478--15480
+[]|\EU1/lmr/m/n/10.95 Total|  
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15504--15506
+[]|\EU1/lmr/m/n/10.95 1.000|  
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15530--15532
+[]|\EU1/lmr/m/n/10.95 1.000|  
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15556--15558
+[]|\EU1/lmr/m/n/10.95 1.000|  
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15582--15584
+[]|\EU1/lmr/m/n/10.95 1.000|  
+ []
+
+
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 15608--15610
+[]|\EU1/lmr/m/n/10.95 1.000|  
+ []
+
+[192] [193] [194]
+Overfull \hbox (48.14305pt too wide) in alignment at lines 16031--16048
+ [] [] [] [] [] 
+ []
+
+[195] [196]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[197] [198]
+Chapter 10.
+[199
+
+] [200]
+
+LaTeX Warning: Reference `ss-class1' on page 201 undefined on input line 16329.
+
+
+
+Underfull \vbox (badness 2253) has occurred while \output is active []
+
+[201
+
+
+] [202] [203] [204] [205] [206]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[207]
+
+LaTeX Warning: Reference `s-intro-SPSS' on page 208 undefined on input line 168
+31.
+
+[208] [209] [210] [211]
+Underfull \hbox (badness 2229) in paragraph at lines 17060--17067
+[]\EU1/lmr/m/n/10.95 Measures of variation: \EU1/lmr/bx/n/10.95 Range\EU1/lmr/m
+/n/10.95 , \EU1/lmr/bx/n/10.95 Std. deviation \EU1/lmr/m/n/10.95 and \EU1/lmr/b
+x/n/10.95 Variance \EU1/lmr/m/n/10.95 under \EU1/lmr/bx/n/10.95 Statis-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 17074--17081
+[]\EU1/lmr/bx/n/10.95 Stem and leaf plots\EU1/lmr/m/n/10.95 , which are obtaine
+d from \EU1/lmr/bx/n/10.95 Analyze/Descriptive Statis-
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 17074--17081
+\EU1/lmr/bx/n/10.95 tics/Explore \EU1/lmr/m/n/10.95 by entering variable(s) und
+er \EU1/lmr/bx/n/10.95 Dependent list \EU1/lmr/m/n/10.95 and selecting \EU1/lmr
+/bx/n/10.95 Dis-
+ []
+
+[212
+
+] [213] [214] [215]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[216] [217] [218] [219] [220] [221]
+Underfull \hbox (badness 1199) in paragraph at lines 17720--17728
+[]\EU1/lmr/m/n/10.95 Consider now the correlations between the ten event scores
+ and the final score
+ []
+
+[222] [223]
+Underfull \hbox (badness 1527) in paragraph at lines 17853--17863
+\EU1/lmr/m/n/10.95 Three-way contingency tables are again obtained from \EU1/lm
+r/bx/n/10.95 Analyze/Descriptive Statis-
+ []
+
+[224]
+Underfull \hbox (badness 10000) in paragraph at lines 17958--17958
+[][][]\EU1/lmr/m/n/9 United Nations Development Programme \EU1/lmr/m/it/9 Inter
+national Human Development Indi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17958--17958
+\EU1/lmr/m/it/9 cators\EU1/lmr/m/n/9 , \EU1/lmtt/m/n/9 http://hdr.undp.org/en/d
+ata/\EU1/lmr/m/n/9 ; World Bank \EU1/lmr/m/it/9 Worldwide Governance Indicators
+\EU1/lmr/m/n/9 ,
+ []
+
+[225] [226]
+Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
+[227]
+Overfull \hbox (0.28543pt too wide) in paragraph at lines 18125--18127
+\EU1/lmr/m/n/10.95 Explanation of the “Table of standard normal tail probabilit
+ies” in Section @ref(s_disttables_Z): 
+ []
+
+[228]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 18164.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 18164.
+[229]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 18276.
+
+
+Underfull \vbox (badness 10000) detected at line 18314
+ []
+
+[230]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 18357.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\chi' on input line 18357.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 18357.
+
+
+Underfull \vbox (badness 10000) detected at line 18381
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 18399.
+[231]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 18399.
+(./Coursepack-MY451.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 18399.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 18399.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18399.
+ ) 
+Here is how much of TeX's memory you used:
+ 26162 strings out of 495086
+ 462164 string characters out of 6174758
+ 582678 words of memory out of 5000000
+ 29138 multiletter control sequences out of 15000+600000
+ 63635 words of font info for 99 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 42i,10n,68p,10414b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on Coursepack-MY451.pdf (245 pages).
