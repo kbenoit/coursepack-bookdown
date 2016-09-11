@@ -127,7 +127,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4" data-path="c-tables.html"><a href="c-tables.html"><i class="fa fa-check"></i><b>4</b> Statistical inference for two-way tables</a><ul>
 <li class="chapter" data-level="4.1" data-path="c-tables.html"><a href="c-tables.html#s-tables-intro"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
 <li class="chapter" data-level="4.2" data-path="c-tables.html"><a href="c-tables.html#s-tables-tests"><i class="fa fa-check"></i><b>4.2</b> Significance tests</a></li>
-<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The <span class="math inline">\(\chi^{2}\)</span> test of independence</a><ul>
+<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The chi-square test of independence</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-null"><i class="fa fa-check"></i><b>4.3.1</b> Hypotheses</a></li>
 <li class="chapter" data-level="4.3.2" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-ass"><i class="fa fa-check"></i><b>4.3.2</b> Assumptions of a significance test</a></li>
 <li class="chapter" data-level="4.3.3" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-stat"><i class="fa fa-check"></i><b>4.3.3</b> The test statistic</a></li>
@@ -135,7 +135,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4.3.5" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-Pval"><i class="fa fa-check"></i><b>4.3.5</b> The <span class="math inline">\(P\)</span>-value</a></li>
 <li class="chapter" data-level="4.3.6" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-conclusions"><i class="fa fa-check"></i><b>4.3.6</b> Drawing conclusions from a test</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the <span class="math inline">\(\chi^{2}\)</span> test of independence</a></li>
+<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the chi-square test of independence</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="c-probs.html"><a href="c-probs.html"><i class="fa fa-check"></i><b>5</b> Inference for population proportions</a><ul>
 <li class="chapter" data-level="5.1" data-path="c-probs.html"><a href="c-probs.html#s-probs-intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
@@ -275,26 +275,228 @@ MathJax.Hub.Config({
 </div>
 <div id="s-probs-examples" class="section level2">
 <h2><span class="header-section-number">5.2</span> Examples</h2>
-<p>The following four examples will be discussed in this chapter. Examples 5.1 and 5.2 concern only one group, while in Examples 5.3 and 5.4 two groups are to be compared. Table <a href="#tab:t-probex">5.1</a> shows basic sample statistics for the examples, together with the results of the significance tests and confidence intervals described later.</p>
+<p>The following four examples will be discussed in this chapter. Examples 5.1 and 5.2 concern only one group, while in Examples 5.3 and 5.4 two groups are to be compared. Table <a href="c-probs.html#tab:t-probex">5.1</a> shows basic sample statistics for the examples, together with the results of the significance tests and confidence intervals described later.</p>
 <p><strong>Example 5.1</strong>: <strong>An EU referendum</strong></p>
 <p>A referendum about joining the European Union was held in Finland on the 16th of October, 1994. Suppose that in an opinion poll conducted around October 4th (just before the beginning of postal voting), 330 of the <span class="math inline">\(n=702\)</span> respondents (47.0%) indicated that they would definitely vote Yes to joining the EU, 190 (27.1%) said they would definitely vote No, and 182 (25.9%) were still undecided<a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a>. Here we will consider the dichotomous variable with the values of Yes (330 respondents) versus No or Undecided (372 respondents, or 53.0%). The proportion of voters who definitely intend to vote Yes provides a lower bound for the proportion of Yes-votes in the referendum, even if all of the currently undecided voters eventually decided to vote No.</p>
 <p><strong>Example 5.2</strong>: <strong>Evidence of possible racial bias in jury selection</strong></p>
 <p>As part of an official inquiry into the extent of racial and gender bias in the justice system in the U.S. state of Pennsylvania<a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a>, an investigation was made of whether people from minority racial groups were underrepresented in trial juries. One part of the assessment was a survey administered to all those called for the jury panel for criminal trials (from which the juries for actual trials will be selected) in Allegheny County, Pennsylvania (the city of Pittsburgh and its surrounding areas) between May and October, 2001. We will consider the dichotomous variable of whether a respondent to the survey identified his or her own race as Black (African American) or some other race category. Of the <span class="math inline">\(n=4950\)</span> respondents, 226 (4.57%) identified themselves as black. This will be compared to the the percentage of blacks in the whole population of people aged 18 and over (those eligible for jury service) in the county, which is 12.4% (this is a census estimate which will here be treated as a known population quantity, ignoring any possible census error in it).</p>
-<table>
+<table style="width:99%;">
+<caption><span id="tab:t-probex">Table 5.1: </span> Examples of analyses of population proportions used in Chapter <a href="c-probs.html#c-probs">5</a>. In addition to sample sizes <span class="math inline">\(n\)</span> and proportions <span class="math inline">\(\hat{\pi}\)</span>, the table shows for the one-sample examples 5.1 and 5.2 the <span class="math inline">\(z\)</span>-test statistic for the hypothesis <span class="math inline">\(H_{0}: \pi=\pi_{0}\)</span>, its <span class="math inline">\(P\)</span>-value against a two-sided alternative, and a 95% confidence interval for <span class="math inline">\(\pi\)</span>. For the two-sample examples 5.3 and 5.4, the table shows the estimated between-group difference of proportions <span class="math inline">\(\hat{\Delta}\)</span>, the <span class="math inline">\(z\)</span>-test statistic for the hypothesis <span class="math inline">\(H_{0}: \Delta=0\)</span>, its <span class="math inline">\(P\)</span>-value against a two-sided alternative, and a 95% confidence interval for <span class="math inline">\(\Delta\)</span>.</caption>
+<colgroup>
+<col width="44%" />
+<col width="5%" />
+<col width="4%" />
+<col width="8%" />
+<col width="14%" />
+<col width="6%" />
+<col width="6%" />
+<col width="8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>One sample</strong></th>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right"></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>One sample</strong>             </td>
+<td align="left">Example 5.1: Voting intention in an EU referendum</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"><span class="math inline">\(n\)</span></td>
+<td align="right">Yes</td>
+<td align="right"><span class="math inline">\(\hat{\pi}\)</span></td>
+<td align="right"><span class="math inline">\(\pi_{0}\)</span></td>
+<td align="right"><span class="math inline">\(z\)</span></td>
+<td align="right"><span class="math inline">\(P\)</span></td>
+<td align="right">95% CI</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="right">702</td>
+<td align="right">330</td>
+<td align="right">0.470</td>
+<td align="right">0.5</td>
+<td align="right"><span class="math inline">\(-1.59\)</span></td>
+<td align="right">0.112</td>
+<td align="right">(0.433;</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">0.507)</td>
+</tr>
+<tr class="odd">
+<td align="left">Example 5.2: Race of members of jury panel</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"><span class="math inline">\(n\)</span></td>
+<td align="right">Black</td>
+<td align="right"><span class="math inline">\(\hat{\pi}\)</span></td>
+<td align="right"><span class="math inline">\(\pi_{0}\)</span></td>
+<td align="right"><span class="math inline">\(z\)</span></td>
+<td align="right"><span class="math inline">\(P\)</span></td>
+<td align="right">95% CI</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="right">4950</td>
+<td align="right">226</td>
+<td align="right">0.0457</td>
+<td align="right">0.124</td>
+<td align="right"><span class="math inline">\(-16.71\)</span></td>
+<td align="right"><span class="math inline">\(&lt;0.001\)</span></td>
+<td align="right">(0.040;</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right">0.052)</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Two Independent samples</strong></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">Example 5.3: Polio diagnoses in a vaccine trial</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="right"><span class="math inline">\(n\)</span></td>
+<td align="right">Yes</td>
+<td align="right"><span class="math inline">\(\hat{\pi}\)</span></td>
+<td align="right">Diff. (<span class="math inline">\(\hat{\Delta}\)</span>)</td>
+<td align="right"><span class="math inline">\(z\)</span></td>
+<td align="right"><span class="math inline">\(P\)</span></td>
+<td align="right">95% CI</td>
+</tr>
+<tr class="even">
+<td align="left">Control group</td>
+<td align="right">201,229</td>
+<td align="right">142</td>
+<td align="right">0.000706</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">(placebo)</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">Treatment group</td>
+<td align="right">200,745</td>
+<td align="right">57</td>
+<td align="right">0.000284</td>
+<td align="right"><span class="math inline">\(-0.000422\)</span></td>
+<td align="right"><span class="math inline">\(-6.01\)</span></td>
+<td align="right"><span class="math inline">\(&lt;0.001\)</span></td>
+<td align="right"><span class="math inline">\((-0.000560;\)</span></td>
+</tr>
+<tr class="odd">
+<td align="left">(vaccine)</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"><span class="math inline">\(-0.000284)\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">Example 5.4: Optimistic about young people’s future</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="right"><span class="math inline">\(n\)</span></td>
+<td align="right">Yes</td>
+<td align="right"><span class="math inline">\(\hat{\pi}\)</span></td>
+<td align="right">Diff. (<span class="math inline">\(\hat{\Delta}\)</span>)</td>
+<td align="right"><span class="math inline">\(z\)</span></td>
+<td align="right"><span class="math inline">\(P\)</span></td>
+<td align="right">95% CI</td>
+</tr>
+<tr class="even">
+<td align="left">Negative question</td>
+<td align="right">921</td>
+<td align="right">257</td>
+<td align="right">0.279</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr class="odd">
+<td align="left">Positive question</td>
+<td align="right">929</td>
+<td align="right">338</td>
+<td align="right">0.364</td>
+<td align="right">0.085</td>
+<td align="right">3.92</td>
+<td align="right"><span class="math inline">\(&lt;0.001\)</span></td>
+<td align="right">(0.043; 0.127)</td>
 </tr>
 </tbody>
 </table>
-<p>Example 5.1: Voting intention in an EU referendum <span class="math inline">\(n\)</span> Yes <span class="math inline">\(\hat{\pi}\)</span> <span class="math inline">\(\pi_{0}\)</span> <span class="math inline">\(z\)</span> <span class="math inline">\(P\)</span> 95% CI 702 330 0.470 0.5 <span class="math inline">\(-1.59\)</span> 0.112 (0.433; 0.507)</p>
-<p>Example 5.2: Race of members of jury panel <span class="math inline">\(n\)</span> Black <span class="math inline">\(\hat{\pi}\)</span> <span class="math inline">\(\pi_{0}\)</span> <span class="math inline">\(z\)</span> <span class="math inline">\(P\)</span> 95% CI 4950 226 0.0457 0.124 <span class="math inline">\(-16.71\)</span> <span class="math inline">\(&lt;0.001\)</span> (0.040; 0.052)</p>
-<p><strong>Two Independent samples</strong> Example 5.3: Polio diagnoses in a vaccine trial <span class="math inline">\(n\)</span> Yes <span class="math inline">\(\hat{\pi}\)</span> Diff. (<span class="math inline">\(\hat{\Delta}\)</span>) <span class="math inline">\(z\)</span> <span class="math inline">\(P\)</span> 95% CI Control group 201,229 142 0.000706<br />
-(placebo)<br />
-Treatment group 200,745 57 0.000284 <span class="math inline">\(-0.000422\)</span> <span class="math inline">\(-6.01\)</span> <span class="math inline">\(&lt;0.001\)</span> <span class="math inline">\((-0.000560;\)</span> (vaccine) <span class="math inline">\(-0.000284)\)</span></p>
-<p>Example 5.4: Optimistic about young people’s future <span class="math inline">\(n\)</span> Yes <span class="math inline">\(\hat{\pi}\)</span> Diff. (<span class="math inline">\(\hat{\Delta}\)</span>) <span class="math inline">\(z\)</span> <span class="math inline">\(P\)</span> 95% CI Negative question 921 257 0.279<br />
-Positive question 929 338 0.364 0.085 3.92 <span class="math inline">\(&lt;0.001\)</span> (0.043; 0.127) ————————————————————————————————————————————————————————–</p>
-<p>: (#tab:t-probex) Examples of analyses of population proportions used in Chapter <a href="c-probs.html#c-probs">5</a>. In addition to sample sizes <span class="math inline">\(n\)</span> and proportions <span class="math inline">\(\hat{\pi}\)</span>, the table shows for the one-sample examples 5.1 and 5.2 the <span class="math inline">\(z\)</span>-test statistic for the hypothesis <span class="math inline">\(H_{0}: \pi=\pi_{0}\)</span>, its <span class="math inline">\(P\)</span>-value against a two-sided alternative, and a 95% confidence interval for <span class="math inline">\(\pi\)</span>. For the two-sample examples 5.3 and 5.4, the table shows the estimated between-group difference of proportions <span class="math inline">\(\hat{\Delta}\)</span>, the <span class="math inline">\(z\)</span>-test statistic for the hypothesis <span class="math inline">\(H_{0}: \Delta=0\)</span>, its <span class="math inline">\(P\)</span>-value against a two-sided alternative, and a 95% confidence interval for <span class="math inline">\(\Delta\)</span>.</p>
 <p><strong>Example 5.3: The Salk polio vaccine field trial of 1954</strong></p>
 <p>The first large-scale field trials of the “killed virus” polio vaccination developed by Dr. Jonas Salk were carried out in the U.S. in 1954<a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a>. In the randomized, double-blind placebo-control part of the trial, a sample of schoolchildren were randomly assigned to receive either three injections of the polio vaccine, or three injections of a placebo, inert saltwater which was externally indistinguishable from the real vaccine. The explanatory variable <span class="math inline">\(X\)</span> is thus the group (vaccine or “treatment” group vs. placebo or “control” group). The response variable <span class="math inline">\(Y\)</span> is whether the child was diagnosed with polio during the trial period (yes or no). There were <span class="math inline">\(n_{1}=201,229\)</span> children in the control group, and 142 of them were diagnosed with polio; in the treatment group, there were 57 new polio cases among <span class="math inline">\(n_{2}=200,745\)</span> children (in both cases only those children who received all three injections are included here). The proportions of cases of polio were thus <span class="math inline">\(0.000706\)</span> in the control group and <span class="math inline">\(0.000284\)</span> in the vaccinated group (i.e. 7.06 and 2.84 cases per 10,000 subjects, respectively).</p>
 <p><strong>Example 5.4: Split-ballot experiment on acquiescence bias</strong></p>
@@ -304,7 +506,7 @@ Positive question 929 338 0.364 0.085 3.92 <span class="math inline">\(&lt;0.001
 <li><p>“A young person today can expect little of the future”</p></li>
 <li><p>“A young person today can expect much of the future”</p></li>
 </ul>
-<p>We will call these the “Negative” and “Positive” question respectively. Around half of the respondents were randomly assigned to receive the positive question, and the rest got the negative question. The explanatory variable <span class="math inline">\(X\)</span> indicates the type of question, with Negative and Positive questions coded here as 1 and 2 respectively. The dichotomous response variable <span class="math inline">\(Y\)</span> is whether the respondent gave a response which was optimistic about the future (i.e. agreed with the positive or disagreed with the negative question) or a pessimistic response. The sample sizes and proportions of optimistic responses in the two groups are reported in Table <a href="#tab:t-probex">5.1</a>. The proportion is higher when the question was worded positively, as we would expect if there was acquiescence bias. Whether this difference is statistically significant remains to be determined.</p>
+<p>We will call these the “Negative” and “Positive” question respectively. Around half of the respondents were randomly assigned to receive the positive question, and the rest got the negative question. The explanatory variable <span class="math inline">\(X\)</span> indicates the type of question, with Negative and Positive questions coded here as 1 and 2 respectively. The dichotomous response variable <span class="math inline">\(Y\)</span> is whether the respondent gave a response which was optimistic about the future (i.e. agreed with the positive or disagreed with the negative question) or a pessimistic response. The sample sizes and proportions of optimistic responses in the two groups are reported in Table <a href="c-probs.html#tab:t-probex">5.1</a>. The proportion is higher when the question was worded positively, as we would expect if there was acquiescence bias. Whether this difference is statistically significant remains to be determined.</p>
 </div>
 <div id="s-probs-distribution" class="section level2">
 <h2><span class="header-section-number">5.3</span> Probability distribution of a dichotomous variable</h2>
@@ -324,7 +526,7 @@ Positive question 929 338 0.364 0.085 3.92 <span class="math inline">\(&lt;0.001
 <h2><span class="header-section-number">5.4</span> Point estimation of a population probability</h2>
 <p>Questions and hypotheses about population distributions are usually most conveniently formulated in terms of the parameters of the distributions. For a binary variable <span class="math inline">\(Y\)</span>, this means that statistical inference will be focused on the probability <span class="math inline">\(\pi\)</span>.</p>
 <p>The most obvious question about a parameter is “what is our best guess of the value of the parameter in the population?” The answer will be based on the information in the sample, using some sample statistic as the best guess or <strong>estimate</strong> of the population parameter. Specifically, this is a <strong>point estimate</strong>, because it is expressed as a single value or a “point”, to distinguish it from <em>interval</em> estimates defined later.</p>
-<p>We denote a point estimate of <span class="math inline">\(\pi\)</span> by <span class="math inline">\(\hat{\pi}\)</span>. The “$;  ; $” or “hat” is often used to denote an estimate of a parameter indicated by the symbol under the hat; <span class="math inline">\(\hat{\pi}\)</span> is read as “pi-hat”. As <span class="math inline">\(\pi\)</span> for a binomial distribution is the population proportion of <span class="math inline">\(Y=1\)</span>, the obvious choice for a point estimate of it is the <em>sample</em> proportion of units with <span class="math inline">\(Y=1\)</span>. If we denote the <em>number</em> of such units by <span class="math inline">\(m\)</span>, the proportion is thus <span class="math inline">\(\hat{\pi}=m/n\)</span>, i.e. <span class="math inline">\(m\)</span> divided by the sample size <span class="math inline">\(n\)</span>. In Example 5.1, <span class="math inline">\(m=330\)</span> and <span class="math inline">\(n=702\)</span>, and <span class="math inline">\(\hat{\pi}=330/702=0.47\)</span>. This and the estimated proportions in the other examples are shown in Table <a href="#tab:t-probex">5.1</a>, in the two-sample examples 5.3 and 5.4 separately for the two groups.</p>
+<p>We denote a point estimate of <span class="math inline">\(\pi\)</span> by <span class="math inline">\(\hat{\pi}\)</span>. The “$;  ; $” or “hat” is often used to denote an estimate of a parameter indicated by the symbol under the hat; <span class="math inline">\(\hat{\pi}\)</span> is read as “pi-hat”. As <span class="math inline">\(\pi\)</span> for a binomial distribution is the population proportion of <span class="math inline">\(Y=1\)</span>, the obvious choice for a point estimate of it is the <em>sample</em> proportion of units with <span class="math inline">\(Y=1\)</span>. If we denote the <em>number</em> of such units by <span class="math inline">\(m\)</span>, the proportion is thus <span class="math inline">\(\hat{\pi}=m/n\)</span>, i.e. <span class="math inline">\(m\)</span> divided by the sample size <span class="math inline">\(n\)</span>. In Example 5.1, <span class="math inline">\(m=330\)</span> and <span class="math inline">\(n=702\)</span>, and <span class="math inline">\(\hat{\pi}=330/702=0.47\)</span>. This and the estimated proportions in the other examples are shown in Table <a href="c-probs.html#tab:t-probex">5.1</a>, in the two-sample examples 5.3 and 5.4 separately for the two groups.</p>
 When <span class="math inline">\(Y\)</span> is coded with values 0 and 1, <span class="math inline">\(\hat{\pi}\)</span> is also equal to the sample mean of <span class="math inline">\(Y\)</span>, since
 <span class="math display">\[\begin{equation}\bar{Y}=\frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}=
 \frac{0+0+\dots+0+\overbrace{1+1+\dots+1}^{m \text{ ones}}}{n}=
@@ -534,7 +736,7 @@ and thus the 95% confidence interval <span class="math display">\[(\hat{\pi}-\pi
 \frac{\hat{\pi}(1-\hat{\pi})}{n}}.
 \label{eq:cip2}\end{equation}\]</span>
 <p>This is typically the most useful interval for use in practice. For instance, in the referendum example 5.1 this gives a 95% confidence interval of <span class="math display">\[0.470\pm 1.96\times \sqrt{\frac{0.470\times(1-0.470)}{702}}
-=0.470\pm 0.0369=(0.433, 0.507)\]</span> for the proportion of definite Yes-voters in the population. Similarly, in Example 5.2 the 95% confidence interval for the probability of a black person being selected for the jury pool is (0.040, 0.052). These intervals are also shown in Table <a href="#tab:t-probex">5.1</a>.</p>
+=0.470\pm 0.0369=(0.433, 0.507)\]</span> for the proportion of definite Yes-voters in the population. Similarly, in Example 5.2 the 95% confidence interval for the probability of a black person being selected for the jury pool is (0.040, 0.052). These intervals are also shown in Table <a href="c-probs.html#tab:t-probex">5.1</a>.</p>
 </div>
 <div id="s-probs-1sampleci-int" class="section level3">
 <h3><span class="header-section-number">5.6.3</span> Interpretation of confidence intervals</h3>
@@ -678,7 +880,7 @@ and, substituting this to the general formula (\ref{eq:ci-D-gen}), we get
 \frac{0.2315}{929}
 +\frac{0.2012}{921}
 }=0.0216\end{aligned}\]</span> and a 95% confidence interval from (\ref{eq:ciDpi}) is <span class="math display">\[0.085 \pm 1.96 \times 0.0216 = 0.085\pm 0.042 = (0.043; 0.127).\]</span> The <span class="math inline">\(P\)</span>-value for the test statistic is clearly very low (in fact about <span class="math inline">\(0.00009\)</span>), so the null hypothesis of equal proportions is convincingly rejected. There is very strong evidence that the probability that a respondent will give an answer indicating optimism for the future is different for the two differently worded questions. The confidence interval indicates that we are 95% confident that the proportion of optimistic answers is between 4.3 and 12.7 percentage points higher when the question is worded positively than when it is worded negatively. This suggests quite a substantial acquiescence bias arising from changing just one word in the survey question, as described in the introduction to Example 5.4 at the beginning of this chapter.</p>
-<p>In Example 5.3, the estimated difference is <span class="math inline">\(\hat{\Delta}=-0.000422\)</span> (see Table <a href="#tab:t-probex">5.1</a>, i.e. 422 fewer polio cases per million children in the vaccinated group than in the unvaccinated group. Similar calculations as above show that the value of the test statistic is <span class="math inline">\(z=-6.01\)</span>, so the <span class="math inline">\(P\)</span>-value is again very small (in fact about 0.000000001) and the null hypothesis of equal probabilities is strongly rejected. There is thus overwhelming evidence that the proportion of polio cases was different among the vaccinated children than among the unvaccinated ones. The 95% confidence interval for the difference shows that we are 95% confident that this difference was a reduction of between 284 and 560 polio cases per million children<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>. This was acknowledged as a convincing demonstration that the Salk vaccine worked (see Figure <a href="c-probs.html#fig:f-nytimes">5.2</a>), and it (and later other types of polio vaccination) was soon put to widespread use. The resulting dramatic decline in the incidence of polio is one of the great success stories of modern medicine. Compared to the 199 children with polio in 1954 among the less than half a million participants of the vaccine trial alone, in 2014 there were 414 confirmed cases of polio in the whole world (see <code>www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx</code>). There is hope that that number will reach 0 in a not-too-distant future, so that the once devastating disease will one day be entirely eradicated.</p>
+<p>In Example 5.3, the estimated difference is <span class="math inline">\(\hat{\Delta}=-0.000422\)</span> (see Table <a href="c-probs.html#tab:t-probex">5.1</a>, i.e. 422 fewer polio cases per million children in the vaccinated group than in the unvaccinated group. Similar calculations as above show that the value of the test statistic is <span class="math inline">\(z=-6.01\)</span>, so the <span class="math inline">\(P\)</span>-value is again very small (in fact about 0.000000001) and the null hypothesis of equal probabilities is strongly rejected. There is thus overwhelming evidence that the proportion of polio cases was different among the vaccinated children than among the unvaccinated ones. The 95% confidence interval for the difference shows that we are 95% confident that this difference was a reduction of between 284 and 560 polio cases per million children<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a>. This was acknowledged as a convincing demonstration that the Salk vaccine worked (see Figure <a href="c-probs.html#fig:f-nytimes">5.2</a>), and it (and later other types of polio vaccination) was soon put to widespread use. The resulting dramatic decline in the incidence of polio is one of the great success stories of modern medicine. Compared to the 199 children with polio in 1954 among the less than half a million participants of the vaccine trial alone, in 2014 there were 414 confirmed cases of polio in the whole world (see <code>www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx</code>). There is hope that that number will reach 0 in a not-too-distant future, so that the once devastating disease will one day be entirely eradicated.</p>
 <div class="figure"><span id="fig:f-nytimes"></span>
 <img src="salk_nytimes.png" alt=" Public reaction to statistical inference." width="566" />
 <p class="caption">Figure 5.2:  Public reaction to statistical inference.</p>

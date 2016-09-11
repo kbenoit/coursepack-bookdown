@@ -127,7 +127,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4" data-path="c-tables.html"><a href="c-tables.html"><i class="fa fa-check"></i><b>4</b> Statistical inference for two-way tables</a><ul>
 <li class="chapter" data-level="4.1" data-path="c-tables.html"><a href="c-tables.html#s-tables-intro"><i class="fa fa-check"></i><b>4.1</b> Introduction</a></li>
 <li class="chapter" data-level="4.2" data-path="c-tables.html"><a href="c-tables.html#s-tables-tests"><i class="fa fa-check"></i><b>4.2</b> Significance tests</a></li>
-<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The <span class="math inline">\(\chi^{2}\)</span> test of independence</a><ul>
+<li class="chapter" data-level="4.3" data-path="c-tables.html"><a href="c-tables.html#s-tables-chi2test"><i class="fa fa-check"></i><b>4.3</b> The chi-square test of independence</a><ul>
 <li class="chapter" data-level="4.3.1" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-null"><i class="fa fa-check"></i><b>4.3.1</b> Hypotheses</a></li>
 <li class="chapter" data-level="4.3.2" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-ass"><i class="fa fa-check"></i><b>4.3.2</b> Assumptions of a significance test</a></li>
 <li class="chapter" data-level="4.3.3" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-stat"><i class="fa fa-check"></i><b>4.3.3</b> The test statistic</a></li>
@@ -135,7 +135,7 @@ MathJax.Hub.Config({
 <li class="chapter" data-level="4.3.5" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-Pval"><i class="fa fa-check"></i><b>4.3.5</b> The <span class="math inline">\(P\)</span>-value</a></li>
 <li class="chapter" data-level="4.3.6" data-path="c-tables.html"><a href="c-tables.html#ss-tables-chi2test-conclusions"><i class="fa fa-check"></i><b>4.3.6</b> Drawing conclusions from a test</a></li>
 </ul></li>
-<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the <span class="math inline">\(\chi^{2}\)</span> test of independence</a></li>
+<li class="chapter" data-level="4.4" data-path="c-tables.html"><a href="c-tables.html#s-tables-summary"><i class="fa fa-check"></i><b>4.4</b> Summary of the chi-square test of independence</a></li>
 </ul></li>
 <li class="chapter" data-level="5" data-path="c-probs.html"><a href="c-probs.html"><i class="fa fa-check"></i><b>5</b> Inference for population proportions</a><ul>
 <li class="chapter" data-level="5.1" data-path="c-probs.html"><a href="c-probs.html#s-probs-intro"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
@@ -299,31 +299,31 @@ and
 <span class="math display">\[\begin{equation}s = \sqrt{\frac{\sum (Y_{i}-\bar{Y})^{2}}{n-1}}\label{eq:s-ch6}\end{equation}\]</span>
 <p>where the sums are now over the <span class="math inline">\(n\)</span> observations in a sample. These can be used as descriptions of the sample distribution as discussed in Chapter <a href="c-descr1.html#c-descr1">2</a>, but also as <em>point estimates</em> of the corresponding population parameters in the sense defined in Section <a href="c-probs.html#s-probs-pointest">5.4</a>. We may thus use the sample mean <span class="math inline">\(\bar{Y}\)</span> as a point estimate of the population mean <span class="math inline">\(\mu\)</span>, and the sample variance <span class="math inline">\(s^{2}\)</span> and sample standard deviation <span class="math inline">\(s\)</span> as point estimates of population variance <span class="math inline">\(\sigma^{2}\)</span> and standard deviation <span class="math inline">\(\sigma\)</span> respectively. These same estimates can be used for both finite and infinite population distributions.</p>
 <p>For further illustration of the connection between population and sample quantities, we have also drawn a simple random sample of <span class="math inline">\(n=50\)</span> observations from the finite population of <span class="math inline">\(N=4489\)</span> observations in Figure <a href="c-contd.html#fig:f-bp1">6.1</a>. Table <a href="c-contd.html#tab:t-bp-example">6.1</a> shows the summary statistics (\ref{eq:Ybar-ch6}–(\ref{eq:s-ch6}) in this sample and the corresponding parameters (\ref{eq:mu})–(\ref{eq:sigma}) in the population.</p>
-<table>
+<table style="width:98%;">
 <caption><span id="tab:t-bp-example">Table 6.1: </span> Summary statistics for diastolic blood pressure in the population and a sample from it in the example used for illustration in Sections <a href="c-contd.html#s-contd-popdistrs">6.2</a>–<a href="c-contd.html#s-contd-clt">6.4</a>.</caption>
+<colgroup>
+<col width="16%" />
+<col width="13%" />
+<col width="21%" />
+<col width="20%" />
+<col width="26%" />
+</colgroup>
 <tbody>
 <tr class="odd">
 <td></td>
-<td></td>
-<td></td>
-<td align="right">Standard</td>
-<td></td>
-</tr>
-<tr class="even">
-<td></td>
 <td>Size</td>
 <td>Mean</td>
-<td align="right">Deviation</td>
+<td align="right">Standard Deviation</td>
 <td>Variance</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Population</td>
 <td><span class="math inline">\(N=4489\)</span></td>
 <td><span class="math inline">\(\mu=74.2\)</span></td>
 <td align="right"><span class="math inline">\(\sigma=11.3\)</span></td>
 <td><span class="math inline">\(\sigma^{2}=127.87\)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Sample</td>
 <td><span class="math inline">\(n=50\)</span></td>
 <td><span class="math inline">\(\bar{Y}=72.6\)</span></td>
@@ -392,7 +392,6 @@ The remaining question is how to calculate such probabilities. The short answer 
 <img src="normbp.png" alt=" Illustration of probabilities for a normal distribution in the blood pressure example, where \mu=74.2 and \sigma=11.3. The plot shows probabilities for the ranges of values at most 60 (Low), between 60 and 90 (Mid) and over 90 (High)." width="453" />
 <p class="caption">Figure 6.6:  Illustration of probabilities for a normal distribution in the blood pressure example, where <span class="math inline">\(\mu=74.2\)</span> and <span class="math inline">\(\sigma=11.3\)</span>. The plot shows probabilities for the ranges of values at most 60 (“Low”), between 60 and 90 (“Mid”) and over 90 (“High”).</p>
 </div>
-<p></p>
 <table>
 <caption><span id="tab:t-normtab">Table 6.2: </span> Extract from the table of right-hand tail probabilities for normal <span class="math inline">\(Z\)</span> scores. Here “Tail Prob.” is the probability that a value from the standard normal distribution is at least the value in the column labelled “<span class="math inline">\(z\)</span>”. The full table is shown in Section <a href="appendix.html#s-disttables-Z">10.2.1</a>.</caption>
 <thead>
