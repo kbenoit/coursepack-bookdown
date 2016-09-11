@@ -12,7 +12,7 @@ careful definitions of the concepts of populations and samples, and of
 the connections between them. In Section \@ref(s-samples-popdistrs) we
 then consider the idea of a population distribution, which is the target
 of statistical inference. The discussion of statistical inference will
-continue in Chapters \@ref(c-tables}–\@ref{c-means) where we gradually
+continue in Chapters \@ref(c-tables)–\@ref(c-means) where we gradually
 introduce the basic elements of inference in the contexts of different
 types of analyses.
 

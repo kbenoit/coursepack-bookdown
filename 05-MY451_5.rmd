@@ -1122,7 +1122,7 @@ together; expressed in terms of the group-specific estimates, this is
 \frac{1}{n_{1}}
 \right),
 }
-\label{eq:seDpi}\end{equation} and using (\@ref(eq:Dhatpi}) and (\@ref{eq:seDpi)) in the
+\label{eq:seDpi}\end{equation} and using (\@ref(eq:Dhatpi)) and (\@ref(eq:seDpi)) in the
 general formula (\@ref(eq:ttest-gen)) gives the **two-sample $z$-test
 statistic for proportions** \begin{equation}z=
 \frac{\hat{\pi}_{2}-\hat{\pi}_{1}}

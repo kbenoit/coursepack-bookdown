@@ -65,13 +65,13 @@ deviation** \begin{equation}\sigma = \sqrt{\frac{\sum (Y_{i}-\mu)^{2}}{N}}.
 It is common to use Greek letters for population parameters, as we did
 also for the probability parameter $\pi$ in Chapter \@ref(c-probs).
 
-In (\@ref(eq:mu})–(\@ref{eq:sigma)), $N$ is the number of units in a finite
+In (\@ref(eq:mu))–(\@ref(eq:sigma)), $N$ is the number of units in a finite
 population and the sums indicated by $\Sigma$ are over all of these $N$
 units. If we treat the data in Figure \@ref(fig:f-bp1) as a population,
 $N=4489$ and these population parameters are $\mu=74.2$,
 $\sigma^{2}=127.87$ and $\sigma=11.3$.
 
-Because the formulas (\@ref(eq:mu})–(\@ref{eq:sigma)) involve the population
+Because the formulas (\@ref(eq:mu))–(\@ref(eq:sigma)) involve the population
 size $N$, they apply in this exact form only to finite populations like
 the one in this example (and as discussed more generally in Section
 \@ref(s-samples-finpops)) but not to infinite ones of the kind discussed
@@ -84,7 +84,7 @@ parameters turn out to be intuitively similar for both the finite and
 infinite-population cases, and the same methods of analysis apply to
 both, so we can here ignore the distinction without further comment.
 
-The population formulas (\@ref(eq:mu})–(\@ref{eq:sigma)) clearly resemble those
+The population formulas (\@ref(eq:mu))–(\@ref(eq:sigma)) clearly resemble those
 of some sample statistics introduced in Chapter \@ref(c-descr1),
 specifically the *sample* mean, variance and standard deviation
 \begin{aligned}
@@ -124,7 +124,7 @@ corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
 You may have noticed that the formulas of the sample variance
 (\@ref(s2-ch6)) and sample standard deviation (\@ref(s-ch6)) involve the
 divisor $n-1$ rather than the $n$ which might seem more natural, while
-the population formulas (\@ref(eq:sigma2}) and (\@ref{eq:sigma)) do use $N$
+the population formulas (\@ref(eq:sigma2)) and (\@ref(eq:sigma)) do use $N$
 rather than $N-1$. The reason for this is that using $n-1$ gives the
 estimators certain mathematically desirable properties ($s^{2}$ is an
 *unbiased* estimate of $\sigma^{2}$, but $\hat{\sigma}^{2}$ below is
@@ -160,7 +160,7 @@ on inference on the parameters of that distribution.
 
 We have already introduced the concept of probability distributions in
 Section \@ref(s-samples-popdistrs), and considered instances of it in
-Chapters \@ref(c-tables} and \@ref{c-probs). There, however, the term was
+Chapters \@ref(c-tables) and \@ref(c-probs). There, however, the term was
 not emphasised because it added no crucial insight into the methods of
 inference. This was because for discrete variables a probability
 distribution is specified simply by listing the probabilities of all the
