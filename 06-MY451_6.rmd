@@ -25,7 +25,9 @@ These may appear in two distinct roles:
     \@ref(c-probs). Their origins are explained in more detail below.
 
  To illustrate the concepts, we use data from the
-Health Survey for England 2002 (HES).[^1] One part of the survey was a
+Health Survey for England 2002 (HES).^[Carried out on behalf of The Department of Health by SCPR and the
+Department of Epidemiology and Public Health, UCL. Data used here
+were obtained from the UK Data Archive at <http://www.data-archive.ac.uk>.] One part of the survey was a
 short physical examination by a nurse. Figure \@ref(fig:f-bp1) shows a
 histogram and frequency polygon of diastolic blood pressure (in mm Hg)
 for 4489 respondents, measured by the mean of the last two of three
@@ -433,7 +435,10 @@ values of $z$. Because the distribution is symmetric, the probability
 that a $Z$ score is *at most* $-1.26$ (the area of the left-hand tail to
 the left of $-1.26$) is the same as the probability that it is *at
 least* 1.26 (the area of the right-hand tail to the right of 1.26). This
-is the kind of quantity we calculated above[^2]. The required
+is the kind of quantity we calculated above.^[Note that there we were looking for the probability of a Z score
+being “bigger than” rather than “at least” a certain value; for a
+continuous probability distribution this makes no difference, and
+both probabilities are the same.] The required
 probability is thus equal to the right-hand tail probability for 1.26,
 which the table shows to be 0.1038 (rounded to 0.10 in Figure
 \@ref(fig:f-normbp)).
@@ -618,12 +623,15 @@ $Z_{n}/B_{n} \stackrel{\mathcal{L}}{\longrightarrow} N(0,1)$.
 
 No, that will not come up in the examination. The theorem is given here
 just as a glimpse of how this topic would be introduced in a very
-different kind of text book[^3], and because it pleases the author of
+different kind of text book,^[Ferguson, T. S. (1996). *A Course in Large Sample Theory*, Chapman
+& Hall, London.] and because it pleases the author of
 this coursepack to note that Jarl Lindeberg was Finnish. For our
 purposes, it is better to state the same result in English:
 
 -   If $Y_{1}, Y_{2}, \dots, Y_{n}$ are a random sample of observations
-    from (almost[^4]) any distribution with a population mean $\mu$ and
+    from (almost)^[The CLT does not hold in some rather weird cases which need not
+    concern us here. Condition (\@ref(eq:lindeberg)) is a mathematical
+    expression for “not weird”.] any distribution with a population mean $\mu$ and
     variance $\sigma^{2}$, and if $n$ is reasonably large, the sampling
     distribution of their sample mean $\bar{Y}$ is approximately a
     normal distribution with mean $\mu$ and variance $\sigma^{2}/n$.
@@ -702,19 +710,3 @@ for the CLT to be adequate. The same is also ultimately true for the
 $\chi^{2}$ distribution and conditions for the $\chi^{2}$ test in
 Chapter \@ref(c-tables). Results like these, and many others, explain the
 central importance of the CLT in statistical methodology.
-
-[^1]: Carried out on behalf of The Department of Health by SCPR and the
-    Department of Epidemiology and Public Health, UCL. Data used here
-    were obtained from the UK Data Archive at <http://www.data-archive.ac.uk>.
-
-[^2]: Note that there we were looking for the probability of a Z score
-    being “bigger than” rather than “at least” a certain value; for a
-    continuous probability distribution this makes no difference, and
-    both probabilities are the same.
-
-[^3]: Ferguson, T. S. (1996). *A Course in Large Sample Theory*, Chapman
-    & Hall, London.
-
-[^4]: The CLT does not hold in some rather weird cases which need not
-    concern us here. Condition (\@ref(eq:lindeberg)) is a mathematical
-    expression for “not weird”.

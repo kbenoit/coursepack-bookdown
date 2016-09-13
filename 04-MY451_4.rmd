@@ -135,7 +135,12 @@ tests:
 The significance test considered in this chapter is known as the
 $\boldsymbol{\chi^{2}}$ **test of independence** ($\chi^{2}$ is
 pronounced “chi-squared”). It is also known as “Pearson’s $\chi^{2}$
-test”, after Karl Pearson who first proposed it in 1900.[^1] We use this
+test”, after Karl Pearson who first proposed it in 1900.^[*Philosophical Magazine*, Series 5, **5**, 157–175.
+ The thoroughly descriptive title of the article is
+“On the criterion that a given system of deviations from the
+probable in the case of a correlated system of variables is such
+that it can be reasonably supposed to have arisen from random
+sampling”.] We use this
 test to explain the elements of significance testing. These principles
 are, however, not restricted to this case, but are entirely general.
 This means that all of the significance tests you will learn on this
@@ -687,7 +692,9 @@ obtained from the computer simulation. The two are in essentially
 perfect agreement, as mathematical theory indicates they should be.
 
 These degrees of freedom can be given a further interpretation which
-relates to the structure of the table[^2]. We can, however, ignore this
+relates to the structure of the table.^[In short, they are the smallest number of cell frequencies such
+that they together with the row and column marginal totals are
+enough to determine all the remaining cell frequencies.] We can, however, ignore this
 and treat $df$ simply as a number which identifies the appropriate
 $\chi^{2}$ distribution to be used for the $\chi^{2}$ test for a
 particular table. Often it is convenient to use the notation
@@ -927,7 +934,12 @@ research report. This should be done with appropriate care:
     true”. Unfortunately, however, the $P$-value is *not* the
     probability of the null hypothesis being true. Such a probability
     does not in fact have any real meaning at all in the statistical
-    framework considered here[^3].
+    framework considered here.^[There is an alternative framework, known as *Bayesian* statistics,
+    where quantities resembling $P$-values *can* be given this
+    interpretation. The differences between the Bayesian approach and
+    the so-called *frequentist* one discussed here are practically and
+    philosophically important and interesting, but beyond the scope of
+    this course.]
 
 -   The results of significance tests should be stated using the names
     and values of the variables involved, and not just in terms of
@@ -1012,21 +1024,3 @@ and attitude in the survey example is again used for illustration:
 When the association is judged to be statistically significant, its
 nature and magnitude can be further explored using the descriptive
 methods for two way tables discussed in Section \@ref(s-descr1-2cat).
-
-[^1]: *Philosophical Magazine*, Series 5, **5**, 157–175.
-     The thoroughly descriptive title of the article is
-    “On the criterion that a given system of deviations from the
-    probable in the case of a correlated system of variables is such
-    that it can be reasonably supposed to have arisen from random
-    sampling”.
-
-[^2]: In short, they are the smallest number of cell frequencies such
-    that they together with the row and column marginal totals are
-    enough to determine all the remaining cell frequencies.
-
-[^3]: There is an alternative framework, known as *Bayesian* statistics,
-    where quantities resembling $P$-values *can* be given this
-    interpretation. The differences between the Bayesian approach and
-    the so-called *frequentist* one discussed here are practically and
-    philosophically important and interesting, but beyond the scope of
-    this course.

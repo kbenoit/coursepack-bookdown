@@ -37,7 +37,10 @@ chapter:
 **Example 8.1: Indicators of Global Civil Society**
 
 The *Global Civil Society 2004/5* yearbook gives tables of a range of
-characteristics of the countries of the world[^1]. The following
+characteristics of the countries of the world.^[Anheier, H., Glasius, M. and Kaldor, M. (eds.) (2005). *Global
+Civil Society 2004/5*. London: Sage. The book gives detailed
+references to the indices considered here. Many thanks to Sally
+Stares for providing the data in an electronic form.] The following
 measures will be considered in this chapter:
 
 -   Gross Domestic Product (**GDP**) per capita in 2001 (in current
@@ -168,7 +171,9 @@ example (another one is Figure \@ref(fig:f-houseprices)):
 Figure \@ref(fig:f-temperatures) summarises data on average annual
 temperatures over the past century in five locations. The data were
 obtained from the GISS Surface Temperature (GISTEMP) database maintained
-by the NASA Goddard Institute for Space Studies[^2]. The database
+by the NASA Goddard Institute for Space Studies.^[Accessible at `data.giss.nasa.gov/gistemp/`. The temperatures used
+here are those listed in the data base under “after combining
+sources at same location”.] The database
 contains time series of average monthly surface temperatures from
 several hundred meterological stations across the world. The five sites
 considered here are Haparanda in Northern Sweden, Independence, Kansas
@@ -179,7 +184,12 @@ with the aim of obtaining a geographically scattered set of rural or
 small urban locations (to avoid issues with the heating effects of large
 urban areas). The temperature for each year at each location is here
 recorded as the difference from the temperature at that location in
-1903[^3].
+1903.^[More specifically, the differences are between 11-year *moving
+averages*, where each year is represented by the average of the
+temperature for that year and the five years before and five after
+it (except at the ends of the series, where fewer observations are
+used). This is done to smooth out short-term fluctuations from the
+data, so that longer-term trends become more clearly visible.]
 
 ![(\#fig:f-temperatures) Changes of average annual temperature (11-year moving averages) from
 1903 in five locations. See the text for further details. Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>](temperplot){width="13cm"}
@@ -255,7 +265,14 @@ value of $X$ is close to 65. These correspond to the points near the
 vertical line drawn at $X=65$ in Figure \@ref(fig:f-corruption2). This can be
 repeated for any value of $X$; for example, Figure \@ref(fig:f-corruption2)
 also includes a vertical reference line at $X=95$, for examining the
-conditional distribution of $Y$ given $X=95$[^4].
+conditional distribution of $Y$ given $X=95$.^[This discussion is obviously rather approximate. Strictly
+speaking, the conditional distribution of $Y$ given, say, $X=65$
+refers only to units with $X$ exactly rather than approximately
+equal to 65. This, however, is difficult to illustrate using a
+sample, because most values of a continuous $X$ appear at most once
+in a sample. For reasons discussed later in this chapter, the
+present approximate treatment still provides a reasonable general
+idea of the nature of the kinds of associations considered here.]
 
 As in Chapter \@ref(c-means), associations between variables will here be
 considered almost solely in terms of differences in the *means* of the
@@ -269,7 +286,9 @@ conditional mean of $Y$ appears to increase when we consider
 increasingly large values of $X$, indicating that higher levels of
 Control of corruption are associated with higher average levels of GDP.
 This is often expressed by saying that the conditional mean of $Y$
-increases when we “increase” $X$[^5]. This is the sense in which we will
+increases when we “increase” $X$.^[This wording is commonly used for convenience even in cases where
+the nature of $X$ is such that its values can never actually be
+manipulated.] This is the sense in which we will
 examine associations between continuous variables: does the conditional
 mean of $Y$ change (increase or decrease) when we increase $X$? If it
 does, the two variables are associated; if it does not, there is no
@@ -393,7 +412,11 @@ straight line fitted to the plot identifies the overall positive
 association, but cannot describe its nonlinearity. This example further
 illustrates how scatterplots can be used to examine relationships
 between variables and to assess whether they can be best described as
-linear or nonlinear associations[^6].
+linear or nonlinear associations.^[In this particular example, a more closely linear association is
+obtained by considering the logarithm of GDP as the response
+variable instead of GDP itself. This approach, which is common in
+dealing with skewed variables such as income, is, however, beyond
+the scope of this course.]
 
 So far we have said nothing about how the exact location and direction
 of the straight lines shown in the figures have been selected. These are
@@ -457,7 +480,9 @@ it by the standard deviations, to obtain the statistic
 correlation for short, between $X$ and $Y$. It is also often (e.g. in
 SPSS) known as *Pearson’s* correlation coefficient after Karl Pearson
 (of the $\chi^{2}$ test, see first footnote in Chapter \@ref(c-tables)), although both
-the word and the statistic are really due to Sir Francis Galton[^7].
+the word and the statistic are really due to Sir Francis Galton.^[Galton, F. (1888). “Co-relations and their measurement, chiefly
+    from anthropometric data”. *Proceedings of the Royal Society of
+    London*, **45**, 135–145.]
 
 The properties of the correlation coefficient can be described by going
 through the same list as for the $\gamma$ coefficient in Section
@@ -732,11 +757,16 @@ model**:
     than one.
 
 -   **Linear** because it specifies a linear association between $X$ and
-    $Y$.[^8]
+    $Y$.^[This is slightly misleading: what actually matters in general is
+        that the conditional mean is a linear function of the *parameters*
+        $\alpha$ and $\beta$. This need not concern us at this stage.]
 
 -   **Regression**: This is now an established part of the name of the
     model, although the origins of the word are not central to the use
-    of the model[^9].
+    of the model.^[Galton, F. (1886). “Regression towards mediocrity in hereditary
+        stature”. *Journal of the Anthropological Institute*, **15**,
+        246–263. The original context is essentially the one discussed on
+        courses on research design as “regression toward the mean”.]
 
 -   **Model**, because this is a statistical model in the sense
     discussed in the middle of Section \@ref(ss-contd-probdistrs-general). In other words, the model is
@@ -744,7 +774,9 @@ model**:
     complex processes which determine the values of $Y$. Nevertheless,
     it is believed that a well-chosen model can be useful for explaining
     and predicting observed values of $Y$. This spirit is captured by
-    the well-known statement by the statistician George Box[^10]:
+    the well-known statement by the statistician George Box:^[This exact phrase apparently first appears in Box, G.E.P. (1979).
+    Robustness in the strategy of scientific model building. In Launer,
+    R.L. and Wilkinson, G.N., *Robustness in Statistics*, pp. 201–236.]
 
     > *All models are wrong, but some are useful.*
 
@@ -1019,7 +1051,11 @@ ones which give the smallest value of $SSE$. Their formulas are
 usual sample means, standard deviations and covariances for $Y$ and $X$.
 These are known as the **least squares estimates** of the regression
 coefficients (or as Ordinary Least Squares or OLS estimates), and the
-reasoning used to obtain them is the **method of least squares**[^11].
+reasoning used to obtain them is the **method of least squares**.^[This is another old idea. Different approaches to the problem of
+fitting curves to observations were gradually developed by Tobias
+Mayer, Rudjer Bošković and Pierre Simon Laplace from the 1750s
+onwards, and the method of least squares itself was presented by
+Adrien Marie Legendre in 1805.]
 Least squares estimates are almost always used for linear regression
 models, and they are the ones displayed by SPSS and other software. For
 our model for IMR given School enrolment, the estimates are the
@@ -1241,7 +1277,10 @@ as a test of no correlation in the population.
 
 The tests and confidence intervals involve both the estimate
 $\hat{\beta}$ and its estimated standard error, which we will here
-denote $\hat{\text{se}}(\hat{\beta})$.[^12] It is calculated as
+denote $\hat{\text{se}}(\hat{\beta})$.^[It would have been more consistent with related notation used in
+Chapter \@ref(c-means) to denote it something like
+$\hat{\sigma}_{\hat{\beta}}$, but this would later become somewhat
+cumbersome.] It is calculated as
 \begin{equation}\hat{\text{se}}(\hat{\beta})=
 \frac{\hat{\sigma}}{\sqrt{\sum\left(X_{i}-\bar{X}\right)^{2}}}
 =\frac{\hat{\sigma}}{s_{x}\sqrt{n-1}}
@@ -1379,7 +1418,8 @@ about causal effects.
 Definition and analysis of causal effects are considered in more detail
 on the course MY400 and in much greater depth still on MY457. Here we
 will discuss only the following simplified empirical version of the
-question[^13]. Suppose we are considering two variables $X$ and $Y$, and
+question.^[Here adapted from a discussion in Agresti and Finlay,
+*Statistical Methods for the Social Sciences* (1997).] Suppose we are considering two variables $X$ and $Y$, and
 suspect that $X$ is a cause of $Y$. To support such a claim, we must be
 able to show that the following three conditions are satisfied:
 
@@ -1630,7 +1670,10 @@ simple model, and require little further explanation:
     two-dimensional scatterplot.
 
     With more than one explanatory variable, the computational formulas
-    for the estimates become difficult to write down[^14] and
+    for the estimates become difficult to write down^[At least until we adopt extended, so-called matrix notation. In
+    this, the least squares estimates are expressible simply as
+    $\hat{\boldsymbol{\beta}}=
+    (\mathbf{X}'\mathbf{X})^{-1}(\mathbf{X}'\mathbf{Y})$.] and
     essentially impossible to calculate by hand. This is not a problem
     in practice, as they are easily computed by statistical software
     such as SPSS. In Table \@ref(tab:t-imr-m2), the least squares estimates
@@ -2158,7 +2201,9 @@ concise manner. It is particularly an illustration of the use of dummy
 variables, as most of the explanatory variables are categorical. The
 example concerns the relationship between minimum wage and employment,
 and uses data originally collected and analysed by David Card and Alan
-Krueger.[^15] Most of the choices of analyses and variables considered
+Krueger.^[Card, D. and Krueger, A. B. (1994). Minimum wages and employment:
+A case study of the fast-food industry in New Jersey and
+Pennsylvania. *The American Economic Review* **84**, 772–793.] Most of the choices of analyses and variables considered
 here are based on those of Card and Krueger. Their article should be
 consulted for discussion and more detailed analyses.
 
@@ -2419,7 +2464,9 @@ giving a brief explanation so as not to leave these three as mysteries:
 
 -   The last two columns of the “**ANOVA**” (Analysis of Variance) table
     show the test statistic and $P$-value for the so-called
-    $F$-test[^16]. The null hypothesis for this is that the regression
+    $F$-test.^[The sampling distribution of this test is the $F$ distribution.
+    The letter in both refers to Sir Ronald Fisher, the founder of
+    modern statistics.] The null hypothesis for this is that the regression
     coefficients of *all* the explanatory variables are zero,
     i.e. $\beta_{1}=\beta_{2}=\dots=\beta_{k}=0$. In the case of simple
     regression ($k=1$), this is equivalent to the $t$-test for
@@ -2521,82 +2568,3 @@ some such topics, in no particular order:
     fitted as standard linear regression models with appropriate use of
     dummy variables, but the conventional terminology and notation for
     ANOVA and ANCOVA are somewhat different from the ones used here.
-
-[^1]: Anheier, H., Glasius, M. and Kaldor, M. (eds.) (2005). *Global
-    Civil Society 2004/5*. London: Sage. The book gives detailed
-    references to the indices considered here. Many thanks to Sally
-    Stares for providing the data in an electronic form.
-
-[^2]: Accessible at `data.giss.nasa.gov/gistemp/`. The temperatures used
-    here are those listed in the data base under “after combining
-    sources at same location”.
-
-[^3]: More specifically, the differences are between 11-year *moving
-    averages*, where each year is represented by the average of the
-    temperature for that year and the five years before and five after
-    it (except at the ends of the series, where fewer observations are
-    used). This is done to smooth out short-term fluctuations from the
-    data, so that longer-term trends become more clearly visible.
-
-[^4]: This discussion is obviously rather approximate. Strictly
-    speaking, the conditional distribution of $Y$ given, say, $X=65$
-    refers only to units with $X$ exactly rather than approximately
-    equal to 65. This, however, is difficult to illustrate using a
-    sample, because most values of a continuous $X$ appear at most once
-    in a sample. For reasons discussed later in this chapter, the
-    present approximate treatment still provides a reasonable general
-    idea of the nature of the kinds of associations considered here.
-
-[^5]: This wording is commonly used for convenience even in cases where
-    the nature of $X$ is such that its values can never actually be
-    manipulated.
-
-[^6]: In this particular example, a more closely linear association is
-    obtained by considering the logarithm of GDP as the response
-    variable instead of GDP itself. This approach, which is common in
-    dealing with skewed variables such as income, is, however, beyond
-    the scope of this course.
-
-[^7]: Galton, F. (1888). “Co-relations and their measurement, chiefly
-    from anthropometric data”. *Proceedings of the Royal Society of
-    London*, **45**, 135–145.
-
-[^8]: This is slightly misleading: what actually matters in general is
-    that the conditional mean is a linear function of the *parameters*
-    $\alpha$ and $\beta$. This need not concern us at this stage.
-
-[^9]: Galton, F. (1886). “Regression towards mediocrity in hereditary
-    stature”. *Journal of the Anthropological Institute*, **15**,
-    246–263. The original context is essentially the one discussed on
-    courses on research design as “regression toward the mean”.
-
-[^10]: This exact phrase apparently first appears in Box, G.E.P. (1979).
-    Robustness in the strategy of scientific model building. In Launer,
-    R.L. and Wilkinson, G.N., *Robustness in Statistics*, pp. 201–236.
-
-[^11]: This is another old idea. Different approaches to the problem of
-    fitting curves to observations were gradually developed by Tobias
-    Mayer, Rudjer Bošković and Pierre Simon Laplace from the 1750s
-    onwards, and the method of least squares itself was presented by
-    Adrien Marie Legendre in 1805.
-
-[^12]: It would have been more consistent with related notation used in
-    Chapter \@ref(c-means) to denote it something like
-    $\hat{\sigma}_{\hat{\beta}}$, but this would later become somewhat
-    cumbersome.
-
-[^13]: Here adapted from a discussion in Agresti and Finlay,
-    *Statistical Methods for the Social Sciences* (1997).
-
-[^14]: At least until we adopt extended, so-called matrix notation. In
-    this, the least squares estimates are expressible simply as
-    $\hat{\boldsymbol{\beta}}=
-    (\mathbf{X}'\mathbf{X})^{-1}(\mathbf{X}'\mathbf{Y})$.
-
-[^15]: Card, D. and Krueger, A. B. (1994). Minimum wages and employment:
-    A case study of the fast-food industry in New Jersey and
-    Pennsylvania. *The American Economic Review* **84**, 772–793.
-
-[^16]: The sampling distribution of this test is the $F$ distribution.
-    The letter in both refers to Sir Ronald Fisher, the founder of
-    modern statistics.

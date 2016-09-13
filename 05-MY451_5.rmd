@@ -61,7 +61,10 @@ A referendum about joining the European Union was held in Finland on the
 October 4th (just before the beginning of postal voting), 330 of the
 $n=702$ respondents (47.0%) indicated that they would definitely vote
 Yes to joining the EU, 190 (27.1%) said they would definitely vote No,
-and 182 (25.9%) were still undecided[^1]. Here we will consider the
+and 182 (25.9%) were still undecided.^[This example is based on a newspaper report of a real poll for
+which the percentages were reported only as 47, 27, and 26 out of
+“about 700” respondents. The exact numbers used here for
+illustration have been made up to correspond to these real results.] Here we will consider the
 dichotomous variable with the values of Yes (330 respondents) versus No
 or Undecided (372 respondents, or 53.0%). The proportion of voters who
 definitely intend to vote Yes provides a lower bound for the proportion
@@ -71,9 +74,12 @@ voters eventually decided to vote No.
 **Example 5.2**: **Evidence of possible racial bias in jury selection**
 
 As part of an official inquiry into the extent of racial and gender bias
-in the justice system in the U.S. state of Pennsylvania[^2], an
+in the justice system in the U.S. state of Pennsylvania, an
 investigation was made of whether people from minority racial groups
-were underrepresented in trial juries. One part of the assessment was a
+were underrepresented in trial juries.^[The Pennsylvania Supreme Court Committee on racial and gender bias
+in the justice system; the example used here is from the survey by
+J. F. Kairns published as part of the final report of the committee
+(March 2003).] One part of the assessment was a
 survey administered to all those called for the jury panel for criminal
 trials (from which the juries for actual trials will be selected) in
 Allegheny County, Pennsylvania (the city of Pittsburgh and its
@@ -146,7 +152,13 @@ possible census error in it).
 
 The first large-scale field trials of the “killed virus” polio
 vaccination developed by Dr. Jonas Salk were carried out in the U.S. in
-1954[^3]. In the randomized, double-blind placebo-control part of the
+1954.^[The data used here are from the official evaluation of the trials
+in Francis, T. et al. (1955). “An evaluation of the 1954
+poliomyelitits vaccine trials: summary report”. *American Journal of
+Public Health*, **45**, 1–50. For some background information about
+the trials, see Meldrum, M. (1998), “ ‘A calculated risk’: the Salk
+polio vaccine field trials of 1954”. *British Medical Journal*,
+**317**, 1233–1236.] In the randomized, double-blind placebo-control part of the
 trial, a sample of schoolchildren were randomly assigned to receive
 either three injections of the polio vaccine, or three injections of a
 placebo, inert saltwater which was externally indistinguishable from the
@@ -169,7 +181,9 @@ tendency of respondents to agree with such statements, regardless of
 their contents. If it is present, we will overestimate the proportion of
 people holding the opinion corresponding to agreement with the
 statement. The data used in this example come from a study which
-examined acquiescence bias through a randomized experiment[^4]. In a
+examined acquiescence bias through a randomized experiment.^[Javeline, D. (1999). “Response effects in polite cultures: A test
+of acquiescence in Kazakhstan”. *Public Opinion Quarterly*, **63**,
+1–28.] In a
 survey carried out in Kazakhstan, the respondents were presented with a
 number of attitude statements, with four response categories: “Fully
 agree”, “Somewhat agree”, “Somewhat disagree”, and “Fully disagree”.
@@ -220,7 +234,8 @@ by one number, the **probability** that a randomly selected member of
 the population will have the value $Y=1$ rather than 0. It can also be
 thought of as the **proportion** of units in the population with $Y=1$;
 we will use the two terms interchangeably. This probability is denoted
-here $\pi$ (the lower-case Greek letter “pi”[^5]). The value of $\pi$ is
+here $\pi$ (the lower-case Greek letter “pi”).^[In this context the letter does *not* refer to the mathematical
+constant $\pi=3.14159\dots$, for which the same symbol is also used.] The value of $\pi$ is
 between 0 (no-one in the population has $Y=1$) and 1 (everyone has
 $Y=1$). Because $Y$ can have only two possible values, and the sum of
 probabilities must be one, the population probability of $Y=0$ is
@@ -1222,7 +1237,14 @@ that the proportion of polio cases was different among the vaccinated
 children than among the unvaccinated ones. The 95% confidence interval
 for the difference shows that we are 95% confident that this difference
 was a reduction of between 284 and 560 polio cases per million
-children[^6]. This was acknowledged as a convincing demonstration that
+children.^[Note that incidence was not zero even in the vaccinated group,
+because the Salk vaccine — like most vaccines — is not 100%
+effective. Despite this, it is possible for a broad enough
+vaccination programme to eliminate a disease completely, by
+depriving it the chance to spread and conferring so-called herd
+immunity for the whole population. Conversely, if vaccination rates
+drop too low, herd immunity is removed and the disease may reappear
+at a higher rate than implied by the reduction in vaccination alone.] This was acknowledged as a convincing demonstration that
 the Salk vaccine worked (see Figure \@ref(fig:f-nytimes)), and it (and later
 other types of polio vaccination) was soon put to widespread use. The
 resulting dramatic decline in the incidence of polio is one of the great
@@ -1235,37 +1257,3 @@ is hope that that number will reach 0 in a not-too-distant future, so
 that the once devastating disease will one day be entirely eradicated.
 
 ![(\#fig:f-nytimes) Public reaction to statistical inference.](salk_nytimes){width="150mm"}
-
-[^1]: This example is based on a newspaper report of a real poll for
-    which the percentages were reported only as 47, 27, and 26 out of
-    “about 700” respondents. The exact numbers used here for
-    illustration have been made up to correspond to these real results.
-
-[^2]: The Pennsylvania Supreme Court Committee on racial and gender bias
-    in the justice system; the example used here is from the survey by
-    J. F. Kairns published as part of the final report of the committee
-    (March 2003).
-
-[^3]: The data used here are from the official evaluation of the trials
-    in Francis, T. et al. (1955). “An evaluation of the 1954
-    poliomyelitits vaccine trials: summary report”. *American Journal of
-    Public Health*, **45**, 1–50. For some background information about
-    the trials, see Meldrum, M. (1998), “ ‘A calculated risk’: the Salk
-    polio vaccine field trials of 1954”. *British Medical Journal*,
-    **317**, 1233–1236.
-
-[^4]: Javeline, D. (1999). “Response effects in polite cultures: A test
-    of acquiescence in Kazakhstan”. *Public Opinion Quarterly*, **63**,
-    1–28.
-
-[^5]: In this context the letter does *not* refer to the mathematical
-    constant $\pi=3.14159\dots$, for which the same symbol is also used.
-
-[^6]: Note that incidence was not zero even in the vaccinated group,
-    because the Salk vaccine — like most vaccines — is not 100%
-    effective. Despite this, it is possible for a broad enough
-    vaccination programme to eliminate a disease completely, by
-    depriving it the chance to spread and conferring so-called herd
-    immunity for the whole population. Conversely, if vaccination rates
-    drop too low, herd immunity is removed and the disease may reappear
-    at a higher rate than implied by the reduction in vaccination alone.

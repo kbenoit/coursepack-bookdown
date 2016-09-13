@@ -610,11 +610,11 @@ cases:
     are known in advance, and variables for which only a small number of
     values were actually observed even if others might have been
     possible.^[For example, suppose we collected data on the number of traffic
-        accidents on each of a sample of streets in a week, and suppose that
-        the only numbers observed were 0, 1, 2, and 3. Other, even much
-        larger values were clearly at least logically possible, but they
-        just did not occur. Of course, redefining the largest value as “3 or
-        more” would turn the variable into an unambiguously categorical one.] Such variables can be conveniently summarized in the
+    accidents on each of a sample of streets in a week, and suppose that
+    the only numbers observed were 0, 1, 2, and 3. Other, even much
+    larger values were clearly at least logically possible, but they
+    just did not occur. Of course, redefining the largest value as “3 or
+    more” would turn the variable into an unambiguously categorical one.] Such variables can be conveniently summarized in the
     form of tables and handled by methods appropriate for such tables,
     as described later in this coursepack. This group also includes all
     nominal variables, even ones with a relatively large number of

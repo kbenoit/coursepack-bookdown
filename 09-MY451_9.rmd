@@ -29,7 +29,13 @@ control.
 
 Table \@ref(tab:t-berkeley1) summarises data on applications for admission to
 graduate study at the University of California, Berkeley, for the fall
-quarter 1973[^1]. The data are for five of the six departments with the
+quarter 1973.^[These data, which were produced by the Graduate Division of UC
+Berkeley, were first discussed in Bickel, P. J., Hammel, E. A., and
+O’Connell, J. W. (1975), “Sex bias in graduate admissions: Data from
+Berkeley”, *Science* **187**, 398–404. They have since become a
+much-used teaching example. The version of the data considered here
+are from Freedman, D., Pisani, R., and Purves, R., *Statistics*
+(W. W. Norton, 1978).] The data are for five of the six departments with the
 largest number of applications, labelled below Departments 2–5
 (Department 1 will be discussed at the end of this section). Table
 \@ref(tab:t-berkeley1) shows the two-way contingency table of the sex of the
@@ -244,7 +250,9 @@ Atlantic on 14 April 1912, with heavy loss of life. Table
 \@ref(tab:t-titanic2) shows a crosstabulation of the people on board the
 *Titanic*, classified according to their status (as male passenger,
 female or child passenger, or member of the ship’s crew) and whether
-they survived the sinking[^2]. The $\chi^{2}$ test of independence has
+they survived the sinking.^[The data are from the 1912 report of the official British Wreck
+Commissioner’s inquiry into the sinking, available at
+<http://www.titanicinquiry.org>.] The $\chi^{2}$ test of independence has
 $P<0.001$ for this table, so there are statistically significant
 differences in probabilities of survival between the groups. The table
 suggests, in particular, that women and children among the passengers
@@ -388,7 +396,15 @@ in the original two-way table, as in the next example.
 
 A health survey was carried out in Whickham near Newcastle upon Tyne in
 1972–74, and a follow-up survey of the same respondents twenty years
-later[^3]. Here we consider only the $n=1314$ female respondents who
+later.^[The two studies are reported in Tunbridge, W. M. G. et al. (1977).
+“The spectrum of thyroid disease in a community: The Whickham
+survey”. *Clinical Endocrinology* **7**, 481–493, and Vanderpump,
+M. P. J. et al. (1995). “The incidence of thyroid disorders in the
+community: A twenty-year follow-up of the Whickham survey”.
+*Clinical Endocrinology* **43**, 55–69. The data are used to
+illustrate Simpson’s paradox by Appleton, D. R. et al. (1996).
+“Ignoring a covariate: An example of Simpson’s paradox”. *The
+American Statistician* **50**, 340–341.] Here we consider only the $n=1314$ female respondents who
 were classified by the first survey either as current smokers or as
 never having smoked. Table \@ref(tab:t-whickham1) shows the
 crossclassification of these women according to their smoking status in
@@ -530,7 +546,14 @@ everyone. Differences are likely to be have been further diluted by many
 of the original smokers having stopped smoking between the surveys. This
 example should thus not be regarded as a serious examination of the
 health effects of smoking, for which much more specific data and more
-careful analyses are required[^4].
+careful analyses are required.^[For one remarkable example of such studies, see Doll, R. et
+al. (2004), “Mortality in relation to smoking: 50 years’
+observations on male British doctors”, *British Medical Journal*
+**328**, 1519–1528, and Doll, R. and Hill, A. B. (1954), “The
+Mortality of doctors in relation to their smoking habits: A
+preliminary report”, *British Medical Journal* **228**, 1451–1455.
+The older paper is reprinted together with the more recent one in
+the 2004 issue of *BMJ*.]
 
 The Berkeley admissions data discussed earlier provide another example
 of a partial Simpson’s paradox. Previously we considered only
@@ -603,34 +626,3 @@ tables:
     \@ref(s-regression-multiple), but modified so that they become
     approriate for categorical response variables. Some of these models
     are introduced on the course MY452.
-
-[^1]: These data, which were produced by the Graduate Division of UC
-    Berkeley, were first discussed in Bickel, P. J., Hammel, E. A., and
-    O’Connell, J. W. (1975), “Sex bias in graduate admissions: Data from
-    Berkeley”, *Science* **187**, 398–404. They have since become a
-    much-used teaching example. The version of the data considered here
-    are from Freedman, D., Pisani, R., and Purves, R., *Statistics*
-    (W. W. Norton, 1978).
-
-[^2]: The data are from the 1912 report of the official British Wreck
-    Commissioner’s inquiry into the sinking, available at
-    <http://www.titanicinquiry.org>.
-
-[^3]: The two studies are reported in Tunbridge, W. M. G. et al. (1977).
-    “The spectrum of thyroid disease in a community: The Whickham
-    survey”. *Clinical Endocrinology* **7**, 481–493, and Vanderpump,
-    M. P. J. et al. (1995). “The incidence of thyroid disorders in the
-    community: A twenty-year follow-up of the Whickham survey”.
-    *Clinical Endocrinology* **43**, 55–69. The data are used to
-    illustrate Simpson’s paradox by Appleton, D. R. et al. (1996).
-    “Ignoring a covariate: An example of Simpson’s paradox”. *The
-    American Statistician* **50**, 340–341.
-
-[^4]: For one remarkable example of such studies, see Doll, R. et
-    al. (2004), “Mortality in relation to smoking: 50 years’
-    observations on male British doctors”, *British Medical Journal*
-    **328**, 1519–1528, and Doll, R. and Hill, A. B. (1954), “The
-    Mortality of doctors in relation to their smoking habits: A
-    preliminary report”, *British Medical Journal* **228**, 1451–1455.
-    The older paper is reprinted together with the more recent one in
-    the 2004 issue of *BMJ*.

@@ -27,7 +27,14 @@ this chapter. Summary statistics for them are shown in Table
 ##### Example 7.1: Survey data on diet {#p-ex71}
 
 The National Diet and Nutrition Survey of adults aged 19–64 living in
-private households in Great Britain was carried out in 2000–01[^1]. One
+private households in Great Britain was carried out in 2000–01.^[Conducted for the Food Standards Agency and the Department of
+Health by ONS and MRC Human Nutrition Research. The sample
+statistics used here are from the survey reports published by HMSO
+in 2002-04, aggregating results published separately for men and
+women. The standard errors have been adjusted for non-constant
+sampling probabilities using design factors published in the survey
+reports. We will treat these numbers as if they were from a simple
+random sample.] One
 part of the survey was a food diary where the respondents recorded all
 food and drink they consumed in a seven-day period. We consider two
 variables derived from the diary: the consumption of fruit and
@@ -95,7 +102,10 @@ response variable $Y$, and the respondent’s sex will be the explanatory
 variable $X$. We consider only those respondents who were less than 65
 years old at the time of the interview and who lived in single-person
 households (thus the comparisons considered here will not involve
-questions of the division of domestic work within families)[^2].
+questions of the division of domestic work within families).^[The data were obtained from the UK Data Archive. Three respondents
+with outlying values of the housework variable (two women and one
+man, with 50, 50 and 70 reported weekly hours) have been omitted
+from the analysis considered here.]
 
 We can indicate summary statistics separately for the two groups by
 using subscripts 1 for men and 2 for women (for example). The sample
@@ -108,7 +118,10 @@ Table \@ref(tab:t-groupex).
 
 This example is based on an experiment conducted to examine the effects
 of some aspects of the appearance and behaviour of police officers on
-how members of the public perceive their encounters with the police[^3].
+how members of the public perceive their encounters with the police.^[Boyanowsky, E. O. and Griffiths, C. T. (1982). “Weapons and eye
+contact as instigators or inhibitors of aggressive arousal in
+police-citizen interaction”. *Journal of Applied Social Psychology*,
+**12**, 398–407.]
 The subjects of the study were 133 people stopped by the Traffic Patrol
 Division of a detachment of the Royal Canadian Mounted Police. When
 talking to the driver who had been stopped, the police officer either
@@ -137,7 +150,10 @@ report.
 
 In a study of the stresses and feelings associated with parenthood, 109
 couples expecting their first child were interviewed before and after
-the birth of the baby.[^4] Here we consider only data for the fathers,
+the birth of the baby.^[Miller, B. C. and Sollie, D. L. (1980). “Normal stresses during
+the transition to parenthood”. *Family Relations*, **29**, 459–465.
+See the article for further information, including results for the
+mothers.] Here we consider only data for the fathers,
 and only one of the variables measured in the study. This variable is a
 measure of personal well-being, obtained from a seven-item attitude
 scale, where larger values indicate higher levels of well-being.
@@ -158,7 +174,10 @@ difference agree with those in the article.
 
 A common superstition regards the 13th day of any month falling on a
 Friday as a particularly unlucky day. In a study examining the possible
-effects of this belief on people’s behaviour[^5], data were obtained on
+effects of this belief on people’s behaviour,^[Scanlon, T. J. et al. (1993). “Is Friday the 13th bad for your
+health?”. *British Medical Journal*, **307**, 1584–1586. The data
+were obtained from The Data and Story Library at Carnegie Mellon
+University (`lib.stat.cmu.edu/DASL`).] data were obtained on
 the numbers of vehicles travelling between junctions 7 and 8 and
 junctions 9 and 10 on the M25 motorway around London during every Friday
 the 13th in 1990–92. For comparison, the same numbers were also recorded
@@ -786,17 +805,30 @@ similar, and the conclusions from the test are the same in both cases.
 The differences between the two variants of the test are even smaller in
 Example 7.3, where the estimated standard error
 $\hat{\sigma}_{\hat{\Delta}}=0.383$ is the same (to three decimal
-places) in both cases, and the results are thus identical[^6]. In both
+places) in both cases, and the results are thus identical.^[In this case this is a consquence of the fact that the sample
+sizes (67 and 66) in the two groups are very similar. When they are
+exactly equal, formulas (\@ref(eq:sehatjoint))–(\@ref(eq:ztestmuDb)) and
+(\@ref(eq:seDmu-ne)) actually give exactly the same value for the
+standard error $\hat{\sigma}_{\hat{\Delta}}$, and $t$ is thus also
+the same for both variants of the test.] In both
 examples the confidence intervals obtained from (\@ref(eq:ciDmu2)) and
 (\@ref(eq:ciDmu)) are also very similar. Both variants of the two-sample
 analyses are shown in SPSS output (c.f. Figure \@ref(fig:f-spss2test)), the ones assuming equal population standard
 deviations on the row labelled “Equal variances assumed” and the one
-without this assumption on the “Equal variances not assumed” row[^7].
+without this assumption on the “Equal variances not assumed” row.^[The output also shows, under “Levene’s test”, a test statistic and
+$P$-value for testing the hypothesis of equal standard deviations
+($H_{0}: \,
+\sigma_{1}=\sigma_{2}$). However, we prefer not to rely on this
+because the test requires the additional assumption that the
+population distributions are normal, and is very sensitive to the
+correctness of this assumption.]
 
 Which methods should we then use, the ones with or without the
 assumption of equal population variances? In practice the choice rarely
 makes much difference, and the $P$-values and conclusions from the two
-versions of the test are typically very similar[^8]. Not assuming the
+versions of the test are typically very similar.^[In the MY451 examination and homework, for example, both variants
+of the test are equally acceptable, unless a question explicitly
+states otherwise.] Not assuming the
 variances to be equal has the advantage of making fewer restrictive
 assumptions about the population. For this reason it should be used in
 the rare cases where the $P$-values obtained under the different
@@ -910,7 +942,8 @@ difference between the two is quite small when the degrees of freedom
 are reasonably large.
 
 The $t$-test and the $t$ distribution are among the oldest tools of
-statistical inference. They were introduced in 1908 by W. S. Gosset[^9],
+statistical inference. They were introduced in 1908 by W. S. Gosset,^[Student (1908). “The probable error of a mean”. *Biometrika*
+**6**, 1–25.]
 initially for the one-sample case discussed in Section
 \@ref(s-means-1sample). Gosset was working as a chemist at the Guinness
 brewery at St. James’ Gate, Dublin. He published his findings under the
@@ -1171,7 +1204,10 @@ the data from the diet survey:
     its sampling distribution, is
     $\sigma_{\hat{\Delta}}=\sigma/\sqrt{n}$ (note that this is equal to
     the standard error $\sigma_{\bar{Y}}$ of the sample mean $\bar{Y}$
-    itself[^10]). This is estimated by
+    itself).^[The two are the same because $\mu_{0}$ in
+    $\hat{\Delta}=\bar{Y}-\mu_{0}$ is a known number rather a
+    data-dependent statistic, which means that it does not affect the
+    standard error.] This is estimated by
     \begin{equation}\hat{\sigma}_{\hat{\Delta}} = \frac{s}{\sqrt{n}}.
     \label{eq:seDhat1}\end{equation}
 
@@ -1275,7 +1311,9 @@ sloppy SPSS manner as “.000”). This is actually obtained from the $t$
 distribution, the degrees of freedom of which ($n-1=1723$) are given
 under “df”. Finally, the output also contains a 95% confidence interval
 for the difference $\Delta=\mu-\mu_{0}$, i.e. the interval
-(\@ref(eq:ciD1)).[^11] This is given as $(-2.30; -2.10)$. To obtain the more
+(\@ref(eq:ciD1)).^[Except that SPSS uses the multiplier from $t_{1723}$ distribution
+rather than the normal distribution. This makes no difference here,
+as the former is 1.961 and the latter 1.960.] This is given as $(-2.30; -2.10)$. To obtain the more
 convenient confidence interval (\@ref(eq:cimu1)) for $\mu$ itself, we only
 need to add $\mu_{0}=5$ to both end points of the interval shown by
 SPSS, to obtain $(-2.30+5;
@@ -1732,63 +1770,3 @@ nature and implications of the variables in question. In our dietary
 examples this would involve at least medical considerations, and perhaps
 also financial implications of the public health costs of the observed
 situation or of possible efforts of trying to change it.
-
-[^1]: Conducted for the Food Standards Agency and the Department of
-    Health by ONS and MRC Human Nutrition Research. The sample
-    statistics used here are from the survey reports published by HMSO
-    in 2002-04, aggregating results published separately for men and
-    women. The standard errors have been adjusted for non-constant
-    sampling probabilities using design factors published in the survey
-    reports. We will treat these numbers as if they were from a simple
-    random sample.
-
-[^2]: The data were obtained from the UK Data Archive. Three respondents
-    with outlying values of the housework variable (two women and one
-    man, with 50, 50 and 70 reported weekly hours) have been omitted
-    from the analysis considered here.
-
-[^3]: Boyanowsky, E. O. and Griffiths, C. T. (1982). “Weapons and eye
-    contact as instigators or inhibitors of aggressive arousal in
-    police-citizen interaction”. *Journal of Applied Social Psychology*,
-    **12**, 398–407.
-
-[^4]: Miller, B. C. and Sollie, D. L. (1980). “Normal stresses during
-    the transition to parenthood”. *Family Relations*, **29**, 459–465.
-    See the article for further information, including results for the
-    mothers.
-
-[^5]: Scanlon, T. J. et al. (1993). “Is Friday the 13th bad for your
-    health?”. *British Medical Journal*, **307**, 1584–1586. The data
-    were obtained from The Data and Story Library at Carnegie Mellon
-    University (`lib.stat.cmu.edu/DASL`).
-
-[^6]: In this case this is a consquence of the fact that the sample
-    sizes (67 and 66) in the two groups are very similar. When they are
-    exactly equal, formulas (\@ref(eq:sehatjoint))–(\@ref(eq:ztestmuDb)) and
-    (\@ref(eq:seDmu-ne)) actually give exactly the same value for the
-    standard error $\hat{\sigma}_{\hat{\Delta}}$, and $t$ is thus also
-    the same for both variants of the test.
-
-[^7]: The output also shows, under “Levene’s test”, a test statistic and
-    $P$-value for testing the hypothesis of equal standard deviations
-    ($H_{0}: \,
-    \sigma_{1}=\sigma_{2}$). However, we prefer not to rely on this
-    because the test requires the additional assumption that the
-    population distributions are normal, and is very sensitive to the
-    correctness of this assumption.
-
-[^8]: In the MY451 examination and homework, for example, both variants
-    of the test are equally acceptable, unless a question explicitly
-    states otherwise.
-
-[^9]: Student (1908). “The probable error of a mean”. *Biometrika*
-    **6**, 1–25.
-
-[^10]: The two are the same because $\mu_{0}$ in
-    $\hat{\Delta}=\bar{Y}-\mu_{0}$ is a known number rather a
-    data-dependent statistic, which means that it does not affect the
-    standard error.
-
-[^11]: Except that SPSS uses the multiplier from $t_{1723}$ distribution
-    rather than the normal distribution. This makes no difference here,
-    as the former is 1.961 and the latter 1.960.

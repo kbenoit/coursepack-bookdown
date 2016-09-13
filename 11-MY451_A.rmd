@@ -348,7 +348,10 @@ Social Survey (Round 5). The questions in the survey that you see here
 were designed By Dr Jonathan Jackson and his team as part of a module
 investigating public trust in the criminal justice system. Further
 information about the study can be found at\
-<http://www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx> [^1]
+<http://www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx>^[ESS Round 5: European Social Survey Round 5 Data (2010). Data file
+edition 2.0. Norwegian Social Science Data Services, Norway � Data
+Archive and distributor of ESS data. The full data can be obtained
+from <http://ess.nsd.uib.no/ess/round5/>.]
 
 The main purpose of today’s class is to introduce you to the layout of
 SPSS and to show you how to produce some basic tables and graphs for
@@ -616,7 +619,15 @@ Descriptive statistics for continuous variables
 **london-borough-profiles.sav**. It contains a selection of data on the
 33 London boroughs obtained from the *London Datastore*, which publishes
 a range of statistical data about the city, collated by the Greater
-London Authority’s *GLA Intelligence Unit* [^2].
+London Authority’s *GLA Intelligence Unit*.^[The data were obtained from
+<http://data.london.gov.uk/datastore/package/london-borough-profiles>.
+
+If you download the "Profiles in Excel" workbook, you will
+find that one of the pages contains a map of the boroughs, and a
+tool for visualising the data on that map. A regular map of the
+boroughs can be found at for example at
+
+<http://www.londoncouncils.gov.uk/londonfacts/londonlocalgovernment/londonmapandlinks/default.htm>.]
 
 
 #### Descriptive statistics in SPSS {-}
@@ -732,7 +743,9 @@ presentation.
 
 **Data set**: The data file used today is **GSS2010.sav**. It contains a
 selection of variables on attitudes and demographic characteristics for
-2044 respondents in the 2010 U.S. General Social Survey (GSS)[^3]. The
+2044 respondents in the 2010 U.S. General Social Survey (GSS).^[The data can be obtained from <http://www3.norc.org/gss+website/>,
+which gives further information on the survey, including the full
+text of the questionnaires.] The
 full data set contains 790 variables. For convenience the version you
 are analysing today contains just a selection of those items.
 
@@ -840,7 +853,10 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
 
 **Data set**: The data file used today is **ESS5\_GBFR.sav**. It
 contains data for a selection of variables from the 2010 European Social
-Survey for respondents in Great Britain and France[^4]. Only a few of
+Survey for respondents in Great Britain and France.^[ESS Round 5: European Social Survey Round 5 Data (2010). Data file
+edition 2.0. Norwegian Social Science Data Services, Norway � Data
+Archive and distributor of ESS data. The full data can be obtained
+from <http://ess.nsd.uib.no/ess/round5/>.] Only a few of
 the variables are used in the exercises; the rest are included in the
 data set as examples of the kinds of information obtained from this
 survey.
@@ -875,7 +891,11 @@ survey.
 Consider the survey data in the file *ESS5\_GBFR.sav*. We will examine
 two variables, and carry out statistical inference to compare their
 means among the survey populations of adults in Great Britain and
-France[^5].
+France.^[Strictly speaking, the analysis should incorporate sampling
+weights (variable *DWEIGHT*) to adjust for different sampling
+probabilities for different types of respondents. Here the weights
+are ignored. Using them would not change the main conclusions for
+these variables.]
 
 1.  The variable *WKHTOT* shows the number of hours per week the
     respondent normally works in his or her main job. Obtain box plots
@@ -963,7 +983,12 @@ France[^5].
 
 The survey data set *BES2010post\_lastdebate.sav* contains part of the
 information collected by the British Election Study, an ongoing research
-programme designed to understand voter choices in the UK [^6].
+programme designed to understand voter choices in the UK.^[The data can be obtained from <http://bes2009-10.org/>, which
+gives further information on the survey, including the full text of
+the questionnaires. The data analysed in this class and homework are
+from the BES Campaign Internet Panel Survey, which has been divided
+into two data sets corresponding to two time periods leading up to
+the General Election.]
 
 In the run-up to the UK General Election on 6 May 2010, opinion polls
 reported quite dramatic changes in popularity of the Liberal Democrat
@@ -1147,7 +1172,8 @@ athletics events over two days. Their results in each are then
 translated into points, and the winner is the competitor with the
 highest points total for the ten events. The file *decathlon2012.sav*
 contains the results of the decathlon competition at the 2012 Olympics
-in London for the 26 athletes who finished the competition.[^7] The
+in London for the 26 athletes who finished the competition.^[Official results obtained from
+<http://www.olympic.org/london-2012-summer-olympics>.] The
 results for each event are given both in their original units (variables
 with names beginning with “mark\_”) and in decathlon points (names
 beginning with “points\_”). The ten events are identified by the
@@ -1217,7 +1243,9 @@ final points total for each competitor.
 
 **Data set**: File **GSS2010.SAV**. This contains a selection of
 variables on attitudes and demographic characteristics for 2044
-respondents in the 2010 U.S. General Social Survey (GSS)[^8]. Only a few
+respondents in the 2010 U.S. General Social Survey (GSS).^[The data can be obtained from <http://www..norc.org/GSS+Website/>, which
+gives further information on the survey, including the full text of
+the questionnaires.] Only a few
 of the variables are used in the exercises.
 
 #### Classwork - linear regression {-}
@@ -1363,7 +1391,12 @@ are these:
 The file *humandevelopment2011.sav* contains data on a number of
 indicators of what might broadly be called development, for 194
 countries in 2011. These were collated from two international data
-agency sources[^9]. The response variable considered today is
+agency sources.^[United Nations Development Programme *International Human
+Development Indicators*, <http://hdr.undp.org/en/data/>; World Bank
+*Worldwide Governance Indicators*,
+<http://info.worldbank.org/governance/wgi/pdf/wgidataset.xlsx>;
+World Bank *World Development Indicators*,
+<http://data.worldbank.org/indicator/SP.DYN.IMRT.IN>.] The response variable considered today is
 *SCHOOL\_YEARS*, which records for each country the mean number of years
 of schooling taken by the adult population. We treat it here as a
 general indicator of the educational situation in a country, which is an
@@ -1461,7 +1494,10 @@ analyses you have learned during the course.
 As an optional exercise, the data file **ESS5GB\_trust.sav** is
 provided. This contains a selection of variables from the survey of
 British respondents that forms the 2010 wave of the European Social
-Survey[^10].
+Survey.^[ESS Round 5: European Social Survey Round 5 Data (2010). Data
+file edition 2.0. Norwegian Social Science Data Services, Norway �
+Data Archive and distributor of ESS data. The full data can be
+obtained from <http://ess.nsd.uib.no/ess/round5/>.]
 
 We suggest that you use the data to practise multiple linear regression
 modelling on one or more of the variables capturing people’s levels of
@@ -1671,59 +1707,3 @@ critical values for the standard normal distribution.
 *Explanation*: For example, the value 2.71 in the top left corner
 indicates that for a $\chi^{2}$ distribution with 1 degree of freedom
 the probability of values greater than 2.71 is 0.100.
-
-[^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-    edition 2.0. Norwegian Social Science Data Services, Norway � Data
-    Archive and distributor of ESS data. The full data can be obtained
-    from <http://ess.nsd.uib.no/ess/round5/>.
-
-[^2]: The data were obtained from
-    <http://data.london.gov.uk/datastore/package/london-borough-profiles>.
-
-    If you download the "Profiles in Excel" workbook, you will
-    find that one of the pages contains a map of the boroughs, and a
-    tool for visualising the data on that map. A regular map of the
-    boroughs can be found at for example at
-
-    <http://www.londoncouncils.gov.uk/londonfacts/londonlocalgovernment/londonmapandlinks/default.htm>.
-
-[^3]: The data can be obtained from <http://www3.norc.org/gss+website/>,
-    which gives further information on the survey, including the full
-    text of the questionnaires.
-
-[^4]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-    edition 2.0. Norwegian Social Science Data Services, Norway � Data
-    Archive and distributor of ESS data. The full data can be obtained
-    from <http://ess.nsd.uib.no/ess/round5/>.
-
-[^5]: Strictly speaking, the analysis should incorporate sampling
-    weights (variable *DWEIGHT*) to adjust for different sampling
-    probabilities for different types of respondents. Here the weights
-    are ignored. Using them would not change the main conclusions for
-    these variables.
-
-[^6]: The data can be obtained from <http://bes2009-10.org/>, which
-    gives further information on the survey, including the full text of
-    the questionnaires. The data analysed in this class and homework are
-    from the BES Campaign Internet Panel Survey, which has been divided
-    into two data sets corresponding to two time periods leading up to
-    the General Election.
-
-[^7]: Official results obtained from
-    <http://www.olympic.org/london-2012-summer-olympics>.
-
-[^8]: The data can be obtained from <http://www..norc.org/GSS+Website/>, which
-    gives further information on the survey, including the full text of
-    the questionnaires.
-
-[^9]: United Nations Development Programme *International Human
-    Development Indicators*, <http://hdr.undp.org/en/data/>; World Bank
-    *Worldwide Governance Indicators*,
-    <http://info.worldbank.org/governance/wgi/pdf/wgidataset.xlsx>;
-    World Bank *World Development Indicators*,
-    <http://data.worldbank.org/indicator/SP.DYN.IMRT.IN>.
-
-[^10]: ESS Round 5: European Social Survey Round 5 Data (2010). Data
-    file edition 2.0. Norwegian Social Science Data Services, Norway �
-    Data Archive and distributor of ESS data. The full data can be
-    obtained from <http://ess.nsd.uib.no/ess/round5/>.
