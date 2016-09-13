@@ -349,7 +349,7 @@ were designed By Dr Jonathan Jackson and his team as part of a module
 investigating public trust in the criminal justice system. Further
 information about the study can be found at\
 <http://www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx>^[ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-edition 2.0. Norwegian Social Science Data Services, Norway � Data
+edition 2.0. Norwegian Social Science Data Services, Norway - Data
 Archive and distributor of ESS data. The full data can be obtained
 from <http://ess.nsd.uib.no/ess/round5/>.]
 
@@ -854,7 +854,7 @@ variable *SEX*, and age as *AGEGROUP* in three groups: 18-34, 35-54, and
 **Data set**: The data file used today is **ESS5\_GBFR.sav**. It
 contains data for a selection of variables from the 2010 European Social
 Survey for respondents in Great Britain and France.^[ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-edition 2.0. Norwegian Social Science Data Services, Norway � Data
+edition 2.0. Norwegian Social Science Data Services, Norway - Data
 Archive and distributor of ESS data. The full data can be obtained
 from <http://ess.nsd.uib.no/ess/round5/>.] Only a few of
 the variables are used in the exercises; the rest are included in the
