@@ -1495,7 +1495,7 @@ As an optional exercise, the data file **ESS5GB\_trust.sav** is
 provided. This contains a selection of variables from the survey of
 British respondents that forms the 2010 wave of the European Social
 Survey.^[ESS Round 5: European Social Survey Round 5 Data (2010). Data
-file edition 2.0. Norwegian Social Science Data Services, Norway �
+file edition 2.0. Norwegian Social Science Data Services, Norway -
 Data Archive and distributor of ESS data. The full data can be
 obtained from <http://ess.nsd.uib.no/ess/round5/>.]
 
