@@ -152,7 +152,7 @@ work together.
 <!-- {#sss-moodle} -->
 
 The course materials are all available on Moodle. Go to
-`http://moodle.lse.ac.uk/` and login using your *username* and
+<http://moodle.lse.ac.uk/> and login using your *username* and
 *password* (the same as for your LSE e-mail). Then in the *select
 courses* dialogue box type in MY451, and in *search results* click on
 MY451. The site contains the structure of the course week by week, the

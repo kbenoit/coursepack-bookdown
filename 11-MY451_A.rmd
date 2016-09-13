@@ -16,14 +16,13 @@ instructions for individual computer classes.
 
 -   To access IT facilities at LSE you need an IT account with its
     **Username** and **Password**. Please see
-    ` http://www.lse.ac.uk/intranet/LSEServices/IMT/`\
-    `guides/accounts/activateAccount.aspx` for instructions on how to
+    <http://www.lse.ac.uk/intranet/LSEServices/IMT/guides/accounts/activateAccount.aspx> for instructions on how to
     activate your account. In case of any problems, please ask for
     assistance at the IT help desk (Library 1st floor).
 
 -   Various introductory **documents** can be accessed through the IMT
     services web pages at
-    `http://www.lse.ac.uk/intranet/LSEServices/IMT/home.aspx`.
+    <http://www.lse.ac.uk/intranet/LSEServices/IMT/home.aspx>.
 
 -   **Logging in** to use Windows: When you arrive at a networked
     computer, wait for Windows to start up (if the machine is not
@@ -349,7 +348,7 @@ Social Survey (Round 5). The questions in the survey that you see here
 were designed By Dr Jonathan Jackson and his team as part of a module
 investigating public trust in the criminal justice system. Further
 information about the study can be found at\
-`www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx` [^1]
+<www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx> [^1]
 
 The main purpose of today’s class is to introduce you to the layout of
 SPSS and to show you how to produce some basic tables and graphs for
@@ -1676,7 +1675,7 @@ the probability of values greater than 2.71 is 0.100.
 [^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
     edition 2.0. Norwegian Social Science Data Services, Norway � Data
     Archive and distributor of ESS data. The full data can be obtained
-    from `http://ess.nsd.uib.no/ess/round5/`.
+    from <http://ess.nsd.uib.no/ess/round5/>.
 
 [^2]: The data were obtained from
     <http://data.london.gov.uk/datastore/package/london-borough-profiles>.
@@ -1688,14 +1687,14 @@ the probability of values greater than 2.71 is 0.100.
 
     <http://www.londoncouncils.gov.uk/londonfacts/londonlocalgovernment/londonmapandlinks/default.htm>.
 
-[^3]: The data can be obtained from `http://www3.norc.org/gss+website/`,
+[^3]: The data can be obtained from <http://www3.norc.org/gss+website/>,
     which gives further information on the survey, including the full
     text of the questionnaires.
 
 [^4]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
     edition 2.0. Norwegian Social Science Data Services, Norway � Data
     Archive and distributor of ESS data. The full data can be obtained
-    from `http://ess.nsd.uib.no/ess/round5/`.
+    from <http://ess.nsd.uib.no/ess/round5/>.
 
 [^5]: Strictly speaking, the analysis should incorporate sampling
     weights (variable *DWEIGHT*) to adjust for different sampling
@@ -1703,7 +1702,7 @@ the probability of values greater than 2.71 is 0.100.
     are ignored. Using them would not change the main conclusions for
     these variables.
 
-[^6]: The data can be obtained from `http://bes2009-10.org/`, which
+[^6]: The data can be obtained from <http://bes2009-10.org/>, which
     gives further information on the survey, including the full text of
     the questionnaires. The data analysed in this class and homework are
     from the BES Campaign Internet Panel Survey, which has been divided
@@ -1711,20 +1710,20 @@ the probability of values greater than 2.71 is 0.100.
     the General Election.
 
 [^7]: Official results obtained from
-    `www.olympic.org/london-2012-summer-olympics`.
+    <www.olympic.org/london-2012-summer-olympics>.
 
-[^8]: The data can be obtained from `www3.norc.org/GSS+Website/`, which
+[^8]: The data can be obtained from <www..norc.org/GSS+Website/>, which
     gives further information on the survey, including the full text of
     the questionnaires.
 
 [^9]: United Nations Development Programme *International Human
-    Development Indicators*, `http://hdr.undp.org/en/data/`; World Bank
+    Development Indicators*, <http://hdr.undp.org/en/data/>; World Bank
     *Worldwide Governance Indicators*,
-    `http://info.worldbank.org/governance/wgi/pdf/wgidataset.xlsx`;
+    <http://info.worldbank.org/governance/wgi/pdf/wgidataset.xlsx>;
     World Bank *World Development Indicators*,
-    `http://data.worldbank.org/indicator/SP.DYN.IMRT.IN`.
+    <http://data.worldbank.org/indicator/SP.DYN.IMRT.IN>.
 
 [^10]: ESS Round 5: European Social Survey Round 5 Data (2010). Data
     file edition 2.0. Norwegian Social Science Data Services, Norway �
     Data Archive and distributor of ESS data. The full data can be
-    obtained from `http://ess.nsd.uib.no/ess/round5/`.
+    obtained from <http://ess.nsd.uib.no/ess/round5/>.

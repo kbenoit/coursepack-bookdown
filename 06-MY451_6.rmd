@@ -705,7 +705,7 @@ central importance of the CLT in statistical methodology.
 
 [^1]: Carried out on behalf of The Department of Health by SCPR and the
     Department of Epidemiology and Public Health, UCL. Data used here
-    were obtained from the UK Data Archive at `www.data-archive.ac.uk`.
+    were obtained from the UK Data Archive at <www.data-archive.ac.uk>.
 
 [^2]: Note that there we were looking for the probability of a Z score
     being “bigger than” rather than “at least” a certain value; for a

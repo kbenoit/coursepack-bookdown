@@ -1230,7 +1230,7 @@ success stories of modern medicine. Compared to the 199 children with
 polio in 1954 among the less than half a million participants of the
 vaccine trial alone, in 2014 there were 414 confirmed cases of polio in
 the whole world (see
-`www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx`). There
+<www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx>). There
 is hope that that number will reach 0 in a not-too-distant future, so
 that the once devastating disease will one day be entirely eradicated.
 

@@ -1800,7 +1800,7 @@ In addition to such modest but sensible and useful basic graphs, you may
 sometimes encounter inspired examples of special graphs which manage to
 describe particular data sets in exceptionally vivid and informative
 ways. Some such examples are shown at
-`www.datavis.ca/gallery/index.php`, on the web page maintained by
+<www.datavis.ca/gallery/index.php>, on the web page maintained by
 Michael Friendly at York University in Canada (unfortunately, however,
 the electronic images do not always do justice to the originals; crisper
 versions can be found in the books mentioned above). For example, the
@@ -1899,7 +1899,7 @@ of the three variables were available at the time the example created.
   : (\#tab:t-countrydata)
 
 [^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-    edition 2.0. Norwegian Social Science Data Services, Norway — Data
+    edition 2.0. Norwegian Social Science Data Services, Norway - Data
     Archive and distributor of ESS data.
 
 [^2]: For recent findings, see for example Svallfors, S. (ed.) (2012),
@@ -1927,7 +1927,7 @@ of the three variables were available at the time the example created.
 
 [^5]: This is a random sample of municipalities, obtained for this
     illustration from the 2001 census data provided by Statistics Canada
-    at `www.statcan.gc.ca`.
+    at <www.statcan.gc.ca>.
 
 [^6]: There is no need to worry about how the quartile values 9.25 and
     2.75 for class 3 were calculated. Different software packages may in

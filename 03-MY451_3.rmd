@@ -448,7 +448,7 @@ ones, as follows:
 
 [^1]: European Social Survey (2012). ESS Round 5 (2010/2011) Technical
     Report. London: Centre for Comparative Social Surveys, City
-    University London. See `www.europeansocialsurvey.org` for more on
+    University London. See <www.europeansocialsurvey.org> for more on
     the ESS.
 
 [^2]: For more on survey weights and the design and analysis of surveys
