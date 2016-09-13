@@ -21,8 +21,6 @@ bookdown::pdf_book:
     - "--default-image-extension=pdf"
     - "--template"
     - "template.latex"
-    - "-V"
-    - "lot"
 bookdown::epub_book: #default
   pandoc_args:
     - "--default-image-extension=png"

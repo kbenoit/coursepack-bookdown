@@ -614,7 +614,7 @@ tables:
 
 [^2]: The data are from the 1912 report of the official British Wreck
     Commissioner’s inquiry into the sinking, available at
-    <www.titanicinquiry.org>.
+    <http://www.titanicinquiry.org>.
 
 [^3]: The two studies are reported in Tunbridge, W. M. G. et al. (1977).
     “The spectrum of thyroid disease in a community: The Whickham

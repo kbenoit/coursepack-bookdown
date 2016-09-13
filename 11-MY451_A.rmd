@@ -348,7 +348,7 @@ Social Survey (Round 5). The questions in the survey that you see here
 were designed By Dr Jonathan Jackson and his team as part of a module
 investigating public trust in the criminal justice system. Further
 information about the study can be found at\
-<www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx> [^1]
+<http://www.lse.ac.uk/methodology/whosWho/Jackson/jackson_ESS.aspx> [^1]
 
 The main purpose of today’s class is to introduce you to the layout of
 SPSS and to show you how to produce some basic tables and graphs for
@@ -1710,9 +1710,9 @@ the probability of values greater than 2.71 is 0.100.
     the General Election.
 
 [^7]: Official results obtained from
-    <www.olympic.org/london-2012-summer-olympics>.
+    <http://www.olympic.org/london-2012-summer-olympics>.
 
-[^8]: The data can be obtained from <www..norc.org/GSS+Website/>, which
+[^8]: The data can be obtained from <http://www..norc.org/GSS+Website/>, which
     gives further information on the survey, including the full text of
     the questionnaires.
 

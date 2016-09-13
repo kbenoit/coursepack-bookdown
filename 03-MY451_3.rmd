@@ -20,7 +20,10 @@ types of analyses.
 
 In many cases the population of interest is a particular group of real
 people or other units. Consider, for example, the European Social Survey
-(ESS) which we used in Chapter \@ref(c-descr1) (see early in Section \@ref(s-descr1-examples))[^1]. The ESS is a cross-national survey carried
+(ESS) which we used in Chapter \@ref(c-descr1) (see early in Section \@ref(s-descr1-examples)).^[European Social Survey (2012). ESS Round 5 (2010/2011) Technical
+    Report. London: Centre for Comparative Social Surveys, City
+    University London. See <http://www.europeansocialsurvey.org> for more on
+    the ESS.] The ESS is a cross-national survey carried
 out biennially in around 30 European countries. It is an
 academically-driven social survey which is designed to measure a wide
 range attitudes, beliefs and behaviour patterns among the European
@@ -117,7 +120,8 @@ Some analyses of such data require the use of *survey weights* to adjust
 for the fact that some units were more likely than others to end up in
 the sample. The questions of how and when the weights should be used
 are, however, beyond the scope of this course. Here we will omit the
-weights even in examples where they might normally be used.[^2]
+weights even in examples where they might normally be used.^[For more on survey weights and the design and analysis of surveys
+    in general, please see MY456 (Survey Methodology) in the Lent Term.]
 
 Not all sampling methods satisfy the requirements of probability
 sampling. Such techniques of **non-probability sampling** include
@@ -170,7 +174,9 @@ smaller probability sample collected by George Gallup.
 
 A more recent example is the “GM Nation” public consultation exercise on
 attitudes to genetically modified (GM) agricultural products, carried
-out in the U.K. in 2002–3[^3]. This involved various activities,
+out in the U.K. in 2002–3.^[For more information, see Gaskell, G. (2004). “Science policy and
+    society: the British debate over GM agriculture”, *Current Opinion
+    in Biotechnology* **15**, 241–245.] This involved various activities,
 including national, regional and local events where interested members
 of the public were invited to take part in discussions on GM foods. At
 all such events the participants also completed a questionnaire, which
@@ -194,8 +200,11 @@ following two examples:
 
 *Example: A psychological experiment*\
 Fifty-nine undegraduate students from a large U.S. university took part
-in a psychological experiment[^4], either as part of a class project or
-for extra credit on a psychology course. The participants were randomly
+in a psychological experiment, either as part of a class project or
+for extra credit on a psychology course.^[Experiment 1 in Anderson, C. A., Carnagey, N. L., and Eubanks,
+    J. (2003). “Exposure to violent media: the effects of songs with
+    violent lyrics on aggressive thoughts and feelings”. *Journal of
+    Personality and Social Psychology* **84**, 960–971.] The participants were randomly
 assigned to listen to one of two songs, one with clearly violent lyrics
 and one with no violent content. One of the variables of interest was a
 measure (from a 35-item attitude scale) of state hostility
@@ -204,9 +213,12 @@ listened to a song, and the researchers were interested in comparing
 levels of hostility between the two groups.
 
 *Example: Voting in a congressional election*\
-A political-science article[^5] considered the U.S. congressional
+A political-science article considered the U.S. congressional
 election which took place between June 1862 and November 1863,
-i.e. during a crucial period in the American Civil War. The units of
+i.e. during a crucial period in the American Civil War.^[Carson, J. L. et al. (2001). “The impact of national tides and
+    district-level effects on electoral outcomes: the U.S. congressional
+    elections of 1862–63”. *American J. of Political Science* **45**,
+    887–898.] The units of
 analysis were the districts in the House of Representatives. One part of
 the analysis examined whether the likelihood of the candidate of the
 Republican Party (the party of the sitting president Abraham Lincoln)
@@ -446,24 +458,12 @@ ones, as follows:
     distributions of continuous variables, and inference for
     such variables).
 
-[^1]: European Social Survey (2012). ESS Round 5 (2010/2011) Technical
-    Report. London: Centre for Comparative Social Surveys, City
-    University London. See <www.europeansocialsurvey.org> for more on
-    the ESS.
+[^1]:
 
-[^2]: For more on survey weights and the design and analysis of surveys
-    in general, please see MY456 (Survey Methodology) in the Lent Term.
+[^2]:
 
-[^3]: For more information, see Gaskell, G. (2004). “Science policy and
-    society: the British debate over GM agriculture”, *Current Opinion
-    in Biotechnology* **15**, 241–245.
+[^3]:
 
-[^4]: Experiment 1 in Anderson, C. A., Carnagey, N. L., and Eubanks,
-    J. (2003). “Exposure to violent media: the effects of songs with
-    violent lyrics on aggressive thoughts and feelings”. *Journal of
-    Personality and Social Psychology* **84**, 960–971.
+[^4]:
 
-[^5]: Carson, J. L. et al. (2001). “The impact of national tides and
-    district-level effects on electoral outcomes: the U.S. congressional
-    elections of 1862–63”. *American J. of Political Science* **45**,
-    887–898.
+[^5]:

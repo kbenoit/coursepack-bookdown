@@ -59,7 +59,9 @@ effectively continuous, interval-level variable.
 
 
 The data for the second example come from Round 5 of the European Social
-Survey (ESS), which was carried out in 2010.[^1] The survey was fielded
+Survey (ESS), which was carried out in 2010.^[ESS Round 5: European Social Survey Round 5 Data (2010). Data file
+    edition 2.0. Norwegian Social Science Data Services, Norway - Data
+    Archive and distributor of ESS data.] The survey was fielded
 in 28 countries, but here we use only data from 2344 respondents in the
 UK. Two variables are considered:
 
@@ -79,7 +81,9 @@ attitude is ordinal.
 Attitudes towards income redistribution are an example of the broader
 topic of public opinion on welfare state policies. This is a large topic
 of classic and current interest in the social sciences, and questions on
-it have been included in many public opinion surveys.[^2] Of key
+it have been included in many public opinion surveys.^[For recent findings, see for example Svallfors, S. (ed.) (2012),
+    *Contested Welfare States: Welfare Attitudes in Europe and Beyond*.
+    Stanford University Press.] Of key
 interest is to explore the how people’s attitudes are associated with
 their individual characteristics (including such factors as age, sex,
 education and income) and the contexts in which they live (for example
@@ -500,7 +504,12 @@ In our example, sex and attitude are associated if men and women differ
 in their attitudes toward income redistribution. Previous studies
 suggest that such an association exists, and that it takes the form that
 women tend to have higher levels of support than men for
-redistribution.[^3] As possible explanations for this pattern, both
+redistribution.^[See, for example, Svallfors (1997), Words of welfare and attitudes
+    to redistribution: A comparison of eight western nations, *European
+    Sociological Review*, 13, 283-304; and Blekesaune and Quadagno
+    (2003), Public attitudes towards welfare state policies: A
+    comparative analysis of 24 nations, *European Sociological Review*,
+    19, 415-427.] As possible explanations for this pattern, both
 structural reasons (women tend to have lower incomes than men and to
 rely more on welfare state support) and cultural or psychological ones
 (women are more likely than men to adopt social values of equality and
@@ -578,7 +587,17 @@ variable also has several levels, as in the following example:
 
 Information on the behaviour and expectations of individual investors
 was collected by sending a questionnaire to a sample of customers of a
-U.S. brokerage house.[^4] One of the questions asked the respondents to
+U.S. brokerage house.^[Lewellen, W. G., Lease, R. G., and Schlarbaum, G. G. (1977).
+    “Patterns of investment strategy and behavior among individual
+    investors”. *The Journal of Business*, **50**, 296–333. The
+    published article gave only the total sample size, the marginal
+    distributions of sex and age group, and conditional proportions for
+    the short-term gains variable given sex and age group. These were
+    used to create tables of frequencies separately for men and women
+    (assuming further that the age distribution was the same for both),
+    and Table \@ref(tab:t-investors) was obtained by combining these. The
+    resulting table is consistent with information in the article, apart
+    from rounding error.] One of the questions asked the respondents to
 state how much importance they placed on quick profits (short-term
 gains) as an objective when they invested money. The responses were
 recorded in four categories as “Irrelevant”, “Slightly important”,
@@ -1366,7 +1385,9 @@ in the following example:
 Suppose that an M.Sc. student, preparing her dissertation on elements of
 social capital in Canada, is examining various measures of community
 activities in a sample of fourty municipalities in the province of
-Manitoba[^5]. As part of an initial description of these communities,
+Manitoba.^[This is a random sample of municipalities, obtained for this
+    illustration from the 2001 census data provided by Statistics Canada
+    at <http://www.statcan.gc.ca>.] As part of an initial description of these communities,
 she wants to summarize their populations, which are
 
 5, 79, 143, 226, 303, 317, 384, 417, 448, 505, 524, 525, 538, 619, 621,
@@ -1485,7 +1506,9 @@ Class 1: IQR $= 6-6 =0$\
 Class 2: IQR $= 7-5 =2$\
 Class 3: IQR $= 9.25-2.75 =6.5$
 
-These are again in the expected order.[^6] For the country data, the
+These are again in the expected order.^[There is no need to worry about how the quartile values 9.25 and
+    2.75 for class 3 were calculated. Different software packages may in
+    fact do that slightly differently; these values are from SPSS.] For the country data, the
 first and third quartiles for GDP are 1.7 and 11.4 respectively, and
 IQR=11.4-1.7=9.7. For the democracy score the quartiles are 1 and 9, and
 IQR=8.
@@ -1550,7 +1573,8 @@ perfectly sensible measure of variation, but it is not very commonly
 used. This is largely because absolute values are mathematically rather
 difficult to work with, and this would make MAD very inconvenient for
 more sophisticated analyses, where measures of variation will also be
-needed.[^7] Instead, we eliminate the signs of the deviations by using
+needed.^[In mathematical terms, the difficulty is that the absolute value
+    function has no derivative at zero.] Instead, we eliminate the signs of the deviations by using
 their squares $(Y_{i}-\bar{Y})^{2}$, i.e. by multiplying each deviation
 by itself (c.f. the third column of Table \@ref(tab:t-sdex) for an
 illustration). These are used to calculate the **variance**, denoted
@@ -1800,7 +1824,7 @@ In addition to such modest but sensible and useful basic graphs, you may
 sometimes encounter inspired examples of special graphs which manage to
 describe particular data sets in exceptionally vivid and informative
 ways. Some such examples are shown at
-<www.datavis.ca/gallery/index.php>, on the web page maintained by
+<http://www.datavis.ca/gallery/index.php>, on the web page maintained by
 Michael Friendly at York University in Canada (unfortunately, however,
 the electronic images do not always do justice to the originals; crisper
 versions can be found in the books mentioned above). For example, the
@@ -1826,7 +1850,10 @@ Table \@ref(tab:t-countrydata). The variables are defined as follows:
     (see <unstats.un.org/unsd/methods/m49/m49.htm>).
 
 -   **democracy** is a measure of institutionalised democracy by the
-    Polity IV project[^8]. The values refer to each country’s
+    Polity IV project.^[Monty G. Marshall and Keith Jaggers (2002). *Polity IV Dataset*.
+        \[Computer file; version p4v2002\] College Park, MD: Center for
+        International Development and Conflict Management, University of
+        Maryland.] The values refer to each country’s
     classification in 2002. The variable has an 11-point scale from 0
     (lowest level of democracy) to 10 (highest). Countries coded as
     being in the state of “interruption” or “interregnum” have
@@ -1897,46 +1924,3 @@ of the three variables were available at the time the example created.
   Brazil          4    8    7.6 Guinea            1    1   2.1
 
   : (\#tab:t-countrydata)
-
-[^1]: ESS Round 5: European Social Survey Round 5 Data (2010). Data file
-    edition 2.0. Norwegian Social Science Data Services, Norway - Data
-    Archive and distributor of ESS data.
-
-[^2]: For recent findings, see for example Svallfors, S. (ed.) (2012),
-    *Contested Welfare States: Welfare Attitudes in Europe and Beyond*.
-    Stanford University Press.
-
-[^3]: See, for example, Svallfors (1997), Words of welfare and attitudes
-    to redistribution: A comparison of eight western nations, *European
-    Sociological Review*, 13, 283-304; and Blekesaune and Quadagno
-    (2003), Public attitudes towards welfare state policies: A
-    comparative analysis of 24 nations, *European Sociological Review*,
-    19, 415-427.
-
-[^4]: Lewellen, W. G., Lease, R. G., and Schlarbaum, G. G. (1977).
-    “Patterns of investment strategy and behavior among individual
-    investors”. *The Journal of Business*, **50**, 296–333. The
-    published article gave only the total sample size, the marginal
-    distributions of sex and age group, and conditional proportions for
-    the short-term gains variable given sex and age group. These were
-    used to create tables of frequencies separately for men and women
-    (assuming further that the age distribution was the same for both),
-    and Table \@ref(tab:t-investors) was obtained by combining these. The
-    resulting table is consistent with information in the article, apart
-    from rounding error.
-
-[^5]: This is a random sample of municipalities, obtained for this
-    illustration from the 2001 census data provided by Statistics Canada
-    at <www.statcan.gc.ca>.
-
-[^6]: There is no need to worry about how the quartile values 9.25 and
-    2.75 for class 3 were calculated. Different software packages may in
-    fact do that slightly differently; these values are from SPSS.
-
-[^7]: In mathematical terms, the difficulty is that the absolute value
-    function has no derivative at zero.
-
-[^8]: Monty G. Marshall and Keith Jaggers (2002). *Polity IV Dataset*.
-    \[Computer file; version p4v2002\] College Park, MD: Center for
-    International Development and Conflict Management, University of
-    Maryland.

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  13 SEP 2016 18:17
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  13 SEP 2016 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -967,12 +967,6 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [6
 
 ]
-Overfull \hbox (1.26003pt too wide) in paragraph at lines 15--15
- [][] [][] \EU1/lmr/m/n/10.95 Summary statistics for the three variables in the
- country data. IQR=interquartile 
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [7]
@@ -982,21 +976,32 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \tf@lot=\write6
 \openout6 = `Coursepack-MY451.lot'.
 
-[9] [10
+[9] (./Coursepack-MY451.lof
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+[10
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[11])
+\tf@lof=\write7
+\openout7 = `Coursepack-MY451.lof'.
+
+[12]
 File: dept_of_methodology.pdf Graphic file (type QTm)
 <use  "dept_of_methodology.pdf" >
 File: lse.pdf Graphic file (type QTm)
 <use  "lse.pdf" >
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 163
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 164
 .
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
 
+
 ] [2] [3] [4]
-Underfull \vbox (badness 10000) detected at line 489
+Underfull \vbox (badness 10000) detected at line 490
  []
 
 [5] [6] [7] [8]
@@ -1005,7 +1010,7 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-Underfull \vbox (badness 10000) detected at line 1459
+Underfull \vbox (badness 10000) detected at line 1460
  []
 
 [6] [7] [8] [9] [10] [11] [12] [13] [14]
@@ -1014,9 +1019,9 @@ Chapter 2.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 2122.
+(Font)              <9> on input line 2123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 2122.
+(Font)              <5> on input line 2123.
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [16]
 Overfull \vbox (5.01547pt too high) has occurred while \output is active []
@@ -1030,37 +1035,37 @@ File: bar_attitude.pdf Graphic file (type QTm)
 <use  "bar_attitude.pdf" > [18] [19] [20] [21] [22] [23] [24]
 Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 
-Overfull \hbox (7.33789pt too wide) in paragraph at lines 2946--2948
+Overfull \hbox (7.33789pt too wide) in paragraph at lines 2947--2949
  \EU1/lmr/m/n/10.95 important|
  []
 
 
-Overfull \hbox (8.24675pt too wide) in paragraph at lines 2948--2950
+Overfull \hbox (8.24675pt too wide) in paragraph at lines 2949--2951
  []|\EU1/lmr/m/n/10.95 Important|
  []
 
 
-Overfull \hbox (7.33789pt too wide) in paragraph at lines 2950--2952
+Overfull \hbox (7.33789pt too wide) in paragraph at lines 2951--2953
  \EU1/lmr/m/n/10.95 important|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 2978--2980
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 2979--2981
  []|\EU1/lmr/m/n/10.95 (1.00)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 3004--3006
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3005--3007
  []|\EU1/lmr/m/n/10.95 (1.00)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 3030--3032
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3031--3033
  []|\EU1/lmr/m/n/10.95 (1.00)|
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 3056--3058
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 3057--3059
  []|\EU1/lmr/m/n/10.95 (1.00)|
  []
 
@@ -1072,32 +1077,32 @@ File: box_gdp.pdf Graphic file (type QTm)
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
 [35] [36] [37]
-Overfull \hbox (2.1257pt too wide) in paragraph at lines 3897--3899
+Overfull \hbox (2.1257pt too wide) in paragraph at lines 3898--3900
  []|\EU1/lmr/m/n/10.95 tendency| 
  []
 
 
-Overfull \hbox (3.48349pt too wide) in paragraph at lines 3899--3901
+Overfull \hbox (3.48349pt too wide) in paragraph at lines 3900--3902
  []|\EU1/lmr/m/n/10.95 Measures| 
  []
 
 
-Overfull \hbox (1.5563pt too wide) in paragraph at lines 3903--3905
+Overfull \hbox (1.5563pt too wide) in paragraph at lines 3904--3906
  []|\EU1/lmr/m/n/10.95 variation| 
  []
 
 
-Overfull \hbox (2.1257pt too wide) in paragraph at lines 3915--3917
+Overfull \hbox (2.1257pt too wide) in paragraph at lines 3916--3918
  []|\EU1/lmr/m/n/10.95 tendency| 
  []
 
 
-Overfull \hbox (3.48349pt too wide) in paragraph at lines 3917--3919
+Overfull \hbox (3.48349pt too wide) in paragraph at lines 3918--3920
  []|\EU1/lmr/m/n/10.95 Measures| 
  []
 
 
-Overfull \hbox (1.5563pt too wide) in paragraph at lines 3921--3923
+Overfull \hbox (1.5563pt too wide) in paragraph at lines 3922--3924
  []|\EU1/lmr/m/n/10.95 variation| 
  []
 
@@ -1115,34 +1120,34 @@ File: threeD.pdf Graphic file (type QTm)
 <use  "threeD.pdf" > [46]
 File: houseprices.pdf Graphic file (type QTm)
 <use  "houseprices.pdf" > [47]
-Underfull \hbox (badness 7981) in paragraph at lines 4548--4553
+Underfull \hbox (badness 7981) in paragraph at lines 4549--4554
 \EU1/lmr/m/it/10.95 book 2004 \EU1/lmr/m/n/10.95 ([]$[][][][][] [] [] [] [][][]
  [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][
 ][][][][] [] [][][][][][][][][][][][][][][][][][][][][]$[]).
  []
 
 
-Overfull \hbox (2.10103pt too wide) in alignment at lines 4558--4564
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4559--4565
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.10103pt too wide) in alignment at lines 4564--4569
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4565--4570
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.10103pt too wide) in alignment at lines 4569--4610
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4570--4611
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (2.10103pt too wide) in alignment at lines 4610--4650
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4611--4651
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
 [48]
-Overfull \hbox (2.10103pt too wide) in alignment at lines 4650--4673
+Overfull \hbox (2.10103pt too wide) in alignment at lines 4651--4674
  [] [] [] [] [] [] [] [] [] [] [] [] 
  []
 
@@ -1157,209 +1162,209 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [54]
-Overfull \hbox (13.51323pt too wide) in paragraph at lines 5059--5061
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 5060--5062
  []|\EU1/lmr/m/n/10.95 Disagree| 
  []
 
 
-Overfull \hbox (13.51323pt too wide) in paragraph at lines 5061--5063
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 5062--5064
  []|\EU1/lmr/m/n/10.95 Disagree 
  []
 
 
-Overfull \hbox (11.55319pt too wide) in paragraph at lines 5061--5063
+Overfull \hbox (11.55319pt too wide) in paragraph at lines 5062--5064
  \EU1/lmr/m/n/10.95 strongly| 
  []
 
 
-Overfull \hbox (0.77228pt too wide) in paragraph at lines 5066--5068
+Overfull \hbox (0.77228pt too wide) in paragraph at lines 5067--5069
 []|\EU1/lmr/m/n/10.95 Male|  
  []
 
 
-Overfull \hbox (1.75214pt too wide) in paragraph at lines 5085--5087
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5086--5088
  []|\EU1/lmr/m/n/10.95 (42.00)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5089--5091
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5090--5092
  []|\EU1/lmr/m/n/10.95 (18.00)| 
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 5091--5093
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5092--5094
  []|\EU1/lmr/m/n/10.95 (5.00)| 
  []
 
 
-Overfull \hbox (10.95578pt too wide) in paragraph at lines 5111--5113
+Overfull \hbox (10.95578pt too wide) in paragraph at lines 5112--5114
 []|\EU1/lmr/m/n/10.95 Female|  
  []
 
 
-Overfull \hbox (1.75214pt too wide) in paragraph at lines 5130--5132
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5131--5133
  []|\EU1/lmr/m/n/10.95 (50.00)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5134--5136
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5135--5137
  []|\EU1/lmr/m/n/10.95 (13.00)| 
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 5136--5138
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5137--5139
  []|\EU1/lmr/m/n/10.95 (3.00)| 
  []
 
 
-Overfull \hbox (2.60094pt too wide) in paragraph at lines 5156--5158
+Overfull \hbox (2.60094pt too wide) in paragraph at lines 5157--5159
 []|\EU1/lmr/m/n/10.95 Total|  
  []
 
 
-Overfull \hbox (1.75214pt too wide) in paragraph at lines 5175--5177
+Overfull \hbox (1.75214pt too wide) in paragraph at lines 5176--5178
  []|\EU1/lmr/m/n/10.95 (46.16)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5179--5181
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5180--5182
  []|\EU1/lmr/m/n/10.95 (15.40)| 
  []
 
 
-Overfull \hbox (0.81123pt too wide) in paragraph at lines 5181--5183
+Overfull \hbox (0.81123pt too wide) in paragraph at lines 5182--5184
  []|\EU1/lmr/m/n/10.95 (3.96)| 
  []
 
 [55] [56] [57]
 Chapter 4.
 
-Overfull \hbox (9.58783pt too wide) in paragraph at lines 5321--5323
+Overfull \hbox (9.58783pt too wide) in paragraph at lines 5322--5324
 []|\EU1/lmr/m/n/10.95 Agree|  
  []
 
 
-Overfull \hbox (8.2244pt too wide) in paragraph at lines 5323--5325
+Overfull \hbox (8.2244pt too wide) in paragraph at lines 5324--5326
  []|\EU1/lmr/m/n/10.95 Neither 
  []
 
 
-Overfull \hbox (11.23564pt too wide) in paragraph at lines 5323--5325
+Overfull \hbox (11.23564pt too wide) in paragraph at lines 5324--5326
  \EU1/lmr/m/n/10.95 disagree| 
  []
 
 
-Overfull \hbox (22.57452pt too wide) in paragraph at lines 5325--5327
+Overfull \hbox (22.57452pt too wide) in paragraph at lines 5326--5328
 []|\EU1/lmr/m/n/10.95 Disagree|  
  []
 
 
-Overfull \hbox (22.57452pt too wide) in paragraph at lines 5327--5329
+Overfull \hbox (22.57452pt too wide) in paragraph at lines 5328--5330
  []|\EU1/lmr/m/n/10.95 Disagree 
  []
 
 
-Overfull \hbox (20.61449pt too wide) in paragraph at lines 5327--5329
+Overfull \hbox (20.61449pt too wide) in paragraph at lines 5328--5330
  \EU1/lmr/m/n/10.95 strongly| 
  []
 
 
-Overfull \hbox (11.66223pt too wide) in paragraph at lines 5329--5331
+Overfull \hbox (11.66223pt too wide) in paragraph at lines 5330--5332
 []|\EU1/lmr/m/n/10.95 Total|  
  []
 
 
-Overfull \hbox (8.31152pt too wide) in paragraph at lines 5344--5346
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5345--5347
 []|\EU1/lmr/m/n/10.95 1027|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5351--5353
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5352--5354
 []|\EU1/lmr/m/n/10.95 (0.428)|  
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5353--5355
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5354--5356
  []|\EU1/lmr/m/n/10.95 (0.182)| 
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5355--5357
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5356--5358
 []|\EU1/lmr/m/n/10.95 (0.195)|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5357--5359
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5358--5360
  []|\EU1/lmr/m/n/10.95 (0.040)| 
  []
 
 
-Overfull \hbox (8.92473pt too wide) in paragraph at lines 5359--5361
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5360--5362
 []|\EU1/lmr/m/n/10.95 (1.0)|  
  []
 
 
-Overfull \hbox (8.31152pt too wide) in paragraph at lines 5374--5376
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5375--5377
 []|\EU1/lmr/m/n/10.95 1317|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5381--5383
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5382--5384
 []|\EU1/lmr/m/n/10.95 (0.494)|  
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5383--5385
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5384--5386
  []|\EU1/lmr/m/n/10.95 (0.182)| 
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5385--5387
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5386--5388
 []|\EU1/lmr/m/n/10.95 (0.142)|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5387--5389
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5388--5390
  []|\EU1/lmr/m/n/10.95 (0.026)| 
  []
 
 
-Overfull \hbox (8.92473pt too wide) in paragraph at lines 5389--5391
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5390--5392
 []|\EU1/lmr/m/n/10.95 (1.0)|  
  []
 
 
-Overfull \hbox (3.78433pt too wide) in paragraph at lines 5396--5398
+Overfull \hbox (3.78433pt too wide) in paragraph at lines 5397--5399
 []|\EU1/lmr/m/n/10.95 1090|  
  []
 
 
-Overfull \hbox (8.31152pt too wide) in paragraph at lines 5404--5406
+Overfull \hbox (8.31152pt too wide) in paragraph at lines 5405--5407
 []|\EU1/lmr/m/n/10.95 2344|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5411--5413
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5412--5414
 []|\EU1/lmr/m/n/10.95 (0.465)|  
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 5413--5415
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 5414--5416
  []|\EU1/lmr/m/n/10.95 (0.182)| 
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5415--5417
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5416--5418
 []|\EU1/lmr/m/n/10.95 (0.165)|  
  []
 
 
-Overfull \hbox (15.34753pt too wide) in paragraph at lines 5417--5419
+Overfull \hbox (15.34753pt too wide) in paragraph at lines 5418--5420
  []|\EU1/lmr/m/n/10.95 (0.032)| 
  []
 
 
-Overfull \hbox (8.92473pt too wide) in paragraph at lines 5419--5421
+Overfull \hbox (8.92473pt too wide) in paragraph at lines 5420--5422
 []|\EU1/lmr/m/n/10.95 (1.0)|  
  []
 
@@ -1370,127 +1375,127 @@ Missing character: There is no � in font [lmroman9-regular]:mapping=tex-text!
 [60] [61]
 File: chi2test_ess.pdf Graphic file (type QTm)
 <use  "chi2test_ess.pdf" > [62] [63] [64] [65]
-Overfull \hbox (0.52654pt too wide) in paragraph at lines 6019--6021
+Overfull \hbox (0.52654pt too wide) in paragraph at lines 6020--6022
  []|\EU1/lmr/m/n/10.95 Agree| 
  []
 
 
-Overfull \hbox (13.51323pt too wide) in paragraph at lines 6023--6025
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 6024--6026
  []|\EU1/lmr/m/n/10.95 Disagree| 
  []
 
 
-Overfull \hbox (13.51323pt too wide) in paragraph at lines 6025--6027
+Overfull \hbox (13.51323pt too wide) in paragraph at lines 6026--6028
  []|\EU1/lmr/m/n/10.95 Disagree 
  []
 
 
-Overfull \hbox (11.55319pt too wide) in paragraph at lines 6025--6027
+Overfull \hbox (11.55319pt too wide) in paragraph at lines 6026--6028
  \EU1/lmr/m/n/10.95 strongly| 
  []
 
 
-Overfull \hbox (7.13504pt too wide) in paragraph at lines 6027--6029
+Overfull \hbox (7.13504pt too wide) in paragraph at lines 6028--6030
  []|\EU1/lmr/m/n/10.95 Total|
  []
 
 
-Overfull \hbox (0.77228pt too wide) in paragraph at lines 6030--6032
+Overfull \hbox (0.77228pt too wide) in paragraph at lines 6031--6033
 []|\EU1/lmr/m/n/10.95 Male|  
  []
 
 
-Overfull \hbox (3.24214pt too wide) in paragraph at lines 6034--6036
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6035--6037
  []|\EU1/lmr/m/n/10.95 11.160| 
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 6042--6044
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 6043--6045
  []|\EU1/lmr/m/n/10.95 24.00|
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6049--6051
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6050--6052
  []|\EU1/lmr/m/n/10.95 (0.465)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6053--6055
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6054--6056
  []|\EU1/lmr/m/n/10.95 (0.165)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6055--6057
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6056--6058
  []|\EU1/lmr/m/n/10.95 (0.032)| 
  []
 
 
-Overfull \hbox (4.39754pt too wide) in paragraph at lines 6057--6059
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6058--6060
  []|\EU1/lmr/m/n/10.95 (1.0)|
  []
 
 
-Overfull \hbox (10.95578pt too wide) in paragraph at lines 6060--6062
+Overfull \hbox (10.95578pt too wide) in paragraph at lines 6061--6063
 []|\EU1/lmr/m/n/10.95 Female|  
  []
 
 
-Overfull \hbox (3.24214pt too wide) in paragraph at lines 6064--6066
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6065--6067
  []|\EU1/lmr/m/n/10.95 12.090| 
  []
 
 
-Overfull \hbox (6.82843pt too wide) in paragraph at lines 6072--6074
+Overfull \hbox (6.82843pt too wide) in paragraph at lines 6073--6075
  []|\EU1/lmr/m/n/10.95 26.00|
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6079--6081
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6080--6082
  []|\EU1/lmr/m/n/10.95 (0.465)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6083--6085
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6084--6086
  []|\EU1/lmr/m/n/10.95 (0.165)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6085--6087
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6086--6088
  []|\EU1/lmr/m/n/10.95 (0.032)| 
  []
 
 
-Overfull \hbox (4.39754pt too wide) in paragraph at lines 6087--6089
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6088--6090
  []|\EU1/lmr/m/n/10.95 (1.0)|
  []
 
 
-Overfull \hbox (2.60094pt too wide) in paragraph at lines 6090--6092
+Overfull \hbox (2.60094pt too wide) in paragraph at lines 6091--6093
 []|\EU1/lmr/m/n/10.95 Total|  
  []
 
 
-Overfull \hbox (3.24214pt too wide) in paragraph at lines 6094--6096
+Overfull \hbox (3.24214pt too wide) in paragraph at lines 6095--6097
  []|\EU1/lmr/m/n/10.95 23.250| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6109--6111
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6110--6112
  []|\EU1/lmr/m/n/10.95 (0.465)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6113--6115
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6114--6116
  []|\EU1/lmr/m/n/10.95 (0.165)| 
  []
 
 
-Overfull \hbox (6.28624pt too wide) in paragraph at lines 6115--6117
+Overfull \hbox (6.28624pt too wide) in paragraph at lines 6116--6118
  []|\EU1/lmr/m/n/10.95 (0.032)| 
  []
 
 
-Overfull \hbox (4.39754pt too wide) in paragraph at lines 6117--6119
+Overfull \hbox (4.39754pt too wide) in paragraph at lines 6118--6120
  []|\EU1/lmr/m/n/10.95 (1.0)|
  []
 
@@ -2358,12 +2363,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18398.
  ) 
 Here is how much of TeX's memory you used:
- 26156 strings out of 495086
- 462063 string characters out of 6174758
- 583698 words of memory out of 5000000
+ 26159 strings out of 495086
+ 462109 string characters out of 6174758
+ 583701 words of memory out of 5000000
  29131 multiletter control sequences out of 15000+600000
  63627 words of font info for 98 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  42i,10n,68p,10414b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Coursepack-MY451.pdf (249 pages).
+Output written on Coursepack-MY451.pdf (251 pages).
