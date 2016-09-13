@@ -222,7 +222,7 @@ computer classes you will see data in this form in SPSS.
     20      30       2       14           1        2           2          1
 ---------------------------------------------------------------------------
 
-:(\#tab:t-datamatrix) An example of a small data matrix based on data from the U.S. General Social Survey (GSS), showing measurements of seven
+:(\#tab:t-datamatrix)An example of a small data matrix based on data from the U.S. General Social Survey (GSS), showing measurements of seven
 variables for 20 respondents in a social survey. The variables are
 defined as *age*: age in years; *sex*: sex (1=male; 2=female); *educ*:
 highest year of school completed; *wrkstat*: labour force status
@@ -598,7 +598,7 @@ country. These connections are summarized in Table \@ref(tab:t-vartypes).
   **Continuous**                       None                                                                Many
   ------------------------------------ ------------------------------------------------------------------- ---------------------------------------------
 
-  :(\#tab:t-vartypes) Relationships between the types of variables discussed in Section
+  :(\#tab:t-vartypes)Relationships between the types of variables discussed in Section
   \@ref(ss-intro-def-vartypes.
 
 In practice the situation may be even simpler than this, in that the
@@ -609,7 +609,12 @@ cases:
     includes both categorical variables, for which all possible values
     are known in advance, and variables for which only a small number of
     values were actually observed even if others might have been
-    possible[^1]. Such variables can be conveniently summarized in the
+    possible [For example, suppose we collected data on the number of traffic
+        accidents on each of a sample of streets in a week, and suppose that
+        the only numbers observed were 0, 1, 2, and 3. Other, even much
+        larger values were clearly at least logically possible, but they
+        just did not occur. Of course, redefining the largest value as “3 or
+        more” would turn the variable into an unambiguously categorical one.]. Such variables can be conveniently summarized in the
     form of tables and handled by methods appropriate for such tables,
     as described later in this coursepack. This group also includes all
     nominal variables, even ones with a relatively large number of
@@ -896,10 +901,3 @@ instructions on how to do such things are given in the first computer
 class. The introduction to the computer classes also includes details of some SPSS guidebooks and
 other sources of information which you may find useful if you want to
 know more about the program.
-
-[^1]: For example, suppose we collected data on the number of traffic
-    accidents on each of a sample of streets in a week, and suppose that
-    the only numbers observed were 0, 1, 2, and 3. Other, even much
-    larger values were clearly at least logically possible, but they
-    just did not occur. Of course, redefining the largest value as “3 or
-    more” would turn the variable into an unambiguously categorical one.

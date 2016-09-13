@@ -127,7 +127,7 @@ and attitude in the survey example, which are shown in Tables
   Oceania                      4        0.026     2.6
   Total                      155        1.000   100.0
 
-  : (\#tab:t-region) Frequency distribution of the region variable in the country data.
+  : (\#tab:t-region)Frequency distribution of the region variable in the country data.
 
   ----------- ----------- ------------ ------ ------------
   Democracy        \           \            \   Cumulative
@@ -146,7 +146,7 @@ and attitude in the survey example, which are shown in Tables
   Total           155        0.999       99.9
   ----------- ----------- ------------ ------ ------------
 
-  : (\#tab:t-democ) Frequency distribution of the democracy index in the country
+  : (\#tab:t-democ)Frequency distribution of the democracy index in the country
   data.
 
   -------------------------------- ----------- ------------ ------- --------------
@@ -159,7 +159,7 @@ and attitude in the survey example, which are shown in Tables
   Total                                   2344     1.00       100.0
   -------------------------------- ----------- ------------ ------- --------------
 
-  : (\#tab:t-attitude) Frequency distribution of responses to a question on attitude
+  : (\#tab:t-attitude)Frequency distribution of responses to a question on attitude
   towards income redistribution in the survey example.
 
 Each row of such a table corresponds to one possible value of a
@@ -288,7 +288,7 @@ contingency tables:
   Total                          366        1090         426          387         75        2344
   ------------------------ --------------- ------- --------------- ---------- ---------- -------
 
-  : (\#tab:t-sex-attitude) *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
+  : (\#tab:t-sex-attitude)*``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
 -   Because a table like \@ref(tab:t-sex-attitude) summarizes the values of
@@ -373,7 +373,7 @@ in the bottom right corner of the table.
   Total               0.156       0.465       0.182        0.165      0.032      1.000
   -------------- --------------- ------- --------------- ---------- ---------- -------
 
-  :(\#tab:t-sex-attitude-pr) *``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
+  :(\#tab:t-sex-attitude-pr)*``The government should take measures to reduce differences in income levels''*: Two-way table of joint proportions of respondents in the survey
   example, with each combination of sex and attitude towards income
   redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
@@ -426,7 +426,7 @@ as the proportions in the ‘Total’ row of Table \@ref(tab:t-sex-attitude-pr).
                     (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   ------------- --------------- --------- --------------- ---------- ---------- -------
 
-  : (\#tab:t-sex-attitude-row) *``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
+  : (\#tab:t-sex-attitude-row)*``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. The numbers in
   brackets are proportions within the rows, i.e. conditional proportions
   of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.
@@ -609,7 +609,7 @@ age groups.
   Total                                                            494         235         145          98      972
   ------------- ------------------------------------------------------ ----------- ----------- ----------- --------
 
-  : (\#tab:t-investors) Importance of short-term gains: Frequencies of respondents in the investment example, by age group
+  : (\#tab:t-investors)Importance of short-term gains: Frequencies of respondents in the investment example, by age group
   and attitude towards short-term gains as investment goal. Conditional
   proportions of attitude given age group are shown in brackets. The
   value of the $\gamma$ measure of association is $-0.377$.
@@ -887,7 +887,7 @@ values would be entirely unenlightening.
   Total               155       99.9
   --------------- ----------- ------
 
-  : (\#tab:t-gdp) Frequency distribution of GDP per capita in the country data.
+  : (\#tab:t-gdp)Frequency distribution of GDP per capita in the country data.
 
 Instead, we can count the frequencies for some *intervals* of values.
 Table \@ref(tab:t-gdp) shows an example of this for the GDP variable. The
@@ -1021,7 +1021,7 @@ define the *stem*.
   `37`   `88`
   ------ -----------------------------------
 
-  : (\#tab:t-stemgdp) Stem and leaf plot of GDP per capita in the country data (Stem=thousands of dollars, Leaf=hundreds of dollars).
+  : (\#tab:t-stemgdp)Stem and leaf plot of GDP per capita in the country data (Stem=thousands of dollars, Leaf=hundreds of dollars).
 
 The left-hand column in \@ref(tab:t-stemgdp) lists the stem values in the
 data, from smallest (0) to the largest (37). Each data value with the
@@ -1059,7 +1059,7 @@ as they may appear.
   `7`   `022`
   ----- -------------------------------------------
 
-  : (\#tab:t-stemhours) Stem and leaf plot of the reported hours worked last week by the spouses of respondents in a social survey (the data are a sample from data from the U.S. General Survey; observations with less than 12 reported hours have been excluded). The stems and leaves indicate tens of hours and single hours respectively.
+  : (\#tab:t-stemhours)Stem and leaf plot of the reported hours worked last week by the spouses of respondents in a social survey (the data are a sample from data from the U.S. General Survey; observations with less than 12 reported hours have been excluded). The stems and leaves indicate tens of hours and single hours respectively.
 The main disadvantage of a stem and leaf plot is that since every data
 value is shown separately, the plot can only be used when the sample
 size is relatively small. In such cases it is, however, a very useful
@@ -1337,7 +1337,7 @@ panel B of Figure \@ref(fig:f-skews) is (approximately) **symmetric**.
                                    and \$1900                    \$4700                          \$8600           \$37300          \$9700           \$9450
   --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  : (\#tab:t-countries-sums) Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.
+  : (\#tab:t-countries-sums)Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.
 
 ![(\#fig:f-skews) Examples of a negatively skewed and an approximately symmetric sample
 distribution. Panel A shows the distribution of examination marks for
@@ -1418,7 +1418,7 @@ can be used for such variables, but they are not described here.
   Class 3:   1 2 2 3 4 4 4 8 8 9 9 10 10 10
   ---------- --------------------------------
 
-  : (\#tab:t-classmarks) A hypothetical examples of test marks of students in three classes.
+  : (\#tab:t-classmarks)A hypothetical examples of test marks of students in three classes.
 
 #### Range {-}
 
@@ -1523,7 +1523,7 @@ that an observation is larger than the mean (e.g. $10-6=+4$).
                                                                             $s=\sqrt{11.69}=3.4$
   --------- ------------------------ --------------------------- -------------------------------
 
-  : (\#tab:t-sdex) Calculating the standard deviation of test marks for Class 3 in the
+  : (\#tab:t-sdex)Calculating the standard deviation of test marks for Class 3 in the
   class example at the beginning of Section \@ref(ss-descr1-nums-variation).
 
 The deviations are clearly related to variation, as a sample with little

@@ -29,7 +29,7 @@ conditional proportions for attitude given sex.
                                                                                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
-  : (\#tab:t-sex-attitude-ch4) *``The government should take measures to reduce differences in income levels''*: Frequencies of respondents in the survey example, by sex and
+  : (\#tab:t-sex-attitude-ch4)*``The government should take measures to reduce differences in income levels''*: Frequencies of respondents in the survey example, by sex and
   attitude towards income redistribution. The numbers in parentheses are
   conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.
 
@@ -404,7 +404,7 @@ test statistic for this example are shown in Table
                                   Sum          2344      2344               0                4960.1            $\chi^{2}=18.81$
   ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
 
-  : (\#tab:t-sex-attitude-chi2) Calculating the $\chi^{2}$ test statistic for Table
+  : (\#tab:t-sex-attitude-chi2)Calculating the $\chi^{2}$ test statistic for Table
   \@ref(tab:t-sex-attitude-ch4). In the second column, SA, A, 0, D, and SD
   are abbreviations for Strongly agree, Agree, Neither agree nor
   disagree, Disagree and Strongly disagree respectively.
@@ -578,7 +578,7 @@ the real sample that we have actually observed.
                                            (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
   -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
 
-  : (\#tab:t-sex-attitude-H0pop) *``The government should take measures to reduce differences in income levels''*: Attitude towards income redistribution by sex (with row proportions
+  : (\#tab:t-sex-attitude-H0pop)*``The government should take measures to reduce differences in income levels''*: Attitude towards income redistribution by sex (with row proportions
   in parentheses), in a hypothetical population of 50 million people
   where sex and attitude are independent, and in one random sample from
   this population.
@@ -602,7 +602,7 @@ the real sample that we have actually observed.
                                                   (0.155)    (0.458)      (0.179)      (0.173)    (0.035)     (1.0)
   ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
 
-  : (\#tab:t-sex-attitude-H0pop) $\chi^{2}=2.8445$
+  : (\#tab:t-sex-attitude-H0pop)$\chi^{2}=2.8445$
 
 In the example we have a sample of 2344 observations, so to match that
 we want to identify the sampling distribution of the $\chi^{2}$
@@ -815,7 +815,7 @@ statistic was 9.49, $P$ would be 0.050.
   $\vdots$                                              $\vdots$                   $\vdots$
   ---------- --------------------------------------------------- ------- ------- ----------
 
-  : (\#tab:t-chi2table) An extract from a table of critical values for $\chi^{2}$
+  : (\#tab:t-chi2table)An extract from a table of critical values for $\chi^{2}$
   distributions. Row 2-5 show the right-hand tail probability
 
 The values in the table also provide bounds for other values that are

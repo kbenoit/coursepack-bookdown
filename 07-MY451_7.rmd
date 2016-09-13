@@ -78,7 +78,7 @@ acids ($n=1724$, $\bar{Y}=35.3$, and $s=6.11$).
 &nbsp;&nbsp;Friday the 13th                                                           10        126,550      1176       -1835
 -----------------------------------------------------------------------------------------------------------------------------
 
-:(\#tab:t-groupex) Examples of analyses of population means used in Chapter \@ref(c-means). Here $n$ and $\bar{Y}$ denote the sample size and sample mean respectively, in the two-group examples 7.2–7.5 separately for the two groups. “Diff.” denotes the between-group difference of means, and $s$ is the sample standard deviation of the response variable $Y$ for the whole sample (Example 7.1), of the response variable within each group (Examples 7.2 and 7.3), or of the within-pair differences (Examples 7.4 and 7.5).
+:(\#tab:t-groupex)Examples of analyses of population means used in Chapter \@ref(c-means). Here $n$ and $\bar{Y}$ denote the sample size and sample mean respectively, in the two-group examples 7.2–7.5 separately for the two groups. “Diff.” denotes the between-group difference of means, and $s$ is the sample standard deviation of the response variable $Y$ for the whole sample (Example 7.1), of the response variable within each group (Examples 7.2 and 7.3), or of the within-pair differences (Examples 7.4 and 7.5).
 
 ##### Example 7.2: Housework by men and women {#p-ex72}
 
@@ -182,7 +182,7 @@ junctions.
   November 1992    7 to 8                124609            122770        -1839
   November 1992    9 to 10               117584            117263         -321
 
-  :(\#tab:t-F13) Data for Example 7.5: Traffic flows between junctions of the M25 on
+  :(\#tab:t-F13)Data for Example 7.5: Traffic flows between junctions of the M25 on
   each Friday the 6th and Friday the 13th in 1990-92.
 
 In each of these cases, we will regard the variable of interest $Y$ as a
@@ -552,7 +552,7 @@ shown in Table \@ref(tab:t-2testsY1).
                               $-1.74$                           0.383   $-4.55$    $<0.001$   $(-2.49; -0.99)$
   ------------------------------------------------------------------------------------------------------------
 
-  :(\#tab:t-2testsY1) Results of tests and confidence intervals for comparing means for
+  :(\#tab:t-2testsY1)Results of tests and confidence intervals for comparing means for
   two independent samples. For Example 7.2, the difference of means is
   between women and men, and for Example 7.3, it is between wearing and
   not wearing sunglasses. The test statistics and confidence intervals
@@ -1076,7 +1076,7 @@ the variables are shown in Table \@ref(tab:t-ttests1)
   from fat (%)                                                                                                                                                                      
   ----------------------------------------------------------------------------- --------- ----------- ------ ----------- -------- -------------------------------- ------------------- ----------------
 
-  :(\#tab:t-ttests1) Summary statistics, $t$-tests and confidence intervals for the mean
+  :(\#tab:t-ttests1)Summary statistics, $t$-tests and confidence intervals for the mean
   for the two variables in Example 7.1 (variables from the Diet and
   Nutrition Survey). $n=$sample size; $\bar{Y}=$sample mean; $s=$sample standard
   deviation; $\mu_{0}=$null hypothesis about the population mean; $t=t$-test
@@ -1470,7 +1470,7 @@ $D$ in place of the variable $Y$, and applying the formulas of Section
                                                                           -1835                                 372                                           -4.93                         0.001$^{*}$                    (-2676; -994)
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  :(\#tab:t-2tests-dep) Results of tests and confidence intervals for comparing means of two
+  :(\#tab:t-2tests-dep)Results of tests and confidence intervals for comparing means of two
   dependent samples. For Example 7.4, the difference is between after
   and before the birth of the child, and for Example 7.5 it is between
   Friday the 13th and the preceding Friday the 6th. See the text for the
@@ -1565,7 +1565,7 @@ even the “innocent until proven guilty” principle of jurisprudence.
                False   Type II error                      Correct decision
   ------------ ------- ---------------------------------- ------------------
 
-  :(\#tab:t-twoerrors) The four possible combinations of the truth of a null hypothesis
+  :(\#tab:t-twoerrors)The four possible combinations of the truth of a null hypothesis
   $H_{0}$ in a population and decision about it from a significance
   test.
 

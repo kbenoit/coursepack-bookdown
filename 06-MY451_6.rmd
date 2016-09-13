@@ -123,7 +123,7 @@ corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
   Sample           $n=50$   $\bar{Y}=72.6$        $s=12.7$        $s^{2}=161.19$
   ------------ ---------- ---------------- --------------- ---------------------
 
-  : (\#tab:t-bp-example) Summary statistics for diastolic blood pressure in the population
+  : (\#tab:t-bp-example)Summary statistics for diastolic blood pressure in the population
   and a sample from it in the example used for illustration in Sections
   \@ref(s-contd-popdistrs)–\@ref(s-contd-clt).
 
@@ -394,7 +394,7 @@ and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
         1.41        0.0793
     $\vdots$      $\vdots$
 
-  : (\#tab:t-normtab) Extract from the table of right-hand tail probabilities for normal
+  : (\#tab:t-normtab)Extract from the table of right-hand tail probabilities for normal
   $Z$ scores. Here “Tail Prob.” is the probability that a value from the
   standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown in the Appendix.

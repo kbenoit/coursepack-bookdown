@@ -528,7 +528,7 @@ definition and thus of no real interest.
               Infant mortality \[IMR ]                            -0.62    0.42   -0.44       -0.64    -0.73       1
   ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
 
-  : (\#tab:t-civilsoc-r) Correlation matrix of six continuous variables in the Global Civil
+  : (\#tab:t-civilsoc-r)Correlation matrix of six continuous variables in the Global Civil
   Society data set. See Example 8.1 for more information
   on the variables.
 
@@ -659,7 +659,7 @@ line for the points.](imr1){width="13.5cm"}
   High income ($n=22$)                                                                           0.5        98.4         90.7         32.0
   ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
 
-  : (\#tab:t-imrvars) Summary statistics for Infant Mortality Rate (IMR) and explanatory
+  : (\#tab:t-imrvars)Summary statistics for Infant Mortality Rate (IMR)and explanatory
   variables for it considered in the examples of Sections
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
   See Example 8.1 for further information on the
@@ -1532,7 +1532,7 @@ reports.
   Income inequality                                                                     0.055      0.022    2.50       0.014   (0.011; 0.098)
   ----------------------------------------------------------------------------- ------------- ---------- ------- ----------- -------------------
 
-  : (\#tab:t-imr-m2) Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
+  : (\#tab:t-imr-m2)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
   given three explanatory variables in the Global Civil Society
   data. $\hat{\sigma}=2.23$; $R^{2}=0.692$; $n=111$; $df=107$
 
@@ -1972,7 +1972,7 @@ coefficients of the dummy variables.
                                                                                                                         -1.235)$
   ----------------------------------------------------------------------------------------------------------------------------------
 
-  : (\#tab:t-imr-m3) Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
+  : (\#tab:t-imr-m3)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
   in Table \@ref(tab:t-imr-m2) and Income level in three groups. $\hat{\sigma}=2.01$; $R^{2}=0.753$; $n=111$; $df=105$.
 
@@ -2244,7 +2244,7 @@ Table \@ref(tab:t-fastfood-descr).
   KFC                                        21.2    (78)                                     79.5 (62)     0.117        $+0.94$
   ---------------------------------------- ------ ------- --------------------------------------------- -------------- ------------
 
-  :(\#tab:t-fastfood-descr) Summary statistics for the variables considered in the minimum wage
+  :(\#tab:t-fastfood-descr)Summary statistics for the variables considered in the minimum wage
   example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.
 
   ------------------------------------------------------ --------------------------------- --------------------------------- ------------- -----------
@@ -2289,7 +2289,7 @@ Table \@ref(tab:t-fastfood-descr).
   $R^{2}$                                                                            0.046                                           0.032
   ----------------------------------------------------------------------------------------------------------------------------------------------------
 
-  : (\#tab:t-fastfood-models) Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
+  : (\#tab:t-fastfood-models)Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
   wage increase and control variables. See the text for further
   details.
 
