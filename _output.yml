@@ -18,7 +18,7 @@ bookdown::pdf_book:
   latex_engine: xelatex
   citation_package: natbib
   pandoc_args:
-    - "--default-image-extension=pdf"
+    - "--default-image-extension=png"
     - "--template"
     - "template.latex"
 bookdown::epub_book: #default
