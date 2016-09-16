@@ -11,7 +11,7 @@ Specifically, the new process should
 
 # How To
 
-The prototype of this in-house authoring and publishing process before you implements the course pack for the Department of Methodology's MY451 course "Introduction to Quantitative Analysis".
+The prototype of this in-house authoring and publishing process that is before you implements the course pack for the Department of Methodology's MY451 course "Introduction to Quantitative Analysis". The published course pack can be seen on <https://kbenoit.github.io/coursepack-bookdown/>.
 
 The manuscript for that course pack is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To make changes to that manuscript you need Git installed on your computer. One way to do that is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
 
@@ -206,19 +206,37 @@ To give a unique identifier to a table include it at the very beginning of a tab
 
 Labelling a figure:
 
+To give a unique identifier to a figure include it at the very beginning of a figure's caption in this format:
+
 ```markdown
 ![(\#fig:f-unique-identifier)Caption text.](filename)
 ```
 
+Labelling an equation:
+
+Labelling an equation can be done by including `\label{eq:unique-identifier}` in the Latex code of the equation. Remember that labelled equations will display in a separate line and automatically numbered and need to be bracketed in `\begin{equation}` and `\end{equation}`.
+
+```latex
+\begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n} \label{eq:example-equation}\end{equation}
+```
 
 #### Footnotes
 
+Footnotes can be added in-line and will be typeset automatically at the bottom of the page. Follow the following format:
+
+```markdown
+Honeymoon salad is made from lettuce alone and no dressing.^[The Late Show with Stephen Colbert, CBS, September 16, 2016.]
+```
+
 ## Upload changed manuscript files to online repository
 
+Once you have made and saved changes to any file in the project folder, they will show up in the repository in your GitHub Desktop app.
+
+To upload the changed files, which is also called "pushing" changes, go to your GitHub Desktop app. Select the project repository on the left-hand side where your repositories are listed. Enter a brief description of the changes you made. Click the "Commit" button at the bottom. Depending on your settings GitHub Desktop may upload your changes automatically after clicking "Commit" or you may need to press the "Sync" button at the top right of the app manually.
+
+![](./images/commit-demo.png)
+
+Your changes will be in effect after a few minutes. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook too view them.
 
 
-
-You'll see the changes in effect after a few minutes.
-
-
-- Tobias Pester, September 2016
+<right>- Tobias Pester, September 2016</right>
