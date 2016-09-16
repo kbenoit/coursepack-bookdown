@@ -232,6 +232,8 @@ Honeymoon salad is made from lettuce alone and no dressing.^[The Late Show with 
 
 Once you have made and saved changes to any file in the project folder, they will show up in the repository in your GitHub Desktop app.
 
+In order for you to be able to upload your changes your GitHub account needs to be registered as a contributor to the project's repository. Ask the project repository's owner for that privilege.
+
 To upload the changed files, which is also called "pushing" changes, go to your GitHub Desktop app. Select the project repository on the left-hand side where your repositories are listed. Enter a brief description of the changes you made. Click the "Commit" button at the bottom. Depending on your settings GitHub Desktop may upload your changes automatically after clicking "Commit" or you may need to press the "Sync" button at the top right of the app manually.
 
 ![](./images/commit-demo.png)
@@ -239,4 +241,4 @@ To upload the changed files, which is also called "pushing" changes, go to your 
 Your changes will be in effect after a few minutes. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook too view them.
 
 
-<right>- Tobias Pester, September 2016</right>
+- Tobias Pester, September 2016</right>
