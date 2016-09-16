@@ -132,7 +132,7 @@ A **multiline table** with cells that take up more than one line can look like t
   : Example of a multiline table.
 ```
 
-Captions can be added to tables following the example above. For how to add identifiers to tables see ["Anchors, Labels, Identifiers and referencing them"](#anchors-labels-identifiers-and-referencing-them) below.
+Captions can be added to tables following the example above. For how to add unique identifiers to tables see ["Anchors, Labels, Identifiers and referencing them"](#anchors-labels-identifiers-and-referencing-them) below.
 
 #### Figures
 
@@ -140,7 +140,7 @@ The format for inserting a figure -- in other words an image -- is:
 
 ```markdown
 
-![(\#fig:f-name-of-unique-identifier) Caption text.](file-name-without-file-extension)
+![(\#fig:f-unique-identifier) Caption text.](file-name-without-file-extension)
 
 ```
 
@@ -150,7 +150,7 @@ So in order to insert into the manuscript a figure we call "bar_attitude" it nee
 
 ```markdown
 
-![(\#fig:f-name-of-unique-identifier) Caption text.](bar_attitude)
+![(\#fig:f-unique-identifier) Caption text.](bar_attitude)
 
 ```
 
@@ -182,9 +182,34 @@ And here is a sentence containing a reference to the equation above. See equatio
 
 In the output it will look like this:
 
-
+![](equation-demo.png)
 
 #### Anchors, Labels, Identifiers and referencing them
+
+Headers, Tables, Figures, and Equations can be given unique identifiers, also called anchors or labels, that allows you to reference them elsewhere in the manuscript. A unique identifier numbers an item automatically. When you reference that unique identifier elsewhere in the manuscript the dynamically associated number will be shown in the output. At the moment, equations can only be referenced dynamically inside the same manuscript file, in other words, inside the same chapter.
+
+Labelling a header:
+
+```markdown
+# Introduction {unique-identifier}
+```
+
+A header can only *either* be given a unique identifier *or* be made unnumbered (`{-}`).
+
+Labelling a table:
+
+To give a unique identifier to a table include it at the very beginning of a table's caption in this format:
+
+```markdown
+  : (\#tab:t-unique-identifier)Caption text with no space between unique identifier and caption text.
+```
+
+Labelling a figure:
+
+```markdown
+![(\#fig:f-unique-identifier) Caption text.](filename)
+```
+
 
 #### Footnotes
 
