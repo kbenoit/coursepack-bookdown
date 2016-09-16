@@ -499,7 +499,7 @@ Figure \@ref(fig:f-pval-prob). For now we just take it as given, and postpone
 a general discussion of the normal distribution until Chapter
 \@ref(c-means).
 
-![(\#fig:f-pval-prob) Illustration of the calculation of $P$-values from the standard normal distribution. Here the value of the $z$-test statistic is $z=-1.59$ (as in the referendum example 5.1). The areas in grey indicate the two-sided $P$-values, i.e. the probabilities of values at least as far from 0 as the observed value of $z$.](pval_zp){width="10cm"}
+![(\#fig:f-pval-prob)Illustration of the calculation of $P$-values from the standard normal distribution. Here the value of the $z$-test statistic is $z=-1.59$ (as in the referendum example 5.1). The areas in grey indicate the two-sided $P$-values, i.e. the probabilities of values at least as far from 0 as the observed value of $z$.](pval_zp){width="10cm"}
 
 The $P$-value of the test is calculated from this distribution using the
 general principles introduced in Section \@ref(ss-tables-chi2test-Pval).
@@ -1256,4 +1256,4 @@ the whole world (see
 is hope that that number will reach 0 in a not-too-distant future, so
 that the once devastating disease will one day be entirely eradicated.
 
-![(\#fig:f-nytimes) Public reaction to statistical inference.](salk_nytimes){width="150mm"}
+![(\#fig:f-nytimes)Public reaction to statistical inference.](salk_nytimes){width="150mm"}

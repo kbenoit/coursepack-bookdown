@@ -274,7 +274,7 @@ valid cases” gives the sample size $n$. The other entries in the table
 are output for other tests that are not discussed here, so they can be
 ignored.
 
-![(\#fig:f-spsschi2) SPSS output of the $\chi^{2}$ test of independence (here labelled
+![(\#fig:f-spsschi2)SPSS output of the $\chi^{2}$ test of independence (here labelled
 “Pearson Chi-square”) for the data in Table
 \@ref(tab:t-sex-attitude-ch4).](chi2test_ess){width="100mm"}
 
@@ -642,7 +642,7 @@ In particular, we note already that the value $\chi^{2}=18.8$ that was
 actually observed in the real sample occurs very rarely if samples are
 drawn from a population where the null hypothesis of independence holds.
 
-![(\#fig:f-chisampld) Example of the sampling distribution of the $\chi^{2}$ test statistic
+![(\#fig:f-chisampld)Example of the sampling distribution of the $\chi^{2}$ test statistic
 for independence. The plot shows a histogram of the values of the
 statistic in 100,000 simulated samples of size $n=2344$ drawn from the
 population distribution in the upper part of Table
@@ -669,7 +669,7 @@ of a $\chi^{2}$-distributed variable can never be negative. This is
 appropriate for the $\chi^{2}$ test statistic (\@ref(eq:chi2)), which is
 also always non-negative.
 
-![(\#fig:f-chi2dists) Probability curves of some $\chi^{2}$ distributions with different
+![(\#fig:f-chi2dists)Probability curves of some $\chi^{2}$ distributions with different
 degrees of freedom (df).](chi2dists){width="115mm"}
 
 For the $\chi^{2}$ test statistic of independence we have the following
@@ -774,7 +774,7 @@ because 18.86 is far into the tail of the distribution where the
 probabilities are low. The $P$-value is then also low, specifically
 $P=0.0008$.
 
-![(\#fig:f-pvalchisq) Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4
+![(\#fig:f-pvalchisq)Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4
 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey
 region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
 

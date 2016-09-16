@@ -207,11 +207,11 @@ frequency of observations in that category. This visual cue allows us to
 make quick comparisons between the frequencies of different categories
 by comparing the heights of the bars.
 
-![(\#fig:f-bars-region) Bar chart of regions in the country data.](regions){height="9.5cm"}
+![(\#fig:f-bars-region)Bar chart of regions in the country data.](regions){height="9.5cm"}
 
-![(\#fig:f-bars-democ) Bar chart of the democracy index in the country data.](democ){height="9.5cm"}
+![(\#fig:f-bars-democ)Bar chart of the democracy index in the country data.](democ){height="9.5cm"}
 
-![(\#fig:f-bars-attitude) Bar chart of the attitude variable in the survey data example. Agreement with statement: ``The government should take measures to reduce differences in income levels''. European Social Survey, Round 5 (2010), UK respondents only.](bar_attitude){height="8cm"}
+![(\#fig:f-bars-attitude)Bar chart of the attitude variable in the survey data example. Agreement with statement: ``The government should take measures to reduce differences in income levels''. European Social Survey, Round 5 (2010), UK respondents only.](bar_attitude){height="8cm"}
 
 Some guidelines for drawing bar charts are:
 
@@ -934,7 +934,7 @@ categories (making the table harder to read).
 
 #### Histograms {-}
 
-![(\#fig:f-hist-gdp) Histogram of GDP per capita in the country data, together with the
+![(\#fig:f-hist-gdp)Histogram of GDP per capita in the country data, together with the
 corresponding frequency polygon.](gdp){width="13.5cm"}
 
 A **histogram** is the graphical version of a frequency table for a
@@ -1086,7 +1086,7 @@ example, the country data set has as many as $n=155$ observations, yet
 Figure \@ref(tab:t-stemgdp) is still quite readable and fits on a single
 page.
 
-![(\#fig:f-boxplot-gdp) An annotated box plot of GDP per capita in the country data
+![(\#fig:f-boxplot-gdp)An annotated box plot of GDP per capita in the country data
 ($n=155$).](box_gdp){width="15cm"}
 
 #### Box plots {-}
@@ -1357,7 +1357,7 @@ panel B of Figure \@ref(fig:f-skews) is (approximately) **symmetric**.
 
   : (\#tab:t-countries-sums)Summary statistics for the three variables in the country data. IQR=interquartile range; s.d.=standard deviation; *: inappropriate for a nominal variable; $\dagger$: if the democracy index is treated as an interval-level variable.
 
-![(\#fig:f-skews) Examples of a negatively skewed and an approximately symmetric sample
+![(\#fig:f-skews)Examples of a negatively skewed and an approximately symmetric sample
 distribution. Panel A shows the distribution of examination marks for
 MY451 (2003; $n=419$), and B shows the distribution of the number of
 hours a person usually works in their main job in the 3 per cent
@@ -1654,7 +1654,7 @@ central tendency or variation, so it is an illustration of why it is
 always sensible to also examine the whole distribution of a variable
 using frequency tables or graphical methods.
 
-![(\#fig:f-classbars) Bar charts of the test marks in the class example at the beginning of Section \@ref(ss-descr1-nums-variation) for Classes 2 (on the left) and 3 (on the
+![(\#fig:f-classbars)Bar charts of the test marks in the class example at the beginning of Section \@ref(ss-descr1-nums-variation) for Classes 2 (on the left) and 3 (on the
 right).](classbars){height="8.3cm"}
 
 ## Associations which involve continuous variables {#s-descr1-2cont}
@@ -1781,7 +1781,7 @@ if not most of the graph styles provided by, say, Excel (exploding pie
 charts, doughnuts, cones, pyramids and so on) are entirely useless for
 accurate presentation of data.
 
-![(\#fig:f-yuk) An example of an unacceptable graph: a bar chart with a pseudo
+![(\#fig:f-yuk)An example of an unacceptable graph: a bar chart with a pseudo
 three-dimensional effect. The data are the same as in Figure
 \@ref(fig:f-bars-region).](threeD){height="8cm"}
 
@@ -1814,7 +1814,7 @@ countries by using different types of line. Different colours can of
 course be used instead, but their differences will become obscured if
 the graph is photocopied or printed in black and white.
 
-![(\#fig:f-houseprices) An example of an informative graph: house prices in three countries
+![(\#fig:f-houseprices)An example of an informative graph: house prices in three countries
 between 1993 and 2003, indexed to 100 in 1993. Source: *The Economist*, June 26th, 2004. The numbers
 were estimated from the graph in the magazine, so they are
 approximate.](houseprices){width="10cm"}

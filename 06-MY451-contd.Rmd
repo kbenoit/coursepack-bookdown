@@ -36,7 +36,7 @@ whom the measurements were not obtained or were considered invalid have
 been excluded. Respondents aged under 25 have also been excluded for
 simplicity, because this age group was oversampled in the 2002 HES.
 
-![(\#fig:f-bp1) Histogram of diastolic blood pressure, with the corresponding frequency polygon, from Health Survey for England 2002 (respondents aged 25 or over, $n=4489$).](bloodp1){width="13.5cm"}
+![(\#fig:f-bp1)Histogram of diastolic blood pressure, with the corresponding frequency polygon, from Health Survey for England 2002 (respondents aged 25 or over, $n=4489$).](bloodp1){width="13.5cm"}
 
 The respondents whose blood pressures are summarized in Figure
 \@ref(fig:f-bp1) are in reality a sample from a larger population in the
@@ -197,7 +197,7 @@ population distribution is close enough to a specified probability
 distribution for the results from analyses based on this assumption to
 be meaningful and not misleading.
 
-![(\#fig:f-bp2) The frequency polygon of Figure \@ref(fig:f-bp1), together with a normal
+![(\#fig:f-bp2)The frequency polygon of Figure \@ref(fig:f-bp1), together with a normal
 curve with the same mean and variance.](bloodp2){width="11.5cm"}
 
 \label{p-model} Such a simplifying assumption about the population
@@ -245,7 +245,7 @@ pictures of the university town of Göttingen and of the normal curve
 The curve of the normal distribution is also known as the “bell curve”
 because of its shape.
 
-![(\#fig:f-10dm) A portrait of Gauss and the normal curve on a former German 10-DM banknote.](mark){width="14cm"}
+![(\#fig:f-10dm)A portrait of Gauss and the normal curve on a former German 10-DM banknote.](mark){width="14cm"}
 
 The normal distribution is by far the most important probability
 distribution in statistics. The main reason for this is its use as a
@@ -279,7 +279,7 @@ are both centered around $\mu=0$; the mean of the $N(5, 1)$ distribution
 is $\mu=5$, so the whole curve is shifted to the right and centered
 around 5.
 
-![(\#fig:f-3norms) Three normal distributions with different means and/or variances.](threenorms){width="11cm"}
+![(\#fig:f-3norms)Three normal distributions with different means and/or variances.](threenorms){width="11cm"}
 
 The variance $\sigma^{2}$ determines how widely spread the curve is. In
 Figure \@ref(fig:f-3norms), the curves for $N(0, 1)$ and $N(5, 1)$ have the
@@ -316,7 +316,7 @@ range. These are the same principles that we have already used to derive
 $P$-values for tests in Sections \@ref(ss-tables-chi2test-Pval) and
 \@ref(ss-probs-test1sample-samplingd).
 
-![(\#fig:f-norm1) Illustration of probabilities for the normal distribution. The
+![(\#fig:f-norm1)Illustration of probabilities for the normal distribution. The
 probability of an observation being within one standard deviation of the
 mean (the grey area) is 0.68, and the probability of it being within
 1.96 standard deviations of the mean (grey and shaded areas together) is
@@ -377,7 +377,7 @@ score of $-1.26$, is 1.26 standard deviations *below* (hence the
 negative sign) the mean, while 90 (with $Z$ score 1.40) is 1.40 standard
 deviations *above* the mean.
 
-![(\#fig:f-normbp) Illustration of probabilities for a normal distribution in the blood
+![(\#fig:f-normbp)Illustration of probabilities for a normal distribution in the blood
 pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
 probabilities for the ranges of values at most 60 (“Low”), between 60
 and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
@@ -537,7 +537,7 @@ separately:
     $n=1000$, on the other hand, 95% of samples would yield $\bar{Y}$ in
     the much narrower range of $74.2-2*0.36=73.5$ to $74.2+2*0.36=74.9$.
 
-![(\#fig:f-sampld2) Illustration of the sampling distribution of the sample mean for two
+![(\#fig:f-sampld2)Illustration of the sampling distribution of the sample mean for two
 sample sizes. In both cases the population distribution is normal with
 $\mu=74.2$ and $\sigma=11.3$.](sampld2_bp){width="12cm"}
 
@@ -573,7 +573,7 @@ Also shown is the curve of the normal distribution with the mean $\mu$
 and standard deviation $\sigma/\sqrt{50}$ determined by the theoretical
 result given above.
 
-![(\#fig:f-sampld) Example of the sampling distribution of the sample mean. The plot
+![(\#fig:f-sampld)Example of the sampling distribution of the sample mean. The plot
 shows a histogram of the values of the sample mean in 100,000 samples of
 size $n=50$ drawn from the 4489 values of diastolic blood pressure shown
 in Figure \@ref(fig:f-bp1), for which the mean is $\mu=74.2$ and standard
@@ -686,7 +686,7 @@ distribution of $\hat{\pi}$ when $n$ is as small as 10 or even 30. For
 the larger values of 100 and 1000, however, the normal approximation is
 already quite good, as expected from the CLT.
 
-![(\#fig:f-cltbin) Illustration of the Central Limit Theorem for the sample proportion of
+![(\#fig:f-cltbin)Illustration of the Central Limit Theorem for the sample proportion of
 a dichotomous variable. Each plot shows the histogram of the sample
 proportions $\hat{\pi}$ calculated for 5000 samples simulated from a
 population distribution with proportion $\pi=0.2$, together with the

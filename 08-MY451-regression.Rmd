@@ -115,7 +115,7 @@ and is often referred to as the **X-axis**. The vertical axis, here used
 for GDP per capita, then corresponds to the response variable $Y$, and
 is known as the **Y-axis**.
 
-![(\#fig:f-corruption1) A scatterplot of Control of corruption vs. GDP per capita in the
+![(\#fig:f-corruption1)A scatterplot of Control of corruption vs. GDP per capita in the
 Global Civil Society data set, for 61 countries with Control of
 corruption at least 60. The dotted lines are drawn to the point
 corresponding to the United Kingdom.](corruption1){width="14cm"}
@@ -191,7 +191,7 @@ it (except at the ends of the series, where fewer observations are
 used). This is done to smooth out short-term fluctuations from the
 data, so that longer-term trends become more clearly visible.]
 
-![(\#fig:f-temperatures) Changes of average annual temperature (11-year moving averages) from
+![(\#fig:f-temperatures)Changes of average annual temperature (11-year moving averages) from
 1903 in five locations. See the text for further details. Source: The GISTEMP database <data.giss.nasa.gov/gistemp/>](temperplot){width="13cm"}
 
 
@@ -251,7 +251,7 @@ a rather informal discussion of how this might be done. This will lead
 directly to a more precise and formal definition introduced in Section
 \@ref(s-regression-simple).
 
-![(\#fig:f-corruption2) The same scatterplot of Control of corruption vs. GDP per capita as
+![(\#fig:f-corruption2)The same scatterplot of Control of corruption vs. GDP per capita as
 in Figure \@ref(fig:f-corruption1), augmented by the best-fitting (least
 squares) straight line (solid line) and reference lines for two example
 values of Control of corruption (dotted lines).](corruption2){width="13.5cm"}
@@ -322,7 +322,7 @@ examining associations between continuous variables, and often the only
 ones considered. In this chapter we too will focus almost completely on
 them.
 
-![(\#fig:f-scatterplots) Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl1 "fig:"){width="8cm"} ![](olspl2){width="8cm"}\
+![(\#fig:f-scatterplots)Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl1 "fig:"){width="8cm"} ![](olspl2){width="8cm"}\
 ![](olspl3){width="8cm"} ![](olspl4){width="8cm"}\
 ![](olspl5){width="8cm"} ![](olspl6){width="8cm"}\
 
@@ -382,7 +382,7 @@ rates were high early (from quick failures of flawed components) and
 late on (from inevitable wear and tear) and lowest in between for
 “middle-aged but healthy” components.
 
-![(\#fig:f-corruption3) A scatterplot of Control of corruption vs. GDP per capita for 163
+![(\#fig:f-corruption3)A scatterplot of Control of corruption vs. GDP per capita for 163
 countries in the Global Civil Society data set. The solid line is the
 best-fitting (least squares) straight line for the points.](corruption3){width="13.5cm"}
 
@@ -644,7 +644,7 @@ reason the correlations in Table \@ref(tab:t-imrvars) differ slightly from
 those in Table \@ref(tab:t-civilsoc-r), where each correlation was calculated
 for all the countries with non-missing values of that pair of variables.
 
-![(\#fig:f-imr1) A scatterplot of net primary school enrolment ratio vs. Infant
+![(\#fig:f-imr1)A scatterplot of net primary school enrolment ratio vs. Infant
 mortality rate for countries in the Global Civil Society data set
 ($n=111$). The solid line is the best-fitting (least squares) straight
 line for the points.](imr1){width="13.5cm"}
@@ -806,7 +806,7 @@ model, they are of course only estimates (of a kind explained in the
 next section) of those parameters. Other parts of the SPSS output will
 be explained later in this chapter.
 
-![(\#fig:f-spss-linreg) SPSS output for a simple linear regression model for Infant mortality rate given School enrolment in the Global Civil Society data.](spsslinreg){width="15.5cm"}
+![(\#fig:f-spss-linreg)SPSS output for a simple linear regression model for Infant mortality rate given School enrolment in the Global Civil Society data.](spsslinreg){width="15.5cm"}
 
 According to the model, the conditional mean (also often known as the
 conditional **expected value**) of $Y$ given $X$ in the population is
@@ -843,7 +843,7 @@ which completes the proof of the claims above — Q.E.D. In case you
 prefer a graphical summary, this is given in Figure
 \@ref(fig:f-linmod-params).
 
-![(\#fig:f-linmod-params) Illustration of the interpretation of the regression coefficients of a
+![(\#fig:f-linmod-params)Illustration of the interpretation of the regression coefficients of a
 simple linear regression model.](lmparams){width="12.5cm"}
 
 The most important parameter of the model, and usually the only one
@@ -991,7 +991,7 @@ value is here larger than the fitted value, the residual is positive and
 the observed value is above the fitted line, as shown in Figure
 \@ref(fig:f-residuals).
 
-![(\#fig:f-residuals) Illustration of the quantities involved in the definitions of least
+![(\#fig:f-residuals)Illustration of the quantities involved in the definitions of least
 squares estimates and the coefficient of determination $R^{2}$. See the
 text for explanation.](lmresids){width="13.5cm"}
 <!--
@@ -1466,7 +1466,7 @@ $X$ and $Y$, they will appear to be associated, but the connection is
 not a causal one. Instead, it is a **spurious association** induced by
 the dependence on both variables on the common cause $Z$.
 
-![(\#fig:f-xyzspurious) A graphical representation of a
+![(\#fig:f-xyzspurious)A graphical representation of a
 spurious association between $X$ and $Y$, explained by dependence on a
 common cause $Z$.](xyzspurious){width="3.7cm"}
 

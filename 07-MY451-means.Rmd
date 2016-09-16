@@ -331,11 +331,11 @@ outlying observations (note that SPSS, which was used to produce Figure
 the latter are observations more than 3 IQR from the end of the box, and
 are plotted with asterisks).
 
-![(\#fig:f-hworkpyramid) Histograms of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men ($n=635$) and women ($n=469$).](hworkpyramid){width="130mm"}
+![(\#fig:f-hworkpyramid)Histograms of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men ($n=635$) and women ($n=469$).](hworkpyramid){width="130mm"}
 
-![(\#fig:f-hworkpolygons) Frequency polygons of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men and women. The points show the percentages of observations in the intervals of 0–3, 4–7, $\dots$, 32–35 hours (plus zero percentages at each end of the curve).](hwork){width="11.5cm"}
+![(\#fig:f-hworkpolygons)Frequency polygons of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men and women. The points show the percentages of observations in the intervals of 0–3, 4–7, $\dots$, 32–35 hours (plus zero percentages at each end of the curve).](hwork){width="11.5cm"}
 
-![(\#fig:f-twoboxplots) Box plots of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men and women.](twoboxplots){width="11cm"}
+![(\#fig:f-twoboxplots)Box plots of the sample distributions of reported weekly hours of housework in Example 7.2, separately for men and women.](twoboxplots){width="11cm"}
 
 Figures \@ref(fig:f-hworkpyramid)–\@ref(fig:f-twoboxplots) also illustrate an
 important general point about such comparisons. Typically we focus on
@@ -603,7 +603,7 @@ $\hat{\sigma}_{\hat{\Delta}}$ are shown in the “Mean Difference” and
 vice versa as in Table \@ref(tab:t-2testsY1), but this will make no
 difference to the conclusions from the test.
 
-![(\#fig:f-spss2test) SPSS output for a two-sample $t$-test in Example 7.2, comparing average weekly hours spent on housework between men and women.](spss2t){height="200mm"}
+![(\#fig:f-spss2test)SPSS output for a two-sample $t$-test in Example 7.2, comparing average weekly hours spent on housework between men and women.](spss2t){height="200mm"}
 
 \label{p-ztestass} In the two-sample situation with assumptions 1–4 at the beginning of Section \@ref(ss-means-inference-intro), the sampling distribution of the t-test
 statistic (\@ref(eq:ztestmuDb)) is approximately a standard normal
@@ -887,7 +887,7 @@ It can be seen that the $t_{30}$ distribution is already very similar to
 the $N(0,1)$ distribution. With degrees of freedom larger than about 30,
 the difference becomes almost indistinguishable.
 
-![(\#fig:f-tdistr1) Curves of two $t$ distributions with small degrees of freedom, compared to the standard normal distribution.](tdistr1){width="13cm"}
+![(\#fig:f-tdistr1)Curves of two $t$ distributions with small degrees of freedom, compared to the standard normal distribution.](tdistr1){width="13cm"}
 
 If we use this result for the test, the $P$-value is obtained from the
 $t$ distribution with $n_{1}+n_{2}-2$ degrees of freedom (often denoted
@@ -1319,7 +1319,7 @@ need to add $\mu_{0}=5$ to both end points of the interval shown by
 SPSS, to obtain $(-2.30+5;
 -2.10+5)=(2.70; 2.90)$ as before.
 
-![(\#fig:f-spsstest) SPSS output for a $t$-test of a single mean. The output is for the variable on fruit and vegetable consumption in Table \@ref(tab:t-ttests1), with the null hypothesis $H-{0}: \mu=5$.](ttestspss){width="130mm"}
+![(\#fig:f-spsstest)SPSS output for a $t$-test of a single mean. The output is for the variable on fruit and vegetable consumption in Table \@ref(tab:t-ttests1), with the null hypothesis $H-{0}: \mu=5$.](ttestspss){width="130mm"}
 
 Similar results for the variable on the percentage of dietary energy
 obtained from fat are also shown in Table \@ref(tab:t-ttests1). Here

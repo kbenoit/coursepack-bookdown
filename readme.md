@@ -140,7 +140,7 @@ The format for inserting a figure -- in other words an image -- is:
 
 ```markdown
 
-![(\#fig:f-unique-identifier) Caption text.](file-name-without-file-extension)
+![(\#fig:f-unique-identifier)Caption text.](file-name-without-file-extension)
 
 ```
 
@@ -150,7 +150,7 @@ So in order to insert into the manuscript a figure we call "bar_attitude" it nee
 
 ```markdown
 
-![(\#fig:f-unique-identifier) Caption text.](bar_attitude)
+![(\#fig:f-unique-identifier)Caption text.](bar_attitude)
 
 ```
 
@@ -201,13 +201,13 @@ Labelling a table:
 To give a unique identifier to a table include it at the very beginning of a table's caption in this format:
 
 ```markdown
-  : (\#tab:t-unique-identifier)Caption text with no space between unique identifier and caption text.
+: (\#tab:t-unique-identifier)Caption text with no space between unique identifier and caption text.
 ```
 
 Labelling a figure:
 
 ```markdown
-![(\#fig:f-unique-identifier) Caption text.](filename)
+![(\#fig:f-unique-identifier)Caption text.](filename)
 ```
 
 
