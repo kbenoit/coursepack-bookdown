@@ -182,7 +182,7 @@ And here is a sentence containing a reference to the equation above. See equatio
 
 In the output it will look like this:
 
-![](equation-demo.png)
+![](./images/equation-demo.png)
 
 #### Anchors, Labels, Identifiers and referencing them
 
