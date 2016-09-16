@@ -15,7 +15,7 @@ The prototype of this in-house authoring and publishing process that is before y
 
 The manuscript for that course pack is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To make changes to that manuscript you need Git installed on your computer. One way to do that is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
 
-# Clone manuscript from online repository
+# Download project folder from online repository
 In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:
 <!--^[Instructions taken verbatim from <https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/>.]-->
 
@@ -77,6 +77,33 @@ By default, headers will automatically be numbered in the output (the website, t
 # Appendix {-}
 
 ```
+
+**Numbered lists** can be created this way:
+
+```markdown
+1. First item
+2. Second item
+3. Third item
+```
+
+**Unnumbered lists** can be created this way:
+```markdown
+* unnumbered item
+  + subitem
+    - subsubitem
+  + subitem
++ item
+  + subitem
+```
+
+Any string of text -- words, phrases, headers, paragraphs -- can be **emphasized** by bracketing it in asterisks like so:
+
+```markdown
+*Italicize* with a single asterisk before and after.
+
+Make text **bold** with two asterisks.
+
+
 
 ### Tables
 
