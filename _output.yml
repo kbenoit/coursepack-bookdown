@@ -11,7 +11,6 @@ bookdown::gitbook:
       link: https://github.com/kbenoit/coursepack-bookdown/edit/master/%s
   pandoc_args:
     - "--default-image-extension=png"
-    - "--file-scope"
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  14 SEP 2016 12:14
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.7.18)  16 SEP 2016 12:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,10 +964,10 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [5] [6
 
 ]
-File: dept_of_methodology.png Graphic file (type QTm)
-<use  "dept_of_methodology.png" >
-File: lse.png Graphic file (type QTm)
-<use  "lse.png" >
+File: dept_of_methodology.pdf Graphic file (type QTm)
+<use  "dept_of_methodology.pdf" >
+File: lse.pdf Graphic file (type QTm)
+<use  "lse.pdf" >
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 162
 .
 (/usr/local/texlive/2016basic/texmf-dist/tex/latex/euenc/eu1lmtt.fd
@@ -997,12 +997,12 @@ Chapter 2.
 [15
 
 ] [16] [17]
-File: regions.png Graphic file (type QTm)
-<use  "regions.png" >
-File: democ.png Graphic file (type QTm)
-<use  "democ.png" >
-File: bar_attitude.png Graphic file (type QTm)
-<use  "bar_attitude.png" > [18] [19] [20] [21] [22] [23] [24]
+File: regions.pdf Graphic file (type QTm)
+<use  "regions.pdf" >
+File: democ.pdf Graphic file (type QTm)
+<use  "democ.pdf" >
+File: bar_attitude.pdf Graphic file (type QTm)
+<use  "bar_attitude.pdf" > [18] [19] [20] [21] [22] [23] [24]
 Overfull \hbox (7.33789pt too wide) in paragraph at lines 2948--2950
  \EU1/lmr/m/n/10.95 important|
  []
@@ -1038,10 +1038,10 @@ Overfull \hbox (0.81123pt too wide) in paragraph at lines 3058--3060
  []
 
 [25] [26] [27] [28] [29]
-File: gdp.png Graphic file (type QTm)
-<use  "gdp.png" > [30] [31] [32]
-File: box_gdp.png Graphic file (type QTm)
-<use  "box_gdp.png" > [33] [34]
+File: gdp.pdf Graphic file (type QTm)
+<use  "gdp.pdf" > [30] [31] [32]
+File: box_gdp.pdf Graphic file (type QTm)
+<use  "box_gdp.pdf" > [33] [34]
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
 [35] [36] [37]
@@ -1074,20 +1074,20 @@ Overfull \hbox (1.5563pt too wide) in paragraph at lines 3923--3925
  []|\EU1/lmr/m/n/10.95 variation| 
  []
 
-File: twohists.png Graphic file (type QTm)
-<use  "twohists.png" > [38] [39]
+File: twohists.pdf Graphic file (type QTm)
+<use  "twohists.pdf" > [38] [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [40] [41] [42] [43]
-File: classbars.png Graphic file (type QTm)
-<use  "classbars.png" >
+File: classbars.pdf Graphic file (type QTm)
+<use  "classbars.pdf" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [44] [45]
-File: threeD.png Graphic file (type QTm)
-<use  "threeD.png" > [46]
-File: houseprices.png Graphic file (type QTm)
-<use  "houseprices.png" > [47]
+File: threeD.pdf Graphic file (type QTm)
+<use  "threeD.pdf" > [46]
+File: houseprices.pdf Graphic file (type QTm)
+<use  "houseprices.pdf" > [47]
 Underfull \hbox (badness 7981) in paragraph at lines 4548--4553
 \EU1/lmr/m/it/10.95 book 2004 \EU1/lmr/m/n/10.95 ([]$[][][][][] [] [] [] [][][]
  [] [][][] [] [][][] [] [][][][][][][] [] [][][][][][][][][][][][] [] [][][][][
@@ -1333,8 +1333,8 @@ Overfull \hbox (8.92473pt too wide) in paragraph at lines 5412--5414
 [58
 
 ] [59] [60] [61]
-File: chi2test_ess.png Graphic file (type QTm)
-<use  "chi2test_ess.png" > [62] [63] [64] [65]
+File: chi2test_ess.pdf Graphic file (type QTm)
+<use  "chi2test_ess.pdf" > [62] [63] [64] [65]
 Overfull \hbox (0.52654pt too wide) in paragraph at lines 6013--6015
  []|\EU1/lmr/m/n/10.95 Agree| 
  []
@@ -1500,19 +1500,19 @@ Overfull \hbox (1.75214pt too wide) in paragraph at lines 6216--6218
  []
 
 [67]
-File: chi2sims.png Graphic file (type QTm)
-<use  "chi2sims.png" >
-File: chi2dists.png Graphic file (type QTm)
-<use  "chi2dists.png" > [68]
+File: chi2sims.pdf Graphic file (type QTm)
+<use  "chi2sims.pdf" >
+File: chi2dists.pdf Graphic file (type QTm)
+<use  "chi2dists.pdf" > [68]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 6363.
 
-Underfull \vbox (badness 1072) has occurred while \output is active []
+Underfull \vbox (badness 1067) has occurred while \output is active []
 
 [69]
-File: chi2_pval.png Graphic file (type QTm)
-<use  "chi2_pval.png" > [70]
-Overfull \vbox (288.97513pt too high) has occurred while \output is active []
+File: chi2_pval.pdf Graphic file (type QTm)
+<use  "chi2_pval.pdf" > [70]
+Overfull \vbox (288.77411pt too high) has occurred while \output is active []
 
 [71] [72] [73] [74]
 Chapter 5.
@@ -1622,8 +1622,8 @@ Overfull \hbox (2.29187pt too wide) in paragraph at lines 7167--7169
  []
 
 [76] [77] [78] [79] [80] [81] [82]
-File: pval_zp.png Graphic file (type QTm)
-<use  "pval_zp.png" > [83] [84]
+File: pval_zp.pdf Graphic file (type QTm)
+<use  "pval_zp.pdf" > [83] [84]
 Underfull \vbox (badness 10000) detected at line 7747
  []
 
@@ -1631,11 +1631,11 @@ Underfull \vbox (badness 10000) detected at line 7747
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
 [86] [87] [88] [89] [90] [91] [92] [93] [94]
-File: salk_nytimes.png Graphic file (type QTm)
-<use  "salk_nytimes.png" > [95] [96]
+File: salk_nytimes.pdf Graphic file (type QTm)
+<use  "salk_nytimes.pdf" > [95] [96]
 Chapter 6.
-File: bloodp1.png Graphic file (type QTm)
-<use  "bloodp1.png" > [97
+File: bloodp1.pdf Graphic file (type QTm)
+<use  "bloodp1.pdf" > [97
 
 ]
 Overfull \hbox (33.08678pt too wide) has occurred while \output is active
@@ -1644,35 +1644,35 @@ ULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [98] [99]
-File: bloodp2.png Graphic file (type QTm)
-<use  "bloodp2.png" >
+File: bloodp2.pdf Graphic file (type QTm)
+<use  "bloodp2.pdf" >
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 100 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [100]
-File: mark.png Graphic file (type QTm)
-<use  "mark.png" > [101]
-File: threenorms.png Graphic file (type QTm)
-<use  "threenorms.png" >
+File: mark.pdf Graphic file (type QTm)
+<use  "mark.pdf" > [101]
+File: threenorms.pdf Graphic file (type QTm)
+<use  "threenorms.pdf" >
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 102 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [102]
-File: norm1.png Graphic file (type QTm)
-<use  "norm1.png" > [103]
-File: normbp.png Graphic file (type QTm)
-<use  "normbp.png" >
+File: norm1.pdf Graphic file (type QTm)
+<use  "norm1.pdf" > [103]
+File: normbp.pdf Graphic file (type QTm)
+<use  "normbp.pdf" >
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 104 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [104]
-Overfull \vbox (313.32498pt too high) has occurred while \output is active []
+Overfull \vbox (313.41109pt too high) has occurred while \output is active []
 
 [105]
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
@@ -1681,21 +1681,21 @@ PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [106]
-File: sampld2_bp.png Graphic file (type QTm)
-<use  "sampld2_bp.png" >
-Underfull \vbox (badness 1215) has occurred while \output is active []
+File: sampld2_bp.pdf Graphic file (type QTm)
+<use  "sampld2_bp.pdf" >
+Underfull \vbox (badness 1184) has occurred while \output is active []
 
 [107]
-File: sampld1_bp.png Graphic file (type QTm)
-<use  "sampld1_bp.png" >
+File: sampld1_bp.pdf Graphic file (type QTm)
+<use  "sampld1_bp.pdf" >
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 108 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
  []
 
 [108] [109]
-File: sampld_p.png Graphic file (type QTm)
-<use  "sampld_p.png" >
+File: sampld_p.pdf Graphic file (type QTm)
+<use  "sampld_p.pdf" >
 Overfull \hbox (38.56178pt too wide) has occurred while \output is active
 \EU1/lmr/m/n/10.95 110 \EU1/lmr/m/sl/10.95 CHAPTER 6.  CONTINUOUS VARIABLES: PO
 PULATION AND SAMPLING DISTRIBUTIONS
@@ -1706,12 +1706,12 @@ Chapter 7.
 [112
 
 ] [113] [114] [115] [116]
-File: hworkpyramid.png Graphic file (type QTm)
-<use  "hworkpyramid.png" >
-File: hwork.png Graphic file (type QTm)
-<use  "hwork.png" >
-File: twoboxplots.png Graphic file (type QTm)
-<use  "twoboxplots.png" > [117] [118] [119] [120] [121]
+File: hworkpyramid.pdf Graphic file (type QTm)
+<use  "hworkpyramid.pdf" >
+File: hwork.pdf Graphic file (type QTm)
+<use  "hwork.pdf" >
+File: twoboxplots.pdf Graphic file (type QTm)
+<use  "twoboxplots.pdf" > [117] [118] [119] [120] [121]
 Overfull \hbox (5.93497pt too wide) in paragraph at lines 10228--10230
  []|$\OT1/lmr/m/n/10.95 (\OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 2\OML/lmm/m/
 it/10.95 :\OT1/lmr/m/n/10.95 49; \OMS/lmsy/m/n/10.95 ^^@\OT1/lmr/m/n/10.95 0\OM
@@ -1719,10 +1719,13 @@ L/lmm/m/it/10.95 :\OT1/lmr/m/n/10.95 99)$|
  []
 
 [122]
-File: spss2t.png Graphic file (type QTm)
-<use  "spss2t.png" > [123] [124] [125] [126] [127]
-File: tdistr1.png Graphic file (type QTm)
-<use  "tdistr1.png" > [128] [129] [130] [131]
+File: spss2t.pdf Graphic file (type QTm)
+<use  "spss2t.pdf" > [123] [124] [125] [126] [127]
+File: tdistr1.pdf Graphic file (type QTm)
+<use  "tdistr1.pdf" > [128]
+Underfull \vbox (badness 3907) has occurred while \output is active []
+
+[129] [130] [131]
 Overfull \hbox (3.78433pt too wide) in paragraph at lines 10860--10862
  []|\EU1/lmr/m/n/10.95 1724|
  []
@@ -1763,34 +1766,34 @@ Overfull \hbox (1.75294pt too wide) in paragraph at lines 10893--10895
  []
 
 [132] [133] [134] [135]
-File: ttestspss.png Graphic file (type QTm)
-<use  "ttestspss.png" > [136] [137] [138] [139] [140] [141] [142] [143] [144]
+File: ttestspss.pdf Graphic file (type QTm)
+<use  "ttestspss.pdf" > [136] [137] [138] [139] [140] [141] [142] [143] [144]
 Chapter 8.
 [145
 
 ]
-File: corruption1.png Graphic file (type QTm)
-<use  "corruption1.png" > [146] [147]
-File: temperplot.png Graphic file (type QTm)
-<use  "temperplot.png" > [148] [149]
-File: corruption2.png Graphic file (type QTm)
-<use  "corruption2.png" > [150]
+File: corruption1.pdf Graphic file (type QTm)
+<use  "corruption1.pdf" > [146] [147]
+File: temperplot.pdf Graphic file (type QTm)
+<use  "temperplot.pdf" > [148] [149]
+File: corruption2.pdf Graphic file (type QTm)
+<use  "corruption2.pdf" > [150]
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
 ne 12050.
 
-File: olspl1.png Graphic file (type QTm)
-<use  "olspl1.png" >
-File: olspl2.png Graphic file (type QTm)
-<use  "olspl2.png" >
-File: olspl3.png Graphic file (type QTm)
-<use  "olspl3.png" >
-File: olspl4.png Graphic file (type QTm)
-<use  "olspl4.png" >
-File: olspl5.png Graphic file (type QTm)
-<use  "olspl5.png" >
-File: olspl6.png Graphic file (type QTm)
-<use  "olspl6.png" >
+File: olspl1.pdf Graphic file (type QTm)
+<use  "olspl1.pdf" >
+File: olspl2.pdf Graphic file (type QTm)
+<use  "olspl2.pdf" >
+File: olspl3.pdf Graphic file (type QTm)
+<use  "olspl3.pdf" >
+File: olspl4.pdf Graphic file (type QTm)
+<use  "olspl4.pdf" >
+File: olspl5.pdf Graphic file (type QTm)
+<use  "olspl5.pdf" >
+File: olspl6.pdf Graphic file (type QTm)
+<use  "olspl6.pdf" >
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
 ne 12065.
@@ -1800,22 +1803,22 @@ LaTeX Warning: Reference `fig:f-scatterplots' on page 151 undefined on input li
 ne 12073.
 
 
-Overfull \hbox (4.71411pt too wide) in paragraph at lines 12059--12085
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12059--12085
 [][] [] 
  []
 
 
-Overfull \hbox (4.71411pt too wide) in paragraph at lines 12059--12085
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12059--12085
 [] [] 
  []
 
 
-Overfull \hbox (4.71411pt too wide) in paragraph at lines 12059--12085
+Overfull \hbox (4.7113pt too wide) in paragraph at lines 12059--12085
 [] [] 
  []
 
 
-Underfull \vbox (badness 1210) has occurred while \output is active []
+Underfull \vbox (badness 1199) has occurred while \output is active []
 
 [151]
 
@@ -1827,8 +1830,8 @@ LaTeX Warning: Reference `fig:f-scatterplots' on page 152 undefined on input li
 ne 12099.
 
 [152]
-File: corruption3.png Graphic file (type QTm)
-<use  "corruption3.png" >
+File: corruption3.pdf Graphic file (type QTm)
+<use  "corruption3.pdf" >
 
 LaTeX Warning: Reference `fig:f-scatterplots' on page 153 undefined on input li
 ne 12147.
@@ -1843,8 +1846,8 @@ LaTeX Warning: Reference `fig:f-scatterplots' on page 155 undefined on input li
 ne 12263.
 
 [155] [156]
-File: imr1.png Graphic file (type QTm)
-<use  "imr1.png" >
+File: imr1.pdf Graphic file (type QTm)
+<use  "imr1.pdf" >
 Overfull \hbox (16.07472pt too wide) in paragraph at lines 12435--12437
  \EU1/lmr/m/n/10.95 enrolment|
  []
@@ -1860,13 +1863,13 @@ Overfull \hbox (10.92339pt too wide) in paragraph at lines 12439--12441
  []
 
 [157] [158] [159]
-File: spsslinreg.png Graphic file (type QTm)
-<use  "spsslinreg.png" >
+File: spsslinreg.pdf Graphic file (type QTm)
+<use  "spsslinreg.pdf" >
 Underfull \vbox (badness 10000) detected at line 12780
  []
 
-File: lmparams.png Graphic file (type QTm)
-<use  "lmparams.png" > [160] [161] [162]
+File: lmparams.pdf Graphic file (type QTm)
+<use  "lmparams.pdf" > [160] [161] [162]
 
 LaTeX Warning: Reference `fig:f-residuals' on page 163 undefined on input line 
 12933.
@@ -1876,8 +1879,8 @@ LaTeX Warning: Reference `fig:f-residuals' on page 163 undefined on input line
 12946.
 
 [163]
-File: lmresids.png Graphic file (type QTm)
-<use  "lmresids.png" >
+File: lmresids.pdf Graphic file (type QTm)
+<use  "lmresids.pdf" >
 
 LaTeX Warning: Reference `fig:f-residuals' on page 164 undefined on input line 
 12949.
@@ -1908,8 +1911,8 @@ LaTeX Warning: Reference `fig:f-scatterplots' on page 168 undefined on input li
 ne 13257.
 
 [168] [169] [170] [171]
-File: xyzspurious.png Graphic file (type QTm)
-<use  "xyzspurious.png" > [172]
+File: xyzspurious.pdf Graphic file (type QTm)
+<use  "xyzspurious.pdf" > [172]
 Overfull \hbox (14.24124pt too wide) in paragraph at lines 13596--13598
  []|\EU1/lmr/m/n/10.95 Coefficient|
  []
@@ -2309,8 +2312,8 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 18366.
  ) 
 Here is how much of TeX's memory you used:
- 26159 strings out of 495086
- 462106 string characters out of 6174758
+ 26158 strings out of 495086
+ 462102 string characters out of 6174758
  580693 words of memory out of 5000000
  29134 multiletter control sequences out of 15000+600000
  63635 words of font info for 99 fonts, out of 8000000 for 9000
