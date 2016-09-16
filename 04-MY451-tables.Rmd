@@ -642,13 +642,7 @@ In particular, we note already that the value $\chi^{2}=18.8$ that was
 actually observed in the real sample occurs very rarely if samples are
 drawn from a population where the null hypothesis of independence holds.
 
-![(\#fig:f-chisampld)Example of the sampling distribution of the $\chi^{2}$ test statistic
-for independence. The plot shows a histogram of the values of the
-statistic in 100,000 simulated samples of size $n=2344$ drawn from the
-population distribution in the upper part of Table
-\@ref(tab:t-sex-attitude-H0pop). Superimposed on the histogram is the curve
-of the approximate sampling distribution, which is the $\chi^{2}$
-distribution with 4 degrees of freedom.](chi2sims){width="8.5cm"}
+![(\#fig:f-chisampld)Example of the sampling distribution of the $\chi^{2}$ test statistic for independence. The plot shows a histogram of the values of the statistic in 100,000 simulated samples of size $n=2344$ drawn from the population distribution in the upper part of Table \@ref(tab:t-sex-attitude-H0pop). Superimposed on the histogram is the curve of the approximate sampling distribution, which is the $\chi^{2}$ distribution with 4 degrees of freedom.](chi2sims){width="8.5cm"}
 
 The form of the sampling distribution can also be derived through
 mathematical arguments. These show that for any two-way contingency
