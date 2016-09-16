@@ -138,7 +138,7 @@ Captions can be added to tables following the example above. For how to add iden
 
 #### Equations
 
-#### Anchors, Labels, Identifiers and referencing them {#labels}
+#### Anchors, Labels, Identifiers and referencing them [#labels]
 
 #### Footnotes
 
