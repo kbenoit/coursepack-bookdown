@@ -8,7 +8,7 @@
   <title>MY451 Introduction to Quantitative Analysis</title>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="This course is intended for those with little or no past training in quantitative methods. The course is an intensive introduction to some of the principles and methods of statistical analysis in social research. Topics covered in MY451 include descriptive statistics, basic ideas of inference and estimation, contingency tables and an introduction to linear regression models.">
-  <meta name="generator" content="bookdown 0.1.5 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.1.7 and GitBook 2.6.7">
 
   <meta property="og:title" content="MY451 Introduction to Quantitative Analysis" />
   <meta property="og:type" content="book" />
@@ -528,38 +528,38 @@ MathJax.Hub.Config({
 <p>The most obvious question about a parameter is “what is our best guess of the value of the parameter in the population?” The answer will be based on the information in the sample, using some sample statistic as the best guess or <strong>estimate</strong> of the population parameter. Specifically, this is a <strong>point estimate</strong>, because it is expressed as a single value or a “point”, to distinguish it from <em>interval</em> estimates defined later.</p>
 <p>We denote a point estimate of <span class="math inline">\(\pi\)</span> by <span class="math inline">\(\hat{\pi}\)</span>. The “<span class="math inline">\(\; \hat{\;}\;\)</span>” or “hat” is often used to denote an estimate of a parameter indicated by the symbol under the hat; <span class="math inline">\(\hat{\pi}\)</span> is read as “pi-hat”. As <span class="math inline">\(\pi\)</span> for a binomial distribution is the population proportion of <span class="math inline">\(Y=1\)</span>, the obvious choice for a point estimate of it is the <em>sample</em> proportion of units with <span class="math inline">\(Y=1\)</span>. If we denote the <em>number</em> of such units by <span class="math inline">\(m\)</span>, the proportion is thus <span class="math inline">\(\hat{\pi}=m/n\)</span>, i.e. <span class="math inline">\(m\)</span> divided by the sample size <span class="math inline">\(n\)</span>. In Example 5.1, <span class="math inline">\(m=330\)</span> and <span class="math inline">\(n=702\)</span>, and <span class="math inline">\(\hat{\pi}=330/702=0.47\)</span>. This and the estimated proportions in the other examples are shown in Table <a href="c-probs.html#tab:t-probex">5.1</a>, in the two-sample examples 5.3 and 5.4 separately for the two groups.</p>
 When <span class="math inline">\(Y\)</span> is coded with values 0 and 1, <span class="math inline">\(\hat{\pi}\)</span> is also equal to the sample mean of <span class="math inline">\(Y\)</span>, since
-<span class="math display">\[\begin{equation}\bar{Y}=\frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}=
+\begin{equation}\bar{Y}=\frac{Y_{1}+Y_{2}+\dots+Y_{n}}{n}=
 \frac{0+0+\dots+0+\overbrace{1+1+\dots+1}^{m \text{ ones}}}{n}=
 \frac{m}{n}=\hat{\pi}.
-\label{eq:pihat-as-ybar}\end{equation}\]</span>
+\label{eq:pihat-as-ybar}\end{equation}
 </div>
 <div id="s-probs-test1sample" class="section level2">
 <h2><span class="header-section-number">5.5</span> Significance test of a single proportion</h2>
 <div id="ss-probs-test1sample-hypotheses" class="section level3">
 <h3><span class="header-section-number">5.5.1</span> Null and alternative hypotheses</h3>
 A null hypothesis about a single population probability <span class="math inline">\(\pi\)</span> is of the form
-<span class="math display">\[\begin{equation}H_{0}:\; \pi=\pi_{0}
-\label{eq:H0p}\end{equation}\]</span>
+\begin{equation}H_{0}:\; \pi=\pi_{0}
+\label{eq:H0p}\end{equation}
 <p>where <span class="math inline">\(\pi_{0}\)</span> is a given number which is either of specific interest or in some other sense a suitable benchmark in a given application. For example, in the voting example 5.1 we could consider <span class="math inline">\(\pi_{0}=0.5\)</span>, i.e. that the referendum was too close to call. In the jury example 5.2 the value of interest would be <span class="math inline">\(\pi_{0}=0.124\)</span>, the proportion of blacks in the general adult population of the county.</p>
 An alternative but equivalent form of (\ref{eq:H0p}) is expressed in terms of the difference
-<span class="math display">\[\begin{equation}\Delta=\pi-\pi_{0}
-\label{eq:Dp}\end{equation}\]</span>
+\begin{equation}\Delta=\pi-\pi_{0}
+\label{eq:Dp}\end{equation}
 (<span class="math inline">\(\Delta\)</span> is the upper-case Greek letter “Delta”). Then (@\ref{eq:H0p}) can also be written as
-<span class="math display">\[\begin{equation}H_{0}: \; \Delta=0,
-\label{eq:H0p2}\end{equation}\]</span>
+\begin{equation}H_{0}: \; \Delta=0,
+\label{eq:H0p2}\end{equation}
 <p>i.e. that there is no difference between the true population probability and the hypothesised value <span class="math inline">\(\pi_{0}\)</span>. This version of the notation allows us later to draw attention to the similarities between different analyses in this chapter and in Chapter <a href="c-means.html#c-means">7</a>. In all of these cases the quantities of interest turn out to be differences of some kind, and the formulas for test statistics and confidence intervals will be of essentially the same form.</p>
 The alternative hypothesis to the null hypothesis (\ref{eq:H0p2}) requires some further comments, because there are some new possibilities that did not arise for the <span class="math inline">\(\chi^{2}\)</span> test of independence in Chapter <a href="c-tables.html#c-tables">4</a>. For the difference <span class="math inline">\(\Delta\)</span>, we may consider two basic kinds of alternative hypotheses. The first is a <strong>two-sided alternative hypothesis</strong>
-<span class="math display">\[\begin{equation}H_{a}: \; \Delta\ne 0
-\label{eq:Hatwo}\end{equation}\]</span>
+\begin{equation}H_{a}: \; \Delta\ne 0
+\label{eq:Hatwo}\end{equation}
 <p>(where “<span class="math inline">\(\ne\)</span>” means “not equal to”). This claims that the true value of the population difference <span class="math inline">\(\Delta\)</span> is some unknown value which is <em>not</em> 0 as claimed by the null hypothesis. With a two-sided <span class="math inline">\(H_{a}\)</span>, sample evidence that the true difference differs from 0 will be regarded as evidence against the null hypothesis, irrespective of whether it suggests that <span class="math inline">\(\Delta\)</span> is actually smaller or larger than 0 (hence the word “two-sided”). When <span class="math inline">\(\Delta=\pi-\pi_{0}\)</span>, this means that we are trying to assess whether the true probability <span class="math inline">\(\pi\)</span> is different from the claimed value <span class="math inline">\(\pi_{0}\)</span>, but without any expectations about whether <span class="math inline">\(\pi\)</span> might be smaller or larger than <span class="math inline">\(\pi_{0}\)</span>.</p>
 The second main possibility is one of the two <strong>one-sided alternative hypotheses</strong>
-<span class="math display">\[\begin{equation}
-H_{a}:  \Delta&gt; 0\label{eq:Haonegt}\end{equation}\]</span>
+\begin{equation}
+H_{a}:  \Delta&gt; 0\label{eq:Haonegt}\end{equation}
 <center>
 or
 </center>
-<span class="math display">\[\begin{equation}H_{a}:  \Delta &lt; 0
-\label{eq:Haonelt}\end{equation}\]</span>
+\begin{equation}H_{a}:  \Delta &lt; 0
+\label{eq:Haonelt}\end{equation}
 <p>Such a hypothesis is only interested in values of <span class="math inline">\(\Delta\)</span> to one side of 0, either larger or smaller than it. For example, hypothesis (\ref{eq:Haonegt}) in the referendum example 5.1, with <span class="math inline">\(\pi_{0}=0.5\)</span>, is <span class="math inline">\(H_{a}:\; \pi&gt;0.5\)</span>, i.e. that the proportion who intend to vote Yes is <em>greater</em> than one half. Similarly, in the jury example 5.2, with <span class="math inline">\(\pi_{0}=0.124\)</span>, (\ref{eq:Haonelt}) is the hypothesis <span class="math inline">\(H_{a}:\; \pi&lt;0.124\)</span>, i.e. that the probability that an eligible black person is selected to a jury panel is <em>smaller</em> than the proportion of blacks in the general population.</p>
 <p>Whether we choose to consider a one-sided or a two-sided alternative hypothesis depends largely on the research questions. In general, a one-sided hypothesis would be used when deviations from the null hypothesis only in one direction would be interesting and/or surprising. This draws on background information about the variables. A two-sided alternative hypothesis is neutral in this respect. Partly for this reason, two-sided hypotheses are in practice used more often than one-sided ones. Choosing a two-sided alternative hypothesis is not wrong even when a one-sided one could also be considered; this will simply lead to a more cautious (conservative) approach in that it takes stronger evidence to reject the null hypothesis when the alternative is two-sided than when it is one-sided. Such conservatism is typically regarded as a desirable feature in statistical inference (this will be discussed further in Section <a href="c-means.html#ss-means-tests3-errors">7.6.1</a>).</p>
 <p>The two-sided alternative hypothesis (\ref{eq:Hatwo}) is clearly the logical opposite of the null hypothesis (\ref{eq:H0p2}): if <span class="math inline">\(\Delta\)</span> is not equal to 0, it must be “not equal” to 0. So a two-sided alternative hypothesis must correspond to a “point” null hypothesis (\ref{eq:H0p2}). For a one-sided alternative hypothesis, the same logic would seem to imply that the null hypothesis should also be one-sided: for example, <span class="math inline">\(H_{0}: \; \Delta\le 0\)</span> and <span class="math inline">\(H_{a}:\; \Delta&gt;0\)</span> would form such a logical pair. Often such “one-sided” null hypothesis is also closest to our research questions: for example, it would seem more interesting to try to test the hypothesis that the proportion of Yes-voters is less than or equal to 0.5 than that it is exactly 0.5. It turns out, however, that when the alternative hypothesis is, say, <span class="math inline">\(H_{a}: \Delta&gt;0\)</span>, the test will be the same when the null hypothesis is <span class="math inline">\(H_{0}: \; \Delta\le 0\)</span> as when it is <span class="math inline">\(H_{0}: \Delta= 0\)</span>, and rejecting or not rejecting one of them is equivalent to rejecting or not rejecting the other. We can thus here always take the null hypothesis to be technically of the form (\ref{eq:H0p2}), even if we are really interested in a corresponding “one-sided” null hypothesis. It is then only the alternative hypothesis which is explicitly either two-sided or one-sided.</p>
@@ -567,26 +567,26 @@ or
 <div id="ss-probs-test1sample-teststatistic" class="section level3">
 <h3><span class="header-section-number">5.5.2</span> The test statistic</h3>
 The test statistic used to test hypotheses of the form (\ref{eq:H0p}) is the <strong>z-test statistic</strong>
-<span class="math display">\[\begin{equation}z=
+\begin{equation}z=
 \frac{\hat{\Delta}}{\hat{\sigma}_{\hat{\Delta}}}=
 \frac{\text{Estimate of the population difference $\Delta$}}
 {\text{Estimated standard error
 of the estimate of $\Delta$}}.
-\label{eq:ttest-gen}\end{equation}\]</span>
+\label{eq:ttest-gen}\end{equation}
 <p>The statistic is introduced first in this form in order to draw attention to its generality. Null hypotheses in many ostensibly different situations can be formulated as hypotheses of the form (\ref{eq:H0p2}) about population differences of some kind, and each can be tested with the test statistic (\ref{eq:ttest-gen}). For example, all of the test statistics discussed in Chapters <a href="c-probs.html#c-probs">5</a>, <a href="c-means.html#c-means">7</a> and <a href="c-regression.html#c-regression">8</a> of this course pack will be of this type (but the <span class="math inline">\(\chi^{2}\)</span> test statistic of Chapter <a href="c-tables.html#c-tables">4</a> is not). The principles of the use and interpretation of the test that are introduced in this section apply almost unchanged also in these other contexts, and only the exact formulas for calculating <span class="math inline">\(\hat{\Delta}\)</span> and <span class="math inline">\(\hat{\sigma}_{\hat{\Delta}}\)</span> will need to be defined separately for each of them. In some applications considered in Chapter <a href="c-means.html#c-means">7</a> the test statistic is typically called the <strong>t-test statistic</strong> instead of the <span class="math inline">\(z\)</span>-test statistic, but its basic idea is still the same.</p>
 In (\ref{eq:ttest-gen}), <span class="math inline">\(\hat{\Delta}\)</span> denotes a sample estimate of <span class="math inline">\(\Delta\)</span>. For a test of a single proportion, this is
-<span class="math display">\[\begin{equation}\hat{\Delta} = \hat{\pi}-\pi_{0},
-\label{eq:Dhatp}\end{equation}\]</span>
+\begin{equation}\hat{\Delta} = \hat{\pi}-\pi_{0},
+\label{eq:Dhatp}\end{equation}
 <p>i.e. the difference between the sample proportion and <span class="math inline">\(\pi_{0}\)</span>. This is the core of the test statistic. Although the forms of the two statistics seem rather different, (\ref{eq:Dhatp}) contains the comparison of the observed and expected sample values that was also at the heart of the <span class="math inline">\(\chi^{2}\)</span> test statistic (see formula at end of Section <a href="c-tables.html#ss-tables-chi2test-stat">4.3.3</a>) in Chapter <a href="c-tables.html#c-tables">4</a>. Here the “observed value” is the sample estimate <span class="math inline">\(\hat{\pi}\)</span> of the probability parameter, “expected value” is the value <span class="math inline">\(\pi_{0}\)</span> claimed for it by the null hypothesis, and <span class="math inline">\(\hat{\Delta}=\hat{\pi}-\pi_{0}\)</span> is their difference. (Equivalently, we could also say that the expected value of <span class="math inline">\(\Delta=\pi-\pi_{0}\)</span> under the null hypothesis (\ref{eq:H0p2}) is 0, its observed value is <span class="math inline">\(\hat{\Delta}\)</span>, and <span class="math inline">\(\hat{\Delta}=\hat{\Delta}-0\)</span> is their difference.)</p>
 <p>If the null hypothesis was true, we would expect the observed difference <span class="math inline">\(\hat{\Delta}\)</span> to be close to 0. If, on the other hand, the true <span class="math inline">\(\pi\)</span> was different from <span class="math inline">\(\pi_{0}\)</span>, we would expect the same to be true of <span class="math inline">\(\hat{\pi}\)</span> and thus <span class="math inline">\(\hat{\Delta}\)</span> to be different from 0. In other words, the difference <span class="math inline">\(\hat{\Delta}=\hat{\pi}-\pi_{0}\)</span> tends to be small (close to zero) when the null hypothesis is true, and large (far from zero) when it is not true, thus satisfying one of the requirements for a good test statistic that were stated at the beginning of Section <a href="c-tables.html#ss-tables-chi2test-sdist">4.3.4</a>. (Whether in this we count as “large” both large positive and large negative values, or just one or the other, depends on the form of the alternative hypothesis, as explained in the next section.)</p>
 <p>The <span class="math inline">\(\hat{\sigma}_{\hat{\Delta}}\)</span> in (\ref{eq:ttest-gen}) denotes an estimate of the standard deviation of the sampling distribution of <span class="math inline">\(\hat{\Delta}\)</span>, which is also known as the estimated <strong>standard error</strong> of <span class="math inline">\(\hat{\Delta}\)</span>. For the test statistic (\ref{eq:ttest-gen}), it is evaluated under the null hypothesis. The concept of a standard error of an estimate will be discussed in more detail in Section <a href="c-contd.html#s-contd-clt">6.4</a>. Its role in the test statistic is to provide an interpretable scale for the size of <span class="math inline">\(\hat{\Delta}\)</span>, so that the sampling distribution discussed in the next section will be of a convenient form.</p>
 For a test of the hypothesis (\ref{eq:H0p}) about a single proportion, the estimated standard error under the null hypothesis is
-<span class="math display">\[\begin{equation}\hat{\sigma}_{\hat{\Delta}} = \sqrt{\frac{\pi_{0}(1-\pi_{0})}{n}},
-\label{eq:seDhatp}\end{equation}\]</span>
+\begin{equation}\hat{\sigma}_{\hat{\Delta}} = \sqrt{\frac{\pi_{0}(1-\pi_{0})}{n}},
+\label{eq:seDhatp}\end{equation}
 and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
-<span class="math display">\[\begin{equation}z=\frac{\hat{\pi}-\pi_{0}}
+\begin{equation}z=\frac{\hat{\pi}-\pi_{0}}
 {\sqrt{\pi_{0}(1-\pi_{0})/n}}.
-\label{eq:ztestp}\end{equation}\]</span>
+\label{eq:ztestp}\end{equation}
 <p>This is the <strong>one-sample <span class="math inline">\(z\)</span>-test statistic for a population proportion</strong>.</p>
 <p>In Example 5.1 we have <span class="math inline">\(\hat{\pi}=0.47\)</span>, <span class="math inline">\(\pi_{0}=0.5\)</span>, and <span class="math inline">\(n=702\)</span>, so <span class="math display">\[z=\frac{\hat{\pi}-\pi_{0}}{\sqrt{\pi_{0}(1-\pi_{0})/n}}=
 \frac{0.47-0.50}{\sqrt{0.50\times(1-0.50)/702}}=-1.59.\]</span> Similarly, in Example 5.2 we have <span class="math inline">\(\hat{\pi}=0.0457\)</span>, <span class="math inline">\(\pi_{0}=0.124\)</span>, <span class="math inline">\(n=4950\)</span>, and <span class="math display">\[z=\frac{0.0457-0.124}{\sqrt{0.124\times(1-0.124)/4950}}
@@ -596,25 +596,22 @@ and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
 <div id="ss-probs-test1sample-samplingd" class="section level3">
 <h3><span class="header-section-number">5.5.3</span> The sampling distribution of the test statistic and <span class="math inline">\(P\)</span>-values</h3>
 <p>Like the <span class="math inline">\(\chi^{2}\)</span> test of Chapter <a href="c-tables.html#c-tables">4</a>, the <span class="math inline">\(z\)</span>-test for a population proportion requires some conditions on the sample size in order for the approximate sampling distribution of the test statistic to be appropriate. These depend also on the value of <span class="math inline">\(\pi\)</span>, which we can estimate by <span class="math inline">\(\hat{\pi}\)</span>. One rule of thumb is that <span class="math inline">\(n\)</span> should be larger than 10 divided by <span class="math inline">\(\pi\)</span> or <span class="math inline">\(1-\pi\)</span>, whichever is smaller. When <span class="math inline">\(\pi\)</span> is not very small or very large, e.g. if it is between 0.3 and 0.7, this essentially amounts to the condition that <span class="math inline">\(n\)</span> should be at least 30. In the voting example 5.1, where <span class="math inline">\(\hat{\pi}=0.47\)</span>, the sample size of <span class="math inline">\(n=702\)</span> is clearly large enough. In the jury example 5.2, <span class="math inline">\(\hat{\pi}=0.0457\)</span> is much closer to zero, but since <span class="math inline">\(10/0.0457\)</span> is a little over 200, a sample of <span class="math inline">\(n=4950\)</span> is again sufficient.</p>
-<p>When the sample size is large enough, the sampling distribution of <span class="math inline">\(z\)</span> defined by (\ref{eq:ztestp}) is approximately the <strong>standard normal distribution</strong>. The probability curve of this distribution is shown in Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a>. For now we just take it as given, and postpone a general discussion of the normal distribution until Chapter <a href="c-means.html#c-means">7</a>.</p>
-<div class="figure"><span id="fig:f-pval-prob"></span>
-<img src="pval_zp.png" alt=" Illustration of the calculation of P-values from the standard normal distribution. Here the value of the z-test statistic is z=-1.59 (as in the referendum example 5.1). The areas in grey indicate the two-sided P-values, i.e. the probabilities of values at least as far from 0 as the observed value of z." width="377" />
-<p class="caption">Figure 5.1:  Illustration of the calculation of <span class="math inline">\(P\)</span>-values from the standard normal distribution. Here the value of the <span class="math inline">\(z\)</span>-test statistic is <span class="math inline">\(z=-1.59\)</span> (as in the referendum example 5.1). The areas in grey indicate the two-sided <span class="math inline">\(P\)</span>-values, i.e. the probabilities of values at least as far from 0 as the observed value of <span class="math inline">\(z\)</span>.</p>
-</div>
+<p>When the sample size is large enough, the sampling distribution of <span class="math inline">\(z\)</span> defined by (\ref{eq:ztestp}) is approximately the <strong>standard normal distribution</strong>. The probability curve of this distribution is shown in Figure <a href="#fig:f-pval-prob">5.1</a>. For now we just take it as given, and postpone a general discussion of the normal distribution until Chapter <a href="c-means.html#c-means">7</a>.</p>
+<p><img src="pval_zp.png" alt=" Illustration of the calculation of P-values from the standard normal distribution. Here the value of the z-test statistic is z=-1.59 (as in the referendum example 5.1). The areas in grey indicate the two-sided P-values, i.e. the probabilities of values at least as far from 0 as the observed value of z." />{width=“10cm”}</p>
 <p>The <span class="math inline">\(P\)</span>-value of the test is calculated from this distribution using the general principles introduced in Section <a href="c-tables.html#ss-tables-chi2test-Pval">4.3.5</a>. In other words, the <span class="math inline">\(P\)</span>-value is the probability that the test statistic <span class="math inline">\(z\)</span> has a value that is as or more extreme than the value of <span class="math inline">\(z\)</span> in the observed sample. Now, however, the details of this calculation depend also on the alternative hypothesis, so some additional explanation is needed.</p>
 <p>Consider first the more common case of a two-sided alternative hypothesis (\ref{eq:Hatwo}), that <span class="math inline">\(\Delta\ne 0\)</span>. As discussed in the previous section, it is <em>large</em> values of the test statistic which indicate evidence against the null hypothesis, because a large <span class="math inline">\(z\)</span> is obtained when the sample difference <span class="math inline">\(\hat{\Delta}=\hat{\pi}-\pi_{0}\)</span> is very different from the zero difference claimed by the null hypothesis. When the alternative is two-sided, “large” is taken to mean any value of <span class="math inline">\(z\)</span> far from zero, i.e. either large positive or large negative values, because both indicate that the sample difference is far from 0. If <span class="math inline">\(z\)</span> is large and positive, <span class="math inline">\(\hat{\Delta}\)</span> is much <em>larger</em> than 0. In example 5.1 this would indicate that a much larger proportion than 0.5 of the sample say they intend to vote Yes. If <span class="math inline">\(z\)</span> is large and negative, <span class="math inline">\(\hat{\Delta}\)</span> is much <em>smaller</em> than 0, indicating a much smaller sample proportion than 0.5. Both of these cases would count as evidence against <span class="math inline">\(H_{0}\)</span> when the alternative hypothesis is two-sided.</p>
 <p>The observed value of the <span class="math inline">\(z\)</span>-test statistic in Example 5.1 was actually <span class="math inline">\(z=-1.59\)</span>. Evidence would thus be “as strong” against <span class="math inline">\(H_{0}\)</span> as the observed <span class="math inline">\(z\)</span> if we obtained a <span class="math inline">\(z\)</span>-test statistic of <span class="math inline">\(-1.59\)</span> or 1.59, the value exactly as far from 0 as the observed <span class="math inline">\(z\)</span> but above rather than below 0. Similarly, evidence against the null would be even stronger if <span class="math inline">\(z\)</span> was further from zero than 1.59, i.e. larger than 1.59 or smaller than <span class="math inline">\(-1.59\)</span>. To obtain the <span class="math inline">\(P\)</span>-value, we thus need to calculate the probability of observing a <span class="math inline">\(z\)</span>-test statistic which is at most <span class="math inline">\(-1.59\)</span> or at least 1.59 when the null hypothesis is true in the population. In general, the <span class="math inline">\(P\)</span>-value for testing the null hypothesis against a two-sided alternative is the probability of obtaining a value at least <span class="math inline">\(z\)</span> or at most <span class="math inline">\(-z\)</span> (when <span class="math inline">\(z\)</span> is positive, vice versa when it is negative), where <span class="math inline">\(z\)</span> here denotes the value of the test statistic in the sample. Such probabilities are calculated from the approximately standard normal sampling distribution of the test statistic under <span class="math inline">\(H_{0}\)</span>.</p>
-<p>This calculation of the <span class="math inline">\(P\)</span>-value is illustrated graphically in Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a>. The curve in the plot is that of the standard normal distribution. Two areas are shown in grey under the curve, one on each tail of the distribution. The one on the left corresponds to values of <span class="math inline">\(-1.59\)</span> and smaller, and the one on the right to values of 1.59 or larger. Each of these areas is about 0.056, and the <span class="math inline">\(P\)</span>-value for a test against a two-sided alternative is their combined area, i.e. <span class="math inline">\(P=0.056+0.056=0.112\)</span>. This means that even if the true population proportion of Yes-voters was actually exactly 0.5, there would be a probability of 0.112 of obtaining a test statistic as or more extreme than the <span class="math inline">\(z=-1.59\)</span> that was actually observed in Example 5.1.</p>
-<p>In example 5.2 the observed test statistic was <span class="math inline">\(z=-16.71\)</span>. The two-sided <span class="math inline">\(P\)</span>-value is then the probability of values that are at most <span class="math inline">\(-16.71\)</span> or at least 16.71. These areas are not shown in Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a> because they would not be visible in it. The horizontal axis of the figures runs from <span class="math inline">\(-4\)</span> to <span class="math inline">\(+4\)</span>, so <span class="math inline">\(-16.71\)</span> is clearly far in the tail of the distribution and the corresponding probability is very small; we would report it as <span class="math inline">\(P&lt;0.001\)</span>.</p>
-<p>Consider now the case of a one-sided alternative hypothesis. For example, in the referendum example we might have decided beforehand to focus only on the possiblity that the proportion of people who intend to vote Yes is smaller than 0.5, and hence consider the alternative hypothesis that <span class="math inline">\(\Delta&lt;0\)</span>. Two situations might then arise. First, suppose that the observed value of the sample difference is in the direction indicated by the alternative hypothesis. This is the case in the example, where the sample difference <span class="math inline">\(\hat{\Delta}=-0.03\)</span> is indeed smaller than zero, and the test statistic <span class="math inline">\(t=-1.59\)</span> is negative. The possible values of <span class="math inline">\(z\)</span> contributing to the <span class="math inline">\(P\)</span>-value are then those of <span class="math inline">\(-1.59\)</span> or smaller. Values of <span class="math inline">\(1.59\)</span> and larger are now not included, because positive values of the test statistic (corresponding to sample differences greater than 0) would not be regarded as evidence in favour of the claim that <span class="math inline">\(\Delta\)</span> is smaller than 0. The <span class="math inline">\(P\)</span>-value is thus only the probability corresponding to the area on the left tail of the curve in Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a>, and the corresponding area on the right tail is not included. Since both areas have the same size, the one-sided <span class="math inline">\(P\)</span>-value is half the two-sided value, i.e. 0.056 instead of 0.112. In general, the one-sided <span class="math inline">\(P\)</span>-value for a <span class="math inline">\(z\)</span>-test of a proportion and other similar tests is always obtained by dividing the two-sided value by 2, if the sample evidence is in the direction of the one-sided alternative hypothesis.</p>
-<p>The second case occurs when the sample difference is not in the direction indicated by a one-sided alternative hypothesis. For example, suppose that the sample proportion of Yes-voters had actually been 0.53, i.e. 0.03 larger than 0.5, so that we had obtained <span class="math inline">\(z=+1.59\)</span> instead. The possible values of the test statistic which contributed to the <span class="math inline">\(P\)</span>-value would then be <span class="math inline">\(z=1.59\)</span> and all smaller values. These are “as strong or stronger evidence against the null hypothesis and in the direction of the alternative hypothesis” as required by the definition at the beginning of Section <a href="c-tables.html#ss-tables-chi2test-Pval">4.3.5</a>, since they agree with the alternative hypothesis (negative values of <span class="math inline">\(z\)</span>) or at least disagree with it less than the observed <span class="math inline">\(z\)</span> (positive values from 0 to 1.59). In Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a>, these values would correspond to the area under the whole curve, apart from the region to the right of <span class="math inline">\(1.59\)</span> on the right tail. Since the probability of the latter is 0.056 and the total probability under the curve is 1, the required probability is <span class="math inline">\(P=1-0.0.56=0.944\)</span>. However, calculating the <span class="math inline">\(P\)</span>-value so precisely is hardly necessary in this case, as it is clearly going to be closer to 1 than to 0. The conclusion from such a large <span class="math inline">\(P\)</span>-value will always be that the null hypothesis should not be rejected. This is also intuitively obvious, as a sample difference in the opposite direction from the one claimed by the alternative hypothesis is clearly not to be regarded as evidence in favour of that alternative hypothesis. In short, if the sample difference is in a different direction than a one-sided alternative hypothesis, the <span class="math inline">\(P\)</span>-value can be reported simply as <span class="math inline">\(P&gt;0.5\)</span> without further calculations.</p>
+<p>This calculation of the <span class="math inline">\(P\)</span>-value is illustrated graphically in Figure <a href="#fig:f-pval-prob">5.1</a>. The curve in the plot is that of the standard normal distribution. Two areas are shown in grey under the curve, one on each tail of the distribution. The one on the left corresponds to values of <span class="math inline">\(-1.59\)</span> and smaller, and the one on the right to values of 1.59 or larger. Each of these areas is about 0.056, and the <span class="math inline">\(P\)</span>-value for a test against a two-sided alternative is their combined area, i.e. <span class="math inline">\(P=0.056+0.056=0.112\)</span>. This means that even if the true population proportion of Yes-voters was actually exactly 0.5, there would be a probability of 0.112 of obtaining a test statistic as or more extreme than the <span class="math inline">\(z=-1.59\)</span> that was actually observed in Example 5.1.</p>
+<p>In example 5.2 the observed test statistic was <span class="math inline">\(z=-16.71\)</span>. The two-sided <span class="math inline">\(P\)</span>-value is then the probability of values that are at most <span class="math inline">\(-16.71\)</span> or at least 16.71. These areas are not shown in Figure <a href="#fig:f-pval-prob">5.1</a> because they would not be visible in it. The horizontal axis of the figures runs from <span class="math inline">\(-4\)</span> to <span class="math inline">\(+4\)</span>, so <span class="math inline">\(-16.71\)</span> is clearly far in the tail of the distribution and the corresponding probability is very small; we would report it as <span class="math inline">\(P&lt;0.001\)</span>.</p>
+<p>Consider now the case of a one-sided alternative hypothesis. For example, in the referendum example we might have decided beforehand to focus only on the possiblity that the proportion of people who intend to vote Yes is smaller than 0.5, and hence consider the alternative hypothesis that <span class="math inline">\(\Delta&lt;0\)</span>. Two situations might then arise. First, suppose that the observed value of the sample difference is in the direction indicated by the alternative hypothesis. This is the case in the example, where the sample difference <span class="math inline">\(\hat{\Delta}=-0.03\)</span> is indeed smaller than zero, and the test statistic <span class="math inline">\(t=-1.59\)</span> is negative. The possible values of <span class="math inline">\(z\)</span> contributing to the <span class="math inline">\(P\)</span>-value are then those of <span class="math inline">\(-1.59\)</span> or smaller. Values of <span class="math inline">\(1.59\)</span> and larger are now not included, because positive values of the test statistic (corresponding to sample differences greater than 0) would not be regarded as evidence in favour of the claim that <span class="math inline">\(\Delta\)</span> is smaller than 0. The <span class="math inline">\(P\)</span>-value is thus only the probability corresponding to the area on the left tail of the curve in Figure <a href="#fig:f-pval-prob">5.1</a>, and the corresponding area on the right tail is not included. Since both areas have the same size, the one-sided <span class="math inline">\(P\)</span>-value is half the two-sided value, i.e. 0.056 instead of 0.112. In general, the one-sided <span class="math inline">\(P\)</span>-value for a <span class="math inline">\(z\)</span>-test of a proportion and other similar tests is always obtained by dividing the two-sided value by 2, if the sample evidence is in the direction of the one-sided alternative hypothesis.</p>
+<p>The second case occurs when the sample difference is not in the direction indicated by a one-sided alternative hypothesis. For example, suppose that the sample proportion of Yes-voters had actually been 0.53, i.e. 0.03 larger than 0.5, so that we had obtained <span class="math inline">\(z=+1.59\)</span> instead. The possible values of the test statistic which contributed to the <span class="math inline">\(P\)</span>-value would then be <span class="math inline">\(z=1.59\)</span> and all smaller values. These are “as strong or stronger evidence against the null hypothesis and in the direction of the alternative hypothesis” as required by the definition at the beginning of Section <a href="c-tables.html#ss-tables-chi2test-Pval">4.3.5</a>, since they agree with the alternative hypothesis (negative values of <span class="math inline">\(z\)</span>) or at least disagree with it less than the observed <span class="math inline">\(z\)</span> (positive values from 0 to 1.59). In Figure <a href="#fig:f-pval-prob">5.1</a>, these values would correspond to the area under the whole curve, apart from the region to the right of <span class="math inline">\(1.59\)</span> on the right tail. Since the probability of the latter is 0.056 and the total probability under the curve is 1, the required probability is <span class="math inline">\(P=1-0.0.56=0.944\)</span>. However, calculating the <span class="math inline">\(P\)</span>-value so precisely is hardly necessary in this case, as it is clearly going to be closer to 1 than to 0. The conclusion from such a large <span class="math inline">\(P\)</span>-value will always be that the null hypothesis should not be rejected. This is also intuitively obvious, as a sample difference in the opposite direction from the one claimed by the alternative hypothesis is clearly not to be regarded as evidence in favour of that alternative hypothesis. In short, if the sample difference is in a different direction than a one-sided alternative hypothesis, the <span class="math inline">\(P\)</span>-value can be reported simply as <span class="math inline">\(P&gt;0.5\)</span> without further calculations.</p>
 <p>If a statistical software package is used to carry out the test, it will also report the <span class="math inline">\(P\)</span>-value and no further calculations are needed (except dividing a two-sided <span class="math inline">\(P\)</span>-value by 2, if a one-sided value is needed and only a two-sided one is reported). However, since SPSS does not currently provide a procedure for this test, and for exam purposes, we will briefly outline how an approximate <span class="math inline">\(P\)</span>-value is obtained using critical values from a table. This is done in a very similar way as for the <span class="math inline">\(\chi^{2}\)</span> test in Section <a href="c-tables.html#ss-tables-chi2test-Pval">4.3.5</a>.</p>
 <p>The first part of Table <a href="c-probs.html#tab:t-ttable">5.2</a> shows a table of critical values for the standard normal distribution. These values are also shown in the Appendix at the end of this course pack, on the last row of a larger table (the other parts of this table will be explained later, in Section <a href="c-means.html#ss-means-inference-variants">7.3.4</a>). A version of this table is included in all introductory text books on statistics, although its format may be slightly different in different books.</p>
 <table>
 <caption><span id="tab:t-ttable">Table 5.2: </span>A table of critical values for the standard normal distribution. The upper part of the table shows the critical values in one row, as in standard statistical tables (see the last row of the table in the Appendix). The lower part of the table includes the same numbers rearranged to show critical values for conventional significance levels for one- and two-sided tests.</caption>
 <tbody>
 <tr class="odd">
-<td></td>
+<td align="left"></td>
 <td align="right">0.100</td>
 <td align="right">0.050</td>
 <td align="right">0.025</td>
@@ -624,7 +621,7 @@ and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
 <td align="right">0.0005</td>
 </tr>
 <tr class="even">
-<td>Critical value</td>
+<td align="left">Critical value</td>
 <td align="right">1.282</td>
 <td align="right">1.645</td>
 <td align="right">1.960</td>
@@ -638,32 +635,32 @@ and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
 <table>
 <tbody>
 <tr class="odd">
-<td></td>
+<td align="left"></td>
 <td align="right">Significance levels</td>
-<td></td>
-<td></td>
-<td></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
-<td>Alternative hypothesis</td>
+<td align="left">Alternative hypothesis</td>
 <td align="right">0.10</td>
-<td>0.05</td>
-<td>0.01</td>
-<td>0.001</td>
+<td align="left">0.05</td>
+<td align="left">0.01</td>
+<td align="left">0.001</td>
 </tr>
 <tr class="odd">
-<td>Two-sided</td>
+<td align="left">Two-sided</td>
 <td align="right">1.65</td>
-<td>1.96</td>
-<td>2.58</td>
-<td>3.29</td>
+<td align="left">1.96</td>
+<td align="left">2.58</td>
+<td align="left">3.29</td>
 </tr>
 <tr class="even">
-<td>One-sided</td>
+<td align="left">One-sided</td>
 <td align="right">1.28</td>
-<td>1.65</td>
-<td>2.33</td>
-<td>3.09</td>
+<td align="left">1.65</td>
+<td align="left">2.33</td>
+<td align="left">3.09</td>
 </tr>
 </tbody>
 </table>
@@ -671,7 +668,7 @@ and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
 <p>These values can be used to obtain bounds for <span class="math inline">\(P\)</span>-values, expressed in terms of conventional significance levels of 0.10, 0.05, 0.01 and 0.001. The values at which these tail probabilities are obtained are the corresponding critical values for the test statistic. They are shown in the lower part of Table <a href="c-probs.html#tab:t-ttable">5.2</a>, slightly rearranged for clarity of presentation and rounded to two decimal places (which is accurate enough for practical purposes). The basic idea of using the critical values is that if the observed (absolute value of) the <span class="math inline">\(z\)</span>-test statistic is <em>larger</em> than a critical value (for the required kind of alternative hypothesis) shown in the lower part of Table <a href="c-probs.html#tab:t-ttable">5.2</a>, the <span class="math inline">\(P\)</span>-value is <em>smaller</em> than the significance level corresponding to that critical value.</p>
 <p>The table shows only positive critical values. If the observed test statistic is actually negative, its negative (<span class="math inline">\(-\)</span>) sign is omitted and the resulting positive value (i.e. the absolute value of the statistic) is compared to the critical values. Note also that the critical value for a given significance level depends on whether the alternative hypothesis is two-sided or one-sided. In the one-sided case, the test statistic is compared to the critical values only if it is actually in the direction of the alternative hypothesis; if not, we can simply report <span class="math inline">\(P&gt;0.5\)</span> as discussed above.</p>
 <p>The <span class="math inline">\(P\)</span>-value obtained from the table is reported as being smaller than the smallest conventional significance level for which the corresponding critical value is exceeded by the observed test statistic. For instance, in the jury example 5.2 we have <span class="math inline">\(z=-16.71\)</span>. Considering a two-sided alternative hypothesis, 16.71 is larger than the critical values 1.65, 1.96, 2.58 and 3.29 for all the standard significance levels, so we can report that <span class="math inline">\(P&lt;0.001\)</span>. For Example 5.1, in contrast, <span class="math inline">\(z=-1.59\)</span>, the absolute value of which is smaller than even the critical value 1.65 for the 10% significance level. For this example, we would report <span class="math inline">\(P&gt;0.1\)</span>.</p>
-<p>The intuitive idea of the critical values and their connection to the <span class="math inline">\(P\)</span>-values is illustrated for Example 5.1 by Figure <a href="c-probs.html#fig:f-pval-prob">5.1</a>. Here the observed test statistic is <span class="math inline">\(t=-1.59\)</span>, so the two-sided <span class="math inline">\(P\)</span>-value is the probability of values at least 1.59 or at most <span class="math inline">\(-1.59\)</span>, which correspond to the two gray areas in the tails of the distribution. Also shown in the plot is one of the critical values for two-sided tests, the 1.96 for significance level 0.05. By definition of the critical values, the combined tail probability of values at least 1.96 from 0, i.e. the probability of values at least 1.96 or at most <span class="math inline">\(-1.96\)</span>, is 0.05. It is clear from the plot that since 1.59 is smaller than 1.96, these areas are smaller than the tail areas corresponding to 1.59 and <span class="math inline">\(-1.59\)</span>, and the combined area of the latter must be more than 0.05, i.e. it must be that <span class="math inline">\(P&gt;0.05\)</span>. Similar argument for the 10% critical value of 1.65 shows that <span class="math inline">\(P\)</span> is here also larger than 0.1.</p>
+<p>The intuitive idea of the critical values and their connection to the <span class="math inline">\(P\)</span>-values is illustrated for Example 5.1 by Figure <a href="#fig:f-pval-prob">5.1</a>. Here the observed test statistic is <span class="math inline">\(t=-1.59\)</span>, so the two-sided <span class="math inline">\(P\)</span>-value is the probability of values at least 1.59 or at most <span class="math inline">\(-1.59\)</span>, which correspond to the two gray areas in the tails of the distribution. Also shown in the plot is one of the critical values for two-sided tests, the 1.96 for significance level 0.05. By definition of the critical values, the combined tail probability of values at least 1.96 from 0, i.e. the probability of values at least 1.96 or at most <span class="math inline">\(-1.96\)</span>, is 0.05. It is clear from the plot that since 1.59 is smaller than 1.96, these areas are smaller than the tail areas corresponding to 1.59 and <span class="math inline">\(-1.59\)</span>, and the combined area of the latter must be more than 0.05, i.e. it must be that <span class="math inline">\(P&gt;0.05\)</span>. Similar argument for the 10% critical value of 1.65 shows that <span class="math inline">\(P\)</span> is here also larger than 0.1.</p>
 </div>
 <div id="ss-probs-test1sample-conclusions" class="section level3">
 <h3><span class="header-section-number">5.5.4</span> Conclusions from the test</h3>
@@ -712,29 +709,29 @@ and the specific formula of the test statistic (\ref{eq:ttest-gen}) is then
 <p>Our aim is again to draw inference on the difference <span class="math inline">\(\Delta=\pi-\pi_{0}\)</span> or, equivalently, the population probability <span class="math inline">\(\pi\)</span>. The point estimate of <span class="math inline">\(\Delta\)</span> is <span class="math inline">\(\hat{\Delta}=\hat{\pi}-\pi_{0}\)</span> where <span class="math inline">\(\hat{\pi}\)</span> is the sample proportion corresponding to <span class="math inline">\(\pi\)</span>. Suppose that the conditions on the sample size <span class="math inline">\(n\)</span> that were discussed in Section <a href="c-probs.html#ss-probs-test1sample-samplingd">5.5.3</a> are again satisfied.</p>
 <p>Consider now Figure @ref(fig:f-pval-prob}. One of the results illustrated by it is that if <span class="math inline">\(\pi_{0}\)</span> is the true value of of the population probability <span class="math inline">\(\pi\)</span>, so that <span class="math inline">\(\Delta=\pi-\pi_{0}=0\)</span>, there is a probability of 0.95 that for a randomly drawn sample from the population the <span class="math inline">\(z\)</span>-test statistic <span class="math inline">\(z=\hat{\Delta}/\hat{\sigma}_{\hat{\Delta}}\)</span> is between <span class="math inline">\(-1.96\)</span> and <span class="math inline">\(+1.96\)</span>. This also implies that the probability is 0.95 that in such a sample the observed value of <span class="math inline">\(\hat{\Delta}\)</span> will be between <span class="math inline">\(\Delta-1.96\,\hat{\sigma}_{\hat{\Delta}}\)</span> and <span class="math inline">\(\Delta+1.96\,\hat{\sigma}_{\hat{\Delta}}\)</span>. Furthermore, it is clear from the figure that all of the values within this interval are more likely to occur than any of the values outside the interval (i.e. those in the two tails of the sampling distribution). The interval thus seems like a sensible summary of the “most likely” values that the estimate <span class="math inline">\(\hat{\Delta}\)</span> may have in random samples.</p>
 A confidence interval essentially turns this around, into a statement about the unknown true value of <span class="math inline">\(\Delta\)</span> in the population, even in cases where <span class="math inline">\(\Delta\)</span> is not 0. This is done by substituting <span class="math inline">\(\hat{\Delta}\)</span> for <span class="math inline">\(\Delta\)</span> above, to create the interval
-<span class="math display">\[\begin{equation}\text{from  }
+\begin{equation}\text{from  }
 \hat{\Delta} -1.96\times \hat{\sigma}_{\hat{\Delta}}
 \text{  to  }
 \hat{\Delta}
 +1.96\times \hat{\sigma}_{\hat{\Delta}}.
-\label{eq:cim0}\end{equation}\]</span>
+\label{eq:cim0}\end{equation}
 This is the <strong>95 % confidence interval</strong> for the population difference <span class="math inline">\(\Delta\)</span>. It is usually written more concisely as
-<span class="math display">\[\begin{equation}\hat{\Delta}
+\begin{equation}\hat{\Delta}
 \pm 1.96\, \hat{\sigma}_{\hat{\Delta}}
-\label{eq:cim1}\end{equation}\]</span>
+\label{eq:cim1}\end{equation}
 <p>where the “plusminus” symbol <span class="math inline">\(\pm\)</span> indicates that we calculate the two endpoints of the interval as in (\ref{eq:cim0}), one below and one above <span class="math inline">\(\hat{\Delta}\)</span>.</p>
 Expression (\ref{eq:cim1}) is general in the sense that many different quantities can take the role of <span class="math inline">\(\Delta\)</span> in it. Here we consider for now the case of <span class="math inline">\(\Delta=\pi-\pi_{0}\)</span>. The estimated standard error <span class="math inline">\(\hat{\sigma}_{\hat{\Delta}}\)</span> is analogous to (\ref{eq:seDhatp}) used for the <span class="math inline">\(z\)</span>-test, but not the same. This is because the confidence interval is not calculated under the null hypothesis <span class="math inline">\(H_{0}:\; \pi=\pi_{0}\)</span>, so we cannot use <span class="math inline">\(\pi_{0}\)</span> for <span class="math inline">\(\pi\)</span> in the standard error. Instead, <span class="math inline">\(\pi\)</span> is estimated by the sample proportion <span class="math inline">\(\hat{\pi}\)</span>, giving the estimated standard error
-<span class="math display">\[\begin{equation}\hat{\sigma}_{\hat{\Delta}} = \sqrt{
+\begin{equation}\hat{\sigma}_{\hat{\Delta}} = \sqrt{
 \frac{\hat{\pi}(1-\hat{\pi})}{n}
 }
-\label{eq:sephat2}\end{equation}\]</span>
+\label{eq:sephat2}\end{equation}
 and thus the 95% confidence interval <span class="math display">\[(\hat{\pi}-\pi_{0}) \pm 1.96 \;
 \sqrt{
 \frac{\hat{\pi}(1-\hat{\pi})}{n}}\]</span> for <span class="math inline">\(\Delta=\pi-\pi_{0}\)</span>. Alternatively, a confidence interval for <span class="math inline">\(\pi\)</span> itself is given by
-<span class="math display">\[\begin{equation}\hat{\pi} \pm 1.96 \;
+\begin{equation}\hat{\pi} \pm 1.96 \;
 \sqrt{
 \frac{\hat{\pi}(1-\hat{\pi})}{n}}.
-\label{eq:cip2}\end{equation}\]</span>
+\label{eq:cip2}\end{equation}
 <p>This is typically the most useful interval for use in practice. For instance, in the referendum example 5.1 this gives a 95% confidence interval of <span class="math display">\[0.470\pm 1.96\times \sqrt{\frac{0.470\times(1-0.470)}{702}}
 =0.470\pm 0.0369=(0.433, 0.507)\]</span> for the proportion of definite Yes-voters in the population. Similarly, in Example 5.2 the 95% confidence interval for the probability of a black person being selected for the jury pool is (0.040, 0.052). These intervals are also shown in Table <a href="c-probs.html#tab:t-probex">5.1</a>.</p>
 </div>
@@ -746,27 +743,27 @@ and thus the 95% confidence interval <span class="math display">\[(\hat{\pi}-\pi
 </ul>
 <p>This is undeniably convoluted, even more so than the precise interpretation of a <span class="math inline">\(P\)</span>-value. In practise a confidence interval would not usually be described in exactly these words. Instead, a research report might, for example, write that (in the referendum example) “the 95 % confidence interval for the proportion of eligible voters in the population who definitely intend to vote Yes is (0.433, 0.507)”, or that “we are 95 % confident that the proportion of eligible voters in the population who definitely intend to vote Yes is between 43.3% and 50.7%”. Such a statement in effect assumes that the readers will be familiar enough with the idea of confidence intervals to understand the claim. It is nevertheless useful to be aware of the more careful interpretation of a confidence interval, if only to avoid misunderstandings. The most common error is to claim that “there is a 95% probability that the proportion in the population is between 0.433 and 0.507”. Although the difference to the interpretation given above may seem small, the latter statement is not really true, or strictly speaking even meaningful, in the statistical framework considered here.</p>
 In place of the 1.96 in (\ref{eq:cim1}), we may also use other numbers. To allow for this in the notation, we can also write
-<span class="math display">\[\begin{equation}\hat{\Delta} \pm z_{\alpha/2}\; \hat{\sigma}_{\hat{\Delta}}.
-\label{eq:ci-D-gen}\end{equation}\]</span>
+\begin{equation}\hat{\Delta} \pm z_{\alpha/2}\; \hat{\sigma}_{\hat{\Delta}}.
+\label{eq:ci-D-gen}\end{equation}
 <p>where the multiplier <span class="math inline">\(z_{\alpha/2}\)</span> is a number which depends on two things. One of them is the sampling distribution of <span class="math inline">\(\hat{\Delta}\)</span>, which is here assumed to be the normal distribution (another possibility is discussed in Section <a href="c-means.html#ss-means-inference-variants">7.3.4</a>). The second is the <strong>confidence level</strong> which we have chosen for the confidence interval. For example, the probability of 0.95 in the interpretation of a 95% confidence interval discussed above is the confidence level of that interval. Conventionally the 0.95 level is most commonly used, while other standard choices are 0.90 and 0.99, i.e. 90% and 99% confidence intervals.</p>
 <p>In the symbol <span class="math inline">\(z_{\alpha/2}\)</span>, <span class="math inline">\(\alpha\)</span> is a number such that <span class="math inline">\(1-\alpha\)</span> equals the required confidence level. In other words, <span class="math inline">\(\alpha=0.1\)</span>, 0.05, and 0.01 for confidence levels of <span class="math inline">\(1-\alpha=0.90\)</span>, 0.95 and 0.99 respectively. The values that are required for the conventional levels are <span class="math inline">\(z_{0.10/2}=z_{0.05}=1.64\)</span>, <span class="math inline">\(z_{0.05/2}=z_{0.025}=1.96\)</span>, and <span class="math inline">\(z_{0.01/2}=z_{0.005}=2.58\)</span>, which correspond to intervals at the confidence levels of 90%, 95% and 99% respectively. These values are also shown in Table <a href="c-probs.html#tab:t-ciq">5.3</a>.</p>
 <table>
 <caption><span id="tab:t-ciq">Table 5.3: </span>Multipliers <span class="math inline">\(z_{\alpha/2}\)</span> used to obtain confidence intervals based on the normal distribution, for three standard confidence levels. These values are substituted for <span class="math inline">\(z_{\alpha/2}\)</span> in formula (\ref{eq:ci-D-gen}) to obtain the confidence interval.</caption>
 <tbody>
 <tr class="odd">
-<td></td>
+<td align="left"></td>
 <td align="right">Confidence levels</td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
 <tr class="even">
-<td></td>
+<td align="left"></td>
 <td align="right">90%</td>
 <td align="right">95%</td>
 <td align="right">99%</td>
 </tr>
 <tr class="odd">
-<td>Multiplier <span class="math inline">\(z_{\alpha/2}\)</span></td>
+<td align="left">Multiplier <span class="math inline">\(z_{\alpha/2}\)</span></td>
 <td align="right">1.64</td>
 <td align="right">1.96</td>
 <td align="right">2.58</td>
@@ -805,57 +802,57 @@ In place of the 1.96 in (\ref{eq:cim1}), we may also use other numbers. To allow
 <li><p>Example 5.4: compare the proportion of optimistic responses to a negative (<span class="math inline">\(\pi_{1}\)</span>) vs. positive wording of the question (<span class="math inline">\(\pi_{2}\)</span>).</p></li>
 </ul>
 The quantity of interest is then the population difference
-<span class="math display">\[\begin{equation}\Delta=\pi_{2}-\pi_{1}.
-\label{eq:Dp2sample}\end{equation}\]</span>
+\begin{equation}\Delta=\pi_{2}-\pi_{1}.
+\label{eq:Dp2sample}\end{equation}
 For a significance test of this, the null hypothesis will again be <span class="math inline">\(H_{0}:\; \Delta=0\)</span>, which is in this case equivalent to the hypothesis of equal proportions
-<span class="math display">\[\begin{equation}H_{0}:\; \pi_{1} = \pi_{2}.
-\label{eq:H0pD}\end{equation}\]</span>
+\begin{equation}H_{0}:\; \pi_{1} = \pi_{2}.
+\label{eq:H0pD}\end{equation}
 <p>The null hypothesis thus claims that there is no association between the group variable <span class="math inline">\(X\)</span> and the dichotomous response variable <span class="math inline">\(Y\)</span>, while the alternative hypothesis (e.g.  the two-sided one <span class="math inline">\(H_{a}:\; \pi_{1}\ne \pi_{2}\)</span>, i.e. <span class="math inline">\(H_{a}:\; \Delta\ne 0\)</span>) implies that there is an association.</p>
 The obvious estimates of <span class="math inline">\(\pi_{1}\)</span> and <span class="math inline">\(\pi_{2}\)</span> are the corresponding sample proportions <span class="math inline">\(\hat{\pi}_{1}\)</span> and <span class="math inline">\(\hat{\pi}_{2}\)</span>, calculated from samples of sizes <span class="math inline">\(n_{1}\)</span> and <span class="math inline">\(n_{2}\)</span> respectively, and the estimate of <span class="math inline">\(\Delta\)</span> is then
-<span class="math display">\[\begin{equation}\hat{\Delta}=\hat{\pi}_{2} - \hat{\pi}_{1}.
-\label{eq:Dhatpi}\end{equation}\]</span>
+\begin{equation}\hat{\Delta}=\hat{\pi}_{2} - \hat{\pi}_{1}.
+\label{eq:Dhatpi}\end{equation}
 <p>This gives <span class="math inline">\(\hat{\Delta}=0.000284-0.000706=-0.000422\)</span> in Example 5.3 and <span class="math inline">\(\hat{\Delta}=0.364-0.279=0.085\)</span> in Example 5.4. In the samples, the proportion of polio cases is thus lower in the vaccinated group, and the proportion of optimistic answers is higher in response to a positively worded question. Note also that although the inference discussed below focuses on the difference of the proportions, for purely descriptive purposes we might prefer to use some other statistic, such as the ratio of the proportions. For example, the difference of 0.000422 in polio incidence between vaccine and control groups may seem small, because the proportions in both groups are small. A better idea of the the magnitude of the contrast is given by their ratio of <span class="math inline">\(0.000706/0.000284=2.49\)</span> (this is known as the <em>risk ratio</em>). In other words, the rate of polio infection in the unvaccinated group was two and a half times the rate in the vaccinated group.</p>
 <p> The tests and confidence intervals discussed below are again based on the assumption that the relevant sampling distributions are approximately normal, which is true when the sample sizes <span class="math inline">\(n_{1}\)</span> and <span class="math inline">\(n_{2}\)</span> are large enough. The conditions for this are not very demanding: one rule of thumb states that the methods described in this section are reasonably valid if in both groups the number of observations with <span class="math inline">\(Y\)</span> having the value 1, and of ones with the value 0, are both more than 5. This condition is satisfied in both of the examples considered here.</p>
 <p>The validity of the test, as well as the amount of information the data provide about <span class="math inline">\(\pi_{1}\)</span> and <span class="math inline">\(\pi_{2}\)</span> in general, thus depends not just on the overall sample sizes but on having enough observations of both values of <span class="math inline">\(Y\)</span>. The critical quantity is then the number of observations in the rarer category of <span class="math inline">\(Y\)</span>. In Example 5.3 this means the numbers of children diagnosed with polio, because the probability of polio was low in the study population. The numbers of eventual polio cases were 142 and 57 in the control and treatment groups respectively, so the rule of thumb stated above was satisfied. With such low probabilities of polio incidence, sufficient numbers of cases were achieved only by making the overall sample sizes <span class="math inline">\(n_{1}\)</span> and <span class="math inline">\(n_{2}\)</span> large enough. That is why the trial had to be very large, involving hundreds of thousands of participants.</p>
 The standard error of <span class="math inline">\(\hat{\Delta}\)</span> is
-<span class="math display">\[\begin{equation}\sigma_{\hat{\Delta}} =
+\begin{equation}\sigma_{\hat{\Delta}} =
 \sqrt{
 \frac{\pi_{2}(1-\pi_{2})}{n_{2}}
 +\frac{\pi_{1}(1-\pi_{1})}{n_{1}}
 }.
-\label{eq:sigmaDpi}\end{equation}\]</span>
+\label{eq:sigmaDpi}\end{equation}
 As in the one-sample case above, the best way to estimate this is different for a significance test than for a confidence interval. For a test, the standard error can be estimated under assumption that the null hypothesis (\ref{eq:H0pD}) is true, in which case the population proportion is the same in both groups. A good estimate of this common proportion, denoted below by <span class="math inline">\(\hat{\pi}\)</span>, is the proportion of observations with value 1 for <span class="math inline">\(Y\)</span> in the total sample of <span class="math inline">\(n_{1}+n_{2}\)</span> observations, pooling observations from both groups together; expressed in terms of the group-specific estimates, this is
-<span class="math display">\[\begin{equation}\hat{\pi} = \frac{n_{1}\hat{\pi}_{1}+n_{2}\hat{\pi}_{2}}{n_{1}+n_{2}}.
-\label{eq:phat2sample}\end{equation}\]</span>
+\begin{equation}\hat{\pi} = \frac{n_{1}\hat{\pi}_{1}+n_{2}\hat{\pi}_{2}}{n_{1}+n_{2}}.
+\label{eq:phat2sample}\end{equation}
 Using this for both <span class="math inline">\(\pi_{1}\)</span> and <span class="math inline">\(\pi_{2}\)</span> in (\ref{eq:sigmaDpi}) gives the estimated standard error
-<span class="math display">\[\begin{equation}\hat{\sigma}_{\hat{\Delta}}=
+\begin{equation}\hat{\sigma}_{\hat{\Delta}}=
 \sqrt{
 \hat{\pi}(1-\hat{\pi}) \; \left(
 \frac{1}{n_{2}}+
 \frac{1}{n_{1}}
 \right),
 }
-\label{eq:seDpi}\end{equation}\]</span>
+\label{eq:seDpi}\end{equation}
 and using (\ref{eq:Dhatpi}) and (\ref{eq:seDpi}) in the general formula (\ref{eq:ttest-gen}) gives the <strong>two-sample <span class="math inline">\(z\)</span>-test statistic for proportions</strong>
-<span class="math display">\[\begin{equation}z=
+\begin{equation}z=
 \frac{\hat{\pi}_{2}-\hat{\pi}_{1}}
 {\sqrt{\hat{\pi}(1-\hat{\pi})(1/n_{2}+1/n_{1})}}
-\label{eq:ztestDpi}\end{equation}\]</span>
+\label{eq:ztestDpi}\end{equation}
 <p>where <span class="math inline">\(\hat{\pi}\)</span> is given by (\ref{eq:phat2sample}). When the null hypothesis is true, the sampling distribution of this test statistic is approximately standard normal when the sample sizes are large enough.</p>
 For a confidence interval, the calculation of the estimated standard error cannot assume that (\ref{eq:H0pD}) is true. Instead, we use the estimate
-<span class="math display">\[\begin{equation}\hat{\sigma}_{\hat{\Delta}} =
+\begin{equation}\hat{\sigma}_{\hat{\Delta}} =
 \sqrt{
 \frac{\hat{\pi}_{2}(1-\hat{\pi}_{2})}{n_{2}} +
 \frac{\hat{\pi}_{1}(1-\hat{\pi}_{1})}{n_{1}}
 }
-\label{eq:seDpi2}\end{equation}\]</span>
+\label{eq:seDpi2}\end{equation}
 and, substituting this to the general formula (\ref{eq:ci-D-gen}), we get
-<span class="math display">\[\begin{equation}(\hat{\pi}_{2}-\hat{\pi}_{1}) \pm z_{\alpha/2} \;
+\begin{equation}(\hat{\pi}_{2}-\hat{\pi}_{1}) \pm z_{\alpha/2} \;
 \sqrt{
 \frac{\hat{\pi}_{2}(1-\hat{\pi}_{2})}{n_{2}} +
 \frac{\hat{\pi}_{1}(1-\hat{\pi}_{1})}{n_{1}}
 }
-\label{eq:ciDpi}\end{equation}\]</span>
+\label{eq:ciDpi}\end{equation}
 <p>as the confidence interval for <span class="math inline">\(\Delta=\pi_{2}-\pi_{1}\)</span>, with confidence level <span class="math inline">\(1-\alpha\)</span>.</p>
 <p>For an illustration of the calculations, consider Example 5.4. Denoting the group of respondents answering the negatively worded question by 1 and those with the positive question by 2, the basic quantities are <span class="math inline">\(n_{1}=921\)</span>, <span class="math inline">\(\hat{\pi}_{1}=0.279\)</span>, <span class="math inline">\(n_{2}=929\)</span> and <span class="math inline">\(\hat{\pi}_{2}=0.364\)</span>. The estimated difference in the proportions of respondents giving an optimistic answer is thus <span class="math display">\[\hat{\Delta} = \hat{\pi}_{2}-\hat{\pi}_{1} = 0.364-0.279 = 0.085.\]</span> For a significance test, the estimated standard error of <span class="math inline">\(\hat{\Delta}\)</span> uses the pooled estimate (\ref{eq:phat2sample}) of the population proportion, which is given by <span class="math display">\[\hat{\pi} = \frac{921\times 0.279+929\times 0.364}{921+929}=
 \frac{257+338}{921+929} = 0.322.\]</span> The standard error from (\ref{eq:seDpi}) is then <span class="math display">\[\hat{\sigma}_{\hat{\Delta}}
@@ -880,11 +877,8 @@ and, substituting this to the general formula (\ref{eq:ci-D-gen}), we get
 \frac{0.2315}{929}
 +\frac{0.2012}{921}
 }=0.0216\end{aligned}\]</span> and a 95% confidence interval from (\ref{eq:ciDpi}) is <span class="math display">\[0.085 \pm 1.96 \times 0.0216 = 0.085\pm 0.042 = (0.043; 0.127).\]</span> The <span class="math inline">\(P\)</span>-value for the test statistic is clearly very low (in fact about <span class="math inline">\(0.00009\)</span>), so the null hypothesis of equal proportions is convincingly rejected. There is very strong evidence that the probability that a respondent will give an answer indicating optimism for the future is different for the two differently worded questions. The confidence interval indicates that we are 95% confident that the proportion of optimistic answers is between 4.3 and 12.7 percentage points higher when the question is worded positively than when it is worded negatively. This suggests quite a substantial acquiescence bias arising from changing just one word in the survey question, as described in the introduction to Example 5.4 at the beginning of this chapter.</p>
-<p>In Example 5.3, the estimated difference is <span class="math inline">\(\hat{\Delta}=-0.000422\)</span> (see Table <a href="c-probs.html#tab:t-probex">5.1</a>, i.e. 422 fewer polio cases per million children in the vaccinated group than in the unvaccinated group. Similar calculations as above show that the value of the test statistic is <span class="math inline">\(z=-6.01\)</span>, so the <span class="math inline">\(P\)</span>-value is again very small (in fact about 0.000000001) and the null hypothesis of equal probabilities is strongly rejected. There is thus overwhelming evidence that the proportion of polio cases was different among the vaccinated children than among the unvaccinated ones. The 95% confidence interval for the difference shows that we are 95% confident that this difference was a reduction of between 284 and 560 polio cases per million children.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a> This was acknowledged as a convincing demonstration that the Salk vaccine worked (see Figure <a href="c-probs.html#fig:f-nytimes">5.2</a>), and it (and later other types of polio vaccination) was soon put to widespread use. The resulting dramatic decline in the incidence of polio is one of the great success stories of modern medicine. Compared to the 199 children with polio in 1954 among the less than half a million participants of the vaccine trial alone, in 2014 there were 414 confirmed cases of polio in the whole world (see <a href="http://www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx" class="uri">http://www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx</a>). There is hope that that number will reach 0 in a not-too-distant future, so that the once devastating disease will one day be entirely eradicated.</p>
-<div class="figure"><span id="fig:f-nytimes"></span>
-<img src="salk_nytimes.png" alt=" Public reaction to statistical inference." width="566" />
-<p class="caption">Figure 5.2:  Public reaction to statistical inference.</p>
-</div>
+<p>In Example 5.3, the estimated difference is <span class="math inline">\(\hat{\Delta}=-0.000422\)</span> (see Table <a href="c-probs.html#tab:t-probex">5.1</a>, i.e. 422 fewer polio cases per million children in the vaccinated group than in the unvaccinated group. Similar calculations as above show that the value of the test statistic is <span class="math inline">\(z=-6.01\)</span>, so the <span class="math inline">\(P\)</span>-value is again very small (in fact about 0.000000001) and the null hypothesis of equal probabilities is strongly rejected. There is thus overwhelming evidence that the proportion of polio cases was different among the vaccinated children than among the unvaccinated ones. The 95% confidence interval for the difference shows that we are 95% confident that this difference was a reduction of between 284 and 560 polio cases per million children.<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a> This was acknowledged as a convincing demonstration that the Salk vaccine worked (see Figure <a href="#fig:f-nytimes">5.2</a>), and it (and later other types of polio vaccination) was soon put to widespread use. The resulting dramatic decline in the incidence of polio is one of the great success stories of modern medicine. Compared to the 199 children with polio in 1954 among the less than half a million participants of the vaccine trial alone, in 2014 there were 414 confirmed cases of polio in the whole world (see <a href="http://www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx" class="uri">http://www.polioeradication.org/Dataandmonitoring/Poliothisweek.aspx</a>). There is hope that that number will reach 0 in a not-too-distant future, so that the once devastating disease will one day be entirely eradicated.</p>
+<p><img src="salk_nytimes.png" alt=" Public reaction to statistical inference." />{width=“150mm”}</p>
 
 </div>
 </div>
@@ -932,7 +926,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/kbenoit/coursepack-bookdown/edit/master/05-MY451_5.Rmd",
+"link": "https://github.com/kbenoit/coursepack-bookdown/edit/master/05-MY451-probs.Rmd",
 "text": null
 },
 "download": ["Coursepack-MY451.pdf", "Coursepack-MY451.epub"],
