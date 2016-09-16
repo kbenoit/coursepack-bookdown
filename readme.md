@@ -31,7 +31,7 @@ Now you have an exact and complete copy of the project folder on your computer a
 
 The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The beginning of the course pack, in this case the preface, is stored in `index.Rmd`. The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files accord to the order you want those chapters to be in in the course pack.
 
-To make changes to the course pack manuscript go ahead and open one of the Rmd files. If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and human-readable. That is because they rely on an authoring convention called Markdown.^[More specifically, Pandoc-flavored Markdown.]
+To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. Make sure to disable soft line wrapping in your editor for the Rmd files to display correctly. If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
 
 ### Markdown
 
@@ -70,10 +70,46 @@ or
 #### Subsubsection
 ```
 
-By default, headers will automatically be numbered in the output (the website, the printable, the ebook) according to their level and position in the manuscript. Some headers, however, you may not want to be numbered -- for example level 4-6 headers or headers in the preface or appendix.
-include `{-}`
+By default, headers will automatically be numbered in the output (the website, the printable, the ebook) according to their level and position in the manuscript. Some headers, however, you may not want to be numbered -- for example level 4-6 headers or headers in the preface or appendix. In order to exclude those from being automatically numbered append `{-}` like so:
+
+```markdown
+
+# Appendix {-}
+
+```
 
 #### Tables
+
+A simple table can look like this:
+
+```markdown
+  Region               Frequency   Proportion       %
+  ------------------ ----------- ------------ -------
+  Africa                      48        0.310    31.0
+  Asia                        44        0.284    28.4
+  Europe                      34        0.219    21.9
+  Latin America               23        0.148    14.8
+  Northern America             2        0.013     1.3
+  Oceania                      4        0.026     2.6
+  Total                      155        1.000   100.0
+
+  : (\#tab:t-region)Frequency distribution of the region variable in the country data.
+```
+
+You'll notice that the horizontal rule and its breaks determine the number of rows.
+
+The alignment of a row is determined by where you place the content of the first line in relation to the horizontal rule. It does not matter where exactly you place the remaining content as long as it is within the row. In the output, the entire row will be aligned according to the first line:
+
+```markdown
+Left-aligned   Centered   Right-aligned
+------------- ---------- --------------
+    0.1              1.0 0.0
+
+```
+
+Becomes:
+
+![](./images/simpletabledemo.png)
 
 #### Figures
 
