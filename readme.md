@@ -132,13 +132,13 @@ A **multiline table** with cells that take up more than one line can look like t
   : Example of a multiline table.
 ```
 
-Captions can be added to tables following the example above. For how to add identifiers to tables see [Anchors, Labels, Identifiers and referencing them](#labels) below.
+Captions can be added to tables following the example above. For how to add identifiers to tables see [Anchors, Labels, Identifiers and referencing them](#anchors-labels-identifiers-and-referencing-them-labels) below.
 
 #### Figures
 
 #### Equations
 
-#### Anchors, Labels, Identifiers and referencing them [#labels]
+#### Anchors, Labels, Identifiers and referencing them
 
 #### Footnotes
 
