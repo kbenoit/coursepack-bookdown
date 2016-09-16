@@ -15,7 +15,7 @@ The prototype of this in-house authoring and publishing process that is before y
 
 The manuscript for that course pack is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To make changes to that manuscript you need Git installed on your computer. One way to do that is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
 
-## Clone manuscript from online repository
+# Clone manuscript from online repository
 In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:
 <!--^[Instructions taken verbatim from <https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/>.]-->
 
@@ -27,17 +27,17 @@ In order to make changes to the manuscript of the MY451 course pack you need to 
 
 Now you have an exact and complete copy of the project folder on your computer and are ready to make changes to it.
 
-## Make changes
+# Make changes
 
 The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The beginning of the course pack, in this case the preface, is stored in `index.Rmd`. The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files accord to the order you want those chapters to be in in the course pack.
 
 To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. Make sure to disable soft line wrapping in your editor for the Rmd files to display correctly. If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
 
-### Markdown
+## Markdown
 
 Like HTML or Latex, Markdown is a way to mark elements of text for what we want them to be. Unlike HTML or Latex, however, Markdown requires minimal know-how while affording most of the functionalities of HTML or Latex. The only text elements in the manuscript before you that require knowledge of Latex are equations. Keep reading for an overview of writing in Markdown.
 
-#### Headings, Lists, Emphasis
+### Headings, Lists, Emphasis
 
 **Headings, headers, or titles** are made by putting a hash (`#`) in front of them and having them be preceded by a blank line.
 
@@ -78,7 +78,7 @@ By default, headers will automatically be numbered in the output (the website, t
 
 ```
 
-#### Tables
+### Tables
 
 A **simple table** can look like this:
 
@@ -134,7 +134,7 @@ A **multiline table** with cells that take up more than one line can look like t
 
 Captions can be added to tables following the example above. For how to add unique identifiers to tables see ["Anchors, Labels, Identifiers and referencing them"](#anchors-labels-identifiers-and-referencing-them) below.
 
-#### Figures
+### Figures
 
 The format for inserting a figure -- in other words an image -- is:
 
@@ -158,7 +158,7 @@ and the project folder needs to include both `bar_attitude.pdf` and `bar_attitud
 
 Assuming a figure you made is available in .eps format or .pdf, you can produce a pdf or png file using your operating system's standard picture viewer. On Mac OS X, for example, open an image file with the Preview app and click "File" > "Export..."" > then choose output format PNG > select path to project folder > click "Save".
 
-#### Equations
+### Equations
 
 Equations need to be authored in Latex. **In-line equations** need to be bracketed with a dollar sign. A blank space is necessary before the opening `$` and after the closing `$`.
 
@@ -184,7 +184,7 @@ In the output it will look like this:
 
 ![](./images/equation-demo.png)
 
-#### Anchors, Labels, Identifiers and referencing them
+### Anchors, Labels, Identifiers and referencing them
 
 Headers, Tables, Figures, and Equations can be given unique identifiers, also called anchors or labels, that allows you to reference them elsewhere in the manuscript. A unique identifier numbers an item automatically. When you reference that unique identifier elsewhere in the manuscript the dynamically associated number will be shown in the output. At the moment, equations can only be referenced dynamically inside the same manuscript file, in other words, inside the same chapter.
 
@@ -220,7 +220,7 @@ Labelling an equation can be done by including `\label{eq:unique-identifier}` in
 \begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n} \label{eq:example-equation}\end{equation}
 ```
 
-#### Footnotes
+### Footnotes
 
 Footnotes can be added in-line and will be typeset automatically at the bottom of the page. Follow the following format:
 
@@ -228,7 +228,7 @@ Footnotes can be added in-line and will be typeset automatically at the bottom o
 Honeymoon salad is made from lettuce alone and no dressing.^[The Late Show with Stephen Colbert, CBS, September 16, 2016.]
 ```
 
-## Upload changed manuscript files to online repository
+# Upload changed manuscript files to online repository
 
 Once you have made and saved changes to any file in the project folder, they will show up in the repository in your GitHub Desktop app.
 
