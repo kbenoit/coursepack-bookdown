@@ -1,7 +1,7 @@
 ---
 title: "MY451 Introduction to Quantitative Analysis"
 author:
-    - "Jouni Kuha III"
+    - "Jouni Kuha III of Hannover"
     - "Department of Methodology"
     - "London School of Economics and Political Science"
 date: "2016-17"
