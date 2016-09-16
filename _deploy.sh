@@ -8,7 +8,7 @@ set -e
 git config --global user.email "K.R.Benoit@lse.ac.uk"
 git config --global user.name "Ken Benoit"
 
-git clone -b gh-pages https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git book-output
+git clone -b gh-pages https://kbenoit@github.com/coursepack-bookdown.git book-output
 cd book-output
 cp -r ../_book/* ./
 git add --all *
