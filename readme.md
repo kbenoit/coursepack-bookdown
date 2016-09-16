@@ -241,4 +241,4 @@ To upload the changed files, which is also called "pushing" changes, go to your 
 Your changes will be in effect after a few minutes. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook too view them.
 
 
-- Tobias Pester, September 2016</right>
+-- Tobias Pester, September 2016
