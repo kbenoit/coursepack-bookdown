@@ -1,4 +1,4 @@
-## In-house authoring and publishing process for the Department of Methodology at the London School of Economics and Political Science
+### In-house authoring and publishing process for the Department of Methodology at the London School of Economics and Political Science
 
 # Goal
 The goal of the project documented here was to develop and provide a new and improved in-house authoring and publishing process for the Department of Methodology at the LSE.
@@ -16,7 +16,8 @@ The prototype of this in-house authoring and publishing process before you imple
 The manuscript for that course pack is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To make changes to that manuscript you need Git installed on your computer. One way to do that is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
 
 ## Clone manuscript from online repository
-In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:<!--^[Instructions taken verbatim from <https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/>.]-->
+In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:
+<!--^[Instructions taken verbatim from <https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/>.]-->
 
 1. Sign in to GitHub and GitHub Desktop before you start to clone.
 2. On GitHub, navigate to the main page of the repository.
