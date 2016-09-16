@@ -80,7 +80,7 @@ By default, headers will automatically be numbered in the output (the website, t
 
 #### Tables
 
-A simple table can look like this:
+A **simple table** can look like this:
 
 ```markdown
   Region               Frequency   Proportion       %
@@ -111,11 +111,34 @@ Becomes:
 
 ![](./images/simpletabledemo.png)
 
+A **multiline table** with cells that take up more than one line can look like the one below. In multiline tables it is crucial that
+* the table begins and ends with a row of dashes,
+* rows are separated by blank lines, and that
+* the bottom row of dashes is followed by a blank line
+
+```markdown
+-------------------------------------------------------------
+ Centered   Default           Right Left
+  Header    Aligned         Aligned Aligned
+----------- ------- --------------- -------------------------
+   First    row                12.0 Example of a row that
+                                    spans multiple lines.
+
+  Second    row                 5.0 Here's another one. Note
+                                    the blank line between
+                                    rows.
+-------------------------------------------------------------
+
+  : Example of a multiline table.
+```
+
+Captions can be added to tables following the example above. For how to add identifiers to tables see below \ref{labels}
+
 #### Figures
 
 #### Equations
 
-#### Anchors, Labels, Identifiers and referencing them
+#### Anchors, Labels, Identifiers and referencing them {labels}
 
 #### Footnotes
 
