@@ -1,13 +1,4 @@
----
-title: Authoring instructions for this project
-author: Tobias Pester
-date: September 16, 2016
----
-
-@spellcheck @proselint
-
-
-**In-house authoring and publishing process for the Department of Methodology at the London School of Economics and Political Science**
+### In-house authoring and publishing process for the Department of Methodology at the London School of Economics and Political Science
 
 # Goal
 The goal of the project documented here was to develop and provide a new and improved in-house authoring and publishing process for the Department of Methodology at the LSE.
@@ -99,4 +90,4 @@ include `{-}`
 You'll see the changes in effect after a few minutes.
 
 
--Tobias Pester
+- Tobias Pester, September 2016
