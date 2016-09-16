@@ -132,11 +132,57 @@ A **multiline table** with cells that take up more than one line can look like t
   : Example of a multiline table.
 ```
 
-Captions can be added to tables following the example above. For how to add identifiers to tables see [Anchors, Labels, Identifiers and referencing them](#anchors-labels-identifiers-and-referencing-them) below.
+Captions can be added to tables following the example above. For how to add identifiers to tables see ["Anchors, Labels, Identifiers and referencing them"](#anchors-labels-identifiers-and-referencing-them) below.
 
 #### Figures
 
+The format for inserting a figure -- in other words an image -- is:
+
+```markdown
+
+![(\#fig:f-name-of-unique-identifier) Caption text.](file-name-without-file-extension)
+
+```
+
+It is important that in the manuscript you give the file name without a file extension as shown above and that you provide one and the same image in two file formats: `.pdf` and `.png`.
+
+So in order to insert into the manuscript a figure we call "bar_attitude" it needs to read in the manuscript something like this:
+
+```markdown
+
+![(\#fig:f-name-of-unique-identifier) Caption text.](bar_attitude)
+
+```
+
+and the project folder needs to include both `bar_attitude.pdf` and `bar_attitude.png`. This is to meet the challenges of both print and screen output.
+
+Assuming a figure you made is available in .eps format or .pdf, you can produce a pdf or png file using your operating system's standard picture viewer. On Mac OS X, for example, open an image file with the Preview app and click "File" > "Export..."" > then choose output format PNG > select path to project folder > click "Save".
+
 #### Equations
+
+Equations need to be authored in Latex. **In-line equations** need to be bracketed with a dollar sign. A blank space is necessary before the opening `$` and after the closing `$`.
+
+**Separate equations** need to be bracketed with double dollar signs. Again, a blank space is necessary before the opening `$$` and after the closing `$$`.
+
+**Separate, labeled and automatically numbered equations** need to be bracketed with `\begin{equation}` and `\end{equation}` respectively.
+
+```markdown
+This line contains and in-line equation $(1+5)/2=3$.
+
+Here is a separate equation:
+
+$$Y_{i}-\bar{Y}$$
+
+Here is a separate, labeled and automatically numbered equation:
+
+\begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n}, \label{eq:example-equation}\end{equation}
+
+And here is a sentence containing a reference to the equation above. See equation \@ref(eq:example-equation).
+```
+
+In the output it will look like this:
+
+
 
 #### Anchors, Labels, Identifiers and referencing them
 
