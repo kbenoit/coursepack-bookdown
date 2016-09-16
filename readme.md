@@ -103,7 +103,8 @@ Any string of text -- words, phrases, headers, paragraphs -- can be **emphasized
 
 Make text **bold** with two asterisks.
 
-
+Turn text ***bold and italic*** with three asterisks.
+```
 
 ### Tables
 
