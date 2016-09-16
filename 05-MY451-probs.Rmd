@@ -1,4 +1,4 @@
-# Inference for population proportions, yo mama {#c-probs}
+# Inference for population proportions {#c-probs}
 
 ## Introduction {#s-probs-intro}
 
