@@ -103,7 +103,7 @@ Any string of text -- words, phrases, headers, paragraphs -- can be **emphasized
 
 Make text **bold** with two asterisks.
 
-Turn text ***bold and italic*** with three asterisks.
+Text will be ***bold and italic*** in the output with three asterisks.
 ```
 
 ### Tables
@@ -246,6 +246,18 @@ Labelling an equation can be done by including `\label{eq:unique-identifier}` in
 
 ```latex
 \begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n} \label{eq:example-equation}\end{equation}
+```
+
+Any unique identifier can be referenced elsewhere in the manuscript with the expression `\@ref(unique-identifier)`. Make sure to prefix the unique identifier with what you are referencing: `tab:` for tables, `fig:` for figures, and `eq:` for equations; headings take no prefix.
+
+```markdown
+See Section \@ref(c-intro).
+
+See table \@ref(tab:t-region).
+
+See figure \@ref(fig:bar_attitude).
+
+See equation \@ref(eq:example-equation) in this chapter.
 ```
 
 ### Footnotes
