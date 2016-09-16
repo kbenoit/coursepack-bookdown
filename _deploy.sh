@@ -6,7 +6,7 @@ set -e
 #[ "${TRAVIS_BRANCH}" != "master" ] && exit 0
 
 git config --global user.email "kbenoit@lse.ac.uk"
-git config --global user.name "kbenoit"
+git config --global user.name "Travis CI"
 
 git clone -b gh-pages git@github.com:kbenoit/coursepack-bookdown.git book-output
 cd book-output
