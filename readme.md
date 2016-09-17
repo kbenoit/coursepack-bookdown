@@ -9,11 +9,15 @@ Specifically, the new process should
 
 (2) automatically produce a book-form website, a pdf printable, and an ebook from one and the same source file in Plain Text Markdown.
 
-# How To
+# How it works
 
 The prototype of this in-house authoring and publishing process that is before you implements the course pack for the Department of Methodology's MY451 course "Introduction to Quantitative Analysis". The published course pack can be seen on <https://kbenoit.github.io/coursepack-bookdown/>.
 
-The manuscript for that course pack is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To make changes to that manuscript you need Git installed on your computer. One way to do that is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
+The project folder for that course pack containing the chapter manuscripts is stored online at <https://github.com/kbenoit/coursepack-bookdown>. To contribute to that manuscript you simply download the project folder, make your changes, and upload the project folder again.
+
+The downloading and uploading of the project folder requires a software called Git. Git affords the effective management of project folders and files by way of version control. One way to set up Git on your computer is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
+
+No other software or application is needed to author books using this process. All of the compiling and publishing is done automatically and online.
 
 # Download project folder from online repository
 In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:
@@ -33,7 +37,7 @@ The manuscript of class MY451 is stored in files with the extension `.Rmd`. One 
 
 ## Authoring in Atom Text Editor
 
-To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors. You can download it [here](https://atom.io).
+To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. You can use any editor you prefer or that ships with your operating system. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors. You can download it [here](https://atom.io).
 
 If you use Atom, I recommend you install the package "language-pfm". That will highlight elements of the manuscript text according to the authoring convention this process relies on. Another package you may find useful in order to have your writing experience free from distraction is "Zen". Both packages can be installed going to the menu bar of Atom Editor and clicking "Atom" > "Settings" > "+ Install" on the left-hand sidebar > enter the name of the package you want to install in the search field > hit Enter > find it in the search results that appear below and click "Install". Once you have done that, syntax highlighting will be in effect, no more action needed. To activate the distraction-free "zen" mode for writing, in the menu bar, go to "View" > "Toggle Command Palette" and enter "zen" into the search field that appears. In the search results right below click "Zen: Toggle".
 
