@@ -31,7 +31,17 @@ Now you have an exact and complete copy of the project folder on your computer a
 
 The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The beginning of the course pack, in this case the preface, is stored in `index.Rmd`. The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files accord to the order you want those chapters to be in in the course pack.
 
-To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. Make sure to disable soft line wrapping in your editor for the Rmd files to display correctly. If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
+## Authoring in Atom Text Editor
+
+To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors. You can download it [here](https://atom.io).
+
+If you use Atom, I recommend you install the package "language-pfm". That will highlight elements of the manuscript text according to the authoring convention this process relies on. Another package you may find useful in order to have your writing experience free from distraction is "Zen". Both packages can be installed going to the menu bar of Atom Editor and clicking "Atom" > "Settings" > "+ Install" on the left-hand sidebar > enter the name of the package you want to install in the search field > hit Enter > find it in the search results that appear below and click "Install". Once you have done that, syntax highlighting will be in effect, no more action needed. To activate the distraction-free "zen" mode for writing, in the menu bar, go to "View" > "Toggle Command Palette" and enter "zen" into the search field that appears. In the search results right below click "Zen: Toggle".
+
+You can further modify the appearance of the Atom Text Editor in its settings under "Themes" in the left-hand sidebar.
+
+For the Rmd files and particularly the tables to display correctly, it is important that you soft line wrapping is disabled. If a table looks broken up to you, in the menu bar, go to "View" > "Toggle Command Palette" and enter "wrap" into the search field. Click "Editor: Toggle Soft Wrap" in the search results below.
+
+If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and easily human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
 
 ## Markdown
 
@@ -267,6 +277,16 @@ Footnotes can be added in-line and will be typeset automatically at the bottom o
 ```markdown
 Honeymoon salad is made from lettuce alone and no dressing.^[The Late Show with Stephen Colbert, CBS, September 16, 2016.]
 ```
+
+## Alternative authoring environments: R, R Markdown, and RStudio
+
+If you are familiar with the programming language R you can also use the RStudio application with the "knitr" expansion to author manuscripts. There is no R code used in this MY451 course pack. But you may find R useful for producing complex or dynamic tables or figures in your book project. You can even produce dynamic figures that readers of your book's website can interact with.
+
+You can find documentation for a variety of Markdown that supports R code [here](http://rmarkdown.rstudio.com/lesson-1.html).
+
+RStudio can be found and downloaded [here](https://www.rstudio.com/).
+
+Documentation for the knitr expansion can be found [here](http://yihui.name/knitr/).
 
 # Upload changed manuscript files to online repository
 
