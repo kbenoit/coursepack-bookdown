@@ -716,7 +716,7 @@ right way, because it means that we can use the same $\chi^{2}$
 distribution for any table with a given number of rows and columns, as
 long as the sample size is large enough for the conditions in Section \@ref(ss-tables-chi2test-ass) to be satisfied.
 
-### The $P$-value {#ss-tables-chi2test-Pval}
+### The P-value {#ss-tables-chi2test-Pval}
 
 The last key building block of significance testing operationalises the
 comparison between the observed value of a test statistic and its

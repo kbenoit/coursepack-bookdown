@@ -1622,7 +1622,7 @@ Explanation of the “Table of standard normal tail probabilities” in Section
 
 \newpage
 
-### Table of critical values for $t$-distributions {-}
+### Table of critical values for t-distributions {-}
 
   ---------------- --------------------------------------------------- ------- -------- -------- -------- --------- ---------
   df                                                             0.100   0.050    0.025    0.010    0.005     0.001    0.0005
@@ -1669,7 +1669,7 @@ critical values for the standard normal distribution.
 
 \newpage
 
-### Table of critical values for $\chi^{2}$ distributions {-}
+### Table of critical values for chi-square distributions {-}
 
   ----- --------------------------------------------------- -------- -------- ---------
   df                                                  0.100    0.050    0.010     0.001

@@ -491,7 +491,7 @@ means are described next, in Section \@ref(ss-means-inference-test) for
 the significance test and in Section \@ref(ss-means-inference-ci) for the
 confidence interval.
 
-### Significance testing: The two-sample $t$-test {#ss-means-inference-test}
+### Significance testing: The two-sample t-test {#ss-means-inference-test}
 
 For tests of the difference of means $\Delta=\mu_{2}-\mu_{1}$ between
 two population distributions, we consider the null hypothesis of no

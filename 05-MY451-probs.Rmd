@@ -476,7 +476,7 @@ formula (\@ref(eq:ztestp)) is very simple, we can easily calculate it with a
 pocket calculator, after first using SPSS to find out $\hat{\pi}$. This
 approach will be used in the computer classes.
 
-### The sampling distribution of the test statistic and $P$-values {#ss-probs-test1sample-samplingd}
+### The sampling distribution of the test statistic and P-values {#ss-probs-test1sample-samplingd}
 
 Like the $\chi^{2}$ test of Chapter \@ref(c-tables), the
 $z$-test for a population proportion requires some conditions on the
