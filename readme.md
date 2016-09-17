@@ -286,7 +286,7 @@ Honeymoon salad is made from lettuce alone and no dressing.^[The Late Show with 
 
 If you are familiar with the programming language R you can also use the RStudio application with the "knitr" expansion to author manuscripts. There is no R code used in this MY451 course pack. But you may find R useful for producing complex or dynamic tables or figures in your book project. You can even produce dynamic figures that readers of your book's website can interact with.
 
-You can find documentation for a variety of Markdown that supports R code [here](http://rmarkdown.rstudio.com/lesson-1.html).
+You can find documentation for a variation of Markdown that supports R code [here](http://rmarkdown.rstudio.com/lesson-1.html).
 
 RStudio can be found and downloaded [here](https://www.rstudio.com/).
 
