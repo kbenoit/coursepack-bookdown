@@ -37,13 +37,13 @@ The manuscript of class MY451 is stored in files with the extension `.Rmd`. One 
 
 ## Authoring in Atom Text Editor
 
-To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. You can use any editor you prefer or that ships with your operating system. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors. You can download it [here](https://atom.io).
+To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. You can use any editor you prefer or that ships with your operating system. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors to this course pack. You can download Atom [here](https://atom.io).
 
 If you use Atom, I recommend you install the package "language-pfm". That will highlight elements of the manuscript text according to the authoring convention this process relies on. Another package you may find useful in order to have your writing experience free from distraction is "Zen". Both packages can be installed going to the menu bar of Atom Editor and clicking "Atom" > "Settings" > "+ Install" on the left-hand sidebar > enter the name of the package you want to install in the search field > hit Enter > find it in the search results that appear below and click "Install". Once you have done that, syntax highlighting will be in effect, no more action needed. To activate the distraction-free "zen" mode for writing, in the menu bar, go to "View" > "Toggle Command Palette" and enter "zen" into the search field that appears. In the search results right below click "Zen: Toggle".
 
 You can further modify the appearance of the Atom Text Editor in its settings under "Themes" in the left-hand sidebar.
 
-For the Rmd files and particularly the tables to display correctly, it is important that you soft line wrapping is disabled. If a table looks broken up to you, in the menu bar, go to "View" > "Toggle Command Palette" and enter "wrap" into the search field. Click "Editor: Toggle Soft Wrap" in the search results below.
+For the Rmd files and particularly the tables to display correctly, it is important that soft line wrapping is disabled. If a table looks broken up to you, in the menu bar, go to "View" > "Toggle Command Palette" and enter "wrap" into the search field. Click "Editor: Toggle Soft Wrap" in the search results below.
 
 If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and easily human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
 
