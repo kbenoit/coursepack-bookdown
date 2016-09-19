@@ -112,8 +112,9 @@ possible census error in it).
 
                                                                                                                                                                       0.052)
 
+  --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
   **Two Independent samples**
-
+  --------------------------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
   Example 5.3: Polio diagnoses in a vaccine trial
 
                                                                                     $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
@@ -562,7 +563,7 @@ figures runs from $-4$ to $+4$, so $-16.71$ is clearly far in the tail
 of the distribution and the corresponding probability is very small; we
 would report it as $P<0.001$.
 
- Consider now the case of a one-sided alternative
+Consider now the case of a one-sided alternative
 hypothesis. For example, in the referendum example we might have decided
 beforehand to focus only on the possiblity that the proportion of people
 who intend to vote Yes is smaller than 0.5, and hence consider the
