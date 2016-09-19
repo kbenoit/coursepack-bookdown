@@ -377,28 +377,24 @@ score of $-1.26$, is 1.26 standard deviations *below* (hence the
 negative sign) the mean, while 90 (with $Z$ score 1.40) is 1.40 standard
 deviations *above* the mean.
 
-![(\#fig:f-normbp)Illustration of probabilities for a normal distribution in the blood
-pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
-probabilities for the ranges of values at most 60 (“Low”), between 60
-and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
+![(\#fig:f-normbp)Illustration of probabilities for a normal distribution in the blood pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
+probabilities for the ranges of values at most 60 (“Low”), between 60 and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
 
          $z$   Tail Prob. 
   ---------- -------------
-    $\vdots$      $\vdots$
+         ...           ...
         1.24        0.1075
         1.25        0.1056
         1.26        0.1038
         1.27        0.1020
-    $\vdots$      $\vdots$
+         ...           ...
         1.38        0.0838
         1.39        0.0823
         1.40        0.0808
         1.41        0.0793
-    $\vdots$      $\vdots$
+         ...           ...
 
-  : (\#tab:t-normtab)Extract from the table of right-hand tail probabilities for normal
-  $Z$ scores. Here “Tail Prob.” is the probability that a value from the
-  standard normal distribution is at least the value in the column
+  : (\#tab:t-normtab)Extract from the table of right-hand tail probabilities for normal $Z$ scores. Here “Tail Prob.” is the probability that a value from the standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown in the Appendix.
 
 The probability distribution of the $Z$ scores is a normal distribution

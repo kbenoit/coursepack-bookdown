@@ -811,11 +811,11 @@ statistic was 9.49, $P$ would be 0.050.
   2                   4.61    5.99    9.21      13.82
   3                   6.25    7.81   11.34      16.27
   4                   7.78    9.49   13.28      18.47
-  $\vdots$        $\vdots$                   $\vdots$
+  ...                  ...                        ...
   ---------- ------------- ------- ------- ----------
 
   : (\#tab:t-chi2table)An extract from a table of critical values for $\chi^{2}$
-  distributions. Row 2-5 show the right-hand tail probability
+  distributions. Row 2-5 show the right-hand tail probability.
 
 The values in the table also provide bounds for other values that are
 not shown. For instance, in the hypothetical sample in Table
