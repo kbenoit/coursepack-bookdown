@@ -209,9 +209,9 @@ by comparing the heights of the bars.
 
 ![(\#fig:f-bars-region)Bar chart of regions in the country data.](regions){height="9.5cm"}
 
-![(\#fig:f-bars-democ)Bar chart of the democracy index in the country data.](democ)
+![(\#fig:f-bars-democ)Bar chart of the democracy index in the country data.](democ){height="9.5cm"}
 
-![(\#fig:f-bars-attitude)Bar chart of the attitude variable in the survey data example. Agreement with statement: ``The government should take measures to reduce differences in income levels''. European Social Survey, Round 5 (2010), UK respondents only.](bar_attitude)
+![(\#fig:f-bars-attitude)Bar chart of the attitude variable in the survey data example. Agreement with statement: ``The government should take measures to reduce differences in income levels''. European Social Survey, Round 5 (2010), UK respondents only.](bar_attitude){height="8cm"}
 
 Some guidelines for drawing bar charts are:
 
