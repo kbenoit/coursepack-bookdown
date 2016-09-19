@@ -12,8 +12,6 @@ bookdown::gitbook:
   pandoc_args:
     - "--default-image-extension=png"
 bookdown::pdf_book:
-  includes:
-    in_header: preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   pandoc_args:
