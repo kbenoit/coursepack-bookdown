@@ -24,7 +24,7 @@ The following five examples will be used for illustration throughout
 this chapter. Summary statistics for them are shown in Table
 \@ref(tab:t-groupex).
 
-##### Example 7.1: Survey data on diet {#p-ex71}
+##### Example 7.1: Survey data on diet {-}
 
 The National Diet and Nutrition Survey of adults aged 19–64 living in
 private households in Great Britain was carried out in 2000–01.^[Conducted for the Food Standards Agency and the Department of
@@ -87,7 +87,7 @@ acids ($n=1724$, $\bar{Y}=35.3$, and $s=6.11$).
 
 :(\#tab:t-groupex)Examples of analyses of population means used in Chapter \@ref(c-means). Here $n$ and $\bar{Y}$ denote the sample size and sample mean respectively, in the two-group examples 7.2–7.5 separately for the two groups. “Diff.” denotes the between-group difference of means, and $s$ is the sample standard deviation of the response variable $Y$ for the whole sample (Example 7.1), of the response variable within each group (Examples 7.2 and 7.3), or of the within-pair differences (Examples 7.4 and 7.5).
 
-##### Example 7.2: Housework by men and women {#p-ex72}
+##### Example 7.2: Housework by men and women {-}
 
 This example uses data from the 12th wave of the British Household Panel
 Survey (BHPS), collected in 2002. BHPS is an ongoing survey of UK
@@ -114,7 +114,7 @@ means of $Y$ are $\bar{Y}_{1}=7.33$ and $\bar{Y}_{2}=8.49$. These and
 the sample standard deviations $s_{1}$ and $s_{2}$ are also shown in
 Table \@ref(tab:t-groupex).
 
-##### Example 7.3: Eye contact and perceived friendliness of police officers {#p-ex73}
+##### Example 7.3: Eye contact and perceived friendliness of police officers {-}
 
 This example is based on an experiment conducted to examine the effects
 of some aspects of the appearance and behaviour of police officers on
@@ -146,7 +146,7 @@ the direction and statistical significance of the difference between
 $\bar{Y}_{2}$ and $\bar{Y}_{1}$ are the same as those in the published
 report.
 
-##### Example 7.4: Transition to parenthood {#p-dependentex}
+##### Example 7.4: Transition to parenthood {-}
 
 In a study of the stresses and feelings associated with parenthood, 109
 couples expecting their first child were interviewed before and after
@@ -170,7 +170,7 @@ error of the difference in Table \@ref(tab:t-groupex) has been made up in
 such a way that the results of a significance test for the mean
 difference agree with those in the article.
 
-##### Example 7.5: Traffic patterns on Friday the 13th {#p-ex75}
+##### Example 7.5: Traffic patterns on Friday the 13th {-}
 
 A common superstition regards the 13th day of any month falling on a
 Friday as a particularly unlucky day. In a study examining the possible
@@ -418,7 +418,7 @@ assumptions of the analyses considered in this section are as follows:
     2, which have a population distribution with mean $\mu_{2}$ and
     standard deviation $\sigma_{2}$.
 
-3.  The two samples are independent, in the sense discussed following [Example 7.5](#p-ex75).
+3.  The two samples are independent, in the sense discussed following Example 7.5.
 
 4.  For now, we further assume that the population standard deviations
     $\sigma_{1}$ and $\sigma_{2}$ are equal, with a common value denoted
@@ -1393,7 +1393,7 @@ unrelated units (people, in all of these cases). It thus seemed
 justified to treat the groups as statistically independent. The third
 and last general case considered in this chapter is one where this
 assumption cannot be made, because there are some obvious connections
-between the groups. [Examples 7.4 and 7.5](#p-dependentex) illustrate this situation. Specifically, in
+between the groups. Examples 7.4 and 7.5 illustrate this situation. Specifically, in
 both cases we can find for each observation in one group a natural
 *pair* in the other group. In Example 7.4, the data consist of
 observations of a variable for a group of fathers at two time points, so
