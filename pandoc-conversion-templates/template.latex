@@ -246,6 +246,7 @@ $else$
 $endif$
 
 \begin{document}
+\frontmatter
 $if(title)$
 \maketitle
 $endif$
@@ -259,7 +260,7 @@ $for(include-before)$
 $include-before$
 
 $endfor$
-\frontmatter\thispagestyle{empty}
+\thispagestyle{empty}
 $if(toc)$
 {
 $if(colorlinks)$
@@ -275,6 +276,7 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
+\thispagestyle{empty}
 \thispagestyle{empty}
 \setcounter{page}{1}
 $body$

@@ -18,6 +18,6 @@ bookdown::pdf_book:
     - "--default-image-extension=pdf"
     - "--template"
     - "./pandoc-conversion-templates/template.latex"
-bookdown::epub_book: #default
+bookdown::epub_book:
   pandoc_args:
     - "--default-image-extension=png"
