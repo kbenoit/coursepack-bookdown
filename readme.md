@@ -49,7 +49,7 @@ If you are familiar with how those manuscript files looked before, you'll notice
 
 ## Markdown
 
-Like HTML or Latex, Markdown is a way to mark elements of text for what we want them to be. Unlike HTML or Latex, however, Markdown requires minimal know-how while affording most of the functionalities of HTML or Latex. The only text elements in the manuscript before you that require knowledge of Latex are equations. Keep reading for an overview of writing in Markdown.
+Like HTML or Latex, Markdown is a way to mark elements of text for what we want them to be. Unlike HTML or Latex, however, Markdown requires minimal know-how while affording most of the functionalities of HTML or Latex. The only text elements in the manuscript before you that require knowledge of Latex are equations. Keep reading for an overview of writing in Markdown. You can also find the full documentation of Pandoc-flavored Markdown [here](http://pandoc.org/MANUAL.html).
 
 ### Headings, Lists, Emphasis
 
