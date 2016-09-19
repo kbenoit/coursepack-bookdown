@@ -304,7 +304,7 @@ To upload the changed files, which is also called "pushing" changes, go to your 
 
 ![](./images/commit-demo.png)
 
-Your changes will be in effect after a few minutes. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook to view your changes.
+Your changes will be in effect shortly. This can be within three minutes or thirty minutes depending on the workload of the Travis CI server that does the compiling. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook to view your changes.
 
 
 -- Tobias Pester, September 2016
