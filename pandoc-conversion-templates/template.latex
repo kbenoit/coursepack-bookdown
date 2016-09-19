@@ -12,7 +12,7 @@
 \setlength{\evensidemargin}{37mm}
 \setlength{\textwidth}{144mm}
 \setlength{\oddsidemargin}{37mm}
-\graphicspath{{./images/}}
+%\graphicspath{{./images/}}
 
 $if(fontfamily)$
 \usepackage[$for(fontfamilyoptions)$$fontfamilyoptions$$sep$,$endfor$]{$fontfamily$}
