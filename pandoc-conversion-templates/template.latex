@@ -260,15 +260,16 @@ $for(include-before)$
 $include-before$
 
 $endfor$
-\thispagestyle{empty}
 $if(toc)$
 {
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
 $endif$
+\thispagestyle{empty}
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
+\thispagestyle{empty}
 $endif$
 $if(lot)$
 \listoftables
@@ -276,9 +277,6 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
-\thispagestyle{empty}
-\thispagestyle{empty}
-\setcounter{page}{1}
 $body$
 
 $if(natbib)$
