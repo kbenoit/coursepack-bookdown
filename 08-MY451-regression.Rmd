@@ -322,7 +322,9 @@ examining associations between continuous variables, and often the only
 ones considered. In this chapter we too will focus almost completely on
 them.
 
-![(\#fig:f-scatterplots)Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl1 "fig:"){width="8cm"} ![](olspl2){width="8cm"}\
+![(\#fig:f-scatterplots)Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl1 "fig:"){width="8cm"}
+
+![](olspl2){width="8cm"}\
 ![](olspl3){width="8cm"} ![](olspl4){width="8cm"}\
 ![](olspl5){width="8cm"} ![](olspl6){width="8cm"}\
 
@@ -382,9 +384,7 @@ rates were high early (from quick failures of flawed components) and
 late on (from inevitable wear and tear) and lowest in between for
 “middle-aged but healthy” components.
 
-![(\#fig:f-corruption3)A scatterplot of Control of corruption vs. GDP per capita for 163
-countries in the Global Civil Society data set. The solid line is the
-best-fitting (least squares) straight line for the points.](corruption3){width="13.5cm"}
+![(\#fig:f-corruption3)A scatterplot of Control of corruption vs. GDP per capita for 163 countries in the Global Civil Society data set. The solid line is the best-fitting (least squares) straight line for the points.](corruption3){width="13.5cm"}
 
 Returning to real data, recall that we have so far considered control of
 corruption and GDP per capita only among countries with a Control of
@@ -991,9 +991,8 @@ value is here larger than the fitted value, the residual is positive and
 the observed value is above the fitted line, as shown in Figure
 \@ref(fig:f-residuals).
 
-![(\#fig:f-residuals)Illustration of the quantities involved in the definitions of least
-squares estimates and the coefficient of determination $R^{2}$. See the
-text for explanation.](lmresids){width="13.5cm"}
+![(\#fig:f-residuals)Illustration of the quantities involved in the definitions of least squares estimates and the coefficient of determination $R^{2}$. See the text for explanation.](lmresids){width="13.5cm"}
+
 <!--
 $Y_{i}-\hat{Y}_{i}$
 
@@ -1007,6 +1006,7 @@ $Y_{i}-\bar{Y}$
 
 $\hat{Y}=\hat{\alpha}+\hat{\beta} X$
 -->
+
 The second point shown in Figure \@ref(fig:f-residuals) corresponds to the
 observation for Ghana, for which $X_{i}=58.0$ and $Y_{i}=5.7$. The
 fitted value is then $\hat{Y}_{i}=19.736-0.179\times 58.0=9.4$ and the
