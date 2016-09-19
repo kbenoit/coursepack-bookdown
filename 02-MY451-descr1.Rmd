@@ -1086,8 +1086,7 @@ example, the country data set has as many as $n=155$ observations, yet
 Figure \@ref(tab:t-stemgdp) is still quite readable and fits on a single
 page.
 
-![(\#fig:f-boxplot-gdp)An annotated box plot of GDP per capita in the country data
-($n=155$).](box_gdp){width="15cm"}
+![(\#fig:f-boxplot-gdp)An annotated box plot of GDP per capita in the country data ($n=155$).](box_gdp){width="15cm"}
 
 #### Box plots {-}
 

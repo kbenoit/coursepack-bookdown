@@ -12,22 +12,22 @@ in the sample is shown again for convenience in Table
 \@ref(tab:t-sex-attitude-ch4), including both the frequencies and the
 conditional proportions for attitude given sex.
 
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-  \                                                                                                        Agree                                             Neither agree              Disagree  
-  Sex                                                                                                    strongly                                   Agree    nor disagree    Disagree   strongly    Total
+  ----------- --------------- --------- --------------- ---------- ---------- -------
+  \                Agree                 Neither agree              Disagree  
+  Sex             strongly      Agree    nor disagree    Disagree   strongly    Total
 
-  Male                                                                                                      160                                      439          187          200         41        1027
+  Male              160          439          187          200         41        1027
 
-                                                                                                          (0.156)                                  (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
+                  (0.156)      (0.428)      (0.182)      (0.195)    (0.040)     (1.0)
 
-  Female                                                                                                    206                                      651          239          187         34        1317
+  Female            206          651          239          187         34        1317
 
-                                                                                                          (0.156)                                  (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
+                  (0.156)      (0.494)      (0.182)      (0.142)    (0.026)     (1.0)
 
-  Total                                                                                                     366                                     1090          426          387         75        2344
+  Total             366         1090          426          387         75        2344
 
-                                                                                                          (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-  ----------------------------------------------------------------------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
+                  (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+  ----------- --------------- --------- --------------- ---------- ---------- -------
 
   : (\#tab:t-sex-attitude-ch4)*``The government should take measures to reduce differences in income levels''*: Frequencies of respondents in the survey example, by sex and
   attitude towards income redistribution. The numbers in parentheses are
@@ -393,21 +393,21 @@ test statistic for this example are shown in Table
     $\chi^{2}$ is obtained by adding up the quantities
     $(f_{o}-f_{e})^{2}/f_{e}$ across all the cells of the table.
 
-  ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
-  Cell                            Cell            \         \               \                     \                           \
-  Sex                           Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
-  Male                             SA           160     160.4          $-0.4$                  0.16                       0.001
-  Male                             A            439     477.6         $-38.6$               1489.96                       3.120
-  Male                             0            187     186.6             0.4                  0.16                       0.001
-  Male                             D            200     169.6            30.4                924.16                       5.449
-  Male                             SD            41      32.9             8.1                 65.61                       1.994
-  Female                           SA           206     205.6             0.4                  0.16                       0.001
-  Female                           A            651     612.4            38.6               1489.96                       2.433
-  Female                           0            239     239.4          $-0.4$                  0.16                       0.001
-  Female                           D            187     217.4         $-30.4$                924.16                       4.251
-  Female                           SD            34      42.1          $-8.1$                 65.61                       1.558
-                                  Sum          2344      2344               0                4960.1            $\chi^{2}=18.81$
-  ---------------------------- ---------- --------- --------- --------------- --------------------- ---------------------------
+  -------- ---------- --------- --------- --------------- --------------------- ---------------------------
+  Cell        Cell            \         \               \                     \                           \
+  Sex       Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
+  Male         SA           160     160.4          $-0.4$                  0.16                       0.001
+  Male         A            439     477.6         $-38.6$               1489.96                       3.120
+  Male         0            187     186.6             0.4                  0.16                       0.001
+  Male         D            200     169.6            30.4                924.16                       5.449
+  Male         SD            41      32.9             8.1                 65.61                       1.994
+  Female       SA           206     205.6             0.4                  0.16                       0.001
+  Female       A            651     612.4            38.6               1489.96                       2.433
+  Female       0            239     239.4          $-0.4$                  0.16                       0.001
+  Female       D            187     217.4         $-30.4$                924.16                       4.251
+  Female       SD            34      42.1          $-8.1$                 65.61                       1.558
+              Sum          2344      2344               0                4960.1            $\chi^{2}=18.81$
+  -------- ---------- --------- --------- --------------- --------------------- ---------------------------
 
   : (\#tab:t-sex-attitude-chi2)Calculating the $\chi^{2}$ test statistic for Table
   \@ref(tab:t-sex-attitude-ch4). In the second column, SA, A, 0, D, and SD
@@ -566,22 +566,22 @@ the real sample that we have actually observed.
 
 *Population (frequencies are in millions of people):*
 
-  -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
-  \                                         Agree                                      \      Neither agree       \      Disagree        \
-  Sex                                     strongly                                   Agree    nor disagree    Disagree   strongly    Total
+  -------- ------------- --------- --------------- ---------- ---------- -------
+  \           Agree          \      Neither agree       \      Disagree        \
+  Sex       strongly       Agree    nor disagree    Disagree   strongly    Total
 
-  Male                                      3.744                                   11.160        4.368        3.960      0.768      24.00
+  Male        3.744       11.160        4.368        3.960      0.768      24.00
 
-                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+             (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
 
-  Female                                    4.056                                   12.090        4.732        4.290      0.832      26.00
+  Female      4.056       12.090        4.732        4.290      0.832      26.00
 
-                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+             (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
 
-  Total                                     7.800                                   23.250        9.100        8.250      1.600         50
+  Total       7.800       23.250        9.100        8.250      1.600         50
 
-                                           (0.156)                                  (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
-  -------- ----------------------------------------------------------------------- --------- --------------- ---------- ---------- -------
+             (0.156)      (0.465)      (0.182)      (0.165)    (0.032)     (1.0)
+  -------- ------------- --------- --------------- ---------- ---------- -------
 
   : (\#tab:t-sex-attitude-H0pop)*``The government should take measures to reduce differences in income levels''*: Attitude towards income redistribution by sex (with row proportions
   in parentheses), in a hypothetical population of 50 million people
@@ -590,22 +590,22 @@ the real sample that we have actually observed.
 
 *Sample:*
 
-  ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
-  \                                                Agree        \      Neither agree      \       Disagree        \
-  Sex                                             strongly    Agree    nor disagree    Disagree   strongly    Total
+  ---------- ---------- --------- --------------- ---------- ---------- -------
+  \            Agree        \      Neither agree      \       Disagree        \
+  Sex         strongly    Agree    nor disagree    Disagree   strongly    Total
 
-  Male                                              181        505          191          203         41        1121
+  Male          181        505          191          203         41        1121
 
-                                                  (0.161)    (0.450)      (0.170)      (0.181)    (0.037)     (1.0)
+              (0.161)    (0.450)      (0.170)      (0.181)    (0.037)     (1.0)
 
-  Female                                            183        569          229          202         40        1223
+  Female        183        569          229          202         40        1223
 
-                                                  (0.150)    (0.465)      (0.187)      (0.165)    (0.033)     (1.0)
+              (0.150)    (0.465)      (0.187)      (0.165)    (0.033)     (1.0)
 
-  Total                                             364       1074          420          405         81        2344
+  Total         364       1074          420          405         81        2344
 
-                                                  (0.155)    (0.458)      (0.179)      (0.173)    (0.035)     (1.0)
-  ---------------------------------------------- ---------- --------- --------------- ---------- ---------- -------
+              (0.155)    (0.458)      (0.179)      (0.173)    (0.035)     (1.0)
+  ---------- ---------- --------- --------------- ---------- ---------- -------
 
   : (\#tab:t-sex-attitude-H0pop)$\chi^{2}=2.8445$
 
@@ -768,11 +768,9 @@ because 18.86 is far into the tail of the distribution where the
 probabilities are low. The $P$-value is then also low, specifically
 $P=0.0008$.
 
-![(\#fig:f-pvalchisq)Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4
-degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey
-region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
+![(\#fig:f-pvalchisq)Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
 
- In practice the $P$-value is usually calculated by a
+In practice the $P$-value is usually calculated by a
 computer. In the SPSS output of Figure \@ref(fig:f-spsschi2) is is shown in
 the column labelled “Asymp. Sig. (2-sided)” which is short for
 “Asymptotic significance level” (you can ignore the “2-sided” for this
@@ -807,14 +805,14 @@ this is that if the appropriate degrees of freedom were 4, and the test
 statistic was 7.78, the $P$-value would be exactly 0.100, and if the
 statistic was 9.49, $P$ would be 0.050.
 
-  ---------- --------------------------------------------------- ------- ------- ----------
-  df                                                       0.100   0.050   0.010      0.001
-  1                                                         2.71    3.84    6.63      10.83
-  2                                                         4.61    5.99    9.21      13.82
-  3                                                         6.25    7.81   11.34      16.27
-  4                                                         7.78    9.49   13.28      18.47
-  $\vdots$                                              $\vdots$                   $\vdots$
-  ---------- --------------------------------------------------- ------- ------- ----------
+  ---------- ------------- ------- ------- ----------
+  df                 0.100   0.050   0.010      0.001
+  1                   2.71    3.84    6.63      10.83
+  2                   4.61    5.99    9.21      13.82
+  3                   6.25    7.81   11.34      16.27
+  4                   7.78    9.49   13.28      18.47
+  $\vdots$        $\vdots$                   $\vdots$
+  ---------- ------------- ------- ------- ----------
 
   : (\#tab:t-chi2table)An extract from a table of critical values for $\chi^{2}$
   distributions. Row 2-5 show the right-hand tail probability
