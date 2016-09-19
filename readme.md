@@ -17,10 +17,11 @@ The project folder for that course pack containing the chapter manuscripts is st
 
 The downloading and uploading of the project folder requires a software called Git. Git affords the effective management of project folders and files by way of version control. One way to set up Git on your computer is to download GitHub Desktop [here](https://desktop.github.com/) and install it. Depending on your operating system you may have to restart your computer after installation.
 
-No other software or application is needed to author books using this process. All of the compiling and publishing is done automatically and online.
+No other software or application is needed to author books using this process. All of the compiling and publishing is done automatically and online -- with the help of GitHub Pages, Travis CI, Bookdown, Pandoc and TexLive.
 
 # Download project folder from online repository
 In order to make changes to the manuscript of the MY451 course pack you need to download the project folder that contains the manuscript files. To download a project folder is also called "to clone a repository". In order to do just that follow these steps:
+
 <!--^[Instructions taken verbatim from <https://help.github.com/desktop/guides/contributing/cloning-a-repository-from-github-to-github-desktop/>.]-->
 
 1. Sign in to GitHub and GitHub Desktop before you start to clone.
@@ -184,11 +185,12 @@ The format for inserting a figure -- in other words an image -- is:
 
 ![(\#fig:f-unique-identifier)Caption text.](file-name-without-file-extension)
 
+Make sure to follow an image with a blank line. Otherwise it won't get numbered and captioned in the pdf output!
 ```
 
 It is important that in the manuscript you give the file name without a file extension as shown above and that you provide one and the same image in two file formats: `.pdf` and `.png`.
 
-So in order to insert into the manuscript a figure we call "bar_attitude" it needs to read in the manuscript something like this:
+So in order to insert into the manuscript a figure "bar_attitude" it needs to read in the manuscript like this:
 
 ```markdown
 
