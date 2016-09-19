@@ -276,6 +276,7 @@ $if(lof)$
 \listoffigures
 $endif$
 \thispagestyle{empty}
+\setcounter{page}{1}
 $body$
 
 $if(natbib)$
