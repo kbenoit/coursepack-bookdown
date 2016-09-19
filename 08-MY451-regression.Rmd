@@ -322,11 +322,9 @@ examining associations between continuous variables, and often the only
 ones considered. In this chapter we too will focus almost completely on
 them.
 
-![(\#fig:f-scatterplots)Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl1 "fig:"){width="8cm"}
-
-![](olspl2){width="8cm"}\
+![](olspl1 "fig:"){width="8cm"}![](olspl2){width="8cm"}\
 ![](olspl3){width="8cm"} ![](olspl4){width="8cm"}\
-![](olspl5){width="8cm"} ![](olspl6){width="8cm"}\
+![](olspl5){width="8cm"} ![(\#fig:f-scatterplots)Scatterplots of artificial data sets of two variables. Each plot also shows the best-fitting (least squares) straight line and the correlation coefficient $r$.](olspl6){width="8cm"}\
 
 In plot (a) of Figure \@ref(fig:f-scatterplots) all the points are exactly on
 the straight line. This indicates a *perfect* linear association, where
