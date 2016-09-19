@@ -259,6 +259,7 @@ $for(include-before)$
 $include-before$
 
 $endfor$
+\frontmatter\thispagestyle{empty}
 $if(toc)$
 {
 $if(colorlinks)$
@@ -274,6 +275,7 @@ $endif$
 $if(lof)$
 \listoffigures
 $endif$
+\thispagestyle{empty}
 $body$
 
 $if(natbib)$
