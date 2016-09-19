@@ -543,7 +543,7 @@ MathJax.Hub.Config({
 </tr>
 </tbody>
 </table>
-<p>One possible set of causal connections leading to a spurious association between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> was represented graphically by Figure <a href="#fig:f-xyzspurious">8.10</a>. There are, however, other possibilities which may be more appropriate in particular cases. In the admissions example, department (corresponding to the control variable <span class="math inline">\(Z\)</span>) cannot be regarded as the cause of the sex of the applicant. Instead, we may consider the causal chain Sex <span class="math inline">\(\longrightarrow\)</span> Department <span class="math inline">\(\longrightarrow\)</span> Admission. Here department is an <em>intervening variable</em> between sex and admission rather than a common cause of them. We can still argue that sex has an effect on admission, but it is an <em>indirect effect</em> operating through the effect of sex on choice of department. The distinction is important for the original research question behind these data, that of possible sex bias in admissions. A direct effect of sex on likelihood on admission might be evidence of such bias, because it might indicate that departments are treating male and female candidates differently. An indirect effect of the kind found here does not suggest bias, because it results from the applicants’ own choices of which department to apply to.</p>
+<p>One possible set of causal connections leading to a spurious association between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> was represented graphically by Figure <a href="c-regression.html#fig:f-xyzspurious">8.10</a>. There are, however, other possibilities which may be more appropriate in particular cases. In the admissions example, department (corresponding to the control variable <span class="math inline">\(Z\)</span>) cannot be regarded as the cause of the sex of the applicant. Instead, we may consider the causal chain Sex <span class="math inline">\(\longrightarrow\)</span> Department <span class="math inline">\(\longrightarrow\)</span> Admission. Here department is an <em>intervening variable</em> between sex and admission rather than a common cause of them. We can still argue that sex has an effect on admission, but it is an <em>indirect effect</em> operating through the effect of sex on choice of department. The distinction is important for the original research question behind these data, that of possible sex bias in admissions. A direct effect of sex on likelihood on admission might be evidence of such bias, because it might indicate that departments are treating male and female candidates differently. An indirect effect of the kind found here does not suggest bias, because it results from the applicants’ own choices of which department to apply to.</p>
 <p>In the admissions example a strong association in the initial two-way table was “explained away” when we controlled for a third variable. The next example is one where controlling leaves the initial association unchanged.</p>
 <p><strong>Example 9.2:</strong> <strong>Importance of short-term gains for investors (continued)</strong></p>
 <p>Table <a href="c-descr1.html#tab:t-investors">2.7</a> showed a relatively strong association between a person’s age group and his or her attitude towards short-term gains as an investment goal. This association is also strongly significant, with <span class="math inline">\(P&lt;0.001\)</span> for the <span class="math inline">\(\chi^{2}\)</span> test of independence. Table <a href="c-3waytables.html#tab:t-investors3">9.4</a> shows the crosstabulations of these variables, now controlling also for the respondent’s sex. The association is now still significant in both partial tables. An investigation of the row proportions suggests that the pattern of association is very similar in both tables, as is its strength as measured by the <span class="math inline">\(\gamma\)</span> statistic (<span class="math inline">\(\gamma=-0.376\)</span> among men and <span class="math inline">\(\gamma=-0.395\)</span> among women). The conclusions obtained from the original two-way table are thus unchanged after controlling for sex.</p>
@@ -664,91 +664,91 @@ Total</td>
 <tbody>
 <tr class="odd">
 <td align="left"><strong>WOMEN</strong> Age group</td>
-<td align="left">Irrelevant</td>
+<td>Irrelevant</td>
 <td align="right">Slightly important</td>
-<td align="left">Important</td>
+<td>Important</td>
 <td align="right">Very important</td>
-<td align="left">Total</td>
+<td>Total</td>
 </tr>
 <tr class="even">
 <td align="left">Under 45</td>
-<td align="left">8</td>
+<td>8</td>
 <td align="right">10</td>
-<td align="left">8</td>
+<td>8</td>
 <td align="right">4</td>
-<td align="left">30</td>
+<td>30</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">0.267</td>
+<td>0.267</td>
 <td align="right">0.333</td>
-<td align="left">0.267</td>
+<td>0.267</td>
 <td align="right">0.133</td>
-<td align="left">1.000</td>
+<td>1.000</td>
 </tr>
 <tr class="even">
 <td align="left">45–54</td>
-<td align="left">28</td>
+<td>28</td>
 <td align="right">17</td>
-<td align="left">5</td>
+<td>5</td>
 <td align="right">8</td>
-<td align="left">58</td>
+<td>58</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">0.483</td>
+<td>0.483</td>
 <td align="right">0.293</td>
-<td align="left">0.086</td>
+<td>0.086</td>
 <td align="right">0.138</td>
-<td align="left">1.000</td>
+<td>1.000</td>
 </tr>
 <tr class="even">
 <td align="left">55–64</td>
-<td align="left">37</td>
+<td>37</td>
 <td align="right">9</td>
-<td align="left">3</td>
+<td>3</td>
 <td align="right">4</td>
-<td align="left">53</td>
+<td>53</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">0.698</td>
+<td>0.698</td>
 <td align="right">0.170</td>
-<td align="left">0.057</td>
+<td>0.057</td>
 <td align="right">0.075</td>
-<td align="left">1.000</td>
+<td>1.000</td>
 </tr>
 <tr class="even">
 <td align="left">65 and over</td>
-<td align="left">43</td>
+<td>43</td>
 <td align="right">11</td>
-<td align="left">3</td>
+<td>3</td>
 <td align="right">3</td>
-<td align="left">60</td>
+<td>60</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">0.717</td>
+<td>0.717</td>
 <td align="right">0.183</td>
-<td align="left">0.050</td>
+<td>0.050</td>
 <td align="right">0.050</td>
-<td align="left">1.000</td>
+<td>1.000</td>
 </tr>
 <tr class="even">
 <td align="left">Total</td>
-<td align="left">116</td>
+<td>116</td>
 <td align="right">47</td>
-<td align="left">19</td>
+<td>19</td>
 <td align="right">19</td>
-<td align="left">201</td>
+<td>201</td>
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">0.577</td>
+<td>0.577</td>
 <td align="right">0.234</td>
-<td align="left">0.095</td>
+<td>0.095</td>
 <td align="right">0.095</td>
-<td align="left">1.000</td>
+<td>1.000</td>
 </tr>
 </tbody>
 </table>
@@ -758,64 +758,64 @@ Total</td>
 <caption><span id="tab:t-titanic2">Table 9.5: </span>Survival status of the people aboard the <em>Titanic</em>, divided into three groups. The numbers in brackets are proportions of survivors and non-survivors within each group. <span class="math inline">\(\chi^{2}=418\)</span>, <span class="math inline">\(\text{df}=2\)</span>, <span class="math inline">\(P&lt;0.001\)</span>.</caption>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
+<td></td>
 <td align="right">Survivor</td>
-<td align="left"></td>
-<td align="left"></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td align="left">Group</td>
+<td>Group</td>
 <td align="right">Yes</td>
-<td align="left">No</td>
-<td align="left">Total</td>
+<td>No</td>
+<td>Total</td>
 </tr>
 <tr class="odd">
-<td align="left">Male passenger</td>
+<td>Male passenger</td>
 <td align="right">146</td>
-<td align="left">659</td>
-<td align="left">805</td>
+<td>659</td>
+<td>805</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td></td>
 <td align="right">(0.181)</td>
-<td align="left">(0.819)</td>
-<td align="left">(1.000)</td>
+<td>(0.819)</td>
+<td>(1.000)</td>
 </tr>
 <tr class="odd">
-<td align="left">Female or child passenger</td>
+<td>Female or child passenger</td>
 <td align="right">353</td>
-<td align="left">158</td>
-<td align="left">511</td>
+<td>158</td>
+<td>511</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td></td>
 <td align="right">(0.691)</td>
-<td align="left">(0.309)</td>
-<td align="left">(1.000)</td>
+<td>(0.309)</td>
+<td>(1.000)</td>
 </tr>
 <tr class="odd">
-<td align="left">Crew member</td>
+<td>Crew member</td>
 <td align="right">212</td>
-<td align="left">673</td>
-<td align="left">885</td>
+<td>673</td>
+<td>885</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td></td>
 <td align="right">(0.240)</td>
-<td align="left">(0.760)</td>
-<td align="left">(1.000)</td>
+<td>(0.760)</td>
+<td>(1.000)</td>
 </tr>
 <tr class="odd">
-<td align="left">Total</td>
+<td>Total</td>
 <td align="right">711</td>
-<td align="left">1490</td>
-<td align="left">2201</td>
+<td>1490</td>
+<td>2201</td>
 </tr>
 <tr class="even">
-<td align="left"></td>
+<td></td>
 <td align="right">(0.323)</td>
-<td align="left">(0.677)</td>
-<td align="left">(1.000)</td>
+<td>(0.677)</td>
+<td>(1.000)</td>
 </tr>
 </tbody>
 </table>
