@@ -8,7 +8,7 @@
   <title>MY451 Introduction to Quantitative Analysis</title>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="This course is intended for those with little or no past training in quantitative methods. The course is an intensive introduction to some of the principles and methods of statistical analysis in social research. Topics covered in MY451 include descriptive statistics, basic ideas of inference and estimation, contingency tables and an introduction to linear regression models.">
-  <meta name="generator" content="bookdown 0.1.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.1.9 and GitBook 2.6.7">
 
   <meta property="og:title" content="MY451 Introduction to Quantitative Analysis" />
   <meta property="og:type" content="book" />
@@ -239,7 +239,7 @@ MathJax.Hub.Config({
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/kbenoit/coursepack-bookdown/" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/kbenoit/coursepack-bookdown/" target="This prototype was developed by Tobias Pester.">Published with bookdown</a></li>
 
 </ul>
 
@@ -263,16 +263,16 @@ MathJax.Hub.Config({
 <div id="s-tables-intro" class="section level2">
 <h2><span class="header-section-number">4.1</span> Introduction</h2>
 <p>In this section we continue the discussion of methods of analysis for two-way contingency tables that was begun in Section <a href="c-descr1.html#ss-descr1-2cat-tables">2.4.1</a>. We will use again the example from the European Social Survey that was introduced early in Section <a href="c-descr1.html#s-descr1-examples">2.2</a>. The two variables in the example are a person’s sex and his or her attitude toward income redistribution measured as an ordinal variable with five levels. The two-way table of these variables in the sample is shown again for convenience in Table <a href="c-tables.html#tab:t-sex-attitude-ch4">4.1</a>, including both the frequencies and the conditional proportions for attitude given sex.</p>
-<table style="width:99%;">
+<table style="width:98%;">
 <caption><span id="tab:t-sex-attitude-ch4">Table 4.1: </span><em>``The government should take measures to reduce differences in income levels’’</em>: Frequencies of respondents in the survey example, by sex and attitude towards income redistribution. The numbers in parentheses are conditional proportions of attitude given sex. Data: European Social Survey, Round 5, 2010, UK respondents only.</caption>
 <colgroup>
-<col width="35%" />
-<col width="35%" />
-<col width="4%" />
-<col width="7%" />
-<col width="5%" />
-<col width="5%" />
-<col width="3%" />
+<col width="14%" />
+<col width="18%" />
+<col width="11%" />
+<col width="18%" />
+<col width="12%" />
+<col width="12%" />
+<col width="8%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -572,16 +572,16 @@ population}.
 <h4>Sampling distribution of the <span class="math inline">\(\chi^{2}\)</span> test statistic under independence</h4>
 <p>For the <span class="math inline">\(\chi^{2}\)</span> test, we need the sampling distribution of the test statistic (\ref{eq:chi2}) under the independence null hypothesis (\ref{eq:H0-chi2}). To make these ideas a little more concrete, the upper part of Table <a href="c-tables.html#tab:t-sex-attitude-H0pop">4.3</a> shows the crosstabulation of sex and attitude in our example for a finite population where the null hypothesis holds. We can see that it does because the two conditional distributions for attitude, among men and among women, are the same (this is the only aspect of the distributions that matters for this demonstration; the exact values of the probabilities are otherwise irrelevant). These are of course hypothetical population distributions, as we do not know the true ones. We also do not claim that this hypothetical population is even close to the true one. The whole point of this step of hypothesis testing is to set up a population where the null hypothesis holds as a fixed point of comparison, to see what samples from such a population would look like and how they compare with the real sample that we have actually observed.</p>
 <p><em>Population (frequencies are in millions of people):</em></p>
-<table style="width:99%;">
+<table style="width:98%;">
 <caption><span id="tab:t-sex-attitude-H0pop">Table 4.3: </span><em>``The government should take measures to reduce differences in income levels’’</em>: Attitude towards income redistribution by sex (with row proportions in parentheses), in a hypothetical population of 50 million people where sex and attitude are independent, and in one random sample from this population.</caption>
 <colgroup>
-<col width="6%" />
-<col width="52%" />
-<col width="7%" />
 <col width="11%" />
-<col width="7%" />
-<col width="7%" />
-<col width="5%" />
+<col width="17%" />
+<col width="12%" />
+<col width="20%" />
+<col width="13%" />
+<col width="13%" />
+<col width="8%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -654,16 +654,16 @@ Total</td>
 </tbody>
 </table>
 <p><em>Sample:</em></p>
-<table style="width:98%;">
+<table style="width:97%;">
 <caption><span id="tab:t-sex-attitude-H0pop">Table 4.3: </span><span class="math inline">\(\chi^{2}=2.8445\)</span></caption>
 <colgroup>
-<col width="40%" />
-<col width="9%" />
-<col width="8%" />
 <col width="13%" />
-<col width="9%" />
-<col width="9%" />
-<col width="6%" />
+<col width="13%" />
+<col width="12%" />
+<col width="20%" />
+<col width="13%" />
+<col width="13%" />
+<col width="8%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -775,7 +775,7 @@ Total</td>
 <p>Before the widespread availablity of statistical software, <span class="math inline">\(P\)</span>-values had to be obtained approximately using tables of distributions. Since you may still see this approach described in many text books, it is briefly explained here. You may also need to use the table method in the examination, where computers are not allowed. Otherwise, however, this approach is now of little interest: if the <span class="math inline">\(P\)</span>-value is given in the computer output, there is no need to refer to distributional tables.</p>
 <p>All introductory statistical text books include a table of <span class="math inline">\(\chi^{2}\)</span> distributions, although its format may vary slightly form book to book. Such a table is also included in the Appendix of this coursepack. An extract from the table is shown in Table <a href="c-tables.html#tab:t-chi2table">4.4</a>. Each row of the table corresponds to a <span class="math inline">\(\chi^{2}\)</span> distribution with the degrees of freedom given in the first column. The other columns show so-called “critical values” for the probability levels given on the first row. Consider, for example, the row for 4 degrees of freedom. The figure 7.78 in the column for probability level 0.100 indicates that the probability of a value of 7.78 or larger is exactly 0.100 for this distribution. The 9.49 in the next column shows that the probability of 9.49 or larger is 0.050. Another way of saying this is that if the appropriate degrees of freedom were 4, and the test statistic was 7.78, the <span class="math inline">\(P\)</span>-value would be exactly 0.100, and if the statistic was 9.49, <span class="math inline">\(P\)</span> would be 0.050.</p>
 <table>
-<caption><span id="tab:t-chi2table">Table 4.4: </span>An extract from a table of critical values for <span class="math inline">\(\chi^{2}\)</span> distributions. Row 2-5 show the right-hand tail probability</caption>
+<caption><span id="tab:t-chi2table">Table 4.4: </span>An extract from a table of critical values for <span class="math inline">\(\chi^{2}\)</span> distributions. Row 2-5 show the right-hand tail probability.</caption>
 <tbody>
 <tr class="odd">
 <td align="left">df</td>
@@ -813,11 +813,11 @@ Total</td>
 <td align="right">18.47</td>
 </tr>
 <tr class="even">
-<td align="left"><span class="math inline">\(\vdots\)</span></td>
-<td align="right"><span class="math inline">\(\vdots\)</span></td>
+<td align="left">…</td>
+<td align="right">…</td>
 <td align="right"></td>
 <td align="right"></td>
-<td align="right"><span class="math inline">\(\vdots\)</span></td>
+<td align="right">…</td>
 </tr>
 </tbody>
 </table>

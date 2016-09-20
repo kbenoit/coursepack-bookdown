@@ -8,7 +8,7 @@
   <title>MY451 Introduction to Quantitative Analysis</title>
   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
   <meta name="description" content="This course is intended for those with little or no past training in quantitative methods. The course is an intensive introduction to some of the principles and methods of statistical analysis in social research. Topics covered in MY451 include descriptive statistics, basic ideas of inference and estimation, contingency tables and an introduction to linear regression models.">
-  <meta name="generator" content="bookdown 0.1.7 and GitBook 2.6.7">
+  <meta name="generator" content="bookdown 0.1.9 and GitBook 2.6.7">
 
   <meta property="og:title" content="MY451 Introduction to Quantitative Analysis" />
   <meta property="og:type" content="book" />
@@ -239,7 +239,7 @@ MathJax.Hub.Config({
 </ul></li>
 </ul></li>
 <li class="divider"></li>
-<li><a href="https://github.com/kbenoit/coursepack-bookdown/" target="blank">Published with bookdown</a></li>
+<li><a href="https://github.com/kbenoit/coursepack-bookdown/" target="This prototype was developed by Tobias Pester.">Published with bookdown</a></li>
 
 </ul>
 
@@ -547,15 +547,15 @@ MathJax.Hub.Config({
 <p>In the admissions example a strong association in the initial two-way table was “explained away” when we controlled for a third variable. The next example is one where controlling leaves the initial association unchanged.</p>
 <p><strong>Example 9.2:</strong> <strong>Importance of short-term gains for investors (continued)</strong></p>
 <p>Table <a href="c-descr1.html#tab:t-investors">2.7</a> showed a relatively strong association between a person’s age group and his or her attitude towards short-term gains as an investment goal. This association is also strongly significant, with <span class="math inline">\(P&lt;0.001\)</span> for the <span class="math inline">\(\chi^{2}\)</span> test of independence. Table <a href="c-3waytables.html#tab:t-investors3">9.4</a> shows the crosstabulations of these variables, now controlling also for the respondent’s sex. The association is now still significant in both partial tables. An investigation of the row proportions suggests that the pattern of association is very similar in both tables, as is its strength as measured by the <span class="math inline">\(\gamma\)</span> statistic (<span class="math inline">\(\gamma=-0.376\)</span> among men and <span class="math inline">\(\gamma=-0.395\)</span> among women). The conclusions obtained from the original two-way table are thus unchanged after controlling for sex.</p>
-<table style="width:99%;">
+<table style="width:97%;">
 <caption><span id="tab:t-investors3">Table 9.4: </span>Frequencies of respondents by age group and attitude towards short-term gains in Example 9.2, controlling for sex of respondent. The numbers below the frequencies are proportions within rows. <span class="math inline">\(\chi^{2}=82.4\)</span>, <span class="math inline">\(df=9\)</span>, <span class="math inline">\(P&lt;0.001\)</span>. <span class="math inline">\(\gamma=-0.376\)</span>.</caption>
 <colgroup>
-<col width="36%" />
-<col width="35%" />
-<col width="7%" />
-<col width="7%" />
-<col width="7%" />
-<col width="4%" />
+<col width="21%" />
+<col width="20%" />
+<col width="15%" />
+<col width="15%" />
+<col width="15%" />
+<col width="8%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -651,100 +651,88 @@ Total</td>
 </tr>
 </tbody>
 </table>
-<table style="width:99%;">
+<table style="width:97%;">
 <caption><span id="tab:t-investors3">Table 9.4: </span>Frequencies of respondents by age group and attitude towards short-term gains in Example 9.2, controlling for sex of respondent. The numbers below the frequencies are proportions within rows. <span class="math inline">\(\chi^{2}=27.6\)</span>, <span class="math inline">\(df=9\)</span>, <span class="math inline">\(P=0.001\)</span>. <span class="math inline">\(\gamma=-0.395\)</span>.</caption>
 <colgroup>
-<col width="36%" />
-<col width="35%" />
-<col width="7%" />
-<col width="7%" />
-<col width="7%" />
-<col width="4%" />
+<col width="42%" />
+<col width="15%" />
+<col width="15%" />
+<col width="15%" />
+<col width="8%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>WOMEN</strong> Age group</td>
-<td>Irrelevant</td>
+<td align="left"><strong>WOMEN</strong> Age group Irrelevant</td>
 <td align="right">Slightly important</td>
 <td>Important</td>
 <td align="right">Very important</td>
 <td>Total</td>
 </tr>
 <tr class="even">
-<td align="left">Under 45</td>
-<td>8</td>
+<td align="left">Under 45 8</td>
 <td align="right">10</td>
 <td>8</td>
 <td align="right">4</td>
 <td>30</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td>0.267</td>
+<td align="left">0.267</td>
 <td align="right">0.333</td>
 <td>0.267</td>
 <td align="right">0.133</td>
 <td>1.000</td>
 </tr>
 <tr class="even">
-<td align="left">45–54</td>
-<td>28</td>
+<td align="left">45–54 28</td>
 <td align="right">17</td>
 <td>5</td>
 <td align="right">8</td>
 <td>58</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td>0.483</td>
+<td align="left">0.483</td>
 <td align="right">0.293</td>
 <td>0.086</td>
 <td align="right">0.138</td>
 <td>1.000</td>
 </tr>
 <tr class="even">
-<td align="left">55–64</td>
-<td>37</td>
+<td align="left">55–64 37</td>
 <td align="right">9</td>
 <td>3</td>
 <td align="right">4</td>
 <td>53</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td>0.698</td>
+<td align="left">0.698</td>
 <td align="right">0.170</td>
 <td>0.057</td>
 <td align="right">0.075</td>
 <td>1.000</td>
 </tr>
 <tr class="even">
-<td align="left">65 and over</td>
-<td>43</td>
+<td align="left">65 and over 43</td>
 <td align="right">11</td>
 <td>3</td>
 <td align="right">3</td>
 <td>60</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td>0.717</td>
+<td align="left">0.717</td>
 <td align="right">0.183</td>
 <td>0.050</td>
 <td align="right">0.050</td>
 <td>1.000</td>
 </tr>
 <tr class="even">
-<td align="left">Total</td>
-<td>116</td>
+<td align="left">Total 116</td>
 <td align="right">47</td>
 <td>19</td>
 <td align="right">19</td>
 <td>201</td>
 </tr>
 <tr class="odd">
-<td align="left"></td>
-<td>0.577</td>
+<td align="left">0.577</td>
 <td align="right">0.234</td>
 <td>0.095</td>
 <td align="right">0.095</td>
@@ -820,14 +808,14 @@ Total</td>
 </tbody>
 </table>
 <p>We next control also for the class in which a person was travelling, classified as first, second or third class. Since class does not apply to the ship’s crew, this analysis is limited to the passengers, classified as men vs. women and children. The two-way table of sex by survival status for them is given by Table <a href="c-3waytables.html#tab:t-titanic2">9.5</a>, ignoring the row for crew members. This association is strongly significant, with <span class="math inline">\(\chi^{2}=344\)</span> and <span class="math inline">\(P&lt;0.001\)</span>.</p>
-<table style="width:98%;">
+<table style="width:76%;">
 <caption><span id="tab:t-titanic3">Table 9.6: </span>Survival status of the passengers of the <em>Titanic</em>, classified by class and sex. The numbers below the frequencies are proportions within rows.</caption>
 <colgroup>
-<col width="35%" />
-<col width="16%" />
-<col width="31%" />
-<col width="7%" />
-<col width="7%" />
+<col width="12%" />
+<col width="23%" />
+<col width="18%" />
+<col width="11%" />
+<col width="11%" />
 </colgroup>
 <tbody>
 <tr class="odd">
