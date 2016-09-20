@@ -246,9 +246,9 @@ $else$
 $endif$
 
 \begin{document}
-\frontmatter
 $if(title)$
 \maketitle
+\frontmatter
 $endif$
 $if(abstract)$
 \begin{abstract}
@@ -260,8 +260,8 @@ $for(include-before)$
 $include-before$
 
 $endfor$
-\thispagestyle{empty}
 $if(toc)$
+\thispagestyle{empty}
 {
 $if(colorlinks)$
 \hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
