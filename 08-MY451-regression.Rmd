@@ -1238,18 +1238,18 @@ intercept $\alpha$ are rarely and ones about the residual standard
 deviation $\sigma$ almost never substantively interesting, so they will
 not be considered. Similarly, the only null hypothesis on $\beta$
 discussed here is that its value is zero, i.e. \begin{equation}H_{0}:\; \beta=0.
-\label{eq:H0betasimple}\end{equation} Recall that when $\beta$ is 0, there is no linear
-association between the explanatory variable $X$ and the response
+\label{eq:H0betasimple}\end{equation} Recall that when $\beta$ is 0, there is no linear association between the explanatory variable $X$ and the response
 variable $Y$. Graphically, this corresponds to a regression line in the
 population which is parallel to the $X$-axis (see plot (d) of Figure
 \@ref(fig:f-scatterplots) for an illustration of such a line in a sample).
 The hypothesis (\@ref(eq:H0betasimple)) can thus be expressed in words as
-\begin{equation}H_{0}:\; \text{\emph{There is no
-linear association
-between}} X \text{\emph{and}} Y \text{\emph{in the population}}.
-\label{eq:H0betasimple2}\end{equation} Tests of this are usually carried out against a
-two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will
-also concentrate on this case.
+
+\begin{equation}
+H_{0}:\; \text{\emph{There is no linear association between }X \text{\emph{and}}Y\text{ \emph{in the population}}}.
+\label{H0betasimple2}
+\end{equation}
+
+Tests of this are usually carried out against a two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will also concentrate on this case.
 
 Formulation (\@ref(eq:H0betasimple2)) implies that the hypothesis that
 $\beta=0$ is equivalent to one that the population correlation $\rho$

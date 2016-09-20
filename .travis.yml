@@ -15,5 +15,5 @@ script:
 - "./_deploy.sh"
 notifications:
   email:
-    on_success: always
+    on_success: change
     on_failure: always
