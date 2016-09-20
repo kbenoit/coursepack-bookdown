@@ -265,8 +265,7 @@ MathJax.Hub.Config({
 <p>This chapter introduces some basic methods of analysis for continuous, interval-level variables. The main focus is on statistical inference on population <em>means</em> of such variables, but some new methods of descriptive statistics are also described. The discussion draws on the general ideas that have already been explaned for inference in Chapters <a href="c-tables.html#c-tables">4</a> and <a href="c-probs.html#c-probs">5</a>, and for continuous distributions in Chapter <a href="c-contd.html#c-contd">6</a>. Few if any new concepts thus need to be introduced here. Instead, this chapter can focus on describing the specifics of these very commonly used methods for continuous variables.</p>
 <p>As in Chapter <a href="c-probs.html#c-probs">5</a>, questions on both a single group and on comparisons between two groups are discussed here. Now, however, the main focus is on the two-group case. There we treat the group as the explanatory variable <span class="math inline">\(X\)</span> and the continuous variable of interest as the response variable <span class="math inline">\(Y\)</span>, and assess the possible associations between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> by comparing the distributions (and especially the means) of <span class="math inline">\(Y\)</span> in the two groups.</p>
 <p>The following five examples will be used for illustration throughout this chapter. Summary statistics for them are shown in Table <a href="c-means.html#tab:t-groupex">7.1</a>.</p>
-<div id="example-7.1-survey-data-on-diet" class="section level5 unnumbered">
-<h5>Example 7.1: Survey data on diet</h5>
+<p><strong>Example 7.1: Survey data on diet</strong></p>
 <p>The National Diet and Nutrition Survey of adults aged 19–64 living in private households in Great Britain was carried out in 2000–01.<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a> One part of the survey was a food diary where the respondents recorded all food and drink they consumed in a seven-day period. We consider two variables derived from the diary: the consumption of fruit and vegetables in portions (of 400g) per day (with mean in the sample of size <span class="math inline">\(n=1724\)</span> of <span class="math inline">\(\bar{Y}=2.8\)</span>, and standard deviation <span class="math inline">\(s=2.15\)</span>), and the percentage of daily food energy intake obtained from fat and fatty acids (<span class="math inline">\(n=1724\)</span>, <span class="math inline">\(\bar{Y}=35.3\)</span>, and <span class="math inline">\(s=6.11\)</span>).</p>
 <table style="width:100%;">
 <caption><span id="tab:t-groupex">Table 7.1: </span>Examples of analyses of population means used in Chapter <a href="c-means.html#c-means">7</a>. Here <span class="math inline">\(n\)</span> and <span class="math inline">\(\bar{Y}\)</span> denote the sample size and sample mean respectively, in the two-group examples 7.2–7.5 separately for the two groups. “Diff.” denotes the between-group difference of means, and <span class="math inline">\(s\)</span> is the sample standard deviation of the response variable <span class="math inline">\(Y\)</span> for the whole sample (Example 7.1), of the response variable within each group (Examples 7.2 and 7.3), or of the within-pair differences (Examples 7.4 and 7.5).</caption>
@@ -408,26 +407,18 @@ MathJax.Hub.Config({
 </tr>
 </tbody>
 </table>
-</div>
-<div id="example-7.2-housework-by-men-and-women" class="section level5 unnumbered">
-<h5>Example 7.2: Housework by men and women</h5>
+<p><strong>Example 7.2: Housework by men and women</strong></p>
 <p>This example uses data from the 12th wave of the British Household Panel Survey (BHPS), collected in 2002. BHPS is an ongoing survey of UK households, measuring a range of socioeconomic variables. One of the questions in 2002 was</p>
 <p><em>“About how many hours do you spend on housework in an average week, such as time spent cooking, cleaning and doing the laundry?”</em></p>
 <p>The response to this question (recorded in whole hours) will be the response variable <span class="math inline">\(Y\)</span>, and the respondent’s sex will be the explanatory variable <span class="math inline">\(X\)</span>. We consider only those respondents who were less than 65 years old at the time of the interview and who lived in single-person households (thus the comparisons considered here will not involve questions of the division of domestic work within families).<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a></p>
 <p>We can indicate summary statistics separately for the two groups by using subscripts 1 for men and 2 for women (for example). The sample sizes are <span class="math inline">\(n_{1}=635\)</span> for men and <span class="math inline">\(n_{2}=469\)</span> for women, and the sample means of <span class="math inline">\(Y\)</span> are <span class="math inline">\(\bar{Y}_{1}=7.33\)</span> and <span class="math inline">\(\bar{Y}_{2}=8.49\)</span>. These and the sample standard deviations <span class="math inline">\(s_{1}\)</span> and <span class="math inline">\(s_{2}\)</span> are also shown in Table <a href="c-means.html#tab:t-groupex">7.1</a>.</p>
-</div>
-<div id="example-7.3-eye-contact-and-perceived-friendliness-of-police-officers" class="section level5 unnumbered">
-<h5>Example 7.3: Eye contact and perceived friendliness of police officers</h5>
+<p><strong>Example 7.3: Eye contact and perceived friendliness of police officers</strong></p>
 <p>This example is based on an experiment conducted to examine the effects of some aspects of the appearance and behaviour of police officers on how members of the public perceive their encounters with the police.<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a> The subjects of the study were 133 people stopped by the Traffic Patrol Division of a detachment of the Royal Canadian Mounted Police. When talking to the driver who had been stopped, the police officer either wore reflective sunglasses which hid his eyes, or wore no glasses at all, thus permitting eye contact with the respondent. These two conditions define the explanatory variable <span class="math inline">\(X\)</span>, coded 1 if the officer wore no glasses and 2 if he wore sunglasses. The choice of whether sunglasses were worn was made at random before a driver was stopped.</p>
 <p>While the police officer went back to his car to write out a report, a researcher asked the respondent some further questions, one of which is used here as the response variable <span class="math inline">\(Y\)</span>. It is a measure of the respondent’s perception of the friendliness of the police officer, measured on a 10-point scale where large values indicate high levels of friendliness.</p>
 <p>The article describing the experiment does not report all the summary statistics needed for our purposes. The statistics shown in Table <a href="c-means.html#tab:t-groupex">7.1</a> have thus been partially made up for use here. They are, however, consistent with the real results from the study. In particular, the direction and statistical significance of the difference between <span class="math inline">\(\bar{Y}_{2}\)</span> and <span class="math inline">\(\bar{Y}_{1}\)</span> are the same as those in the published report.</p>
-</div>
-<div id="example-7.4-transition-to-parenthood" class="section level5 unnumbered">
-<h5>Example 7.4: Transition to parenthood</h5>
+<p><strong>Example 7.4: Transition to parenthood</strong></p>
 <p>In a study of the stresses and feelings associated with parenthood, 109 couples expecting their first child were interviewed before and after the birth of the baby.<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> Here we consider only data for the fathers, and only one of the variables measured in the study. This variable is a measure of personal well-being, obtained from a seven-item attitude scale, where larger values indicate higher levels of well-being. Measurements of it were obtained for each father at three time points: when the mother was six months pregnant, one month after the birth of the baby, and six months after the birth. Here we will use only the first two of the measurements. The response variable <span class="math inline">\(Y\)</span> will thus be the measure of personal well-being, and the explanatory variable <span class="math inline">\(X\)</span> will be the time of measurement (sixth month of the pregnancy or one month after the birth). The means of <span class="math inline">\(Y\)</span> at the two times are shown in Table <a href="c-means.html#tab:t-groupex">7.1</a>. As in Example 7.3, not all of the numbers needed here were given in the original article. Specifically, the standard error of the difference in Table <a href="c-means.html#tab:t-groupex">7.1</a> has been made up in such a way that the results of a significance test for the mean difference agree with those in the article.</p>
-</div>
-<div id="example-7.5-traffic-patterns-on-friday-the-13th" class="section level5 unnumbered">
-<h5>Example 7.5: Traffic patterns on Friday the 13th</h5>
+<p><strong>Example 7.5: Traffic patterns on Friday the 13th</strong></p>
 <p>A common superstition regards the 13th day of any month falling on a Friday as a particularly unlucky day. In a study examining the possible effects of this belief on people’s behaviour,<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a> data were obtained on the numbers of vehicles travelling between junctions 7 and 8 and junctions 9 and 10 on the M25 motorway around London during every Friday the 13th in 1990–92. For comparison, the same numbers were also recorded during the previous Friday (i.e. the 6th) in each case. There are only ten such pairs here, and the full data set is shown in Table <a href="c-means.html#tab:t-F13">7.2</a>. Here the explanatory variable <span class="math inline">\(X\)</span> indicates whether a day is Friday the 6th (coded as 1) or Friday the 13th (coded as 2), and the response variable is the number of vehicles travelling between two junctions.</p>
 <table>
 <caption><span id="tab:t-F13">Table 7.2: </span>Data for Example 7.5: Traffic flows between junctions of the M25 on each Friday the 6th and Friday the 13th in 1990-92.</caption>
@@ -524,7 +515,6 @@ MathJax.Hub.Config({
 <li><p>Example 7.5: The distributions of the numbers of cars on the motorway differ between Friday the 6th and the following Friday the 13th.</p></li>
 </ul>
 <p>We denote the two values of <span class="math inline">\(X\)</span>, i.e. the two groups, by 1 and 2. The mean of the population distribution of <span class="math inline">\(Y\)</span> given <span class="math inline">\(X=1\)</span> will be denoted <span class="math inline">\(\mu_{1}\)</span> and the standard deviation <span class="math inline">\(\sigma_{1}\)</span>, and the mean and standard deviation of the population distribution given <span class="math inline">\(X=2\)</span> are denoted <span class="math inline">\(\mu_{2}\)</span> and <span class="math inline">\(\sigma_{2}\)</span> similarly. The corresponding sample quantities are the conditional sample means <span class="math inline">\(\bar{Y}_{1}\)</span> and <span class="math inline">\(\bar{Y}_{2}\)</span> and sample standard deviations <span class="math inline">\(s_{1}\)</span> and <span class="math inline">\(s_{2}\)</span>. For inference, we will focus on the population difference <span class="math inline">\(\Delta=\mu_{2}-\mu_{1}\)</span> which is estimated by the sample difference <span class="math inline">\(\hat{\Delta}=\bar{Y}_{2}-\bar{Y}_{1}\)</span>. Some of the descriptive methods described in Section <a href="c-means.html#s-means-descr">7.2</a>, on the other hand, also aim to summarise and compare other aspects of the two conditional sample distributions.</p>
-</div>
 </div>
 <div id="s-means-descr" class="section level2">
 <h2><span class="header-section-number">7.2</span> Descriptive statistics for comparisons of groups</h2>
@@ -812,18 +802,18 @@ These results for the sampling distribution hold when the population standard de
 <h2><span class="header-section-number">7.4</span> Tests and confidence intervals for a single mean</h2>
 <p>The task considered in this section is inference on the population mean of a continuous, interval-level variable <span class="math inline">\(Y\)</span> in a single population. This is thus analogous to the analysis of a single proportion in Sections <a href="c-probs.html#s-probs-test1sample">5.5</a>–<a href="c-probs.html#s-probs-1sampleci">5.6</a>, but with a continuous variable of interest.</p>
 <p>We use Example 7.1 on survey data on diet for illustration. We will consider two variables, daily consumption of portions of fruit and vegetables, and the percentage of total faily energy intake obtained from fat and fatty acids. These will be analysed separately, each in turn in the role of the variable of interest <span class="math inline">\(Y\)</span>. Summary statistics for the variables are shown in Table <a href="c-means.html#tab:t-ttests1">7.4</a></p>
-<table style="width:99%;">
+<table style="width:98%;">
 <caption><span id="tab:t-ttests1">Table 7.4: </span>Summary statistics, <span class="math inline">\(t\)</span>-tests and confidence intervals for the mean for the two variables in Example 7.1 (variables from the Diet and Nutrition Survey). <span class="math inline">\(n=\)</span>sample size; <span class="math inline">\(\bar{Y}=\)</span>sample mean; <span class="math inline">\(s=\)</span>sample standard deviation; <span class="math inline">\(\mu_{0}=\)</span>null hypothesis about the population mean; <span class="math inline">\(t=t\)</span>-test statistic; <span class="math inline">\(*\)</span>: Alternative hypothesis <span class="math inline">\(H_{a}: \mu\ne \mu_{0}\)</span>; <span class="math inline">\(\dagger\)</span>: Alternative hypotheses <span class="math inline">\(H_{a}: \mu&lt;5\)</span> and <span class="math inline">\(\mu&gt;35\)</span> respectively.</caption>
 <colgroup>
-<col width="39%" />
+<col width="17%" />
+<col width="7%" />
+<col width="9%" />
 <col width="5%" />
-<col width="6%" />
-<col width="3%" />
-<col width="6%" />
-<col width="4%" />
-<col width="16%" />
-<col width="10%" />
-<col width="8%" />
+<col width="9%" />
+<col width="7%" />
+<col width="13%" />
+<col width="15%" />
+<col width="12%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -982,11 +972,11 @@ and its <span class="math inline">\(P\)</span>-value is obtained either from the
 <table style="width:99%;">
 <caption><span id="tab:t-2tests-dep">Table 7.5: </span>Results of tests and confidence intervals for comparing means of two dependent samples. For Example 7.4, the difference is between after and before the birth of the child, and for Example 7.5 it is between Friday the 13th and the preceding Friday the 6th. See the text for the definitions of the statistics. (* Obtained from the <span class="math inline">\(t_{9}\)</span> distribution; <span class="math inline">\(\dagger\)</span> Obtained from the standard normal distribution.)</caption>
 <colgroup>
-<col width="33%" />
-<col width="15%" />
+<col width="25%" />
 <col width="20%" />
 <col width="15%" />
-<col width="13%" />
+<col width="20%" />
+<col width="17%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -1020,7 +1010,7 @@ and its <span class="math inline">\(P\)</span>-value is obtained either from the
 <td align="right">(-0.40; 0.56)</td>
 </tr>
 <tr class="even">
-<td align="right">Example 7.5: Traffic flows on successive Friday</td>
+<td align="right">Example 7.5: Traffic flows on successive Fridays</td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
@@ -1056,8 +1046,8 @@ and its <span class="math inline">\(P\)</span>-value is obtained either from the
 <tr class="odd">
 <td></td>
 <td></td>
-<td align="left"><span class="math inline">\(H_{0}\)</span></td>
-<td align="left"><span class="math inline">\(H_{0}\)</span></td>
+<td align="left"><span class="math inline">\(H_{0}\)</span> is</td>
+<td align="left"><span class="math inline">\(H_{0}\)</span> is</td>
 </tr>
 <tr class="even">
 <td></td>
