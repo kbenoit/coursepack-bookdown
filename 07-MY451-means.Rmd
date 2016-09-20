@@ -24,7 +24,7 @@ The following five examples will be used for illustration throughout
 this chapter. Summary statistics for them are shown in Table
 \@ref(tab:t-groupex).
 
-##### Example 7.1: Survey data on diet {-}
+**Example 7.1: Survey data on diet**
 
 The National Diet and Nutrition Survey of adults aged 19–64 living in
 private households in Great Britain was carried out in 2000–01.^[Conducted for the Food Standards Agency and the Department of
@@ -87,7 +87,7 @@ acids ($n=1724$, $\bar{Y}=35.3$, and $s=6.11$).
 
 :(\#tab:t-groupex)Examples of analyses of population means used in Chapter \@ref(c-means). Here $n$ and $\bar{Y}$ denote the sample size and sample mean respectively, in the two-group examples 7.2–7.5 separately for the two groups. “Diff.” denotes the between-group difference of means, and $s$ is the sample standard deviation of the response variable $Y$ for the whole sample (Example 7.1), of the response variable within each group (Examples 7.2 and 7.3), or of the within-pair differences (Examples 7.4 and 7.5).
 
-##### Example 7.2: Housework by men and women {-}
+**Example 7.2: Housework by men and women**
 
 This example uses data from the 12th wave of the British Household Panel
 Survey (BHPS), collected in 2002. BHPS is an ongoing survey of UK
@@ -114,7 +114,7 @@ means of $Y$ are $\bar{Y}_{1}=7.33$ and $\bar{Y}_{2}=8.49$. These and
 the sample standard deviations $s_{1}$ and $s_{2}$ are also shown in
 Table \@ref(tab:t-groupex).
 
-##### Example 7.3: Eye contact and perceived friendliness of police officers {-}
+**Example 7.3: Eye contact and perceived friendliness of police officers**
 
 This example is based on an experiment conducted to examine the effects
 of some aspects of the appearance and behaviour of police officers on
@@ -146,7 +146,7 @@ the direction and statistical significance of the difference between
 $\bar{Y}_{2}$ and $\bar{Y}_{1}$ are the same as those in the published
 report.
 
-##### Example 7.4: Transition to parenthood {-}
+**Example 7.4: Transition to parenthood**
 
 In a study of the stresses and feelings associated with parenthood, 109
 couples expecting their first child were interviewed before and after
@@ -170,7 +170,7 @@ error of the difference in Table \@ref(tab:t-groupex) has been made up in
 such a way that the results of a significance test for the mean
 difference agree with those in the article.
 
-##### Example 7.5: Traffic patterns on Friday the 13th {-}
+**Example 7.5: Traffic patterns on Friday the 13th**
 
 A common superstition regards the 13th day of any month falling on a
 Friday as a particularly unlucky day. In a study examining the possible
@@ -1095,19 +1095,19 @@ from fat and fatty acids. These will be analysed separately, each in
 turn in the role of the variable of interest $Y$. Summary statistics for
 the variables are shown in Table \@ref(tab:t-ttests1)
 
-  ----------------------------------------------------------------------------- --------- ----------- ------ ----------- -------- -------------------------------- ------------------- ----------------
-                                                                                        \           \      \           \        \                        $P$-value           $P$-value         \
+  --------------------- --------- ----------- ------ ----------- -------- ---------------- ------------------- ----------------
+                                \           \      \           \        \        $P$-value           $P$-value         \
 
-                                                                                                                                                              Two-                One-      95% CI
-  Variable                                                                            $n$   $\bar{Y}$    $s$   $\mu_{0}$      $t$                      sided$^{*}$   sided$^{\dagger}$    for $\mu$
+                                                                                      Two-                One-      95% CI
+  Variable                    $n$   $\bar{Y}$    $s$   $\mu_{0}$      $t$      sided$^{*}$   sided$^{\dagger}$    for $\mu$
 
-  Fruit and vegetable                                                                1724         2.8   2.15           5   -49.49                         $<0.001$            $<0.001$     (2.70; 2.90)
-  consumption                                                                                                                                                                       
-  (400g portions)                                                                                                                                                                   
+  Fruit and vegetable        1724         2.8   2.15           5   -49.49         $<0.001$            $<0.001$     (2.70; 2.90)
+  consumption
+  (400g portions)
 
-  Total energy intake                                                                1724        35.3   6.11          35     2.04                            0.042               0.021   (35.01; 35.59)
-  from fat (%)                                                                                                                                                                      
-  ----------------------------------------------------------------------------- --------- ----------- ------ ----------- -------- -------------------------------- ------------------- ----------------
+  Total energy intake        1724        35.3   6.11          35     2.04            0.042               0.021   (35.01; 35.59)
+  from fat (%)
+  --------------------- --------- ----------- ------ ----------- -------- ---------------- ------------------- ----------------
 
   :(\#tab:t-ttests1)Summary statistics, $t$-tests and confidence intervals for the mean
   for the two variables in Example 7.1 (variables from the Diet and
@@ -1493,20 +1493,20 @@ noting that this is simply a one-sample analysis with the differences
 $D$ in place of the variable $Y$, and applying the formulas of Section
 \@ref(s-means-1sample) to the observed values of $D$.
 
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                              \                                   \                       Test of $H_{0}: \Delta=0$           Test of $H_{0}: \Delta=0$                                \
-  ----------------------------------------------------------------------------- ----------------------------------- ----------------------------------------------- ----------------------------------- --------------------------------
-                                    $\hat{\Delta}$                                    $\hat{\sigma}_{\hat{\Delta}}$                                             $t$                           $P$-value           95 % C.I. for $\Delta$
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              \                                   \   Test of $H_{0}: \Delta=0$           Test of $H_{0}: \Delta=0$                                \  
+  --------------------------------------------- ----------------------------------- --------------------------- ----------------------------------- --------------------------------
+                                 $\hat{\Delta}$    $\hat{\sigma}_{\hat{\Delta}}$                         $t$                           $P$-value           95 % C.I. for $\Delta$
 
     Example 7.4: Father's personal well-being
 
-                                                                           0.08                               0.247                                           0.324                    0.75$^{\dagger}$                    (-0.40; 0.56)
+                                           0.08                               0.247                       0.324                    0.75$^{\dagger}$                    (-0.40; 0.56)
 
     Example 7.5: Traffic flows on successive
-                                                                         Friday
+    Fridays
 
-                                                                          -1835                                 372                                           -4.93                         0.001$^{*}$                    (-2676; -994)
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                          -1835                                 372                       -4.93                         0.001$^{*}$                    (-2676; -994)
+  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   :(\#tab:t-2tests-dep)Results of tests and confidence intervals for comparing means of two
   dependent samples. For Example 7.4, the difference is between after
@@ -1597,7 +1597,7 @@ theory until falsified” thinking of Popperian philosophy of science, or
 even the “innocent until proven guilty” principle of jurisprudence.
 
   ------------ ------- ---------------------------------- ------------------
-                       $H_{0}$                            $H_{0}$
+                       $H_{0}$ is                         $H_{0}$ is
                        Not Rejected                       Rejected
   $H_{0}$ is   True    Correct decision                   Type I error
                False   Type II error                      Correct decision

@@ -394,7 +394,7 @@ test statistic for this example are shown in Table
     $(f_{o}-f_{e})^{2}/f_{e}$ across all the cells of the table.
 
 -------- ---------- --------- --------- --------------- --------------------- ---------------------------
-Cell        Cell            \         \               \                     \                           \
+Cell        Cell            \         \               \                     \                           \  
 Sex       Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
 Male         SA           160     160.4          $-0.4$                  0.16                       0.001
 Male         A            439     477.6         $-38.6$               1489.96                       3.120
@@ -751,6 +751,8 @@ value of the test statistic is $\chi^{2}=2.84$. The $P$-value of the
 test for this sample would then be the probability of values of 2.84 or
 larger, evaluated from the $\chi^{2}_{4}$ distribution.
 
+![(\#fig:f-pvalchisq)Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
+
 For a probability curve like the one in Figure \@ref(fig:f-pvalchisq), areas
 under the curve correspond to probabilities. For example, the area under
 the whole curve from 0 to infinity is 1, because a variable which
@@ -767,8 +769,6 @@ this and all larger values. This is also shown in Figure
 because 18.86 is far into the tail of the distribution where the
 probabilities are low. The $P$-value is then also low, specifically
 $P=0.0008$.
-
-![(\#fig:f-pvalchisq)Illustration of the $P$-value for a $\chi^{2}$ test statistic with 4 degrees of freedom and with values $\chi^{2}=2.84$ (area of the grey region under the curve) and $\chi^{2}=18.86$.](chi2_pval){width="8cm"}
 
 In practice the $P$-value is usually calculated by a
 computer. In the SPSS output of Figure \@ref(fig:f-spsschi2) is is shown in

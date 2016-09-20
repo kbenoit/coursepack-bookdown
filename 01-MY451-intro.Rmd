@@ -378,11 +378,11 @@ Survey:
 *or widowed?*                                     (5)
 ------------------------------------------------- --------------
 
-\\[2\] *Over the last twelve months, would you say your health has on the
+[2] *Over the last twelve months, would you say your health has on the
 whole been good, fairly good, or not good?*\
 (“Good” is coded as 1, “Fairly Good” as 2, and “Not Good” as 3.)
 
-\\[3\] *About how many cigaretters A DAY do you usually smoke on
+[3] *About how many cigaretters A DAY do you usually smoke on
 weekdays?*\
 (Recorded as the number of cigarettes)
 
@@ -393,7 +393,7 @@ common classification of measurement levels:
     simply labels for different possible values (*levels* or
     *categories*) of the variable. The only possible comparison is then
     to identify whether two subjects have the *same* or *different*
-    values of the variable. The marital status variable \\[1\] is
+    values of the variable. The marital status variable [1] is
     measured on a nominal scale. The values of such *nominal-level
     variables* are not in any order, so we cannot talk about one subject
     having “more” or “less” of the variable than another subject; even
@@ -421,7 +421,7 @@ common classification of measurement levels:
     a natural ordering. It is then possible to determine not only
     whether two subjects have the same value, but also whether one or
     the other has a *higher* value. For example, the self-reported
-    health variable \\[2\] is an ordinal-level variable, as larger values
+    health variable [2] is an ordinal-level variable, as larger values
     indicate worse states of health. The numbers assigned to the
     categories now have to be in the correct order, because otherwise
     information about the true ordering of the categories would
@@ -451,7 +451,7 @@ common classification of measurement levels:
 
 -   A variable is measured on a **ratio scale** if it has all the
     properties of an interval-level variable and also a true zero point.
-    For example, the smoking variable \\[3\] is measured on a ratio
+    For example, the smoking variable [3] is measured on a ratio
     level, with zero cigarettes as its point of origin. It is now
     possible to carry out all the comparisons possible for
     interval-level variables, and also to compare ratios. For example,
@@ -504,8 +504,8 @@ This distinction is based on the possible values a variable can have:
 -   A variable is **discrete** if its basic unit of measurement cannot
     be subdivided. Thus a discrete variable can only have certain
     values, and the values between these are logically impossible. For
-    example, the marital status variable \\[1\] and the health variable
-    \\[2\] defined under "Measurement Levels" in Section \@ref(ss-intro-def-vartypes) are discrete, because
+    example, the marital status variable [1] and the health variable
+    [2] defined under "Measurement Levels" in Section \@ref(ss-intro-def-vartypes) are discrete, because
     values like marital status of 2.3 or self-reported health of 1.7 are
     impossible given the way the variables are defined.
 
@@ -579,24 +579,23 @@ interval-level variable; the most common example of this is a **count**,
 such as the number of children in a family or the population of a
 country. These connections are summarized in Table \@ref(tab:t-vartypes).
 
-  ------------------------------------ ------------------------------------------------------------------- ---------------------------------------------
-                                       *Measurement level*                                                 *Measurement level*
+  ---------------- --------------------------- ------------------------
+                   *Measurement level*         *Measurement level*
 
-                                       **Nominal/ordinal**                                                 **Interval/ratio**
+                   **Nominal/ordinal**         **Interval/ratio**
 
-  **Discrete**                         Many                                                                *Counts*
+  **Discrete**     Many                        *Counts*
 
-                                       - Always **categorical**,                                           - If many different
-                                       i.e. having a fixed set                                             observed values,
-                                       of possible values                                                  often treated as
-                                       (categories)                                                        effectively continuous
+                   - Always **categorical**,   - If many different
+                   i.e. having a fixed set     observed values,
+                   of possible values          often treated as
+                   (categories)                effectively continuous
+                   - If only two categories,
+                   variable is **binary**
+                   (**dichotomous**)
 
-                                       - If only two categories,
-                                       variable is **binary**
-                                       (**dichotomous**)
-
-  **Continuous**                       None                                                                Many
-  ------------------------------------ ------------------------------------------------------------------- ---------------------------------------------
+  **Continuous**   None                        Many
+  ---------------- --------------------------- ------------------------
 
   :(\#tab:t-vartypes)Relationships between the types of variables discussed in Section
   \@ref(ss-intro-def-vartypes.
