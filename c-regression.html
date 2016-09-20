@@ -455,14 +455,14 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <img src="imr1.png" alt="A scatterplot of net primary school enrolment ratio vs. Infant mortality rate for countries in the Global Civil Society data set (n=111). The solid line is the best-fitting (least squares) straight line for the points." width="510" />
 <p class="caption">Figure 8.6: A scatterplot of net primary school enrolment ratio vs. Infant mortality rate for countries in the Global Civil Society data set (<span class="math inline">\(n=111\)</span>). The solid line is the best-fitting (least squares) straight line for the points.</p>
 </div>
-<table style="width:99%;">
-<caption><span id="tab:t-imrvars">Table 8.2: </span>Summary statistics for Infant Mortality Rate (IMR)and explanatory variables for it considered in the examples of Sections <a href="c-regression.html#s-regression-simple">8.3</a> and <a href="c-regression.html#s-regression-multiple">8.5</a> (<span class="math inline">\(n=111\)</span>). See Example 8.1 for further information on the variables.</caption>
+<table style="width:98%;">
+<caption><span id="tab:t-imrvars">Table 8.2: </span>Summary statistics for Infant Mortality Rate (IMR) and explanatory variables for it considered in the examples of Sections <a href="c-regression.html#s-regression-simple">8.3</a> and <a href="c-regression.html#s-regression-multiple">8.5</a> (<span class="math inline">\(n=111\)</span>). See Example 8.1 for further information on the variables.</caption>
 <colgroup>
-<col width="48%" />
-<col width="23%" />
-<col width="8%" />
-<col width="9%" />
-<col width="9%" />
+<col width="53%" />
+<col width="7%" />
+<col width="11%" />
+<col width="12%" />
+<col width="12%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -761,8 +761,8 @@ The only parameter of the simple linear regression model for which we will descr
 \label{eq:H0betasimple}\end{equation}\]</span>
 <p>Recall that when <span class="math inline">\(\beta\)</span> is 0, there is no linear association between the explanatory variable <span class="math inline">\(X\)</span> and the response variable <span class="math inline">\(Y\)</span>. Graphically, this corresponds to a regression line in the population which is parallel to the <span class="math inline">\(X\)</span>-axis (see plot (d) of Figure <a href="c-regression.html#fig:f-scatterplots">8.4</a> for an illustration of such a line in a sample). The hypothesis (\ref{eq:H0betasimple}) can thus be expressed in words as</p>
 <span class="math display">\[\begin{equation}
-H_{0}:\; \text{\emph{There is no linear association between }X \text{\emph{and}}Y\text{ \emph{in the population}}}.
-\label{H0betasimple2}
+H_{0}:\; \text{\emph{There is no linear association between }X \text{\emph{and }}Y\text{ \emph{in the population}}}.
+\label{eq:H0betasimple2}
 \end{equation}\]</span>
 <p>Tests of this are usually carried out against a two-sided alternative hypothesis <span class="math inline">\(H_{a}: \; \beta\ne 0\)</span>, and we will also concentrate on this case.</p>
 <p>Formulation (\ref{eq:H0betasimple2}) implies that the hypothesis that <span class="math inline">\(\beta=0\)</span> is equivalent to one that the population correlation <span class="math inline">\(\rho\)</span> between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> is also 0. The test statistic presented below for testing (\ref{eq:H0betasimple}) is also identical to a common test statistic for <span class="math inline">\(\rho=0\)</span>. A test of <span class="math inline">\(\beta=0\)</span> can thus be interpreted also as a test of no correlation in the population.</p>
@@ -826,15 +826,15 @@ translation by L. P. Wilkinson)</p>
 <h3><span class="header-section-number">8.5.1</span> Introduction</h3>
 <p>Simple linear regression becomes multiple linear regression when more than one explanatory variable is included in the model. How this is done is explained in Section <a href="c-regression.html#ss-regression-multiple-def">8.5.2</a> below. The definition of the model builds directly on that of the simple linear model, and most of the elements of the multiple model are either unchanged or minimally modified from the simple one. As a result, we can in Section <a href="c-regression.html#ss-regression-multiple-unchanged">8.5.3</a> cover much of the multiple linear model simply by referring back to the descriptions in Section <a href="c-regression.html#s-regression-simple">8.3</a>. One aspect of the model is, however, conceptually expanded when there are multiple explanatory variables, and requires a careful discussion. This is the meaning of the regression coefficients of the explanatory variables. The interpretation of and inference for these parameters are discussed in Section <a href="c-regression.html#ss-regression-multiple-beta">8.5.4</a>. The crucial part of this interpretation, and the main motivation for considering multiple regression models, is that it is one way of implementing the ideas of statistical control in analyses for continuous response variables.</p>
 <p>The concepts are be illustrated with a further example from the Global Civil Society data set. The response variable will still be the Infant mortality rate of a country, and there will be three explanatory variables: School enrolment, Control of corruption and Income inequality as measured by the Gini index (see Example 8.1). Results for this model are shown in Table <a href="c-regression.html#tab:t-imr-m2">8.3</a>, to which we will refer throughout this section. The table is also an example of the kind of format in which results of regression models are typically reported. Presenting raw computer output such as that in Figure <a href="c-regression.html#fig:f-spss-linreg">8.7</a> is normally not appropriate in formal research reports.</p>
-<table style="width:99%;">
+<table style="width:98%;">
 <caption><span id="tab:t-imr-m2">Table 8.3: </span>Response variable: Infant Mortality Rate (%). Results for a linear regression model for Infant mortality rate given three explanatory variables in the Global Civil Society data. <span class="math inline">\(\hat{\sigma}=2.23\)</span>; <span class="math inline">\(R^{2}=0.692\)</span>; <span class="math inline">\(n=111\)</span>; <span class="math inline">\(df=107\)</span></caption>
 <colgroup>
-<col width="54%" />
-<col width="9%" />
-<col width="7%" />
-<col width="5%" />
+<col width="28%" />
+<col width="15%" />
+<col width="11%" />
 <col width="8%" />
 <col width="13%" />
+<col width="20%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -985,12 +985,12 @@ A confidence interval with confidence level <span class="math inline">\(1-\alpha
 <table style="width:98%;">
 <caption><span id="tab:t-imr-m3">Table 8.4: </span>Response variable: Infant Mortality Rate (%). Results for a linear regression model for Infant mortality rate in the Global Civil Society data, given the three explanatory variables in Table <a href="c-regression.html#tab:t-imr-m2">8.3</a> and Income level in three groups. <span class="math inline">\(\hat{\sigma}=2.01\)</span>; <span class="math inline">\(R^{2}=0.753\)</span>; <span class="math inline">\(n=111\)</span>; <span class="math inline">\(df=105\)</span>.</caption>
 <colgroup>
-<col width="53%" />
-<col width="10%" />
-<col width="6%" />
-<col width="7%" />
+<col width="29%" />
+<col width="15%" />
 <col width="9%" />
-<col width="12%" />
+<col width="11%" />
+<col width="13%" />
+<col width="18%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1045,7 +1045,7 @@ Coefficient</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
-<td align="left">Middle</td>
+<td align="left"> Middle</td>
 <td align="right"><span class="math inline">\(-3.210\)</span></td>
 <td align="right">0.631</td>
 <td align="right"><span class="math inline">\(-5.09\)</span></td>
@@ -1053,7 +1053,7 @@ Coefficient</td>
 <td align="center"><span class="math inline">\((-4.461; -1.958)\)</span></td>
 </tr>
 <tr class="even">
-<td align="left">High</td>
+<td align="left"> High</td>
 <td align="right"><span class="math inline">\(-3.296\)</span></td>
 <td align="right">1.039</td>
 <td align="right"><span class="math inline">\(-3.17\)</span></td>
@@ -1091,15 +1091,15 @@ Coefficient</td>
 <p>A minimum wage of $5.05 per hour came into effect in the U.S. state of New Jersey on April 1 1992. This represented an increase from the previous, federally mandated minimum wage of $4.25 per hour. Conventional economic theory predicts that employers will react to such an increase by cutting their work force. Here the research hypothesis is thus that employment will be reduced among businesses affected by the new minimum wage. This can be addressed using suitable data, examining a statistical hypothesis of no association between measures of minimum wage increase and change of employment, controlling for other relevant explanatory variables.</p>
 <p>Card and Krueger collected data for 410 fast food restaurants at two times, about one month before and eight months after the mininum wage increase came into effect in New Jersey. Only the 368 restaurants with known values of all the variables used in the analyses are included here. Of them, 268 were in New Jersey and had starting wages below $5.05 at the time of the first interview, so that these had to be increased to meet the new minimum wage. The remaining 100 restaurants provide a control group which was not affected by the change: 75 of them were in neighbouring eastern Pennsylvania where the minimum wage remained at $4.25, and 25 were in New Jersey but had starting wages of at least $5.05 even before the increase. The theoretical prediction is that the control group should experience a smaller negative employment change than the restaurants affected by the wage increase, i.e. employment in the control restaurants should not decrease or at least decrease less than in the affected restaurants. Card and Krueger argue that fast food restaurants provide a good population for examining the research question, because they employ many low-wage workers, generally comply with minimum wage legislation, do not receive tips which would complicate wage calculations, and are relatively easy to sample and interview.</p>
 <p>The response variable considered here is the change between the two interviews in full-time equivalent employment at the restaurant, defined as the number of full-time workers (including managers) plus half the number of part-time workers. This will be called “Employment change” below. We consider two variables which indicate how the restaurant was affected by the minimum wage increase. The first is simply a dummy variable which is 1 for those New Jersey restaurants where wages needed to be raised because of the increase, and 0 for the other restaurants. These will be referred to as “Affected” and “Unaffected” restaurants respectively. The second variable is also 0 for the unaffected restaurants; for the affected ones, it is the proportion by which their previous starting wage had to be increased to meet the new minimum wage. For example, if the previous starting wage was the old minimum of $4.25, this “Wage gap” is <span class="math inline">\((5.05-4.25)/4.25=0.188\)</span>. Finally, we will also use information on the chain the restaurant belongs to (Burger King, Roy Rogers, Wendy’s or KFC) and whether it is owned by the parent company or the franchisee. These will be included in the analyses as partial control for other factors affecting the labour market, which might have had a differential impact on different types of restaurants over the study period. Summary statistics for the variables are shown in Table <a href="c-regression.html#tab:t-fastfood-descr">8.5</a>.</p>
-<table style="width:98%;">
+<table style="width:97%;">
 <caption><span id="tab:t-fastfood-descr">Table 8.5: </span>Summary statistics for the variables considered in the minimum wage example of Section <a href="c-regression.html#ss-regression-dummies-example">8.6.2</a>. Mean employment change: Among unaffected restaurants: <span class="math inline">\(-2.93\)</span>; Among affected restaurants: <span class="math inline">\(+0.68\)</span>.</caption>
 <colgroup>
-<col width="31%" />
-<col width="5%" />
-<col width="6%" />
-<col width="34%" />
-<col width="12%" />
-<col width="9%" />
+<col width="24%" />
+<col width="8%" />
+<col width="10%" />
+<col width="17%" />
+<col width="20%" />
+<col width="15%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1139,7 +1139,7 @@ Coefficient</td>
 <td align="center"></td>
 </tr>
 <tr class="odd">
-<td align="left">Franchisee</td>
+<td align="left"> Franchisee</td>
 <td align="right">64.7</td>
 <td align="right">(238)</td>
 <td align="right">71.8 (171)</td>
@@ -1147,7 +1147,7 @@ Coefficient</td>
 <td align="center"><span class="math inline">\(-0.17\)</span></td>
 </tr>
 <tr class="even">
-<td align="left">Company</td>
+<td align="left"> Company</td>
 <td align="right">35.3</td>
 <td align="right">(130)</td>
 <td align="right">74.6 (97)</td>
@@ -1163,7 +1163,7 @@ Coefficient</td>
 <td align="center"></td>
 </tr>
 <tr class="even">
-<td align="left">Burger King</td>
+<td align="left"> Burger King</td>
 <td align="right">41.0</td>
 <td align="right">(151)</td>
 <td align="right">73.5 (111)</td>
@@ -1171,7 +1171,7 @@ Coefficient</td>
 <td align="center"><span class="math inline">\(+0.02\)</span></td>
 </tr>
 <tr class="odd">
-<td align="left">Roy Rogers</td>
+<td align="left"> Roy Rogers</td>
 <td align="right">24.7</td>
 <td align="right">(91)</td>
 <td align="right">72.5 (66)</td>
@@ -1179,7 +1179,7 @@ Coefficient</td>
 <td align="center"><span class="math inline">\(-1.89\)</span></td>
 </tr>
 <tr class="even">
-<td align="left">Wendy’s</td>
+<td align="left"> Wendy’s</td>
 <td align="right">13.0</td>
 <td align="right">(48)</td>
 <td align="right">60.4 (29)</td>
@@ -1187,7 +1187,7 @@ Coefficient</td>
 <td align="center"><span class="math inline">\(-0.28\)</span></td>
 </tr>
 <tr class="odd">
-<td align="left">KFC</td>
+<td align="left"> KFC</td>
 <td align="right">21.2</td>
 <td align="right">(78)</td>
 <td align="right">79.5 (62)</td>
@@ -1196,14 +1196,14 @@ Coefficient</td>
 </tr>
 </tbody>
 </table>
-<table style="width:99%;">
+<table style="width:98%;">
 <caption><span id="tab:t-fastfood-models">Table 8.6: </span>Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum wage increase and control variables. See the text for further details.</caption>
 <colgroup>
 <col width="36%" />
-<col width="22%" />
-<col width="22%" />
-<col width="9%" />
-<col width="7%" />
+<col width="16%" />
+<col width="16%" />
+<col width="16%" />
+<col width="12%" />
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -1266,7 +1266,7 @@ Variable</td>
 <td align="right"></td>
 </tr>
 <tr class="odd">
-<td align="left">Company</td>
+<td align="left"> Company</td>
 <td align="right">0.22</td>
 <td align="right">(0.20)</td>
 <td align="right">0.43</td>
@@ -1287,7 +1287,7 @@ Variable</td>
 <td align="right"></td>
 </tr>
 <tr class="even">
-<td align="left">Roy Rogers</td>
+<td align="left"> Roy Rogers</td>
 <td align="right">-2.00</td>
 <td align="right">(-1.56)</td>
 <td align="right">-1.84</td>
@@ -1301,7 +1301,7 @@ Variable</td>
 <td align="right">0.15</td>
 </tr>
 <tr class="even">
-<td align="left">Wendy’s</td>
+<td align="left"> Wendy’s</td>
 <td align="right">0.15</td>
 <td align="right">(0.11)</td>
 <td align="right">0.36</td>
@@ -1315,7 +1315,7 @@ Variable</td>
 <td align="right">0.81</td>
 </tr>
 <tr class="even">
-<td align="left">KFC</td>
+<td align="left"> KFC</td>
 <td align="right">0.64</td>
 <td align="right">(0.51)</td>
 <td align="right">0.81</td>
