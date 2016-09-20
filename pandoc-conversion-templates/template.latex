@@ -248,7 +248,6 @@ $endif$
 \begin{document}
 $if(title)$
 \maketitle
-\frontmatter
 $endif$
 $if(abstract)$
 \begin{abstract}
@@ -261,6 +260,7 @@ $include-before$
 
 $endfor$
 $if(toc)$
+\frontmatter
 \thispagestyle{empty}
 {
 $if(colorlinks)$
@@ -269,7 +269,6 @@ $endif$
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-\thispagestyle{empty}
 $endif$
 $if(lot)$
 \listoftables

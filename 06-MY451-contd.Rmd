@@ -361,6 +361,8 @@ was approximately normally distributed with mean 74.2 and variance
 127.87 (and thus standard deviation 11.3). The probabilities of interest
 are then the areas of the regions shown in Figure \@ref(fig:f-normbp).
 
+![(\#fig:f-normbp)Illustration of probabilities for a normal distribution in the blood pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows probabilities for the ranges of values at most 60 (“Low”), between 60 and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
+
 The remaining question is how to calculate such probabilities. The short
 answer is “with a computer”. However, to explain an approach which is
 required for this in some computer packages and also to provide an
@@ -376,9 +378,6 @@ standard deviations $\sigma$. Thus the blood pressure 60, with a $Z$
 score of $-1.26$, is 1.26 standard deviations *below* (hence the
 negative sign) the mean, while 90 (with $Z$ score 1.40) is 1.40 standard
 deviations *above* the mean.
-
-![(\#fig:f-normbp)Illustration of probabilities for a normal distribution in the blood pressure example, where $\mu=74.2$ and $\sigma=11.3$. The plot shows
-probabilities for the ranges of values at most 60 (“Low”), between 60 and 90 ("Mid”) and over 90 (“High”).](normbp){width="12cm"}
 
          $z$   Tail Prob. 
   ---------- -------------

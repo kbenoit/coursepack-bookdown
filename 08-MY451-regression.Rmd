@@ -530,15 +530,15 @@ list of ones on the diagonal of the matrix. This simply indicates that
 the correlation of any variable with itself is 1, which is true by
 definition and thus of no real interest.
 
-  ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
-                              Variable                              GDP    Gini   Pol.    Corrupt.    School     IMR
-                GDP per capita \[GDP ]                                1   -0.39    0.51        0.77     0.42   -0.62
-            Income inequality \[Gini ]                            -0.39       1   -0.15       -0.27    -0.27    0.42
-             Political rights \[Pol. ]                             0.51   -0.15       1        0.59     0.40   -0.44
-    Control of corruption \[Corrupt. ]                             0.77   -0.27    0.59           1     0.41   -0.64
-           School enrolment \[School ]                             0.42   -0.27    0.40        0.41        1   -0.73
-              Infant mortality \[IMR ]                            -0.62    0.42   -0.44       -0.64    -0.73       1
-  ------------------------------------ -------------------------------- ------- ------- ----------- -------- -------
+  ------------------------------------ -------- ------- ------- ----------- -------- -------
+                              Variable      GDP    Gini   Pol.    Corrupt.    School     IMR
+                GDP per capita \[GDP ]        1   -0.39    0.51        0.77     0.42   -0.62
+            Income inequality \[Gini ]    -0.39       1   -0.15       -0.27    -0.27    0.42
+             Political rights \[Pol. ]     0.51   -0.15       1        0.59     0.40   -0.44
+    Control of corruption \[Corrupt. ]     0.77   -0.27    0.59           1     0.41   -0.64
+           School enrolment \[School ]     0.42   -0.27    0.40        0.41        1   -0.73
+              Infant mortality \[IMR ]    -0.62    0.42   -0.44       -0.64    -0.73       1
+  ------------------------------------ -------- ------- ------- ----------- -------- -------
 
   : (\#tab:t-civilsoc-r)Correlation matrix of six continuous variables in the Global Civil
   Society data set. See Example 8.1 for more information
@@ -635,40 +635,40 @@ for all the countries with non-missing values of that pair of variables.
 
 ![(\#fig:f-imr1)A scatterplot of net primary school enrolment ratio vs. Infant mortality rate for countries in the Global Civil Society data set ($n=111$). The solid line is the best-fitting (least squares) straight line for the points.](imr1){width="13.5cm"}
 
-  ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
-  \                                                                                                \      School   Control of       Income
-                                                                                                 IMR   enrolment   corruption   inequality
+  ------------------------------------------------------ ------- ----------- ------------ ------------
+  \                                                            \      School   Control of       Income
+                                                             IMR   enrolment   corruption   inequality
 
   *Summary statistics*
 
-  Mean                                                                                           4.3        86.1         50.1         40.5
+  Mean                                                       4.3        86.1         50.1         40.5
 
-  std. deviation                                                                                 4.0        16.7         28.4         10.2
+  std. deviation                                             4.0        16.7         28.4         10.2
 
-  Minimum                                                                                        0.3        30.0          3.6         24.4
+  Minimum                                                    0.3        30.0          3.6         24.4
 
-  Maximum                                                                                       15.6       109.0        100.0         70.7
+  Maximum                                                   15.6       109.0        100.0         70.7
 
   *Correlation matrix*
 
-  IMR                                                                                              1       -0.75        -0.60         0.39
+  IMR                                                          1       -0.75        -0.60         0.39
 
-  School enrolment                                                                             -0.75           1         0.39        -0.27
+  School enrolment                                         -0.75           1         0.39        -0.27
 
-  Control of corruption                                                                        -0.60        0.39            1        -0.27
+  Control of corruption                                    -0.60        0.39            1        -0.27
 
-  Income inequality                                                                             0.39       -0.27        -0.27            1
+  Income inequality                                         0.39       -0.27        -0.27            1
 
   *Means for countries in different income categories*
 
-  Low income ($n=41$)                                                                            8.2        72.1         27.5         41.7
+  Low income ($n=41$)                                        8.2        72.1         27.5         41.7
 
-  Middle income ($n=48$)                                                                         2.8        92.5         50.8         43.3
+  Middle income ($n=48$)                                     2.8        92.5         50.8         43.3
 
-  High income ($n=22$)                                                                           0.5        98.4         90.7         32.0
-  ------------------------------------------------------------------ ------------------------------- ----------- ------------ ------------
+  High income ($n=22$)                                       0.5        98.4         90.7         32.0
+  ------------------------------------------------------ ------- ----------- ------------ ------------
 
-  : (\#tab:t-imrvars)Summary statistics for Infant Mortality Rate (IMR)and explanatory
+  : (\#tab:t-imrvars)Summary statistics for Infant Mortality Rate (IMR) and explanatory
   variables for it considered in the examples of Sections
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
   See Example 8.1 for further information on the
@@ -1245,8 +1245,8 @@ population which is parallel to the $X$-axis (see plot (d) of Figure
 The hypothesis (\@ref(eq:H0betasimple)) can thus be expressed in words as
 
 \begin{equation}
-H_{0}:\; \text{\emph{There is no linear association between }X \text{\emph{and}}Y\text{ \emph{in the population}}}.
-\label{H0betasimple2}
+H_{0}:\; \text{\emph{There is no linear association between }X \text{\emph{and }}Y\text{ \emph{in the population}}}.
+\label{eq:H0betasimple2}
 \end{equation}
 
 Tests of this are usually carried out against a two-sided alternative hypothesis $H_{a}: \; \beta\ne 0$, and we will also concentrate on this case.
@@ -1540,18 +1540,18 @@ Presenting raw computer output such as that in Figure
 \@ref(fig:f-spss-linreg) is normally not appropriate in formal research
 reports.
 
-  ----------------------------------------------------------------------------- ------------- ---------- ------- ----------- -------------------
-  Explanatory                                                                               \   Standard       \           \   95 % Confidence
-  variable                                                                        Coefficient      error     $t$   $P$-value      interval
+  ------------------------- ------------- ---------- ------- ----------- -------------------
+  Explanatory                           \   Standard       \           \   95 % Confidence
+  variable                    Coefficient      error     $t$   $P$-value      interval
 
-  Constant                                                                              16.40                                
+  Constant                          16.40                                
 
-  School enrolment (%)                                                                 -0.139      0.014   -9.87    $<0.001$  (-0.167; -0.111 )
+  School enrolment (%)             -0.139      0.014   -9.87    $<0.001$  (-0.167; -0.111 )
 
-  Control of corruption                                                                -0.046      0.008   -5.53    $<0.001$  (-0.062; -0.029)
+  Control of corruption            -0.046      0.008   -5.53    $<0.001$  (-0.062; -0.029)
 
-  Income inequality                                                                     0.055      0.022    2.50       0.014   (0.011; 0.098)
-  ----------------------------------------------------------------------------- ------------- ---------- ------- ----------- -------------------
+  Income inequality                 0.055      0.022    2.50       0.014   (0.011; 0.098)
+  ------------------------- ------------- ---------- ------- ----------- -------------------
 
   : (\#tab:t-imr-m2)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
   given three explanatory variables in the Global Civil Society
@@ -1972,29 +1972,29 @@ explanatory variables are dummy variables. The only aspect which
 requires some further explanation is the interpretation of the
 coefficients of the dummy variables.
 
-  --------------------------------------------------------------------- ------------- ------- --------- ----------- ----------------
-  Explanatory variable                                                              \    Std.         \           \    95 % Conf. 
-                                                                          Coefficient   error       $t$   $P$-value     interval
+  ------------------------- ------------- ------- --------- ----------- ----------------
+  Explanatory variable                  \    Std.         \           \    95 % Conf. 
+                              Coefficient   error       $t$   $P$-value     interval
 
-  Constant                                                                      12.00                               
+  Constant                          12.00                               
 
-  School enrolment (%)                                                       $-0.091$   0.016   $-5.69$    $<0.001$    $(-0.123;
-                                                                                                                        -0.059)$
+  School enrolment (%)           $-0.091$   0.016   $-5.69$    $<0.001$    $(-0.123;
+                                                                            -0.059)$
 
-  Control of corruption                                                      $-0.020$   0.011   $-1.75$     $0.083$    $(-0.043;
-                                                                                                                        0.003)$
+  Control of corruption          $-0.020$   0.011   $-1.75$     $0.083$    $(-0.043;
+                                                                            0.003)$
 
-  Income inequality                                                             0.080   0.021      3.75    $<0.001$  (0.038; 0.122)
+  Income inequality                 0.080   0.021      3.75    $<0.001$  (0.038; 0.122)
 
-  Income level                                                                                                      
-  (Reference group: Low)                                                                                            
+  Income level                                                          
+  (Reference group: Low)                                                
 
-  Middle                                                                     $-3.210$   0.631   $-5.09$    $<0.001$    $(-4.461;
-                                                                                                                        -1.958)$
+  &nbsp;Middle                   $-3.210$   0.631   $-5.09$    $<0.001$    $(-4.461;
+                                                                            -1.958)$
 
-  High                                                                       $-3.296$   1.039   $-3.17$       0.002    $(-5.357;
-                                                                                                                        -1.235)$
-  ----------------------------------------------------------------------------------------------------------------------------------
+  &nbsp;High                     $-3.296$   1.039   $-3.17$       0.002    $(-5.357;
+                                                                            -1.235)$
+  ------------------------- ------------- ------- --------- ----------- ----------------
 
   : (\#tab:t-imr-m3)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
@@ -2242,78 +2242,76 @@ might have had a differential impact on different types of restaurants
 over the study period. Summary statistics for the variables are shown in
 Table \@ref(tab:t-fastfood-descr).
 
-  ---------------------------------------- ------ ------- --------------------------------------------- --------------- ------------
-  \                                             \       \                                       Minimum  wage variable       \
+  ------------------ ------ ------- ------------- --------------- ------------
+  \                       \       \       Minimum  wage variable       \
 
-  Group                                         %   $(n)$                                      Affected    Wage gap      Response
-                                                                                                % ($n$)   (mean for      variable:
-                                                                                                           affected      Employment
-                                                                                                         restaurants)     change
-                                                                                                                          (mean)
+  Group                   %   $(n)$      Affected    Wage gap      Response
+                                          % ($n$)   (mean for      variable:
+                                                     affected      Employment
+                                                   restaurants)     change
+                                                                    (mean)
 
-  Overall                                     100   (368)                                    72.8 (268)     0.115        $-0.30$
+  Overall               100   (368)    72.8 (268)     0.115        $-0.30$
 
-  Ownership                                                                                                            
+  Ownership                                                    
 
-  Franchisee                                 64.7   (238)                                    71.8 (171)     0.122        $-0.17$
+  &nbsp;Franchisee     64.7   (238)    71.8 (171)     0.122        $-0.17$
 
-  Company                                    35.3   (130)                                     74.6 (97)     0.103        $-0.52$
+  &nbsp;Company        35.3   (130)     74.6 (97)     0.103        $-0.52$
 
-  Chain                                                                                                                
+  Chain                                                        
 
-  Burger King                                41.0   (151)                                    73.5 (111)     0.129        $+0.02$
+  &nbsp;Burger King    41.0   (151)    73.5 (111)     0.129        $+0.02$
 
-  Roy Rogers                                 24.7    (91)                                     72.5 (66)     0.104        $-1.89$
+  &nbsp;Roy Rogers     24.7    (91)     72.5 (66)     0.104        $-1.89$
 
-  Wendy’s                                    13.0    (48)                                     60.4 (29)     0.086        $-0.28$
+  &nbsp;Wendy’s        13.0    (48)     60.4 (29)     0.086        $-0.28$
 
-  KFC                                        21.2    (78)                                     79.5 (62)     0.117        $+0.94$
-  ---------------------------------------- ------ ------- --------------------------------------------- -------------- ------------
+  &nbsp;KFC            21.2    (78)     79.5 (62)     0.117        $+0.94$
+  ------------------ ------ ------- ------------- -------------- ------------
 
   :(\#tab:t-fastfood-descr)Summary statistics for the variables considered in the minimum wage
   example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.
 
-  ------------------------------------------------------ --------------------------------- --------------------------------- ------------- -----------
-  \                                                                              Model (1)                                 \     Model (2)           \
-                                                                               Coefficient                             ($t$)   Coefficient       ($t$)
-  Variable                                                                     (std error)                         $P$-value   (std error)   $P$-value
+  ------------------------------ ------------- ------------- ------------- -----------
+  \                                  Model (1)             \     Model (2)           \
+                                   Coefficient         ($t$)   Coefficient       ($t$)
+  Variable                         (std error)     $P$-value   (std error)   $P$-value
 
-  Constant                                                                                                                                 
+  Constant                                                                 
 
-                                                                                     -2.63                                           -1.54
+                                         -2.63                       -1.54
 
-  Affected by the increase                                                            3.56                            (3.50)             —           —
+  Affected by the increase                3.56        (3.50)             —           —
 
-                                                                                    (1.02)                             0.001             —           —
+                                        (1.02)         0.001             —           —
 
-  Wage gap                                                                               —                                 —         15.88      (2.63)
+  Wage gap                                   —             —         15.88      (2.63)
 
-                                                                                         —                                 —        (6.04)       0.009
+                                             —             —        (6.04)       0.009
 
-  Ownership (vs. Franchisee)                                                                                                               
+  Ownership (vs. Franchisee)                                               
 
-  Company                                                                             0.22                            (0.20)          0.43      (0.40)
+  &nbsp;Company                           0.22        (0.20)          0.43      (0.40)
 
-                                                                                    (1.06)                              0.84        (1.07)        0.69
+                                        (1.06)          0.84        (1.07)        0.69
 
-  Chain (vs. Burger King)                                                                                                                  
+  Chain (vs. Burger King)                                                  
 
-  Roy Rogers                                                                         -2.00                           (-1.56)         -1.84     (-1.43)
+  &nbsp;Roy Rogers                       -2.00       (-1.56)         -1.84     (-1.43)
 
-                                                                                    (1.28)                              0.12        (1.29)        0.15
+                                        (1.28)          0.12        (1.29)        0.15
 
-  Wendy’s                                                                             0.15                            (0.11)          0.36      (0.24)
+  &nbsp;Wendy’s                           0.15        (0.11)          0.36      (0.24)
 
-                                                                                    (1.44)                              0.92        (1.46)        0.81
+                                        (1.44)          0.92        (1.46)        0.81
 
-  KFC                                                                                 0.64                            (0.51)          0.81      (0.64)
+  &nbsp;KFC                               0.64        (0.51)          0.81      (0.64)
 
-                                                                                    (1.25)                              0.61        (1.26)        0.52
+                                        (1.25)          0.61        (1.26)        0.52
 
-
-
-  $R^{2}$                                                                            0.046                                           0.032
-  ----------------------------------------------------------------------------------------------------------------------------------------------------
+  $R^{2}$                                0.046                       0.032
+  ------------------------------ ------------- ------------- ------------- -----------
 
   : (\#tab:t-fastfood-models)Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
   wage increase and control variables. See the text for further
