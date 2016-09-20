@@ -394,7 +394,7 @@ test statistic for this example are shown in Table
     $(f_{o}-f_{e})^{2}/f_{e}$ across all the cells of the table.
 
   -------- ---------- --------- --------- --------------- --------------------- ---------------------------
-  Cell        Cell            \         \               \                     \                          \\
+  Cell        Cell            \         \               \                     \                          
   Sex       Attitude    $f_{o}$   $f_{e}$   $f_{o}-f_{e}$   $(f_{o}-f_{e})^{2}$   $(f_{o}-f_{e})^{2}/f_{e}$
   Male         SA           160     160.4          $-0.4$                  0.16                       0.001
   Male         A            439     477.6         $-38.6$               1489.96                       3.120
