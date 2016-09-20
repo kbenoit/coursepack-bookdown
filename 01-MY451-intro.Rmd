@@ -368,7 +368,7 @@ introduce this concept, consider the variables obtained as answers to
 the following three questions in the former U.K. General Household
 Survey:
 
-\\[1\] *Are you*
+[1] *Are you*
 
 ------------------------------------------------- --------------
 *single, that is, never married?*                 (coded as 1)
