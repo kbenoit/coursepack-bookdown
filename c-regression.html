@@ -372,17 +372,19 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <p>Returning to real data, Table <a href="c-regression.html#tab:t-civilsoc-r">8.1</a> shows the correlation coefficients for all fifteen distinct pairs of the six continuous variables in the Global Civil Society data set mentioned in Example 8.1. This is an example of a <strong>correlation matrix</strong>, which is simply a table with the variables as both its rows and columns, and the correlation between each pair of variables given at the intersection of corresponding row and column. For example, the correlation of GDP per capita and School enrolment is here 0.42. This is shown at the intersection of the first row (GDP) and fifth column (School enrolment), and also of the fifth row and first column. In general, every correlation is shown twice in the matrix, once in its upper triangle and once in the lower. The triangles are separated by a list of ones on the diagonal of the matrix. This simply indicates that the correlation of any variable with itself is 1, which is true by definition and thus of no real interest.</p>
 <table>
 <caption><span id="tab:t-civilsoc-r">Table 8.1: </span>Correlation matrix of six continuous variables in the Global Civil Society data set. See Example 8.1 for more information on the variables.</caption>
+<thead>
+<tr class="header">
+<th align="right">Variable</th>
+<th align="right">GDP</th>
+<th align="right">Gini</th>
+<th align="right">Pol. </th>
+<th align="right">Corrupt. </th>
+<th align="right">School</th>
+<th align="right">IMR</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="right">Variable</td>
-<td align="right">GDP</td>
-<td align="right">Gini</td>
-<td align="right">Pol. </td>
-<td align="right">Corrupt. </td>
-<td align="right">School</td>
-<td align="right">IMR</td>
-</tr>
-<tr class="even">
 <td align="right">GDP per capita [GDP ]</td>
 <td align="right">1</td>
 <td align="right">-0.39</td>
@@ -391,7 +393,7 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <td align="right">0.42</td>
 <td align="right">-0.62</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">Income inequality [Gini ]</td>
 <td align="right">-0.39</td>
 <td align="right">1</td>
@@ -400,7 +402,7 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <td align="right">-0.27</td>
 <td align="right">0.42</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">Political rights [Pol. ]</td>
 <td align="right">0.51</td>
 <td align="right">-0.15</td>
@@ -409,7 +411,7 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <td align="right">0.40</td>
 <td align="right">-0.44</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">Control of corruption [Corrupt. ]</td>
 <td align="right">0.77</td>
 <td align="right">-0.27</td>
@@ -418,7 +420,7 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <td align="right">0.41</td>
 <td align="right">-0.64</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">School enrolment [School ]</td>
 <td align="right">0.42</td>
 <td align="right">-0.27</td>
@@ -427,7 +429,7 @@ In theoretical statistics, covariance is the fundamental summary of sample and p
 <td align="right">1</td>
 <td align="right">-0.73</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">Infant mortality [IMR ]</td>
 <td align="right">-0.62</td>
 <td align="right">0.42</td>
@@ -840,13 +842,10 @@ translation by L. P. Wilkinson)</p>
 <thead>
 <tr class="header">
 <th align="left">Explanatory variable</th>
-<th align="right"><br />
-Coefficient</th>
+<th align="right">Coefficient</th>
 <th align="right">Standard error</th>
-<th align="right"><br />
-<span class="math inline">\(t\)</span></th>
-<th align="right"><br />
-<span class="math inline">\(P\)</span>-value</th>
+<th align="right"><span class="math inline">\(t\)</span></th>
+<th align="right"><span class="math inline">\(P\)</span>-value</th>
 <th align="center">95 % Confidence interval</th>
 </tr>
 </thead>
@@ -998,13 +997,10 @@ A confidence interval with confidence level <span class="math inline">\(1-\alpha
 <thead>
 <tr class="header">
 <th align="left">Explanatory variable</th>
-<th align="right"><br />
-Coefficient</th>
+<th align="right">Coefficient</th>
 <th align="right">Std.  error</th>
-<th align="right"><br />
-<span class="math inline">\(t\)</span></th>
-<th align="right"><br />
-<span class="math inline">\(P\)</span>-value</th>
+<th align="right"><span class="math inline">\(t\)</span></th>
+<th align="right"><span class="math inline">\(P\)</span>-value</th>
 <th align="center">95 % Conf.  interval</th>
 </tr>
 </thead>

@@ -508,28 +508,16 @@ Total</th>
 <p>Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> is a <em>three-way</em> contingency table, because each of its internal cells shows the number of applicants with a particular combination of three variables: department, sex and admission status. For example, the frequency 207 in the top left corner indicates that there were 207 male applicants to department 2 who were not admitted. Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> is presented in the form of a series of tables of sex vs. admission, just like in the original two-way table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a>, but now with one table for each department. These are known as <strong>partial tables</strong> of sex vs. admission, <strong>controlling for</strong> department. The word “control” is used here in the same sense as before: each partial table summarises the data for the applicants to a single department, so the variable “department” is literally held constant within the partial tables.</p>
 <p>Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> also contains the marginal distributions of sex and admission status within each department. They can be used to construct the other two possible two-way tables for these variables, for department vs. sex of applicant and department vs. admission status. This information, summarised in Table <a href="c-3waytables.html#tab:t-berkeley3">9.3</a>, is discussed further below.</p>
 <p>The association between sex and admission within each partial table can be examined using methods for two-way tables. For every one of them, the <span class="math inline">\(\chi^{2}\)</span> test shows that the hypothesis of independence cannot be rejected, so there is no evidence of sex bias within any department. The apparent association in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> is thus spurious, and disappears when we control for department. Why this happens can be understood by considering the distributions of sex and admissions across departments, as shown in Table <a href="c-3waytables.html#tab:t-berkeley3">9.3</a>. Department is clearly associated with sex of the applicant: for example, almost all of the applicants to department 2, but only a third of the applicants to department 5 are men. Similarly, there is an association between department and admission: for example, nearly two thirds of the applicants to department 2 but only a quarter of the applicants to department 5 were admitted. It is the combination of these associations which induces the spurious association between sex and admission in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a>. In essence, women had a lower admission rate overall because relatively more of them applied to the more selective departments and fewer to the easy ones.</p>
-<table style="width:86%;">
+<table>
 <caption><span id="tab:t-berkeley3">Table 9.3: </span>Percentages of male applicants and applicants admitted by department in the Berkeley admissions data.</caption>
-<colgroup>
-<col width="31%" />
-<col width="20%" />
-<col width="8%" />
-<col width="8%" />
-<col width="8%" />
-<col width="8%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th align="left">Of all applicants</th>
-<th align="right">Department 2</th>
-<th align="right"><br />
-3</th>
-<th align="right"><br />
-4</th>
-<th align="right"><br />
-5</th>
-<th align="right"><br />
-6</th>
+<th align="right">Department: 2</th>
+<th align="right">3</th>
+<th align="right">4</th>
+<th align="right">5</th>
+<th align="right">6</th>
 </tr>
 </thead>
 <tbody>
@@ -1153,11 +1141,11 @@ Nonsmokers</th>
 <table style="width:98%;">
 <caption><span id="tab:t-whickham3">Table 9.9: </span>Two-way contingency tables of age group vs. survival (on the left) and age group vs. smoking (on the right) in Example 6.4. The percentages in parentheses are column percentages (within smokers or nonsmokers) and the ones without parentheses are row percentages (within age groups).</caption>
 <colgroup>
-<col width="11%" />
+<col width="14%" />
 <col width="16%" />
-<col width="28%" />
-<col width="19%" />
-<col width="13%" />
+<col width="27%" />
+<col width="18%" />
+<col width="12%" />
 <col width="8%" />
 </colgroup>
 <thead>
@@ -1169,7 +1157,8 @@ Age group</th>
 <th align="center">Row and column % Smokers</th>
 <th align="center"><br />
 Nonsmokers</th>
-<th align="center">Total %</th>
+<th align="center"><br />
+Total %</th>
 <th align="right"><br />
 Count</th>
 </tr>
