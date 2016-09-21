@@ -30,11 +30,18 @@ In order to make changes to the manuscript of the MY451 course pack you need to 
 4. Click Open in Desktop to clone the repository and open it in GitHub Desktop.
 5. In GitHub Desktop, after verifying the name and location on your hard drive where you'd like to clone the repository, click Clone.
 
-Now you have an exact and complete copy of the project folder on your computer and are ready to make changes to it.
+Now you have an exact and complete copy of the project folder on your computer. It should look something like this:
+
+![](./images/project-folder.png)
+
+The folder includes the content of the course pack as well as settings files. The files and folder relevant for contributors are:
+
+(1) files ending in `.Rmd` are the manuscript divided by chapters, and
+(2) the folder `images/` where image files of figures go that you want to include in the course pack.
 
 # Make changes
 
-The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The beginning of the course pack, in this case the preface, is stored in `index.Rmd`. The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files accord to the order you want those chapters to be in in the course pack.
+The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The very first chapter of a book project is always stored in `index.Rmd`. In this case that is the preface of this course pack, "Course information". The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files determine the order you want those chapters to be in.
 
 ## Authoring in Atom Text Editor
 
@@ -179,13 +186,15 @@ Captions can be added to tables following the example above. For how to add uniq
 
 ### Figures
 
+Any image file you want to insert in the manuscript needs to be stored in the folder `images/` that can find inside the project folder.
+
 The format for inserting a figure -- in other words an image -- is:
 
 ```markdown
 
 ![(\#fig:f-unique-identifier)Caption text.](file-name-without-file-extension)
 
-Make sure to follow an image with a blank line. Otherwise it won't get numbered and captioned in the pdf output!
+Make sure to prepend and follow an image with a blank line. Otherwise it won't get numbered and captioned in the pdf output!
 ```
 
 It is important that in the manuscript you give the file name without a file extension as shown above and that you provide one and the same image in two file formats: `.pdf` and `.png`.
@@ -198,7 +207,7 @@ So in order to insert into the manuscript a figure "bar_attitude" it needs to re
 
 ```
 
-and the project folder needs to include both `bar_attitude.pdf` and `bar_attitude.png`. This is to meet the challenges of both print and screen output.
+and the `images/` folder needs to include both `bar_attitude.pdf` and `bar_attitude.png`. This is to meet the challenges of both print and screen output.
 
 Assuming a figure you made is available in .eps format or .pdf, you can produce a pdf or png file using your operating system's standard picture viewer. On Mac OS X, for example, open an image file with the Preview app and click "File" > "Export..."" > then choose output format PNG > select path to project folder > click "Save".
 

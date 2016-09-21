@@ -116,14 +116,14 @@ Figure \@ref(fig:f-bp1). Table \@ref(tab:t-bp-example) shows the summary
 statistics (\@ref(eq:Ybar-ch6)–(\@ref(eq:s-ch6)) in this sample and the
 corresponding parameters (\@ref(eq:mu))–(\@ref(eq:sigma)) in the population.
 
-  ------------ ---------- ---------------- --------------- ---------------------
-                                                  Standard
+  ------------------------------------------------------------------------------
+                        \               \         Standard                     \    
                      Size             Mean       Deviation              Variance
-
+  ------------ ---------- ---------------- --------------- ---------------------
   Population     $N=4489$       $\mu=74.2$   $\sigma=11.3$   $\sigma^{2}=127.87$
 
   Sample           $n=50$   $\bar{Y}=72.6$        $s=12.7$        $s^{2}=161.19$
-  ------------ ---------- ---------------- --------------- ---------------------
+  ------------------------------------------------------------------------------
 
   : (\#tab:t-bp-example)Summary statistics for diastolic blood pressure in the population
   and a sample from it in the example used for illustration in Sections

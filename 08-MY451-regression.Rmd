@@ -636,10 +636,10 @@ for all the countries with non-missing values of that pair of variables.
 ![(\#fig:f-imr1)A scatterplot of net primary school enrolment ratio vs. Infant mortality rate for countries in the Global Civil Society data set ($n=111$). The solid line is the best-fitting (least squares) straight line for the points.](imr1){width="13.5cm"}
 
 
-  ------------------------------------------------------ ------- ----------- ------------ ------------
-  \                                                            \      School   Control of       Income
+  ----------------------------------------------------------------------------------------------------
+                                                               \      School   Control of       Income
                                                              IMR   enrolment   corruption   inequality
-
+  ------------------------------------------------------ ------- ----------- ------------ ------------
   *Summary statistics*
 
   Mean                                                       4.3        86.1         50.1         40.5
@@ -667,7 +667,7 @@ for all the countries with non-missing values of that pair of variables.
   Middle income ($n=48$)                                     2.8        92.5         50.8         43.3
 
   High income ($n=22$)                                       0.5        98.4         90.7         32.0
-  ------------------------------------------------------ ------- ----------- ------------ ------------
+  ----------------------------------------------------------------------------------------------------
 
   : (\#tab:t-imrvars)Summary statistics for Infant Mortality Rate (IMR) and explanatory
   variables for it considered in the examples of Sections
@@ -1542,10 +1542,10 @@ Presenting raw computer output such as that in Figure
 \@ref(fig:f-spss-linreg) is normally not appropriate in formal research
 reports.
 
-  ------------------------- ------------- ---------- ------- ----------- -------------------
+  ------------------------------------------------------------------------------------------
   Explanatory                           \   Standard       \           \   95 % Confidence
   variable                    Coefficient      error     $t$   $P$-value      interval
-
+  ------------------------- ------------- ---------- ------- ----------- -------------------
   Constant                          16.40                                
 
   School enrolment (%)             -0.139      0.014   -9.87    $<0.001$  (-0.167; -0.111 )
@@ -1553,7 +1553,7 @@ reports.
   Control of corruption            -0.046      0.008   -5.53    $<0.001$  (-0.062; -0.029)
 
   Income inequality                 0.055      0.022    2.50       0.014   (0.011; 0.098)
-  ------------------------- ------------- ---------- ------- ----------- -------------------
+  ------------------------------------------------------------------------------------------
 
   : (\#tab:t-imr-m2)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate
   given three explanatory variables in the Global Civil Society
@@ -1974,10 +1974,10 @@ explanatory variables are dummy variables. The only aspect which
 requires some further explanation is the interpretation of the
 coefficients of the dummy variables.
 
-  ------------------------- ------------- ------- --------- ----------- ----------------
+  --------------------------------------------------------------------------------------
   Explanatory variable                  \    Std.         \           \    95 % Conf. 
                               Coefficient   error       $t$   $P$-value     interval
-
+  ------------------------- ------------- ------- --------- ----------- ----------------
   Constant                          12.00                               
 
   School enrolment (%)           $-0.091$   0.016   $-5.69$    $<0.001$    $(-0.123;
@@ -1996,7 +1996,7 @@ coefficients of the dummy variables.
 
   &nbsp;&nbsp;High               $-3.296$   1.039   $-3.17$       0.002    $(-5.357;
                                                                             -1.235)$
-  ------------------------- ------------- ------- --------- ----------- ----------------
+  --------------------------------------------------------------------------------------
 
   : (\#tab:t-imr-m3)Response variable: Infant Mortality Rate (\%). Results for a linear regression model for Infant mortality rate in
   the Global Civil Society data, given the three explanatory variables
