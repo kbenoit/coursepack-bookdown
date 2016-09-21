@@ -157,7 +157,7 @@ Table \@ref(tab:t-berkeley1). In essence, women had a lower admission rate
 overall because relatively more of them applied to the more selective
 departments and fewer to the easy ones.
 
-  Of all applicants       Department: 2     3     4     5     6
+  Of all applicants        Department 2     3     4     5     6
   ---------------------- -------------- ----- ----- ----- -----
   % Male                             96    35    53    33    52
   % Admitted                         63    35    34    25     6

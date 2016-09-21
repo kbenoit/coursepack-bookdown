@@ -637,7 +637,7 @@ books.
   significance levels for one- and two-sided tests.
 
   ------------------------ ---------------------- ------ ------ -------
-                              Significance levels:     \      \       \    
+                              Significance levels:     \      \       \
   Alternative hypothesis                     0.10   0.05   0.01   0.001
   Two-sided                                  1.65   1.96   2.58    3.29
   One-sided                                  1.28   1.65   2.33    3.09

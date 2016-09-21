@@ -688,7 +688,7 @@ a dichotomous variable. Each plot shows the histogram of the sample
 proportions $\hat{\pi}$ calculated for 5000 samples simulated from a
 population distribution with proportion $\pi=0.2$, together with the
 normal curve with mean $\pi$ and variance $\pi(1-\pi)/n$. The samples
-sizes $n$ are 10, 30, 100 and 1000.](sampld_p){width="140mm"}
+sizes $n$ are 10, 30, 100 and 1000.](sampld_p){width="13.5cm"}
 
 The variability of the sampling distribution will again depend on $n$.
 In Figure \@ref(fig:f-cltbin), the observed range of values of $\hat{\pi}$

@@ -291,16 +291,16 @@ such a table for the respondents’ sex and attitude in our survey
 example. We use it to introduce the basic structure and terminology of
 contingency tables:
 
-  ----------------------------------------------------------------------------------------------
-                                Agree         \     Neither agree      \       Disagree        \
-  Sex                          strongly     Agree   nor disagree    Disagree   strongly    Total
-  ------------------------ --------------- ------- --------------- ---------- ---------- -------
-  Male                           160         439         187          200         41        1027
+  ------------------------------------------------------------------------------
+                Agree         \     Neither agree      \       Disagree        \
+  Sex          strongly     Agree   nor disagree    Disagree   strongly    Total
+  -------- --------------- ------- --------------- ---------- ---------- -------
+  Male           160         439         187          200         41        1027
 
-  Female                         206         651         239          187         34        1317
+  Female         206         651         239          187         34        1317
 
-  Total                          366        1090         426          387         75        2344
-  ----------------------------------------------------------------------------------------------
+  Total          366        1090         426          387         75        2344
+  ------------------------------------------------------------------------------
 
   : (\#tab:t-sex-attitude)*``The government should take measures to reduce differences in income levels''*: Two-way table of frequencies of respondents in the survey example,
   by sex and attitude towards income redistribution. Data: European Social Survey, Round 5, 2010, UK respondents only.
@@ -1097,7 +1097,7 @@ example, the country data set has as many as $n=155$ observations, yet
 Figure \@ref(tab:t-stemgdp) is still quite readable and fits on a single
 page.
 
-![(\#fig:f-boxplot-gdp)An annotated box plot of GDP per capita in the country data ($n=155$).](box_gdp){width="15cm"}
+![(\#fig:f-boxplot-gdp)An annotated box plot of GDP per capita in the country data ($n=155$).](box_gdp){width="13.5cm"}
 
 #### Box plots {-}
 
@@ -1374,7 +1374,7 @@ hours a person usually works in their main job in the 3 per cent
 Individual Sample of Anonymized Records from the 2001 U.K. Census
 ($n=867,016$, respondents with hours 0 or not applicable omitted) Source of the data for panel B: Cathie Marsh Centre
 for Census and Survey Research, University of Manchester,
-<http://www.ccsr.ac.uk/sars/>.](twohists "fig:"){width="14cm"}
+<http://www.ccsr.ac.uk/sars/>.](twohists "fig:"){width="13.5cm"}
 
 The mean is almost always further in the direction of skewness than the
 median. That is why the mean of the positively skewed GDP variable is
