@@ -632,11 +632,11 @@ Substituting (\ref{eq:Dhatmu}) and (\ref{eq:seD2}) into the general formula (\re
 <table style="width:98%;">
 <caption><span id="tab:t-2testsY1">Table 7.3: </span>Results of tests and confidence intervals for comparing means for two independent samples. For Example 7.2, the difference of means is between women and men, and for Example 7.3, it is between wearing and not wearing sunglasses. The test statistics and confidence intervals are obtained under the assumption of equal population standard deviations, and the <span class="math inline">\(P\)</span>-values are for a test with a two-sided alternative hypothesis. See the text for the definitions of the statistics.</caption>
 <colgroup>
-<col width="32%" />
-<col width="29%" />
-<col width="9%" />
+<col width="31%" />
+<col width="28%" />
+<col width="8%" />
 <col width="10%" />
-<col width="16%" />
+<col width="19%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -802,50 +802,41 @@ These results for the sampling distribution hold when the population standard de
 <h2><span class="header-section-number">7.4</span> Tests and confidence intervals for a single mean</h2>
 <p>The task considered in this section is inference on the population mean of a continuous, interval-level variable <span class="math inline">\(Y\)</span> in a single population. This is thus analogous to the analysis of a single proportion in Sections <a href="c-probs.html#s-probs-test1sample">5.5</a>–<a href="c-probs.html#s-probs-1sampleci">5.6</a>, but with a continuous variable of interest.</p>
 <p>We use Example 7.1 on survey data on diet for illustration. We will consider two variables, daily consumption of portions of fruit and vegetables, and the percentage of total faily energy intake obtained from fat and fatty acids. These will be analysed separately, each in turn in the role of the variable of interest <span class="math inline">\(Y\)</span>. Summary statistics for the variables are shown in Table <a href="c-means.html#tab:t-ttests1">7.4</a></p>
-<table style="width:98%;">
+<table style="width:99%;">
 <caption><span id="tab:t-ttests1">Table 7.4: </span>Summary statistics, <span class="math inline">\(t\)</span>-tests and confidence intervals for the mean for the two variables in Example 7.1 (variables from the Diet and Nutrition Survey). <span class="math inline">\(n=\)</span>sample size; <span class="math inline">\(\bar{Y}=\)</span>sample mean; <span class="math inline">\(s=\)</span>sample standard deviation; <span class="math inline">\(\mu_{0}=\)</span>null hypothesis about the population mean; <span class="math inline">\(t=t\)</span>-test statistic; <span class="math inline">\(*\)</span>: Alternative hypothesis <span class="math inline">\(H_{a}: \mu\ne \mu_{0}\)</span>; <span class="math inline">\(\dagger\)</span>: Alternative hypotheses <span class="math inline">\(H_{a}: \mu&lt;5\)</span> and <span class="math inline">\(\mu&gt;35\)</span> respectively.</caption>
 <colgroup>
-<col width="17%" />
+<col width="16%" />
 <col width="7%" />
-<col width="9%" />
+<col width="8%" />
 <col width="5%" />
+<col width="8%" />
 <col width="9%" />
-<col width="7%" />
-<col width="13%" />
-<col width="15%" />
 <col width="12%" />
+<col width="14%" />
+<col width="16%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th align="left">Variable</th>
+<th align="right"><br />
+<span class="math inline">\(n\)</span></th>
+<th align="right"><br />
+<span class="math inline">\(\bar{Y}\)</span></th>
+<th align="right"><br />
+<span class="math inline">\(s\)</span></th>
+<th align="right"><br />
+<span class="math inline">\(\mu_{0}\)</span></th>
+<th align="right"><br />
+<span class="math inline">\(t\)</span></th>
+<th align="right"><span class="math inline">\(P\)</span>-value Two- sided<span class="math inline">\(^{*}\)</span></th>
+<th align="right"><span class="math inline">\(P\)</span>-value One- sided<span class="math inline">\(^{\dagger}\)</span></th>
+<th align="center"><br />
+95% CI for <span class="math inline">\(\mu\)</span></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="right"><br />
-</td>
-<td align="right"><br />
-</td>
-<td align="right"><br />
-</td>
-<td align="right"><br />
-</td>
-<td align="right"><br />
-</td>
-<td align="right"><span class="math inline">\(P\)</span>-value</td>
-<td align="right"><span class="math inline">\(P\)</span>-value</td>
-<td align="center"><br />
-</td>
-</tr>
-<tr class="even">
-<td>Variable</td>
-<td align="right"><span class="math inline">\(n\)</span></td>
-<td align="right"><span class="math inline">\(\bar{Y}\)</span></td>
-<td align="right"><span class="math inline">\(s\)</span></td>
-<td align="right"><span class="math inline">\(\mu_{0}\)</span></td>
-<td align="right"><span class="math inline">\(t\)</span></td>
-<td align="right">Two- sided<span class="math inline">\(^{*}\)</span></td>
-<td align="right">One- sided<span class="math inline">\(^{\dagger}\)</span></td>
-<td align="center">95% CI for <span class="math inline">\(\mu\)</span></td>
-</tr>
-<tr class="odd">
-<td>Fruit and vegetable consumption (400g portions)</td>
+<td align="left">Fruit and vegetable consumption (400g portions)</td>
 <td align="right">1724</td>
 <td align="right">2.8</td>
 <td align="right">2.15</td>
@@ -856,7 +847,7 @@ These results for the sampling distribution hold when the population standard de
 <td align="center">(2.70; 2.90)</td>
 </tr>
 <tr class="even">
-<td>Total energy intake from fat (%)</td>
+<td align="left">Total energy intake from fat (%)</td>
 <td align="right">1724</td>
 <td align="right">35.3</td>
 <td align="right">6.11</td>
@@ -972,51 +963,47 @@ and its <span class="math inline">\(P\)</span>-value is obtained either from the
 <table style="width:99%;">
 <caption><span id="tab:t-2tests-dep">Table 7.5: </span>Results of tests and confidence intervals for comparing means of two dependent samples. For Example 7.4, the difference is between after and before the birth of the child, and for Example 7.5 it is between Friday the 13th and the preceding Friday the 6th. See the text for the definitions of the statistics. (* Obtained from the <span class="math inline">\(t_{9}\)</span> distribution; <span class="math inline">\(\dagger\)</span> Obtained from the standard normal distribution.)</caption>
 <colgroup>
-<col width="25%" />
-<col width="20%" />
+<col width="26%" />
+<col width="18%" />
 <col width="15%" />
 <col width="20%" />
-<col width="17%" />
+<col width="18%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th align="right"></th>
-<th align="right"></th>
-<th align="right">Test of <span class="math inline">\(H_{0}: \Delta=0\)</span></th>
-<th align="right">Test of <span class="math inline">\(H_{0}: \Delta=0\)</span></th>
-<th align="right"></th>
+<th align="right"><br />
+<span class="math inline">\(\hat{\Delta}\)</span></th>
+<th align="right"><br />
+<span class="math inline">\(\hat{\sigma}_{\hat{\Delta}}\)</span></th>
+<th align="right">Test of <span class="math inline">\(H_{0}: \Delta=0\)</span> <span class="math inline">\(t\)</span></th>
+<th align="right">Test of <span class="math inline">\(H_{0}: \Delta=0\)</span> <span class="math inline">\(P\)</span>-value</th>
+<th align="right"><br />
+95 % C.I. for <span class="math inline">\(\Delta\)</span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="right"><span class="math inline">\(\hat{\Delta}\)</span></td>
-<td align="right"><span class="math inline">\(\hat{\sigma}_{\hat{\Delta}}\)</span></td>
-<td align="right"><span class="math inline">\(t\)</span></td>
-<td align="right"><span class="math inline">\(P\)</span>-value</td>
-<td align="right">95 % C.I. for <span class="math inline">\(\Delta\)</span></td>
-</tr>
-<tr class="even">
 <td align="right">Example 7.4: Father’s personal well-being</td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">0.08</td>
 <td align="right">0.247</td>
 <td align="right">0.324</td>
 <td align="right">0.75<span class="math inline">\(^{\dagger}\)</span></td>
 <td align="right">(-0.40; 0.56)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="right">Example 7.5: Traffic flows on successive Fridays</td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
 <td align="right"></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="right">-1835</td>
 <td align="right">372</td>
 <td align="right">-4.93</td>

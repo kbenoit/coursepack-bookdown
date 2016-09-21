@@ -265,281 +265,85 @@ MathJax.Hub.Config({
 <p>The discussion is organised arond three examples. In each case we start with a two-way table, and then introduce a third variable which we want to control for. This reveals various features in the examples, to illustrate the types of findings that may be uncovered by statistical control.</p>
 <p><strong>Example 9.1: Berkeley admissions</strong></p>
 <p>Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> summarises data on applications for admission to graduate study at the University of California, Berkeley, for the fall quarter 1973.<a href="#fn55" class="footnoteRef" id="fnref55"><sup>55</sup></a> The data are for five of the six departments with the largest number of applications, labelled below Departments 2–5 (Department 1 will be discussed at the end of this section). Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> shows the two-way contingency table of the sex of the applicant and whether he or she was admitted to the university.</p>
-<table>
+<table style="width:75%;">
 <caption><span id="tab:t-berkeley1">Table 9.1: </span>Table of sex of applicant vs. admission in the Berkeley admissions data. The column labelled ‘% Yes’ is the percentage of applicants admitted within each row. <span class="math inline">\(\chi^{2}=38.4\)</span>, <span class="math inline">\(df=1\)</span>, <span class="math inline">\(P&lt;0.001\)</span>.</caption>
+<colgroup>
+<col width="19%" />
+<col width="18%" />
+<col width="15%" />
+<col width="11%" />
+<col width="11%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><br />
+Sex</th>
+<th align="right">Admitted No</th>
+<th align="right">Admitted Yes</th>
+<th align="right"><br />
+% Yes</th>
+<th align="right"><br />
+Total</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="right">Admitted</td>
-<td align="right">Admitted</td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="left">Sex</td>
-<td align="right">No</td>
-<td align="right">Yes</td>
-<td align="right">% Yes</td>
-<td align="right">Total</td>
-</tr>
-<tr class="odd">
-<td align="left">Male</td>
-<td align="right">1180</td>
-<td align="right">686</td>
-<td align="right">36.8</td>
-<td align="right">1866</td>
-</tr>
-<tr class="even">
-<td align="left">Female</td>
-<td align="right">1259</td>
-<td align="right">468</td>
-<td align="right">27.1</td>
-<td align="right">1727</td>
-</tr>
-<tr class="odd">
-<td align="left">Total</td>
-<td align="right">2439</td>
-<td align="right">1154</td>
-<td align="right">32.1</td>
-<td align="right">3593</td>
+<td align="left">Male Female Total</td>
+<td align="right">1180 1259 2439</td>
+<td align="right">686 468 1154</td>
+<td align="right">36.8 27.1 32.1</td>
+<td align="right">1866 1727 3593</td>
 </tr>
 </tbody>
 </table>
-<p>The percentages in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> show that men were more likely to be admitted, with a 36.8% success rate compared to 27.1% for women. The difference is strongly significant, with <span class="math inline">\(P&lt;0.001\)</span> for the <span class="math inline">\(\chi^{2}\)</span> test of independence. If this association was interpreted causally, it might be regarded as evidence of sex bias in the admissions process. However, other important variables may also need to be considered in the analysis. One of them is the academic department to which an applicant had applied. Information on the department as well as sex and admission is shown in Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a>.</p>
+<p>The percentages in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> show that men were more likely to be admitted, with a 36.8% success rate compared to 27.1% for women. The difference is strongly significant, with <span class="math inline">\(P&lt;0.001\)</span> for the <span class="math inline">\(\chi^{2}\)</span> test of independence. If this association was interpreted causally, it might be regarded as evidence of sex bias in the admissions process. However, other important variables may also need to be considered in the analysis. One of them is the academic department to which an applicant had applied. Information on the department as well as sex and admission is shown in Table <a href="#tab:t-berkeley2">9.2</a>.</p>
 <table>
-<caption><span id="tab:t-berkeley2">Table 9.2: </span>Sex of applicant vs. admission by academic department in the Berkeley admissions data.</caption>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="left"></td>
-<td align="right">Admitted</td>
-<td align="right">Admitted</td>
-<td align="right"></td>
-<td align="right"></td>
+<td align="right">  Admitted Admitted   </td>
 </tr>
 <tr class="even">
-<td align="left">Department</td>
-<td align="left">Sex</td>
-<td align="right">No</td>
-<td align="right">Yes</td>
-<td align="right">% Yes</td>
-<td align="right">Total</td>
-</tr>
-<tr class="odd">
-<td align="left">2</td>
-<td align="left">Male</td>
-<td align="right">207</td>
-<td align="right">353</td>
-<td align="right">63.0</td>
-<td align="right">560</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">Female</td>
-<td align="right">8</td>
-<td align="right">17</td>
-<td align="right">68.0</td>
-<td align="right">25</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">Total</td>
-<td align="right">215</td>
-<td align="right">370</td>
-<td align="right">63.2</td>
-<td align="right">585</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">\(\chi^{2}=0.25\)</span>, <span class="math inline">\(P=0.61\)</span></td>
-<td align="left"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="left">3</td>
-<td align="left">Male</td>
-<td align="right">205</td>
-<td align="right">120</td>
-<td align="right">36.9</td>
-<td align="right">325</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">Female</td>
-<td align="right">391</td>
-<td align="right">202</td>
-<td align="right">34.1</td>
-<td align="right">593</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">Total</td>
-<td align="right">596</td>
-<td align="right">322</td>
-<td align="right">35.1</td>
-<td align="right">918</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">\(\chi^{2}=0.75\)</span>, <span class="math inline">\(P=0.39\)</span></td>
-<td align="left"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="left">4</td>
-<td align="left">Male</td>
-<td align="right">279</td>
-<td align="right">138</td>
-<td align="right">33.1</td>
-<td align="right">417</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">Female</td>
-<td align="right">244</td>
-<td align="right">131</td>
-<td align="right">34.9</td>
-<td align="right">375</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">Total</td>
-<td align="right">523</td>
-<td align="right">269</td>
-<td align="right">34.0</td>
-<td align="right">792</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">\(\chi^{2}=0.30\)</span>, <span class="math inline">\(P=0.59\)</span></td>
-<td align="left"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="left">5</td>
-<td align="left">Male</td>
-<td align="right">138</td>
-<td align="right">53</td>
-<td align="right">27.7</td>
-<td align="right">191</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">Female</td>
-<td align="right">299</td>
-<td align="right">94</td>
-<td align="right">23.9</td>
-<td align="right">393</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">Total</td>
-<td align="right">437</td>
-<td align="right">147</td>
-<td align="right">25.2</td>
-<td align="right">584</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">\(\chi^{2}=1.00\)</span>, <span class="math inline">\(P=0.32\)</span></td>
-<td align="left"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="left">6</td>
-<td align="left">Male</td>
-<td align="right">351</td>
-<td align="right">22</td>
-<td align="right">5.9</td>
-<td align="right">373</td>
-</tr>
-<tr class="even">
-<td align="left"></td>
-<td align="left">Female</td>
-<td align="right">317</td>
-<td align="right">24</td>
-<td align="right">7.0</td>
-<td align="right">341</td>
-</tr>
-<tr class="odd">
-<td align="left"></td>
-<td align="left">Total</td>
-<td align="right">668</td>
-<td align="right">46</td>
-<td align="right">6.4</td>
-<td align="right">714</td>
-</tr>
-<tr class="even">
-<td align="left"><span class="math inline">\(\chi^{2}=0.38\)</span>, <span class="math inline">\(P=0.54\)</span></td>
-<td align="left"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="left">Total</td>
-<td align="left"></td>
-<td align="right">2439</td>
-<td align="right">1154</td>
-<td align="right">32.1</td>
-<td align="right">3593</td>
+<td align="right">Department Sex No Yes % Yes Total</td>
 </tr>
 </tbody>
 </table>
-<p>Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> is a <em>three-way</em> contingency table, because each of its internal cells shows the number of applicants with a particular combination of three variables: department, sex and admission status. For example, the frequency 207 in the top left corner indicates that there were 207 male applicants to department 2 who were not admitted. Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> is presented in the form of a series of tables of sex vs. admission, just like in the original two-way table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a>, but now with one table for each department. These are known as <strong>partial tables</strong> of sex vs. admission, <strong>controlling for</strong> department. The word “control” is used here in the same sense as before: each partial table summarises the data for the applicants to a single department, so the variable “department” is literally held constant within the partial tables.</p>
-<p>Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a> also contains the marginal distributions of sex and admission status within each department. They can be used to construct the other two possible two-way tables for these variables, for department vs. sex of applicant and department vs. admission status. This information, summarised in Table <a href="c-3waytables.html#tab:t-berkeley3">9.3</a>, is discussed further below.</p>
+<p>2 Male 207 353 63.0 560 Female 8 17 68.0 25 Total 215 370 63.2 585 <span class="math inline">\(\chi^{2}=0.25\)</span>, <span class="math inline">\(P=0.61\)</span> 3 Male 205 120 36.9 325 Female 391 202 34.1 593 Total 596 322 35.1 918 <span class="math inline">\(\chi^{2}=0.75\)</span>, <span class="math inline">\(P=0.39\)</span> 4 Male 279 138 33.1 417 Female 244 131 34.9 375 Total 523 269 34.0 792 <span class="math inline">\(\chi^{2}=0.30\)</span>, <span class="math inline">\(P=0.59\)</span> 5 Male 138 53 27.7 191 Female 299 94 23.9 393 Total 437 147 25.2 584 <span class="math inline">\(\chi^{2}=1.00\)</span>, <span class="math inline">\(P=0.32\)</span> 6 Male 351 22 5.9 373 Female 317 24 7.0 341 Total 668 46 6.4 714 <span class="math inline">\(\chi^{2}=0.38\)</span>, <span class="math inline">\(P=0.54\)</span> Total 2439 1154 32.1 3593 —————————————————————————–</p>
+<p>: (#tab:t-berkeley2)Sex of applicant vs. admission by academic department in the Berkeley admissions data.</p>
+<p>Table <a href="#tab:t-berkeley2">9.2</a> is a <em>three-way</em> contingency table, because each of its internal cells shows the number of applicants with a particular combination of three variables: department, sex and admission status. For example, the frequency 207 in the top left corner indicates that there were 207 male applicants to department 2 who were not admitted. Table <a href="#tab:t-berkeley2">9.2</a> is presented in the form of a series of tables of sex vs. admission, just like in the original two-way table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a>, but now with one table for each department. These are known as <strong>partial tables</strong> of sex vs. admission, <strong>controlling for</strong> department. The word “control” is used here in the same sense as before: each partial table summarises the data for the applicants to a single department, so the variable “department” is literally held constant within the partial tables.</p>
+<p>Table <a href="#tab:t-berkeley2">9.2</a> also contains the marginal distributions of sex and admission status within each department. They can be used to construct the other two possible two-way tables for these variables, for department vs. sex of applicant and department vs. admission status. This information, summarised in Table <a href="c-3waytables.html#tab:t-berkeley3">9.3</a>, is discussed further below.</p>
 <p>The association between sex and admission within each partial table can be examined using methods for two-way tables. For every one of them, the <span class="math inline">\(\chi^{2}\)</span> test shows that the hypothesis of independence cannot be rejected, so there is no evidence of sex bias within any department. The apparent association in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a> is thus spurious, and disappears when we control for department. Why this happens can be understood by considering the distributions of sex and admissions across departments, as shown in Table <a href="c-3waytables.html#tab:t-berkeley3">9.3</a>. Department is clearly associated with sex of the applicant: for example, almost all of the applicants to department 2, but only a third of the applicants to department 5 are men. Similarly, there is an association between department and admission: for example, nearly two thirds of the applicants to department 2 but only a quarter of the applicants to department 5 were admitted. It is the combination of these associations which induces the spurious association between sex and admission in Table <a href="c-3waytables.html#tab:t-berkeley1">9.1</a>. In essence, women had a lower admission rate overall because relatively more of them applied to the more selective departments and fewer to the easy ones.</p>
-<table>
+<table style="width:86%;">
 <caption><span id="tab:t-berkeley3">Table 9.3: </span>Percentages of male applicants and applicants admitted by department in the Berkeley admissions data.</caption>
+<colgroup>
+<col width="31%" />
+<col width="20%" />
+<col width="8%" />
+<col width="8%" />
+<col width="8%" />
+<col width="8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Of all applicants</th>
+<th align="right">Department 2</th>
+<th align="right"><br />
+3</th>
+<th align="right"><br />
+4</th>
+<th align="right"><br />
+5</th>
+<th align="right"><br />
+6</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="right">Department</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="left">Of all applicants</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">4</td>
-<td align="right">5</td>
-<td align="right">6</td>
-</tr>
-<tr class="odd">
-<td align="left">% Male</td>
-<td align="right">96</td>
-<td align="right">35</td>
-<td align="right">53</td>
-<td align="right">33</td>
-<td align="right">52</td>
-</tr>
-<tr class="even">
-<td align="left">% Admitted</td>
-<td align="right">63</td>
-<td align="right">35</td>
-<td align="right">34</td>
-<td align="right">25</td>
-<td align="right">6</td>
-</tr>
-<tr class="odd">
-<td align="left">Number of applicants</td>
-<td align="right">585</td>
-<td align="right">918</td>
-<td align="right">792</td>
-<td align="right">584</td>
-<td align="right">714</td>
+<td align="left">% Male % Admitted Number of applicants</td>
+<td align="right">96 63 585</td>
+<td align="right">35 35 918</td>
+<td align="right">53 34 792</td>
+<td align="right">33 25 584</td>
+<td align="right">52 6 714</td>
 </tr>
 </tbody>
 </table>
@@ -557,19 +361,21 @@ MathJax.Hub.Config({
 <col width="15%" />
 <col width="8%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>MEN</strong> Age group</th>
+<th align="right"><br />
+Irrelevant</th>
+<th align="right">Slightly important</th>
+<th align="right"><br />
+Important</th>
+<th align="right">Very important</th>
+<th align="right"><br />
+Total</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>MEN</strong> Age group</td>
-<td align="right"><br />
-Irrelevant</td>
-<td align="right">Slightly important</td>
-<td align="right"><br />
-Important</td>
-<td align="right">Very important</td>
-<td align="right"><br />
-Total</td>
-</tr>
-<tr class="even">
 <td align="left">Under 45</td>
 <td align="right">29</td>
 <td align="right">35</td>
@@ -577,7 +383,7 @@ Total</td>
 <td align="right">22</td>
 <td align="right">116</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.250</td>
 <td align="right">0.302</td>
@@ -585,7 +391,7 @@ Total</td>
 <td align="right">0.190</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">45–54</td>
 <td align="right">83</td>
 <td align="right">60</td>
@@ -593,7 +399,7 @@ Total</td>
 <td align="right">29</td>
 <td align="right">224</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.371</td>
 <td align="right">0.268</td>
@@ -601,7 +407,7 @@ Total</td>
 <td align="right">0.129</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">55–64</td>
 <td align="right">116</td>
 <td align="right">40</td>
@@ -609,7 +415,7 @@ Total</td>
 <td align="right">16</td>
 <td align="right">200</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.580</td>
 <td align="right">0.200</td>
@@ -617,7 +423,7 @@ Total</td>
 <td align="right">0.080</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">65 and over</td>
 <td align="right">150</td>
 <td align="right">53</td>
@@ -625,7 +431,7 @@ Total</td>
 <td align="right">12</td>
 <td align="right">231</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.649</td>
 <td align="right">0.229</td>
@@ -633,7 +439,7 @@ Total</td>
 <td align="right">0.052</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Total</td>
 <td align="right">378</td>
 <td align="right">188</td>
@@ -641,7 +447,7 @@ Total</td>
 <td align="right">79</td>
 <td align="right">771</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.490</td>
 <td align="right">0.244</td>
@@ -661,19 +467,21 @@ Total</td>
 <col width="15%" />
 <col width="8%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th align="left"><strong>WOMEN</strong> Age group</th>
+<th align="right"><br />
+Irrelevant</th>
+<th align="right">Slightly important</th>
+<th align="right"><br />
+Important</th>
+<th align="right">Very important</th>
+<th align="right"><br />
+Total</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>WOMEN</strong> Age group</td>
-<td align="right"><br />
-Irrelevant</td>
-<td align="right">Slightly important</td>
-<td align="right"><br />
-Important</td>
-<td align="right">Very important</td>
-<td align="right"><br />
-Total</td>
-</tr>
-<tr class="even">
 <td align="left">Under 45</td>
 <td align="right">8</td>
 <td align="right">10</td>
@@ -681,7 +489,7 @@ Total</td>
 <td align="right">4</td>
 <td align="right">30</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.267</td>
 <td align="right">0.333</td>
@@ -689,7 +497,7 @@ Total</td>
 <td align="right">0.133</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">45–54</td>
 <td align="right">28</td>
 <td align="right">17</td>
@@ -697,7 +505,7 @@ Total</td>
 <td align="right">8</td>
 <td align="right">58</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.483</td>
 <td align="right">0.293</td>
@@ -705,7 +513,7 @@ Total</td>
 <td align="right">0.138</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">55–64</td>
 <td align="right">37</td>
 <td align="right">9</td>
@@ -713,7 +521,7 @@ Total</td>
 <td align="right">4</td>
 <td align="right">53</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.698</td>
 <td align="right">0.170</td>
@@ -721,7 +529,7 @@ Total</td>
 <td align="right">0.075</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">65 and over</td>
 <td align="right">43</td>
 <td align="right">11</td>
@@ -729,7 +537,7 @@ Total</td>
 <td align="right">3</td>
 <td align="right">60</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.717</td>
 <td align="right">0.183</td>
@@ -737,7 +545,7 @@ Total</td>
 <td align="right">0.050</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Total</td>
 <td align="right">116</td>
 <td align="right">47</td>
@@ -745,7 +553,7 @@ Total</td>
 <td align="right">19</td>
 <td align="right">201</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="right">0.577</td>
 <td align="right">0.234</td>
@@ -756,73 +564,20 @@ Total</td>
 </tbody>
 </table>
 <p><strong>Example 9.3</strong>: <strong><em>The Titanic</em></strong></p>
-<p>The passenger liner RMS <em>Titanic</em> hit an iceberg and sank in the North Atlantic on 14 April 1912, with heavy loss of life. Table <a href="c-3waytables.html#tab:t-titanic2">9.5</a> shows a crosstabulation of the people on board the <em>Titanic</em>, classified according to their status (as male passenger, female or child passenger, or member of the ship’s crew) and whether they survived the sinking.<a href="#fn56" class="footnoteRef" id="fnref56"><sup>56</sup></a> The <span class="math inline">\(\chi^{2}\)</span> test of independence has <span class="math inline">\(P&lt;0.001\)</span> for this table, so there are statistically significant differences in probabilities of survival between the groups. The table suggests, in particular, that women and children among the passengers were more likely to survive than male passengers or the ship’s crew.</p>
+<p>The passenger liner RMS <em>Titanic</em> hit an iceberg and sank in the North Atlantic on 14 April 1912, with heavy loss of life. Table <a href="#tab:t-titanic2">9.5</a> shows a crosstabulation of the people on board the <em>Titanic</em>, classified according to their status (as male passenger, female or child passenger, or member of the ship’s crew) and whether they survived the sinking.<a href="#fn56" class="footnoteRef" id="fnref56"><sup>56</sup></a> The <span class="math inline">\(\chi^{2}\)</span> test of independence has <span class="math inline">\(P&lt;0.001\)</span> for this table, so there are statistically significant differences in probabilities of survival between the groups. The table suggests, in particular, that women and children among the passengers were more likely to survive than male passengers or the ship’s crew.</p>
 <table>
-<caption><span id="tab:t-titanic2">Table 9.5: </span>Survival status of the people aboard the <em>Titanic</em>, divided into three groups. The numbers in brackets are proportions of survivors and non-survivors within each group. <span class="math inline">\(\chi^{2}=418\)</span>, <span class="math inline">\(\text{df}=2\)</span>, <span class="math inline">\(P&lt;0.001\)</span>.</caption>
 <tbody>
 <tr class="odd">
-<td></td>
-<td align="right">Survivor</td>
-<td></td>
-<td></td>
+<td align="right">Survivor   </td>
 </tr>
 <tr class="even">
-<td>Group</td>
-<td align="right">Yes</td>
-<td>No</td>
-<td>Total</td>
-</tr>
-<tr class="odd">
-<td>Male passenger</td>
-<td align="right">146</td>
-<td>659</td>
-<td>805</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="right">(0.181)</td>
-<td>(0.819)</td>
-<td>(1.000)</td>
-</tr>
-<tr class="odd">
-<td>Female or child passenger</td>
-<td align="right">353</td>
-<td>158</td>
-<td>511</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="right">(0.691)</td>
-<td>(0.309)</td>
-<td>(1.000)</td>
-</tr>
-<tr class="odd">
-<td>Crew member</td>
-<td align="right">212</td>
-<td>673</td>
-<td>885</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="right">(0.240)</td>
-<td>(0.760)</td>
-<td>(1.000)</td>
-</tr>
-<tr class="odd">
-<td>Total</td>
-<td align="right">711</td>
-<td>1490</td>
-<td>2201</td>
-</tr>
-<tr class="even">
-<td></td>
-<td align="right">(0.323)</td>
-<td>(0.677)</td>
-<td>(1.000)</td>
+<td align="right">Group Yes No Total</td>
 </tr>
 </tbody>
 </table>
-<p>We next control also for the class in which a person was travelling, classified as first, second or third class. Since class does not apply to the ship’s crew, this analysis is limited to the passengers, classified as men vs. women and children. The two-way table of sex by survival status for them is given by Table <a href="c-3waytables.html#tab:t-titanic2">9.5</a>, ignoring the row for crew members. This association is strongly significant, with <span class="math inline">\(\chi^{2}=344\)</span> and <span class="math inline">\(P&lt;0.001\)</span>.</p>
+<p>Male passenger 146 659 805 (0.181) (0.819) (1.000) Female or child passenger 353 158 511 (0.691) (0.309) (1.000) Crew member 212 673 885 (0.240) (0.760) (1.000) Total 711 1490 2201 (0.323) (0.677) (1.000) ———————————————————–</p>
+<p>: (#tab:t-titanic2)Survival status of the people aboard the <em>Titanic</em>, divided into three groups. The numbers in brackets are proportions of survivors and non-survivors within each group. <span class="math inline">\(\chi^{2}=418\)</span>, <span class="math inline">\(\text{df}=2\)</span>, <span class="math inline">\(P&lt;0.001\)</span>.</p>
+<p>We next control also for the class in which a person was travelling, classified as first, second or third class. Since class does not apply to the ship’s crew, this analysis is limited to the passengers, classified as men vs. women and children. The two-way table of sex by survival status for them is given by Table <a href="#tab:t-titanic2">9.5</a>, ignoring the row for crew members. This association is strongly significant, with <span class="math inline">\(\chi^{2}=344\)</span> and <span class="math inline">\(P&lt;0.001\)</span>.</p>
 <table style="width:76%;">
 <caption><span id="tab:t-titanic3">Table 9.6: </span>Survival status of the passengers of the <em>Titanic</em>, classified by class and sex. The numbers below the frequencies are proportions within rows.</caption>
 <colgroup>
@@ -832,152 +587,154 @@ Total</td>
 <col width="11%" />
 <col width="11%" />
 </colgroup>
+<thead>
+<tr class="header">
+<th align="left"><br />
+Class</th>
+<th align="left"><br />
+Group</th>
+<th align="right">Survivor Yes</th>
+<th align="right"><br />
+No</th>
+<th align="right"><br />
+Total</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"><br />
-Class</td>
-<td align="left"><br />
-Group</td>
-<td align="right">Survivor Yes</td>
-<td align="right"><br />
-No</td>
-<td align="right"><br />
-Total</td>
-</tr>
-<tr class="even">
 <td align="left">First</td>
 <td align="left">Man</td>
 <td align="right">57</td>
 <td align="right">118</td>
 <td align="right">175</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.326</td>
 <td align="right">0.674</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Woman or child</td>
 <td align="right">146</td>
 <td align="right">4</td>
 <td align="right">150</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.973</td>
 <td align="right">0.027</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Total</td>
 <td align="right">203</td>
 <td align="right">122</td>
 <td align="right">325</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.625</td>
 <td align="right">0.375</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Second</td>
 <td align="left">Man</td>
 <td align="right">14</td>
 <td align="right">154</td>
 <td align="right">168</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.083</td>
 <td align="right">0.917</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Woman or child</td>
 <td align="right">104</td>
 <td align="right">13</td>
 <td align="right">117</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.889</td>
 <td align="right">0.111</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Total</td>
 <td align="right">118</td>
 <td align="right">167</td>
 <td align="right">285</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.414</td>
 <td align="right">0.586</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Third</td>
 <td align="left">Man</td>
 <td align="right">75</td>
 <td align="right">387</td>
 <td align="right">462</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.162</td>
 <td align="right">0.838</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Woman or child</td>
 <td align="right">103</td>
 <td align="right">141</td>
 <td align="right">244</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.422</td>
 <td align="right">0.578</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"></td>
 <td align="left">Total</td>
 <td align="right">178</td>
 <td align="right">528</td>
 <td align="right">706</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.252</td>
 <td align="right">0.748</td>
 <td align="right">1.000</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left">Total</td>
 <td align="left"></td>
 <td align="right">499</td>
 <td align="right">817</td>
 <td align="right">1316</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"></td>
 <td align="left"></td>
 <td align="right">0.379</td>
@@ -987,7 +744,7 @@ Total</td>
 </tbody>
 </table>
 <p>Two-way tables involving class (not shown here) suggest that it is mildly associated with sex (with percentages of men 54%, 59% and 65% in first, second and third class respectively) and strongly associated with survival (with 63%, 41% and 25% of the passengers surviving). It is thus possible that class might influence the association between sex and survival. This is investigated in Table <a href="c-3waytables.html#tab:t-titanic3">9.6</a>, which shows the partial associations between sex and survival status, controlling for class. This association is strongly significant (with <span class="math inline">\(P&lt;0.001\)</span> for the <span class="math inline">\(\chi^{2}\)</span> test) in every partial table, so it is clearly not explained away by associations involving class. The direction of the association is also the same in each table, with women and children more likely to survive than men among passengers of every class.</p>
-<p>The presence and direction of the association in the two-way Table <a href="c-3waytables.html#tab:t-titanic2">9.5</a> are thus preserved and similar in every partial table controlling for class. However, there appear to be differences in the <em>strength</em> of the association between the partial tables. Considering, for example, the ratios of the proportions in each class, women and children were about 3.0 (<span class="math inline">\(=0.973/0.326\)</span>) times more likely to survive than men in first class, while the ratio was about 10.7 in second class and 2.6 in the third. The contrast of men vs. women and children was thus strongest among second-class passengers. This example differs in this respect from the previous ones, where the associations were similar in each partial table, either because they were all essentially zero (Example 9.1) or non-zero but similar in both direction and strength (Example 9.2).</p>
+<p>The presence and direction of the association in the two-way Table <a href="#tab:t-titanic2">9.5</a> are thus preserved and similar in every partial table controlling for class. However, there appear to be differences in the <em>strength</em> of the association between the partial tables. Considering, for example, the ratios of the proportions in each class, women and children were about 3.0 (<span class="math inline">\(=0.973/0.326\)</span>) times more likely to survive than men in first class, while the ratio was about 10.7 in second class and 2.6 in the third. The contrast of men vs. women and children was thus strongest among second-class passengers. This example differs in this respect from the previous ones, where the associations were similar in each partial table, either because they were all essentially zero (Example 9.1) or non-zero but similar in both direction and strength (Example 9.2).</p>
 <p>We are now considering three variables, class, sex and survival. Although it is not necessary for this analysis to divide them into explanatory and response variables, introducing such a distinction is useful for discussion of the results. Here it is most natural to treat survival as the response variable, and both class and sex as explanatory variables for survival. The associations in the partial tables in Table <a href="c-3waytables.html#tab:t-titanic3">9.6</a> are then partial associations between the response variable and one of the explanatory variables (sex), controlling for the other explanatory variable (class). As discussed above, the strength of this partial association is different for different values of class. This is an example of a statistical <strong>interaction</strong>. In general, there is an interaction between two explanatory variables if the strength and nature of the partial association of (either) one of them on a response variable depends on the value at which the other explanatory variable is controlled. Here there is an interaction between class and sex, because the association between sex and survival is different at different levels of class.</p>
 <p>Interactions are an important but challenging element of many statistical analyses. Important, because they often correspond to interesting and subtle features of associations in the data. Challenging, because understanding and interpreting them involves talking about (at least) three variables at once. This can seem rather complicated, at least initially. It adds to the difficulty that interactions can take many forms. In the <em>Titanic</em> example, for instance, the nature of the class-sex interaction was that the association between sex and survival was in the same direction but of different strengths at different levels of class. In other cases associations may disappear in some but not all of the partial tables, or remain strong but in different directions in different ones. They may even all or nearly all be in a different direction from the association in the original two-way table, as in the next example.</p>
 <p><strong>Example 9.4: Smoking and mortality</strong></p>
@@ -1041,248 +798,76 @@ Total</td>
 </tr>
 </tbody>
 </table>
-<p>Table <a href="c-3waytables.html#tab:t-whickham2">9.8</a> shows the partial tables of smoking vs. survival controlling for age at the time of the first survey, classified into seven categories. Note first that this three-way table appears somewhat different from those shown in Tables <a href="c-3waytables.html#tab:t-berkeley2">9.2</a>, <a href="c-3waytables.html#tab:t-investors3">9.4</a> and <a href="c-3waytables.html#tab:t-titanic3">9.6</a>. This is because one variable, survival status, is summarised only by the percentage of survivors within each combination of age group and smoking status. This is a common trick to save space in three-way tables involving dichotomous variables like survival here. The full table can easily be constructed from these numbers if needed. For example, 98.4% of the nonsmokers aged 18–24 were alive at the time of the second survey. Since there were a total of 62 respondents in this group (as shown in the last column), this means that 61 of them (i.e. 98.4%) were alive and 1 (or 1.6%) was not.</p>
+<p>Table <a href="c-3waytables.html#tab:t-whickham2">9.8</a> shows the partial tables of smoking vs. survival controlling for age at the time of the first survey, classified into seven categories. Note first that this three-way table appears somewhat different from those shown in Tables <a href="#tab:t-berkeley2">9.2</a>, <a href="c-3waytables.html#tab:t-investors3">9.4</a> and <a href="c-3waytables.html#tab:t-titanic3">9.6</a>. This is because one variable, survival status, is summarised only by the percentage of survivors within each combination of age group and smoking status. This is a common trick to save space in three-way tables involving dichotomous variables like survival here. The full table can easily be constructed from these numbers if needed. For example, 98.4% of the nonsmokers aged 18–24 were alive at the time of the second survey. Since there were a total of 62 respondents in this group (as shown in the last column), this means that 61 of them (i.e. 98.4%) were alive and 1 (or 1.6%) was not.</p>
 <p>The percentages in Table <a href="c-3waytables.html#tab:t-whickham2">9.8</a> show that in five of the seven age groups the proportion of survivors is higher among nonsmokers than smokers, i.e. these partial associations in the sample are in the opposite direction from the association in Table <a href="c-3waytables.html#tab:t-whickham1">9.7</a>. This reversal is known as <strong>Simpson’s paradox</strong>. The term is somewhat misleading, as the finding is not really paradoxical in any logical sense. Instead, it is again a consequence of a particular pattern of associations between the control variable and the other two variables.</p>
-<table>
+<table style="width:98%;">
 <caption><span id="tab:t-whickham2">Table 9.8: </span>Percentage of respondents in Example 9.4 surviving at the time of the second survey, by smoking status and age group in 1972–74.</caption>
+<colgroup>
+<col width="17%" />
+<col width="29%" />
+<col width="13%" />
+<col width="25%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left"><br />
+Age group</th>
+<th align="right">% Alive after 20 years: Smokers</th>
+<th align="right"><br />
+Nonsmokers</th>
+<th align="center">Number (in 1972–74): Smokers</th>
+<th align="right"><br />
+Nonsmokers</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td align="left"></td>
-<td align="right">% Alive after 20 years:</td>
-<td align="right"></td>
-<td align="right">Number (in 1972–74):</td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="left">Age group</td>
-<td align="right">Smokers</td>
-<td align="right">Nonsmokers</td>
-<td align="right">Smokers</td>
-<td align="right">Nonsmokers</td>
-</tr>
-<tr class="odd">
-<td align="left">18–24</td>
-<td align="right">96.4</td>
-<td align="right">98.4</td>
-<td align="right">55</td>
-<td align="right">62</td>
-</tr>
-<tr class="even">
-<td align="left">25–34</td>
-<td align="right">97.6</td>
-<td align="right">96.8</td>
-<td align="right">124</td>
-<td align="right">157</td>
-</tr>
-<tr class="odd">
-<td align="left">35–44</td>
-<td align="right">87.2</td>
-<td align="right">94.2</td>
-<td align="right">109</td>
-<td align="right">121</td>
-</tr>
-<tr class="even">
-<td align="left">45–54</td>
-<td align="right">79.2</td>
-<td align="right">84.6</td>
-<td align="right">130</td>
-<td align="right">78</td>
-</tr>
-<tr class="odd">
-<td align="left">55–64</td>
-<td align="right">55.7</td>
-<td align="right">66.9</td>
-<td align="right">115</td>
-<td align="right">121</td>
-</tr>
-<tr class="even">
-<td align="left">65–74</td>
-<td align="right">19.4</td>
-<td align="right">21.7</td>
-<td align="right">36</td>
-<td align="right">129</td>
-</tr>
-<tr class="odd">
-<td align="left">75–</td>
-<td align="right">0.0</td>
-<td align="right">0.0</td>
-<td align="right">12</td>
-<td align="right">64</td>
-</tr>
-<tr class="even">
-<td align="left">All age groups</td>
-<td align="right">76.1</td>
-<td align="right">68.6</td>
-<td align="right">582</td>
-<td align="right">732</td>
+<td align="left">18–24 25–34 35–44 45–54 55–64 65–74 75– All age groups</td>
+<td align="right">96.4 97.6 87.2 79.2 55.7 19.4 0.0 76.1</td>
+<td align="right">98.4 96.8 94.2 84.6 66.9 21.7 0.0 68.6</td>
+<td align="center">55 124 109 130 115 36 12 582</td>
+<td align="right">62 157 121 78 121 129 64 732</td>
 </tr>
 </tbody>
 </table>
-<p>The two-way tables of age by survival and age by smoking are shown side by side in Table <a href="c-3waytables.html#tab:t-whickham3">9.9</a>. The table is somewhat elaborate and unconventional, so it requires some explanation. The rows of the table correspond to the age groups, identified by the second column, and the frequencies of respondents in each age group are given in the last column. The left-hand column shows the percentages of survivors within each age group. The right-hand side of the table gives the two-way table of age group and smoking status. It contains percentages calculated both within the rows (without parentheses) and columns (in parentheses) of the table. As an example, consider numbers for the age group 18–24. There were 117 respondents in this age group at the time of the first survey. Of them, 47% were then smokers and 53% were nonsmokers, and 97% were still alive at the time of the second survey. Furthermore, 10% of all the 582 smokers, 9% of all the 732 nonsmokers and 9% of the 1314 respondents overall were in this age group.</p>
+<p>The two-way tables of age by survival and age by smoking are shown side by side in Table <a href="#tab:t-whickham3">9.9</a>. The table is somewhat elaborate and unconventional, so it requires some explanation. The rows of the table correspond to the age groups, identified by the second column, and the frequencies of respondents in each age group are given in the last column. The left-hand column shows the percentages of survivors within each age group. The right-hand side of the table gives the two-way table of age group and smoking status. It contains percentages calculated both within the rows (without parentheses) and columns (in parentheses) of the table. As an example, consider numbers for the age group 18–24. There were 117 respondents in this age group at the time of the first survey. Of them, 47% were then smokers and 53% were nonsmokers, and 97% were still alive at the time of the second survey. Furthermore, 10% of all the 582 smokers, 9% of all the 732 nonsmokers and 9% of the 1314 respondents overall were in this age group.</p>
 <table>
-<caption><span id="tab:t-whickham3">Table 9.9: </span>Two-way contingency tables of age group vs. survival (on the left) and age group vs. smoking (on the right) in Example 6.4. The percentages in parentheses are column percentages (within smokers or nonsmokers) and the ones without parentheses are row percentages (within age groups).</caption>
 <tbody>
 <tr class="odd">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">Row and column %</td>
-<td align="center"></td>
-<td align="center">Total</td>
-<td align="right"></td>
+<td align="right">   Row and column %   Total </td>
 </tr>
 <tr class="even">
-<td align="right">% Alive</td>
-<td align="left">Age group</td>
-<td align="center">Smokers</td>
-<td align="center">Nonsmokers</td>
-<td align="center">%</td>
-<td align="right">Count</td>
-</tr>
-<tr class="odd">
-<td align="right">97</td>
-<td align="left">18–24</td>
-<td align="center">47</td>
-<td align="center">53</td>
-<td align="center">100</td>
-<td align="right">117</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(10)</td>
-<td align="center">(9)</td>
-<td align="center">(9)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">97</td>
-<td align="left">25–34</td>
-<td align="center">44</td>
-<td align="center">56</td>
-<td align="center">100</td>
-<td align="right">281</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(21)</td>
-<td align="center">(21)</td>
-<td align="center">(21)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">91</td>
-<td align="left">35–44</td>
-<td align="center">47</td>
-<td align="center">53</td>
-<td align="center">100</td>
-<td align="right">230</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(19)</td>
-<td align="center">(17)</td>
-<td align="center">(18)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">81</td>
-<td align="left">45–54</td>
-<td align="center">63</td>
-<td align="center">38</td>
-<td align="center">100</td>
-<td align="right">208</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(22)</td>
-<td align="center">(11)</td>
-<td align="center">(16)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">61</td>
-<td align="left">55–64</td>
-<td align="center">49</td>
-<td align="center">51</td>
-<td align="center">100</td>
-<td align="right">236</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(20)</td>
-<td align="center">(17)</td>
-<td align="center">(13)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">21</td>
-<td align="left">65–74</td>
-<td align="center">22</td>
-<td align="center">78</td>
-<td align="center">100</td>
-<td align="right">165</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(6)</td>
-<td align="center">(18)</td>
-<td align="center">(13)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">0</td>
-<td align="left">75–</td>
-<td align="center">17</td>
-<td align="center">83</td>
-<td align="center">100</td>
-<td align="right">77</td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(2)</td>
-<td align="center">(9)</td>
-<td align="center">(6)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">72</td>
-<td align="left">Total %</td>
-<td align="center">44</td>
-<td align="center">56</td>
-<td align="center">100</td>
-<td align="right"></td>
-</tr>
-<tr class="even">
-<td align="right"></td>
-<td align="left"></td>
-<td align="center">(100)</td>
-<td align="center">(100)</td>
-<td align="center">(100)</td>
-<td align="right"></td>
-</tr>
-<tr class="odd">
-<td align="right">945</td>
-<td align="left">Total count</td>
-<td align="center">582</td>
-<td align="center">732</td>
-<td align="center"></td>
-<td align="right">1314</td>
+<td align="right">% Alive Age group Smokers Nonsmokers % Count</td>
 </tr>
 </tbody>
 </table>
-<p>Table <a href="c-3waytables.html#tab:t-whickham3">9.9</a> shows a clear association between age and survival, for understandable reasons mostly unconnected with smoking. The youngest respondents of the first survey were highly likely and the oldest unlikely to be alive twenty years later. There is also an association between age and smoking: in particular, the proportion of smokers was lowest among the oldest respondents. The implications of this are seen perhaps more clearly by considering the column proportions, i.e. the age distributions of smokers and nonsmokers in the original sample. These show that the group of nonsmokers was substantially older than that of the smokers; for example, 27% of the nonsmokers but only 8% of the smokers belonged to the two oldest age groups. It is this imbalance which explains why nonsmokers, more of whom are old, appear to have lower chances of survival until we control for age.</p>
+<pre><code>     97 18–24                   47                   53           100        117
+                               (10)                  (9)          (9)    
+     97 25–34                   44                   56           100        281
+                               (21)                 (21)          (21)   
+     91 35–44                   47                   53           100        230
+                               (19)                 (17)          (18)   
+     81 45–54                   63                   38           100        208
+                               (22)                 (11)          (16)   
+     61 55–64                   49                   51           100        236
+                               (20)                 (17)          (13)   
+     21 65–74                   22                   78           100        165
+                                (6)                 (18)          (13)   
+      0 75–                     17                   83           100         77
+                                (2)                  (9)          (6)    
+     72 Total %                 44                   56           100    
+                               (100)                (100)        (100)   
+    945 Total count             582                  732                    1314</code></pre>
+<hr />
+<p>: (#tab:t-whickham3)Two-way contingency tables of age group vs. survival (on the left) and age group vs. smoking (on the right) in Example 6.4. The percentages in parentheses are column percentages (within smokers or nonsmokers) and the ones without parentheses are row percentages (within age groups).</p>
+<p>Table <a href="#tab:t-whickham3">9.9</a> shows a clear association between age and survival, for understandable reasons mostly unconnected with smoking. The youngest respondents of the first survey were highly likely and the oldest unlikely to be alive twenty years later. There is also an association between age and smoking: in particular, the proportion of smokers was lowest among the oldest respondents. The implications of this are seen perhaps more clearly by considering the column proportions, i.e. the age distributions of smokers and nonsmokers in the original sample. These show that the group of nonsmokers was substantially older than that of the smokers; for example, 27% of the nonsmokers but only 8% of the smokers belonged to the two oldest age groups. It is this imbalance which explains why nonsmokers, more of whom are old, appear to have lower chances of survival until we control for age.</p>
 <p>The discussion above refers to the <em>sample</em> associations between smoking and survival in the partial tables, which suggest that mortality is higher among smokers than nonsmokers. In terms of statistical significance, however, the evidence is fairly weak: the association is even borderline significant only in the 35–44 and 55–64 age groups, with <span class="math inline">\(P\)</span>-values of 0.063 and 0.075 respectively for the <span class="math inline">\(\chi^{2}\)</span> test. This is an indication not so much of lack of a real association but of the fact that these data do not provide much power for detecting it. Overall twenty-year mortality is a fairly rough measure of health status for comparisons of smokers and nonsmokers, especially in the youngest and oldest age groups where mortality is either very low or very high for everyone. Differences are likely to be have been further diluted by many of the original smokers having stopped smoking between the surveys. This example should thus not be regarded as a serious examination of the health effects of smoking, for which much more specific data and more careful analyses are required.<a href="#fn58" class="footnoteRef" id="fnref58"><sup>58</sup></a></p>
 <p>The Berkeley admissions data discussed earlier provide another example of a partial Simpson’s paradox. Previously we considered only departments 2–6, for none of which there was a significant partial association between sex and admission. For department 1, the partial table indicates a strongly significant difference in favour of women, with 82% of the 108 female applicants admitted, compared to 62% of the 825 male applicants. However, the two-way association between sex and admission for departments 1–6 combined remains strongly significant and shows an even larger difference in favour of men than before. This result can now be readily explained as a result of imbalances in sex ratios and rates of admission between departments. Department 1 is both easy to get into (with 64% admitted) and heavily favoured by men (88% of the applicants). These features combine to contribute to higher admissions percentages for men overall, even though within department 1 itself women are more likely to be admitted.</p>
 <p>In summary, the examples discussed above demonstrate that many things can happen to an association between two variables when we control for a third one. The association may disappear, indicating that it was spurious, or it may remain similar and unchanged in all of the partial tables. It may also become different in different partial tables, indicating an interaction. Which of these occurs depends on the patterns of associations between the control variable and the other two variables. The crucial point is that the two-way table alone cannot reveal which of these cases we are dealing with, because the counts in the two-way table could split into three-way tables in many different ways. The only way to determine how controlling for other variables will affect an association is to actually do so. This is the case not only for multiway contingency tables, but for all methods of statistical control, in particular multiple linear regression and other regression models.</p>
 <p>Two final remarks round off our discussion of multiway contingency tables:</p>
 <ul>
-<li><p>Extension of the ideas of three-way tables to four-way and larger contingency tables is obvious and straightforward. In such tables, every cell corresponds to the subjects with a particular combination of the values of four or more variables. This involves no new conceptual difficulties, and the only challenge is how to arrange the table for convenient presentation. When the main interest is in associations between a particular pair of two variables, the usual solution is to present a set of partial two-way tables for them, one for each combination of the other (control) variables. Suppose, for instance, that in the university admissions example we had obtained similar data at two different years, say 1973 and 2003. We would then have four variables: year, department, sex and admission status. These could be summarised as in Table <a href="c-3waytables.html#tab:t-berkeley2">9.2</a>, except that each partial table for sex vs. admission would now be conditional on the values of both year and department. The full four-way table would then consist of ten <span class="math inline">\(2\times 2\)</span> partial tables, one for each of the ten combinations of two years and five departments, (i.e. applicants to Department 2 in 1973, Department 2 in 2003, and so on to Department 6 in 2003).</p></li>
+<li><p>Extension of the ideas of three-way tables to four-way and larger contingency tables is obvious and straightforward. In such tables, every cell corresponds to the subjects with a particular combination of the values of four or more variables. This involves no new conceptual difficulties, and the only challenge is how to arrange the table for convenient presentation. When the main interest is in associations between a particular pair of two variables, the usual solution is to present a set of partial two-way tables for them, one for each combination of the other (control) variables. Suppose, for instance, that in the university admissions example we had obtained similar data at two different years, say 1973 and 2003. We would then have four variables: year, department, sex and admission status. These could be summarised as in Table <a href="#tab:t-berkeley2">9.2</a>, except that each partial table for sex vs. admission would now be conditional on the values of both year and department. The full four-way table would then consist of ten <span class="math inline">\(2\times 2\)</span> partial tables, one for each of the ten combinations of two years and five departments, (i.e. applicants to Department 2 in 1973, Department 2 in 2003, and so on to Department 6 in 2003).</p></li>
 <li><p>The only inferential tool for multiway contingency tables discussed here was to arrange the table as a set of two-way partial tables and to apply the <span class="math inline">\(\chi^{2}\)</span> test of independence to each of them. This is a perfectly sensible approach and a great improvement over just analysing two-way tables. There are, however, questions which cannot easily be answered with this method. For example, when can we say that associations in different partial tables are different enough for us to declare that there is evidence of an interaction? Or what if we want to consider many different partial associations, either for a response variable with each of the other variables in turn, or because there is no single response variable? More powerful methods are required for such analyses. They are multiple regression models like the multiple linear regression of Section <a href="c-regression.html#s-regression-multiple">8.5</a>, but modified so that they become approriate for categorical response variables. Some of these models are introduced on the course MY452.</p></li>
 </ul>
 
