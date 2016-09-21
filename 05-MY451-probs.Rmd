@@ -93,44 +93,45 @@ service) in the county, which is 12.4% (this is a census estimate which
 will here be treated as a known population quantity, ignoring any
 possible census error in it).
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------
-  **One sample**                                                  \       \             \                        \          \          \               \  
-  ------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- ---------------
+
+  ------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- -------------------
+  **One sample**                                                  \       \             \                        \          \          \                   \    
+
   Example 5.1: Voting intention in an EU referendum
 
-                                                                $n$     Yes   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+                                                                $n$     Yes   $\hat{\pi}$                $\pi_{0}$        $z$        $P$              95% CI
 
-                                                                702     330         0.470                      0.5    $-1.59$      0.112         (0.433;
-                                                                                                                                                  0.507)
+                                                                702     330         0.470                      0.5    $-1.59$      0.112             (0.433;
+                                                                                                                                                      0.507)
 
   Example 5.2: Race of members of jury panel
 
-                                                                $n$   Black   $\hat{\pi}$                $\pi_{0}$        $z$        $P$          95% CI
+                                                                $n$   Black   $\hat{\pi}$                $\pi_{0}$        $z$        $P$              95% CI
 
-                                                               4950     226        0.0457                    0.124   $-16.71$   $<0.001$         (0.040;
-                                                                                                                                                  0.052)
+                                                               4950     226        0.0457                    0.124   $-16.71$   $<0.001$             (0.040;
+                                                                                                                                                      0.052)
 
   **Two Independent samples**
 
   Example 5.3: Polio diagnoses in a vaccine trial
 
-                                                                $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+                                                                $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$              95% CI
 
-  Control group                                             201,229     142      0.000706                                                
+  Control group                                             201,229     142      0.000706
   (placebo)                                                                                                                              
 
-  Treatment group                                           200,745      57      0.000284              $-0.000422$    $-6.01$   $<0.001$   $(-0.000560;$
-  (vaccine)                                                                                                                                 $-0.000284)$
+  Treatment group                                           200,745      57      0.000284              $-0.000422$    $-6.01$   $<0.001$       $(-0.000560;$
+  (vaccine)                                                                                                                                     $-0.000284)$
 
   Example 5.4: Optimistic about young people's future
 
-                                                                $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$          95% CI
+                                                                $n$     Yes   $\hat{\pi}$   Diff. ($\hat{\Delta}$)        $z$        $P$              95% CI
 
-  Negative question                                             921     257         0.279                                                
+  Negative question                                             921     257         0.279
 
-  Positive question                                             929     338         0.364                    0.085       3.92   $<0.001$         (0.043;
-                                                                                                                                                  0.127)
-  ------------------------------------------------------------------------------------------------------------------------------------------------------
+  Positive question                                             929     338         0.364                    0.085       3.92   $<0.001$             (0.043;
+                                                                                                                                                      0.127)
+  ------------------------------------------------------- --------- ------- ------------- ------------------------ ---------- ---------- -------------------
 
   : (\#tab:t-probex)Examples of analyses of population proportions used in Chapter
   \@ref(c-probs). In addition to sample sizes $n$ and proportions
@@ -916,11 +917,11 @@ $z_{0.01/2}=z_{0.005}=2.58$, which correspond to intervals at the
 confidence levels of 90%, 95% and 99% respectively. These values are
 also shown in Table \@ref(tab:t-ciq).
 
-  --------------------------- ---------------------------------------- ------ ------
-                                                     Confidence levels      \      \  
-                                                                   90%    95%    99%
-  Multiplier $z_{\alpha/2}$                                       1.64   1.96   2.58
-  --------------------------- ---------------------------------------- ------ ------
+  --------------------------- -------------------- ------ ------
+  \                             Confidence levels:      \      \    
+                                               90%    95%    99%
+  Multiplier $z_{\alpha/2}$                   1.64   1.96   2.58
+  --------------------------- -------------------- ------ ------
 
   : (\#tab:t-ciq)Multipliers $z_{\alpha/2}$ used to obtain confidence intervals based
   on the normal distribution, for three standard confidence levels.

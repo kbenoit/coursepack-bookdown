@@ -635,6 +635,7 @@ for all the countries with non-missing values of that pair of variables.
 
 ![(\#fig:f-imr1)A scatterplot of net primary school enrolment ratio vs. Infant mortality rate for countries in the Global Civil Society data set ($n=111$). The solid line is the best-fitting (least squares) straight line for the points.](imr1){width="13.5cm"}
 
+
   ------------------------------------------------------ ------- ----------- ------------ ------------
   \                                                            \      School   Control of       Income
                                                              IMR   enrolment   corruption   inequality
@@ -673,6 +674,7 @@ for all the countries with non-missing values of that pair of variables.
   \@ref(s-regression-simple) and \@ref(s-regression-multiple) ($n=111$).
   See Example 8.1 for further information on the
   variables.
+
 
 ### Definition of the model {#ss-regression-simple-def}
 
@@ -2243,7 +2245,7 @@ over the study period. Summary statistics for the variables are shown in
 Table \@ref(tab:t-fastfood-descr).
 
   ------------------ ------ ------- ------------- --------------- ------------
-  \                       \       \       Minimum  wage variable       \
+  \                       \       \      Minimum-  wage variable:       \
 
   Group                   %   $(n)$      Affected    Wage gap      Response
                                           % ($n$)   (mean for      variable:
@@ -2273,11 +2275,11 @@ Table \@ref(tab:t-fastfood-descr).
   :(\#tab:t-fastfood-descr)Summary statistics for the variables considered in the minimum wage
   example of Section \@ref(ss-regression-dummies-example). Mean employment change: Among unaffected restaurants: $-2.93$; Among affected restaurants: $+0.68$.
 
-  ------------------------------ ------------- ------------- ------------- -----------
+  ------------------------------------------------------------------------------------
   \                                  Model (1)             \     Model (2)           \
                                    Coefficient         ($t$)   Coefficient       ($t$)
   Variable                         (std error)     $P$-value   (std error)   $P$-value
-
+  ------------------------------ ------------- ------------- ------------- -----------
   Constant                                                                 
 
                                          -2.63                       -1.54
@@ -2311,7 +2313,7 @@ Table \@ref(tab:t-fastfood-descr).
                                         (1.25)          0.61        (1.26)        0.52
 
   $R^{2}$                                0.046                       0.032
-  ------------------------------ ------------- ------------- ------------- -----------
+  ------------------------------------------------------------------------------------
 
   : (\#tab:t-fastfood-models)Response variable: Change in Full-time equivalent employment. Two fitted models for Employment change given exposure to minimum
   wage increase and control variables. See the text for further

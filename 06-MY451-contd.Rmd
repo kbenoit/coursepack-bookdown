@@ -379,6 +379,24 @@ score of $-1.26$, is 1.26 standard deviations *below* (hence the
 negative sign) the mean, while 90 (with $Z$ score 1.40) is 1.40 standard
 deviations *above* the mean.
 
+The probability distribution of the $Z$ scores is a normal distribution
+with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
+**standard normal distribution**. The usefulness of $Z$ scores lies in
+the fact that by transforming the original variable $Y$ from the
+$N(\mu, \sigma^{2}$) distribution into the standard normal distribution
+they remove the specific values of $\mu$ and $\sigma$ from the
+calculation. With this trick, probabilities for any normal distribution
+can be calculated using a single table for $Z$ scores. Such a table is
+given in the Appendix, and an extract
+from it is shown in Table \@ref(tab:t-normtab) (note that it is not always
+presented exactly like this, as different books may use slightly
+different format or notation). The first column lists values of the $Z$
+score (a full table would typically give all values from 0.00 to about
+3.50). The second column, labelled “Tail Prob.”, gives the probability
+that a $Z$ score for a normal distribution is *larger than* the value
+given by $z$, i.e. the area of the region to the right of $z$.
+
+
          $z$   Tail Prob. 
   ---------- -------------
          ...           ...
@@ -396,22 +414,6 @@ deviations *above* the mean.
   : (\#tab:t-normtab)Extract from the table of right-hand tail probabilities for normal $Z$ scores. Here “Tail Prob.” is the probability that a value from the standard normal distribution is at least the value in the column
   labelled “$z$”. The full table is shown in the Appendix.
 
-The probability distribution of the $Z$ scores is a normal distribution
-with mean 0 and variance 1, i.e. $Z\sim N(0,1)$. This is known as the
-**standard normal distribution**. The usefulness of $Z$ scores lies in
-the fact that by transforming the original variable $Y$ from the
-$N(\mu, \sigma^{2}$) distribution into the standard normal distribution
-they remove the specific values of $\mu$ and $\sigma$ from the
-calculation. With this trick, probabilities for any normal distribution
-can be calculated using a single table for $Z$ scores. Such a table is
-given in the Appendix, and an extract
-from it is shown in Table \@ref(tab:t-normtab) (note that it is not always
-presented exactly like this, as different books may use slightly
-different format or notation). The first column lists values of the $Z$
-score (a full table would typically give all values from 0.00 to about
-3.50). The second column, labelled “Tail Prob.”, gives the probability
-that a $Z$ score for a normal distribution is *larger than* the value
-given by $z$, i.e. the area of the region to the right of $z$.
 
 Consider first the probability that blood pressure is greater than 90,
 i.e. the area labelled “High” in Figure \@ref(fig:f-normbp). We have seen
