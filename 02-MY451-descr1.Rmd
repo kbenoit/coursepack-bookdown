@@ -292,7 +292,7 @@ example. We use it to introduce the basic structure and terminology of
 contingency tables:
 
   ------------------------------------------------------------------------------
-                Agree         \     Neither agree      \       Disagree        \
+  \             Agree         \     Neither agree      \       Disagree        \
   Sex          strongly     Agree   nor disagree    Disagree   strongly    Total
   -------- --------------- ------- --------------- ---------- ---------- -------
   Male           160         439         187          200         41        1027
