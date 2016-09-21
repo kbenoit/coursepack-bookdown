@@ -919,6 +919,7 @@ also shown in Table \@ref(tab:t-ciq).
 
   --------------------------- -------------------- ------ ------
   \                             Confidence levels:      \      \    
+
                                                90%    95%    99%
 
   Multiplier $z_{\alpha/2}$                   1.64   1.96   2.58

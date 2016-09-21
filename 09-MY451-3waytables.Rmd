@@ -157,16 +157,11 @@ Table \@ref(tab:t-berkeley1). In essence, women had a lower admission rate
 overall because relatively more of them applied to the more selective
 departments and fewer to the easy ones.
 
-  -------------------------------------------------------------
-                             Department     \     \     \     \    
-  Of all applicants                   2     3     4     5     6
+  Of all applicants       Department: 2     3     4     5     6
   ---------------------- -------------- ----- ----- ----- -----
   % Male                             96    35    53    33    52
-
   % Admitted                         63    35    34    25     6
-
   Number of applicants              585   918   792   584   714
-  -------------------------------------------------------------
 
   : (\#tab:t-berkeley3)Percentages of male applicants and applicants admitted by department
   in the Berkeley admissions data.
@@ -531,44 +526,44 @@ were still alive at the time of the second survey. Furthermore, 10% of
 all the 582 smokers, 9% of all the 732 nonsmokers and 9% of the 1314
 respondents overall were in this age group.
 
-  ----------------------------------------------------------------------------------
-          \ \                Row and column \%           \          Total          \    
-    % Alive Age group             Smokers            Nonsmokers        \%      Count
-  --------- ------------- ----------------------- --------------- ---------- -------
-         97 18–24                   47                   53           100        117
+  -------------------------------------------------------------------------------------
+             \ \                Row and column \%           \            \            \    
+       % Alive Age group             Smokers            Nonsmokers    Total \%    Count
+  ------------ ------------- ----------------------- --------------- ---------- -------
+            97 18–24                   47                   53           100        117
 
-                                   (10)                  (9)          (9)    
+                                      (10)                  (9)          (9)    
 
-         97 25–34                   44                   56           100        281
+            97 25–34                   44                   56           100        281
 
-                                   (21)                 (21)          (21)   
+                                      (21)                 (21)          (21)   
 
-         91 35–44                   47                   53           100        230
+            91 35–44                   47                   53           100        230
 
-                                   (19)                 (17)          (18)   
+                                      (19)                 (17)          (18)   
 
-         81 45–54                   63                   38           100        208
+            81 45–54                   63                   38           100        208
 
-                                   (22)                 (11)          (16)   
+                                      (22)                 (11)          (16)   
 
-         61 55–64                   49                   51           100        236
+            61 55–64                   49                   51           100        236
 
-                                   (20)                 (17)          (13)   
+                                      (20)                 (17)          (13)   
 
-         21 65–74                   22                   78           100        165
+            21 65–74                   22                   78           100        165
 
-                                    (6)                 (18)          (13)   
+                                       (6)                 (18)          (13)   
 
-          0 75–                     17                   83           100         77
+             0 75–                     17                   83           100         77
 
-                                    (2)                  (9)          (6)    
+                                       (2)                  (9)          (6)    
 
-         72 Total %                 44                   56           100    
+            72 Total %                 44                   56           100    
 
-                                   (100)                (100)        (100)   
+                                      (100)                (100)        (100)   
 
-        945 Total count             582                  732                    1314
-  ----------------------------------------------------------------------------------
+           945 Total count             582                  732                    1314
+  -------------------------------------------------------------------------------------
 
   : (\#tab:t-whickham3)Two-way contingency tables of age group vs. survival (on the left)
   and age group vs. smoking (on the right) in Example 6.4. The

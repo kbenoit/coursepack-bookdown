@@ -530,15 +530,14 @@ list of ones on the diagonal of the matrix. This simply indicates that
 the correlation of any variable with itself is 1, which is true by
 definition and thus of no real interest.
 
-  ------------------------------------ -------- ------- ------- ----------- -------- -------
                               Variable      GDP    Gini   Pol.    Corrupt.    School     IMR
+  ------------------------------------ -------- ------- ------- ----------- -------- -------
                 GDP per capita \[GDP ]        1   -0.39    0.51        0.77     0.42   -0.62
             Income inequality \[Gini ]    -0.39       1   -0.15       -0.27    -0.27    0.42
              Political rights \[Pol. ]     0.51   -0.15       1        0.59     0.40   -0.44
     Control of corruption \[Corrupt. ]     0.77   -0.27    0.59           1     0.41   -0.64
            School enrolment \[School ]     0.42   -0.27    0.40        0.41        1   -0.73
               Infant mortality \[IMR ]    -0.62    0.42   -0.44       -0.64    -0.73       1
-  ------------------------------------ -------- ------- ------- ----------- -------- -------
 
   : (\#tab:t-civilsoc-r)Correlation matrix of six continuous variables in the Global Civil
   Society data set. See Example 8.1 for more information
@@ -1543,8 +1542,8 @@ Presenting raw computer output such as that in Figure
 reports.
 
   ------------------------------------------------------------------------------------------
-  Explanatory                           \   Standard       \           \   95 % Confidence
-  variable                    Coefficient      error     $t$   $P$-value      interval
+  Explanatory                 Coefficient   Standard     $t$   $P$-value   95 % Confidence
+  variable                                     error                           interval
   ------------------------- ------------- ---------- ------- ----------- -------------------
   Constant                          16.40                                
 
@@ -1975,8 +1974,8 @@ requires some further explanation is the interpretation of the
 coefficients of the dummy variables.
 
   --------------------------------------------------------------------------------------
-  Explanatory variable                  \    Std.         \           \    95 % Conf. 
-                              Coefficient   error       $t$   $P$-value     interval
+  Explanatory variable        Coefficient    Std.       $t$   $P$-value    95 % Conf. 
+                                            error                          interval
   ------------------------- ------------- ------- --------- ----------- ----------------
   Constant                          12.00                               
 
