@@ -37,27 +37,28 @@ Now you have an exact and complete copy of the project folder on your computer. 
 The folder includes the content of the course pack as well as settings files. The files and folder relevant for contributors are:
 
 (1) files ending in `.Rmd` are the manuscript divided by chapters, and
+
 (2) the folder `images/` where image files of figures go that you want to include in the course pack.
 
 # Make changes
 
-The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder. The very first chapter of a book project is always stored in `index.Rmd`. In this case that is the preface of this course pack, "Course information". The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files determine the order you want those chapters to be in.
+The manuscript of class MY451 is stored in files with the extension `.Rmd`. One file per chapter. That means you'll find twelve Rmd files in your newly "cloned" project folder of this course pack. The very first chapter of a book project is always stored in `index.Rmd`. In this case that is the preface of this course pack, "Course information". The ten subject chapters plus the appendix are stored in numbered Rmd files. The number of these chapter manuscript files determine the order you want those chapters to be in.
 
 ## Authoring in Atom Text Editor
 
 To make changes to the course pack manuscript go ahead and open one of the Rmd files with a text editor of your choice. You can use any editor you prefer or that ships with your operating system. I use Atom, a text editor that is open source and supports syntax highlighting and Git integration. Two features that may come in handy for contributors to this course pack. You can download Atom [here](https://atom.io).
 
-If you use Atom, I recommend you install the package "language-pfm". That will highlight elements of the manuscript text according to the authoring convention this process relies on. Another package you may find useful in order to have your writing experience free from distraction is "Zen". Both packages can be installed going to the menu bar of Atom Editor and clicking "Atom" > "Settings" > "+ Install" on the left-hand sidebar > enter the name of the package you want to install in the search field > hit Enter > find it in the search results that appear below and click "Install". Once you have done that, syntax highlighting will be in effect, no more action needed. To activate the distraction-free "zen" mode for writing, in the menu bar, go to "View" > "Toggle Command Palette" and enter "zen" into the search field that appears. In the search results right below click "Zen: Toggle".
+If you use Atom, I recommend you install the package "language-pfm". That will highlight elements of the manuscript text visually according to the authoring convention this process relies on. Another package you may find useful in order to have your writing experience free from distraction is "Zen". Both packages can be installed going to the menu bar of Atom Editor and clicking "Atom" > "Settings" > "+ Install" on the left-hand sidebar > enter the name of the package you want to install in the search field > hit Enter > find it in the search results that appear below and click "Install". Once you have done that, syntax highlighting will be in effect, no more action needed. To activate the distraction-free "zen" mode for writing, in the menu bar, go to "View" > "Toggle Command Palette" and enter "zen" into the search field that appears. In the search results right below click "Zen: Toggle".
 
 You can further modify the appearance of the Atom Text Editor in its settings under "Themes" in the left-hand sidebar.
 
 For the Rmd files and particularly the tables to display correctly, it is important that soft line wrapping is disabled. If a table looks broken up to you, in the menu bar, go to "View" > "Toggle Command Palette" and enter "wrap" into the search field. Click "Editor: Toggle Soft Wrap" in the search results below.
 
-If you are familiar with how those manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and easily human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
+If you are familiar with how these manuscript files looked before, you'll notice a stark difference. As opposed to the old manuscript files, the new ones before you are visually coherent and easily human-readable. That is because they rely on an authoring convention called Markdown. More specifically, Pandoc-flavored Markdown.
 
 ## Markdown
 
-Like HTML or Latex, Markdown is a way to mark elements of text for what we want them to be. Unlike HTML or Latex, however, Markdown requires minimal know-how while affording most of the functionalities of HTML or Latex. The only text elements in the manuscript before you that require knowledge of Latex are equations. Keep reading for an overview of writing in Markdown. You can also find the full documentation of Pandoc-flavored Markdown [here](http://pandoc.org/MANUAL.html).
+Like HTML or Latex, Markdown is a way to mark elements of text as what we want them to be. Unlike HTML or Latex, however, Markdown requires minimal know-how while affording most of the functionalities of HTML or Latex. The only text elements in the manuscript before you that require knowledge of Latex are equations. Keep reading for an overview of writing in Markdown. You can also find the full documentation of Pandoc-flavored Markdown [here](http://pandoc.org/MANUAL.html).
 
 ### Headings, Lists, Emphasis
 
@@ -146,7 +147,7 @@ A **simple table** can look like this:
   : (\#tab:t-region)Frequency distribution of the region variable in the country data.
 ```
 
-You'll notice that the horizontal rule and its breaks determine the number of rows.
+You'll notice that the horizontal rule and its breaks determine the number and relative size of rows.
 
 The alignment of a row is determined by where you place the content of the first line in relation to the horizontal rule. It does not matter where exactly you place the remaining content as long as it is within the row. In the output, the entire row will be aligned according to the first line:
 
@@ -186,30 +187,30 @@ Captions can be added to tables following the example above. For how to add uniq
 
 ### Figures
 
-Any image file you want to insert in the manuscript needs to be stored in the folder `images/` that can find inside the project folder.
+Any image file you want to insert in the manuscript needs to be stored in the folder `images/` that's inside the project folder.
 
-The format for inserting a figure -- in other words an image -- is:
+You can insert a figure -- in other words an image -- by following this format:
 
 ```markdown
 
-![(\#fig:f-unique-identifier)Caption text.](file-name-without-file-extension)
+![(\#fig:unique-identifier)Caption text.](file-name-without-file-extension)
 
 Make sure to prepend and follow an image with a blank line. Otherwise it won't get numbered and captioned in the pdf output!
 ```
 
 It is important that in the manuscript you give the file name without a file extension as shown above and that you provide one and the same image in two file formats: `.pdf` and `.png`.
 
-So in order to insert into the manuscript a figure "bar_attitude" it needs to read in the manuscript like this:
+For example, in order to insert into the manuscript a figure "bar_attitude" it needs to read in the manuscript like this:
 
 ```markdown
 
-![(\#fig:f-unique-identifier)Caption text.](bar_attitude)
+![(\#fig:unique-identifier)Caption text.](bar_attitude)
 
 ```
 
-and the `images/` folder needs to include both `bar_attitude.pdf` and `bar_attitude.png`. This is to meet the challenges of both print and screen output.
+and the `images/` folder needs to include both `bar_attitude.pdf` and `bar_attitude.png`. This is to meet the distinct challenges of both print and screen output.
 
-Assuming a figure you made is available in .eps format or .pdf, you can produce a pdf or png file using your operating system's standard picture viewer. On Mac OS X, for example, open an image file with the Preview app and click "File" > "Export..."" > then choose output format PNG > select path to project folder > click "Save".
+Assuming a figure you made is available in .eps format or .pdf, you can produce a pdf or png file using your operating system's standard picture viewer. On Mac OS X, for example, open an image file with the Preview app and click "File" > "Export..."" > then choose output format PNG > select path to the `images/` folder inside the project folder > click "Save".
 
 ### Equations
 
@@ -220,7 +221,7 @@ Equations need to be authored in Latex. **In-line equations** need to be bracket
 **Separate, labeled and automatically numbered equations** need to be bracketed with `\begin{equation}` and `\end{equation}` respectively.
 
 ```markdown
-This line contains and in-line equation $(1+5)/2=3$.
+This line contains an in-line equation $(1+5)/2=3$.
 
 Here is a separate equation:
 
@@ -228,7 +229,9 @@ $$Y_{i}-\bar{Y}$$
 
 Here is a separate, labeled and automatically numbered equation:
 
-\begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n}, \label{eq:example-equation}\end{equation}
+\begin{equation}
+\bar{Y}=\frac{\sum Y_{i}}{n}, \label{eq:example-equation}
+\end{equation}
 
 And here is a sentence containing a reference to the equation above. See equation \@ref(eq:example-equation).
 ```
@@ -239,7 +242,7 @@ In the output it will look like this:
 
 ### Anchors, Labels, Identifiers and referencing them
 
-Headers, Tables, Figures, and Equations can be given unique identifiers, also called anchors or labels, that allows you to reference them elsewhere in the manuscript. A unique identifier numbers an item automatically. When you reference that unique identifier elsewhere in the manuscript the dynamically associated number will be shown in the output. At the moment, equations can only be referenced dynamically inside the same manuscript file, in other words, inside the same chapter.
+Headers, tables, figures, and equations can be given unique identifiers, also called anchors or labels, that allows you to reference them elsewhere in the manuscript. A unique identifier numbers an item automatically. When you reference that unique identifier elsewhere in the manuscript the dynamically associated number will be shown in the output. At the moment, equations can only be referenced dynamically inside the same manuscript file, in other words, inside the same chapter.
 
 Labelling a header:
 
@@ -254,7 +257,7 @@ Labelling a table:
 To give a unique identifier to a table include it at the very beginning of a table's caption in this format:
 
 ```markdown
-: (\#tab:t-unique-identifier)Caption text with no space between unique identifier and caption text.
+: (\#tab:unique-identifier)Caption text with no space between unique identifier and caption text.
 ```
 
 Labelling a figure:
@@ -262,7 +265,7 @@ Labelling a figure:
 To give a unique identifier to a figure include it at the very beginning of a figure's caption in this format:
 
 ```markdown
-![(\#fig:f-unique-identifier)Caption text.](filename)
+![(\#fig:unique-identifier)Caption text.](filename)
 ```
 
 Labelling an equation:
@@ -270,7 +273,9 @@ Labelling an equation:
 Labelling an equation can be done by including `\label{eq:unique-identifier}` in the Latex code of the equation. Remember that labelled equations will display in a separate line and automatically numbered and need to be bracketed in `\begin{equation}` and `\end{equation}`.
 
 ```latex
-\begin{equation}\bar{Y}=\frac{\sum Y_{i}}{n} \label{eq:example-equation}\end{equation}
+\begin{equation}
+\bar{Y}=\frac{\sum Y_{i}}{n} \label{eq:example-equation}
+\end{equation}
 ```
 
 Any unique identifier can be referenced elsewhere in the manuscript with the expression `\@ref(unique-identifier)`. Make sure to prefix the unique identifier with what you are referencing: `tab:` for tables, `fig:` for figures, and `eq:` for equations; headings take no prefix.
@@ -305,11 +310,11 @@ Documentation for the knitr expansion can be found [here](http://yihui.name/knit
 
 # Upload changed manuscript files to online repository
 
-Once you have made and saved changes to any file in the project folder, they will show up in the repository in your GitHub Desktop app.
+Once you have made and saved changes to any file in the project folder, they will be shown as "uncommitted changes" in your GitHub Desktop app.
 
-In order for you to be able to upload your changes your GitHub account needs to be registered as a contributor to the project's repository. Ask the project repository's owner for that privilege.
+In order for you to be able to upload your changes your GitHub account needs to be registered as a contributor to the project's repository. Ask the project repository's administrator for that privilege.
 
-To upload the changed files, which is also called "pushing" changes, go to your GitHub Desktop app. Select the project repository on the left-hand side where your repositories are listed. Enter a brief description of the changes you made. Click the "Commit" button at the bottom. Depending on your settings GitHub Desktop may upload your changes automatically after clicking "Commit" or you may need to press the "Sync" button at the top right of the app manually.
+To upload the changed files, which is also called "pushing" changes, go to your GitHub Desktop app. Select this project's repository on the left-hand side where your repositories are listed. Enter a brief description of the changes you made. Click the "Commit" button at the bottom. Depending on your settings GitHub Desktop may upload your changes automatically after clicking "Commit" or you may need to press the "Sync" button at the top right of the app manually.
 
 ![](./images/commit-demo.png)
 
