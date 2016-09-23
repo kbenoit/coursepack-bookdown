@@ -39,12 +39,9 @@ By comparison, the new process publishes a book-form website with links to downl
 
 The new process affords less complex table designs. The size of cells in a row cannot change within the same table. Border lines cannot be drawn at random.
 
-* table design
-* "does not support references of equations on other pages" or in other chapters (<https://github.com/rstudio/bookdown/issues/85>)
-* no support of references to page numbers (`\pageref`) due to multiform output
-* only figures, tables, headers, equations can have an anchor; not paragraphs
-* headers can only be *either* unnumbered *or* anchored; that means that headers levels 4-6 that we dont want to be numbered cannot be referenced
+The following manuscript elements can be referenced throughout the book: numbered sections, tables, figures, equations.
 
+Because the new process produces both paginated (pdf printable) and unpaginated (html website, ebook) output from one and the same source, it needs to reconcile the different challenges that come with each. As a result, pages and paragraphs cannot be anchored or labelled and their page number cannot be referenced. And at the moment equations can only be referenced within the same manuscript file, i.e. chapter.
 
 # How it works step by step
 
