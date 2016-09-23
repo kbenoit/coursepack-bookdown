@@ -6,7 +6,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">MY451 Introduction to Quantitative Analysis</a></li>
       after: |
-        <li><a href="https://github.com/kbenoit/coursepack-bookdown/" alt="This prototype was developed by Tobias Pester.">Published with bookdown</a></li>
+        <li><a href="https://github.com/kbenoit/coursepack-bookdown/">Published with bookdown</a></li>
     edit:
       link: https://github.com/kbenoit/coursepack-bookdown/edit/master/%s
   pandoc_args:
