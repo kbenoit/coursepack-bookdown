@@ -9,7 +9,44 @@ Specifically, the new process should
 
 (2) automatically produce a book-form website, a pdf printable, and an ebook from one and the same source file in Plain Text Markdown.
 
-# How it works
+# Advantages over Latex process
+
+**n. Software requirement**
+
+The Latex process requires lots of software installed and maintained on your computer. The TexLive package changes every year and needs to be updated accordingly. Pdftex needs to be installed. Countless package dependencies need to be installed and maintained. Managing all that makes it hard to maintain a course pack every year. And the setting up and keeping updated of all that software works drastically different on Mac and Windows. Ultimately, that keeps many a colleague from being able to contribute to a course pack at reasonable time cost.
+
+By comparison, the new in-house authoring and publishing process requires only one application installed on your local computer: GitHub Desktop. And that is a wide-spread, easy to use, graphic user interface app available and maintained for Mac and Windows.
+
+**n+1. Authoring know-how**
+
+The Latex process requires veteran knowledge of the Latex markup language by the author.
+
+By comparison, the new process requires knowledge of Markdown. Markdown is a minimalist markup language picked up in fifteen minutes. See Section [Markdown](#markdown) below for an overview. Latex is still required and indispensable for authoring equations.
+
+**n+2. Output**
+
+The Latex process yields a PDF file that can be printed at high financial cost or be viewed on a screen with serious limitations. The size and spacing of the text as well as the margins cannot be modified by the reader. On screens of most sizes that means that the reader has to zoom in on the page to make the text legible and margins disappear. With every turn of the page, that has to be repeated.
+
+By comparison, the new process outputs a book-form website, a pdf printable, and an ebook. Viewing the website or the ebook comes at no cost to the reader other than having a computer, tablet, or phone with an internet connection available. The website and ebook allow readers to immediately follow up on a reference to a table, figure, section, or equation by clicking on it and getting there. The ebook in the epub-format allows the reader to study the course pack on any screen, including mobile devices while being able to adjust text size, spacing, and margins to their need. The pdf still allows the reader to print a course pack.
+
+**n+3. Publishing know-how**
+
+The Latex process does not include a publishing mechanism.
+
+By comparison, the new process publishes a book-form website with links to downloadable printables or ebooks of a course pack automatically. The know-how required for triggering that publication is knowing how to download a course pack's project folder to your computer, and upload it back online using the GitHub Desktop application.
+
+# Limitations compared to the Latex process
+
+The new process affords less complex table designs. The size of cells in a row cannot change within the same table. Border lines cannot be drawn at random.
+
+* table design
+* "does not support references of equations on other pages" or in other chapters (<https://github.com/rstudio/bookdown/issues/85>)
+* no support of references to page numbers (`\pageref`) due to multiform output
+* only figures, tables, headers, equations can have an anchor; not paragraphs
+* headers can only be *either* unnumbered *or* anchored; that means that headers levels 4-6 that we dont want to be numbered cannot be referenced
+
+
+# How it works step by step
 
 The prototype of this in-house authoring and publishing process that is before you implements the course pack for the Department of Methodology's MY451 course "Introduction to Quantitative Analysis". The published course pack can be seen on <https://kbenoit.github.io/coursepack-bookdown/>.
 
@@ -321,4 +358,4 @@ To upload the changed files, which is also called "pushing" changes, go to your 
 Your changes will be in effect shortly. This can be within three minutes or thirty minutes depending on the workload of the Travis CI server that does the compiling. Check out <https://kbenoit.github.io/coursepack-bookdown/> and download the pdf printable and epub ebook to view your changes.
 
 
--- Tobias Pester, September 2016
+-- This prototype was developed by Tobias Pester, September 2016.
