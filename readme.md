@@ -25,7 +25,7 @@ By comparison, the new process requires knowledge of Markdown. Markdown is a min
 
 **n+2. Output**
 
-The Latex process yields a PDF file that can be printed at high financial cost or be viewed on a screen with serious limitations. The size and spacing of the text as well as the margins cannot be modified by the reader. On screens of most sizes that means that the reader has to zoom in on the page to make the text legible and margins disappear. With every turn of the page, that has to be repeated.
+The Latex process yields a PDF file that can be printed at -- for a student -- significant financial cost or be viewed on a screen with serious limitations. The size and spacing of the text as well as the margins cannot be modified by the reader. On screens of most sizes that means that the reader has to zoom in on the page to make the text legible and margins disappear. With every turn of the page, that has to be repeated.
 
 By comparison, the new process outputs a book-form website, a pdf printable, and an ebook. Viewing the website or the ebook comes at no cost to the reader other than having a computer, tablet, or phone with an internet connection available. The website and ebook allow readers to immediately follow up on a reference to a table, figure, section, or equation by clicking on it and getting there. The ebook in the epub-format allows the reader to study the course pack on any screen, including mobile devices while being able to adjust text size, spacing, and margins to their need. The pdf still allows the reader to print a course pack.
 
