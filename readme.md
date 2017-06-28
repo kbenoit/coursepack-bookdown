@@ -7,7 +7,7 @@ Specifically, the new process should
 
 (1) allow authors to add or make changes to a manuscript without requiring the use or knowledge of any particular software or language other than Git, and
 
-(2) automatically produce a book-form website, a pdf printable, and an ebook from one and the same source file in Plain Text Markdown.
+(2) automatically produce a book-form website, a pdf printable, and an ebook from one and the same source file authored in the Plain Text Markdown format.
 
 # Advantages over Latex process
 
@@ -21,13 +21,13 @@ By comparison, the new in-house authoring and publishing process requires only o
 
 The Latex process requires veteran knowledge of the Latex markup language by the author.
 
-By comparison, the new process requires knowledge of Markdown. Markdown is a minimalist markup language picked up in fifteen minutes. See Section [Markdown](#markdown) below for an overview. Latex is still required and indispensable for authoring equations.
+By comparison, the new process requires knowledge of Markdown. Markdown is a minimalist markup language picked up in fifteen minutes. See Section [Markdown](#markdown) below for an overview. Latex, however, is still required and indispensable for authoring equations.
 
 **n+2. Output**
 
 The Latex process yields a PDF file that can be printed at -- for a student -- significant financial cost or be viewed on a screen with serious limitations. The size and spacing of the text as well as the margins cannot be modified by the reader. On screens of most sizes that means that the reader has to zoom in on the page to make the text legible and margins disappear. With every turn of the page, that has to be repeated.
 
-By comparison, the new process outputs a book-form website, a pdf printable, and an ebook. Viewing the website or the ebook comes at no cost to the reader other than having a computer, tablet, or phone with an internet connection available. The website and ebook allow readers to immediately follow up on a reference to a table, figure, section, or equation by clicking on it and getting there. The ebook in the epub-format allows the reader to study the course pack on any screen, including mobile devices while being able to adjust text size, spacing, and margins to their need. The pdf still allows the reader to print a course pack.
+By comparison, the new process outputs a book-form website, a pdf printable, and an ebook. Viewing the website or the ebook comes at no cost to the reader other than having a computer, tablet, or phone with an internet connection. The website and ebook allow readers to immediately follow up on a reference to a table, figure, section, or equation by clicking on it and getting there. The ebook in the epub-format allows the reader to study the course pack on any screen, including mobile devices while being able to adjust text size, spacing, and margins to their need. The pdf still allows the reader to print a course pack.
 
 **n+3. Publishing know-how**
 
@@ -37,7 +37,7 @@ By comparison, the new process publishes a book-form website with links to downl
 
 # Limitations compared to the Latex process
 
-The new process affords less complex table designs. The size of cells in a row cannot change within the same table. Border lines cannot be drawn at random.
+The new process affords less complex table designs. The size of cells in a row cannot change within the same table. Border lines cannot be drawn at will.
 
 The following manuscript elements can be referenced throughout the book: numbered sections, tables, figures, equations.
 
